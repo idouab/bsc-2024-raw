@@ -46,7 +46,7 @@
             "id": 0,
             "tournament_id": 0,
             "name": "asia-pacific-mfs",
-            "type": "double_elimination",
+            "type": "simple_elimination",
             "number": 1,
             "settings": {
                 "seedOrdering": [
@@ -141,13 +141,13 @@
             "status": 0,
             "opponent1": {
                 "id": "918ba7ca-e563-11ee-8a24-0242ac190003",
-                "score": null,
-                "result": null
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9189a600-e563-11ee-8c08-0242ac190003",
-                "score": null,
-                "result": null
+                "score": 2,
+                "result": "loss"
             }
         },
         {
@@ -179,11 +179,11 @@
             "status": 0,
             "opponent1": {
                 "id": "918cde6a-e563-11ee-b328-0242ac190003",
-                "result": null
+                "score": null
             },
             "opponent2": {
                 "id": "918e3b66-e563-11ee-a8c2-0242ac190003",
-                "result": null
+                "score": null
             }
         },
         {
@@ -195,10 +195,12 @@
             "child_count": 0,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "918ba7ca-e563-11ee-8a24-0242ac190003",
+                "score": null
             },
             "opponent2": {
-                "id": null
+                "id": "918f54a6-e563-11ee-a745-0242ac190003",
+                "score": null
             }
         },
         {
@@ -209,12 +211,8 @@
             "round_id": 3,
             "child_count": 0,
             "status": 0,
-            "opponent1": {
-                "id": null
-            },
-            "opponent2": {
-                "id": null
-            }
+            "opponent1": null,
+            "opponent2": null
         }
     ]
 }

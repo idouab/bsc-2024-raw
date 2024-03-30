@@ -1,7 +1,201 @@
 {
-    "participant": [],
-    "stage": [],
-    "group": [],
-    "round": [],
-    "match": []
+    "participant": [
+        {
+            "id": "c451626c-e563-11ee-82d7-0242ac190003",
+            "tournament_id": 0,
+            "name": "Oceanus Gaming"
+        },
+        {
+            "id": "c455ecb0-e563-11ee-93a3-0242ac190003",
+            "tournament_id": 0,
+            "name": "FUT Esports"
+        },
+        {
+            "id": "c4582a48-e563-11ee-879f-0242ac190003",
+            "tournament_id": 0,
+            "name": "ZETA DIVISION"
+        },
+        {
+            "id": "c454f166-e563-11ee-917e-0242ac190003",
+            "tournament_id": 0,
+            "name": "HMBLE"
+        },
+        {
+            "id": "c45918ae-e563-11ee-94c5-0242ac190003",
+            "tournament_id": 0,
+            "name": "Eclipsar Esport"
+        },
+        {
+            "id": "c45735a2-e563-11ee-a29d-0242ac190003",
+            "tournament_id": 0,
+            "name": "BC* Gaming"
+        },
+        {
+            "id": "c453f2ac-e563-11ee-ac2c-0242ac190003",
+            "tournament_id": 0,
+            "name": "Reply Totem"
+        },
+        {
+            "id": "c452e876-e563-11ee-93eb-0242ac190003",
+            "tournament_id": 0,
+            "name": "SK Gaming"
+        }
+    ],
+    "stage": [
+        {
+            "id": 0,
+            "tournament_id": 0,
+            "name": "emea-mfs",
+            "type": "double_elimination",
+            "number": 1,
+            "settings": {
+                "seedOrdering": [
+                    "natural",
+                    "natural",
+                    "reverse_half_shift",
+                    "reverse"
+                ],
+                "grandFinal": "simple"
+            }
+        }
+    ],
+    "group": [
+        {
+            "id": 0,
+            "stage_id": 0,
+            "number": 1
+        },
+        {
+            "id": 1,
+            "stage_id": 0,
+            "number": 2
+        }
+    ],
+    "round": [
+        {
+            "id": 0,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0
+        },
+        {
+            "id": 1,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 0
+        },
+        {
+            "id": 2,
+            "number": 3,
+            "stage_id": 0,
+            "group_id": 0
+        }
+    ],
+    "match": [
+        {
+            "id": 1,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 1,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 2,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 1,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 3,
+            "number": 3,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 1,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 4,
+            "number": 4,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 1,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 5,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 2,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 6,
+            "number": 2,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 2,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        },
+        {
+            "id": 7,
+            "number": 1,
+            "stage_id": 0,
+            "group_id": 0,
+            "round_id": 3,
+            "child_count": 0,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            }
+        }
+    ]
 }

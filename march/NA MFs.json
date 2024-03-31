@@ -46,7 +46,7 @@
             "id": 0,
             "tournament_id": 0,
             "name": "NA MFs",
-            "type": "single_elimination",
+            "type": "double_elimination",
             "number": 1,
             "settings": {
                 "seedOrdering": [
@@ -178,11 +178,13 @@
             "status": 0,
             "opponent1": {
                 "id": "f04b6a2a-e563-11ee-bba6-0242ac190003",
-                "score": "live"
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0478af4-e563-11ee-bd2c-0242ac190003",
-                "score": "live"
+                "score": 1,
+                "result": "loss"
             }
         },
         {
@@ -209,7 +211,7 @@
             "child_count": 0,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f04b6a2a-e563-11ee-bba6-0242ac190003"
             },
             "opponent2": {
                 "id": null

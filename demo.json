@@ -80,7 +80,7 @@
         {
             "id": 0,
             "tournament_id": 0,
-            "name": "Example",
+            "name": "Demo",
             "type": "double_elimination",
             "number": 1,
             "settings": {
@@ -162,12 +162,6 @@
             "number": 5,
             "stage_id": 0,
             "group_id": 1
-        },
-        {
-            "id": 9,
-            "number": 6,
-            "stage_id": 0,
-            "group_id": 1
         }
     ],
     "match": [
@@ -178,12 +172,16 @@
             "group_id": 0,
             "round_id": 0,
             "child_count": 0,
-            "status": 0,
+            "status": 4,
             "opponent1": {
-                "id": 0
+                "id": 0,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
-                "id": 1
+                "id": 1,
+                "score": 1,
+                "result": "loss"
             }
         },
         {
@@ -193,12 +191,16 @@
             "group_id": 0,
             "round_id": 0,
             "child_count": 0,
-            "status": 1,
+            "status": 4,
             "opponent1": {
-                "id": 2
+                "id": 2,
+                "score": 2,
+                "result": "loss"
             },
             "opponent2": {
-                "id": 3
+                "id": 3,
+                "score": 3,
+                "result": "win"
             }
         },
         {
@@ -208,7 +210,7 @@
             "group_id": 0,
             "round_id": 0,
             "child_count": 0,
-            "status": 2,
+            "status": 4,
             "opponent1": null,
             "opponent2": {
                 "id": 4           
@@ -289,7 +291,7 @@
                 "position": 15
             },
             "opponent2": {
-                "id": null,
+                "id": 14,
                 "position": 16
             }
         },
@@ -599,22 +601,6 @@
             "status": 0,
             "opponent1": {
                 "id": null
-            },
-            "opponent2": {
-                "id": null
-            }
-        },
-        {
-            "id": 28,
-            "number": 1,
-            "stage_id": 0,
-            "group_id": 1,
-            "round_id": 9,
-            "child_count": 0,
-            "status": 0,
-            "opponent1": {
-                "id": null,
-                "position": 1
             },
             "opponent2": {
                 "id": null

@@ -40072,16 +40072,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a19b587e-f9a2-11ee-8f45-0242ac130003",
-                "name": "Lucalfon"
+                "name": "Lucalfon",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2420ea00-f699-11ee-94bb-0242ac130003",
-                "name": "ShadowMechIDK"
+                "name": "ShadowMechIDK",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a19b587e-f9a2-11ee-8f45-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a19b587e-f9a2-11ee-8f45-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 656,
@@ -42139,10 +42168,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+                "name": "ShadowMechIDK"
             },
             "opponent2": {
-                "id": null
+                "id": "44d89e2c-f938-11ee-94e8-0242ac130003",
+                "name": "3QP"
             },
             "match_games": []
         },

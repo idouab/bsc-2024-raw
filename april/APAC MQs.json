@@ -12962,16 +12962,57 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3bd63b0-f293-11ee-9542-0242ac130002",
-                "name": "Never Back Down"
+                "name": "Never Back Down",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e4ba6912-f707-11ee-b970-0242ac130003",
-                "name": "Over Power"
+                "name": "Over Power",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3bd63b0-f293-11ee-9542-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e4ba6912-f707-11ee-b970-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3bd63b0-f293-11ee-9542-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4ba6912-f707-11ee-b970-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "f3bd63b0-f293-11ee-9542-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4ba6912-f707-11ee-b970-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 382,
@@ -13535,10 +13576,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3bd63b0-f293-11ee-9542-0242ac130002",
+                "name": "Never Back Down"
             },
             "opponent2": {
-                "id": null
+                "id": "cf462e22-f293-11ee-b609-0242ac130002",
+                "name": "ますたー芸人🐋"
             },
             "match_games": []
         },
@@ -19163,7 +19206,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e4ba6912-f707-11ee-b970-0242ac130003",
+                "name": "Over Power"
             },
             "opponent2": {
                 "id": null

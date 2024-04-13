@@ -21568,16 +21568,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b4911e96-f295-11ee-87dd-0242ac130002",
-                "name": "F/A Ponnys"
+                "name": "F/A Ponnys",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
-                "name": "🐻🦔🐬"
+                "name": "🐻🦔🐬",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 618,
@@ -29081,7 +29110,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                "name": "🐻🦔🐬"
             },
             "opponent2": {
                 "id": null

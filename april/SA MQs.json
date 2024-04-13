@@ -5382,6 +5382,18 @@
             "img": ""
         },
         {
+            "id": "95d01842-f441-11ee-8777-0242ac130003",
+            "tournament_id": 0,
+            "name": "Aurora Gaming",
+            "players": [
+                "jjgαмєsˢᵃᵈツ",
+                "ARTHUR_2",
+                "⚡PancadaBr⚡:)",
+                "Slaa 〽️"
+            ],
+            "img": ""
+        },
+        {
             "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
             "tournament_id": 0,
             "name": "Bastodont🔥",
@@ -7110,16 +7122,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b574017a-f295-11ee-8794-0242ac130002",
-                "name": "OPKF"
+                "name": "OPKF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "95d01842-f441-11ee-8777-0242ac130003",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 30,
@@ -13986,7 +14027,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b574017a-f295-11ee-8794-0242ac130002",
+                "name": "OPKF"
             },
             "opponent2": {
                 "id": null
@@ -18041,7 +18083,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "95d01842-f441-11ee-8777-0242ac130003",
+                "name": "Aurora Gaming"
             },
             "opponent2": {
                 "id": null

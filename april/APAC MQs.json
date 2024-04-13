@@ -17637,16 +17637,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa4e663e-f8ab-11ee-8065-0242ac130003",
-                "name": "HYDERABAD Manji Gng"
+                "name": "HYDERABAD Manji Gng",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
-                "name": "Rising Phoenix"
+                "name": "Rising Phoenix",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "aa4e663e-f8ab-11ee-8065-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "aa4e663e-f8ab-11ee-8065-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 366,
@@ -18420,7 +18449,8 @@
                 "name": "LockGang"
             },
             "opponent2": {
-                "id": null
+                "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                "name": "Rising Phoenix"
             },
             "match_games": []
         },

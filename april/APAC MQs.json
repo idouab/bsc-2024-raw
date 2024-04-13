@@ -3480,6 +3480,17 @@
             "img": ""
         },
         {
+            "id": "294954ce-f42b-11ee-a9be-0242ac130003",
+            "tournament_id": 0,
+            "name": "KYTH腕神",
+            "players": [
+                "主腕神|コヘスケkyth",
+                "右腕神 | けんしんkyth",
+                "左腕神|レジるkyth"
+            ],
+            "img": ""
+        },
+        {
             "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
             "tournament_id": 0,
             "name": "Laosai Team",
@@ -3546,6 +3557,17 @@
                 "NEX|Souki",
                 "NEX|Venom@ado推し",
                 "NEX|Yuma"
+            ],
+            "img": ""
+        },
+        {
+            "id": "3d9e9bba-f358-11ee-9476-0242ac130003",
+            "tournament_id": 0,
+            "name": "仏昇誠",
+            "players": [
+                "まっさん",
+                "イムイム",
+                "ラー油"
             ],
             "img": ""
         },
@@ -6366,16 +6388,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
-                "name": "leBonBon"
+                "name": "leBonBon",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "294954ce-f42b-11ee-a9be-0242ac130003",
-                "name": "KYTH腕神"
+                "name": "KYTH腕神",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "294954ce-f42b-11ee-a9be-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "294954ce-f42b-11ee-a9be-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "294954ce-f42b-11ee-a9be-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 75,
@@ -6690,16 +6753,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "275329be-f427-11ee-bc10-0242ac130003",
-                "name": "crazy taccoon"
+                "name": "crazy taccoon",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d9e9bba-f358-11ee-9476-0242ac130003",
-                "name": "仏昇誠"
+                "name": "仏昇誠",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "275329be-f427-11ee-bc10-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d9e9bba-f358-11ee-9476-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "275329be-f427-11ee-bc10-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d9e9bba-f358-11ee-9476-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 85,
@@ -8763,7 +8855,8 @@
                 "name": "Figt quietly"
             },
             "opponent2": {
-                "id": null
+                "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                "name": "leBonBon"
             },
             "match_games": []
         },
@@ -8851,7 +8944,8 @@
                 "name": "BREAKERS"
             },
             "opponent2": {
-                "id": null
+                "id": "275329be-f427-11ee-bc10-0242ac130003",
+                "name": "crazy taccoon"
             },
             "match_games": []
         },
@@ -10768,7 +10862,8 @@
                 "name": "ミスターTと子分たち"
             },
             "opponent2": {
-                "id": null
+                "id": "294954ce-f42b-11ee-a9be-0242ac130003",
+                "name": "KYTH腕神"
             },
             "match_games": []
         },
@@ -10838,7 +10933,8 @@
                 "name": "I'm Banknow"
             },
             "opponent2": {
-                "id": null
+                "id": "3d9e9bba-f358-11ee-9476-0242ac130003",
+                "name": "仏昇誠"
             },
             "match_games": []
         },

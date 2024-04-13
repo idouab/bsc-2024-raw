@@ -36160,16 +36160,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
-                "name": "MacarronesBRO"
+                "name": "MacarronesBRO",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
-                "name": "Sorvetinho"
+                "name": "Sorvetinho",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 805,
@@ -36955,7 +36984,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                "name": "Sorvetinho"
             },
             "opponent2": {
                 "id": null

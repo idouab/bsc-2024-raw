@@ -8590,6 +8590,17 @@
             "img": ""
         },
         {
+            "id": "6c277650-f362-11ee-9126-0242ac130003",
+            "tournament_id": 0,
+            "name": "Mœnish",
+            "players": [
+                "Stickthoo",
+                "_VarietyDeluxe",
+                "Elite Woolf"
+            ],
+            "img": ""
+        },
+        {
             "id": "c9708bfa-f59a-11ee-a783-0242ac130003",
             "tournament_id": 0,
             "name": "PCP",
@@ -24516,16 +24527,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c277650-f362-11ee-9126-0242ac130003",
-                "name": "Mœnish"
+                "name": "Mœnish",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ed88343a-f8d7-11ee-b64d-0242ac130003",
-                "name": "Air strike"
+                "name": "Air strike",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6c277650-f362-11ee-9126-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed88343a-f8d7-11ee-b64d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6c277650-f362-11ee-9126-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed88343a-f8d7-11ee-b64d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6c277650-f362-11ee-9126-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed88343a-f8d7-11ee-b64d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 781,
@@ -26327,16 +26379,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a23b3e0-f295-11ee-91a9-0242ac130002",
-                "name": "PotatoGaming"
+                "name": "PotatoGaming",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
-                "name": "Los Todotibios 🥶"
+                "name": "Los Todotibios 🥶",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a23b3e0-f295-11ee-91a9-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a23b3e0-f295-11ee-91a9-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2a23b3e0-f295-11ee-91a9-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 840,
@@ -30055,7 +30148,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                "name": "Los Todotibios 🥶"
             },
             "opponent2": {
                 "id": null
@@ -33955,10 +34049,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c277650-f362-11ee-9126-0242ac130003",
+                "name": "Mœnish"
             },
             "opponent2": {
-                "id": null
+                "id": "c9708bfa-f59a-11ee-a783-0242ac130003",
+                "name": "PCP"
             },
             "match_games": []
         },

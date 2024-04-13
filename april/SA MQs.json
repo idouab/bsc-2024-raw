@@ -15771,16 +15771,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b574017a-f295-11ee-8794-0242ac130002",
-                "name": "OPKF"
+                "name": "OPKF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "822a2942-f507-11ee-89a7-0242ac130003",
-                "name": "Lyzer"
+                "name": "Lyzer",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "822a2942-f507-11ee-89a7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "822a2942-f507-11ee-89a7-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 357,
@@ -16305,16 +16334,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "337b1042-f8f2-11ee-94f7-0242ac130003",
-                "name": "Sentinelas"
+                "name": "Sentinelas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
-                "name": "Sorvetinho"
+                "name": "Sorvetinho",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "337b1042-f8f2-11ee-94f7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "337b1042-f8f2-11ee-94f7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 377,
@@ -19097,7 +19155,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b574017a-f295-11ee-8794-0242ac130002",
+                "name": "OPKF"
             },
             "opponent2": {
                 "id": null
@@ -19261,10 +19320,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "337b1042-f8f2-11ee-94f7-0242ac130003",
+                "name": "Sentinelas"
             },
             "opponent2": {
-                "id": null
+                "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                "name": "Abuelas FC"
             },
             "match_games": []
         },
@@ -24225,7 +24286,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                "name": "Sorvetinho"
             },
             "opponent2": {
                 "id": null
@@ -24554,7 +24616,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "822a2942-f507-11ee-89a7-0242ac130003",
+                "name": "Lyzer"
             },
             "opponent2": {
                 "id": null

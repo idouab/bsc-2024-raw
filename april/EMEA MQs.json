@@ -2455,7 +2455,7 @@
             "tournament_id": 0,
             "name": "Scooby",
             "players": [
-                "{REAL}Tomat",
+                "SCBY|Doodle",
                 "TRB|Livid",
                 "Footbaal fan"
             ],
@@ -92918,16 +92918,57 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
-                "name": "GALAXY SYSMIK"
+                "name": "GALAXY SYSMIK",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "379d80be-f37b-11ee-affd-0242ac130003",
-                "name": "Wesh Momar"
+                "name": "Wesh Momar",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "379d80be-f37b-11ee-affd-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "379d80be-f37b-11ee-affd-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "379d80be-f37b-11ee-affd-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1290,
@@ -94112,16 +94153,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "48416c42-f294-11ee-9ae1-0242ac130002",
-                "name": "MGB"
+                "name": "MGB",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4a81d7a4-f392-11ee-b070-0242ac130003",
-                "name": "Startm"
+                "name": "Startm",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "48416c42-f294-11ee-9ae1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a81d7a4-f392-11ee-b070-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "48416c42-f294-11ee-9ae1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a81d7a4-f392-11ee-b070-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1353,
@@ -94878,16 +94948,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "422cb32a-f294-11ee-8de0-0242ac130002",
-                "name": "愛 eSports"
+                "name": "愛 eSports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd1d2efe-f34a-11ee-8724-0242ac130003",
-                "name": "Fangs Fortress"
+                "name": "Fangs Fortress",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "422cb32a-f294-11ee-8de0-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd1d2efe-f34a-11ee-8724-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "422cb32a-f294-11ee-8de0-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd1d2efe-f34a-11ee-8724-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1389,
@@ -94915,10 +95014,11 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6e0dc8b6-f44d-11ee-8868-0242ac130003",
-                "name": "Snellejongens"
+                "name": "Snellejongens",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "f4039ee0-f331-11ee-bf71-0242ac130002",
@@ -96554,16 +96654,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a001936-f41e-11ee-9950-0242ac130003",
-                "name": "Polaczki"
+                "name": "Polaczki",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4b0608f2-f294-11ee-a5a1-0242ac130002",
-                "name": "The Galactic Knights"
+                "name": "The Galactic Knights",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8a001936-f41e-11ee-9950-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b0608f2-f294-11ee-a5a1-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8a001936-f41e-11ee-9950-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b0608f2-f294-11ee-a5a1-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1472,

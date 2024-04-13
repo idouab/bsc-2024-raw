@@ -34573,14 +34573,15 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f45cab34-f539-11ee-8357-0242ac130003",
                 "name": "Yeet"
             },
             "opponent2": {
                 "id": "017f7880-f384-11ee-96ef-0242ac130003",
-                "name": "The Bobs"
+                "name": "The Bobs",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -38534,16 +38535,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e7de69f6-f822-11ee-a0ba-0242ac130003",
-                "name": "FCC Gooners"
+                "name": "FCC Gooners",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
-                "name": "Random's club"
+                "name": "Random's club",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e7de69f6-f822-11ee-a0ba-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e7de69f6-f822-11ee-a0ba-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 554,
@@ -41111,10 +41141,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+                "name": "Random's club"
             },
             "opponent2": {
-                "id": null
+                "id": "70f3b708-f451-11ee-b644-0242ac130003",
+                "name": "Teamlechugas"
             },
             "match_games": []
         },
@@ -44089,7 +44121,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "017f7880-f384-11ee-96ef-0242ac130003",
+                "name": "The Bobs"
             },
             "opponent2": {
                 "id": null

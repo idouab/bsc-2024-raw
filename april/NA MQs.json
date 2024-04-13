@@ -36470,16 +36470,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0dedcc-f295-11ee-92bb-0242ac130002",
-                "name": "Real dudes 🦋"
+                "name": "Real dudes 🦋",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2c5709b4-f295-11ee-b175-0242ac130002",
-                "name": "No Name"
+                "name": "No Name",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0dedcc-f295-11ee-92bb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c5709b4-f295-11ee-b175-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0dedcc-f295-11ee-92bb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c5709b4-f295-11ee-b175-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1308,
@@ -38228,7 +38257,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0dedcc-f295-11ee-92bb-0242ac130002",
+                "name": "Real dudes 🦋"
             },
             "opponent2": {
                 "id": null
@@ -48970,7 +49000,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c5709b4-f295-11ee-b175-0242ac130002",
+                "name": "No Name"
             },
             "opponent2": {
                 "id": null
@@ -48986,7 +49017,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "278d44b6-f295-11ee-9b7b-0242ac130002",
+                "name": "$CIW$Gobblers"
             },
             "opponent2": {
                 "id": null

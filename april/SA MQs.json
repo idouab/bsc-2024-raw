@@ -37465,16 +37465,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bd9e37aa-f5d6-11ee-92dd-0242ac130003",
-                "name": "Clube do Rovai"
+                "name": "Clube do Rovai",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "95d01842-f441-11ee-8777-0242ac130003",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bd9e37aa-f5d6-11ee-92dd-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bd9e37aa-f5d6-11ee-92dd-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 842,
@@ -37609,16 +37638,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
-                "name": "Tres tristes tigres"
+                "name": "Tres tristes tigres",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
-                "name": "™| picados sports"
+                "name": "™| picados sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 850,
@@ -38160,7 +38218,8 @@
                 "name": "Távola Redonda"
             },
             "opponent2": {
-                "id": null
+                "id": "95d01842-f441-11ee-8777-0242ac130003",
+                "name": "Aurora Gaming"
             },
             "match_games": []
         },
@@ -38296,7 +38355,8 @@
                 "name": "THE BEST PLAYERS"
             },
             "opponent2": {
-                "id": null
+                "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                "name": "Tres tristes tigres"
             },
             "match_games": []
         },

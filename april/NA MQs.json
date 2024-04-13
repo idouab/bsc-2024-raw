@@ -8277,6 +8277,18 @@
             "img": ""
         },
         {
+            "id": "7901b038-f52a-11ee-8b54-0242ac130003",
+            "tournament_id": 0,
+            "name": "Moon Walk Crew",
+            "players": [
+                "MW | CG_Gamer",
+                "HELM | Aizen",
+                "MW | Benton",
+                "lopatka"
+            ],
+            "img": ""
+        },
+        {
             "id": "0bc51914-f972-11ee-b116-0242ac130003",
             "tournament_id": 0,
             "name": "Perry the Platypus",
@@ -18412,16 +18424,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7901b038-f52a-11ee-8b54-0242ac130003",
-                "name": "Moon Walk Crew"
+                "name": "Moon Walk Crew",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "af81aebe-f44f-11ee-baa4-0242ac130003",
-                "name": "Los pollos hermanos"
+                "name": "Los pollos hermanos",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7901b038-f52a-11ee-8b54-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af81aebe-f44f-11ee-baa4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7901b038-f52a-11ee-8b54-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "af81aebe-f44f-11ee-baa4-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "7901b038-f52a-11ee-8b54-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "af81aebe-f44f-11ee-baa4-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 471,
@@ -23480,7 +23533,8 @@
                 "name": "Ghostly Boys"
             },
             "opponent2": {
-                "id": null
+                "id": "af81aebe-f44f-11ee-baa4-0242ac130003",
+                "name": "Los pollos hermanos"
             },
             "match_games": []
         },

@@ -20086,16 +20086,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
-                "name": "LockGang"
+                "name": "LockGang",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "313a7c7a-f5bc-11ee-87c4-0242ac130003",
-                "name": "SECOND KING"
+                "name": "SECOND KING",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "313a7c7a-f5bc-11ee-87c4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "313a7c7a-f5bc-11ee-87c4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 444,
@@ -20403,7 +20432,8 @@
                 "name": "レインボーの風船"
             },
             "opponent2": {
-                "id": null
+                "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                "name": "LockGang"
             },
             "match_games": []
         },

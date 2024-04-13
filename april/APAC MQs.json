@@ -2808,6 +2808,17 @@
             "img": ""
         },
         {
+            "id": "56b11308-f376-11ee-a284-0242ac130003",
+            "tournament_id": 0,
+            "name": "CUNG UNITED",
+            "players": [
+                "Bung",
+                "wangers",
+                "chirawr"
+            ],
+            "img": ""
+        },
+        {
             "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
             "tournament_id": 0,
             "name": "僕のむすこ",
@@ -2815,6 +2826,17 @@
                 "Diva|☪︎Rupia🕊",
                 "Diva|Machi",
                 "Diva|𝑅𝑜𝑠𝑒🥀"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
+            "tournament_id": 0,
+            "name": "★Ak★",
+            "players": [
+                "kaito31",
+                "けいたん777",
+                "kohei"
             ],
             "img": ""
         },
@@ -3298,16 +3320,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd822a64-f293-11ee-a3d1-0242ac130002",
-                "name": "Cowboys"
+                "name": "Cowboys",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "56b11308-f376-11ee-a284-0242ac130003",
-                "name": "CUNG UNITED"
+                "name": "CUNG UNITED",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd822a64-f293-11ee-a3d1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56b11308-f376-11ee-a284-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd822a64-f293-11ee-a3d1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56b11308-f376-11ee-a284-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 8,
@@ -3417,16 +3468,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
-                "name": "ケイワイプレイヤー"
+                "name": "ケイワイプレイヤー",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
-                "name": "★Ak★"
+                "name": "★Ak★",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 13,
@@ -6220,10 +6300,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd822a64-f293-11ee-a3d1-0242ac130002",
+                "name": "Cowboys"
             },
             "opponent2": {
-                "id": null
+                "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
+                "name": "Revelunt Esport"
             },
             "match_games": []
         },
@@ -8211,10 +8293,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "56b11308-f376-11ee-a284-0242ac130003",
+                "name": "CUNG UNITED"
             },
             "opponent2": {
-                "id": null
+                "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
+                "name": "僕のむすこ"
             },
             "match_games": []
         },

@@ -5303,6 +5303,28 @@
             "img": ""
         },
         {
+            "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+            "tournament_id": 0,
+            "name": "UNIFIM",
+            "players": [
+                "JoeyRB",
+                "Ismalexis25",
+                "QLS_Dark_VGX"
+            ],
+            "img": ""
+        },
+        {
+            "id": "f1ba2ee8-f506-11ee-a1cd-0242ac130003",
+            "tournament_id": 0,
+            "name": "OP KNIGHTS",
+            "players": [
+                "OP | SPARK",
+                "RB|Arthixz",
+                "mc_gabriel2k"
+            ],
+            "img": ""
+        },
+        {
             "id": "5b155b94-f555-11ee-8a13-0242ac130003",
             "tournament_id": 0,
             "name": "ixiTeam",
@@ -9007,16 +9029,69 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
-                "name": "MacarronesBRO"
+                "name": "MacarronesBRO",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
-                "name": "UNIFIM"
+                "name": "UNIFIM",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 201,
@@ -9391,16 +9466,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
-                "name": "KGM | Black Wolves"
+                "name": "KGM | Black Wolves",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f1ba2ee8-f506-11ee-a1cd-0242ac130003",
-                "name": "OP KNIGHTS"
+                "name": "OP KNIGHTS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1ba2ee8-f506-11ee-a1cd-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1ba2ee8-f506-11ee-a1cd-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 223,

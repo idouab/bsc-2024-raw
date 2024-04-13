@@ -8971,16 +8971,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "139e1108-f68a-11ee-9c15-0242ac130003",
-                "name": "Crimson Esports 🌙"
+                "name": "Crimson Esports 🌙",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5630a13c-f34e-11ee-8529-0242ac130003",
-                "name": "うぅどん"
+                "name": "うぅどん",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "139e1108-f68a-11ee-9c15-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5630a13c-f34e-11ee-8529-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "139e1108-f68a-11ee-9c15-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5630a13c-f34e-11ee-8529-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "139e1108-f68a-11ee-9c15-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5630a13c-f34e-11ee-8529-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 197,
@@ -11262,7 +11303,8 @@
                 "name": "レインボーの風船"
             },
             "opponent2": {
-                "id": null
+                "id": "139e1108-f68a-11ee-9c15-0242ac130003",
+                "name": "Crimson Esports 🌙"
             },
             "match_games": []
         },
@@ -14391,10 +14433,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5630a13c-f34e-11ee-8529-0242ac130003",
+                "name": "うぅどん"
             },
             "opponent2": {
-                "id": null
+                "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                "name": "Ok we do"
             },
             "match_games": []
         },

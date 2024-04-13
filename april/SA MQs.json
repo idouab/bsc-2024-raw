@@ -22709,16 +22709,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
-                "name": "Level Esports"
+                "name": "Level Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b7dd2eaa-f295-11ee-91a3-0242ac130002",
-                "name": "ⁱᵃᵐ|𝗙及𝑺𒆜"
+                "name": "ⁱᵃᵐ|𝗙及𝑺𒆜",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7dd2eaa-f295-11ee-91a3-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b7dd2eaa-f295-11ee-91a3-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7dd2eaa-f295-11ee-91a3-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 643,
@@ -23834,10 +23875,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                "name": "Level Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                "name": "The lords"
             },
             "match_games": []
         },
@@ -31307,7 +31350,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7dd2eaa-f295-11ee-91a3-0242ac130002",
+                "name": "ⁱᵃᵐ|𝗙及𝑺𒆜"
             },
             "opponent2": {
                 "id": null

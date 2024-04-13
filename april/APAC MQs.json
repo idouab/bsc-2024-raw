@@ -10131,16 +10131,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfa4bbcc-f293-11ee-8af9-0242ac130002",
-                "name": "pink rotor"
+                "name": "pink rotor",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
-                "name": "ばんきんや"
+                "name": "ばんきんや",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cfa4bbcc-f293-11ee-8af9-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cfa4bbcc-f293-11ee-8af9-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cfa4bbcc-f293-11ee-8af9-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 225,
@@ -11573,7 +11614,8 @@
                 "name": "4G Entertainment"
             },
             "opponent2": {
-                "id": null
+                "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                "name": "ばんきんや"
             },
             "match_games": []
         },
@@ -14054,10 +14096,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cfa4bbcc-f293-11ee-8af9-0242ac130002",
+                "name": "pink rotor"
             },
             "opponent2": {
-                "id": null
+                "id": "3d9a5778-f405-11ee-9861-0242ac130003",
+                "name": "team SGZ"
             },
             "match_games": []
         },

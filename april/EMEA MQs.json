@@ -87070,16 +87070,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a65feec-f294-11ee-b8ec-0242ac130002",
-                "name": "¥ouCanDoit"
+                "name": "¥ouCanDoit",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d45b4d54-f575-11ee-a8a5-0242ac130003",
-                "name": "Natus Phantoms"
+                "name": "Natus Phantoms",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a65feec-f294-11ee-b8ec-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d45b4d54-f575-11ee-a8a5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a65feec-f294-11ee-b8ec-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d45b4d54-f575-11ee-a8a5-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2021,
@@ -92503,10 +92532,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d45b4d54-f575-11ee-a8a5-0242ac130003",
+                "name": "Natus Phantoms"
             },
             "opponent2": {
-                "id": null
+                "id": "4decb070-f294-11ee-97fb-0242ac130002",
+                "name": "OFFWINERS"
             },
             "match_games": []
         },
@@ -108137,10 +108168,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5a65feec-f294-11ee-b8ec-0242ac130002",
+                "name": "¥ouCanDoit"
             },
             "opponent2": {
-                "id": null
+                "id": "6d35ed44-f42d-11ee-9880-0242ac130003",
+                "name": "I 3 Moschettieri"
             },
             "match_games": []
         },
@@ -113773,10 +113806,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a4b1122c-f508-11ee-bb13-0242ac130003",
+                "name": "GJY"
             },
             "opponent2": {
-                "id": null
+                "id": "3164e2f8-f36e-11ee-b318-0242ac130003",
+                "name": "NEO team"
             },
             "match_games": []
         },

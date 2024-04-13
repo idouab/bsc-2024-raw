@@ -5338,6 +5338,18 @@
             "img": ""
         },
         {
+            "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
+            "tournament_id": 0,
+            "name": "Abençoados",
+            "players": [
+                "bl3ssed",
+                "་₪εσ₪ᶤᴰᵃⁿᵍᵉʳ",
+                "swords",
+                "ᴅɢᶤᴰᵃⁿᵍᵉʳ"
+            ],
+            "img": ""
+        },
+        {
             "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
             "tournament_id": 0,
             "name": "LM/StarPark",
@@ -7939,16 +7951,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
-                "name": "Abençoados"
+                "name": "Abençoados",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
-                "name": "MaGaCho"
+                "name": "MaGaCho",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 126,
@@ -11606,7 +11647,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                "name": "MaGaCho"
             },
             "opponent2": {
                 "id": null
@@ -15330,7 +15372,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
+                "name": "Abençoados"
             },
             "opponent2": {
                 "id": null

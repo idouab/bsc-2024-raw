@@ -21326,16 +21326,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "b37fc278-f295-11ee-abaa-0242ac130002",
-                "name": "One Chance 🌎"
+                "name": "One Chance 🌎",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
-                "name": "The FERANX"
+                "name": "The FERANX",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 611,
@@ -22360,7 +22389,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                "name": "One Chance 🌎"
             },
             "opponent2": {
                 "id": null
@@ -28895,7 +28925,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                "name": "The FERANX"
             },
             "opponent2": {
                 "id": null

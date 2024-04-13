@@ -72100,16 +72100,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2ceda17c-f294-11ee-a9eb-0242ac130002",
-                "name": "NCS"
+                "name": "NCS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "214e1456-f32e-11ee-9c84-0242ac130002",
-                "name": "2K Squad"
+                "name": "2K Squad",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2ceda17c-f294-11ee-a9eb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "214e1456-f32e-11ee-9c84-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2ceda17c-f294-11ee-a9eb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "214e1456-f32e-11ee-9c84-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1639,
@@ -72741,16 +72770,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b02217e2-f4bc-11ee-99b9-0242ac130003",
-                "name": "MeG"
+                "name": "MeG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "39b24f82-f33b-11ee-a12f-0242ac130002",
-                "name": "Perikos"
+                "name": "Perikos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b02217e2-f4bc-11ee-99b9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39b24f82-f33b-11ee-a12f-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b02217e2-f4bc-11ee-99b9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39b24f82-f33b-11ee-a12f-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1673,
@@ -74703,16 +74761,69 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
-                "name": "TeamTrymacs"
+                "name": "TeamTrymacs",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
-                "name": "CDA Esports"
+                "name": "CDA Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1782,
@@ -80320,7 +80431,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2ceda17c-f294-11ee-a9eb-0242ac130002",
+                "name": "NCS"
             },
             "opponent2": {
                 "id": null
@@ -80593,7 +80705,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b02217e2-f4bc-11ee-99b9-0242ac130003",
+                "name": "MeG"
             },
             "opponent2": {
                 "id": null
@@ -102755,10 +102868,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a4f43ac8-f50a-11ee-9257-0242ac130003",
+                "name": "TeamTrymacs"
             },
             "opponent2": {
-                "id": null
+                "id": "190a378c-f35d-11ee-898c-0242ac130003",
+                "name": "invincible"
             },
             "match_games": []
         },
@@ -104499,10 +104614,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "39b24f82-f33b-11ee-a12f-0242ac130002",
+                "name": "Perikos"
             },
             "opponent2": {
-                "id": null
+                "id": "54f39c30-f294-11ee-bc7f-0242ac130002",
+                "name": "Equipo Gay"
             },
             "match_games": []
         },
@@ -105044,10 +105161,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "214e1456-f32e-11ee-9c84-0242ac130002",
+                "name": "2K Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "5e42d280-f44a-11ee-be34-0242ac130003",
+                "name": "Magic kabonosy Hot"
             },
             "match_games": []
         },

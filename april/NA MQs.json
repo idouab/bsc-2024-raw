@@ -7805,6 +7805,17 @@
             "img": ""
         },
         {
+            "id": "526799a0-f936-11ee-90c8-0242ac130003",
+            "tournament_id": 0,
+            "name": "Yixeianio",
+            "players": [
+                "PlayerSecond",
+                "PlayerThird",
+                "PlayerFirst"
+            ],
+            "img": ""
+        },
+        {
             "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
             "tournament_id": 0,
             "name": "Triple7",
@@ -8913,6 +8924,17 @@
                 "HUMDIC",
                 "Anson",
                 "Pacoo"
+            ],
+            "img": ""
+        },
+        {
+            "id": "e8497cc6-f608-11ee-8b69-0242ac130003",
+            "tournament_id": 0,
+            "name": "Troublemakers",
+            "players": [
+                "TMU|Pumpkin🎃",
+                "Леон",
+                "⚡Dragon-Lie⚡"
             ],
             "img": ""
         },
@@ -21496,16 +21518,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e2117bc-f295-11ee-9d2d-0242ac130002",
-                "name": "Shadow Realm"
+                "name": "Shadow Realm",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e8497cc6-f608-11ee-8b69-0242ac130003",
-                "name": "Troublemakers"
+                "name": "Troublemakers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e2117bc-f295-11ee-9d2d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8497cc6-f608-11ee-8b69-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e2117bc-f295-11ee-9d2d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8497cc6-f608-11ee-8b69-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 704,
@@ -25406,16 +25457,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "526799a0-f936-11ee-90c8-0242ac130003",
-                "name": "Yixeianio"
+                "name": "Yixeianio",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "017f7880-f384-11ee-96ef-0242ac130003",
-                "name": "The Bobs"
+                "name": "The Bobs",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "526799a0-f936-11ee-90c8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "017f7880-f384-11ee-96ef-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "526799a0-f936-11ee-90c8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "017f7880-f384-11ee-96ef-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 867,
@@ -26968,7 +27048,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e2117bc-f295-11ee-9d2d-0242ac130002",
+                "name": "Shadow Realm"
             },
             "opponent2": {
                 "id": null
@@ -31147,10 +31228,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "526799a0-f936-11ee-90c8-0242ac130003",
+                "name": "Yixeianio"
             },
             "opponent2": {
-                "id": null
+                "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
+                "name": "Triple7"
             },
             "match_games": []
         },
@@ -32647,10 +32730,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e8497cc6-f608-11ee-8b69-0242ac130003",
+                "name": "Troublemakers"
             },
             "opponent2": {
-                "id": null
+                "id": "fbe1b13c-f4c2-11ee-8e26-0242ac130003",
+                "name": "Gauss Prime"
             },
             "match_games": []
         },

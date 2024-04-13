@@ -8924,16 +8924,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a3d61aac-f3cb-11ee-b2da-0242ac130003",
-                "name": "정예멤버"
+                "name": "정예멤버",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "821f368c-f48e-11ee-a163-0242ac130003",
-                "name": "レインボーの風船"
+                "name": "レインボーの風船",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a3d61aac-f3cb-11ee-b2da-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a3d61aac-f3cb-11ee-b2da-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 196,
@@ -9126,16 +9155,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdaee784-f293-11ee-9d06-0242ac130002",
-                "name": "MO' RESILIENCE"
+                "name": "MO' RESILIENCE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
-                "name": "噎鴿"
+                "name": "噎鴿",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 204,
@@ -9769,16 +9827,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5c991b70-f3d6-11ee-890b-0242ac130003",
-                "name": "Figt quietly"
+                "name": "Figt quietly",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
-                "name": "leBonBon"
+                "name": "leBonBon",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5c991b70-f3d6-11ee-890b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5c991b70-f3d6-11ee-890b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5c991b70-f3d6-11ee-890b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 222,
@@ -10797,7 +10896,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                "name": "レインボーの風船"
             },
             "opponent2": {
                 "id": null
@@ -10863,10 +10963,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                "name": "MO' RESILIENCE"
             },
             "opponent2": {
-                "id": null
+                "id": "e4ba6912-f707-11ee-b970-0242ac130003",
+                "name": "Over Power"
             },
             "match_games": []
         },
@@ -11017,10 +11119,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5c991b70-f3d6-11ee-890b-0242ac130003",
+                "name": "Figt quietly"
             },
             "opponent2": {
-                "id": null
+                "id": "abfcc566-f356-11ee-b0dc-0242ac130003",
+                "name": "LSC"
             },
             "match_games": []
         },
@@ -13393,7 +13497,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b4ec660e-f329-11ee-ada1-0242ac130003",
+                "name": "leBonBon"
             },
             "opponent2": {
                 "id": null
@@ -13697,10 +13802,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                "name": "噎鴿"
             },
             "opponent2": {
-                "id": null
+                "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                "name": "@Tukusumu"
             },
             "match_games": []
         },
@@ -13827,7 +13934,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a3d61aac-f3cb-11ee-b2da-0242ac130003",
+                "name": "정예멤버"
             },
             "opponent2": {
                 "id": null

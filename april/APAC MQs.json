@@ -10729,16 +10729,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c44900-f293-11ee-a556-0242ac130002",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8ff8ad14-f8f4-11ee-92f0-0242ac130003",
-                "name": "たこまるふぁみりー"
+                "name": "たこまるふぁみりー",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8ff8ad14-f8f4-11ee-92f0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8ff8ad14-f8f4-11ee-92f0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8ff8ad14-f8f4-11ee-92f0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 242,
@@ -11576,10 +11617,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8ff8ad14-f8f4-11ee-92f0-0242ac130003",
+                "name": "たこまるふぁみりー"
             },
             "opponent2": {
-                "id": null
+                "id": "142a4736-f360-11ee-a87b-0242ac130003",
+                "name": "die again"
             },
             "match_games": []
         },
@@ -13542,7 +13585,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                "name": "Octopus Primes 🐙"
             },
             "opponent2": {
                 "id": null

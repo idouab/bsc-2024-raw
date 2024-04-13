@@ -9489,16 +9489,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b998eaee-f377-11ee-a900-0242ac130003",
-                "name": "UY|FA"
+                "name": "UY|FA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ed2a7f20-f477-11ee-a324-0242ac130003",
-                "name": "SDR"
+                "name": "SDR",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b998eaee-f377-11ee-a900-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed2a7f20-f477-11ee-a324-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b998eaee-f377-11ee-a900-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed2a7f20-f477-11ee-a324-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 227,
@@ -11868,7 +11897,8 @@
                 "name": "Blue Lock⚽"
             },
             "opponent2": {
-                "id": null
+                "id": "b998eaee-f377-11ee-a900-0242ac130003",
+                "name": "UY|FA"
             },
             "match_games": []
         },

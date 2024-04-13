@@ -25784,16 +25784,45 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
-                "name": "Revenge Gaming"
+                "name": "Revenge Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b771214c-f295-11ee-8b4c-0242ac130002",
-                "name": "DOM Esports"
+                "name": "DOM Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b771214c-f295-11ee-8b4c-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b771214c-f295-11ee-8b4c-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 824,
@@ -34873,16 +34902,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5c7815a6-f56b-11ee-acd8-0242ac130003",
-                "name": "Familia Stars"
+                "name": "Familia Stars",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "95d01842-f441-11ee-8777-0242ac130003",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5c7815a6-f56b-11ee-acd8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5c7815a6-f56b-11ee-acd8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 766,
@@ -36215,7 +36273,8 @@
                 "name": "Clube do Rovai"
             },
             "opponent2": {
-                "id": null
+                "id": "95d01842-f441-11ee-8777-0242ac130003",
+                "name": "Aurora Gaming"
             },
             "match_games": []
         },
@@ -37581,7 +37640,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                "name": "Revenge Gaming"
             },
             "opponent2": {
                 "id": null

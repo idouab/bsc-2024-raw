@@ -27343,16 +27343,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ae8f3c50-f5bd-11ee-aa5a-0242ac130003",
-                "name": "《Los Novas》"
+                "name": "《Los Novas》",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
-                "name": "Grupinho do Brawl"
+                "name": "Grupinho do Brawl",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ae8f3c50-f5bd-11ee-aa5a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ae8f3c50-f5bd-11ee-aa5a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 585,
@@ -28509,7 +28538,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                "name": "Grupinho do Brawl"
             },
             "opponent2": {
                 "id": null

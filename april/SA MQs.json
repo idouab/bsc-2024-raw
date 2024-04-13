@@ -21705,16 +21705,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
-                "name": "Brasil"
+                "name": "Brasil",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
-                "name": "Shadown Lions |🦁"
+                "name": "Shadown Lions |🦁",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 612,
@@ -24111,7 +24152,8 @@
                 "name": "One Chance 🌎"
             },
             "opponent2": {
-                "id": null
+                "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                "name": "Shadown Lions |🦁"
             },
             "match_games": []
         },
@@ -31834,7 +31876,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                "name": "Brasil"
             },
             "opponent2": {
                 "id": null

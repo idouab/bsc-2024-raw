@@ -14020,16 +14020,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
-                "name": "Angelic"
+                "name": "Angelic",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f3bac5b0-f293-11ee-9809-0242ac130002",
-                "name": "Team S1"
+                "name": "Team S1",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f3bac5b0-f293-11ee-9809-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f3bac5b0-f293-11ee-9809-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 452,
@@ -21181,7 +21210,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                "name": "Angelic"
             },
             "opponent2": {
                 "id": null

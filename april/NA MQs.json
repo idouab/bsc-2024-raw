@@ -7625,6 +7625,18 @@
             "img": ""
         },
         {
+            "id": "6c9ab5a6-f3b3-11ee-b98b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Bundt Cakes",
+            "players": [
+                "Munchkin 🍪",
+                "Dwayne_Davis1",
+                "NJC",
+                "⛩Пeͥчkͣaͫ⛩"
+            ],
+            "img": ""
+        },
+        {
             "id": "41b43640-f3e6-11ee-b279-0242ac130003",
             "tournament_id": 0,
             "name": "Giddey fans",
@@ -7934,6 +7946,17 @@
                 "PWR|m1ljannッ",
                 "Raul pune mâna",
                 "🇬🇪toma🇬🇪"
+            ],
+            "img": ""
+        },
+        {
+            "id": "44a414da-f9a7-11ee-8279-0242ac130003",
+            "tournament_id": 0,
+            "name": "Ha homoem",
+            "players": [
+                "Harel1002",
+                "FLOOPI",
+                "JONA🇮🇱❤️"
             ],
             "img": ""
         },
@@ -10857,10 +10880,11 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c9ab5a6-f3b3-11ee-b98b-0242ac130003",
-                "name": "Bundt Cakes"
+                "name": "Bundt Cakes",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "7fe5879e-f944-11ee-b438-0242ac130003",
@@ -14719,16 +14743,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f07af17c-f38d-11ee-b408-0242ac130003",
-                "name": "🗣Real Zunigas🔥"
+                "name": "🗣Real Zunigas🔥",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "44a414da-f9a7-11ee-8279-0242ac130003",
-                "name": "Ha homoem"
+                "name": "Ha homoem",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f07af17c-f38d-11ee-b408-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "44a414da-f9a7-11ee-8279-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f07af17c-f38d-11ee-b408-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "44a414da-f9a7-11ee-8279-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 297,
@@ -20218,7 +20271,8 @@
                 "name": "Ñiquiñaques"
             },
             "opponent2": {
-                "id": null
+                "id": "7fe5879e-f944-11ee-b438-0242ac130003",
+                "name": "Flowers"
             },
             "match_games": []
         },
@@ -21868,7 +21922,8 @@
                 "name": "Noobs Latinos"
             },
             "opponent2": {
-                "id": null
+                "id": "f07af17c-f38d-11ee-b408-0242ac130003",
+                "name": "🗣Real Zunigas🔥"
             },
             "match_games": []
         },

@@ -20634,10 +20634,11 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ced7f0ce-f293-11ee-a347-0242ac130002",
-                "name": "Team SMP"
+                "name": "Team SMP",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
@@ -20758,10 +20759,11 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dcb60fee-f484-11ee-a894-0242ac130003",
-                "name": "広尾学園"
+                "name": "広尾学園",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
@@ -20953,16 +20955,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
-                "name": "ケイワイプレイヤー"
+                "name": "ケイワイプレイヤー",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
-                "name": "T0 Team"
+                "name": "T0 Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 463,
@@ -20971,16 +21002,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "821f368c-f48e-11ee-a163-0242ac130003",
-                "name": "レインボーの風船"
+                "name": "レインボーの風船",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
-                "name": "LockGang"
+                "name": "LockGang",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 464,
@@ -20989,10 +21049,11 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cde0c27c-f293-11ee-81b3-0242ac130002",
-                "name": "GFP"
+                "name": "GFP",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
@@ -21054,10 +21115,11 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
-                "name": "Crazy Elephant"
+                "name": "Crazy Elephant",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
@@ -21072,16 +21134,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ccae95aa-f293-11ee-9328-0242ac130002",
-                "name": "VAX"
+                "name": "VAX",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
-                "name": "OP Squad"
+                "name": "OP Squad",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 468,
@@ -21110,10 +21213,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                "name": "Delay Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                "name": "Octopus Primes 🐙"
             },
             "match_games": []
         },
@@ -21130,7 +21235,8 @@
                 "name": "Team Supretty"
             },
             "opponent2": {
-                "id": null
+                "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                "name": "Demonic"
             },
             "match_games": []
         },
@@ -21180,7 +21286,8 @@
                 "name": "Feasible Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                "name": "T0 Team"
             },
             "match_games": []
         },
@@ -21193,10 +21300,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "821f368c-f48e-11ee-a163-0242ac130003",
+                "name": "レインボーの風船"
             },
             "opponent2": {
-                "id": null
+                "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                "name": "あ"
             },
             "match_games": []
         },
@@ -21213,7 +21322,8 @@
                 "name": "Over Power"
             },
             "opponent2": {
-                "id": null
+                "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                "name": "Dandelion"
             },
             "match_games": []
         },
@@ -21226,7 +21336,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                "name": "OP Squad"
             },
             "opponent2": {
                 "id": null

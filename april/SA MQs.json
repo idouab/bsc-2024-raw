@@ -5725,6 +5725,17 @@
             "img": ""
         },
         {
+            "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Drama Queens",
+            "players": [
+                "XxLuchianoxX",
+                "♡■J°aquinFTW■♡",
+                "Dxremz"
+            ],
+            "img": ""
+        },
+        {
             "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
             "tournament_id": 0,
             "name": "🔱Trythent⚡",
@@ -10018,16 +10029,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c74468f4-f547-11ee-8646-0242ac130003",
-                "name": "Astra Division"
+                "name": "Astra Division",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
-                "name": "Drama Queens"
+                "name": "Drama Queens",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 132,
@@ -12402,16 +12454,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "185206f8-f44d-11ee-b8d1-0242ac130003",
-                "name": "The Psychics"
+                "name": "The Psychics",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ff090378-f38d-11ee-8619-0242ac130003",
-                "name": "IPT"
+                "name": "IPT",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "185206f8-f44d-11ee-b8d1-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ff090378-f38d-11ee-8619-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "185206f8-f44d-11ee-b8d1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ff090378-f38d-11ee-8619-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "185206f8-f44d-11ee-b8d1-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ff090378-f38d-11ee-8619-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 219,
@@ -14699,10 +14792,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                "name": "Astra Division"
             },
             "opponent2": {
-                "id": null
+                "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                "name": "Los chapulines"
             },
             "match_games": []
         },
@@ -15425,7 +15520,8 @@
                 "name": "NORTH SIDE RAIDERS"
             },
             "opponent2": {
-                "id": null
+                "id": "ff090378-f38d-11ee-8619-0242ac130003",
+                "name": "IPT"
             },
             "match_games": []
         },
@@ -18454,10 +18550,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "be98d7a4-f5fa-11ee-a18b-0242ac130003",
+                "name": "Drama Queens"
             },
             "opponent2": {
-                "id": null
+                "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
+                "name": "🔱Trythent⚡"
             },
             "match_games": []
         },

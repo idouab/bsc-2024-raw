@@ -20699,16 +20699,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
-                "name": "Team Supretty"
+                "name": "Team Supretty",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
-                "name": "サ終"
+                "name": "サ終",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 456,
@@ -21085,7 +21126,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                "name": "Team Supretty"
             },
             "opponent2": {
                 "id": null

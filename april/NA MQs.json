@@ -37666,16 +37666,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7dfe1780-f295-11ee-890e-0242ac130002",
-                "name": "Spacestation Gaming"
+                "name": "Spacestation Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f97ebfc-f295-11ee-9dbe-0242ac130002",
-                "name": "Spocone Flojdy🥵"
+                "name": "Spocone Flojdy🥵",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7dfe1780-f295-11ee-890e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f97ebfc-f295-11ee-9dbe-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7dfe1780-f295-11ee-890e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f97ebfc-f295-11ee-9dbe-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1348,
@@ -38532,7 +38561,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7dfe1780-f295-11ee-890e-0242ac130002",
+                "name": "Spacestation Gaming"
             },
             "opponent2": {
                 "id": null
@@ -43491,16 +43521,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
-                "name": "MMT GAMING"
+                "name": "MMT GAMING",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
-                "name": "Florida"
+                "name": "Florida",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 966,
@@ -45902,7 +45961,8 @@
                 "name": "OutLaw"
             },
             "opponent2": {
-                "id": null
+                "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                "name": "Florida"
             },
             "match_games": []
         },
@@ -48514,7 +48574,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2f97ebfc-f295-11ee-9dbe-0242ac130002",
+                "name": "Spocone Flojdy🥵"
             },
             "opponent2": {
                 "id": null

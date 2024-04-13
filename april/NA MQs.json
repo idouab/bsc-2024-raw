@@ -7471,6 +7471,17 @@
             "img": ""
         },
         {
+            "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
+            "tournament_id": 0,
+            "name": "Illegals United",
+            "players": [
+                "IU|ReyMono",
+                "IU | Tsunami",
+                "IU | Ashido"
+            ],
+            "img": ""
+        },
+        {
             "id": "db152120-f399-11ee-83f9-0242ac130003",
             "tournament_id": 0,
             "name": "La minerve",
@@ -7902,6 +7913,29 @@
                 "DEAD COOL",
                 "Kaloupi",
                 "lubok111"
+            ],
+            "img": ""
+        },
+        {
+            "id": "6699ee4c-f45d-11ee-96e3-0242ac130003",
+            "tournament_id": 0,
+            "name": "PROdigies:)",
+            "players": [
+                "Ïðîõț",
+                "ok boss",
+                "4KTR3Y",
+                "SKB|Noumsy"
+            ],
+            "img": ""
+        },
+        {
+            "id": "be398424-f9a2-11ee-9ef2-0242ac130003",
+            "tournament_id": 0,
+            "name": "Nt",
+            "players": [
+                "ɴᴛ|Ismael",
+                "ɴᴛ|chakirᵀˣᶜ🖤",
+                "ARMASTER"
             ],
             "img": ""
         },
@@ -9191,16 +9225,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
-                "name": "Illegals United"
+                "name": "Illegals United",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d0eb3790-f42d-11ee-aaf2-0242ac130003",
-                "name": "STRC"
+                "name": "STRC",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d0eb3790-f42d-11ee-aaf2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d0eb3790-f42d-11ee-aaf2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d0eb3790-f42d-11ee-aaf2-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 59,
@@ -15728,16 +15803,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f136180-f504-11ee-a839-0242ac130003",
-                "name": "Team Grogu"
+                "name": "Team Grogu",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6699ee4c-f45d-11ee-96e3-0242ac130003",
-                "name": "PROdigies:)"
+                "name": "PROdigies:)",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3f136180-f504-11ee-a839-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6699ee4c-f45d-11ee-96e3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3f136180-f504-11ee-a839-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6699ee4c-f45d-11ee-96e3-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 391,
@@ -15761,16 +15865,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "232286dc-f396-11ee-b152-0242ac130003",
-                "name": "Obama Strikes Back"
+                "name": "Obama Strikes Back",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be398424-f9a2-11ee-9ef2-0242ac130003",
-                "name": "Nt"
+                "name": "Nt",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "232286dc-f396-11ee-b152-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be398424-f9a2-11ee-9ef2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "232286dc-f396-11ee-b152-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be398424-f9a2-11ee-9ef2-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 393,
@@ -18436,7 +18569,8 @@
                 "name": "33% ASEAN"
             },
             "opponent2": {
-                "id": null
+                "id": "d0eb3790-f42d-11ee-aaf2-0242ac130003",
+                "name": "STRC"
             },
             "match_games": []
         },
@@ -21369,7 +21503,8 @@
                 "name": "Spocone Flojdy🥵"
             },
             "opponent2": {
-                "id": null
+                "id": "3f136180-f504-11ee-a839-0242ac130003",
+                "name": "Team Grogu"
             },
             "match_games": []
         },
@@ -21386,7 +21521,8 @@
                 "name": "The destroyers"
             },
             "opponent2": {
-                "id": null
+                "id": "232286dc-f396-11ee-b152-0242ac130003",
+                "name": "Obama Strikes Back"
             },
             "match_games": []
         },

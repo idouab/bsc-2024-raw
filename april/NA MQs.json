@@ -8050,6 +8050,17 @@
             "img": ""
         },
         {
+            "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+            "tournament_id": 0,
+            "name": "Kenyan Karaoke Klub",
+            "players": [
+                "yee is op",
+                "SIT099",
+                "ColetteStriker"
+            ],
+            "img": ""
+        },
+        {
             "id": "783a996e-f38e-11ee-8ef3-0242ac130003",
             "tournament_id": 0,
             "name": "Les boys⚔️",
@@ -8093,6 +8104,17 @@
                 "Anomaly",
                 "Nathan",
                 "bidoofW"
+            ],
+            "img": ""
+        },
+        {
+            "id": "bfa96166-f516-11ee-8f14-0242ac130003",
+            "tournament_id": 0,
+            "name": "The Pisons",
+            "players": [
+                "DOGECOIN🚀🌕",
+                "Katt",
+                "🤦‍♂️YOUMFTARD"
             ],
             "img": ""
         },
@@ -8362,6 +8384,18 @@
                 "cadabe",
                 "VLADØS",
                 "cam"
+            ],
+            "img": ""
+        },
+        {
+            "id": "e55bbc00-f526-11ee-8303-0242ac130003",
+            "tournament_id": 0,
+            "name": "King’s Class",
+            "players": [
+                "Solo Stand ⚔️",
+                "Agro_Forehead",
+                "Can☀️",
+                "Justin☀️"
             ],
             "img": ""
         },
@@ -23697,16 +23731,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e55bbc00-f526-11ee-8303-0242ac130003",
-                "name": "King’s Class"
+                "name": "King’s Class",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b183be1c-f474-11ee-bfe4-0242ac130003",
-                "name": "747"
+                "name": "747",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e55bbc00-f526-11ee-8303-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b183be1c-f474-11ee-bfe4-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e55bbc00-f526-11ee-8303-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b183be1c-f474-11ee-bfe4-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 787,
@@ -24724,16 +24787,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bfa96166-f516-11ee-8f14-0242ac130003",
-                "name": "The Pisons"
+                "name": "The Pisons",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "94f247de-f48b-11ee-b727-0242ac130003",
-                "name": "Minors"
+                "name": "Minors",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bfa96166-f516-11ee-8f14-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "94f247de-f48b-11ee-b727-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bfa96166-f516-11ee-8f14-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "94f247de-f48b-11ee-b727-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 825,
@@ -24850,16 +24942,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "27586dd6-f295-11ee-9217-0242ac130002",
-                "name": "Stinky Skibidi"
+                "name": "Stinky Skibidi",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
-                "name": "Kenyan Karaoke Klub"
+                "name": "Kenyan Karaoke Klub",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "27586dd6-f295-11ee-9217-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "27586dd6-f295-11ee-9217-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 832,
@@ -28417,7 +28538,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "27586dd6-f295-11ee-9217-0242ac130002",
+                "name": "Stinky Skibidi"
             },
             "opponent2": {
                 "id": null
@@ -31876,10 +31998,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                "name": "Kenyan Karaoke Klub"
             },
             "opponent2": {
-                "id": null
+                "id": "783a996e-f38e-11ee-8ef3-0242ac130003",
+                "name": "Les boys⚔️"
             },
             "match_games": []
         },
@@ -31940,10 +32064,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bfa96166-f516-11ee-8f14-0242ac130003",
+                "name": "The Pisons"
             },
             "opponent2": {
-                "id": null
+                "id": "8f73f054-f991-11ee-890f-0242ac130003",
+                "name": "FDR | FEDORS"
             },
             "match_games": []
         },
@@ -32282,10 +32408,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e55bbc00-f526-11ee-8303-0242ac130003",
+                "name": "King’s Class"
             },
             "opponent2": {
-                "id": null
+                "id": "63c16f7c-f3d8-11ee-beaa-0242ac130003",
+                "name": "Arcos"
             },
             "match_games": []
         },

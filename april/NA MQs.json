@@ -33699,16 +33699,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
-                "name": "Los Todotibios 🥶"
+                "name": "Los Todotibios 🥶",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "314b6e84-f992-11ee-9b01-0242ac130003",
-                "name": "Hunter"
+                "name": "Hunter",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "314b6e84-f992-11ee-9b01-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "314b6e84-f992-11ee-9b01-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1134,
@@ -35691,7 +35720,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3239bfe4-f915-11ee-a6d8-0242ac130003",
+                "name": "Los Todotibios 🥶"
             },
             "opponent2": {
                 "id": null
@@ -43430,7 +43460,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "314b6e84-f992-11ee-9b01-0242ac130003",
+                "name": "Hunter"
             },
             "opponent2": {
                 "id": null

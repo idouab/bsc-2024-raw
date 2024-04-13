@@ -16535,16 +16535,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fa721cb6-f43f-11ee-bb66-0242ac130003",
-                "name": "Star Legends"
+                "name": "Star Legends",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
-                "name": "Brasil"
+                "name": "Brasil",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fa721cb6-f43f-11ee-bb66-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fa721cb6-f43f-11ee-bb66-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 369,
@@ -18150,10 +18179,11 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b99ab116-f486-11ee-b55e-0242ac130003",
-                "name": "DELTA MORTAL"
+                "name": "DELTA MORTAL",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "19840072-f550-11ee-bf00-0242ac130003",
@@ -21244,10 +21274,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                "name": "Brasil"
             },
             "opponent2": {
-                "id": null
+                "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                "name": "Shadown Lions |🦁"
             },
             "match_games": []
         },
@@ -21559,7 +21591,8 @@
                 "name": "MaGaCho"
             },
             "opponent2": {
-                "id": null
+                "id": "19840072-f550-11ee-bf00-0242ac130003",
+                "name": "SMG |[Doritos]™"
             },
             "match_games": []
         },
@@ -23883,16 +23916,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
-                "name": "Tormentium"
+                "name": "Tormentium",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4c99a0b6-f3b1-11ee-aba9-0242ac130003",
-                "name": "chuchurros"
+                "name": "chuchurros",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c99a0b6-f3b1-11ee-aba9-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c99a0b6-f3b1-11ee-aba9-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 292,
@@ -26126,10 +26188,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b99ab116-f486-11ee-b55e-0242ac130003",
+                "name": "DELTA MORTAL"
             },
             "opponent2": {
-                "id": null
+                "id": "b29211d6-f46b-11ee-8237-0242ac130003",
+                "name": "𝕄𝕌𝔾𝕀𝕎𝔸ℝ𝔸𝕊🔥"
             },
             "match_games": []
         },
@@ -26763,7 +26827,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fa721cb6-f43f-11ee-bb66-0242ac130003",
+                "name": "Star Legends"
             },
             "opponent2": {
                 "id": null

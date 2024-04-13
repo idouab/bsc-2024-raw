@@ -7906,6 +7906,17 @@
             "img": ""
         },
         {
+            "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
+            "tournament_id": 0,
+            "name": "ahhhh",
+            "players": [
+                "鰖ᴍᴏᴏɴʟɪɢʜᴛ鰖␈",
+                "99nick",
+                "metaEnis42"
+            ],
+            "img": ""
+        },
+        {
             "id": "ed6c2df0-f556-11ee-8cbb-0242ac130003",
             "tournament_id": 0,
             "name": "Dark Revenge",
@@ -8182,6 +8193,17 @@
                 "fujifas",
                 "Brock Li",
                 "colt"
+            ],
+            "img": ""
+        },
+        {
+            "id": "e6fae8f4-f50f-11ee-a719-0242ac130003",
+            "tournament_id": 0,
+            "name": "Neon Esports",
+            "players": [
+                "NeonKiwi",
+                "Brawl Boys YT D",
+                "🎃⟫⊘⊘𝟟⟪🎃"
             ],
             "img": ""
         },
@@ -14768,16 +14790,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
-                "name": "Florida"
+                "name": "Florida",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
-                "name": "ahhhh"
+                "name": "ahhhh",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 311,
@@ -18343,16 +18406,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e6fae8f4-f50f-11ee-a719-0242ac130003",
-                "name": "Neon Esports"
+                "name": "Neon Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e5f4aaac-f457-11ee-a316-0242ac130003",
-                "name": "TD|Cerberos"
+                "name": "TD|Cerberos",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e6fae8f4-f50f-11ee-a719-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e5f4aaac-f457-11ee-a316-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e6fae8f4-f50f-11ee-a719-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e5f4aaac-f457-11ee-a316-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "e6fae8f4-f50f-11ee-a719-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e5f4aaac-f457-11ee-a316-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 487,
@@ -21633,7 +21737,8 @@
                 "name": "Flamingods"
             },
             "opponent2": {
-                "id": null
+                "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                "name": "Florida"
             },
             "match_games": []
         },
@@ -23192,7 +23297,8 @@
                 "name": "ZERO CLAN"
             },
             "opponent2": {
-                "id": null
+                "id": "e5f4aaac-f457-11ee-a316-0242ac130003",
+                "name": "TD|Cerberos"
             },
             "match_games": []
         },

@@ -32313,16 +32313,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "292e4004-f295-11ee-8190-0242ac130002",
-                "name": "Fusyon EC"
+                "name": "Fusyon EC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a08d4c30-f60a-11ee-87f3-0242ac130003",
-                "name": "Alive Nation"
+                "name": "Alive Nation",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "292e4004-f295-11ee-8190-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a08d4c30-f60a-11ee-87f3-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "292e4004-f295-11ee-8190-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a08d4c30-f60a-11ee-87f3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1088,
@@ -35570,7 +35599,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "292e4004-f295-11ee-8190-0242ac130002",
+                "name": "Fusyon EC"
             },
             "opponent2": {
                 "id": null
@@ -42382,7 +42412,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a08d4c30-f60a-11ee-87f3-0242ac130003",
+                "name": "Alive Nation"
             },
             "opponent2": {
                 "id": null

@@ -24597,16 +24597,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "293e4a62-f295-11ee-97a5-0242ac130002",
-                "name": "Fusion Esports"
+                "name": "Fusion Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "50260f2c-f568-11ee-855c-0242ac130003",
-                "name": "The Potato Squad"
+                "name": "The Potato Squad",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "293e4a62-f295-11ee-97a5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "50260f2c-f568-11ee-855c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "293e4a62-f295-11ee-97a5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "50260f2c-f568-11ee-855c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 842,
@@ -27789,7 +27818,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "293e4a62-f295-11ee-97a5-0242ac130002",
+                "name": "Fusion Esports"
             },
             "opponent2": {
                 "id": null

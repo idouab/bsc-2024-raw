@@ -13914,16 +13914,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c16f64-f293-11ee-b3e4-0242ac130002",
-                "name": "Crazy Raccoon"
+                "name": "Crazy Raccoon",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
-                "name": "NAVI"
+                "name": "NAVI",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c16f64-f293-11ee-b3e4-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c16f64-f293-11ee-b3e4-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 450,
@@ -20198,16 +20227,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
-                "name": "Dandelion"
+                "name": "Dandelion",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
-                "name": "DHN"
+                "name": "DHN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 447,
@@ -20485,7 +20543,8 @@
                 "name": "Crazy Elephant"
             },
             "opponent2": {
-                "id": null
+                "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                "name": "Dandelion"
             },
             "match_games": []
         },
@@ -20892,7 +20951,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c16f64-f293-11ee-b3e4-0242ac130002",
+                "name": "Crazy Raccoon"
             },
             "opponent2": {
                 "id": null

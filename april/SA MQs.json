@@ -39431,16 +39431,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
-                "name": "The Angry Ones"
+                "name": "The Angry Ones",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "41161058-f3d9-11ee-b4e1-0242ac130003",
-                "name": "Mamadegosha"
+                "name": "Mamadegosha",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "41161058-f3d9-11ee-b4e1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41161058-f3d9-11ee-b4e1-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 894,

@@ -12969,16 +12969,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
-                "name": "HOW"
+                "name": "HOW",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ccae95aa-f293-11ee-9328-0242ac130002",
-                "name": "VAX"
+                "name": "VAX",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 384,
@@ -13375,7 +13404,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                "name": "HOW"
             },
             "opponent2": {
                 "id": null
@@ -16903,16 +16933,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "90af17de-f408-11ee-8deb-0242ac130003",
-                "name": "XFØRCE"
+                "name": "XFØRCE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5bf4f1b4-f3ed-11ee-9482-0242ac130003",
-                "name": "The Nemesis Alliance"
+                "name": "The Nemesis Alliance",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5bf4f1b4-f3ed-11ee-9482-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5bf4f1b4-f3ed-11ee-9482-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 353,
@@ -17625,7 +17684,8 @@
                 "name": "Demonic"
             },
             "opponent2": {
-                "id": null
+                "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                "name": "XFØRCE"
             },
             "match_games": []
         },
@@ -18540,7 +18600,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ccae95aa-f293-11ee-9328-0242ac130002",
+                "name": "VAX"
             },
             "opponent2": {
                 "id": null

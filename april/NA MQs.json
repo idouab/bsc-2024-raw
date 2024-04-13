@@ -8309,6 +8309,17 @@
             "img": ""
         },
         {
+            "id": "708e190c-f46a-11ee-81d3-0242ac130003",
+            "tournament_id": 0,
+            "name": "ACTUALLY18",
+            "players": [
+                "GeorgeyBunz",
+                "Roryster",
+                "DaleTheMale8"
+            ],
+            "img": ""
+        },
+        {
             "id": "f53edbf6-f996-11ee-ada3-0242ac130003",
             "tournament_id": 0,
             "name": "Pikskill",
@@ -24612,16 +24623,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74dfe174-f597-11ee-a4ad-0242ac130003",
-                "name": "Night Ravens"
+                "name": "Night Ravens",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "708e190c-f46a-11ee-81d3-0242ac130003",
-                "name": "ACTUALLY18"
+                "name": "ACTUALLY18",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "74dfe174-f597-11ee-a4ad-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "708e190c-f46a-11ee-81d3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "74dfe174-f597-11ee-a4ad-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "708e190c-f46a-11ee-81d3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 801,
@@ -28828,7 +28868,8 @@
                 "name": "2W"
             },
             "opponent2": {
-                "id": null
+                "id": "74dfe174-f597-11ee-a4ad-0242ac130003",
+                "name": "Night Ravens"
             },
             "match_games": []
         },
@@ -32833,10 +32874,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "708e190c-f46a-11ee-81d3-0242ac130003",
+                "name": "ACTUALLY18"
             },
             "opponent2": {
-                "id": null
+                "id": "f53edbf6-f996-11ee-ada3-0242ac130003",
+                "name": "Pikskill"
             },
             "match_games": []
         },

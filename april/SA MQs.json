@@ -27266,16 +27266,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53990d30-f49b-11ee-b3bf-0242ac130003",
-                "name": "Syndicate Core"
+                "name": "Syndicate Core",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a3b95986-f3b6-11ee-b51b-0242ac130003",
-                "name": "God's Devourers"
+                "name": "God's Devourers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "53990d30-f49b-11ee-b3bf-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a3b95986-f3b6-11ee-b51b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "53990d30-f49b-11ee-b3bf-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a3b95986-f3b6-11ee-b51b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 514,
@@ -27641,16 +27670,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6cde2338-f398-11ee-8309-0242ac130003",
-                "name": "Renegades(RNG)"
+                "name": "Renegades(RNG)",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4e72ae5c-f53a-11ee-bd53-0242ac130003",
-                "name": "Nehuen peuman"
+                "name": "Nehuen peuman",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6cde2338-f398-11ee-8309-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e72ae5c-f53a-11ee-bd53-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6cde2338-f398-11ee-8309-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4e72ae5c-f53a-11ee-bd53-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6cde2338-f398-11ee-8309-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e72ae5c-f53a-11ee-bd53-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 530,

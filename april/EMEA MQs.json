@@ -25997,6 +25997,17 @@
             "img": ""
         },
         {
+            "id": "02522678-f5d1-11ee-9cea-0242ac130003",
+            "tournament_id": 0,
+            "name": "ownati😂",
+            "players": [
+                "KM-matt",
+                "CM_Gaboz2007",
+                "Fiorux"
+            ],
+            "img": ""
+        },
+        {
             "id": "52e3e9ac-f75a-11ee-9a42-0242ac130003",
             "tournament_id": 0,
             "name": "Tutos",
@@ -37949,16 +37960,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fb32aa22-f402-11ee-9030-0242ac130003",
-                "name": "Sunny Esports"
+                "name": "Sunny Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "02522678-f5d1-11ee-9cea-0242ac130003",
-                "name": "ownati😂"
+                "name": "ownati😂",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "02522678-f5d1-11ee-9cea-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "02522678-f5d1-11ee-9cea-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "02522678-f5d1-11ee-9cea-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 264,
@@ -58029,10 +58081,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                "name": "Sunny Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "2dc9d8b8-f294-11ee-a1fb-0242ac130002",
+                "name": "Force.Mael"
             },
             "match_games": []
         },
@@ -74829,10 +74883,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "02522678-f5d1-11ee-9cea-0242ac130003",
+                "name": "ownati😂"
             },
             "opponent2": {
-                "id": null
+                "id": "52e3e9ac-f75a-11ee-9a42-0242ac130003",
+                "name": "Tutos"
             },
             "match_games": []
         },

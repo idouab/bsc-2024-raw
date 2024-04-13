@@ -31335,6 +31335,17 @@
             "img": ""
         },
         {
+            "id": "f4039ee0-f331-11ee-bf71-0242ac130002",
+            "tournament_id": 0,
+            "name": "Ghost Lol",
+            "players": [
+                "Omar",
+                "lo",
+                "Ghost_Henry 88"
+            ],
+            "img": ""
+        },
+        {
             "id": "cfa6325a-f332-11ee-b1e1-0242ac130002",
             "tournament_id": 0,
             "name": "GDM",
@@ -59788,14 +59799,18 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "454d0b48-f52a-11ee-b3ef-0242ac130003",
-                "name": "Toxicans"
+                "name": "Toxicans",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f4039ee0-f331-11ee-bf71-0242ac130002",
-                "name": "Ghost Lol"
+                "name": "Ghost Lol",
+                "score": 0,
+                "result": "loss"
             },
             "match_games": []
         },
@@ -76756,7 +76771,8 @@
                 "name": "TRW nevtelen"
             },
             "opponent2": {
-                "id": null
+                "id": "454d0b48-f52a-11ee-b3ef-0242ac130003",
+                "name": "Toxicans"
             },
             "match_games": []
         },
@@ -88857,16 +88873,57 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e697ee2a-f45b-11ee-8002-0242ac130003",
-                "name": "Grands"
+                "name": "Grands",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "332a199c-f354-11ee-b27c-0242ac130003",
-                "name": "Ciosoti"
+                "name": "Ciosoti",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e697ee2a-f45b-11ee-8002-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "332a199c-f354-11ee-b27c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e697ee2a-f45b-11ee-8002-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "332a199c-f354-11ee-b27c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "e697ee2a-f45b-11ee-8002-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "332a199c-f354-11ee-b27c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1093,
@@ -89407,16 +89464,57 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "15cf0eda-f583-11ee-8b38-0242ac130003",
-                "name": "Tu madre 🥵"
+                "name": "Tu madre 🥵",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f62d9d96-f436-11ee-87d8-0242ac130003",
-                "name": "Goblin Legend"
+                "name": "Goblin Legend",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "15cf0eda-f583-11ee-8b38-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f62d9d96-f436-11ee-87d8-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "15cf0eda-f583-11ee-8b38-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f62d9d96-f436-11ee-87d8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "15cf0eda-f583-11ee-8b38-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f62d9d96-f436-11ee-87d8-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1122,
@@ -91835,16 +91933,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "56f1e578-f42e-11ee-bab8-0242ac130003",
-                "name": "The Nerdz"
+                "name": "The Nerdz",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "665efd42-f33f-11ee-ab4e-0242ac130002",
-                "name": "BS GAMING"
+                "name": "BS GAMING",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "56f1e578-f42e-11ee-bab8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "665efd42-f33f-11ee-ab4e-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "56f1e578-f42e-11ee-bab8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "665efd42-f33f-11ee-ab4e-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1244,
@@ -94793,7 +94920,10 @@
                 "id": "6e0dc8b6-f44d-11ee-8868-0242ac130003",
                 "name": "Snellejongens"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "f4039ee0-f331-11ee-bf71-0242ac130002",
+                "name": "Ghost Lol"
+            },
             "match_games": []
         },
         {
@@ -96008,16 +96138,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5b3be6a6-f294-11ee-b7b8-0242ac130002",
-                "name": "Signori della noche"
+                "name": "Signori della noche",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "de5b1554-f512-11ee-94b3-0242ac130003",
-                "name": "Deutsche Bahn eSport"
+                "name": "Deutsche Bahn eSport",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5b3be6a6-f294-11ee-b7b8-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "de5b1554-f512-11ee-94b3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5b3be6a6-f294-11ee-b7b8-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "de5b1554-f512-11ee-94b3-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1453,

@@ -17319,16 +17319,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
-                "name": "あ"
+                "name": "あ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5762048-f360-11ee-bf86-0242ac130003",
-                "name": "@Tukusumu"
+                "name": "@Tukusumu",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 368,
@@ -17943,7 +17972,8 @@
                 "name": "Essence eSports"
             },
             "opponent2": {
-                "id": null
+                "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                "name": "あ"
             },
             "match_games": []
         },

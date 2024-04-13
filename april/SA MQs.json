@@ -5948,6 +5948,17 @@
             "img": ""
         },
         {
+            "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+            "tournament_id": 0,
+            "name": "dongil",
+            "players": [
+                "fabrix",
+                "dominik",
+                "piero carrii"
+            ],
+            "img": ""
+        },
+        {
             "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
             "tournament_id": 0,
             "name": "UNIFIM",
@@ -12145,16 +12156,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7cd4d0a-f295-11ee-8cb7-0242ac130002",
-                "name": "Recteadas FC"
+                "name": "Recteadas FC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
-                "name": "dongil"
+                "name": "dongil",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7cd4d0a-f295-11ee-8cb7-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7cd4d0a-f295-11ee-8cb7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b7cd4d0a-f295-11ee-8cb7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 200,
@@ -15502,10 +15554,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7cd4d0a-f295-11ee-8cb7-0242ac130002",
+                "name": "Recteadas FC"
             },
             "opponent2": {
-                "id": null
+                "id": "9cfc4932-f5eb-11ee-b490-0242ac130003",
+                "name": "MacarronesBRO"
             },
             "match_games": []
         },
@@ -19068,10 +19122,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                "name": "dongil"
             },
             "opponent2": {
-                "id": null
+                "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
+                "name": "UNIFIM"
             },
             "match_games": []
         },

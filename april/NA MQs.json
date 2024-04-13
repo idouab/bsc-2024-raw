@@ -38595,16 +38595,57 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
-                "name": "The Rezu Boys"
+                "name": "The Rezu Boys",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "653d290c-f52e-11ee-92d0-0242ac130003",
-                "name": "Sharkbytes"
+                "name": "Sharkbytes",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "653d290c-f52e-11ee-92d0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "653d290c-f52e-11ee-92d0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "653d290c-f52e-11ee-92d0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1355,
@@ -50050,7 +50091,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                "name": "The Rezu Boys"
             },
             "opponent2": {
                 "id": null

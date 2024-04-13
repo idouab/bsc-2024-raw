@@ -39204,16 +39204,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "01b515e2-f327-11ee-9836-0242ac130003",
-                "name": "Tin keso"
+                "name": "Tin keso",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
-                "name": "KGM | Black Wolves"
+                "name": "KGM | Black Wolves",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 883,
@@ -39998,10 +40039,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                "name": "KGM | Black Wolves"
             },
             "opponent2": {
-                "id": null
+                "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                "name": "Team Fluid"
             },
             "match_games": []
         },

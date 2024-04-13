@@ -5337,6 +5337,17 @@
             "img": ""
         },
         {
+            "id": "310fb8ba-f72d-11ee-afdc-0242ac130003",
+            "tournament_id": 0,
+            "name": "Los CTM",
+            "players": [
+                "xSerGiø™",
+                "Andrey Rublev",
+                "DM | AeryX®⚡"
+            ],
+            "img": ""
+        },
+        {
             "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
             "tournament_id": 0,
             "name": "PIPER’S",
@@ -5595,6 +5606,17 @@
                 "contreras",
                 "MatheoDark",
                 "GøldVegøx メ"
+            ],
+            "img": ""
+        },
+        {
+            "id": "5cc65e86-f986-11ee-96ae-0242ac130003",
+            "tournament_id": 0,
+            "name": "COX",
+            "players": [
+                "❦Neͥbuͣrͫ🐉",
+                "❦Niͥkoͣsͫ🐉",
+                "❦Zeͥnxͣxͫ🐉"
             ],
             "img": ""
         },
@@ -5933,16 +5955,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c1f8c67e-f466-11ee-b37c-0242ac130003",
-                "name": "Boletos vencidos"
+                "name": "Boletos vencidos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd31b3f2-f37b-11ee-97f0-0242ac130003",
-                "name": "Carandiru FC"
+                "name": "Carandiru FC",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c1f8c67e-f466-11ee-b37c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd31b3f2-f37b-11ee-97f0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c1f8c67e-f466-11ee-b37c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd31b3f2-f37b-11ee-97f0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -6458,16 +6509,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "310fb8ba-f72d-11ee-afdc-0242ac130003",
-                "name": "Los CTM"
+                "name": "Los CTM",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
-                "name": "Anti-Heróis"
+                "name": "Anti-Heróis",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "310fb8ba-f72d-11ee-afdc-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "310fb8ba-f72d-11ee-afdc-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 23,
@@ -9659,16 +9739,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9554cf4-f295-11ee-816a-0242ac130002",
-                "name": "Arg new"
+                "name": "Arg new",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5cc65e86-f986-11ee-96ae-0242ac130003",
-                "name": "COX"
+                "name": "COX",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5cc65e86-f986-11ee-96ae-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5cc65e86-f986-11ee-96ae-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 158,
@@ -12043,7 +12152,8 @@
                 "name": "Calabresos F/A"
             },
             "opponent2": {
-                "id": null
+                "id": "c1f8c67e-f466-11ee-b37c-0242ac130003",
+                "name": "Boletos vencidos"
             },
             "match_games": []
         },
@@ -13333,7 +13443,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                "name": "Arg new"
             },
             "opponent2": {
                 "id": null
@@ -16993,7 +17104,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5cc65e86-f986-11ee-96ae-0242ac130003",
+                "name": "COX"
             },
             "opponent2": {
                 "id": null

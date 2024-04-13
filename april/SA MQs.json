@@ -18652,16 +18652,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "968ea684-f470-11ee-9ec7-0242ac130003",
-                "name": "Nightmare Team"
+                "name": "Nightmare Team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "692c921e-f538-11ee-a098-0242ac130003",
-                "name": "LPV TEAM"
+                "name": "LPV TEAM",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 434,
@@ -20778,7 +20819,8 @@
                 "name": "The lords"
             },
             "opponent2": {
-                "id": null
+                "id": "692c921e-f538-11ee-a098-0242ac130003",
+                "name": "LPV TEAM"
             },
             "match_games": []
         },
@@ -22742,16 +22784,57 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1121c298-f3de-11ee-8157-0242ac130003",
-                "name": "AEAA SPORTS"
+                "name": "AEAA SPORTS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
-                "name": "CFC"
+                "name": "CFC",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 290,
@@ -24480,10 +24563,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                "name": "Nightmare Team"
             },
             "opponent2": {
-                "id": null
+                "id": "bbd72bc0-f397-11ee-a048-0242ac130003",
+                "name": "Abukas"
             },
             "match_games": []
         },
@@ -24700,7 +24785,8 @@
                 "name": "Arg new"
             },
             "opponent2": {
-                "id": null
+                "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                "name": "AEAA SPORTS"
             },
             "match_games": []
         },

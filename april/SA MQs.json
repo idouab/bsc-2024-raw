@@ -31520,16 +31520,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e75e813c-f827-11ee-87b8-0242ac130003",
-                "name": "Mamba mentality 🐍"
+                "name": "Mamba mentality 🐍",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c138f666-f522-11ee-ad61-0242ac130003",
-                "name": "FWA"
+                "name": "FWA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c138f666-f522-11ee-ad61-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c138f666-f522-11ee-ad61-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 665,
@@ -33346,7 +33375,8 @@
                 "name": "Chiquibeibis"
             },
             "opponent2": {
-                "id": null
+                "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                "name": "Mamba mentality 🐍"
             },
             "match_games": []
         },

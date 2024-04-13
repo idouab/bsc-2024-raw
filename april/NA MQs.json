@@ -7471,6 +7471,17 @@
             "img": ""
         },
         {
+            "id": "b012bce8-f462-11ee-8be3-0242ac130003",
+            "tournament_id": 0,
+            "name": "塔罗会",
+            "players": [
+                "“愚者”",
+                "“魔术师”",
+                "“倒吊人”"
+            ],
+            "img": ""
+        },
+        {
             "id": "86bba826-f441-11ee-b5a2-0242ac130003",
             "tournament_id": 0,
             "name": "Legacy League",
@@ -7578,6 +7589,29 @@
                 "Applepen5201",
                 "Sour_Mini",
                 "✦EMZ ~ Sammy ツ"
+            ],
+            "img": ""
+        },
+        {
+            "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
+            "tournament_id": 0,
+            "name": "MAA LuismiBoy's",
+            "players": [
+                "MarGG11",
+                "⚡axelcraft⚡",
+                "xXblastoisXx"
+            ],
+            "img": ""
+        },
+        {
+            "id": "4e96b9a8-f5cd-11ee-9c36-0242ac130003",
+            "tournament_id": 0,
+            "name": "INTER DE MILAN",
+            "players": [
+                "$@BILLON(-.+)",
+                "Brann",
+                "Maru",
+                "QLS|Jesh_desu"
             ],
             "img": ""
         },
@@ -9323,16 +9357,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "440634bc-f4ee-11ee-afc0-0242ac130003",
-                "name": "Wordwild"
+                "name": "Wordwild",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b012bce8-f462-11ee-8be3-0242ac130003",
-                "name": "塔罗会"
+                "name": "塔罗会",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "440634bc-f4ee-11ee-afc0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b012bce8-f462-11ee-8be3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "440634bc-f4ee-11ee-afc0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b012bce8-f462-11ee-8be3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 73,
@@ -11086,16 +11149,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
-                "name": "MAA LuismiBoy's"
+                "name": "MAA LuismiBoy's",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
-                "name": "The Hustlers"
+                "name": "The Hustlers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 163,
@@ -11215,16 +11319,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4e96b9a8-f5cd-11ee-9c36-0242ac130003",
-                "name": "INTER DE MILAN"
+                "name": "INTER DE MILAN",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
-                "name": "Divine Gaming"
+                "name": "Divine Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4e96b9a8-f5cd-11ee-9c36-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4e96b9a8-f5cd-11ee-9c36-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 171,
@@ -18200,7 +18333,8 @@
                 "name": "No Name"
             },
             "opponent2": {
-                "id": null
+                "id": "440634bc-f4ee-11ee-afc0-0242ac130003",
+                "name": "Wordwild"
             },
             "match_games": []
         },
@@ -18995,7 +19129,8 @@
                 "name": "sintikols gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                "name": "The Hustlers"
             },
             "match_games": []
         },
@@ -19064,7 +19199,8 @@
                 "name": "Midnight Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                "name": "Divine Gaming"
             },
             "match_games": []
         },

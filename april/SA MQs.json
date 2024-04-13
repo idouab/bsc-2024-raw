@@ -37640,16 +37640,93 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e75e813c-f827-11ee-87b8-0242ac130003",
-                "name": "Mamba mentality 🐍"
+                "name": "Mamba mentality 🐍",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "89880e14-f47d-11ee-ba62-0242ac130003",
-                "name": "Turtle Mavericks🐢"
+                "name": "Turtle Mavericks🐢",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 5,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 840,
@@ -38944,7 +39021,8 @@
                 "name": "Los chupacornetas"
             },
             "opponent2": {
-                "id": null
+                "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                "name": "Turtle Mavericks🐢"
             },
             "match_games": []
         },

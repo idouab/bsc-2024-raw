@@ -32145,16 +32145,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b29036c-f295-11ee-8b18-0242ac130002",
-                "name": "Quackers"
+                "name": "Quackers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9aa4e9fa-f5c3-11ee-b3af-0242ac130003",
-                "name": "Washed Betas"
+                "name": "Washed Betas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b29036c-f295-11ee-8b18-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9aa4e9fa-f5c3-11ee-b3af-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b29036c-f295-11ee-8b18-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9aa4e9fa-f5c3-11ee-b3af-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b29036c-f295-11ee-8b18-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9aa4e9fa-f5c3-11ee-b3af-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1078,
@@ -34335,16 +34376,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
-                "name": "Dragon Fruits"
+                "name": "Dragon Fruits",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f412cd68-f389-11ee-b547-0242ac130003",
-                "name": "HLE_YT"
+                "name": "HLE_YT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f412cd68-f389-11ee-b547-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f412cd68-f389-11ee-b547-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1137,
@@ -36048,7 +36118,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b29036c-f295-11ee-8b18-0242ac130002",
+                "name": "Quackers"
             },
             "opponent2": {
                 "id": null
@@ -36547,7 +36618,8 @@
                 "name": "Instinct Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                "name": "Dragon Fruits"
             },
             "match_games": []
         },
@@ -43291,7 +43363,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9aa4e9fa-f5c3-11ee-b3af-0242ac130003",
+                "name": "Washed Betas"
             },
             "opponent2": {
                 "id": null
@@ -44445,7 +44518,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f412cd68-f389-11ee-b547-0242ac130003",
+                "name": "HLE_YT"
             },
             "opponent2": {
                 "id": null

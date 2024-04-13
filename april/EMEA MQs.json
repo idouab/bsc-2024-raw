@@ -24523,6 +24523,17 @@
             "img": ""
         },
         {
+            "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
+            "tournament_id": 0,
+            "name": "Turroncitos",
+            "players": [
+                "bluewin17",
+                "Pablo",
+                "Víctor_05"
+            ],
+            "img": ""
+        },
+        {
             "id": "32059e50-f35f-11ee-ae67-0242ac130003",
             "tournament_id": 0,
             "name": "0162mannen",
@@ -24732,6 +24743,17 @@
                 "TBT BOJAN",
                 "donutje crow",
                 "x.ard"
+            ],
+            "img": ""
+        },
+        {
+            "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
+            "tournament_id": 0,
+            "name": "GOATS",
+            "players": [
+                "рафик",
+                "❣️Prøfĩ☠️",
+                "Пeрчик"
             ],
             "img": ""
         },
@@ -25610,6 +25632,18 @@
                 "goatkwire.",
                 "XL|evvlv",
                 "XL |skv1rtyyy"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
+            "tournament_id": 0,
+            "name": "NoSpin Gaming",
+            "players": [
+                "NoSpin | Djinow",
+                "Hydrax",
+                "100% proFR",
+                "𝓜𝓮𝔂𝓸𝔁ೃ༄"
             ],
             "img": ""
         },
@@ -26590,6 +26624,17 @@
             "img": ""
         },
         {
+            "id": "68afe142-f32b-11ee-8220-0242ac130002",
+            "tournament_id": 0,
+            "name": "DoYouRingo?",
+            "players": [
+                "edr10",
+                "! SPIKO!",
+                "TL|SWETTY㋛"
+            ],
+            "img": ""
+        },
+        {
             "id": "78e91498-f524-11ee-b4e4-0242ac130003",
             "tournament_id": 0,
             "name": "Team cheliks",
@@ -27104,6 +27149,17 @@
                 "GhtDuPain",
                 "SGM | The King",
                 "jules"
+            ],
+            "img": ""
+        },
+        {
+            "id": "99181cea-f322-11ee-b2fa-0242ac130003",
+            "tournament_id": 0,
+            "name": "TWINS-GAMING",
+            "players": [
+                "TWN|DNLuckyman",
+                "TWN |Gullmike",
+                "TWN|Matkokh🍀"
             ],
             "img": ""
         },
@@ -33255,16 +33311,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
-                "name": "Turroncitos"
+                "name": "Turroncitos",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cf012e02-f339-11ee-bc9e-0242ac130003",
-                "name": "DE GAMING"
+                "name": "DE GAMING",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cf012e02-f339-11ee-bc9e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cf012e02-f339-11ee-bc9e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cf012e02-f339-11ee-bc9e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 135,
@@ -33844,16 +33941,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3225095a-f294-11ee-9f87-0242ac130002",
-                "name": "LTD"
+                "name": "LTD",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
-                "name": "GOATS"
+                "name": "GOATS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3225095a-f294-11ee-9f87-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3225095a-f294-11ee-9f87-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "3225095a-f294-11ee-9f87-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -36386,16 +36524,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "43917660-f294-11ee-89e2-0242ac130002",
-                "name": "Monarchie"
+                "name": "Monarchie",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
-                "name": "NoSpin Gaming"
+                "name": "NoSpin Gaming",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "43917660-f294-11ee-89e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "43917660-f294-11ee-89e2-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "43917660-f294-11ee-89e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 240,
@@ -39523,16 +39702,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d46f2596-f5b5-11ee-9268-0242ac130003",
-                "name": "Mate info"
+                "name": "Mate info",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "68afe142-f32b-11ee-8220-0242ac130002",
-                "name": "DoYouRingo?"
+                "name": "DoYouRingo?",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "d46f2596-f5b5-11ee-9268-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "68afe142-f32b-11ee-8220-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "d46f2596-f5b5-11ee-9268-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "68afe142-f32b-11ee-8220-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "d46f2596-f5b5-11ee-9268-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "68afe142-f32b-11ee-8220-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 335,
@@ -41225,16 +41445,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "99181cea-f322-11ee-b2fa-0242ac130003",
-                "name": "TWINS-GAMING"
+                "name": "TWINS-GAMING",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fe907cae-f3fc-11ee-9b2b-0242ac130003",
-                "name": "SZO|SPORTS"
+                "name": "SZO|SPORTS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "99181cea-f322-11ee-b2fa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fe907cae-f3fc-11ee-9b2b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "99181cea-f322-11ee-b2fa-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fe907cae-f3fc-11ee-9b2b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "99181cea-f322-11ee-b2fa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fe907cae-f3fc-11ee-9b2b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 383,
@@ -55779,7 +56040,8 @@
                 "name": "Just Give Up"
             },
             "opponent2": {
-                "id": null
+                "id": "cf012e02-f339-11ee-bc9e-0242ac130003",
+                "name": "DE GAMING"
             },
             "match_games": []
         },
@@ -55971,10 +56233,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3225095a-f294-11ee-9f87-0242ac130002",
+                "name": "LTD"
             },
             "opponent2": {
-                "id": null
+                "id": "adc0951a-f34e-11ee-86a4-0242ac130003",
+                "name": "Assassin's"
             },
             "match_games": []
         },
@@ -56718,10 +56982,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "43917660-f294-11ee-89e2-0242ac130002",
+                "name": "Monarchie"
             },
             "opponent2": {
-                "id": null
+                "id": "b419778a-f347-11ee-bcd5-0242ac130003",
+                "name": "Cadjovi puleni"
             },
             "match_games": []
         },
@@ -57556,7 +57822,8 @@
                 "name": "JAN"
             },
             "opponent2": {
-                "id": null
+                "id": "d46f2596-f5b5-11ee-9268-0242ac130003",
+                "name": "Mate info"
             },
             "match_games": []
         },
@@ -57986,7 +58253,8 @@
                 "name": "Scream Team"
             },
             "opponent2": {
-                "id": null
+                "id": "fe907cae-f3fc-11ee-9b2b-0242ac130003",
+                "name": "SZO|SPORTS"
             },
             "match_games": []
         },
@@ -72546,7 +72814,8 @@
                 "name": "Kasai Kenshi"
             },
             "opponent2": {
-                "id": null
+                "id": "a3cce6ce-f4db-11ee-8e42-0242ac130003",
+                "name": "Turroncitos"
             },
             "match_games": []
         },
@@ -72738,10 +73007,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7579acf6-f4f6-11ee-9ca2-0242ac130003",
+                "name": "GOATS"
             },
             "opponent2": {
-                "id": null
+                "id": "cee2f97c-f3f3-11ee-866b-0242ac130003",
+                "name": "NovaGiarre"
             },
             "match_games": []
         },
@@ -73485,10 +73756,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c4c722f4-f52b-11ee-a07c-0242ac130003",
+                "name": "NoSpin Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "3b25bb4e-f36b-11ee-8218-0242ac130003",
+                "name": "Tribble Z"
             },
             "match_games": []
         },
@@ -74323,7 +74596,8 @@
                 "name": "The Underdogs"
             },
             "opponent2": {
-                "id": null
+                "id": "68afe142-f32b-11ee-8220-0242ac130002",
+                "name": "DoYouRingo?"
             },
             "match_games": []
         },
@@ -74753,7 +75027,8 @@
                 "name": "LJA"
             },
             "opponent2": {
-                "id": null
+                "id": "99181cea-f322-11ee-b2fa-0242ac130003",
+                "name": "TWINS-GAMING"
             },
             "match_games": []
         },

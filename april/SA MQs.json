@@ -35098,16 +35098,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
-                "name": "Anti-Heróis"
+                "name": "Anti-Heróis",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "77e0470a-f50c-11ee-a504-0242ac130003",
-                "name": "Los Virgenes"
+                "name": "Los Virgenes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "77e0470a-f50c-11ee-a504-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "77e0470a-f50c-11ee-a504-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 785,
@@ -35559,16 +35588,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "692c921e-f538-11ee-a098-0242ac130003",
-                "name": "LPV TEAM"
+                "name": "LPV TEAM",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b698c2de-f295-11ee-9c24-0242ac130002",
-                "name": "JJJ"
+                "name": "JJJ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 809,
@@ -36022,7 +36080,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                "name": "Anti-Heróis"
             },
             "opponent2": {
                 "id": null
@@ -36215,7 +36274,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "692c921e-f538-11ee-a098-0242ac130003",
+                "name": "LPV TEAM"
             },
             "opponent2": {
                 "id": null

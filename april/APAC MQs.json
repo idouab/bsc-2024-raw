@@ -19973,16 +19973,57 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdaee784-f293-11ee-9d06-0242ac130002",
-                "name": "MO' RESILIENCE"
+                "name": "MO' RESILIENCE",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
-                "name": "Demonic"
+                "name": "Demonic",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 437,
@@ -20582,7 +20623,8 @@
                 "name": "広尾学園"
             },
             "opponent2": {
-                "id": null
+                "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                "name": "Demonic"
             },
             "match_games": []
         },

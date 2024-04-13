@@ -16434,16 +16434,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b36cb912-f295-11ee-9555-0242ac130002",
-                "name": "RM"
+                "name": "RM",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
-                "name": "Ovni"
+                "name": "Ovni",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 389,
@@ -17865,16 +17894,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b877908a-f295-11ee-86f1-0242ac130002",
-                "name": "Perú×Brawl×México"
+                "name": "Perú×Brawl×México",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e76646c-f3be-11ee-852f-0242ac130003",
-                "name": "THE BEST PLAYERS"
+                "name": "THE BEST PLAYERS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 454,
@@ -18662,7 +18720,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                "name": "RM"
             },
             "opponent2": {
                 "id": null
@@ -22137,10 +22196,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                "name": "Perú×Brawl×México"
             },
             "opponent2": {
-                "id": null
+                "id": "d0a11dc6-f375-11ee-8c00-0242ac130003",
+                "name": "CHISPITAS⚡🌩"
             },
             "match_games": []
         },
@@ -23187,7 +23248,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                "name": "Ovni"
             },
             "opponent2": {
                 "id": null

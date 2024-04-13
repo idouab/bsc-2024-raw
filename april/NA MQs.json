@@ -7438,6 +7438,17 @@
             "img": ""
         },
         {
+            "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
+            "tournament_id": 0,
+            "name": "TondaSoldier",
+            "players": [
+                "tonio88",
+                "Il Carriatore⚽️",
+                "🦇𝐀𝐝𝐧𝐚𝐧☆シ"
+            ],
+            "img": ""
+        },
+        {
             "id": "60c0eb5a-f4f9-11ee-840c-0242ac130003",
             "tournament_id": 0,
             "name": "GOOBERS",
@@ -9622,16 +9633,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2d5d222a-f3a4-11ee-8553-0242ac130003",
-                "name": "Utopia"
+                "name": "Utopia",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
-                "name": "TondaSoldier"
+                "name": "TondaSoldier",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2d5d222a-f3a4-11ee-8553-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2d5d222a-f3a4-11ee-8553-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 119,
@@ -17272,7 +17312,8 @@
                 "name": "Snipers"
             },
             "opponent2": {
-                "id": null
+                "id": "2d5d222a-f3a4-11ee-8553-0242ac130003",
+                "name": "Utopia"
             },
             "match_games": []
         },

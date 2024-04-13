@@ -23107,6 +23107,17 @@
             "img": ""
         },
         {
+            "id": "be012a0e-f95a-11ee-8a93-0242ac130003",
+            "tournament_id": 0,
+            "name": "skibidi",
+            "players": [
+                "AZZA08",
+                "Emabrawl08",
+                "Riccardo;)"
+            ],
+            "img": ""
+        },
+        {
             "id": "418fed7e-f410-11ee-8005-0242ac130003",
             "tournament_id": 0,
             "name": "KTSPolskaGurom",
@@ -23114,6 +23125,17 @@
                 "SXsquadron08",
                 "Tassadar",
                 "KUBA"
+            ],
+            "img": ""
+        },
+        {
+            "id": "4506dff8-f294-11ee-ae65-0242ac130002",
+            "tournament_id": 0,
+            "name": "FIREICE❤️‍🔥",
+            "players": [
+                "FIRE_MAN",
+                "coolboy",
+                "FIRE_YORIK"
             ],
             "img": ""
         }
@@ -27911,16 +27933,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
-                "name": "BC* Gaming"
+                "name": "BC* Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be012a0e-f95a-11ee-8a93-0242ac130003",
-                "name": "skibidi"
+                "name": "skibidi",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be012a0e-f95a-11ee-8a93-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be012a0e-f95a-11ee-8a93-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 258,
@@ -31990,16 +32041,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "230a4e7c-f8d8-11ee-9f4d-0242ac130003",
-                "name": "f/a ..."
+                "name": "f/a ...",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4506dff8-f294-11ee-ae65-0242ac130002",
-                "name": "FIREICE❤️‍🔥"
+                "name": "FIREICE❤️‍🔥",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "230a4e7c-f8d8-11ee-9f4d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4506dff8-f294-11ee-ae65-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "230a4e7c-f8d8-11ee-9f4d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4506dff8-f294-11ee-ae65-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 483,
@@ -43815,7 +43895,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                "name": "BC* Gaming"
             },
             "opponent2": {
                 "id": null
@@ -60120,7 +60201,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "be012a0e-f95a-11ee-8a93-0242ac130003",
+                "name": "skibidi"
             },
             "opponent2": {
                 "id": null

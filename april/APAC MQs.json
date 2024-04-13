@@ -15741,16 +15741,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
-                "name": "DevilMayCry"
+                "name": "DevilMayCry",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
-                "name": "Trash boys"
+                "name": "Trash boys",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 296,
@@ -16575,10 +16604,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                "name": "Trash boys"
             },
             "opponent2": {
-                "id": null
+                "id": "1ddf15ea-f3e7-11ee-9e66-0242ac130003",
+                "name": "Skywalker Gaming"
             },
             "match_games": []
         },

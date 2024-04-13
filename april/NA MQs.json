@@ -7627,6 +7627,17 @@
             "img": ""
         },
         {
+            "id": "034ffc08-f4d7-11ee-ad13-0242ac130003",
+            "tournament_id": 0,
+            "name": "EIM",
+            "players": [
+                "salad❤️松灵",
+                "⛩|kooya38|🎋",
+                "VK_Golden Kings"
+            ],
+            "img": ""
+        },
+        {
             "id": "f5c7695a-f82c-11ee-96eb-0242ac130003",
             "tournament_id": 0,
             "name": "NCR",
@@ -9260,6 +9271,18 @@
                 "FranGuy",
                 "Bot101",
                 "Andy"
+            ],
+            "img": ""
+        },
+        {
+            "id": "2afba624-f32b-11ee-846d-0242ac130003",
+            "tournament_id": 0,
+            "name": "Strawhats",
+            "players": [
+                "Ant1Que",
+                "(БЛЕТ)FENIKS",
+                "ANDRIIE100",
+                "dor_Philipp"
             ],
             "img": ""
         },
@@ -21337,16 +21360,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2afba624-f32b-11ee-846d-0242ac130003",
-                "name": "Strawhats"
+                "name": "Strawhats",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "578fe91a-f97b-11ee-9027-0242ac130003",
-                "name": "Fénix Team"
+                "name": "Fénix Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2afba624-f32b-11ee-846d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "578fe91a-f97b-11ee-9027-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2afba624-f32b-11ee-846d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "578fe91a-f97b-11ee-9027-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 681,
@@ -24834,16 +24886,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a6a2884-f295-11ee-a851-0242ac130002",
-                "name": "Team Oinkers"
+                "name": "Team Oinkers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "59f804fe-f812-11ee-8834-0242ac130003",
-                "name": "Tidal Wave"
+                "name": "Tidal Wave",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59f804fe-f812-11ee-8834-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59f804fe-f812-11ee-8834-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 804,
@@ -27149,16 +27230,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "034ffc08-f4d7-11ee-ad13-0242ac130003",
-                "name": "EIM"
+                "name": "EIM",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
-                "name": "BP"
+                "name": "BP",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "034ffc08-f4d7-11ee-ad13-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "034ffc08-f4d7-11ee-ad13-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 891,
@@ -28971,7 +29081,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                "name": "Team Oinkers"
             },
             "opponent2": {
                 "id": null
@@ -32109,10 +32220,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "034ffc08-f4d7-11ee-ad13-0242ac130003",
+                "name": "EIM"
             },
             "opponent2": {
-                "id": null
+                "id": "f5c7695a-f82c-11ee-96eb-0242ac130003",
+                "name": "NCR"
             },
             "match_games": []
         },
@@ -34081,10 +34194,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2afba624-f32b-11ee-846d-0242ac130003",
+                "name": "Strawhats"
             },
             "opponent2": {
-                "id": null
+                "id": "7901b038-f52a-11ee-8b54-0242ac130003",
+                "name": "Moon Walk Crew"
             },
             "match_games": []
         },

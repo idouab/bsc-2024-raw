@@ -5691,6 +5691,17 @@
             "img": ""
         },
         {
+            "id": "099e1170-f3c0-11ee-829b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Zé Tralhas",
+            "players": [
+                "Zé da Manga| 🥭",
+                "Zé do Rasta|🧹",
+                "Zé da Rifa|🎟"
+            ],
+            "img": ""
+        },
+        {
             "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
             "tournament_id": 0,
             "name": "🔱Trythent⚡",
@@ -5836,6 +5847,17 @@
             "img": ""
         },
         {
+            "id": "6b814b64-f3c0-11ee-9985-0242ac130003",
+            "tournament_id": 0,
+            "name": "BrawlBros",
+            "players": [
+                "Pandero",
+                "viniesege",
+                "🗡BLACK NIGHT🗡"
+            ],
+            "img": ""
+        },
+        {
             "id": "c2a7a614-f3b0-11ee-99f6-0242ac130003",
             "tournament_id": 0,
             "name": "UNIFIM",
@@ -5965,6 +5987,18 @@
                 "LAUTARO.",
                 "ᵐ𝑩𝒆𝒏𝒊𝒑𝒓𝒐",
                 "bot 1"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b6e984ee-f295-11ee-bb73-0242ac130002",
+            "tournament_id": 0,
+            "name": "PREMUNI",
+            "players": [
+                "⚠₩DJRE YT⚠₩",
+                "Baep07",
+                "Jeremy 🐣💛",
+                "⚓NOX⚓"
             ],
             "img": ""
         },
@@ -11496,16 +11530,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1506ee38-f546-11ee-ad18-0242ac130003",
-                "name": "X - R A Y"
+                "name": "X - R A Y",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6b814b64-f3c0-11ee-9985-0242ac130003",
-                "name": "BrawlBros"
+                "name": "BrawlBros",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1506ee38-f546-11ee-ad18-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6b814b64-f3c0-11ee-9985-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1506ee38-f546-11ee-ad18-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b814b64-f3c0-11ee-9985-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "1506ee38-f546-11ee-ad18-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6b814b64-f3c0-11ee-9985-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 193,
@@ -15190,7 +15265,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6dbe1bfa-f749-11ee-97a0-0242ac130003",
+                "name": "100 Ela"
             },
             "opponent2": {
                 "id": null
@@ -18620,7 +18696,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6e984ee-f295-11ee-bb73-0242ac130002",
+                "name": "PREMUNI"
             },
             "opponent2": {
                 "id": null

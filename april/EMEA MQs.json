@@ -81470,16 +81470,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0bb09836-f36e-11ee-ab2a-0242ac130003",
-                "name": "Peseteros"
+                "name": "Peseteros",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fdd5ce76-f41b-11ee-a48e-0242ac130003",
-                "name": "Bang Gang"
+                "name": "Bang Gang",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0bb09836-f36e-11ee-ab2a-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "fdd5ce76-f41b-11ee-a48e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0bb09836-f36e-11ee-ab2a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fdd5ce76-f41b-11ee-a48e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1859,
@@ -91339,10 +91368,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fdd5ce76-f41b-11ee-a48e-0242ac130003",
+                "name": "Bang Gang"
             },
             "opponent2": {
-                "id": null
+                "id": "3dd7da34-f294-11ee-9c6a-0242ac130002",
+                "name": "Panaloma"
             },
             "match_games": []
         },
@@ -111341,10 +111372,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0bb09836-f36e-11ee-ab2a-0242ac130003",
+                "name": "Peseteros"
             },
             "opponent2": {
-                "id": null
+                "id": "33a77e94-f3fb-11ee-85e4-0242ac130003",
+                "name": "alash"
             },
             "match_games": []
         },

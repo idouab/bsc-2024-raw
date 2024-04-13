@@ -6160,6 +6160,17 @@
             "img": ""
         },
         {
+            "id": "5495245c-f5b9-11ee-afa9-0242ac130003",
+            "tournament_id": 0,
+            "name": "Los sauces AC",
+            "players": [
+                "|¦|TREVOR734|¦|",
+                "Alan777",
+                "ULICES EL PRO 1"
+            ],
+            "img": ""
+        },
+        {
             "id": "70ebed80-f342-11ee-b671-0242ac130003",
             "tournament_id": 0,
             "name": "cadeira",
@@ -13746,16 +13757,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5495245c-f5b9-11ee-afa9-0242ac130003",
-                "name": "Los sauces AC"
+                "name": "Los sauces AC",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
-                "name": "Los estelares"
+                "name": "Los estelares",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5495245c-f5b9-11ee-afa9-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5495245c-f5b9-11ee-afa9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 245,

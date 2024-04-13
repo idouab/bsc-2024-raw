@@ -5281,6 +5281,17 @@
             "img": ""
         },
         {
+            "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+            "tournament_id": 0,
+            "name": "Escandalosos",
+            "players": [
+                "ImNagu⁶⁹",
+                "Ariel",
+                "ImRed⁶⁹"
+            ],
+            "img": ""
+        },
+        {
             "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
             "tournament_id": 0,
             "name": "Los panchos",
@@ -5371,6 +5382,18 @@
             "img": ""
         },
         {
+            "id": "5c94a4b2-f509-11ee-bb14-0242ac130003",
+            "tournament_id": 0,
+            "name": "Titans Misthic",
+            "players": [
+                "TM | Texcla🐸",
+                "TM | Bezk🕊️",
+                "TM | Sixto🦇",
+                "BL | kevin 🐍"
+            ],
+            "img": ""
+        },
+        {
             "id": "fb127d70-f54b-11ee-b520-0242ac130003",
             "tournament_id": 0,
             "name": "LSW Pernilongos",
@@ -5414,6 +5437,17 @@
                 "нттρѕℓєσz",
                 "Elbadazzzz",
                 "Evans1😈😏😮‍💨"
+            ],
+            "img": ""
+        },
+        {
+            "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+            "tournament_id": 0,
+            "name": "IMPERIAL FAKERS",
+            "players": [
+                "Labbitt",
+                "MAGO DE ELITE",
+                "Trebor🐣💛"
             ],
             "img": ""
         },
@@ -5890,16 +5924,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8e8fdeee-f551-11ee-a1e6-0242ac130003",
-                "name": "Os Irlandeses f/a"
+                "name": "Os Irlandeses f/a",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8e8fdeee-f551-11ee-a1e6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8e8fdeee-f551-11ee-a1e6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 5,
@@ -7162,16 +7225,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5c94a4b2-f509-11ee-bb14-0242ac130003",
-                "name": "Titans Misthic"
+                "name": "Titans Misthic",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "25b67058-f3c7-11ee-b14b-0242ac130003",
-                "name": "Los collanquis🌽🐦🦙"
+                "name": "Los collanquis🌽🐦🦙",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5c94a4b2-f509-11ee-bb14-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "25b67058-f3c7-11ee-b14b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5c94a4b2-f509-11ee-bb14-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "25b67058-f3c7-11ee-b14b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 61,
@@ -7488,16 +7580,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2fd2103c-f788-11ee-980c-0242ac130003",
-                "name": "IMPERIAL FAKERS"
+                "name": "IMPERIAL FAKERS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
-                "name": "Freak Show"
+                "name": "Freak Show",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 73,
@@ -12286,7 +12407,8 @@
                 "name": "Abuelas FC"
             },
             "opponent2": {
-                "id": null
+                "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                "name": "Freak Show"
             },
             "match_games": []
         },
@@ -16183,7 +16305,8 @@
                 "name": "Golden Wind"
             },
             "opponent2": {
-                "id": null
+                "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+                "name": "IMPERIAL FAKERS"
             },
             "match_games": []
         },

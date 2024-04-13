@@ -25614,6 +25614,17 @@
             "img": ""
         },
         {
+            "id": "42f4ca24-f4e0-11ee-9f9d-0242ac130003",
+            "tournament_id": 0,
+            "name": "ToxiClowns",
+            "players": [
+                "IB|BLAB69",
+                "MZ manolo_boom",
+                "AQM|00 øn Fire"
+            ],
+            "img": ""
+        },
+        {
             "id": "433809bc-f353-11ee-9e0b-0242ac130003",
             "tournament_id": 0,
             "name": "TSM",
@@ -27375,6 +27386,17 @@
                 "🪄biba✨️",
                 "○ZETA|CeLm○",
                 "☠️⚰️MB_KIKI⚰️☠️"
+            ],
+            "img": ""
+        },
+        {
+            "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
+            "tournament_id": 0,
+            "name": "ADEG",
+            "players": [
+                "Brawler",
+                "JeSuisNRV",
+                "Gab"
             ],
             "img": ""
         },
@@ -36685,14 +36707,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "307db07a-f294-11ee-b72a-0242ac130002",
                 "name": "F/A IMO"
             },
             "opponent2": {
                 "id": "42f4ca24-f4e0-11ee-9f9d-0242ac130003",
-                "name": "ToxiClowns"
+                "name": "ToxiClowns",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -42398,16 +42421,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
-                "name": "ADEG"
+                "name": "ADEG",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f0ecaa30-f36d-11ee-8d9e-0242ac130003",
-                "name": "Piselli ( ❛ ͜ʖ ❛ )"
+                "name": "Piselli ( ❛ ͜ʖ ❛ )",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f0ecaa30-f36d-11ee-8d9e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0ecaa30-f36d-11ee-8d9e-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f0ecaa30-f36d-11ee-8d9e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 390,
@@ -57812,10 +57876,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "307db07a-f294-11ee-b72a-0242ac130002",
+                "name": "F/A IMO"
             },
             "opponent2": {
-                "id": null
+                "id": "378b03e6-f711-11ee-849f-0242ac130003",
+                "name": "ARA Gamers"
             },
             "match_games": []
         },
@@ -59262,10 +59328,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f0ecaa30-f36d-11ee-8d9e-0242ac130003",
+                "name": "Piselli ( ❛ ͜ʖ ❛ )"
             },
             "opponent2": {
-                "id": null
+                "id": "6fd72306-f739-11ee-b89c-0242ac130003",
+                "name": "Kumanovci"
             },
             "match_games": []
         },
@@ -74615,10 +74683,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "42f4ca24-f4e0-11ee-9f9d-0242ac130003",
+                "name": "ToxiClowns"
             },
             "opponent2": {
-                "id": null
+                "id": "433809bc-f353-11ee-9e0b-0242ac130003",
+                "name": "TSM"
             },
             "match_games": []
         },
@@ -76065,10 +76135,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "26f284a8-f385-11ee-bfc7-0242ac130003",
+                "name": "ADEG"
             },
             "opponent2": {
-                "id": null
+                "id": "9f559a74-f656-11ee-ade6-0242ac130003",
+                "name": "Ro | A I R"
             },
             "match_games": []
         },

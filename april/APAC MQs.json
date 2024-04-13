@@ -21399,16 +21399,57 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
-                "name": "ZXCV"
+                "name": "ZXCV",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
-                "name": "最強狐崇拝也nhk党"
+                "name": "最強狐崇拝也nhk党",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 472,
@@ -21417,16 +21458,57 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce6ba4a0-f293-11ee-a3ea-0242ac130002",
-                "name": "Kinchana"
+                "name": "Kinchana",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61eda130-f64d-11ee-846f-0242ac130003",
-                "name": "Aquamarine"
+                "name": "Aquamarine",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ce6ba4a0-f293-11ee-a3ea-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ce6ba4a0-f293-11ee-a3ea-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ce6ba4a0-f293-11ee-a3ea-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 473,
@@ -21606,7 +21688,8 @@
                 "name": "アヒル同好会"
             },
             "opponent2": {
-                "id": null
+                "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                "name": "ZXCV"
             },
             "match_games": []
         },
@@ -21623,7 +21706,8 @@
                 "name": "Team S0"
             },
             "opponent2": {
-                "id": null
+                "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                "name": "Aquamarine"
             },
             "match_games": []
         },

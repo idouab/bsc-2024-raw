@@ -37696,16 +37696,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
-                "name": "🐻🦔🐬"
+                "name": "🐻🦔🐬",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
-                "name": "Cosmic Cyclones Team"
+                "name": "Cosmic Cyclones Team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 845,
@@ -38623,7 +38652,8 @@
                 "name": "The lords"
             },
             "opponent2": {
-                "id": null
+                "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                "name": "🐻🦔🐬"
             },
             "match_games": []
         },

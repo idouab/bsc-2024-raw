@@ -18551,16 +18551,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
-                "name": "サ終"
+                "name": "サ終",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a8a2934-f324-11ee-b382-0242ac130002",
-                "name": "APDO"
+                "name": "APDO",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 398,
@@ -19190,16 +19219,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
-                "name": "Essential"
+                "name": "Essential",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d9c289da-f357-11ee-9105-0242ac130003",
-                "name": "中町ぐろーばる"
+                "name": "中町ぐろーばる",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d9c289da-f357-11ee-9105-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d9c289da-f357-11ee-9105-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 419,
@@ -19409,10 +19467,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cf5f2d1e-f293-11ee-a4fd-0242ac130002",
+                "name": "サ終"
             },
             "opponent2": {
-                "id": null
+                "id": "1a44fbda-f4ea-11ee-8306-0242ac130003",
+                "name": "Down Bad"
             },
             "match_games": []
         },

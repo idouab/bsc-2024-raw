@@ -22472,16 +22472,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9bccb890-f60d-11ee-8ae5-0242ac130003",
-                "name": "GOLDEN DRAGONS"
+                "name": "GOLDEN DRAGONS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
-                "name": "Haunters"
+                "name": "Haunters",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9bccb890-f60d-11ee-8ae5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9bccb890-f60d-11ee-8ae5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 770,
@@ -26271,7 +26300,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                "name": "Haunters"
             },
             "opponent2": {
                 "id": null

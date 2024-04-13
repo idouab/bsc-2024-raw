@@ -31475,16 +31475,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "95d01842-f441-11ee-8777-0242ac130003",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
-                "name": "Kls"
+                "name": "Kls",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "95d01842-f441-11ee-8777-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 670,
@@ -31915,16 +31944,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6134b86-f295-11ee-92b3-0242ac130002",
-                "name": "Free Lane"
+                "name": "Free Lane",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
-                "name": "Tormentium"
+                "name": "Tormentium",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6134b86-f295-11ee-92b3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6134b86-f295-11ee-92b3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7f0318a-f295-11ee-b38e-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 688,
@@ -33053,7 +33111,8 @@
                 "name": "Familia Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "95d01842-f441-11ee-8777-0242ac130003",
+                "name": "Aurora Gaming"
             },
             "match_games": []
         },
@@ -33363,7 +33422,8 @@
                 "name": "CHUPAPIS"
             },
             "opponent2": {
-                "id": null
+                "id": "b6134b86-f295-11ee-92b3-0242ac130002",
+                "name": "Free Lane"
             },
             "match_games": []
         },

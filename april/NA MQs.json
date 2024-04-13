@@ -7705,6 +7705,17 @@
             "img": ""
         },
         {
+            "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+            "tournament_id": 0,
+            "name": "FRAN/ANDY/BOT",
+            "players": [
+                "FranGuy",
+                "Bot101",
+                "Andy"
+            ],
+            "img": ""
+        },
+        {
             "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
             "tournament_id": 0,
             "name": "JCQ",
@@ -7734,6 +7745,17 @@
                 "malba",
                 "JoseSL",
                 "PANDULCE"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b570c962-f54a-11ee-a24b-0242ac130003",
+            "tournament_id": 0,
+            "name": "DHS brawl",
+            "players": [
+                "trev",
+                "axeee",
+                "Andres"
             ],
             "img": ""
         }
@@ -16073,16 +16095,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
-                "name": "hugo is bad"
+                "name": "hugo is bad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
-                "name": "FRAN/ANDY/BOT"
+                "name": "FRAN/ANDY/BOT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 467,
@@ -16856,16 +16907,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b570c962-f54a-11ee-a24b-0242ac130003",
-                "name": "DHS brawl"
+                "name": "DHS brawl",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "314dce0c-f449-11ee-9c04-0242ac130003",
-                "name": "Avengers"
+                "name": "Avengers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b570c962-f54a-11ee-a24b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "314dce0c-f449-11ee-9c04-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b570c962-f54a-11ee-a24b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "314dce0c-f449-11ee-9c04-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 511,
@@ -20978,7 +21058,8 @@
                 "name": "Mambas Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                "name": "hugo is bad"
             },
             "match_games": []
         },
@@ -21365,7 +21446,8 @@
                 "name": "Splendid Kings"
             },
             "opponent2": {
-                "id": null
+                "id": "314dce0c-f449-11ee-9c04-0242ac130003",
+                "name": "Avengers"
             },
             "match_games": []
         },

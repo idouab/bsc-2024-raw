@@ -29995,6 +29995,17 @@
             "img": ""
         },
         {
+            "id": "460f31ac-f294-11ee-87a1-0242ac130002",
+            "tournament_id": 0,
+            "name": "boxedby",
+            "players": [
+                "boxedby cbr",
+                "MyS|JeTeUssop✈️",
+                "boxed by mdr"
+            ],
+            "img": ""
+        },
+        {
             "id": "e263511c-f35e-11ee-b0b7-0242ac130003",
             "tournament_id": 0,
             "name": "🔥Moskis Team💪",
@@ -55546,16 +55557,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "57d96fde-f644-11ee-94e5-0242ac130003",
-                "name": "Plovdiv Tigers"
+                "name": "Plovdiv Tigers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "460f31ac-f294-11ee-87a1-0242ac130002",
-                "name": "boxedby"
+                "name": "boxedby",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "57d96fde-f644-11ee-94e5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "460f31ac-f294-11ee-87a1-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "57d96fde-f644-11ee-94e5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "460f31ac-f294-11ee-87a1-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 619,
@@ -75271,7 +75311,8 @@
                 "name": "LandSpace🎴"
             },
             "opponent2": {
-                "id": null
+                "id": "57d96fde-f644-11ee-94e5-0242ac130003",
+                "name": "Plovdiv Tigers"
             },
             "match_games": []
         },
@@ -92573,7 +92614,8 @@
                 "name": "Apronics"
             },
             "opponent2": {
-                "id": null
+                "id": "460f31ac-f294-11ee-87a1-0242ac130002",
+                "name": "boxedby"
             },
             "match_games": []
         },

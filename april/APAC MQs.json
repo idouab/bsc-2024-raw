@@ -2909,6 +2909,17 @@
             "img": ""
         },
         {
+            "id": "c0108fde-f3c3-11ee-9151-0242ac130003",
+            "tournament_id": 0,
+            "name": "ひまわり学級",
+            "players": [
+                "いか",
+                "えっへん",
+                "POWER"
+            ],
+            "img": ""
+        },
+        {
             "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
             "tournament_id": 0,
             "name": "Qtpies",
@@ -2940,6 +2951,17 @@
                 "king Amogh king",
                 "BEAST2.0",
                 "rocky"
+            ],
+            "img": ""
+        },
+        {
+            "id": "eeed20c6-f443-11ee-80b5-0242ac130003",
+            "tournament_id": 0,
+            "name": "東川口SC",
+            "players": [
+                "ジョリリ16世",
+                "あっぷるじゅーす🍏",
+                "awesome cat"
             ],
             "img": ""
         },
@@ -3055,6 +3077,17 @@
                 "湖人冠軍",
                 "-AnnieTsai-",
                 "差很多嗎"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cdc0f03c-f293-11ee-ac5c-0242ac130002",
+            "tournament_id": 0,
+            "name": "ウンス5",
+            "players": [
+                "UL|PEN",
+                "UL|とまと帝王",
+                "UL|Da1chi"
             ],
             "img": ""
         },
@@ -4173,16 +4206,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdaee784-f293-11ee-9d06-0242ac130002",
-                "name": "MO' RESILIENCE"
+                "name": "MO' RESILIENCE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c0108fde-f3c3-11ee-9151-0242ac130003",
-                "name": "ひまわり学級"
+                "name": "ひまわり学級",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c0108fde-f3c3-11ee-9151-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c0108fde-f3c3-11ee-9151-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 38,
@@ -4707,16 +4769,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "93474966-f323-11ee-b25b-0242ac130003",
-                "name": "やまもとやまと"
+                "name": "やまもとやまと",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eeed20c6-f443-11ee-80b5-0242ac130003",
-                "name": "東川口SC"
+                "name": "東川口SC",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eeed20c6-f443-11ee-80b5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eeed20c6-f443-11ee-80b5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eeed20c6-f443-11ee-80b5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 63,
@@ -6011,16 +6114,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdc0f03c-f293-11ee-ac5c-0242ac130002",
-                "name": "ウンス5"
+                "name": "ウンス5",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "313c6ab6-f6c6-11ee-a276-0242ac130003",
-                "name": "G-boys"
+                "name": "G-boys",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdc0f03c-f293-11ee-ac5c-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "313c6ab6-f6c6-11ee-a276-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdc0f03c-f293-11ee-ac5c-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "313c6ab6-f6c6-11ee-a276-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 120,
@@ -6551,10 +6683,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                "name": "MO' RESILIENCE"
             },
             "opponent2": {
-                "id": null
+                "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                "name": "噎鴿"
             },
             "match_games": []
         },
@@ -7220,7 +7354,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "313c6ab6-f6c6-11ee-a276-0242ac130003",
+                "name": "G-boys"
             },
             "opponent2": {
                 "id": null
@@ -8508,10 +8643,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0108fde-f3c3-11ee-9151-0242ac130003",
+                "name": "ひまわり学級"
             },
             "opponent2": {
-                "id": null
+                "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+                "name": "Qtpies"
             },
             "match_games": []
         },
@@ -9092,7 +9229,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdc0f03c-f293-11ee-ac5c-0242ac130002",
+                "name": "ウンス5"
             },
             "opponent2": {
                 "id": null

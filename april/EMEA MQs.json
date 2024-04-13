@@ -20391,7 +20391,7 @@
                 "SG | Xiaku",
                 "SG|Dorian",
                 "SG|sqmee",
-                "Mric 🛏️"
+                "SG|Mric"
             ],
             "img": ""
         },
@@ -34517,6 +34517,18 @@
                 "dingdong123",
                 "MØRTAL",
                 "σαλπας"
+            ],
+            "img": ""
+        },
+        {
+            "id": "204f3afc-f3fc-11ee-8e0c-0242ac130003",
+            "tournament_id": 0,
+            "name": "BE | secret🃏",
+            "players": [
+                "nıgeł🥷🌪",
+                "maxim😂",
+                "mathias👾💥🔥",
+                "WP ME Czacha"
             ],
             "img": ""
         },
@@ -56323,16 +56335,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b236580a-f3e9-11ee-b6ec-0242ac130003",
-                "name": "Pites"
+                "name": "Pites",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a88f179e-f4fa-11ee-9407-0242ac130003",
-                "name": "Forteam"
+                "name": "Forteam",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b236580a-f3e9-11ee-b6ec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a88f179e-f4fa-11ee-9407-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b236580a-f3e9-11ee-b6ec-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a88f179e-f4fa-11ee-9407-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b236580a-f3e9-11ee-b6ec-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a88f179e-f4fa-11ee-9407-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 636,
@@ -69958,16 +70011,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "204f3afc-f3fc-11ee-8e0c-0242ac130003",
-                "name": "BE | secret🃏"
+                "name": "BE | secret🃏",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4f5ba024-f294-11ee-a397-0242ac130002",
-                "name": "🥶LS |ツ❄️"
+                "name": "🥶LS |ツ❄️",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "204f3afc-f3fc-11ee-8e0c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4f5ba024-f294-11ee-a397-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "204f3afc-f3fc-11ee-8e0c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4f5ba024-f294-11ee-a397-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1021,
@@ -79244,7 +79326,8 @@
                 "name": "Magic Bros♥️🧸"
             },
             "opponent2": {
-                "id": null
+                "id": "4f5ba024-f294-11ee-a397-0242ac130002",
+                "name": "🥶LS |ツ❄️"
             },
             "match_games": []
         },
@@ -96556,7 +96639,10 @@
                 "id": "b88e1090-f406-11ee-9927-0242ac130003",
                 "name": "Tre4"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "204f3afc-f3fc-11ee-8e0c-0242ac130003",
+                "name": "BE | secret🃏"
+            },
             "match_games": []
         },
         {

@@ -7717,6 +7717,17 @@
             "img": ""
         },
         {
+            "id": "293fc6da-f295-11ee-ab6f-0242ac130002",
+            "tournament_id": 0,
+            "name": "Legion zs",
+            "players": [
+                "Adri ᵈᵉᵃˡᵉ😸",
+                "KyloZS",
+                "FOXY"
+            ],
+            "img": ""
+        },
+        {
             "id": "b012bce8-f462-11ee-8be3-0242ac130003",
             "tournament_id": 0,
             "name": "塔罗会",
@@ -26293,16 +26304,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "293fc6da-f295-11ee-ab6f-0242ac130002",
-                "name": "Legion zs"
+                "name": "Legion zs",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
-                "name": "The Rezu Boys"
+                "name": "The Rezu Boys",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "293fc6da-f295-11ee-ab6f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "293fc6da-f295-11ee-ab6f-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 880,
@@ -29016,7 +29056,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5f3a211a-f42d-11ee-99f2-0242ac130003",
+                "name": "The Rezu Boys"
             },
             "opponent2": {
                 "id": null
@@ -31642,10 +31683,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "293fc6da-f295-11ee-ab6f-0242ac130002",
+                "name": "Legion zs"
             },
             "opponent2": {
-                "id": null
+                "id": "b012bce8-f462-11ee-8be3-0242ac130003",
+                "name": "塔罗会"
             },
             "match_games": []
         },

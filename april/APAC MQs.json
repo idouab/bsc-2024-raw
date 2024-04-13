@@ -11594,16 +11594,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "93474966-f323-11ee-b25b-0242ac130003",
-                "name": "やまもとやまと"
+                "name": "やまもとやまと",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
-                "name": "Why we lose"
+                "name": "Why we lose",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 329,
@@ -11612,16 +11641,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
-                "name": "Angelic"
+                "name": "Angelic",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ccf411a2-f293-11ee-880a-0242ac130002",
-                "name": "young bear"
+                "name": "young bear",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 330,
@@ -11882,16 +11940,69 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61eda130-f64d-11ee-846f-0242ac130003",
-                "name": "Aquamarine"
+                "name": "Aquamarine",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
-                "name": "국회의사당"
+                "name": "국회의사당",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 377,
@@ -12018,7 +12129,8 @@
                 "name": "F/A Nai Dug"
             },
             "opponent2": {
-                "id": null
+                "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                "name": "Why we lose"
             },
             "match_games": []
         },
@@ -12031,7 +12143,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c01eb6-f293-11ee-bb2e-0242ac130002",
+                "name": "Angelic"
             },
             "opponent2": {
                 "id": null
@@ -14722,10 +14835,11 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7bbe8574-f360-11ee-a823-0242ac130003",
-                "name": "いんたけ"
+                "name": "いんたけ",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "9e43ecb2-f3d1-11ee-b551-0242ac130003",
@@ -15337,7 +15451,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9e43ecb2-f3d1-11ee-b551-0242ac130003",
+                "name": "THE AUS EDGERS"
             },
             "opponent2": {
                 "id": null
@@ -15417,7 +15532,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "93474966-f323-11ee-b25b-0242ac130003",
+                "name": "やまもとやまと"
             },
             "opponent2": {
                 "id": null
@@ -15675,7 +15791,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                "name": "국회의사당"
             },
             "opponent2": {
                 "id": null
@@ -15915,7 +16032,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                "name": "young bear"
             },
             "opponent2": {
                 "id": null

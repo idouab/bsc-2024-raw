@@ -2899,6 +2899,17 @@
             "img": ""
         },
         {
+            "id": "b6895f32-f363-11ee-93e4-0242ac130003",
+            "tournament_id": 0,
+            "name": "AHO BANANA",
+            "players": [
+                "SONY",
+                "amuos",
+                "まなてぃー。"
+            ],
+            "img": ""
+        },
+        {
             "id": "8cab0652-f345-11ee-8345-0242ac130002",
             "tournament_id": 0,
             "name": "Gladiatorz",
@@ -2957,6 +2968,18 @@
             "img": ""
         },
         {
+            "id": "698075b8-f584-11ee-b779-0242ac130003",
+            "tournament_id": 0,
+            "name": "DARKSIDE",
+            "players": [
+                "VINEET",
+                "🇮🇳",
+                "Deku",
+                "ThatLeonGuy"
+            ],
+            "img": ""
+        },
+        {
             "id": "7351af06-f3ce-11ee-8e6a-0242ac130003",
             "tournament_id": 0,
             "name": "ジャストミート",
@@ -2964,6 +2987,18 @@
                 "JM#ryuchan",
                 "どすこいばけつ",
                 "JM#arts"
+            ],
+            "img": ""
+        },
+        {
+            "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+            "tournament_id": 0,
+            "name": "Ok we do",
+            "players": [
+                "Tan🐿",
+                "motta kasayam",
+                "DRANZER",
+                "ᴀͥmͣaͫanᵗʰᵉ₽℟Ø⚡"
             ],
             "img": ""
         },
@@ -4267,16 +4302,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
-                "name": "Crazy Elephant"
+                "name": "Crazy Elephant",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b6895f32-f363-11ee-93e4-0242ac130003",
-                "name": "AHO BANANA"
+                "name": "AHO BANANA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6895f32-f363-11ee-93e4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6895f32-f363-11ee-93e4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 48,
@@ -5213,16 +5277,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "698075b8-f584-11ee-b779-0242ac130003",
-                "name": "DARKSIDE"
+                "name": "DARKSIDE",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
-                "name": "Essential"
+                "name": "Essential",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "698075b8-f584-11ee-b779-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "698075b8-f584-11ee-b779-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 93,
@@ -5473,16 +5566,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
-                "name": "最強狐崇拝也nhk党"
+                "name": "最強狐崇拝也nhk党",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
-                "name": "Ok we do"
+                "name": "Ok we do",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 106,
@@ -6427,7 +6549,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                "name": "Crazy Elephant"
             },
             "opponent2": {
                 "id": null
@@ -6898,7 +7021,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd43c4f4-f293-11ee-9ff8-0242ac130002",
+                "name": "最強狐崇拝也nhk党"
             },
             "opponent2": {
                 "id": null
@@ -8380,7 +8504,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6895f32-f363-11ee-93e4-0242ac130003",
+                "name": "AHO BANANA"
             },
             "opponent2": {
                 "id": null
@@ -8783,7 +8908,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                "name": "Ok we do"
             },
             "opponent2": {
                 "id": null

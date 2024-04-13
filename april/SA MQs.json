@@ -26337,16 +26337,45 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "147d7ff2-f296-11ee-8349-0242ac130002",
-                "name": "Blue Lock⚽"
+                "name": "Blue Lock⚽",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b129a1ce-f295-11ee-8208-0242ac130002",
-                "name": "ACRE LOVERS"
+                "name": "ACRE LOVERS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 837,
@@ -26525,10 +26554,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                "name": "Blue Lock⚽"
             },
             "opponent2": {
-                "id": null
+                "id": "b8da95b8-f295-11ee-83b8-0242ac130002",
+                "name": "Reis do PL"
             },
             "match_games": []
         },
@@ -36505,16 +36536,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5622b44-f295-11ee-bad3-0242ac130002",
-                "name": "Titans E-Sports"
+                "name": "Titans E-Sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
-                "name": "Grupinho do Brawl"
+                "name": "Grupinho do Brawl",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 816,
@@ -37102,7 +37162,8 @@
                 "name": "GBD BILLY"
             },
             "opponent2": {
-                "id": null
+                "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                "name": "Titans E-Sports"
             },
             "match_games": []
         },
@@ -38114,7 +38175,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                "name": "ACRE LOVERS"
             },
             "opponent2": {
                 "id": null

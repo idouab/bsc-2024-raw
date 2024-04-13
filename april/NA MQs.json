@@ -39335,16 +39335,45 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2819945c-f295-11ee-a4ca-0242ac130002",
-                "name": "Goblin Gang F/A"
+                "name": "Goblin Gang F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
-                "name": "WBA"
+                "name": "WBA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1447,
@@ -52085,7 +52114,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
+                "name": "WBA"
             },
             "opponent2": {
                 "id": null

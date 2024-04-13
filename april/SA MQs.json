@@ -22488,16 +22488,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14889162-f296-11ee-a9ed-0242ac130002",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b9737758-f473-11ee-ba76-0242ac130003",
-                "name": "Los chapulines"
+                "name": "Los chapulines",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 631,
@@ -24126,10 +24155,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                "name": "SKCalalas"
             },
             "opponent2": {
-                "id": null
+                "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                "name": "Legends Stars"
             },
             "match_games": []
         },
@@ -32385,7 +32416,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                "name": "Los chapulines"
             },
             "opponent2": {
                 "id": null

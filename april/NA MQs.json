@@ -8625,6 +8625,17 @@
             "img": ""
         },
         {
+            "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
+            "tournament_id": 0,
+            "name": "Animal Kingdom",
+            "players": [
+                "JIRKR|🐉",
+                "JIRKR|👁️🫦👁️",
+                "JIRKR|🧬❄️"
+            ],
+            "img": ""
+        },
+        {
             "id": "972beda0-f3b6-11ee-bd13-0242ac130003",
             "tournament_id": 0,
             "name": "Phantoms FC Gaming",
@@ -25121,16 +25132,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "403e95c4-f780-11ee-b909-0242ac130003",
-                "name": "nocturne"
+                "name": "nocturne",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
-                "name": "Animal Kingdom"
+                "name": "Animal Kingdom",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "403e95c4-f780-11ee-b909-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "403e95c4-f780-11ee-b909-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "403e95c4-f780-11ee-b909-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 783,
@@ -30621,7 +30673,8 @@
                 "name": "Toronto Brawl Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "403e95c4-f780-11ee-b909-0242ac130003",
+                "name": "nocturne"
             },
             "match_games": []
         },
@@ -35009,10 +35062,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2f4f3560-f38a-11ee-b447-0242ac130003",
+                "name": "Animal Kingdom"
             },
             "opponent2": {
-                "id": null
+                "id": "972beda0-f3b6-11ee-bd13-0242ac130003",
+                "name": "Phantoms FC Gaming"
             },
             "match_games": []
         },

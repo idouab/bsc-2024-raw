@@ -8061,6 +8061,18 @@
             "img": ""
         },
         {
+            "id": "622f7a60-f382-11ee-a6fa-0242ac130003",
+            "tournament_id": 0,
+            "name": "Latin | Division",
+            "players": [
+                "TQ|Ivan",
+                "𝕰𝖒𝖎𝖑𝖞🐣💛",
+                "gamer",
+                "♤Eugeo◇"
+            ],
+            "img": ""
+        },
+        {
             "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
             "tournament_id": 0,
             "name": "MAA LuismiBoy's",
@@ -9487,6 +9499,17 @@
                 "malba",
                 "JoseSL",
                 "PANDULCE"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b84bb664-f36b-11ee-b9e5-0242ac130003",
+            "tournament_id": 0,
+            "name": "LOS TORTUGOS🐢🐢",
+            "players": [
+                "∆NGEL™😁ʕ´•ᴥ•`ʔ",
+                "BL4Z3",
+                "Gael :)"
             ],
             "img": ""
         },
@@ -20657,10 +20680,11 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b84bb664-f36b-11ee-b9e5-0242ac130003",
-                "name": "LOS TORTUGOS🐢🐢"
+                "name": "LOS TORTUGOS🐢🐢",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
@@ -21342,16 +21366,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
-                "name": "pencilpoopoo"
+                "name": "pencilpoopoo",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "75611e04-f8e6-11ee-a52f-0242ac130003",
-                "name": "ala viva gaming"
+                "name": "ala viva gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75611e04-f8e6-11ee-a52f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75611e04-f8e6-11ee-a52f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 680,
@@ -25700,16 +25753,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "93829392-f952-11ee-adf9-0242ac130003",
-                "name": "THE THUNDER SPIRITS"
+                "name": "THE THUNDER SPIRITS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "622f7a60-f382-11ee-a6fa-0242ac130003",
-                "name": "Latin | Division"
+                "name": "Latin | Division",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "93829392-f952-11ee-adf9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "622f7a60-f382-11ee-a6fa-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "93829392-f952-11ee-adf9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "622f7a60-f382-11ee-a6fa-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 835,
@@ -27889,7 +27971,8 @@
                 "name": "Tribe Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
+                "name": "Ye"
             },
             "match_games": []
         },
@@ -28054,10 +28137,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
+                "name": "pencilpoopoo"
             },
             "opponent2": {
-                "id": null
+                "id": "578fe91a-f97b-11ee-9027-0242ac130003",
+                "name": "Fénix Team"
             },
             "match_games": []
         },
@@ -29330,7 +29415,8 @@
                 "name": "WitnessTheJourney"
             },
             "opponent2": {
-                "id": null
+                "id": "93829392-f952-11ee-adf9-0242ac130003",
+                "name": "THE THUNDER SPIRITS"
             },
             "match_games": []
         },
@@ -32746,10 +32832,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "622f7a60-f382-11ee-a6fa-0242ac130003",
+                "name": "Latin | Division"
             },
             "opponent2": {
-                "id": null
+                "id": "6e03c18e-f3cd-11ee-9525-0242ac130003",
+                "name": "MAA LuismiBoy's"
             },
             "match_games": []
         },
@@ -34386,10 +34474,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b84bb664-f36b-11ee-b9e5-0242ac130003",
+                "name": "LOS TORTUGOS🐢🐢"
             },
             "opponent2": {
-                "id": null
+                "id": "b570c962-f54a-11ee-a24b-0242ac130003",
+                "name": "DHS brawl"
             },
             "match_games": []
         },

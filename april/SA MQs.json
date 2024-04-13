@@ -26984,16 +26984,45 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14889162-f296-11ee-a9ed-0242ac130002",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "14814204-f296-11ee-8518-0242ac130002",
-                "name": "Marruecos"
+                "name": "Marruecos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "14814204-f296-11ee-8518-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "14814204-f296-11ee-8518-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 913,
@@ -40764,7 +40793,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14814204-f296-11ee-8518-0242ac130002",
+                "name": "Marruecos"
             },
             "opponent2": {
                 "id": null

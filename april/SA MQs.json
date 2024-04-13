@@ -5359,6 +5359,18 @@
             "img": ""
         },
         {
+            "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+            "tournament_id": 0,
+            "name": "Bastodont🔥",
+            "players": [
+                "Facu",
+                "ALEXA❤️❤️",
+                "⭐sebastian⭐",
+                "Artiscrac"
+            ],
+            "img": ""
+        },
+        {
             "id": "5d62957e-f924-11ee-8302-0242ac130003",
             "tournament_id": 0,
             "name": "Os ruin",
@@ -5830,6 +5842,17 @@
                 "TheAndriw26",
                 "WONXX",
                 "乇ㄥ丨卂丂"
+            ],
+            "img": ""
+        },
+        {
+            "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+            "tournament_id": 0,
+            "name": "DreamCake",
+            "players": [
+                "PedroGH96",
+                "SPACE | BORATTO",
+                "SPACE | FIRE"
             ],
             "img": ""
         },
@@ -6806,16 +6829,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
-                "name": "NVD"
+                "name": "NVD",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
-                "name": "Bastodont🔥"
+                "name": "Bastodont🔥",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 32,
@@ -11983,16 +12035,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
-                "name": "DreamCake"
+                "name": "DreamCake",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "41098574-f530-11ee-a323-0242ac130003",
-                "name": "Stardust Crusaders"
+                "name": "Stardust Crusaders",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41098574-f530-11ee-a323-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41098574-f530-11ee-a323-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 233,
@@ -12786,7 +12867,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                "name": "NVD"
             },
             "opponent2": {
                 "id": null
@@ -14457,7 +14539,8 @@
                 "name": "ZaGOATS"
             },
             "opponent2": {
-                "id": null
+                "id": "41098574-f530-11ee-a323-0242ac130003",
+                "name": "Stardust Crusaders"
             },
             "match_games": []
         },
@@ -16816,7 +16899,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+                "name": "Bastodont🔥"
             },
             "opponent2": {
                 "id": null
@@ -17914,7 +17998,8 @@
                 "name": "Maín Edgar HLM"
             },
             "opponent2": {
-                "id": null
+                "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+                "name": "DreamCake"
             },
             "match_games": []
         },

@@ -7974,6 +7974,17 @@
             "img": ""
         },
         {
+            "id": "0ce9eedc-f896-11ee-a609-0242ac130003",
+            "tournament_id": 0,
+            "name": "Los hispanos",
+            "players": [
+                "tumamucrak",
+                "「ʙʙʏJC」ɴitα❤️🐻",
+                "DRAGONIX#@"
+            ],
+            "img": ""
+        },
+        {
             "id": "0cb5e592-f44a-11ee-ba61-0242ac130003",
             "tournament_id": 0,
             "name": "LOUVERS",
@@ -12026,16 +12037,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c810e6e6-f3b1-11ee-a478-0242ac130003",
-                "name": "Monke Mania"
+                "name": "Monke Mania",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "62373c5c-f94d-11ee-8233-0242ac130003",
-                "name": "Fatherly Figures B"
+                "name": "Fatherly Figures B",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c810e6e6-f3b1-11ee-a478-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c810e6e6-f3b1-11ee-a478-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c810e6e6-f3b1-11ee-a478-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 175,
@@ -15463,16 +15515,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
-                "name": "Kenyan Karaoke Klub"
+                "name": "Kenyan Karaoke Klub",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0ce9eedc-f896-11ee-a609-0242ac130003",
-                "name": "Los hispanos"
+                "name": "Los hispanos",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ce9eedc-f896-11ee-a609-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0ce9eedc-f896-11ee-a609-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ce9eedc-f896-11ee-a609-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 347,
@@ -21859,7 +21952,8 @@
                 "name": "Stinky Skibidi"
             },
             "opponent2": {
-                "id": null
+                "id": "ab7aa7da-f3be-11ee-9d47-0242ac130003",
+                "name": "Kenyan Karaoke Klub"
             },
             "match_games": []
         },

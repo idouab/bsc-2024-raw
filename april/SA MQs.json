@@ -40416,16 +40416,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
-                "name": "VongolaAkatsuki"
+                "name": "VongolaAkatsuki",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
-                "name": "Tres tristes tigres"
+                "name": "Tres tristes tigres",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 920,
@@ -40735,7 +40764,8 @@
                 "name": "Panchos"
             },
             "opponent2": {
-                "id": null
+                "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                "name": "VongolaAkatsuki"
             },
             "match_games": []
         },

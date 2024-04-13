@@ -25766,16 +25766,45 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "148500ec-f296-11ee-b6ba-0242ac130002",
-                "name": "Calabresos F/A"
+                "name": "Calabresos F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
-                "name": "Oreon"
+                "name": "Oreon",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "148500ec-f296-11ee-b6ba-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "148500ec-f296-11ee-b6ba-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 823,
@@ -26375,10 +26404,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "148500ec-f296-11ee-b6ba-0242ac130002",
+                "name": "Calabresos F/A"
             },
             "opponent2": {
-                "id": null
+                "id": "b771214c-f295-11ee-8b4c-0242ac130002",
+                "name": "DOM Esports"
             },
             "match_games": []
         },
@@ -38049,7 +38080,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
+                "name": "Oreon"
             },
             "opponent2": {
                 "id": null

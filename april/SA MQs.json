@@ -21728,16 +21728,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b62ff650-f295-11ee-85fb-0242ac130002",
-                "name": "Thunder Hunters"
+                "name": "Thunder Hunters",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "00e48e38-f433-11ee-8f87-0242ac130003",
-                "name": "Os Magnus"
+                "name": "Os Magnus",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b62ff650-f295-11ee-85fb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "00e48e38-f433-11ee-8f87-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b62ff650-f295-11ee-85fb-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "00e48e38-f433-11ee-8f87-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b62ff650-f295-11ee-85fb-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "00e48e38-f433-11ee-8f87-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 614,
@@ -23627,7 +23668,8 @@
                 "name": "Olimpo Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "00e48e38-f433-11ee-8f87-0242ac130003",
+                "name": "Os Magnus"
             },
             "match_games": []
         },
@@ -30824,7 +30866,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b62ff650-f295-11ee-85fb-0242ac130002",
+                "name": "Thunder Hunters"
             },
             "opponent2": {
                 "id": null

@@ -8298,6 +8298,17 @@
             "img": ""
         },
         {
+            "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+            "tournament_id": 0,
+            "name": "MMT GAMING",
+            "players": [
+                "Rodo1029",
+                "rolphi99",
+                "Prost4r05"
+            ],
+            "img": ""
+        },
+        {
             "id": "aea94c58-f437-11ee-962b-0242ac130003",
             "tournament_id": 0,
             "name": "KAL",
@@ -25795,16 +25806,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "902cee0a-f94c-11ee-857c-0242ac130003",
-                "name": "JR Gaming"
+                "name": "JR Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
-                "name": "MMT GAMING"
+                "name": "MMT GAMING",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "902cee0a-f94c-11ee-857c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "902cee0a-f94c-11ee-857c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 815,
@@ -30061,7 +30101,8 @@
                 "name": "Flamingods"
             },
             "opponent2": {
-                "id": null
+                "id": "902cee0a-f94c-11ee-857c-0242ac130003",
+                "name": "JR Gaming"
             },
             "match_games": []
         },
@@ -33855,10 +33896,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0eff12ea-f4ab-11ee-85a7-0242ac130003",
+                "name": "MMT GAMING"
             },
             "opponent2": {
-                "id": null
+                "id": "aea94c58-f437-11ee-962b-0242ac130003",
+                "name": "KAL"
             },
             "match_games": []
         },

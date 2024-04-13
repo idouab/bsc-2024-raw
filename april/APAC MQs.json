@@ -9137,16 +9137,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
-                "name": "DevilMayCry"
+                "name": "DevilMayCry",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
-                "name": "Demonic"
+                "name": "Demonic",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 203,
@@ -12972,16 +13001,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9e43ecb2-f3d1-11ee-b551-0242ac130003",
-                "name": "THE AUS EDGERS"
+                "name": "THE AUS EDGERS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "133ede5e-f441-11ee-81cc-0242ac130003",
-                "name": "Moonsault"
+                "name": "Moonsault",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9e43ecb2-f3d1-11ee-b551-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9e43ecb2-f3d1-11ee-b551-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 177,
@@ -13942,7 +14000,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                "name": "DevilMayCry"
             },
             "opponent2": {
                 "id": null

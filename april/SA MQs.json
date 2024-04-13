@@ -39565,16 +39565,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c9fe0f8a-f440-11ee-994d-0242ac130003",
-                "name": "La Plata Gimnasia"
+                "name": "La Plata Gimnasia",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
-                "name": "AnimaGang"
+                "name": "AnimaGang",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c9fe0f8a-f440-11ee-994d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c9fe0f8a-f440-11ee-994d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c9fe0f8a-f440-11ee-994d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 893,
@@ -40234,10 +40275,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c9fe0f8a-f440-11ee-994d-0242ac130003",
+                "name": "La Plata Gimnasia"
             },
             "opponent2": {
-                "id": null
+                "id": "41161058-f3d9-11ee-b4e1-0242ac130003",
+                "name": "Mamadegosha"
             },
             "match_games": []
         },

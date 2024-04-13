@@ -10210,16 +10210,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
-                "name": "TRW | Team rAwR"
+                "name": "TRW | Team rAwR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0fddd24c-f3a1-11ee-85ec-0242ac130003",
-                "name": "Trevo E-Sports 🍀"
+                "name": "Trevo E-Sports 🍀",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0fddd24c-f3a1-11ee-85ec-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0fddd24c-f3a1-11ee-85ec-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0fddd24c-f3a1-11ee-85ec-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 175,
@@ -13582,7 +13623,8 @@
                 "name": "BASKERVILLE"
             },
             "opponent2": {
-                "id": null
+                "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                "name": "TRW | Team rAwR"
             },
             "match_games": []
         },

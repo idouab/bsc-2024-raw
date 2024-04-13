@@ -38065,16 +38065,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e99a880-f295-11ee-8771-0242ac130002",
-                "name": "Instinct Gaming"
+                "name": "Instinct Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
-                "name": "Dragon Fruits"
+                "name": "Dragon Fruits",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1346,
@@ -39022,7 +39051,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                "name": "Instinct Gaming"
             },
             "opponent2": {
                 "id": null
@@ -49276,7 +49306,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2ae37dce-f295-11ee-b5df-0242ac130002",
+                "name": "Dragon Fruits"
             },
             "opponent2": {
                 "id": null

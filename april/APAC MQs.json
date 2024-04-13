@@ -12821,16 +12821,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
-                "name": "ケイワイプレイヤー"
+                "name": "ケイワイプレイヤー",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "11062938-f42f-11ee-b9c2-0242ac130003",
-                "name": "Team S0"
+                "name": "Team S0",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "11062938-f42f-11ee-b9c2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "11062938-f42f-11ee-b9c2-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 379,
@@ -13363,16 +13392,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd49d88a-f293-11ee-9545-0242ac130002",
-                "name": "3R Gaming"
+                "name": "3R Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61eda130-f64d-11ee-846f-0242ac130003",
-                "name": "Aquamarine"
+                "name": "Aquamarine",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd49d88a-f293-11ee-9545-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd49d88a-f293-11ee-9545-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 425,
@@ -13387,7 +13445,8 @@
                 "name": "Crazy Raccoon"
             },
             "opponent2": {
-                "id": null
+                "id": "11062938-f42f-11ee-b9c2-0242ac130003",
+                "name": "Team S0"
             },
             "match_games": []
         },
@@ -13508,7 +13567,8 @@
                 "name": "たこまるふぁみりー"
             },
             "opponent2": {
-                "id": null
+                "id": "cd49d88a-f293-11ee-9545-0242ac130002",
+                "name": "3R Gaming"
             },
             "match_games": []
         },
@@ -17057,16 +17117,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
-                "name": "Qtpies"
+                "name": "Qtpies",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
-                "name": "The Last Dance"
+                "name": "The Last Dance",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 355,
@@ -17808,7 +17897,8 @@
                 "name": "ZXCV"
             },
             "opponent2": {
-                "id": null
+                "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                "name": "The Last Dance"
             },
             "match_games": []
         },
@@ -18575,7 +18665,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                "name": "Aquamarine"
             },
             "opponent2": {
                 "id": null
@@ -18608,7 +18699,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdcb04e6-f293-11ee-ab12-0242ac130002",
+                "name": "ケイワイプレイヤー"
             },
             "opponent2": {
                 "id": null

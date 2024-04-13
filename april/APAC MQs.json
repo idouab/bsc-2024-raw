@@ -2830,6 +2830,18 @@
             "img": ""
         },
         {
+            "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+            "tournament_id": 0,
+            "name": "Qtpies",
+            "players": [
+                "Jsaac",
+                "warriorsin6",
+                "vitagen",
+                "HideYourKids"
+            ],
+            "img": ""
+        },
+        {
             "id": "8cab0652-f345-11ee-8345-0242ac130002",
             "tournament_id": 0,
             "name": "Gladiatorz",
@@ -2850,6 +2862,17 @@
                 "RN | SASUKE",
                 "Peter Porker",
                 "VicharayV"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cd9580be-f293-11ee-a5f9-0242ac130002",
+            "tournament_id": 0,
+            "name": "NJ Factory",
+            "players": [
+                "NJ Manager",
+                "Dom",
+                "NJ Incognito"
             ],
             "img": ""
         }
@@ -3317,16 +3340,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
-                "name": "Brawling legends"
+                "name": "Brawling legends",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
-                "name": "DHN"
+                "name": "DHN",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 19,
@@ -3703,16 +3755,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
-                "name": "噎鴿"
+                "name": "噎鴿",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
-                "name": "Qtpies"
+                "name": "Qtpies",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "83c0e5c4-f49f-11ee-b3e4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 39,
@@ -4598,16 +4679,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd9580be-f293-11ee-a5f9-0242ac130002",
-                "name": "NJ Factory"
+                "name": "NJ Factory",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
-                "name": "Team Supretty"
+                "name": "Team Supretty",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd9580be-f293-11ee-a5f9-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd9580be-f293-11ee-a5f9-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 86,
@@ -5520,7 +5630,8 @@
                 "name": "アヒル同好会"
             },
             "opponent2": {
-                "id": null
+                "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                "name": "DHN"
             },
             "match_games": []
         },
@@ -6067,7 +6178,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "925d5eaa-f774-11ee-b46e-0242ac130003",
+                "name": "Team Supretty"
             },
             "opponent2": {
                 "id": null
@@ -7960,7 +8072,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd9580be-f293-11ee-a5f9-0242ac130002",
+                "name": "NJ Factory"
             },
             "opponent2": {
                 "id": null

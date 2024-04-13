@@ -5368,6 +5368,17 @@
                 "iguinhoplay"
             ],
             "img": ""
+        },
+        {
+            "id": "4143d680-f462-11ee-938c-0242ac130003",
+            "tournament_id": 0,
+            "name": "kutova",
+            "players": [
+                "Brenoll",
+                "TH| Lukinhax",
+                "🤡rafis7😈"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -8133,16 +8144,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "82714384-f36a-11ee-a530-0242ac130003",
-                "name": "New Metal"
+                "name": "New Metal",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
-                "name": "SQS - Se quiser sim"
+                "name": "SQS - Se quiser sim",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "82714384-f36a-11ee-a530-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "82714384-f36a-11ee-a530-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 143,
@@ -10199,16 +10239,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4143d680-f462-11ee-938c-0242ac130003",
-                "name": "kutova"
+                "name": "kutova",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e75e813c-f827-11ee-87b8-0242ac130003",
-                "name": "Mamba mentality 🐍"
+                "name": "Mamba mentality 🐍",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4143d680-f462-11ee-938c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4143d680-f462-11ee-938c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 248,
@@ -12391,7 +12460,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                "name": "Mamba mentality 🐍"
             },
             "opponent2": {
                 "id": null
@@ -15771,7 +15841,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4143d680-f462-11ee-938c-0242ac130003",
+                "name": "kutova"
             },
             "opponent2": {
                 "id": null

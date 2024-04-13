@@ -27851,6 +27851,17 @@
             "img": ""
         },
         {
+            "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
+            "tournament_id": 0,
+            "name": "Milherme pro",
+            "players": [
+                "MLM | Miguel M",
+                "MLM |Guipro",
+                "cloud"
+            ],
+            "img": ""
+        },
+        {
             "id": "87268648-f8e0-11ee-9b6f-0242ac130003",
             "tournament_id": 0,
             "name": "Amphisbaena",
@@ -43763,16 +43774,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f91df226-f436-11ee-bda3-0242ac130003",
-                "name": "Los Primosss"
+                "name": "Los Primosss",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
-                "name": "Milherme pro"
+                "name": "Milherme pro",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 433,
@@ -59590,7 +59642,8 @@
                 "name": "PRS|"
             },
             "opponent2": {
-                "id": null
+                "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                "name": "Los Primosss"
             },
             "match_games": []
         },
@@ -76392,7 +76445,8 @@
                 "name": "RRZ"
             },
             "opponent2": {
-                "id": null
+                "id": "8facf6d6-f448-11ee-a0fe-0242ac130003",
+                "name": "Milherme pro"
             },
             "match_games": []
         },

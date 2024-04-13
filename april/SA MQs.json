@@ -15504,7 +15504,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 0,
             "opponent1": {
                 "id": "b426053e-f295-11ee-a4b5-0242ac130002",
                 "name": "The Last Hope 🔮"
@@ -15803,16 +15803,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
-                "name": "F/A JPZ"
+                "name": "F/A JPZ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2e10de2c-f73d-11ee-817d-0242ac130003",
-                "name": "PayasosEntertainment"
+                "name": "PayasosEntertainment",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e10de2c-f73d-11ee-817d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e10de2c-f73d-11ee-817d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 362,
@@ -16722,16 +16751,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
-                "name": "MaGaCho"
+                "name": "MaGaCho",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a80aee78-f361-11ee-a296-0242ac130003",
-                "name": "[JAH] LANÇADORES"
+                "name": "[JAH] LANÇADORES",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 405,
@@ -18530,7 +18588,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "01ad5812-f448-11ee-8c6b-0242ac130003",
+                "name": "MaGaCho"
             },
             "opponent2": {
                 "id": null
@@ -20559,16 +20618,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
-                "name": "Tired of winning Tow"
+                "name": "Tired of winning Tow",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
-                "name": "TEAM DEPENDE"
+                "name": "TEAM DEPENDE",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 288,
@@ -22625,7 +22713,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                "name": "[JAH] LANÇADORES"
             },
             "opponent2": {
                 "id": null
@@ -23319,10 +23408,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e10de2c-f73d-11ee-817d-0242ac130003",
+                "name": "PayasosEntertainment"
             },
             "opponent2": {
-                "id": null
+                "id": "185206f8-f44d-11ee-b8d1-0242ac130003",
+                "name": "The Psychics"
             },
             "match_games": []
         },

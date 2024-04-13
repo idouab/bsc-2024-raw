@@ -7617,10 +7617,11 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d694a5be-f36a-11ee-aeaa-0242ac130003",
-                "name": "|DC| soports"
+                "name": "|DC| soports",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "fd34d8c6-f4e4-11ee-880f-0242ac130003",
@@ -15409,16 +15410,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b64c8216-f295-11ee-b803-0242ac130002",
-                "name": "DOGGER"
+                "name": "DOGGER",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
-                "name": "bota limpo"
+                "name": "bota limpo",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 345,
@@ -15479,7 +15509,10 @@
                 "id": "b426053e-f295-11ee-a4b5-0242ac130002",
                 "name": "The Last Hope 🔮"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "fd34d8c6-f4e4-11ee-880f-0242ac130003",
+                "name": "Borboleto"
+            },
             "match_games": []
         },
         {
@@ -16411,16 +16444,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ed19620-f6e1-11ee-a840-0242ac130003",
-                "name": "SPARKING DEMONS"
+                "name": "SPARKING DEMONS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b467e2e6-f51b-11ee-b995-0242ac130003",
-                "name": "EJE"
+                "name": "EJE",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0ed19620-f6e1-11ee-a840-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b467e2e6-f51b-11ee-b995-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0ed19620-f6e1-11ee-a840-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b467e2e6-f51b-11ee-b995-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 396,
@@ -16789,16 +16851,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b2b07450-f295-11ee-b95c-0242ac130002",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "77e0470a-f50c-11ee-a504-0242ac130003",
-                "name": "Los Virgenes"
+                "name": "Los Virgenes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "77e0470a-f50c-11ee-a504-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "77e0470a-f50c-11ee-a504-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 417,
@@ -17866,10 +17957,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "opponent2": {
-                "id": null
+                "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
+                "name": "TCMM|BASERA"
             },
             "match_games": []
         },
@@ -18444,7 +18537,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                "name": "Fortune Tigers"
             },
             "opponent2": {
                 "id": null
@@ -22220,7 +22314,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "77e0470a-f50c-11ee-a504-0242ac130003",
+                "name": "Los Virgenes"
             },
             "opponent2": {
                 "id": null
@@ -22556,7 +22651,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0ed19620-f6e1-11ee-a840-0242ac130003",
+                "name": "SPARKING DEMONS"
             },
             "opponent2": {
                 "id": null
@@ -23376,7 +23472,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                "name": "DOGGER"
             },
             "opponent2": {
                 "id": null

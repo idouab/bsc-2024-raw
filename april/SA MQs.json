@@ -22613,16 +22613,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5622b44-f295-11ee-bad3-0242ac130002",
-                "name": "Titans E-Sports"
+                "name": "Titans E-Sports",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b662dab6-f295-11ee-b6c4-0242ac130002",
-                "name": "Távola Redonda"
+                "name": "Távola Redonda",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b662dab6-f295-11ee-b6c4-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b662dab6-f295-11ee-b6c4-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 637,
@@ -23869,7 +23898,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b662dab6-f295-11ee-b6c4-0242ac130002",
+                "name": "Távola Redonda"
             },
             "opponent2": {
                 "id": null
@@ -28165,16 +28195,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
-                "name": "PaiN"
+                "name": "PaiN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b354dbf8-f295-11ee-828d-0242ac130002",
-                "name": "MidNight sports"
+                "name": "MidNight sports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b354dbf8-f295-11ee-828d-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b354dbf8-f295-11ee-828d-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b354dbf8-f295-11ee-828d-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 537,
@@ -30099,7 +30170,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                "name": "PaiN"
             },
             "opponent2": {
                 "id": null
@@ -31550,7 +31622,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                "name": "Titans E-Sports"
             },
             "opponent2": {
                 "id": null

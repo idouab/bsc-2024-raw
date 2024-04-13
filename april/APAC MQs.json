@@ -21334,16 +21334,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
-                "name": "Delay Esports"
+                "name": "Delay Esports",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f3c44900-f293-11ee-a556-0242ac130002",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 470,
@@ -21653,7 +21682,8 @@
                 "name": "HOW"
             },
             "opponent2": {
-                "id": null
+                "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                "name": "Octopus Primes 🐙"
             },
             "match_games": []
         },

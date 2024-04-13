@@ -7670,6 +7670,17 @@
             "img": ""
         },
         {
+            "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+            "tournament_id": 0,
+            "name": "🍚The Rice Farmers🍚",
+            "players": [
+                "razor",
+                "duck",
+                "Pat"
+            ],
+            "img": ""
+        },
+        {
             "id": "82d6393c-f398-11ee-832d-0242ac130003",
             "tournament_id": 0,
             "name": "Lemays",
@@ -11342,16 +11353,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "85151844-f6ea-11ee-85f6-0242ac130003",
-                "name": "🍚The Rice Farmers🍚"
+                "name": "🍚The Rice Farmers🍚",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "55887a94-f3d9-11ee-a889-0242ac130003",
-                "name": "Anbu"
+                "name": "Anbu",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "55887a94-f3d9-11ee-a889-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "55887a94-f3d9-11ee-a889-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "55887a94-f3d9-11ee-a889-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 131,
@@ -20554,7 +20606,8 @@
                 "name": "Remaining 7 Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "55887a94-f3d9-11ee-a889-0242ac130003",
+                "name": "Anbu"
             },
             "match_games": []
         },

@@ -28067,16 +28067,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16e8de1c-f363-11ee-aade-0242ac130003",
-                "name": "Team FL PERÚ"
+                "name": "Team FL PERÚ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "272499ce-f3d1-11ee-b9e4-0242ac130003",
-                "name": "Purple Guys💜"
+                "name": "Purple Guys💜",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "16e8de1c-f363-11ee-aade-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "272499ce-f3d1-11ee-b9e4-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "16e8de1c-f363-11ee-aade-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "272499ce-f3d1-11ee-b9e4-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 504,

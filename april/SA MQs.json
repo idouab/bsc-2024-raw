@@ -16149,16 +16149,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b32e6734-f295-11ee-bea7-0242ac130002",
-                "name": "Abuelas FC"
+                "name": "Abuelas FC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
-                "name": "Freak Show"
+                "name": "Freak Show",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 378,
@@ -23336,10 +23365,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                "name": "Freak Show"
             },
             "opponent2": {
-                "id": null
+                "id": "b0af4e60-f295-11ee-84f3-0242ac130002",
+                "name": "Tilines"
             },
             "match_games": []
         },

@@ -17230,16 +17230,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "17415c5e-f331-11ee-a8b8-0242ac130002",
-                "name": "ららら族"
+                "name": "ららら族",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c5659878-f4e3-11ee-b998-0242ac130003",
-                "name": "ぽよ"
+                "name": "ぽよ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "17415c5e-f331-11ee-a8b8-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "17415c5e-f331-11ee-a8b8-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "17415c5e-f331-11ee-a8b8-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 354,
@@ -18234,7 +18275,8 @@
                 "name": "Lightwattee"
             },
             "opponent2": {
-                "id": null
+                "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                "name": "ぽよ"
             },
             "match_games": []
         },

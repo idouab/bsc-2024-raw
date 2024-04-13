@@ -29140,6 +29140,17 @@
             "img": ""
         },
         {
+            "id": "2b29cbb8-f294-11ee-80e3-0242ac130002",
+            "tournament_id": 0,
+            "name": "PPS_vmc😎",
+            "players": [
+                "Hyra",
+                "PPS/ DĘMØN 😈🐓",
+                "laliloula"
+            ],
+            "img": ""
+        },
+        {
             "id": "833573c2-f521-11ee-a036-0242ac130003",
             "tournament_id": 0,
             "name": "Neon Nightsky",
@@ -29185,6 +29196,17 @@
             "img": ""
         },
         {
+            "id": "261c130e-f354-11ee-8af7-0242ac130003",
+            "tournament_id": 0,
+            "name": "GG | Gaming",
+            "players": [
+                "G_G|Freg",
+                "Rost.mode",
+                "Majoman"
+            ],
+            "img": ""
+        },
+        {
             "id": "926e7266-f63a-11ee-838b-0242ac130003",
             "tournament_id": 0,
             "name": "LS Gaming",
@@ -29214,6 +29236,17 @@
                 "Sleepy Sandy",
                 "WIEWIÓR",
                 "olo"
+            ],
+            "img": ""
+        },
+        {
+            "id": "803f1662-f40b-11ee-b0d2-0242ac130003",
+            "tournament_id": 0,
+            "name": "6pm",
+            "players": [
+                "Ich bins tim",
+                "BobIstTrash",
+                "Das Nexönchen"
             ],
             "img": ""
         },
@@ -53670,16 +53703,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b29cbb8-f294-11ee-80e3-0242ac130002",
-                "name": "PPS_vmc😎"
+                "name": "PPS_vmc😎",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c813b796-f4e1-11ee-b664-0242ac130003",
-                "name": "Kornelia"
+                "name": "Kornelia",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b29cbb8-f294-11ee-80e3-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c813b796-f4e1-11ee-b664-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b29cbb8-f294-11ee-80e3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c813b796-f4e1-11ee-b664-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 835,
@@ -54938,16 +55000,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "261c130e-f354-11ee-8af7-0242ac130003",
-                "name": "GG | Gaming"
+                "name": "GG | Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1cb00d60-f346-11ee-a63c-0242ac130003",
-                "name": "RLT Esports"
+                "name": "RLT Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "261c130e-f354-11ee-8af7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1cb00d60-f346-11ee-a63c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "261c130e-f354-11ee-8af7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1cb00d60-f346-11ee-a63c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 899,
@@ -55763,16 +55854,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "03d0be5e-f34e-11ee-a974-0242ac130003",
-                "name": "Otaku Elite"
+                "name": "Otaku Elite",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "803f1662-f40b-11ee-b0d2-0242ac130003",
-                "name": "6pm"
+                "name": "6pm",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "03d0be5e-f34e-11ee-a974-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "803f1662-f40b-11ee-b0d2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "03d0be5e-f34e-11ee-a974-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "803f1662-f40b-11ee-b0d2-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 940,
@@ -65549,7 +65669,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "03d0be5e-f34e-11ee-a974-0242ac130003",
+                "name": "Otaku Elite"
             },
             "opponent2": {
                 "id": null
@@ -82382,7 +82503,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "803f1662-f40b-11ee-b0d2-0242ac130003",
+                "name": "6pm"
             },
             "opponent2": {
                 "id": null

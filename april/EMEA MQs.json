@@ -83846,14 +83846,15 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4277bf0a-f294-11ee-bde3-0242ac130002",
                 "name": "FISHY"
             },
             "opponent2": {
                 "id": "4b33d5d4-f294-11ee-8694-0242ac130002",
-                "name": "LVA"
+                "name": "LVA",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -91927,7 +91928,10 @@
                 "id": "59275cba-f294-11ee-9039-0242ac130002",
                 "name": "EWA"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "4277bf0a-f294-11ee-bde3-0242ac130002",
+                "name": "FISHY"
+            },
             "match_games": []
         },
         {
@@ -110294,8 +110298,14 @@
             "round_id": 2,
             "child_count": 3,
             "status": 0,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "4b33d5d4-f294-11ee-8694-0242ac130002",
+                "name": "LVA"
+            },
+            "opponent2": {
+                "id": "e76caab0-f385-11ee-8d0b-0242ac130003",
+                "name": "SEA|ELITE"
+            },
             "match_games": []
         },
         {

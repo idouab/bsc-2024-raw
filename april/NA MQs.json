@@ -23145,16 +23145,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
-                "name": "Paputilinos"
+                "name": "Paputilinos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e50ffd7c-f983-11ee-af9c-0242ac130003",
-                "name": "jun"
+                "name": "jun",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e50ffd7c-f983-11ee-af9c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e50ffd7c-f983-11ee-af9c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 766,
@@ -24987,16 +25016,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83113de6-f83b-11ee-9385-0242ac130003",
-                "name": "TR|Racoon"
+                "name": "TR|Racoon",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7ae4546e-f39a-11ee-a270-0242ac130003",
-                "name": "Triple A"
+                "name": "Triple A",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "83113de6-f83b-11ee-9385-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7ae4546e-f39a-11ee-a270-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "83113de6-f83b-11ee-9385-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7ae4546e-f39a-11ee-a270-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 838,
@@ -27814,7 +27872,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                "name": "Paputilinos"
             },
             "opponent2": {
                 "id": null
@@ -28408,7 +28467,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "83113de6-f83b-11ee-9385-0242ac130003",
+                "name": "TR|Racoon"
             },
             "opponent2": {
                 "id": null

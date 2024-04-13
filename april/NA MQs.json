@@ -37982,16 +37982,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e07589a-f295-11ee-90ab-0242ac130002",
-                "name": "Juan Carlos Team"
+                "name": "Juan Carlos Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2c7b2d58-f295-11ee-aee8-0242ac130002",
-                "name": "K@os"
+                "name": "K@os",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c7b2d58-f295-11ee-aee8-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c7b2d58-f295-11ee-aee8-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1340,
@@ -39202,10 +39231,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                "name": "Juan Carlos Team"
             },
             "opponent2": {
-                "id": null
+                "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                "name": "SGJ"
             },
             "match_games": []
         },
@@ -49584,7 +49615,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c7b2d58-f295-11ee-aee8-0242ac130002",
+                "name": "K@os"
             },
             "opponent2": {
                 "id": null

@@ -36799,16 +36799,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
-                "name": "TRW | Team rAwR"
+                "name": "TRW | Team rAwR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
-                "name": "Tottenham Perú Stars"
+                "name": "Tottenham Perú Stars",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 811,
@@ -37516,7 +37545,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0e1eac-f81f-11ee-95ff-0242ac130003",
+                "name": "TRW | Team rAwR"
             },
             "opponent2": {
                 "id": null

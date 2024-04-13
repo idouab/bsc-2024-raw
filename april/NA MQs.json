@@ -21548,16 +21548,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e7c6dce-f295-11ee-9e0f-0242ac130002",
-                "name": "The Nova Musketeers"
+                "name": "The Nova Musketeers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bd0fc556-f45a-11ee-b88d-0242ac130003",
-                "name": "Chibe"
+                "name": "Chibe",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e7c6dce-f295-11ee-9e0f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bd0fc556-f45a-11ee-b88d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e7c6dce-f295-11ee-9e0f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bd0fc556-f45a-11ee-b88d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 710,
@@ -22997,16 +23026,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
-                "name": "Clean Up Crew"
+                "name": "Clean Up Crew",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "21c0c7e0-f3b9-11ee-8687-0242ac130003",
-                "name": "Bombasian"
+                "name": "Bombasian",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "21c0c7e0-f3b9-11ee-8687-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "21c0c7e0-f3b9-11ee-8687-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 776,
@@ -26557,7 +26615,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e7c6dce-f295-11ee-9e0f-0242ac130002",
+                "name": "The Nova Musketeers"
             },
             "opponent2": {
                 "id": null
@@ -27093,7 +27152,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                "name": "Clean Up Crew"
             },
             "opponent2": {
                 "id": null

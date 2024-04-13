@@ -74267,16 +74267,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e21f9d4-f294-11ee-b72a-0242ac130002",
-                "name": "Titan Hunters"
+                "name": "Titan Hunters",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1279ade2-f382-11ee-8cb3-0242ac130003",
-                "name": "Supernenas"
+                "name": "Supernenas",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3e21f9d4-f294-11ee-b72a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1279ade2-f382-11ee-8cb3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3e21f9d4-f294-11ee-b72a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1279ade2-f382-11ee-8cb3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1700,
@@ -79496,16 +79525,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "577fa20a-f294-11ee-bc4a-0242ac130002",
-                "name": "Magyar Ördögök"
+                "name": "Magyar Ördögök",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d46f9332-f6aa-11ee-8b69-0242ac130003",
-                "name": "ArmonyX Academy"
+                "name": "ArmonyX Academy",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "577fa20a-f294-11ee-bc4a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d46f9332-f6aa-11ee-8b69-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "577fa20a-f294-11ee-bc4a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d46f9332-f6aa-11ee-8b69-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1907,
@@ -81849,14 +81907,15 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51f48886-f358-11ee-9203-0242ac130003",
                 "name": "IB Macedonia"
             },
             "opponent2": {
                 "id": "7a1c21c2-f356-11ee-801a-0242ac130003",
-                "name": "DAL"
+                "name": "DAL",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -84522,7 +84581,8 @@
                 "name": "ZSI"
             },
             "opponent2": {
-                "id": null
+                "id": "3e21f9d4-f294-11ee-b72a-0242ac130002",
+                "name": "Titan Hunters"
             },
             "match_games": []
         },
@@ -86214,7 +86274,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "577fa20a-f294-11ee-bc4a-0242ac130002",
+                "name": "Magyar Ördögök"
             },
             "opponent2": {
                 "id": null
@@ -103103,10 +103164,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a1c21c2-f356-11ee-801a-0242ac130003",
+                "name": "DAL"
             },
             "opponent2": {
-                "id": null
+                "id": "43635c1e-f706-11ee-bb22-0242ac130003",
+                "name": "CheeseBurger"
             },
             "match_games": []
         },
@@ -104605,10 +104668,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d46f9332-f6aa-11ee-8b69-0242ac130003",
+                "name": "ArmonyX Academy"
             },
             "opponent2": {
-                "id": null
+                "id": "9e6baafa-f4f2-11ee-9174-0242ac130003",
+                "name": "SVT"
             },
             "match_games": []
         },
@@ -108019,10 +108084,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1279ade2-f382-11ee-8cb3-0242ac130003",
+                "name": "Supernenas"
             },
             "opponent2": {
-                "id": null
+                "id": "91504126-f37d-11ee-9844-0242ac130003",
+                "name": "我|🔥🥀❦︎"
             },
             "match_games": []
         },

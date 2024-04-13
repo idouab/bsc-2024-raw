@@ -10588,16 +10588,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfa602f2-f293-11ee-ae13-0242ac130002",
-                "name": "TAO"
+                "name": "TAO",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
-                "name": "LockGang"
+                "name": "LockGang",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cfa602f2-f293-11ee-ae13-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cfa602f2-f293-11ee-ae13-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cfa602f2-f293-11ee-ae13-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 241,
@@ -10859,16 +10900,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
-                "name": "Delay Esports"
+                "name": "Delay Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61eda130-f64d-11ee-846f-0242ac130003",
-                "name": "Aquamarine"
+                "name": "Aquamarine",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 248,
@@ -11396,7 +11478,8 @@
                 "name": "Rising Raccoon"
             },
             "opponent2": {
-                "id": null
+                "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                "name": "LockGang"
             },
             "match_games": []
         },
@@ -11461,10 +11544,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                "name": "Aquamarine"
             },
             "opponent2": {
-                "id": null
+                "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                "name": "국회의사당"
             },
             "match_games": []
         },
@@ -13241,7 +13326,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fcaee50a-f7e0-11ee-a11b-0242ac130003",
+                "name": "Delay Esports"
             },
             "opponent2": {
                 "id": null
@@ -13358,10 +13444,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cfa602f2-f293-11ee-ae13-0242ac130002",
+                "name": "TAO"
             },
             "opponent2": {
-                "id": null
+                "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
+                "name": "Brawling legends"
             },
             "match_games": []
         },

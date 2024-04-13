@@ -15688,16 +15688,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
-                "name": "Kings"
+                "name": "Kings",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9ff07da4-f698-11ee-8ce4-0242ac130003",
-                "name": "ZERO-X"
+                "name": "ZERO-X",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9ff07da4-f698-11ee-8ce4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9ff07da4-f698-11ee-8ce4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 354,
@@ -17730,16 +17759,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9554cf4-f295-11ee-816a-0242ac130002",
-                "name": "Arg new"
+                "name": "Arg new",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
-                "name": "Sunflowers 🌻"
+                "name": "Sunflowers 🌻",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 421,
@@ -19777,7 +19835,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                "name": "Sunflowers 🌻"
             },
             "opponent2": {
                 "id": null
@@ -23682,7 +23741,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9554cf4-f295-11ee-816a-0242ac130002",
+                "name": "Arg new"
             },
             "opponent2": {
                 "id": null
@@ -24790,10 +24850,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9ff07da4-f698-11ee-8ce4-0242ac130003",
+                "name": "ZERO-X"
             },
             "opponent2": {
-                "id": null
+                "id": "4adeca34-f394-11ee-b7cc-0242ac130003",
+                "name": "SQM | TEAM"
             },
             "match_games": []
         },

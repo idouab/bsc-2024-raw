@@ -26738,16 +26738,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14899918-f296-11ee-8731-0242ac130002",
-                "name": "F/A MiniPekkas"
+                "name": "F/A MiniPekkas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
-                "name": "NORTH SIDE RAIDERS"
+                "name": "NORTH SIDE RAIDERS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14899918-f296-11ee-8731-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14899918-f296-11ee-8731-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 877,
@@ -26826,7 +26855,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14899918-f296-11ee-8731-0242ac130002",
+                "name": "F/A MiniPekkas"
             },
             "opponent2": {
                 "id": null
@@ -39672,7 +39702,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                "name": "NORTH SIDE RAIDERS"
             },
             "opponent2": {
                 "id": null

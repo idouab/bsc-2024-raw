@@ -48176,16 +48176,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3537067e-f79a-11ee-ad69-0242ac130003",
-                "name": "We Do Trust You"
+                "name": "We Do Trust You",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "46a80480-f957-11ee-bfbd-0242ac130003",
-                "name": "Saro Squad 2"
+                "name": "Saro Squad 2",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3537067e-f79a-11ee-ad69-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46a80480-f957-11ee-bfbd-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3537067e-f79a-11ee-ad69-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46a80480-f957-11ee-bfbd-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1187,
@@ -51498,7 +51527,8 @@
                 "name": "Bmanstans"
             },
             "opponent2": {
-                "id": null
+                "id": "3537067e-f79a-11ee-ad69-0242ac130003",
+                "name": "We Do Trust You"
             },
             "match_games": []
         },

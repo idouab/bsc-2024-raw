@@ -34481,16 +34481,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61a2dcbe-f39f-11ee-8dec-0242ac130003",
-                "name": "Thanos"
+                "name": "Thanos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f1493a3e-f462-11ee-8814-0242ac130003",
-                "name": "Espumilla F/C"
+                "name": "Espumilla F/C",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "61a2dcbe-f39f-11ee-8dec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1493a3e-f462-11ee-8814-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "61a2dcbe-f39f-11ee-8dec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1493a3e-f462-11ee-8814-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1149,
@@ -36298,7 +36327,8 @@
                 "name": "Yippee"
             },
             "opponent2": {
-                "id": null
+                "id": "61a2dcbe-f39f-11ee-8dec-0242ac130003",
+                "name": "Thanos"
             },
             "match_games": []
         },
@@ -43826,7 +43856,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f1493a3e-f462-11ee-8814-0242ac130003",
+                "name": "Espumilla F/C"
             },
             "opponent2": {
                 "id": null

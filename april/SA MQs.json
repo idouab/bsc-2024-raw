@@ -5314,6 +5314,18 @@
             "img": ""
         },
         {
+            "id": "20783b46-f3ca-11ee-b0ee-0242ac130003",
+            "tournament_id": 0,
+            "name": "BROWNIES 🐊🍀",
+            "players": [
+                "Facu_ARG",
+                "QLS|AGUS°",
+                "iTzGalliGn",
+                "𝕯𝕽𝕬𝕲𝕺𝕹"
+            ],
+            "img": ""
+        },
+        {
             "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
             "tournament_id": 0,
             "name": "PIPER’S",
@@ -6107,16 +6119,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c6212b2c-f4e5-11ee-90a1-0242ac130003",
-                "name": "ADAGAR"
+                "name": "ADAGAR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "20783b46-f3ca-11ee-b0ee-0242ac130003",
-                "name": "BROWNIES 🐊🍀"
+                "name": "BROWNIES 🐊🍀",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c6212b2c-f4e5-11ee-90a1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20783b46-f3ca-11ee-b0ee-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c6212b2c-f4e5-11ee-90a1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20783b46-f3ca-11ee-b0ee-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 21,
@@ -9366,16 +9407,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9b8cace6-f374-11ee-8864-0242ac130003",
-                "name": "CABO DE VASSOURA"
+                "name": "CABO DE VASSOURA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
-                "name": "Sapecas"
+                "name": "Sapecas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9b8cace6-f374-11ee-8864-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9b8cace6-f374-11ee-8864-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 179,
@@ -12602,7 +12672,8 @@
                 "name": "Level Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                "name": "Sapecas"
             },
             "match_games": []
         },

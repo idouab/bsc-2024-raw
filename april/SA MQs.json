@@ -16126,16 +16126,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7974354-f295-11ee-804f-0242ac130002",
-                "name": "Honguitos Sport"
+                "name": "Honguitos Sport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2755575c-f512-11ee-8321-0242ac130003",
-                "name": "ZMS"
+                "name": "ZMS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7974354-f295-11ee-804f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2755575c-f512-11ee-8321-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7974354-f295-11ee-804f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2755575c-f512-11ee-8321-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 385,
@@ -18012,7 +18041,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7974354-f295-11ee-804f-0242ac130002",
+                "name": "Honguitos Sport"
             },
             "opponent2": {
                 "id": null
@@ -22550,7 +22580,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2755575c-f512-11ee-8321-0242ac130003",
+                "name": "ZMS"
             },
             "opponent2": {
                 "id": null

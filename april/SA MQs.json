@@ -5281,6 +5281,17 @@
             "img": ""
         },
         {
+            "id": "277d317c-f43c-11ee-abab-0242ac130003",
+            "tournament_id": 0,
+            "name": "Golden Wind",
+            "players": [
+                "нттρѕℓєσz",
+                "Elbadazzzz",
+                "Evans1😈😏😮‍💨"
+            ],
+            "img": ""
+        },
+        {
             "id": "5b155b94-f555-11ee-8a13-0242ac130003",
             "tournament_id": 0,
             "name": "ixiTeam",
@@ -6668,16 +6679,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b32e6734-f295-11ee-bea7-0242ac130002",
-                "name": "Abuelas FC"
+                "name": "Abuelas FC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "277d317c-f43c-11ee-abab-0242ac130003",
-                "name": "Golden Wind"
+                "name": "Golden Wind",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "277d317c-f43c-11ee-abab-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "277d317c-f43c-11ee-abab-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 72,
@@ -10526,7 +10566,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b32e6734-f295-11ee-bea7-0242ac130002",
+                "name": "Abuelas FC"
             },
             "opponent2": {
                 "id": null
@@ -14397,7 +14438,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "277d317c-f43c-11ee-abab-0242ac130003",
+                "name": "Golden Wind"
             },
             "opponent2": {
                 "id": null

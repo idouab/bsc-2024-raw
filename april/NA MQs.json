@@ -8265,6 +8265,17 @@
             "img": ""
         },
         {
+            "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
+            "tournament_id": 0,
+            "name": "RED 5",
+            "players": [
+                "Bartimaeus",
+                "NaVi |firetream",
+                "Mr. Mustachio"
+            ],
+            "img": ""
+        },
+        {
             "id": "011b184a-f3bb-11ee-b07c-0242ac130003",
             "tournament_id": 0,
             "name": "The Chefs🔥",
@@ -26509,16 +26520,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
-                "name": "RED 5"
+                "name": "RED 5",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9d62b98c-f394-11ee-8063-0242ac130003",
-                "name": "BLU"
+                "name": "BLU",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9d62b98c-f394-11ee-8063-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d62b98c-f394-11ee-8063-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d62b98c-f394-11ee-8063-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 823,
@@ -34676,10 +34728,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fe78c64c-f5d5-11ee-b196-0242ac130003",
+                "name": "RED 5"
             },
             "opponent2": {
-                "id": null
+                "id": "011b184a-f3bb-11ee-b07c-0242ac130003",
+                "name": "The Chefs🔥"
             },
             "match_games": []
         },

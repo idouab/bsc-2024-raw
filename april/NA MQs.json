@@ -40867,16 +40867,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "294281c2-f295-11ee-ba9b-0242ac130002",
-                "name": "STMN"
+                "name": "STMN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
-                "name": "Jokers"
+                "name": "Jokers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "294281c2-f295-11ee-ba9b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "294281c2-f295-11ee-ba9b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1535,
@@ -41104,7 +41133,8 @@
                 "name": "Juan Carlos Team"
             },
             "opponent2": {
-                "id": null
+                "id": "294281c2-f295-11ee-ba9b-0242ac130002",
+                "name": "STMN"
             },
             "match_games": []
         },
@@ -52015,16 +52045,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "232286dc-f396-11ee-b152-0242ac130003",
-                "name": "Obama Strikes Back"
+                "name": "Obama Strikes Back",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "011b7e38-f740-11ee-928e-0242ac130003",
-                "name": "Cipher Pol 0"
+                "name": "Cipher Pol 0",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "232286dc-f396-11ee-b152-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "232286dc-f396-11ee-b152-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1379,
@@ -52307,16 +52366,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a9c82f9a-f533-11ee-a0aa-0242ac130003",
-                "name": "Cruisers"
+                "name": "Cruisers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
-                "name": "DATEKO"
+                "name": "DATEKO",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a9c82f9a-f533-11ee-a0aa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a9c82f9a-f533-11ee-a0aa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1392,
@@ -52433,14 +52521,15 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "10133c70-f40a-11ee-8ec1-0242ac130003",
                 "name": "MIT_Elite"
             },
             "opponent2": {
                 "id": "3d79669e-f3dd-11ee-a893-0242ac130003",
-                "name": "The Clowns"
+                "name": "The Clowns",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -52847,16 +52936,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
-                "name": "FRAN/ANDY/BOT"
+                "name": "FRAN/ANDY/BOT",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b9ba224c-f42e-11ee-b6f6-0242ac130003",
-                "name": "Dumpling Lovers"
+                "name": "Dumpling Lovers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b9ba224c-f42e-11ee-b6f6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b9ba224c-f42e-11ee-b6f6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1422,
@@ -53218,7 +53336,8 @@
                 "name": "JAY’s"
             },
             "opponent2": {
-                "id": null
+                "id": "232286dc-f396-11ee-b152-0242ac130003",
+                "name": "Obama Strikes Back"
             },
             "match_games": []
         },
@@ -53441,7 +53560,8 @@
                 "name": "ZERO CLAN"
             },
             "opponent2": {
-                "id": null
+                "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                "name": "DATEKO"
             },
             "match_games": []
         },
@@ -53560,7 +53680,8 @@
                 "name": "Humble Shooters"
             },
             "opponent2": {
-                "id": null
+                "id": "10133c70-f40a-11ee-8ec1-0242ac130003",
+                "name": "MIT_Elite"
             },
             "match_games": []
         },
@@ -53951,7 +54072,8 @@
                 "name": "Get Clowned On"
             },
             "opponent2": {
-                "id": null
+                "id": "b9ba224c-f42e-11ee-b6f6-0242ac130003",
+                "name": "Dumpling Lovers"
             },
             "match_games": []
         },
@@ -55410,7 +55532,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                "name": "Jokers"
             },
             "opponent2": {
                 "id": null

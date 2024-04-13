@@ -7426,6 +7426,17 @@
             "img": ""
         },
         {
+            "id": "83866976-f3d7-11ee-b812-0242ac130003",
+            "tournament_id": 0,
+            "name": "Alpha",
+            "players": [
+                "Alpha|Kaoxz",
+                "Alpha |Yeetus",
+                "Alpha|Lâohû"
+            ],
+            "img": ""
+        },
+        {
             "id": "42d31402-f44e-11ee-a706-0242ac130003",
             "tournament_id": 0,
             "name": "SPEED",
@@ -7762,16 +7773,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83866976-f3d7-11ee-b812-0242ac130003",
-                "name": "Alpha"
+                "name": "Alpha",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
-                "name": "Pickle rick"
+                "name": "Pickle rick",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "83866976-f3d7-11ee-b812-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "83866976-f3d7-11ee-b812-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -16301,7 +16341,8 @@
                 "name": "Tribe Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
+                "name": "Pickle rick"
             },
             "match_games": []
         },

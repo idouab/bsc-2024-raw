@@ -21157,14 +21157,15 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
                 "name": "bota limpo"
             },
             "opponent2": {
                 "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
-                "name": "TCMM|BASERA"
+                "name": "TCMM|BASERA",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -21175,16 +21176,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b426053e-f295-11ee-a4b5-0242ac130002",
-                "name": "The Last Hope 🔮"
+                "name": "The Last Hope 🔮",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "64e3feba-f3c4-11ee-8ff3-0242ac130003",
-                "name": "BrawlNauticos"
+                "name": "BrawlNauticos",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b426053e-f295-11ee-a4b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64e3feba-f3c4-11ee-8ff3-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b426053e-f295-11ee-a4b5-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64e3feba-f3c4-11ee-8ff3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b426053e-f295-11ee-a4b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64e3feba-f3c4-11ee-8ff3-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 601,
@@ -23961,7 +24003,8 @@
                 "name": "Calabresos F/A"
             },
             "opponent2": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "match_games": []
         },
@@ -23974,10 +24017,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b426053e-f295-11ee-a4b5-0242ac130002",
+                "name": "The Last Hope 🔮"
             },
             "opponent2": {
-                "id": null
+                "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
+                "name": "Oreon"
             },
             "match_games": []
         },
@@ -31933,7 +31978,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64e3feba-f3c4-11ee-8ff3-0242ac130003",
+                "name": "BrawlNauticos"
             },
             "opponent2": {
                 "id": null
@@ -31949,7 +31995,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
+                "name": "TCMM|BASERA"
             },
             "opponent2": {
                 "id": null

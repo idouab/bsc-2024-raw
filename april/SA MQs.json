@@ -22198,16 +22198,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
-                "name": "NORTH SIDE RAIDERS"
+                "name": "NORTH SIDE RAIDERS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bdba1082-f514-11ee-9311-0242ac130003",
-                "name": "AGC"
+                "name": "AGC",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 653,
@@ -22844,7 +22873,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5685e7e-f295-11ee-95a6-0242ac130002",
+                "name": "NORTH SIDE RAIDERS"
             },
             "opponent2": {
                 "id": null
@@ -27444,16 +27474,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "822a2942-f507-11ee-89a7-0242ac130003",
-                "name": "Lyzer"
+                "name": "Lyzer",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "aeb68428-f616-11ee-959a-0242ac130003",
-                "name": "JustFunkin"
+                "name": "JustFunkin",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "822a2942-f507-11ee-89a7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "aeb68428-f616-11ee-959a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "822a2942-f507-11ee-89a7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "aeb68428-f616-11ee-959a-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 584,
@@ -29431,7 +29490,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                "name": "AGC"
             },
             "opponent2": {
                 "id": null

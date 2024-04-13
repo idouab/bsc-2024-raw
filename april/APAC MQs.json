@@ -13050,16 +13050,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
-                "name": "Ok we do"
+                "name": "Ok we do",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d455a986-f33a-11ee-aaf8-0242ac130002",
-                "name": "RebSol Gaming"
+                "name": "RebSol Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d455a986-f33a-11ee-aaf8-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d455a986-f33a-11ee-aaf8-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 175,

@@ -26999,16 +26999,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
-                "name": "KGM | Black Wolves"
+                "name": "KGM | Black Wolves",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c1e8140e-f485-11ee-a43f-0242ac130003",
-                "name": "S3| GAMBA"
+                "name": "S3| GAMBA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c1e8140e-f485-11ee-a43f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28d521d2-f361-11ee-9fe1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c1e8140e-f485-11ee-a43f-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 488,
@@ -28779,10 +28808,11 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "780155d8-f482-11ee-8c4c-0242ac130003",
-                "name": "TEAM FOX"
+                "name": "TEAM FOX",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
@@ -29060,16 +29090,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a7f4ea42-f541-11ee-be96-0242ac130003",
-                "name": "Caramelos Br"
+                "name": "Caramelos Br",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
-                "name": "Tottenham Perú Stars"
+                "name": "Tottenham Perú Stars",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a7f4ea42-f541-11ee-be96-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a7f4ea42-f541-11ee-be96-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 575,
@@ -30365,7 +30424,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
+                "name": "Kollas United"
             },
             "opponent2": {
                 "id": null
@@ -30477,10 +30537,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "41db8b62-f47e-11ee-99b9-0242ac130003",
+                "name": "Tottenham Perú Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "7675969a-f67e-11ee-b765-0242ac130003",
+                "name": "Glory hammer"
             },
             "match_games": []
         },

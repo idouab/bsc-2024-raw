@@ -15383,16 +15383,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f1e7f0e6-f329-11ee-9925-0242ac130002",
-                "name": "バトロワ勢の集い"
+                "name": "バトロワ勢の集い",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54a9b490-f3f1-11ee-8e94-0242ac130003",
-                "name": "Ecliptic"
+                "name": "Ecliptic",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f1e7f0e6-f329-11ee-9925-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54a9b490-f3f1-11ee-8e94-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f1e7f0e6-f329-11ee-9925-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54a9b490-f3f1-11ee-8e94-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 293,
@@ -15665,16 +15694,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
-                "name": "OP Squad"
+                "name": "OP Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d843bf74-f50b-11ee-b2f0-0242ac130003",
-                "name": "UniTy"
+                "name": "UniTy",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d843bf74-f50b-11ee-b2f0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ce847a5c-f293-11ee-91fd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d843bf74-f50b-11ee-b2f0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 307,
@@ -15766,16 +15824,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e21ccc12-f569-11ee-ad12-0242ac130003",
-                "name": "Secret Xenom"
+                "name": "Secret Xenom",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bc772250-f357-11ee-8de5-0242ac130003",
-                "name": "JB"
+                "name": "JB",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e21ccc12-f569-11ee-ad12-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc772250-f357-11ee-8de5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e21ccc12-f569-11ee-ad12-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc772250-f357-11ee-8de5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 311,
@@ -16310,7 +16397,8 @@
                 "name": "靚仔隊"
             },
             "opponent2": {
-                "id": null
+                "id": "e21ccc12-f569-11ee-ad12-0242ac130003",
+                "name": "Secret Xenom"
             },
             "match_games": []
         },

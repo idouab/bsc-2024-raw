@@ -44687,16 +44687,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ea9bebb4-f99e-11ee-977b-0242ac130003",
-                "name": "Kiroz"
+                "name": "Kiroz",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2d32514a-f295-11ee-822f-0242ac130002",
-                "name": "Bringers Of Doom"
+                "name": "Bringers Of Doom",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ea9bebb4-f99e-11ee-977b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2d32514a-f295-11ee-822f-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ea9bebb4-f99e-11ee-977b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2d32514a-f295-11ee-822f-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 977,
@@ -45949,16 +45978,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                "name": "Purdue Princess"
+                "name": "Purdue Princess",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
-                "name": "tumbados"
+                "name": "tumbados",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1031,
@@ -47309,7 +47379,8 @@
                 "name": "The Casuals"
             },
             "opponent2": {
-                "id": null
+                "id": "2d32514a-f295-11ee-822f-0242ac130002",
+                "name": "Bringers Of Doom"
             },
             "match_games": []
         },
@@ -48237,7 +48308,8 @@
                 "name": "Beta Maya"
             },
             "opponent2": {
-                "id": null
+                "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
+                "name": "tumbados"
             },
             "match_games": []
         },

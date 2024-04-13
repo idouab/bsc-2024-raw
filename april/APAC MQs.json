@@ -17058,16 +17058,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
-                "name": "Brawling legends"
+                "name": "Brawling legends",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1a8a2934-f324-11ee-b382-0242ac130002",
-                "name": "APDO"
+                "name": "APDO",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a1ec3f8-f8b9-11ee-a593-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 350,
@@ -17941,7 +17970,8 @@
                 "name": "サ終"
             },
             "opponent2": {
-                "id": null
+                "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                "name": "APDO"
             },
             "match_games": []
         },

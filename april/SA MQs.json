@@ -5279,6 +5279,17 @@
                 "⚡️⚡️Yug4⚽️"
             ],
             "img": ""
+        },
+        {
+            "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+            "tournament_id": 0,
+            "name": "ixiTeam",
+            "players": [
+                "ixiJuao",
+                "IxiNormal",
+                "ixiEnza"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -9336,16 +9347,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "5b155b94-f555-11ee-8a13-0242ac130003",
-                "name": "ixiTeam"
+                "name": "ixiTeam",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e76646c-f3be-11ee-852f-0242ac130003",
-                "name": "THE BEST PLAYERS"
+                "name": "THE BEST PLAYERS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 225,

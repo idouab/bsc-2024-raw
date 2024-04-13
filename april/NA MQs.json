@@ -23474,16 +23474,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "299bdc04-f295-11ee-8563-0242ac130002",
-                "name": "sintikols gaming"
+                "name": "sintikols gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
-                "name": "The Hustlers"
+                "name": "The Hustlers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "299bdc04-f295-11ee-8563-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "299bdc04-f295-11ee-8563-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 740,
@@ -29534,10 +29563,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "80508d8c-f7be-11ee-9db0-0242ac130003",
+                "name": "The Hustlers"
             },
             "opponent2": {
-                "id": null
+                "id": "f2c759e8-f86a-11ee-9de5-0242ac130003",
+                "name": "LFP ESPORTS"
             },
             "match_games": []
         },

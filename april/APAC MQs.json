@@ -20735,16 +20735,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ceabdca0-f293-11ee-b65a-0242ac130002",
-                "name": "ぜろすてっぷエクスカリバー"
+                "name": "ぜろすてっぷエクスカリバー",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
-                "name": "ZXCV"
+                "name": "ZXCV",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ceabdca0-f293-11ee-b65a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ceabdca0-f293-11ee-b65a-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 458,
@@ -20836,16 +20865,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
-                "name": "Revelunt Esport"
+                "name": "Revelunt Esport",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "504ccc40-f59d-11ee-b497-0242ac130003",
-                "name": "Feasible Gaming"
+                "name": "Feasible Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 462,
@@ -21043,7 +21101,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                "name": "ZXCV"
             },
             "opponent2": {
                 "id": null
@@ -21075,7 +21134,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                "name": "Feasible Gaming"
             },
             "opponent2": {
                 "id": null

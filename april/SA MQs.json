@@ -31879,16 +31879,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "968ea684-f470-11ee-9ec7-0242ac130003",
-                "name": "Nightmare Team"
+                "name": "Nightmare Team",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "852ce8ac-f41f-11ee-acea-0242ac130003",
-                "name": "RED DEVILS"
+                "name": "RED DEVILS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "852ce8ac-f41f-11ee-acea-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "968ea684-f470-11ee-9ec7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "852ce8ac-f41f-11ee-acea-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 681,
@@ -33462,7 +33491,8 @@
                 "name": "Brasil"
             },
             "opponent2": {
-                "id": null
+                "id": "852ce8ac-f41f-11ee-acea-0242ac130003",
+                "name": "RED DEVILS"
             },
             "match_games": []
         },

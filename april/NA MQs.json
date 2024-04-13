@@ -32946,16 +32946,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e505374-f295-11ee-901f-0242ac130002",
-                "name": "The Dads"
+                "name": "The Dads",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "79caf9c2-f6ae-11ee-913d-0242ac130003",
-                "name": "Noobs Latinos"
+                "name": "Noobs Latinos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e505374-f295-11ee-901f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "79caf9c2-f6ae-11ee-913d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e505374-f295-11ee-901f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "79caf9c2-f6ae-11ee-913d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1117,
@@ -41663,7 +41692,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fd44d592-f32b-11ee-bab4-0242ac130003",
+                "name": "sato"
             },
             "opponent2": {
                 "id": null
@@ -43317,7 +43347,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "79caf9c2-f6ae-11ee-913d-0242ac130003",
+                "name": "Noobs Latinos"
             },
             "opponent2": {
                 "id": null

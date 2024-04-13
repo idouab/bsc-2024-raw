@@ -28830,16 +28830,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c74468f4-f547-11ee-8646-0242ac130003",
-                "name": "Astra Division"
+                "name": "Astra Division",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
-                "name": "Brazilian Vikings"
+                "name": "Brazilian Vikings",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c74468f4-f547-11ee-8646-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 533,
@@ -30952,7 +30993,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                "name": "Brazilian Vikings"
             },
             "opponent2": {
                 "id": null

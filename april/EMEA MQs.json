@@ -87901,14 +87901,15 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "15af2bb8-f364-11ee-afd4-0242ac130003",
                 "name": "F/A Indyuki"
             },
             "opponent2": {
                 "id": "8bce733e-f702-11ee-8a2c-0242ac130003",
-                "name": "VLH"
+                "name": "VLH",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -88536,16 +88537,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8774bd7a-f5d6-11ee-9f51-0242ac130003",
-                "name": "minh rawwwwr"
+                "name": "minh rawwwwr",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9aff24e4-f364-11ee-90d8-0242ac130003",
-                "name": "Night"
+                "name": "Night",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8774bd7a-f5d6-11ee-9f51-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9aff24e4-f364-11ee-90d8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8774bd7a-f5d6-11ee-9f51-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9aff24e4-f364-11ee-90d8-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2562,
@@ -88904,16 +88934,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "afeea862-f453-11ee-81ef-0242ac130003",
-                "name": "Ghost Wolf"
+                "name": "Ghost Wolf",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "37ac6026-f294-11ee-a005-0242ac130002",
-                "name": "BlaqGang eSports"
+                "name": "BlaqGang eSports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "afeea862-f453-11ee-81ef-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "37ac6026-f294-11ee-a005-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "afeea862-f453-11ee-81ef-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "37ac6026-f294-11ee-a005-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2576,
@@ -88940,16 +88999,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3cfc2138-f294-11ee-9198-0242ac130002",
-                "name": "Team Ryujin"
+                "name": "Team Ryujin",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8a0ccc5a-f5de-11ee-adab-0242ac130003",
-                "name": "BGP eSports"
+                "name": "BGP eSports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3cfc2138-f294-11ee-9198-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8a0ccc5a-f5de-11ee-adab-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3cfc2138-f294-11ee-9198-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8a0ccc5a-f5de-11ee-adab-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2578,
@@ -88958,16 +89046,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9e055782-f353-11ee-99cf-0242ac130003",
-                "name": "INFITO"
+                "name": "INFITO",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2fa717b8-f294-11ee-8924-0242ac130002",
-                "name": "Stel eSports"
+                "name": "Stel eSports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9e055782-f353-11ee-99cf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fa717b8-f294-11ee-8924-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9e055782-f353-11ee-99cf-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2fa717b8-f294-11ee-8924-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9e055782-f353-11ee-99cf-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2fa717b8-f294-11ee-8924-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2579,
@@ -89737,16 +89866,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
-                "name": "Team Golden Dawn"
+                "name": "Team Golden Dawn",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e8e2321a-f453-11ee-baf6-0242ac130003",
-                "name": "EDJ Gaming"
+                "name": "EDJ Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8e2321a-f453-11ee-baf6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8e2321a-f453-11ee-baf6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2611,
@@ -90234,16 +90392,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1b5b8200-f364-11ee-809f-0242ac130003",
-                "name": "APE PLAY"
+                "name": "APE PLAY",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fb32aa22-f402-11ee-9030-0242ac130003",
-                "name": "Sunny Esports"
+                "name": "Sunny Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1b5b8200-f364-11ee-809f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1b5b8200-f364-11ee-809f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2626,
@@ -90880,16 +91067,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0b2ead8-f907-11ee-94da-0242ac130003",
-                "name": "F/A DeKaRu"
+                "name": "F/A DeKaRu",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5b13f72c-f4c9-11ee-b1fe-0242ac130003",
-                "name": "FF E-Sport 1"
+                "name": "FF E-Sport 1",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c0b2ead8-f907-11ee-94da-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b13f72c-f4c9-11ee-b1fe-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c0b2ead8-f907-11ee-94da-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b13f72c-f4c9-11ee-b1fe-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 2649,
@@ -91142,16 +91358,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "55e7907e-f294-11ee-96d3-0242ac130002",
-                "name": "OsP"
+                "name": "OsP",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8f2f61f2-f377-11ee-a0d8-0242ac130003",
-                "name": "Team SNA"
+                "name": "Team SNA",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "55e7907e-f294-11ee-96d3-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8f2f61f2-f377-11ee-a0d8-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "55e7907e-f294-11ee-96d3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8f2f61f2-f377-11ee-a0d8-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2659,
@@ -91326,16 +91571,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "35776972-f294-11ee-b2bb-0242ac130002",
-                "name": "Mafiosos"
+                "name": "Mafiosos",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e75043c-f44f-11ee-9083-0242ac130003",
-                "name": "N2L"
+                "name": "N2L",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "35776972-f294-11ee-b2bb-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e75043c-f44f-11ee-9083-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "35776972-f294-11ee-b2bb-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e75043c-f44f-11ee-9083-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2666,
@@ -91391,16 +91665,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ef44a5de-f377-11ee-a30b-0242ac130003",
-                "name": "MID"
+                "name": "MID",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f91df226-f436-11ee-bda3-0242ac130003",
-                "name": "Los Primosss"
+                "name": "Los Primosss",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ef44a5de-f377-11ee-a30b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ef44a5de-f377-11ee-a30b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2668,
@@ -91539,16 +91842,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e94fcf0-f294-11ee-80b5-0242ac130002",
-                "name": "F/A db"
+                "name": "F/A db",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4a6a110a-f3ec-11ee-a71d-0242ac130003",
-                "name": "PSI|Gaming"
+                "name": "PSI|Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e94fcf0-f294-11ee-80b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a6a110a-f3ec-11ee-a71d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e94fcf0-f294-11ee-80b5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a6a110a-f3ec-11ee-a71d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2673,
@@ -91647,16 +91979,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "086de2a2-f844-11ee-b0aa-0242ac130003",
-                "name": "Dougito"
+                "name": "Dougito",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "83a66eb2-f402-11ee-9690-0242ac130003",
-                "name": "DPJ E-sport"
+                "name": "DPJ E-sport",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "086de2a2-f844-11ee-b0aa-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "83a66eb2-f402-11ee-9690-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "086de2a2-f844-11ee-b0aa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "83a66eb2-f402-11ee-9690-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2679,
@@ -91719,16 +92080,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "12ee142c-f3c6-11ee-8543-0242ac130003",
-                "name": "ValGa"
+                "name": "ValGa",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
-                "name": "CDA Esports"
+                "name": "CDA Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "12ee142c-f3c6-11ee-8543-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "12ee142c-f3c6-11ee-8543-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2683,
@@ -92501,16 +92891,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83cf5b76-f4fa-11ee-ad73-0242ac130003",
-                "name": "SUPRA |"
+                "name": "SUPRA |",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e3920be-f4ec-11ee-98a1-0242ac130003",
-                "name": "DOM"
+                "name": "DOM",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "83cf5b76-f4fa-11ee-ad73-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e3920be-f4ec-11ee-98a1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "83cf5b76-f4fa-11ee-ad73-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e3920be-f4ec-11ee-98a1-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2709,
@@ -92739,16 +93158,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eedb372e-f38c-11ee-a57e-0242ac130003",
-                "name": "Tomar753 e-sport"
+                "name": "Tomar753 e-sport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3c2a98c2-f3fa-11ee-83b9-0242ac130003",
-                "name": "Falken"
+                "name": "Falken",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "eedb372e-f38c-11ee-a57e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c2a98c2-f3fa-11ee-83b9-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "eedb372e-f38c-11ee-a57e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c2a98c2-f3fa-11ee-83b9-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2719,
@@ -93041,16 +93489,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8941d500-f4f2-11ee-be8e-0242ac130003",
-                "name": "Diego"
+                "name": "Diego",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4ab7ebe0-f294-11ee-b7c8-0242ac130002",
-                "name": "The Dark Night"
+                "name": "The Dark Night",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8941d500-f4f2-11ee-be8e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4ab7ebe0-f294-11ee-b7c8-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8941d500-f4f2-11ee-be8e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4ab7ebe0-f294-11ee-b7c8-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "8941d500-f4f2-11ee-be8e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4ab7ebe0-f294-11ee-b7c8-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2728,
@@ -93301,16 +93790,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4748e680-f294-11ee-a8c1-0242ac130002",
-                "name": "Les rocks esport"
+                "name": "Les rocks esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "555cb58a-f294-11ee-afea-0242ac130002",
-                "name": "Broken Fire"
+                "name": "Broken Fire",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4748e680-f294-11ee-a8c1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "555cb58a-f294-11ee-afea-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4748e680-f294-11ee-a8c1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "555cb58a-f294-11ee-afea-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 2736,
@@ -93426,16 +93944,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "39e1cbba-f294-11ee-9dd0-0242ac130002",
-                "name": "Pebbles"
+                "name": "Pebbles",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "446eeb1c-f294-11ee-a39c-0242ac130002",
-                "name": "trios"
+                "name": "trios",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "39e1cbba-f294-11ee-9dd0-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "446eeb1c-f294-11ee-a39c-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "39e1cbba-f294-11ee-9dd0-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "446eeb1c-f294-11ee-a39c-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2740,
@@ -94067,16 +94614,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0d5b29aa-f466-11ee-912e-0242ac130003",
-                "name": "JC💚"
+                "name": "JC💚",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4305831a-f444-11ee-a93b-0242ac130003",
-                "name": "Unknown Talents 2"
+                "name": "Unknown Talents 2",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0d5b29aa-f466-11ee-912e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4305831a-f444-11ee-a93b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0d5b29aa-f466-11ee-912e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4305831a-f444-11ee-a93b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2763,
@@ -94139,16 +94715,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "94426790-f39d-11ee-bce8-0242ac130003",
-                "name": "QUEQUETTE-SPORT"
+                "name": "QUEQUETTE-SPORT",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3817361e-f503-11ee-986b-0242ac130003",
-                "name": "CSP"
+                "name": "CSP",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "94426790-f39d-11ee-bce8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3817361e-f503-11ee-986b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "94426790-f39d-11ee-bce8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3817361e-f503-11ee-986b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2767,
@@ -94269,16 +94874,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "506e2158-f294-11ee-9353-0242ac130002",
-                "name": "R.A.S. ALBARES"
+                "name": "R.A.S. ALBARES",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "541a1bfe-f294-11ee-9a25-0242ac130002",
-                "name": "White dragons"
+                "name": "White dragons",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "506e2158-f294-11ee-9353-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "541a1bfe-f294-11ee-9a25-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "506e2158-f294-11ee-9353-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "541a1bfe-f294-11ee-9a25-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2771,
@@ -94666,16 +95300,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c1b3e820-f294-11ee-8524-0242ac130002",
-                "name": "Eclipsar Esport"
+                "name": "Eclipsar Esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6bd403ca-f647-11ee-9ea3-0242ac130003",
-                "name": "Clutchers"
+                "name": "Clutchers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c1b3e820-f294-11ee-8524-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bd403ca-f647-11ee-9ea3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c1b3e820-f294-11ee-8524-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bd403ca-f647-11ee-9ea3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2785,
@@ -95221,16 +95884,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a77f8b6-f377-11ee-8afa-0242ac130003",
-                "name": "Coconuts"
+                "name": "Coconuts",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4b379cdc-f294-11ee-9c83-0242ac130002",
-                "name": "Haneki FR"
+                "name": "Haneki FR",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a77f8b6-f377-11ee-8afa-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4b379cdc-f294-11ee-9c83-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a77f8b6-f377-11ee-8afa-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b379cdc-f294-11ee-9c83-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2800,
@@ -95423,16 +96115,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c914e016-f49b-11ee-806e-0242ac130003",
-                "name": "Say gex"
+                "name": "Say gex",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5f6bf418-f344-11ee-a410-0242ac130002",
-                "name": "UA I esports"
+                "name": "UA I esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c914e016-f49b-11ee-806e-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5f6bf418-f344-11ee-a410-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c914e016-f49b-11ee-806e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5f6bf418-f344-11ee-a410-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2808,
@@ -95446,7 +96167,10 @@
                 "id": "3bf4bfe8-f294-11ee-b8ac-0242ac130002",
                 "name": "Nova Nebula"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "15af2bb8-f364-11ee-afd4-0242ac130003",
+                "name": "F/A Indyuki"
+            },
             "match_games": []
         },
         {
@@ -95474,16 +96198,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b0ed7f10-f460-11ee-9fa4-0242ac130003",
-                "name": "Isle of skill"
+                "name": "Isle of skill",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3213865a-f4d1-11ee-adcf-0242ac130003",
-                "name": "dreamZz"
+                "name": "dreamZz",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b0ed7f10-f460-11ee-9fa4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3213865a-f4d1-11ee-adcf-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b0ed7f10-f460-11ee-9fa4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3213865a-f4d1-11ee-adcf-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2811,
@@ -95646,7 +96399,8 @@
                 "name": "SK Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "8774bd7a-f5d6-11ee-9f51-0242ac130003",
+                "name": "minh rawwwwr"
             },
             "match_games": []
         },
@@ -95762,7 +96516,8 @@
                 "name": "ArcTic"
             },
             "opponent2": {
-                "id": null
+                "id": "37ac6026-f294-11ee-a005-0242ac130002",
+                "name": "BlaqGang eSports"
             },
             "match_games": []
         },
@@ -95791,7 +96546,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2fa717b8-f294-11ee-8924-0242ac130002",
+                "name": "Stel eSports"
             },
             "opponent2": {
                 "id": null
@@ -96051,7 +96807,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                "name": "Team Golden Dawn"
             },
             "opponent2": {
                 "id": null
@@ -96172,7 +96929,8 @@
                 "name": "BC* Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "fb32aa22-f402-11ee-9030-0242ac130003",
+                "name": "Sunny Esports"
             },
             "match_games": []
         },
@@ -96365,10 +97123,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0b2ead8-f907-11ee-94da-0242ac130003",
+                "name": "F/A DeKaRu"
             },
             "opponent2": {
-                "id": null
+                "id": "5f91d288-f294-11ee-b5cd-0242ac130002",
+                "name": "The Final Set Beta"
             },
             "match_games": []
         },
@@ -96446,7 +97206,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8f2f61f2-f377-11ee-a0d8-0242ac130003",
+                "name": "Team SNA"
             },
             "opponent2": {
                 "id": null
@@ -96499,7 +97260,8 @@
                 "name": "TOP | Esport"
             },
             "opponent2": {
-                "id": null
+                "id": "3e75043c-f44f-11ee-9083-0242ac130003",
+                "name": "N2L"
             },
             "match_games": []
         },
@@ -96516,7 +97278,8 @@
                 "name": "Palotes Prime"
             },
             "opponent2": {
-                "id": null
+                "id": "ef44a5de-f377-11ee-a30b-0242ac130003",
+                "name": "MID"
             },
             "match_games": []
         },
@@ -96563,7 +97326,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e94fcf0-f294-11ee-80b5-0242ac130002",
+                "name": "F/A db"
             },
             "opponent2": {
                 "id": null
@@ -96611,7 +97375,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "83a66eb2-f402-11ee-9690-0242ac130003",
+                "name": "DPJ E-sport"
             },
             "opponent2": {
                 "id": null
@@ -96643,7 +97408,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "45e37dac-f40e-11ee-a2be-0242ac130003",
+                "name": "CDA Esports"
             },
             "opponent2": {
                 "id": null
@@ -96859,7 +97625,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e3920be-f4ec-11ee-98a1-0242ac130003",
+                "name": "DOM"
             },
             "opponent2": {
                 "id": null
@@ -96940,10 +97707,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eedb372e-f38c-11ee-a57e-0242ac130003",
+                "name": "Tomar753 e-sport"
             },
             "opponent2": {
-                "id": null
+                "id": "35632282-f6a9-11ee-9b3b-0242ac130003",
+                "name": "FAME"
             },
             "match_games": []
         },
@@ -97304,7 +98073,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4305831a-f444-11ee-a93b-0242ac130003",
+                "name": "Unknown Talents 2"
             },
             "opponent2": {
                 "id": null
@@ -97336,7 +98106,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3817361e-f503-11ee-986b-0242ac130003",
+                "name": "CSP"
             },
             "opponent2": {
                 "id": null
@@ -97370,7 +98141,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "541a1bfe-f294-11ee-9a25-0242ac130002",
+                "name": "White dragons"
             },
             "opponent2": {
                 "id": null
@@ -97486,10 +98258,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c1b3e820-f294-11ee-8524-0242ac130002",
+                "name": "Eclipsar Esport"
             },
             "opponent2": {
-                "id": null
+                "id": "562a6304-f762-11ee-a10a-0242ac130003",
+                "name": "Synchronic Gaming"
             },
             "match_games": []
         },
@@ -97702,7 +98476,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b0ed7f10-f460-11ee-9fa4-0242ac130003",
+                "name": "Isle of skill"
             },
             "opponent2": {
                 "id": null
@@ -110693,16 +111468,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87234660-f348-11ee-a60f-0242ac130002",
-                "name": "Cehu Team"
+                "name": "Cehu Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4d9591a4-f4d4-11ee-b8ce-0242ac130003",
-                "name": "JRN"
+                "name": "JRN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "87234660-f348-11ee-a60f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4d9591a4-f4d4-11ee-b8ce-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "87234660-f348-11ee-a60f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4d9591a4-f4d4-11ee-b8ce-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2052,
@@ -110747,16 +111551,69 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
-                "name": "Spotlight Esports"
+                "name": "Spotlight Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5d1a004e-f45a-11ee-8eb4-0242ac130003",
-                "name": "KEPTN"
+                "name": "KEPTN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d1a004e-f45a-11ee-8eb4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d1a004e-f45a-11ee-8eb4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d1a004e-f45a-11ee-8eb4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d1a004e-f45a-11ee-8eb4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2055,
@@ -110891,9 +111748,15 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
-            "opponent1": null,
-            "opponent2": null,
+            "status": 0,
+            "opponent1": {
+                "id": "8bce733e-f702-11ee-8a2c-0242ac130003",
+                "name": "VLH"
+            },
+            "opponent2": {
+                "id": "691dfd88-f373-11ee-852c-0242ac130003",
+                "name": "KANIBADAM"
+            },
             "match_games": []
         },
         {
@@ -111346,16 +112209,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8e0503ce-f3f7-11ee-b6d8-0242ac130003",
-                "name": "Dragon Fire"
+                "name": "Dragon Fire",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1d1a020e-f5a0-11ee-b780-0242ac130003",
-                "name": "Dbg-Carry"
+                "name": "Dbg-Carry",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8e0503ce-f3f7-11ee-b6d8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1d1a020e-f5a0-11ee-b780-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8e0503ce-f3f7-11ee-b6d8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1d1a020e-f5a0-11ee-b780-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2087,
@@ -111811,16 +112703,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "507ff73e-f294-11ee-8a0d-0242ac130002",
-                "name": "Skibidi Gayming"
+                "name": "Skibidi Gayming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "27078b98-f8b5-11ee-8c5f-0242ac130003",
-                "name": "Benched Heroes"
+                "name": "Benched Heroes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "507ff73e-f294-11ee-8a0d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "27078b98-f8b5-11ee-8c5f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "507ff73e-f294-11ee-8a0d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "27078b98-f8b5-11ee-8c5f-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 2108,
@@ -112690,16 +113611,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63367852-f349-11ee-87ed-0242ac130003",
-                "name": "TTC"
+                "name": "TTC",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "11afe69e-f38a-11ee-8fb0-0242ac130003",
-                "name": "New Generation"
+                "name": "New Generation",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "63367852-f349-11ee-87ed-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "11afe69e-f38a-11ee-8fb0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "63367852-f349-11ee-87ed-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "11afe69e-f38a-11ee-8fb0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2152,
@@ -112942,16 +113892,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62fb548a-f294-11ee-88ae-0242ac130002",
-                "name": "Bazaras"
+                "name": "Bazaras",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "273dd20a-f439-11ee-889e-0242ac130003",
-                "name": "ChevalRizz"
+                "name": "ChevalRizz",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "62fb548a-f294-11ee-88ae-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "273dd20a-f439-11ee-889e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "62fb548a-f294-11ee-88ae-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "273dd20a-f439-11ee-889e-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "62fb548a-f294-11ee-88ae-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "273dd20a-f439-11ee-889e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2166,
@@ -114072,16 +115063,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a23b872-f44a-11ee-b5a3-0242ac130003",
-                "name": "SCOUT GAMING"
+                "name": "SCOUT GAMING",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6519a5f0-f339-11ee-a01d-0242ac130002",
-                "name": "ZLM"
+                "name": "ZLM",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a23b872-f44a-11ee-b5a3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6519a5f0-f339-11ee-a01d-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a23b872-f44a-11ee-b5a3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6519a5f0-f339-11ee-a01d-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2221,
@@ -114806,16 +115826,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3cef7d84-f294-11ee-b909-0242ac130002",
-                "name": "Loving Cactus 🍓"
+                "name": "Loving Cactus 🍓",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ae5e050-f396-11ee-9808-0242ac130003",
-                "name": "OFF Esport"
+                "name": "OFF Esport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3cef7d84-f294-11ee-b909-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ae5e050-f396-11ee-9808-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3cef7d84-f294-11ee-b909-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ae5e050-f396-11ee-9808-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2254,
@@ -115944,16 +116993,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "254e5da4-f455-11ee-a8e9-0242ac130003",
-                "name": "Jesko"
+                "name": "Jesko",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
-                "name": "GALAXY SYSMIK"
+                "name": "GALAXY SYSMIK",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "254e5da4-f455-11ee-a8e9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "254e5da4-f455-11ee-a8e9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "26caa8c2-f35b-11ee-9031-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2314,
@@ -119210,16 +120288,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f8a74f08-f635-11ee-b5b4-0242ac130003",
-                "name": "3K1P"
+                "name": "3K1P",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "962f8226-f34e-11ee-9dce-0242ac130003",
-                "name": "The R3volution’s"
+                "name": "The R3volution’s",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f8a74f08-f635-11ee-b5b4-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "962f8226-f34e-11ee-9dce-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f8a74f08-f635-11ee-b5b4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "962f8226-f34e-11ee-9dce-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2478,
@@ -120756,7 +121863,8 @@
                 "name": "🥶LS |ツ❄️"
             },
             "opponent2": {
-                "id": null
+                "id": "87234660-f348-11ee-a60f-0242ac130002",
+                "name": "Cehu Team"
             },
             "match_games": []
         },
@@ -120785,7 +121893,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2beb1cde-f3a0-11ee-a5fe-0242ac130003",
+                "name": "Spotlight Esports"
             },
             "opponent2": {
                 "id": null
@@ -121042,7 +122151,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1d1a020e-f5a0-11ee-b780-0242ac130003",
+                "name": "Dbg-Carry"
             },
             "opponent2": {
                 "id": null
@@ -122120,7 +123230,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5a23b872-f44a-11ee-b5a3-0242ac130003",
+                "name": "SCOUT GAMING"
             },
             "opponent2": {
                 "id": null
@@ -124180,7 +125291,8 @@
                 "name": "Deutsche Bahn eSport"
             },
             "opponent2": {
-                "id": null
+                "id": "962f8226-f34e-11ee-9dce-0242ac130003",
+                "name": "The R3volution’s"
             },
             "match_games": []
         },
@@ -124931,7 +126043,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "12ee142c-f3c6-11ee-8543-0242ac130003",
+                "name": "ValGa"
             },
             "opponent2": {
                 "id": null
@@ -124995,7 +126108,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "086de2a2-f844-11ee-b0aa-0242ac130003",
+                "name": "Dougito"
             },
             "opponent2": {
                 "id": null
@@ -125091,7 +126205,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4a6a110a-f3ec-11ee-a71d-0242ac130003",
+                "name": "PSI|Gaming"
             },
             "opponent2": {
                 "id": null
@@ -125173,7 +126288,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f91df226-f436-11ee-bda3-0242ac130003",
+                "name": "Los Primosss"
             },
             "opponent2": {
                 "id": null
@@ -125206,7 +126322,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "35776972-f294-11ee-b2bb-0242ac130002",
+                "name": "Mafiosos"
             },
             "opponent2": {
                 "id": null
@@ -125320,7 +126437,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "55e7907e-f294-11ee-96d3-0242ac130002",
+                "name": "OsP"
             },
             "opponent2": {
                 "id": null
@@ -125859,7 +126977,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1b5b8200-f364-11ee-809f-0242ac130003",
+                "name": "APE PLAY"
             },
             "opponent2": {
                 "id": null
@@ -126106,7 +127225,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e8e2321a-f453-11ee-baf6-0242ac130003",
+                "name": "EDJ Gaming"
             },
             "opponent2": {
                 "id": null
@@ -126625,7 +127745,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9e055782-f353-11ee-99cf-0242ac130003",
+                "name": "INFITO"
             },
             "opponent2": {
                 "id": null
@@ -126641,7 +127762,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3cfc2138-f294-11ee-9198-0242ac130002",
+                "name": "Team Ryujin"
             },
             "opponent2": {
                 "id": null
@@ -126673,7 +127795,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "afeea862-f453-11ee-81ef-0242ac130003",
+                "name": "Ghost Wolf"
             },
             "opponent2": {
                 "id": null
@@ -126901,7 +128024,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9aff24e4-f364-11ee-90d8-0242ac130003",
+                "name": "Night"
             },
             "opponent2": {
                 "id": null
@@ -127016,7 +128140,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3213865a-f4d1-11ee-adcf-0242ac130003",
+                "name": "dreamZz"
             },
             "opponent2": {
                 "id": null
@@ -127064,7 +128189,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c914e016-f49b-11ee-806e-0242ac130003",
+                "name": "Say gex"
             },
             "opponent2": {
                 "id": null
@@ -127444,7 +128570,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6bd403ca-f647-11ee-9ea3-0242ac130003",
+                "name": "Clutchers"
             },
             "opponent2": {
                 "id": null
@@ -127673,7 +128800,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "506e2158-f294-11ee-9353-0242ac130002",
+                "name": "R.A.S. ALBARES"
             },
             "opponent2": {
                 "id": null
@@ -127739,7 +128867,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "94426790-f39d-11ee-bce8-0242ac130003",
+                "name": "QUEQUETTE-SPORT"
             },
             "opponent2": {
                 "id": null
@@ -127803,7 +128932,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0d5b29aa-f466-11ee-912e-0242ac130003",
+                "name": "JC💚"
             },
             "opponent2": {
                 "id": null
@@ -128178,7 +129308,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "446eeb1c-f294-11ee-a39c-0242ac130002",
+                "name": "trios"
             },
             "opponent2": {
                 "id": null
@@ -128243,7 +129374,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "555cb58a-f294-11ee-afea-0242ac130002",
+                "name": "Broken Fire"
             },
             "opponent2": {
                 "id": null
@@ -128375,7 +129507,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8941d500-f4f2-11ee-be8e-0242ac130003",
+                "name": "Diego"
             },
             "opponent2": {
                 "id": null
@@ -128523,7 +129656,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3c2a98c2-f3fa-11ee-83b9-0242ac130003",
+                "name": "Falken"
             },
             "opponent2": {
                 "id": null
@@ -128685,7 +129819,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "83cf5b76-f4fa-11ee-ad73-0242ac130003",
+                "name": "SUPRA |"
             },
             "opponent2": {
                 "id": null

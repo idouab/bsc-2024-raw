@@ -8650,6 +8650,18 @@
             "img": ""
         },
         {
+            "id": "2c034892-f295-11ee-9845-0242ac130002",
+            "tournament_id": 0,
+            "name": "Valhalla Division",
+            "players": [
+                "|ㄒ卂匚卄|シ︎",
+                "mautrax",
+                "MERC| Scrat",
+                "wintrax2.0"
+            ],
+            "img": ""
+        },
+        {
             "id": "5a2a3b02-f8e1-11ee-87e0-0242ac130003",
             "tournament_id": 0,
             "name": "BBC",
@@ -20575,16 +20587,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0b22ae-f295-11ee-9dd7-0242ac130002",
-                "name": "Tribe Gaming"
+                "name": "Tribe Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
-                "name": "Pickle rick"
+                "name": "Pickle rick",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0b22ae-f295-11ee-9dd7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0b22ae-f295-11ee-9dd7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7ce46b6-f6f9-11ee-a4ca-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 660,
@@ -23403,16 +23444,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2c034892-f295-11ee-9845-0242ac130002",
-                "name": "Valhalla Division"
+                "name": "Valhalla Division",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b62560be-f394-11ee-a1eb-0242ac130003",
-                "name": "Bmanstans"
+                "name": "Bmanstans",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2c034892-f295-11ee-9845-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b62560be-f394-11ee-a1eb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2c034892-f295-11ee-9845-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b62560be-f394-11ee-a1eb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 759,
@@ -27705,7 +27775,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0b22ae-f295-11ee-9dd7-0242ac130002",
+                "name": "Tribe Gaming"
             },
             "opponent2": {
                 "id": null
@@ -33284,10 +33355,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c034892-f295-11ee-9845-0242ac130002",
+                "name": "Valhalla Division"
             },
             "opponent2": {
-                "id": null
+                "id": "5a2a3b02-f8e1-11ee-87e0-0242ac130003",
+                "name": "BBC"
             },
             "match_games": []
         },

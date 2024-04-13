@@ -21287,16 +21287,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
-                "name": "Anti-Heróis"
+                "name": "Anti-Heróis",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
-                "name": "Kings"
+                "name": "Kings",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 604,
@@ -23171,7 +23200,8 @@
                 "name": "Revenge Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                "name": "Kings"
             },
             "match_games": []
         },
@@ -27703,16 +27733,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
-                "name": "Los 3 maiores"
+                "name": "Los 3 maiores",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a99114f6-f3a3-11ee-b009-0242ac130003",
-                "name": "Mitocôndrias"
+                "name": "Mitocôndrias",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a99114f6-f3a3-11ee-b009-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a99114f6-f3a3-11ee-b009-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a99114f6-f3a3-11ee-b009-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 549,
@@ -29347,7 +29418,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a99114f6-f3a3-11ee-b009-0242ac130003",
+                "name": "Mitocôndrias"
             },
             "opponent2": {
                 "id": null
@@ -30177,7 +30249,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0868b1f0-f3a4-11ee-bf4d-0242ac130003",
+                "name": "Anti-Heróis"
             },
             "opponent2": {
                 "id": null

@@ -26923,16 +26923,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e99a880-f295-11ee-8771-0242ac130002",
-                "name": "Instinct Gaming"
+                "name": "Instinct Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c052956c-f3ca-11ee-b912-0242ac130003",
-                "name": "MVR"
+                "name": "MVR",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 844,
@@ -30774,10 +30815,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                "name": "Instinct Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "3b50096a-f8e0-11ee-8d55-0242ac130003",
+                "name": "Brawl Guardians"
             },
             "match_games": []
         },

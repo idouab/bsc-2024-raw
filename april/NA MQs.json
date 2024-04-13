@@ -8854,6 +8854,18 @@
             "img": ""
         },
         {
+            "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
+            "tournament_id": 0,
+            "name": "Aztecas",
+            "players": [
+                "Kurama",
+                "Chachaúl",
+                "Mick£y",
+                "ᴍs|ᴀssᴀssɪɴ"
+            ],
+            "img": ""
+        },
+        {
             "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
             "tournament_id": 0,
             "name": "Cavern Churn Poco",
@@ -23696,16 +23708,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
-                "name": "Aztecas"
+                "name": "Aztecas",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
-                "name": "Llj gaming"
+                "name": "Llj gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 751,
@@ -34418,10 +34471,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "21f5d75c-f95c-11ee-92f0-0242ac130003",
+                "name": "Aztecas"
             },
             "opponent2": {
-                "id": null
+                "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
+                "name": "Cavern Churn Poco"
             },
             "match_games": []
         },

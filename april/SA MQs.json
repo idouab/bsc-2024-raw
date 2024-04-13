@@ -32041,16 +32041,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
-                "name": "Grupinho do Brawl"
+                "name": "Grupinho do Brawl",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
-                "name": "DreamCake"
+                "name": "DreamCake",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ff66e0e-f74a-11ee-b9f3-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 720,
@@ -33173,7 +33202,8 @@
                 "name": "Titans E-Sports"
             },
             "opponent2": {
-                "id": null
+                "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                "name": "Grupinho do Brawl"
             },
             "match_games": []
         },

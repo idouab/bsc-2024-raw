@@ -7471,6 +7471,17 @@
             "img": ""
         },
         {
+            "id": "330ecf30-f45c-11ee-9030-0242ac130003",
+            "tournament_id": 0,
+            "name": "Ice Pop",
+            "players": [
+                "FrostByte",
+                "Kosh",
+                ".:Legenberry:."
+            ],
+            "img": ""
+        },
+        {
             "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
             "tournament_id": 0,
             "name": "RED TAİLS",
@@ -10931,16 +10942,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "212da522-f509-11ee-b8fc-0242ac130003",
-                "name": "Masters club"
+                "name": "Masters club",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "330ecf30-f45c-11ee-9030-0242ac130003",
-                "name": "Ice Pop"
+                "name": "Ice Pop",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "330ecf30-f45c-11ee-9030-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "330ecf30-f45c-11ee-9030-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 199,
@@ -17813,7 +17853,8 @@
                 "name": "The heesjes"
             },
             "opponent2": {
-                "id": null
+                "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                "name": "Masters club"
             },
             "match_games": []
         },

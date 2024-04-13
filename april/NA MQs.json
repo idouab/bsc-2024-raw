@@ -8545,6 +8545,17 @@
             "img": ""
         },
         {
+            "id": "dfbbaea0-f471-11ee-956e-0242ac130003",
+            "tournament_id": 0,
+            "name": "EN MODE CARL",
+            "players": [
+                "TONY | CLUTCH",
+                "THE DEATH",
+                "pigeon power 2"
+            ],
+            "img": ""
+        },
+        {
             "id": "da2c2054-f99f-11ee-9029-0242ac130003",
             "tournament_id": 0,
             "name": "Conguitos",
@@ -8631,6 +8642,18 @@
                 "PWR|m1ljannッ",
                 "Raul pune mâna",
                 "🇬🇪toma🇬🇪"
+            ],
+            "img": ""
+        },
+        {
+            "id": "687580f0-f944-11ee-82d9-0242ac130003",
+            "tournament_id": 0,
+            "name": "ABP",
+            "players": [
+                "isa el dios",
+                "The Demon",
+                "elchicomensjero",
+                "chapa18™®:v"
             ],
             "img": ""
         },
@@ -24185,16 +24208,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "687580f0-f944-11ee-82d9-0242ac130003",
-                "name": "ABP"
+                "name": "ABP",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c54e2862-f382-11ee-a983-0242ac130003",
-                "name": "FANNAF"
+                "name": "FANNAF",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "687580f0-f944-11ee-82d9-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "687580f0-f944-11ee-82d9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "687580f0-f944-11ee-82d9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 771,
@@ -24553,16 +24617,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "69bb808a-f549-11ee-be2e-0242ac130003",
-                "name": "Québec on top"
+                "name": "Québec on top",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dfbbaea0-f471-11ee-956e-0242ac130003",
-                "name": "EN MODE CARL"
+                "name": "EN MODE CARL",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "69bb808a-f549-11ee-be2e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dfbbaea0-f471-11ee-956e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "69bb808a-f549-11ee-be2e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dfbbaea0-f471-11ee-956e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 785,
@@ -29381,7 +29474,8 @@
                 "name": "Haunters"
             },
             "opponent2": {
-                "id": null
+                "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                "name": "FANNAF"
             },
             "match_games": []
         },
@@ -33811,10 +33905,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dfbbaea0-f471-11ee-956e-0242ac130003",
+                "name": "EN MODE CARL"
             },
             "opponent2": {
-                "id": null
+                "id": "da2c2054-f99f-11ee-9029-0242ac130003",
+                "name": "Conguitos"
             },
             "match_games": []
         },
@@ -33939,10 +34035,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "687580f0-f944-11ee-82d9-0242ac130003",
+                "name": "ABP"
             },
             "opponent2": {
-                "id": null
+                "id": "11896ea0-f3cc-11ee-99b5-0242ac130003",
+                "name": "Kevu5150 YT"
             },
             "match_games": []
         },

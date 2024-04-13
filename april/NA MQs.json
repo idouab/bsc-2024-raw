@@ -7571,6 +7571,17 @@
             "img": ""
         },
         {
+            "id": "0f049bd8-f619-11ee-a7b3-0242ac130003",
+            "tournament_id": 0,
+            "name": "Fly Guys",
+            "players": [
+                "Applepen5201",
+                "Sour_Mini",
+                "✦EMZ ~ Sammy ツ"
+            ],
+            "img": ""
+        },
+        {
             "id": "8f73f054-f991-11ee-890f-0242ac130003",
             "tournament_id": 0,
             "name": "FDR | FEDORS",
@@ -7589,6 +7600,17 @@
                 "DAYKRESH",
                 "聽椕|ΛᄃΉIᄂᄂΣƧ☃️",
                 "❄シ︎CK|Hunter⛩🎴"
+            ],
+            "img": ""
+        },
+        {
+            "id": "dee3b708-f3d5-11ee-a083-0242ac130003",
+            "tournament_id": 0,
+            "name": "Danwongaming",
+            "players": [
+                "WinningImage",
+                "Scouter",
+                "WontonExpress"
             ],
             "img": ""
         },
@@ -7724,6 +7746,17 @@
                 "Illusive",
                 "Kyle Francis",
                 "AZ|RajaZa"
+            ],
+            "img": ""
+        },
+        {
+            "id": "32fd3b02-f944-11ee-8951-0242ac130003",
+            "tournament_id": 0,
+            "name": "Twïzzy Rich",
+            "players": [
+                "PotatoBeast7",
+                "LeviScythe",
+                "Dannydood"
             ],
             "img": ""
         },
@@ -10876,16 +10909,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0f049bd8-f619-11ee-a7b3-0242ac130003",
-                "name": "Fly Guys"
+                "name": "Fly Guys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e773f19e-f416-11ee-8c96-0242ac130003",
-                "name": "Cru Gaming"
+                "name": "Cru Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0f049bd8-f619-11ee-a7b3-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e773f19e-f416-11ee-8c96-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0f049bd8-f619-11ee-a7b3-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e773f19e-f416-11ee-8c96-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 155,
@@ -11567,16 +11629,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dee3b708-f3d5-11ee-a083-0242ac130003",
-                "name": "Danwongaming"
+                "name": "Danwongaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9065d2f8-f751-11ee-872b-0242ac130003",
-                "name": "Imminent"
+                "name": "Imminent",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "dee3b708-f3d5-11ee-a083-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "dee3b708-f3d5-11ee-a083-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 195,
@@ -14186,16 +14277,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
-                "name": "SGJ"
+                "name": "SGJ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "32fd3b02-f944-11ee-8951-0242ac130003",
-                "name": "Twïzzy Rich"
+                "name": "Twïzzy Rich",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32fd3b02-f944-11ee-8951-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32fd3b02-f944-11ee-8951-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 335,
@@ -18724,7 +18844,8 @@
                 "name": "Revelation Gaming FA"
             },
             "opponent2": {
-                "id": null
+                "id": "e773f19e-f416-11ee-8c96-0242ac130003",
+                "name": "Cru Gaming"
             },
             "match_games": []
         },
@@ -19075,7 +19196,8 @@
                 "name": "West Coast FA"
             },
             "opponent2": {
-                "id": null
+                "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                "name": "Imminent"
             },
             "match_games": []
         },
@@ -20306,7 +20428,8 @@
                 "name": "Woggies"
             },
             "opponent2": {
-                "id": null
+                "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                "name": "SGJ"
             },
             "match_games": []
         },

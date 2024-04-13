@@ -7437,6 +7437,17 @@
             "img": ""
         },
         {
+            "id": "aa0e242e-f5a5-11ee-921c-0242ac130003",
+            "tournament_id": 0,
+            "name": "brawl addicts",
+            "players": [
+                "Bubble",
+                "brownboy",
+                "SavagePumpki 21"
+            ],
+            "img": ""
+        },
+        {
             "id": "b4506b12-f623-11ee-a956-0242ac130003",
             "tournament_id": 0,
             "name": "The ghosts of Sparta",
@@ -7467,6 +7478,17 @@
                 "QuantumSteggy",
                 "Rex da beast",
                 "3ØO|Hercüles❤️"
+            ],
+            "img": ""
+        },
+        {
+            "id": "7dec4fa0-f993-11ee-aaf1-0242ac130003",
+            "tournament_id": 0,
+            "name": "DEPENSANTI.1",
+            "players": [
+                "Maronne Kick",
+                "frtnzut.1",
+                "Nicola"
             ],
             "img": ""
         },
@@ -8465,16 +8487,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa0e242e-f5a5-11ee-921c-0242ac130003",
-                "name": "brawl addicts"
+                "name": "brawl addicts",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "40d9c222-f43a-11ee-ad17-0242ac130003",
-                "name": "bbc ballers"
+                "name": "bbc ballers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "aa0e242e-f5a5-11ee-921c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "40d9c222-f43a-11ee-ad17-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "aa0e242e-f5a5-11ee-921c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "40d9c222-f43a-11ee-ad17-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "aa0e242e-f5a5-11ee-921c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "40d9c222-f43a-11ee-ad17-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 11,
@@ -8993,16 +9056,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "faa3adf2-f3a0-11ee-bbc2-0242ac130003",
-                "name": "Phantom Troupe"
+                "name": "Phantom Troupe",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7dec4fa0-f993-11ee-aaf1-0242ac130003",
-                "name": "DEPENSANTI.1"
+                "name": "DEPENSANTI.1",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "faa3adf2-f3a0-11ee-bbc2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7dec4fa0-f993-11ee-aaf1-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "faa3adf2-f3a0-11ee-bbc2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7dec4fa0-f993-11ee-aaf1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "faa3adf2-f3a0-11ee-bbc2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7dec4fa0-f993-11ee-aaf1-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 39,
@@ -18517,7 +18621,8 @@
                 "name": "The Casuals"
             },
             "opponent2": {
-                "id": null
+                "id": "40d9c222-f43a-11ee-ad17-0242ac130003",
+                "name": "bbc ballers"
             },
             "match_games": []
         },
@@ -18765,7 +18870,8 @@
                 "name": "Master's Prophets"
             },
             "opponent2": {
-                "id": null
+                "id": "faa3adf2-f3a0-11ee-bbc2-0242ac130003",
+                "name": "Phantom Troupe"
             },
             "match_games": []
         },

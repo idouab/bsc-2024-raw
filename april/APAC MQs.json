@@ -11547,16 +11547,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
-                "name": "F/A Nai Dug"
+                "name": "F/A Nai Dug",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "70d74788-f426-11ee-8a5f-0242ac130003",
-                "name": "SDGs/たわし"
+                "name": "SDGs/たわし",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 328,
@@ -11985,7 +12014,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                "name": "F/A Nai Dug"
             },
             "opponent2": {
                 "id": null
@@ -14051,16 +14081,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
-                "name": "Red Jackals"
+                "name": "Red Jackals",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "886761a0-f3de-11ee-ac97-0242ac130003",
-                "name": "たぬきむなげ"
+                "name": "たぬきむなげ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 270,
@@ -15005,7 +15064,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                "name": "たぬきむなげ"
             },
             "opponent2": {
                 "id": null
@@ -15373,7 +15433,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                "name": "SDGs/たわし"
             },
             "opponent2": {
                 "id": null

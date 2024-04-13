@@ -13556,16 +13556,45 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
-                "name": "アヒル同好会"
+                "name": "アヒル同好会",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
-                "name": "NAVI"
+                "name": "NAVI",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ceca67e2-f293-11ee-89a5-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 427,
@@ -19505,7 +19534,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                "name": "アヒル同好会"
             },
             "opponent2": {
                 "id": null

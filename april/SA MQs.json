@@ -31547,16 +31547,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd37b99c-f4a1-11ee-af4a-0242ac130003",
-                "name": "Madness Knights"
+                "name": "Madness Knights",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
-                "name": "LanzRea"
+                "name": "LanzRea",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd37b99c-f4a1-11ee-af4a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd37b99c-f4a1-11ee-af4a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 674,
@@ -33092,7 +33121,8 @@
                 "name": "ETERNAL LEGACY"
             },
             "opponent2": {
-                "id": null
+                "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                "name": "LanzRea"
             },
             "match_games": []
         },

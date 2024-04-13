@@ -7449,6 +7449,17 @@
             "img": ""
         },
         {
+            "id": "db152120-f399-11ee-83f9-0242ac130003",
+            "tournament_id": 0,
+            "name": "La minerve",
+            "players": [
+                "VLQ|¯\\_(ツ)_/¯",
+                "loli*🥶",
+                "loli2.0*🥶"
+            ],
+            "img": ""
+        },
+        {
             "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
             "tournament_id": 0,
             "name": "Triple7",
@@ -9044,16 +9055,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "db152120-f399-11ee-83f9-0242ac130003",
-                "name": "La minerve"
+                "name": "La minerve",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "54be52c8-f99c-11ee-9d30-0242ac130003",
-                "name": "Celestials"
+                "name": "Celestials",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "db152120-f399-11ee-83f9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "54be52c8-f99c-11ee-9d30-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "db152120-f399-11ee-83f9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "54be52c8-f99c-11ee-9d30-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 71,
@@ -16096,7 +16136,7 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 0,
+            "status": 3,
             "opponent1": {
                 "id": "7901b038-f52a-11ee-8b54-0242ac130003",
                 "name": "Moon Walk Crew"
@@ -17464,7 +17504,8 @@
                 "name": "REC UNITED"
             },
             "opponent2": {
-                "id": null
+                "id": "54be52c8-f99c-11ee-9d30-0242ac130003",
+                "name": "Celestials"
             },
             "match_games": []
         },

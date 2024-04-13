@@ -32594,16 +32594,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2819945c-f295-11ee-a4ca-0242ac130002",
-                "name": "Goblin Gang F/A"
+                "name": "Goblin Gang F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7111f8fa-f620-11ee-837a-0242ac130003",
-                "name": "Beta Maya"
+                "name": "Beta Maya",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7111f8fa-f620-11ee-837a-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7111f8fa-f620-11ee-837a-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1120,
@@ -33320,16 +33349,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
-                "name": "Yippee"
+                "name": "Yippee",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
-                "name": "NA Warriors"
+                "name": "NA Warriors",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1148,
@@ -34487,7 +34545,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                "name": "Goblin Gang F/A"
             },
             "opponent2": {
                 "id": null
@@ -34716,7 +34775,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                "name": "Yippee"
             },
             "opponent2": {
                 "id": null
@@ -41985,7 +42045,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                "name": "NA Warriors"
             },
             "opponent2": {
                 "id": null
@@ -42439,7 +42500,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7111f8fa-f620-11ee-837a-0242ac130003",
+                "name": "Beta Maya"
             },
             "opponent2": {
                 "id": null

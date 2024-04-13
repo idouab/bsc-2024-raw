@@ -7615,6 +7615,17 @@
             "img": ""
         },
         {
+            "id": "3eebfd68-f877-11ee-8912-0242ac130003",
+            "tournament_id": 0,
+            "name": "Washed Warriors",
+            "players": [
+                "josetdefault",
+                "SOD|Salamander",
+                "Polarz :)"
+            ],
+            "img": ""
+        },
+        {
             "id": "cae1b5f4-f3ba-11ee-819e-0242ac130003",
             "tournament_id": 0,
             "name": "The Bull Mangs🍜",
@@ -27851,16 +27862,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3eebfd68-f877-11ee-8912-0242ac130003",
-                "name": "Washed Warriors"
+                "name": "Washed Warriors",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d13cb9b4-f386-11ee-9010-0242ac130003",
-                "name": "Yellow Fever"
+                "name": "Yellow Fever",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3eebfd68-f877-11ee-8912-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d13cb9b4-f386-11ee-9010-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3eebfd68-f877-11ee-8912-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d13cb9b4-f386-11ee-9010-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "3eebfd68-f877-11ee-8912-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d13cb9b4-f386-11ee-9010-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 895,
@@ -32725,10 +32777,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3eebfd68-f877-11ee-8912-0242ac130003",
+                "name": "Washed Warriors"
             },
             "opponent2": {
-                "id": null
+                "id": "cae1b5f4-f3ba-11ee-819e-0242ac130003",
+                "name": "The Bull Mangs🍜"
             },
             "match_games": []
         },

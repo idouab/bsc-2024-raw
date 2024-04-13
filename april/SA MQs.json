@@ -36868,16 +36868,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
-                "name": "The forgotten ones🥀"
+                "name": "The forgotten ones🥀",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
-                "name": "dongil"
+                "name": "dongil",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fc78a568-f8a2-11ee-a57e-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 808,
@@ -37713,7 +37742,8 @@
                 "name": "Ñam sports"
             },
             "opponent2": {
-                "id": null
+                "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                "name": "The forgotten ones🥀"
             },
             "match_games": []
         },

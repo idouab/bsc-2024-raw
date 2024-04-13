@@ -34122,16 +34122,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
-                "name": "Fatherly Figures"
+                "name": "Fatherly Figures",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a2225292-f32c-11ee-8bd9-0242ac130002",
-                "name": "Growtopians"
+                "name": "Growtopians",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a2225292-f32c-11ee-8bd9-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a2225292-f32c-11ee-8bd9-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1170,
@@ -35223,10 +35252,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                "name": "Fatherly Figures"
             },
             "opponent2": {
-                "id": null
+                "id": "28bc60e2-f295-11ee-8efa-0242ac130002",
+                "name": "Splendid Kings"
             },
             "match_games": []
         },
@@ -36892,16 +36923,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14f5cddc-f47a-11ee-8294-0242ac130003",
-                "name": "LP|Monarca"
+                "name": "LP|Monarca",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "85151844-f6ea-11ee-85f6-0242ac130003",
-                "name": "🍚The Rice Farmers🍚"
+                "name": "🍚The Rice Farmers🍚",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14f5cddc-f47a-11ee-8294-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14f5cddc-f47a-11ee-8294-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 551,
@@ -39369,10 +39429,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "85151844-f6ea-11ee-85f6-0242ac130003",
+                "name": "🍚The Rice Farmers🍚"
             },
             "opponent2": {
-                "id": null
+                "id": "2865e186-f295-11ee-bf26-0242ac130002",
+                "name": "Brobby PG"
             },
             "match_games": []
         },
@@ -41961,7 +42023,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a2225292-f32c-11ee-8bd9-0242ac130002",
+                "name": "Growtopians"
             },
             "opponent2": {
                 "id": null

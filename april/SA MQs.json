@@ -31888,16 +31888,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
-                "name": "Los panchos"
+                "name": "Los panchos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "245ff336-f5f3-11ee-b457-0242ac130003",
-                "name": "Vanitas Stultorum"
+                "name": "Vanitas Stultorum",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "245ff336-f5f3-11ee-b457-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "245ff336-f5f3-11ee-b457-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "245ff336-f5f3-11ee-b457-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 664,
@@ -34478,7 +34519,8 @@
                 "name": "3DBR Black"
             },
             "opponent2": {
-                "id": null
+                "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                "name": "Los panchos"
             },
             "match_games": []
         },

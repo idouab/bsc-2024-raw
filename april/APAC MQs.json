@@ -3334,6 +3334,17 @@
             "img": ""
         },
         {
+            "id": "6ff46870-f361-11ee-88de-0242ac130003",
+            "tournament_id": 0,
+            "name": "Bak Choy bandits",
+            "players": [
+                "advay",
+                "⛩|DLaͥleͣxͫ64🎋",
+                ";)SNUG LYFE:)"
+            ],
+            "img": ""
+        },
+        {
             "id": "10faae0a-f3d0-11ee-8f03-0242ac130003",
             "tournament_id": 0,
             "name": "The3Idiots",
@@ -5700,16 +5711,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70d74788-f426-11ee-8a5f-0242ac130003",
-                "name": "SDGs/たわし"
+                "name": "SDGs/たわし",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6ff46870-f361-11ee-88de-0242ac130003",
-                "name": "Bak Choy bandits"
+                "name": "Bak Choy bandits",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ff46870-f361-11ee-88de-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ff46870-f361-11ee-88de-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 60,
@@ -8222,7 +8262,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                "name": "SDGs/たわし"
             },
             "opponent2": {
                 "id": null
@@ -10234,7 +10275,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6ff46870-f361-11ee-88de-0242ac130003",
+                "name": "Bak Choy bandits"
             },
             "opponent2": {
                 "id": null

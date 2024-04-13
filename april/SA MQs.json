@@ -28508,16 +28508,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
-                "name": "HembrasHermosas"
+                "name": "HembrasHermosas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f1e1a132-f44b-11ee-b9df-0242ac130003",
-                "name": "GRUPO LEFT🧟‍♀️"
+                "name": "GRUPO LEFT🧟‍♀️",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f1e1a132-f44b-11ee-b9df-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1e1a132-f44b-11ee-b9df-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1e1a132-f44b-11ee-b9df-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 531,
@@ -30646,7 +30687,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                "name": "HembrasHermosas"
             },
             "opponent2": {
                 "id": null

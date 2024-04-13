@@ -22244,16 +22244,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b1d650c-f295-11ee-b7a9-0242ac130002",
-                "name": "Get Clowned On"
+                "name": "Get Clowned On",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
-                "name": "Gridlock Gaming"
+                "name": "Gridlock Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b1d650c-f295-11ee-b7a9-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b1d650c-f295-11ee-b7a9-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 764,
@@ -25985,7 +26014,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b1d650c-f295-11ee-b7a9-0242ac130002",
+                "name": "Get Clowned On"
             },
             "opponent2": {
                 "id": null

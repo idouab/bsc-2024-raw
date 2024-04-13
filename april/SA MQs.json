@@ -24758,16 +24758,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14814204-f296-11ee-8518-0242ac130002",
-                "name": "Marruecos"
+                "name": "Marruecos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "01b515e2-f327-11ee-9836-0242ac130003",
-                "name": "Tin keso"
+                "name": "Tin keso",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14814204-f296-11ee-8518-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14814204-f296-11ee-8518-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 747,
@@ -25344,7 +25373,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14814204-f296-11ee-8518-0242ac130002",
+                "name": "Marruecos"
             },
             "opponent2": {
                 "id": null
@@ -31779,16 +31809,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f29e3afa-f463-11ee-a336-0242ac130003",
-                "name": "Originais"
+                "name": "Originais",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1121c298-f3de-11ee-8157-0242ac130003",
-                "name": "AEAA SPORTS"
+                "name": "AEAA SPORTS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f29e3afa-f463-11ee-a336-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f29e3afa-f463-11ee-a336-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 687,
@@ -33173,7 +33232,8 @@
                 "name": "NVD"
             },
             "opponent2": {
-                "id": null
+                "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                "name": "AEAA SPORTS"
             },
             "match_games": []
         },
@@ -34435,7 +34495,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "01b515e2-f327-11ee-9836-0242ac130003",
+                "name": "Tin keso"
             },
             "opponent2": {
                 "id": null

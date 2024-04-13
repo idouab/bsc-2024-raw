@@ -26890,16 +26890,45 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "148500ec-f296-11ee-b6ba-0242ac130002",
-                "name": "Calabresos F/A"
+                "name": "Calabresos F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b37fc278-f295-11ee-abaa-0242ac130002",
-                "name": "One Chance 🌎"
+                "name": "One Chance 🌎",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "148500ec-f296-11ee-b6ba-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "148500ec-f296-11ee-b6ba-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 911,
@@ -40612,7 +40641,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                "name": "One Chance 🌎"
             },
             "opponent2": {
                 "id": null

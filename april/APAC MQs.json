@@ -21678,16 +21678,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
-                "name": "HOW"
+                "name": "HOW",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f3c44900-f293-11ee-a556-0242ac130002",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 478,
@@ -21768,16 +21797,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
-                "name": "Rising Raccoon"
+                "name": "Rising Raccoon",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
-                "name": "あ"
+                "name": "あ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 483,
@@ -21824,7 +21882,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3c5a1e2-f293-11ee-88b2-0242ac130002",
+                "name": "HOW"
             },
             "opponent2": {
                 "id": null

@@ -33519,16 +33519,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b61923e6-f397-11ee-8133-0242ac130003",
-                "name": "LeBrock James"
+                "name": "LeBrock James",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
-                "name": "AKT|"
+                "name": "AKT|",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b61923e6-f397-11ee-8133-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b61923e6-f397-11ee-8133-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b61923e6-f397-11ee-8133-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1109,
@@ -36670,7 +36711,8 @@
                 "name": "Luminosity"
             },
             "opponent2": {
-                "id": null
+                "id": "b61923e6-f397-11ee-8133-0242ac130003",
+                "name": "LeBrock James"
             },
             "match_games": []
         },
@@ -45540,7 +45582,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                "name": "AKT|"
             },
             "opponent2": {
                 "id": null

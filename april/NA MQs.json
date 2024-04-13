@@ -7449,6 +7449,17 @@
             "img": ""
         },
         {
+            "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
+            "tournament_id": 0,
+            "name": "Triple7",
+            "players": [
+                "H U G O🐊⁷⁷⁷",
+                "C H O U🐐⁷⁷⁷",
+                "M E D_G Y🦍⁷⁷⁷"
+            ],
+            "img": ""
+        },
+        {
             "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
             "tournament_id": 0,
             "name": "TondaSoldier",
@@ -7500,6 +7511,17 @@
                 "FrostByte",
                 "Kosh",
                 ".:Legenberry:."
+            ],
+            "img": ""
+        },
+        {
+            "id": "7d868a34-f67e-11ee-8933-0242ac130003",
+            "tournament_id": 0,
+            "name": "Los Gatos Locos",
+            "players": [
+                "TheBadGuy",
+                "luna",
+                "GodSpeed"
             ],
             "img": ""
         },
@@ -7558,6 +7580,17 @@
                 "Ian",
                 "MOONKIM🖤🌙",
                 "toy gamer"
+            ],
+            "img": ""
+        },
+        {
+            "id": "57cceacc-f3ea-11ee-9206-0242ac130003",
+            "tournament_id": 0,
+            "name": "Tolok's eSports",
+            "players": [
+                "DOCPOSHO",
+                "CRISwatt",
+                "Imthegoat🗣️🗣️"
             ],
             "img": ""
         },
@@ -9411,16 +9444,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
-                "name": "Triple7"
+                "name": "Triple7",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cd9cb306-f78a-11ee-8a63-0242ac130003",
-                "name": "Motion"
+                "name": "Motion",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cd9cb306-f78a-11ee-8a63-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cd9cb306-f78a-11ee-8a63-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 99,
@@ -13532,16 +13594,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0144b8ac-f691-11ee-b4ab-0242ac130003",
-                "name": "LASASUX"
+                "name": "LASASUX",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "57cceacc-f3ea-11ee-9206-0242ac130003",
-                "name": "Tolok's eSports"
+                "name": "Tolok's eSports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0144b8ac-f691-11ee-b4ab-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "57cceacc-f3ea-11ee-9206-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0144b8ac-f691-11ee-b4ab-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "57cceacc-f3ea-11ee-9206-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 339,
@@ -17392,7 +17483,8 @@
                 "name": "DC TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "cd9cb306-f78a-11ee-8a63-0242ac130003",
+                "name": "Motion"
             },
             "match_games": []
         },
@@ -18373,7 +18465,8 @@
                 "name": "Get Clowned On"
             },
             "opponent2": {
-                "id": null
+                "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
+                "name": "Gridlock Gaming"
             },
             "match_games": []
         },
@@ -19493,7 +19586,8 @@
                 "name": "Entity"
             },
             "opponent2": {
-                "id": null
+                "id": "0144b8ac-f691-11ee-b4ab-0242ac130003",
+                "name": "LASASUX"
             },
             "match_games": []
         },

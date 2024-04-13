@@ -7615,6 +7615,17 @@
             "img": ""
         },
         {
+            "id": "7fc413ec-f45e-11ee-900d-0242ac130003",
+            "tournament_id": 0,
+            "name": "Hydrophilic Gang",
+            "players": [
+                "DansPro",
+                "{ BąrønGąming }",
+                "TCD"
+            ],
+            "img": ""
+        },
+        {
             "id": "972beda0-f3b6-11ee-bd13-0242ac130003",
             "tournament_id": 0,
             "name": "Phantoms FC Gaming",
@@ -12646,16 +12657,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
-                "name": "AKT|"
+                "name": "AKT|",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7fc413ec-f45e-11ee-900d-0242ac130003",
-                "name": "Hydrophilic Gang"
+                "name": "Hydrophilic Gang",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7fc413ec-f45e-11ee-900d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7fc413ec-f45e-11ee-900d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7fc413ec-f45e-11ee-900d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 265,
@@ -19371,7 +19423,8 @@
                 "name": "LIMO|"
             },
             "opponent2": {
-                "id": null
+                "id": "2fc7d74c-f4ff-11ee-9d0c-0242ac130003",
+                "name": "AKT|"
             },
             "match_games": []
         },

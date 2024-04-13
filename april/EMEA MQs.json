@@ -31706,6 +31706,17 @@
             "img": ""
         },
         {
+            "id": "af38fb42-f41d-11ee-b33b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Les Boubar",
+            "players": [
+                "LuigiX",
+                "Onizuka",
+                "xdem"
+            ],
+            "img": ""
+        },
+        {
             "id": "b80a27fe-f36f-11ee-9d1a-0242ac130003",
             "tournament_id": 0,
             "name": "MPA",
@@ -61013,14 +61024,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4277bf0a-f294-11ee-bde3-0242ac130002",
                 "name": "FISHY"
             },
             "opponent2": {
                 "id": "af38fb42-f41d-11ee-b33b-0242ac130003",
-                "name": "Les Boubar"
+                "name": "Les Boubar",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -70498,16 +70510,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "37f2f5d4-f381-11ee-9844-0242ac130003",
-                "name": "🌀TEZ🌀Esports🇹🇷"
+                "name": "🌀TEZ🌀Esports🇹🇷",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dee45c4c-f396-11ee-b0e0-0242ac130003",
-                "name": "Frostplage"
+                "name": "Frostplage",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "37f2f5d4-f381-11ee-9844-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dee45c4c-f396-11ee-b0e0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "37f2f5d4-f381-11ee-9844-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dee45c4c-f396-11ee-b0e0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1550,
@@ -72296,16 +72337,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4e31dffa-f763-11ee-878d-0242ac130003",
-                "name": "UominiBolla"
+                "name": "UominiBolla",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
-                "name": "Team Golden Dawn"
+                "name": "Team Golden Dawn",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4e31dffa-f763-11ee-878d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4e31dffa-f763-11ee-878d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1637,
@@ -77002,16 +77072,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "08ec8bc8-f42c-11ee-90c0-0242ac130003",
-                "name": "DSL Esports"
+                "name": "DSL Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be30bfde-f45b-11ee-9d45-0242ac130003",
-                "name": "BD | Gaming"
+                "name": "BD | Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "08ec8bc8-f42c-11ee-90c0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be30bfde-f45b-11ee-9d45-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "08ec8bc8-f42c-11ee-90c0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be30bfde-f45b-11ee-9d45-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1852,
@@ -78430,8 +78529,14 @@
             "round_id": 2,
             "child_count": 3,
             "status": 3,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "4277bf0a-f294-11ee-bde3-0242ac130002",
+                "name": "FISHY"
+            },
+            "opponent2": {
+                "id": "4b33d5d4-f294-11ee-8694-0242ac130002",
+                "name": "LVA"
+            },
             "match_games": []
         },
         {
@@ -78919,16 +79024,69 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "595e49aa-f294-11ee-a26b-0242ac130002",
-                "name": "PGN ESports"
+                "name": "PGN ESports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "034d6618-f5be-11ee-b54b-0242ac130003",
-                "name": "Zbyhu esporting"
+                "name": "Zbyhu esporting",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "595e49aa-f294-11ee-a26b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "034d6618-f5be-11ee-b54b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "595e49aa-f294-11ee-a26b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "034d6618-f5be-11ee-b54b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "595e49aa-f294-11ee-a26b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "034d6618-f5be-11ee-b54b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "595e49aa-f294-11ee-a26b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "034d6618-f5be-11ee-b54b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1943,
@@ -82207,7 +82365,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5db7e2ae-f294-11ee-a64b-0242ac130002",
+                "name": "Team Golden Dawn"
             },
             "opponent2": {
                 "id": null
@@ -84681,7 +84840,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "595e49aa-f294-11ee-a26b-0242ac130002",
+                "name": "PGN ESports"
             },
             "opponent2": {
                 "id": null
@@ -97662,8 +97822,14 @@
             "round_id": 1,
             "child_count": 3,
             "status": 3,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "af38fb42-f41d-11ee-b33b-0242ac130003",
+                "name": "Les Boubar"
+            },
+            "opponent2": {
+                "id": "b80a27fe-f36f-11ee-9d1a-0242ac130003",
+                "name": "MPA"
+            },
             "match_games": []
         },
         {
@@ -102153,10 +102319,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "034d6618-f5be-11ee-b54b-0242ac130003",
+                "name": "Zbyhu esporting"
             },
             "opponent2": {
-                "id": null
+                "id": "292b4082-f90e-11ee-88fd-0242ac130003",
+                "name": "Last Warriors"
             },
             "match_games": []
         },
@@ -103627,10 +103795,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "be30bfde-f45b-11ee-9d45-0242ac130003",
+                "name": "BD | Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "fff3f6a8-f3e2-11ee-b46b-0242ac130003",
+                "name": "Phoenix Gaming"
             },
             "match_games": []
         },
@@ -107122,10 +107292,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4e31dffa-f763-11ee-878d-0242ac130003",
+                "name": "UominiBolla"
             },
             "opponent2": {
-                "id": null
+                "id": "1457e400-f42f-11ee-a7d0-0242ac130003",
+                "name": "TEAM BRAVAS"
             },
             "match_games": []
         },
@@ -108530,10 +108702,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dee45c4c-f396-11ee-b0e0-0242ac130003",
+                "name": "Frostplage"
             },
             "opponent2": {
-                "id": null
+                "id": "5fff48ae-f294-11ee-9b49-0242ac130002",
+                "name": "Diakhaby BS"
             },
             "match_games": []
         },

@@ -3423,6 +3423,17 @@
             "img": ""
         },
         {
+            "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+            "tournament_id": 0,
+            "name": "未成年",
+            "players": [
+                "ペンタごなる",
+                "金玉金玉金玉金玉金玉金玉金玉",
+                "きけけわ"
+            ],
+            "img": ""
+        },
+        {
             "id": "68530b16-f385-11ee-9f55-0242ac130003",
             "tournament_id": 0,
             "name": "NG esports",
@@ -3550,6 +3561,17 @@
             "img": ""
         },
         {
+            "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
+            "tournament_id": 0,
+            "name": "テコンドーでよーいドン",
+            "players": [
+                "Re:ぴーす",
+                "Re:あどはど",
+                "Re:頂点"
+            ],
+            "img": ""
+        },
+        {
             "id": "54a9b490-f3f1-11ee-8e94-0242ac130003",
             "tournament_id": 0,
             "name": "Ecliptic",
@@ -3568,6 +3590,17 @@
                 "れい｜ray🤷🏻‍♂️",
                 "Zed | Kaijinn🌹",
                 "やまもん"
+            ],
+            "img": ""
+        },
+        {
+            "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+            "tournament_id": 0,
+            "name": "under損",
+            "players": [
+                "@paru_麦",
+                "わきげ",
+                "ばっこりちゃっこり"
             ],
             "img": ""
         },
@@ -6169,16 +6202,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ccf411a2-f293-11ee-880a-0242ac130002",
-                "name": "young bear"
+                "name": "young bear",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
-                "name": "未成年"
+                "name": "未成年",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 69,
@@ -6660,16 +6734,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
-                "name": "Red Jackals"
+                "name": "Red Jackals",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
-                "name": "テコンドーでよーいドン"
+                "name": "テコンドーでよーいドン",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 88,
@@ -6744,16 +6859,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
-                "name": "The Last Dance"
+                "name": "The Last Dance",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
-                "name": "under損"
+                "name": "under損",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 91,
@@ -8526,7 +8670,8 @@
                 "name": "⚡️NotAfraid⚡️"
             },
             "opponent2": {
-                "id": null
+                "id": "ccf411a2-f293-11ee-880a-0242ac130002",
+                "name": "young bear"
             },
             "match_games": []
         },
@@ -8695,10 +8840,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cc77a80c-f404-11ee-aed9-0242ac130003",
+                "name": "Red Jackals"
             },
             "opponent2": {
-                "id": null
+                "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                "name": "Dandelion"
             },
             "match_games": []
         },
@@ -8715,7 +8862,8 @@
                 "name": "coco loco"
             },
             "opponent2": {
-                "id": null
+                "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                "name": "The Last Dance"
             },
             "match_games": []
         },
@@ -10525,7 +10673,8 @@
                 "name": "特別支援学級B組"
             },
             "opponent2": {
-                "id": null
+                "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                "name": "未成年"
             },
             "match_games": []
         },
@@ -10676,10 +10825,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f7065fd2-f36e-11ee-8777-0242ac130003",
+                "name": "テコンドーでよーいドン"
             },
             "opponent2": {
-                "id": null
+                "id": "54a9b490-f3f1-11ee-8e94-0242ac130003",
+                "name": "Ecliptic"
             },
             "match_games": []
         },
@@ -10696,7 +10847,8 @@
                 "name": "あ"
             },
             "opponent2": {
-                "id": null
+                "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+                "name": "under損"
             },
             "match_games": []
         },

@@ -24639,16 +24639,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b74ee168-f295-11ee-ad80-0242ac130002",
-                "name": "3DBR Sports Ultra"
+                "name": "3DBR Sports Ultra",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "19840072-f550-11ee-bf00-0242ac130003",
-                "name": "SMG |[Doritos]™"
+                "name": "SMG |[Doritos]™",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19840072-f550-11ee-bf00-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19840072-f550-11ee-bf00-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 742,
@@ -25358,7 +25387,8 @@
                 "name": "🇵🇪PERUVIAN STARS🏆"
             },
             "opponent2": {
-                "id": null
+                "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                "name": "3DBR Sports Ultra"
             },
             "match_games": []
         },
@@ -35146,7 +35176,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "19840072-f550-11ee-bf00-0242ac130003",
+                "name": "SMG |[Doritos]™"
             },
             "opponent2": {
                 "id": null

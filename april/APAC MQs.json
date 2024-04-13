@@ -18484,16 +18484,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a6592f68-f4ab-11ee-b7f6-0242ac130003",
-                "name": "下パネ消灯！？"
+                "name": "下パネ消灯！？",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d43b920c-f421-11ee-bc24-0242ac130003",
-                "name": "ロンにゃ❗️"
+                "name": "ロンにゃ❗️",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a6592f68-f4ab-11ee-b7f6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d43b920c-f421-11ee-bc24-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a6592f68-f4ab-11ee-b7f6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d43b920c-f421-11ee-bc24-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 406,
@@ -19000,7 +19029,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a6592f68-f4ab-11ee-b7f6-0242ac130003",
+                "name": "下パネ消灯！？"
             },
             "opponent2": {
                 "id": null

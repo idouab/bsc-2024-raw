@@ -39420,16 +39420,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
-                "name": "bota limpo"
+                "name": "bota limpo",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
-                "name": "PaiN"
+                "name": "PaiN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 895,
@@ -39896,10 +39925,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "opponent2": {
-                "id": null
+                "id": "b426053e-f295-11ee-a4b5-0242ac130002",
+                "name": "The Last Hope 🔮"
             },
             "match_games": []
         },

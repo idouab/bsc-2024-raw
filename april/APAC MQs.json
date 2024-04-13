@@ -3479,6 +3479,17 @@
             "img": ""
         },
         {
+            "id": "91a41b2e-f34c-11ee-88e9-0242ac130002",
+            "tournament_id": 0,
+            "name": "ばっさー族",
+            "players": [
+                "ばっさー族〆りーたん",
+                "ばっさー族〆相棒",
+                "おめめパッチリるんちゃぁん🌸"
+            ],
+            "img": ""
+        },
+        {
             "id": "cdbbd7a0-f293-11ee-b044-0242ac130002",
             "tournament_id": 0,
             "name": "ミスターTと子分たち",
@@ -3556,6 +3567,17 @@
                 "RN | SASUKE",
                 "Peter Porker",
                 "VicharayV"
+            ],
+            "img": ""
+        },
+        {
+            "id": "eda5adda-f814-11ee-affd-0242ac130003",
+            "tournament_id": 0,
+            "name": "Adolescence",
+            "players": [
+                "紅蘭〆闇雷",
+                "GS┃いなちゃり",
+                "はやてしか勝た⤴︎⤴︎⤴︎ん"
             ],
             "img": ""
         },
@@ -6414,14 +6436,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "adb5e7ba-f546-11ee-b2a6-0242ac130003",
                 "name": "Homeless Pandas"
             },
             "opponent2": {
                 "id": "91a41b2e-f34c-11ee-88e9-0242ac130002",
-                "name": "ばっさー族"
+                "name": "ばっさー族",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -6745,16 +6768,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eda5adda-f814-11ee-affd-0242ac130003",
-                "name": "Adolescence"
+                "name": "Adolescence",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
-                "name": "ばんきんや"
+                "name": "ばんきんや",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "eda5adda-f814-11ee-affd-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "eda5adda-f814-11ee-affd-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 81,
@@ -8944,7 +8996,8 @@
                 "name": "私立巡ヶ丘学院"
             },
             "opponent2": {
-                "id": null
+                "id": "adb5e7ba-f546-11ee-b2a6-0242ac130003",
+                "name": "Homeless Pandas"
             },
             "match_games": []
         },
@@ -9015,7 +9068,8 @@
                 "name": "pink rotor"
             },
             "opponent2": {
-                "id": null
+                "id": "c42beeb8-f4e7-11ee-b876-0242ac130003",
+                "name": "ばんきんや"
             },
             "match_games": []
         },
@@ -10954,7 +11008,8 @@
                 "name": "不入斗"
             },
             "opponent2": {
-                "id": null
+                "id": "91a41b2e-f34c-11ee-88e9-0242ac130002",
+                "name": "ばっさー族"
             },
             "match_games": []
         },
@@ -11025,7 +11080,8 @@
                 "name": "Team Rogue Ninjas"
             },
             "opponent2": {
-                "id": null
+                "id": "eda5adda-f814-11ee-affd-0242ac130003",
+                "name": "Adolescence"
             },
             "match_games": []
         },

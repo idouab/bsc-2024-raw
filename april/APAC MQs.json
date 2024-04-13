@@ -9116,16 +9116,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9535fcfe-f616-11ee-9628-0242ac130003",
-                "name": "SuperTrashBros"
+                "name": "SuperTrashBros",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
-                "name": "Why we lose"
+                "name": "Why we lose",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 217,
@@ -11354,16 +11383,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
-                "name": "あ"
+                "name": "あ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
-                "name": "under損"
+                "name": "under損",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e005ac0a-f929-11ee-a4a0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ef1a134-f337-11ee-ba03-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 168,
@@ -12192,10 +12250,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                "name": "SuperTrashBros"
             },
             "opponent2": {
-                "id": null
+                "id": "4a3749c8-f3f1-11ee-9e95-0242ac130003",
+                "name": "Feed100"
             },
             "match_games": []
         },

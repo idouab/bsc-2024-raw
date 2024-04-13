@@ -25469,6 +25469,17 @@
             "img": ""
         },
         {
+            "id": "4c940f78-f58e-11ee-b118-0242ac130003",
+            "tournament_id": 0,
+            "name": "9GSP",
+            "players": [
+                "Leon",
+                "TOREHANRUN",
+                "Mister Sun"
+            ],
+            "img": ""
+        },
+        {
             "id": "5b30c380-f8d3-11ee-b912-0242ac130003",
             "tournament_id": 0,
             "name": "Levantando el país",
@@ -36176,16 +36187,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9868bc2e-f501-11ee-a661-0242ac130003",
-                "name": "Bat9"
+                "name": "Bat9",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4c940f78-f58e-11ee-b118-0242ac130003",
-                "name": "9GSP"
+                "name": "9GSP",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4c940f78-f58e-11ee-b118-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c940f78-f58e-11ee-b118-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c940f78-f58e-11ee-b118-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 216,
@@ -57367,10 +57419,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                "name": "Bat9"
             },
             "opponent2": {
-                "id": null
+                "id": "373a1c28-f294-11ee-98b8-0242ac130002",
+                "name": "Limoonchoy"
             },
             "match_games": []
         },
@@ -74158,10 +74212,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4c940f78-f58e-11ee-b118-0242ac130003",
+                "name": "9GSP"
             },
             "opponent2": {
-                "id": null
+                "id": "5b30c380-f8d3-11ee-b912-0242ac130003",
+                "name": "Levantando el país"
             },
             "match_games": []
         },

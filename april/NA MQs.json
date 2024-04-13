@@ -8139,6 +8139,18 @@
             "img": ""
         },
         {
+            "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
+            "tournament_id": 0,
+            "name": "Tuggy’s team",
+            "players": [
+                "JOSHUA",
+                "Zotato",
+                "Papuan ✨🏝️🍭",
+                "Bull Frog"
+            ],
+            "img": ""
+        },
+        {
             "id": "d88d4b14-f513-11ee-8227-0242ac130003",
             "tournament_id": 0,
             "name": "chug jug",
@@ -26380,16 +26392,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8bfff33c-f333-11ee-9baf-0242ac130003",
-                "name": "PR-on-Top"
+                "name": "PR-on-Top",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
-                "name": "Tuggy’s team"
+                "name": "Tuggy’s team",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8bfff33c-f333-11ee-9baf-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8bfff33c-f333-11ee-9baf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "8bfff33c-f333-11ee-9baf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 833,
@@ -27392,16 +27445,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e8593f8-f502-11ee-9352-0242ac130003",
-                "name": "Rizzy Glizzy"
+                "name": "Rizzy Glizzy",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f45cab34-f539-11ee-8357-0242ac130003",
-                "name": "Yeet"
+                "name": "Yeet",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e8593f8-f502-11ee-9352-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e8593f8-f502-11ee-9352-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 866,
@@ -30373,7 +30455,8 @@
                 "name": "Stinky Skibidi"
             },
             "opponent2": {
-                "id": null
+                "id": "8bfff33c-f333-11ee-9baf-0242ac130003",
+                "name": "PR-on-Top"
             },
             "match_games": []
         },
@@ -30655,10 +30738,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                "name": "Yeet"
             },
             "opponent2": {
-                "id": null
+                "id": "017f7880-f384-11ee-96ef-0242ac130003",
+                "name": "The Bobs"
             },
             "match_games": []
         },
@@ -33840,10 +33925,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2d6dc9e-f94d-11ee-8fb2-0242ac130003",
+                "name": "Tuggy’s team"
             },
             "opponent2": {
-                "id": null
+                "id": "d88d4b14-f513-11ee-8227-0242ac130003",
+                "name": "chug jug"
             },
             "match_games": []
         },

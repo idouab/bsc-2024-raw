@@ -7582,6 +7582,17 @@
             "img": ""
         },
         {
+            "id": "87c20790-f6a0-11ee-b20d-0242ac130003",
+            "tournament_id": 0,
+            "name": "Best NA",
+            "players": [
+                "Anomaly",
+                "Nathan",
+                "bidoofW"
+            ],
+            "img": ""
+        },
+        {
             "id": "8f73f054-f991-11ee-890f-0242ac130003",
             "tournament_id": 0,
             "name": "FDR | FEDORS",
@@ -7823,6 +7834,17 @@
                 "LeRat🧀",
                 "G4LPH1X0",
                 "Gloody"
+            ],
+            "img": ""
+        },
+        {
+            "id": "13548366-f3de-11ee-b7db-0242ac130003",
+            "tournament_id": 0,
+            "name": "Sirius Legends",
+            "players": [
+                "AcrøArctic😈",
+                ".::Mc$teamy::.",
+                "§|§ingularity|§"
             ],
             "img": ""
         },
@@ -11319,16 +11341,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87c20790-f6a0-11ee-b20d-0242ac130003",
-                "name": "Best NA"
+                "name": "Best NA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2e1c35ca-f3e0-11ee-a549-0242ac130003",
-                "name": "True and False"
+                "name": "True and False",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "87c20790-f6a0-11ee-b20d-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2e1c35ca-f3e0-11ee-a549-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "87c20790-f6a0-11ee-b20d-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2e1c35ca-f3e0-11ee-a549-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 179,
@@ -15821,16 +15872,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
-                "name": "Bookies"
+                "name": "Bookies",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "13548366-f3de-11ee-b7db-0242ac130003",
-                "name": "Sirius Legends"
+                "name": "Sirius Legends",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "13548366-f3de-11ee-b7db-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "13548366-f3de-11ee-b7db-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 419,
@@ -19054,7 +19134,8 @@
                 "name": "Fusyon EC"
             },
             "opponent2": {
-                "id": null
+                "id": "2e1c35ca-f3e0-11ee-a549-0242ac130003",
+                "name": "True and False"
             },
             "match_games": []
         },
@@ -21168,7 +21249,8 @@
                 "name": "Yippee"
             },
             "opponent2": {
-                "id": null
+                "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                "name": "Bookies"
             },
             "match_games": []
         },

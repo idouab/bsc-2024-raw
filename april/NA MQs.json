@@ -8962,6 +8962,17 @@
             "img": ""
         },
         {
+            "id": "4b187682-f46e-11ee-945b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Team bigBous",
+            "players": [
+                "bigBous",
+                "PKF | Kevin",
+                "☆《《EϻϻД》》☆"
+            ],
+            "img": ""
+        },
+        {
             "id": "39081c4a-f996-11ee-8771-0242ac130003",
             "tournament_id": 0,
             "name": "DLLM",
@@ -9124,6 +9135,18 @@
                 "WooTang Clan",
                 "calicio",
                 "EZ|Moonlight"
+            ],
+            "img": ""
+        },
+        {
+            "id": "3b10ea98-f99c-11ee-a794-0242ac130003",
+            "tournament_id": 0,
+            "name": "Asf",
+            "players": [
+                "Mahrabツ ᴷⁱˡˡᵧₒᵤ",
+                "xEne",
+                "lemur",
+                "LDX|MINATØX ™"
             ],
             "img": ""
         },
@@ -21139,16 +21162,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3b10ea98-f99c-11ee-a794-0242ac130003",
-                "name": "Asf"
+                "name": "Asf",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6b7e609a-f37d-11ee-8109-0242ac130003",
-                "name": "LMV-Mexico"
+                "name": "LMV-Mexico",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3b10ea98-f99c-11ee-a794-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b7e609a-f37d-11ee-8109-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3b10ea98-f99c-11ee-a794-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b7e609a-f37d-11ee-8109-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 683,
@@ -21680,16 +21732,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2de987f0-f55d-11ee-bbaf-0242ac130003",
-                "name": "Deadlock"
+                "name": "Deadlock",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4b187682-f46e-11ee-945b-0242ac130003",
-                "name": "Team bigBous"
+                "name": "Team bigBous",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2de987f0-f55d-11ee-bbaf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4b187682-f46e-11ee-945b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2de987f0-f55d-11ee-bbaf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4b187682-f46e-11ee-945b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 705,
@@ -27488,7 +27569,8 @@
                 "name": "Shadow Realm"
             },
             "opponent2": {
-                "id": null
+                "id": "2de987f0-f55d-11ee-bbaf-0242ac130003",
+                "name": "Deadlock"
             },
             "match_games": []
         },
@@ -33168,10 +33250,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4b187682-f46e-11ee-945b-0242ac130003",
+                "name": "Team bigBous"
             },
             "opponent2": {
-                "id": null
+                "id": "39081c4a-f996-11ee-8771-0242ac130003",
+                "name": "DLLM"
             },
             "match_games": []
         },
@@ -33380,10 +33464,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3b10ea98-f99c-11ee-a794-0242ac130003",
+                "name": "Asf"
             },
             "opponent2": {
-                "id": null
+                "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
+                "name": "FRAN/ANDY/BOT"
             },
             "match_games": []
         },

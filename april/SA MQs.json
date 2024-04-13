@@ -35888,16 +35888,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
-                "name": "™| picados sports"
+                "name": "™| picados sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
-                "name": "Tired of winning Tow"
+                "name": "Tired of winning Tow",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 782,
@@ -37408,7 +37449,8 @@
                 "name": "Tres tristes tigres"
             },
             "opponent2": {
-                "id": null
+                "id": "5feeed9c-f618-11ee-97f0-0242ac130003",
+                "name": "™| picados sports"
             },
             "match_games": []
         },

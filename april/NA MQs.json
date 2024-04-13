@@ -21421,16 +21421,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b378540-f295-11ee-9f0a-0242ac130002",
-                "name": "Mora Lover's"
+                "name": "Mora Lover's",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b980283a-f569-11ee-bf0c-0242ac130003",
-                "name": "Better than u"
+                "name": "Better than u",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b378540-f295-11ee-9f0a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b980283a-f569-11ee-bf0c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b378540-f295-11ee-9f0a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b980283a-f569-11ee-bf0c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 698,
@@ -24013,16 +24042,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "451bc5c0-f8df-11ee-8871-0242ac130003",
-                "name": "Who’s in paris"
+                "name": "Who’s in paris",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
-                "name": "Team Salchicha"
+                "name": "Team Salchicha",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "451bc5c0-f8df-11ee-8871-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "451bc5c0-f8df-11ee-8871-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 802,
@@ -27069,7 +27127,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b378540-f295-11ee-9f0a-0242ac130002",
+                "name": "Mora Lover's"
             },
             "opponent2": {
                 "id": null
@@ -27924,10 +27983,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                "name": "Team Salchicha"
             },
             "opponent2": {
-                "id": null
+                "id": "27fefc32-f295-11ee-aef3-0242ac130002",
+                "name": "Ares Core🛡️⚔️"
             },
             "match_games": []
         },

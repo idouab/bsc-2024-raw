@@ -5292,6 +5292,17 @@
             "img": ""
         },
         {
+            "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
+            "tournament_id": 0,
+            "name": "LM/StarPark",
+            "players": [
+                "Lumer/SSJ 🩸🦇",
+                "TTM|KEITHERツ",
+                "K£v1n"
+            ],
+            "img": ""
+        },
+        {
             "id": "5b155b94-f555-11ee-8a13-0242ac130003",
             "tournament_id": 0,
             "name": "ixiTeam",
@@ -7986,16 +7997,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
-                "name": "LM/StarPark"
+                "name": "LM/StarPark",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
-                "name": "AnimaGang"
+                "name": "AnimaGang",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 145,

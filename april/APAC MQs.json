@@ -2808,6 +2808,17 @@
             "img": ""
         },
         {
+            "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
+            "tournament_id": 0,
+            "name": "僕のむすこ",
+            "players": [
+                "Diva|☪︎Rupia🕊",
+                "Diva|Machi",
+                "Diva|𝑅𝑜𝑠𝑒🥀"
+            ],
+            "img": ""
+        },
+        {
             "id": "4add7a00-f3d3-11ee-834e-0242ac130003",
             "tournament_id": 0,
             "name": "Bot",
@@ -2848,6 +2859,30 @@
                 "大洪",
                 "GROo",
                 "遇到你很雖"
+            ],
+            "img": ""
+        },
+        {
+            "id": "794e5df8-f41b-11ee-99e4-0242ac130003",
+            "tournament_id": 0,
+            "name": "にーなーに",
+            "players": [
+                "サイダー☝️",
+                "苦海無涯",
+                "サンシュインいくざき",
+                "ZAKO〆わたぼう"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+            "tournament_id": 0,
+            "name": "ぽよ",
+            "players": [
+                "まかろに",
+                "❦𝑆𝑖𝑐𝑒|ぽよたん❦",
+                "とんと",
+                "Nissy"
             ],
             "img": ""
         },
@@ -2940,6 +2975,18 @@
                 "God",
                 "GLIZZY GOBBLER",
                 "FireStorm"
+            ],
+            "img": ""
+        },
+        {
+            "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+            "tournament_id": 0,
+            "name": "Moonsault",
+            "players": [
+                "🔥BS│Ken🔥",
+                "lcm2 |gー🩵",
+                "上位3%のモーティス",
+                "REQ|Yoron"
             ],
             "img": ""
         },
@@ -3234,16 +3281,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
-                "name": "Revelunt Esport"
+                "name": "Revelunt Esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
-                "name": "僕のむすこ"
+                "name": "僕のむすこ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ea756d8a-f5c1-11ee-9357-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4c8c6144-f4a6-11ee-9df9-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 9,
@@ -3700,16 +3776,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd1364de-f32a-11ee-8a51-0242ac130002",
-                "name": "TLG"
+                "name": "TLG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "794e5df8-f41b-11ee-99e4-0242ac130003",
-                "name": "にーなーに"
+                "name": "にーなーに",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd1364de-f32a-11ee-8a51-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "794e5df8-f41b-11ee-99e4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd1364de-f32a-11ee-8a51-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "794e5df8-f41b-11ee-99e4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 27,
@@ -3888,16 +3993,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c5659878-f4e3-11ee-b998-0242ac130003",
-                "name": "ぽよ"
+                "name": "ぽよ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
-                "name": "DevilMayCry"
+                "name": "DevilMayCry",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 36,
@@ -5458,16 +5592,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a8a2934-f324-11ee-b382-0242ac130002",
-                "name": "APDO"
+                "name": "APDO",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "133ede5e-f441-11ee-81cc-0242ac130003",
-                "name": "Moonsault"
+                "name": "Moonsault",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 111,
@@ -6087,7 +6250,8 @@
                 "name": "NAVI"
             },
             "opponent2": {
-                "id": null
+                "id": "cd1364de-f32a-11ee-8a51-0242ac130002",
+                "name": "TLG"
             },
             "match_games": []
         },
@@ -6166,7 +6330,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0c4f4fb8-f35e-11ee-8b12-0242ac130003",
+                "name": "DevilMayCry"
             },
             "opponent2": {
                 "id": null
@@ -6769,7 +6934,8 @@
                 "name": "Rising Raccoon"
             },
             "opponent2": {
-                "id": null
+                "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                "name": "APDO"
             },
             "match_games": []
         },
@@ -8055,7 +8221,8 @@
                 "name": "日本麻醬麵"
             },
             "opponent2": {
-                "id": null
+                "id": "794e5df8-f41b-11ee-99e4-0242ac130003",
+                "name": "にーなーに"
             },
             "match_games": []
         },
@@ -8116,7 +8283,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c5659878-f4e3-11ee-b998-0242ac130003",
+                "name": "ぽよ"
             },
             "opponent2": {
                 "id": null
@@ -8651,7 +8819,8 @@
                 "name": "THE AUS EDGERS"
             },
             "opponent2": {
-                "id": null
+                "id": "133ede5e-f441-11ee-81cc-0242ac130003",
+                "name": "Moonsault"
             },
             "match_games": []
         },

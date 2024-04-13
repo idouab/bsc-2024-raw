@@ -34996,16 +34996,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "616e1814-f6db-11ee-aa5c-0242ac130003",
-                "name": "Chiquibeibis"
+                "name": "Chiquibeibis",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e75e813c-f827-11ee-87b8-0242ac130003",
-                "name": "Mamba mentality 🐍"
+                "name": "Mamba mentality 🐍",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "616e1814-f6db-11ee-aa5c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "616e1814-f6db-11ee-aa5c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 761,
@@ -35860,16 +35889,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
-                "name": "TCMM|BASERA"
+                "name": "TCMM|BASERA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
-                "name": "HembrasHermosas"
+                "name": "HembrasHermosas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a9101b94-f8df-11ee-b18c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 789,
@@ -36839,7 +36897,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e75e813c-f827-11ee-87b8-0242ac130003",
+                "name": "Mamba mentality 🐍"
             },
             "opponent2": {
                 "id": null
@@ -37071,10 +37130,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                "name": "HembrasHermosas"
             },
             "opponent2": {
-                "id": null
+                "id": "41161058-f3d9-11ee-b4e1-0242ac130003",
+                "name": "Mamadegosha"
             },
             "match_games": []
         },

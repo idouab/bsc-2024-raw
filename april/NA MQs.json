@@ -9042,6 +9042,17 @@
             "img": ""
         },
         {
+            "id": "2a6004c8-f504-11ee-93b5-0242ac130003",
+            "tournament_id": 0,
+            "name": "Mr. Bickels Brawlers",
+            "players": [
+                "Jack",
+                "Dr.LoL",
+                "RPG |Mug T-T"
+            ],
+            "img": ""
+        },
+        {
             "id": "3eca9ba8-f98c-11ee-a892-0242ac130003",
             "tournament_id": 0,
             "name": "AdasaWe",
@@ -20273,16 +20284,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a6004c8-f504-11ee-93b5-0242ac130003",
-                "name": "Mr. Bickels Brawlers"
+                "name": "Mr. Bickels Brawlers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
-                "name": "Penguin United"
+                "name": "Penguin United",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a6004c8-f504-11ee-93b5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a6004c8-f504-11ee-93b5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 665,
@@ -31258,10 +31298,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a6004c8-f504-11ee-93b5-0242ac130003",
+                "name": "Mr. Bickels Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "3eca9ba8-f98c-11ee-a892-0242ac130003",
+                "name": "AdasaWe"
             },
             "match_games": []
         },

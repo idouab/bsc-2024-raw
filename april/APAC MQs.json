@@ -12864,16 +12864,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cf462e22-f293-11ee-b609-0242ac130002",
-                "name": "ますたー芸人🐋"
+                "name": "ますたー芸人🐋",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
-                "name": "Crazy Elephant"
+                "name": "Crazy Elephant",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cf462e22-f293-11ee-b609-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cf462e22-f293-11ee-b609-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 383,
@@ -16527,16 +16556,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24e14cd8-f738-11ee-8066-0242ac130003",
-                "name": "chuck diff"
+                "name": "chuck diff",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
-                "name": "煽り愛好家のこうちゃん"
+                "name": "煽り愛好家のこうちゃん",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24e14cd8-f738-11ee-8066-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24e14cd8-f738-11ee-8066-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 347,
@@ -17138,7 +17196,8 @@
                 "name": "SDGs/たわし"
             },
             "opponent2": {
-                "id": null
+                "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                "name": "煽り愛好家のこうちゃん"
             },
             "match_games": []
         },
@@ -18127,7 +18186,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24c7106a-f42d-11ee-ae37-0242ac130003",
+                "name": "Crazy Elephant"
             },
             "opponent2": {
                 "id": null

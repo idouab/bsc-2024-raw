@@ -26568,16 +26568,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14877f8e-f296-11ee-8473-0242ac130002",
-                "name": "Urubus do Pix 🐦‍⬛"
+                "name": "Urubus do Pix 🐦‍⬛",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
-                "name": "🇵🇪PERUVIAN STARS🏆"
+                "name": "🇵🇪PERUVIAN STARS🏆",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14877f8e-f296-11ee-8473-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14877f8e-f296-11ee-8473-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 874,
@@ -39243,7 +39272,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                "name": "🇵🇪PERUVIAN STARS🏆"
             },
             "opponent2": {
                 "id": null

@@ -24838,16 +24838,57 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9dda658-f295-11ee-a118-0242ac130002",
-                "name": "GOLDEN FALCONS"
+                "name": "GOLDEN FALCONS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2b07450-f295-11ee-b95c-0242ac130002",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 745,
@@ -25508,10 +25549,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                "name": "GOLDEN FALCONS"
             },
             "opponent2": {
-                "id": null
+                "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                "name": "Sunflowers 🌻"
             },
             "match_games": []
         },
@@ -34889,7 +34932,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                "name": "Fortune Tigers"
             },
             "opponent2": {
                 "id": null

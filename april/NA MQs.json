@@ -7471,6 +7471,17 @@
             "img": ""
         },
         {
+            "id": "82d6393c-f398-11ee-832d-0242ac130003",
+            "tournament_id": 0,
+            "name": "Lemays",
+            "players": [
+                "zach",
+                "Alex",
+                "SIMON"
+            ],
+            "img": ""
+        },
+        {
             "id": "60c0eb5a-f4f9-11ee-840c-0242ac130003",
             "tournament_id": 0,
             "name": "GOOBERS",
@@ -10083,16 +10094,69 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "82d6393c-f398-11ee-832d-0242ac130003",
-                "name": "Lemays"
+                "name": "Lemays",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
-                "name": "Power Puffs"
+                "name": "Power Puffs",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "82d6393c-f398-11ee-832d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "82d6393c-f398-11ee-832d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "82d6393c-f398-11ee-832d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "82d6393c-f398-11ee-832d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 135,
@@ -17868,7 +17932,8 @@
                 "name": "Only Active Turtles"
             },
             "opponent2": {
-                "id": null
+                "id": "67370f56-f99e-11ee-bb3e-0242ac130003",
+                "name": "Power Puffs"
             },
             "match_games": []
         },

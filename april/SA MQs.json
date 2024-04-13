@@ -22234,16 +22234,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "147d7ff2-f296-11ee-8349-0242ac130002",
-                "name": "Blue Lock⚽"
+                "name": "Blue Lock⚽",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
-                "name": "Vaixco"
+                "name": "Vaixco",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 655,
@@ -22831,7 +22860,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                "name": "Blue Lock⚽"
             },
             "opponent2": {
                 "id": null
@@ -29368,7 +29398,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                "name": "Vaixco"
             },
             "opponent2": {
                 "id": null

@@ -7849,6 +7849,17 @@
             "img": ""
         },
         {
+            "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+            "tournament_id": 0,
+            "name": "Campers",
+            "players": [
+                "CMP|Castle",
+                "ijhjhjhjh1234",
+                "CMP|CFEM"
+            ],
+            "img": ""
+        },
+        {
             "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
             "tournament_id": 0,
             "name": "MD",
@@ -9226,6 +9237,17 @@
                 "XNG|Asesino",
                 "XNG|Legendary",
                 "❄Frostalicious❄"
+            ],
+            "img": ""
+        },
+        {
+            "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
+            "tournament_id": 0,
+            "name": "PW eSports",
+            "players": [
+                "polenguinho",
+                "$$$€€€$$$€€€$$$",
+                "abidu01"
             ],
             "img": ""
         },
@@ -21888,16 +21910,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3312439e-f6b0-11ee-a116-0242ac130003",
-                "name": "DonManu's Team"
+                "name": "DonManu's Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
-                "name": "PW eSports"
+                "name": "PW eSports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3312439e-f6b0-11ee-a116-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3312439e-f6b0-11ee-a116-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "3312439e-f6b0-11ee-a116-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 693,
@@ -25407,16 +25470,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "25394ff6-f5ed-11ee-9b1c-0242ac130003",
-                "name": "Flamingods"
+                "name": "Flamingods",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
-                "name": "Florida"
+                "name": "Florida",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "25394ff6-f5ed-11ee-9b1c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "25394ff6-f5ed-11ee-9b1c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b42ee04-f3a2-11ee-8441-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 814,
@@ -26972,16 +27064,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
-                "name": "NA Warriors"
+                "name": "NA Warriors",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
-                "name": "Campers"
+                "name": "Campers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 869,
@@ -28560,7 +28681,8 @@
                 "name": "Real dudes 🦋"
             },
             "opponent2": {
-                "id": null
+                "id": "3312439e-f6b0-11ee-a116-0242ac130003",
+                "name": "DonManu's Team"
             },
             "match_games": []
         },
@@ -29572,7 +29694,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "25394ff6-f5ed-11ee-9b1c-0242ac130003",
+                "name": "Flamingods"
             },
             "opponent2": {
                 "id": null
@@ -30022,7 +30145,8 @@
                 "name": "Yippee"
             },
             "opponent2": {
-                "id": null
+                "id": "20cf5414-f68e-11ee-91c8-0242ac130003",
+                "name": "NA Warriors"
             },
             "match_games": []
         },
@@ -32853,10 +32977,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+                "name": "Campers"
             },
             "opponent2": {
-                "id": null
+                "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
+                "name": "MD"
             },
             "match_games": []
         },
@@ -34499,10 +34625,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f4eb7ee6-f36c-11ee-bf20-0242ac130003",
+                "name": "PW eSports"
             },
             "opponent2": {
-                "id": null
+                "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
+                "name": "The bad randumbs"
             },
             "match_games": []
         },

@@ -37844,16 +37844,93 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
-                "name": "LUCKY TEAM"
+                "name": "LUCKY TEAM",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
-                "name": "Datryums Titans"
+                "name": "Datryums Titans",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 5,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "4b0cc5b0-f51f-11ee-9549-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 846,
@@ -38913,7 +38990,8 @@
                 "name": "LOS CRIAS TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "60cd6c0e-f3dc-11ee-8ba7-0242ac130003",
+                "name": "Datryums Titans"
             },
             "match_games": []
         },

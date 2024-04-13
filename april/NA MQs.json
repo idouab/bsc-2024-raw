@@ -8039,6 +8039,17 @@
             "img": ""
         },
         {
+            "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+            "tournament_id": 0,
+            "name": "Purdue Princess",
+            "players": [
+                "WooTang Clan",
+                "calicio",
+                "EZ|Moonlight"
+            ],
+            "img": ""
+        },
+        {
             "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
             "tournament_id": 0,
             "name": "FRAN/ANDY/BOT",
@@ -17379,16 +17390,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5d30b126-f56e-11ee-8884-0242ac130003",
-                "name": "Where My Hug @"
+                "name": "Where My Hug @",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                "name": "Purdue Princess"
+                "name": "Purdue Princess",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5d30b126-f56e-11ee-8884-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5d30b126-f56e-11ee-8884-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 463,
@@ -22470,7 +22510,8 @@
                 "name": "P|R Mafia"
             },
             "opponent2": {
-                "id": null
+                "id": "5d30b126-f56e-11ee-8884-0242ac130003",
+                "name": "Where My Hug @"
             },
             "match_games": []
         },

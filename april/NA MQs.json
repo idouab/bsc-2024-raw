@@ -46000,16 +46000,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
-                "name": "The bad randumbs"
+                "name": "The bad randumbs",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
-                "name": "LofiLand"
+                "name": "LofiLand",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1027,
@@ -46356,16 +46397,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5581b94c-f5a6-11ee-a4a4-0242ac130003",
-                "name": "Frog Team"
+                "name": "Frog Team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2e74308c-f295-11ee-89d8-0242ac130002",
-                "name": "Piper mains"
+                "name": "Piper mains",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5581b94c-f5a6-11ee-a4a4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5581b94c-f5a6-11ee-a4a4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5581b94c-f5a6-11ee-a4a4-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1039,
@@ -48391,7 +48473,8 @@
                 "name": "PANTHEON"
             },
             "opponent2": {
-                "id": null
+                "id": "2b8e13ca-f3b1-11ee-ae72-0242ac130003",
+                "name": "The bad randumbs"
             },
             "match_games": []
         },
@@ -48599,7 +48682,8 @@
                 "name": "I🖤egirls"
             },
             "opponent2": {
-                "id": null
+                "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                "name": "Piper mains"
             },
             "match_games": []
         },

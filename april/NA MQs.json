@@ -32517,16 +32517,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "30d771ae-f295-11ee-b800-0242ac130002",
-                "name": "Saro Squad"
+                "name": "Saro Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "558d76c2-f945-11ee-af0c-0242ac130003",
-                "name": "Twilight arcane"
+                "name": "Twilight arcane",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "30d771ae-f295-11ee-b800-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "558d76c2-f945-11ee-af0c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "30d771ae-f295-11ee-b800-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "558d76c2-f945-11ee-af0c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1098,
@@ -35360,10 +35389,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "30d771ae-f295-11ee-b800-0242ac130002",
+                "name": "Saro Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                "name": "Haunters"
             },
             "match_games": []
         },
@@ -41885,7 +41916,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "558d76c2-f945-11ee-af0c-0242ac130003",
+                "name": "Twilight arcane"
             },
             "opponent2": {
                 "id": null

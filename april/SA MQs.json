@@ -5281,6 +5281,17 @@
             "img": ""
         },
         {
+            "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Los panchos",
+            "players": [
+                "☯️esmeralda☯️",
+                "janojuegos",
+                "QLS |Sebajuegos"
+            ],
+            "img": ""
+        },
+        {
             "id": "245ff336-f5f3-11ee-b457-0242ac130003",
             "tournament_id": 0,
             "name": "Vanitas Stultorum",
@@ -5310,6 +5321,17 @@
                 "𝐏𝐏┃𝐉𝐡𝐚𝐧🥀",
                 "𝐏𝐏┃𝐙𝐞𝐮𝐬🥀",
                 "leones"
+            ],
+            "img": ""
+        },
+        {
+            "id": "5d62957e-f924-11ee-8302-0242ac130003",
+            "tournament_id": 0,
+            "name": "Os ruin",
+            "players": [
+                "⚡NGS/Minato⚡",
+                "FG|Arcana🌓",
+                "FG|Phoenix 🔥"
             ],
             "img": ""
         },
@@ -5394,6 +5416,17 @@
             "img": ""
         },
         {
+            "id": "b7af09b2-f295-11ee-b6f4-0242ac130002",
+            "tournament_id": 0,
+            "name": "Fire Jokers Gaming",
+            "players": [
+                "othisplay",
+                "NS |Bieℓˢᵉᶰᵖᵃᶤ",
+                "Ice Gojo™"
+            ],
+            "img": ""
+        },
+        {
             "id": "a6bfe80e-f418-11ee-b0d8-0242ac130003",
             "tournament_id": 0,
             "name": "•AJJAX•",
@@ -5423,6 +5456,17 @@
                 "JoeyRB",
                 "Ismalexis25",
                 "QLS_Dark_VGX"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+            "tournament_id": 0,
+            "name": "JJJ",
+            "players": [
+                "VIRUZX/HDF🇨🇱",
+                "Cilantro//JJ",
+                "Brawler"
             ],
             "img": ""
         },
@@ -5703,16 +5747,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b64c8216-f295-11ee-b803-0242ac130002",
-                "name": "DOGGER"
+                "name": "DOGGER",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
-                "name": "Los panchos"
+                "name": "Los panchos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -6351,16 +6424,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
-                "name": "Tres tristes tigres"
+                "name": "Tres tristes tigres",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5d62957e-f924-11ee-8302-0242ac130003",
-                "name": "Os ruin"
+                "name": "Os ruin",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d62957e-f924-11ee-8302-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5d62957e-f924-11ee-8302-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 38,
@@ -8976,16 +9078,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7af09b2-f295-11ee-b6f4-0242ac130002",
-                "name": "Fire Jokers Gaming"
+                "name": "Fire Jokers Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5d533972-f847-11ee-a89f-0242ac130003",
-                "name": "DragonSlayers"
+                "name": "DragonSlayers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7af09b2-f295-11ee-b6f4-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5d533972-f847-11ee-a89f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7af09b2-f295-11ee-b6f4-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5d533972-f847-11ee-a89f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 168,
@@ -9767,16 +9898,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b698c2de-f295-11ee-9c24-0242ac130002",
-                "name": "JJJ"
+                "name": "JJJ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dbf24d4a-f6e4-11ee-b75b-0242ac130003",
-                "name": "Star Nexus"
+                "name": "Star Nexus",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dbf24d4a-f6e4-11ee-b75b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dbf24d4a-f6e4-11ee-b75b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 204,
@@ -10979,7 +11139,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b64c8216-f295-11ee-b803-0242ac130002",
+                "name": "DOGGER"
             },
             "opponent2": {
                 "id": null
@@ -11241,7 +11402,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                "name": "Tres tristes tigres"
             },
             "opponent2": {
                 "id": null
@@ -12311,7 +12473,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5d533972-f847-11ee-a89f-0242ac130003",
+                "name": "DragonSlayers"
             },
             "opponent2": {
                 "id": null
@@ -12609,7 +12772,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dbf24d4a-f6e4-11ee-b75b-0242ac130003",
+                "name": "Star Nexus"
             },
             "opponent2": {
                 "id": null
@@ -15055,7 +15219,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "42b849ac-f43e-11ee-8d0b-0242ac130003",
+                "name": "Los panchos"
             },
             "opponent2": {
                 "id": null
@@ -15232,7 +15397,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5d62957e-f924-11ee-8302-0242ac130003",
+                "name": "Os ruin"
             },
             "opponent2": {
                 "id": null
@@ -15940,7 +16106,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7af09b2-f295-11ee-b6f4-0242ac130002",
+                "name": "Fire Jokers Gaming"
             },
             "opponent2": {
                 "id": null
@@ -16118,7 +16285,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                "name": "JJJ"
             },
             "opponent2": {
                 "id": null

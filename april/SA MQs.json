@@ -39168,16 +39168,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b2b07450-f295-11ee-b95c-0242ac130002",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "550c3796-f554-11ee-b12a-0242ac130003",
-                "name": "RDL | WANGESTU"
+                "name": "RDL | WANGESTU",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 881,
@@ -40093,7 +40134,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                "name": "Fortune Tigers"
             },
             "opponent2": {
                 "id": null

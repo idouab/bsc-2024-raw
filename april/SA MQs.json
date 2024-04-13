@@ -5359,6 +5359,28 @@
             "img": ""
         },
         {
+            "id": "af53f7fa-f5a1-11ee-ae42-0242ac130003",
+            "tournament_id": 0,
+            "name": "Manchesterians",
+            "players": [
+                "super slayer",
+                "ppppp",
+                "⚡dodô⚡"
+            ],
+            "img": ""
+        },
+        {
+            "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
+            "tournament_id": 0,
+            "name": "AXIS",
+            "players": [
+                "reyi530 BS",
+                "kiwiAntony",
+                "la sabrosura"
+            ],
+            "img": ""
+        },
+        {
             "id": "8abcdda0-f5d6-11ee-894f-0242ac130003",
             "tournament_id": 0,
             "name": "The Chimenairs",
@@ -5448,6 +5470,18 @@
                 "Labbitt",
                 "MAGO DE ELITE",
                 "Trebor🐣💛"
+            ],
+            "img": ""
+        },
+        {
+            "id": "3d98e5ae-f73f-11ee-8c34-0242ac130003",
+            "tournament_id": 0,
+            "name": "Estrellados",
+            "players": [
+                "×.",
+                "Spaks Jr.",
+                "Arianna",
+                "Julienfox"
             ],
             "img": ""
         },
@@ -6888,16 +6922,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b53f718a-f295-11ee-a717-0242ac130002",
-                "name": "TMR"
+                "name": "TMR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "af53f7fa-f5a1-11ee-ae42-0242ac130003",
-                "name": "Manchesterians"
+                "name": "Manchesterians",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af53f7fa-f5a1-11ee-ae42-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af53f7fa-f5a1-11ee-ae42-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 45,
@@ -7008,16 +7071,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
-                "name": "AXIS"
+                "name": "AXIS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
-                "name": "The FERANX"
+                "name": "The FERANX",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 52,
@@ -7758,16 +7862,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
-                "name": "🐻🦔🐬"
+                "name": "🐻🦔🐬",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d98e5ae-f73f-11ee-8c34-0242ac130003",
-                "name": "Estrellados"
+                "name": "Estrellados",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d98e5ae-f73f-11ee-8c34-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d98e5ae-f73f-11ee-8c34-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 80,
@@ -12240,10 +12373,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "11f3df34-f3ee-11ee-89aa-0242ac130003",
+                "name": "The FERANX"
             },
             "opponent2": {
-                "id": null
+                "id": "7a9af06c-f5ac-11ee-a1a7-0242ac130003",
+                "name": "The misteries"
             },
             "match_games": []
         },
@@ -12472,7 +12607,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6d30a7a-f295-11ee-a30e-0242ac130002",
+                "name": "🐻🦔🐬"
             },
             "opponent2": {
                 "id": null
@@ -16189,10 +16325,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
+                "name": "AXIS"
             },
             "opponent2": {
-                "id": null
+                "id": "8abcdda0-f5d6-11ee-894f-0242ac130003",
+                "name": "The Chimenairs"
             },
             "match_games": []
         },
@@ -16335,7 +16473,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d98e5ae-f73f-11ee-8c34-0242ac130003",
+                "name": "Estrellados"
             },
             "opponent2": {
                 "id": null

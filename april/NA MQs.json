@@ -20563,16 +20563,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e74308c-f295-11ee-89d8-0242ac130002",
-                "name": "Piper mains"
+                "name": "Piper mains",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8750b2d6-f3f1-11ee-a530-0242ac130003",
-                "name": "pinturitas"
+                "name": "pinturitas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8750b2d6-f3f1-11ee-a530-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e74308c-f295-11ee-89d8-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8750b2d6-f3f1-11ee-a530-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 668,
@@ -24522,16 +24551,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd497b2a-f6e8-11ee-8370-0242ac130003",
-                "name": "Eclipse NA"
+                "name": "Eclipse NA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
-                "name": "WitnessTheJourney"
+                "name": "WitnessTheJourney",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd497b2a-f6e8-11ee-8370-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd497b2a-f6e8-11ee-8370-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 834,
@@ -26557,7 +26615,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8750b2d6-f3f1-11ee-a530-0242ac130003",
+                "name": "pinturitas"
             },
             "opponent2": {
                 "id": null
@@ -27911,7 +27970,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                "name": "WitnessTheJourney"
             },
             "opponent2": {
                 "id": null

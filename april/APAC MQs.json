@@ -15452,16 +15452,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9535fcfe-f616-11ee-9628-0242ac130003",
-                "name": "SuperTrashBros"
+                "name": "SuperTrashBros",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4a3749c8-f3f1-11ee-9e95-0242ac130003",
-                "name": "Feed100"
+                "name": "Feed100",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4a3749c8-f3f1-11ee-9e95-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a3749c8-f3f1-11ee-9e95-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a3749c8-f3f1-11ee-9e95-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 282,
@@ -15782,16 +15823,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
-                "name": "噎鴿"
+                "name": "噎鴿",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f5762048-f360-11ee-bf86-0242ac130003",
-                "name": "@Tukusumu"
+                "name": "@Tukusumu",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "426e9b6a-f6e9-11ee-9ef2-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 295,
@@ -16541,10 +16623,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9535fcfe-f616-11ee-9628-0242ac130003",
+                "name": "SuperTrashBros"
             },
             "opponent2": {
-                "id": null
+                "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                "name": "未成年"
             },
             "match_games": []
         },
@@ -16651,7 +16735,8 @@
                 "name": "あ"
             },
             "opponent2": {
-                "id": null
+                "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                "name": "@Tukusumu"
             },
             "match_games": []
         },

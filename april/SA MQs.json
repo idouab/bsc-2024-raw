@@ -5292,6 +5292,17 @@
             "img": ""
         },
         {
+            "id": "5616bec4-f507-11ee-800b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Drink Team",
+            "players": [
+                "H⚔️|Eliazel",
+                "H⚔️|Cheesecake",
+                "H⚔️|OddSmash"
+            ],
+            "img": ""
+        },
+        {
             "id": "35ed57e2-f530-11ee-9f94-0242ac130003",
             "tournament_id": 0,
             "name": "LM/StarPark",
@@ -7650,16 +7661,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5616bec4-f507-11ee-800b-0242ac130003",
-                "name": "Drink Team"
+                "name": "Drink Team",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "32b989f2-f417-11ee-95ec-0242ac130003",
-                "name": "3DBR Black"
+                "name": "3DBR Black",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5616bec4-f507-11ee-800b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "32b989f2-f417-11ee-95ec-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5616bec4-f507-11ee-800b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "32b989f2-f417-11ee-95ec-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 124,
@@ -11165,7 +11205,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "32b989f2-f417-11ee-95ec-0242ac130003",
+                "name": "3DBR Black"
             },
             "opponent2": {
                 "id": null
@@ -14885,7 +14926,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5616bec4-f507-11ee-800b-0242ac130003",
+                "name": "Drink Team"
             },
             "opponent2": {
                 "id": null

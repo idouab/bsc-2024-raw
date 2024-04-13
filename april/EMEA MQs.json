@@ -24701,6 +24701,18 @@
             "img": ""
         },
         {
+            "id": "cbee11c4-f651-11ee-a342-0242ac130003",
+            "tournament_id": 0,
+            "name": "ZLCG",
+            "players": [
+                "㊙️❓|Luc@$|❓㊙️",
+                "zi_tho24",
+                "฿ ₲₳ë₮₮₳₦ ł₥ ₲Ø",
+                "CMtwisti"
+            ],
+            "img": ""
+        },
+        {
             "id": "38833b6e-f294-11ee-b5d0-0242ac130002",
             "tournament_id": 0,
             "name": "GEALLEMUUN",
@@ -28077,6 +28089,17 @@
                 "Sarpin100",
                 "🇪🇦ᵐ-ⁿᵘᵘˡᵉシ︎🧐",
                 "Jimmy excitante"
+            ],
+            "img": ""
+        },
+        {
+            "id": "86dc487e-f775-11ee-b539-0242ac130003",
+            "tournament_id": 0,
+            "name": "ciccioni",
+            "players": [
+                "GX Tha Supreme",
+                "GX Berno114",
+                "GX Andrew 360"
             ],
             "img": ""
         },
@@ -33807,16 +33830,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "75a1b714-f7df-11ee-9ff3-0242ac130003",
-                "name": "The Bakery"
+                "name": "The Bakery",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cbee11c4-f651-11ee-a342-0242ac130003",
-                "name": "ZLCG"
+                "name": "ZLCG",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "75a1b714-f7df-11ee-9ff3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbee11c4-f651-11ee-a342-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "75a1b714-f7df-11ee-9ff3-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cbee11c4-f651-11ee-a342-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "75a1b714-f7df-11ee-9ff3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbee11c4-f651-11ee-a342-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 151,
@@ -44267,16 +44331,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86dc487e-f775-11ee-b539-0242ac130003",
-                "name": "ciccioni"
+                "name": "ciccioni",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d8c4348e-f659-11ee-a67b-0242ac130003",
-                "name": "Virus"
+                "name": "Virus",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "86dc487e-f775-11ee-b539-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d8c4348e-f659-11ee-a67b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "86dc487e-f775-11ee-b539-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d8c4348e-f659-11ee-a67b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "86dc487e-f775-11ee-b539-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d8c4348e-f659-11ee-a67b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 471,
@@ -56184,7 +56289,8 @@
                 "name": "The Blades"
             },
             "opponent2": {
-                "id": null
+                "id": "75a1b714-f7df-11ee-9ff3-0242ac130003",
+                "name": "The Bakery"
             },
             "match_games": []
         },
@@ -59035,7 +59141,8 @@
                 "name": "Flop FC"
             },
             "opponent2": {
-                "id": null
+                "id": "d8c4348e-f659-11ee-a67b-0242ac130003",
+                "name": "Virus"
             },
             "match_games": []
         },
@@ -72958,7 +73065,8 @@
                 "name": "TM | POD"
             },
             "opponent2": {
-                "id": null
+                "id": "cbee11c4-f651-11ee-a342-0242ac130003",
+                "name": "ZLCG"
             },
             "match_games": []
         },
@@ -75809,7 +75917,8 @@
                 "name": "Los E Meu"
             },
             "opponent2": {
-                "id": null
+                "id": "86dc487e-f775-11ee-b539-0242ac130003",
+                "name": "ciccioni"
             },
             "match_games": []
         },

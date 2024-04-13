@@ -7625,6 +7625,17 @@
             "img": ""
         },
         {
+            "id": "41b43640-f3e6-11ee-b279-0242ac130003",
+            "tournament_id": 0,
+            "name": "Giddey fans",
+            "players": [
+                "Aidan Peng",
+                "RVG|Ryan",
+                "kamkam08"
+            ],
+            "img": ""
+        },
+        {
             "id": "e8f2e920-f98a-11ee-98f5-0242ac130003",
             "tournament_id": 0,
             "name": "TondaSoldier",
@@ -10909,16 +10920,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e37b48ee-f696-11ee-aedc-0242ac130003",
-                "name": "Myanite Rising"
+                "name": "Myanite Rising",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "41b43640-f3e6-11ee-b279-0242ac130003",
-                "name": "Giddey fans"
+                "name": "Giddey fans",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e37b48ee-f696-11ee-aedc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "41b43640-f3e6-11ee-b279-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e37b48ee-f696-11ee-aedc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "41b43640-f3e6-11ee-b279-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 115,
@@ -20213,7 +20253,8 @@
                 "name": "Kaox Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "e37b48ee-f696-11ee-aedc-0242ac130003",
+                "name": "Myanite Rising"
             },
             "match_games": []
         },

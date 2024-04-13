@@ -37513,14 +37513,42 @@
             "status": 4,
             "opponent1": {
                 "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
-                "name": "Clean Up Crew"
+                "name": "Clean Up Crew",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "af6b1b84-f37a-11ee-8987-0242ac130003",
                 "name": "Frontenac Esports",
-                "forfeit": 1
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af6b1b84-f37a-11ee-8987-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af6b1b84-f37a-11ee-8987-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1329,
@@ -45295,16 +45323,57 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5e3c98be-f9a6-11ee-a6c3-0242ac130003",
-                "name": "PRIME プライム"
+                "name": "PRIME プライム",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2e56509e-f295-11ee-8e85-0242ac130002",
-                "name": "ĚŁitě"
+                "name": "ĚŁitě",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5e3c98be-f9a6-11ee-a6c3-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2e56509e-f295-11ee-8e85-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5e3c98be-f9a6-11ee-a6c3-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e56509e-f295-11ee-8e85-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5e3c98be-f9a6-11ee-a6c3-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2e56509e-f295-11ee-8e85-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1002,
@@ -47850,7 +47919,8 @@
                 "name": "Espumilla F/C"
             },
             "opponent2": {
-                "id": null
+                "id": "2e56509e-f295-11ee-8e85-0242ac130002",
+                "name": "ĚŁitě"
             },
             "match_games": []
         },

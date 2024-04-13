@@ -5281,6 +5281,18 @@
             "img": ""
         },
         {
+            "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
+            "tournament_id": 0,
+            "name": "Cosmic Cyclones Team",
+            "players": [
+                "ON| Alt's",
+                "jackshadow",
+                "shoiri",
+                "Sr. De Melo"
+            ],
+            "img": ""
+        },
+        {
             "id": "277d317c-f43c-11ee-abab-0242ac130003",
             "tournament_id": 0,
             "name": "Golden Wind",
@@ -6455,16 +6467,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
-                "name": "Brasil"
+                "name": "Brasil",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
-                "name": "Cosmic Cyclones Team"
+                "name": "Cosmic Cyclones Team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1f23579c-f340-11ee-a3a6-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95eddda8-f51a-11ee-ad41-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 55,

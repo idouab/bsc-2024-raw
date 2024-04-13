@@ -23129,6 +23129,17 @@
             "img": ""
         },
         {
+            "id": "a060c750-f4ca-11ee-920b-0242ac130003",
+            "tournament_id": 0,
+            "name": "BWD | E-sport",
+            "players": [
+                "FaZe_wavy",
+                "ACZ|BADWOLF🐺®️",
+                "danette21"
+            ],
+            "img": ""
+        },
+        {
             "id": "4506dff8-f294-11ee-ae65-0242ac130002",
             "tournament_id": 0,
             "name": "FIREICE❤️‍🔥",
@@ -32023,16 +32034,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5b128aea-f294-11ee-b141-0242ac130002",
-                "name": "BC* Academy"
+                "name": "BC* Academy",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a060c750-f4ca-11ee-920b-0242ac130003",
-                "name": "BWD | E-sport"
+                "name": "BWD | E-sport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5b128aea-f294-11ee-b141-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a060c750-f4ca-11ee-920b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5b128aea-f294-11ee-b141-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a060c750-f4ca-11ee-920b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 482,
@@ -45689,10 +45729,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5b128aea-f294-11ee-b141-0242ac130002",
+                "name": "BC* Academy"
             },
             "opponent2": {
-                "id": null
+                "id": "230a4e7c-f8d8-11ee-9f4d-0242ac130003",
+                "name": "f/a ..."
             },
             "match_games": []
         },
@@ -61995,10 +62037,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a060c750-f4ca-11ee-920b-0242ac130003",
+                "name": "BWD | E-sport"
             },
             "opponent2": {
-                "id": null
+                "id": "4506dff8-f294-11ee-ae65-0242ac130002",
+                "name": "FIREICE❤️‍🔥"
             },
             "match_games": []
         },

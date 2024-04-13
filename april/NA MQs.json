@@ -30866,16 +30866,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2c55e188-f295-11ee-b335-0242ac130002",
-                "name": "The Casuals"
+                "name": "The Casuals",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
-                "name": "Penguin United"
+                "name": "Penguin United",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2c55e188-f295-11ee-b335-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2c55e188-f295-11ee-b335-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1046,
@@ -32682,16 +32711,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a5d47fe-f295-11ee-8dd7-0242ac130002",
-                "name": "I🖤egirls"
+                "name": "I🖤egirls",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
-                "name": "SGA"
+                "name": "SGA",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a5d47fe-f295-11ee-8dd7-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a5d47fe-f295-11ee-8dd7-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1112,
@@ -34495,7 +34553,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "441a3050-f49b-11ee-a6f5-0242ac130003",
+                "name": "Penguin United"
             },
             "opponent2": {
                 "id": null
@@ -35038,7 +35097,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                "name": "SGA"
             },
             "opponent2": {
                 "id": null
@@ -37101,16 +37161,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64f5dc4e-f378-11ee-a756-0242ac130003",
-                "name": "VIKINGS"
+                "name": "VIKINGS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6c9ab5a6-f3b3-11ee-b98b-0242ac130003",
-                "name": "Bundt Cakes"
+                "name": "Bundt Cakes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "64f5dc4e-f378-11ee-a756-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6c9ab5a6-f3b3-11ee-b98b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "64f5dc4e-f378-11ee-a756-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6c9ab5a6-f3b3-11ee-b98b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 546,
@@ -39617,10 +39706,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64f5dc4e-f378-11ee-a756-0242ac130003",
+                "name": "VIKINGS"
             },
             "opponent2": {
-                "id": null
+                "id": "da1af528-f66a-11ee-9e96-0242ac130003",
+                "name": "EL GREVOL"
             },
             "match_games": []
         },
@@ -42230,7 +42321,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c55e188-f295-11ee-b335-0242ac130002",
+                "name": "The Casuals"
             },
             "opponent2": {
                 "id": null
@@ -43246,7 +43338,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a5d47fe-f295-11ee-8dd7-0242ac130002",
+                "name": "I🖤egirls"
             },
             "opponent2": {
                 "id": null

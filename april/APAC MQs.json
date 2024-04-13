@@ -2887,6 +2887,18 @@
             "img": ""
         },
         {
+            "id": "dea60176-f71b-11ee-86ba-0242ac130003",
+            "tournament_id": 0,
+            "name": "3 bear🐙",
+            "players": [
+                "T1|PRIME X🐙🐣",
+                "N̷🖤Ƭ≠SƬ🚭N̷ƐD",
+                "Crunchy 🐼",
+                "🍑🐙LeGoaTed🐬"
+            ],
+            "img": ""
+        },
+        {
             "id": "77ab75d4-f363-11ee-95d4-0242ac130003",
             "tournament_id": 0,
             "name": "Team Rogue Ninjas",
@@ -2950,6 +2962,17 @@
                 "CYBØT | RAJ",
                 "CYBOT|ElecTr1fy",
                 "Shadow Monarch"
+            ],
+            "img": ""
+        },
+        {
+            "id": "bc772250-f357-11ee-8de5-0242ac130003",
+            "tournament_id": 0,
+            "name": "JB",
+            "players": [
+                "리메 LIME",
+                "forsaken",
+                "jaesai"
             ],
             "img": ""
         }
@@ -4720,16 +4743,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dea60176-f71b-11ee-86ba-0242ac130003",
-                "name": "3 bear🐙"
+                "name": "3 bear🐙",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61383ada-f340-11ee-a8ba-0242ac130002",
-                "name": "Cloris gaming"
+                "name": "Cloris gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "dea60176-f71b-11ee-86ba-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61383ada-f340-11ee-a8ba-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "dea60176-f71b-11ee-86ba-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61383ada-f340-11ee-a8ba-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 79,
@@ -5713,16 +5765,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "50bc8730-f474-11ee-aeae-0242ac130003",
-                "name": "WATERFALL"
+                "name": "WATERFALL",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bc772250-f357-11ee-8de5-0242ac130003",
-                "name": "JB"
+                "name": "JB",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "50bc8730-f474-11ee-aeae-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc772250-f357-11ee-8de5-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "50bc8730-f474-11ee-aeae-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc772250-f357-11ee-8de5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 125,

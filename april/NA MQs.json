@@ -37469,14 +37469,15 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
                 "name": "Clean Up Crew"
             },
             "opponent2": {
                 "id": "af6b1b84-f37a-11ee-8987-0242ac130003",
-                "name": "Frontenac Esports"
+                "name": "Frontenac Esports",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -38932,7 +38933,8 @@
                 "name": "Homeless"
             },
             "opponent2": {
-                "id": null
+                "id": "2e0ffb30-f295-11ee-8483-0242ac130002",
+                "name": "Clean Up Crew"
             },
             "match_games": []
         },
@@ -44582,16 +44584,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ca201258-f876-11ee-8095-0242ac130003",
-                "name": "SJH🗣️"
+                "name": "SJH🗣️",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a82ccfa6-f443-11ee-9bec-0242ac130003",
-                "name": "Furrynos F.C."
+                "name": "Furrynos F.C.",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ca201258-f876-11ee-8095-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a82ccfa6-f443-11ee-9bec-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ca201258-f876-11ee-8095-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a82ccfa6-f443-11ee-9bec-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 984,
@@ -47097,7 +47128,8 @@
                 "name": "El AB"
             },
             "opponent2": {
-                "id": null
+                "id": "ca201258-f876-11ee-8095-0242ac130003",
+                "name": "SJH🗣️"
             },
             "match_games": []
         },
@@ -50166,7 +50198,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "af6b1b84-f37a-11ee-8987-0242ac130003",
+                "name": "Frontenac Esports"
             },
             "opponent2": {
                 "id": null

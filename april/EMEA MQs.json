@@ -70887,16 +70887,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d18bde0c-f63f-11ee-a5f4-0242ac130003",
-                "name": "Thekingz"
+                "name": "Thekingz",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ba23ecc2-f4f1-11ee-8397-0242ac130003",
-                "name": "Slayers"
+                "name": "Slayers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "d18bde0c-f63f-11ee-a5f4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ba23ecc2-f4f1-11ee-8397-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "d18bde0c-f63f-11ee-a5f4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ba23ecc2-f4f1-11ee-8397-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "d18bde0c-f63f-11ee-a5f4-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ba23ecc2-f4f1-11ee-8397-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1555,
@@ -88522,10 +88563,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ba23ecc2-f4f1-11ee-8397-0242ac130003",
+                "name": "Slayers"
             },
             "opponent2": {
-                "id": null
+                "id": "326f116c-f5b4-11ee-ba7f-0242ac130003",
+                "name": "✨️Three Musketeers✨️"
             },
             "match_games": []
         },
@@ -116722,10 +116765,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d18bde0c-f63f-11ee-a5f4-0242ac130003",
+                "name": "Thekingz"
             },
             "opponent2": {
-                "id": null
+                "id": "fc44d1f6-f394-11ee-a30f-0242ac130003",
+                "name": "Sigma Team"
             },
             "match_games": []
         },

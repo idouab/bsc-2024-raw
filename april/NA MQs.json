@@ -45536,16 +45536,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6ee839fc-f4ab-11ee-a00c-0242ac130003",
-                "name": "RZR"
+                "name": "RZR",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b980283a-f569-11ee-bf0c-0242ac130003",
-                "name": "Better than u"
+                "name": "Better than u",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6ee839fc-f4ab-11ee-a00c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b980283a-f569-11ee-bf0c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6ee839fc-f4ab-11ee-a00c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b980283a-f569-11ee-bf0c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1024,
@@ -47845,7 +47874,8 @@
                 "name": "Fx-92+"
             },
             "opponent2": {
-                "id": null
+                "id": "b980283a-f569-11ee-bf0c-0242ac130003",
+                "name": "Better than u"
             },
             "match_games": []
         },

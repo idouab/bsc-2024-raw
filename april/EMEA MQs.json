@@ -70983,16 +70983,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9e392550-f446-11ee-9af9-0242ac130003",
-                "name": "Afinity"
+                "name": "Afinity",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fae65c2-f294-11ee-bbb4-0242ac130002",
-                "name": "Logistas"
+                "name": "Logistas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9e392550-f446-11ee-9af9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2fae65c2-f294-11ee-bbb4-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9e392550-f446-11ee-9af9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fae65c2-f294-11ee-bbb4-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9e392550-f446-11ee-9af9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fae65c2-f294-11ee-bbb4-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1558,
@@ -81618,16 +81659,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "56d13d5a-f294-11ee-a403-0242ac130002",
-                "name": "Los sabrosos"
+                "name": "Los sabrosos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e4ccb8b2-f54d-11ee-8938-0242ac130003",
-                "name": "FASHION"
+                "name": "FASHION",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "56d13d5a-f294-11ee-a403-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4ccb8b2-f54d-11ee-8938-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "56d13d5a-f294-11ee-a403-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4ccb8b2-f54d-11ee-8938-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1877,
@@ -87706,7 +87776,8 @@
                 "name": "Prodigy Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "9e392550-f446-11ee-9af9-0242ac130003",
+                "name": "Afinity"
             },
             "match_games": []
         },
@@ -90557,10 +90628,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "56d13d5a-f294-11ee-a403-0242ac130002",
+                "name": "Los sabrosos"
             },
             "opponent2": {
-                "id": null
+                "id": "7aa76130-f390-11ee-8381-0242ac130003",
+                "name": "Chaussons aux pommes"
             },
             "match_games": []
         },
@@ -110046,10 +110119,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e4ccb8b2-f54d-11ee-8938-0242ac130003",
+                "name": "FASHION"
             },
             "opponent2": {
-                "id": null
+                "id": "ac665508-f8bf-11ee-a467-0242ac130003",
+                "name": "Arankar Team"
             },
             "match_games": []
         },
@@ -115752,10 +115827,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2fae65c2-f294-11ee-bbb4-0242ac130002",
+                "name": "Logistas"
             },
             "opponent2": {
-                "id": null
+                "id": "e9f93e92-f50b-11ee-8248-0242ac130003",
+                "name": "Bad Randoms"
             },
             "match_games": []
         },

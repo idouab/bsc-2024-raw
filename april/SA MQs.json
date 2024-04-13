@@ -22083,16 +22083,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
-                "name": "The forgotten ones🥀"
+                "name": "The forgotten ones🥀",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5bfd7362-f617-11ee-8c58-0242ac130003",
-                "name": "NAH ID WIN"
+                "name": "NAH ID WIN",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5bfd7362-f617-11ee-8c58-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5bfd7362-f617-11ee-8c58-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 645,
@@ -22867,7 +22896,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5bfd7362-f617-11ee-8c58-0242ac130003",
+                "name": "NAH ID WIN"
             },
             "opponent2": {
                 "id": null
@@ -29710,7 +29740,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1d8429d4-f390-11ee-b0c6-0242ac130003",
+                "name": "The forgotten ones🥀"
             },
             "opponent2": {
                 "id": null

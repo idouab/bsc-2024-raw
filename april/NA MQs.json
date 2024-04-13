@@ -23763,16 +23763,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2953d9b8-f295-11ee-831a-0242ac130002",
-                "name": "Midnight Brawlers"
+                "name": "Midnight Brawlers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
-                "name": "Divine Gaming"
+                "name": "Divine Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2953d9b8-f295-11ee-831a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2953d9b8-f295-11ee-831a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 744,
@@ -25048,16 +25077,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b231510-f295-11ee-a773-0242ac130002",
-                "name": "312"
+                "name": "312",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c6b51e2e-f3ad-11ee-8af2-0242ac130003",
-                "name": "The Don’s"
+                "name": "The Don’s",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b231510-f295-11ee-a773-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c6b51e2e-f3ad-11ee-8af2-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b231510-f295-11ee-a773-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c6b51e2e-f3ad-11ee-8af2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b231510-f295-11ee-a773-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c6b51e2e-f3ad-11ee-8af2-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 786,
@@ -29980,7 +30050,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2953d9b8-f295-11ee-831a-0242ac130002",
+                "name": "Midnight Brawlers"
             },
             "opponent2": {
                 "id": null
@@ -30328,10 +30399,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b231510-f295-11ee-a773-0242ac130002",
+                "name": "312"
             },
             "opponent2": {
-                "id": null
+                "id": "b183be1c-f474-11ee-bfe4-0242ac130003",
+                "name": "747"
             },
             "match_games": []
         },

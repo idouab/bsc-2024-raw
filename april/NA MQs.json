@@ -24204,16 +24204,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
-                "name": "Real Ones"
+                "name": "Real Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e575faa8-f3db-11ee-85c8-0242ac130003",
-                "name": "GUIFITI"
+                "name": "GUIFITI",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e575faa8-f3db-11ee-85c8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e575faa8-f3db-11ee-85c8-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 884,
@@ -26574,7 +26603,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                "name": "Real Ones"
             },
             "opponent2": {
                 "id": null

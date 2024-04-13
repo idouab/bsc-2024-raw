@@ -9533,16 +9533,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdf725f8-f293-11ee-9bab-0242ac130002",
-                "name": "StickyBall"
+                "name": "StickyBall",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "93474966-f323-11ee-b25b-0242ac130003",
-                "name": "やまもとやまと"
+                "name": "やまもとやまと",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdf725f8-f293-11ee-9bab-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdf725f8-f293-11ee-9bab-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "93474966-f323-11ee-b25b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 216,
@@ -9930,16 +9959,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
-                "name": "coco loco"
+                "name": "coco loco",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
-                "name": "The Last Dance"
+                "name": "The Last Dance",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 230,
@@ -10039,16 +10097,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cecf0eaa-f293-11ee-bf5e-0242ac130002",
-                "name": "Essence eSports"
+                "name": "Essence eSports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "58311cce-f348-11ee-a928-0242ac130003",
-                "name": "投げキャラ無しでやり合おうや"
+                "name": "投げキャラ無しでやり合おうや",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cecf0eaa-f293-11ee-bf5e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58311cce-f348-11ee-a928-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cecf0eaa-f293-11ee-bf5e-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58311cce-f348-11ee-a928-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 236,
@@ -10836,10 +10923,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "93474966-f323-11ee-b25b-0242ac130003",
+                "name": "やまもとやまと"
             },
             "opponent2": {
-                "id": null
+                "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                "name": "Why we lose"
             },
             "match_games": []
         },
@@ -10951,7 +11040,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                "name": "coco loco"
             },
             "opponent2": {
                 "id": null
@@ -11000,10 +11090,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cecf0eaa-f293-11ee-bf5e-0242ac130002",
+                "name": "Essence eSports"
             },
             "opponent2": {
-                "id": null
+                "id": "ceabdca0-f293-11ee-b65a-0242ac130002",
+                "name": "ぜろすてっぷエクスカリバー"
             },
             "match_games": []
         },
@@ -12015,16 +12107,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6ff46870-f361-11ee-88de-0242ac130003",
-                "name": "Bak Choy bandits"
+                "name": "Bak Choy bandits",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9d89da16-f5a2-11ee-934b-0242ac130003",
-                "name": "Mr Brightside"
+                "name": "Mr Brightside",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6ff46870-f361-11ee-88de-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9d89da16-f5a2-11ee-934b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6ff46870-f361-11ee-88de-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d89da16-f5a2-11ee-934b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 155,
@@ -12939,7 +13060,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "58311cce-f348-11ee-a928-0242ac130003",
+                "name": "投げキャラ無しでやり合おうや"
             },
             "opponent2": {
                 "id": null
@@ -13036,7 +13158,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                "name": "The Last Dance"
             },
             "opponent2": {
                 "id": null
@@ -13266,10 +13389,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdf725f8-f293-11ee-9bab-0242ac130002",
+                "name": "StickyBall"
             },
             "opponent2": {
-                "id": null
+                "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                "name": "未成年"
             },
             "match_games": []
         },

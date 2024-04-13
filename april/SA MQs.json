@@ -5325,6 +5325,18 @@
             "img": ""
         },
         {
+            "id": "e9265948-f423-11ee-b167-0242ac130003",
+            "tournament_id": 0,
+            "name": "Bestas enjauladas",
+            "players": [
+                "MølekeRipped🥀",
+                "BE |INVICTOR✳",
+                "TrevisRipped🥀",
+                "MortisIsBack🎩"
+            ],
+            "img": ""
+        },
+        {
             "id": "478e53ac-f945-11ee-a360-0242ac130003",
             "tournament_id": 0,
             "name": "CochiClub",
@@ -6628,16 +6640,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
-                "name": "ROCA DE EMIYA 🐒"
+                "name": "ROCA DE EMIYA 🐒",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e9265948-f423-11ee-b167-0242ac130003",
-                "name": "Bestas enjauladas"
+                "name": "Bestas enjauladas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 16,
@@ -7433,16 +7486,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
-                "name": "Bahianos"
+                "name": "Bahianos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4bac6f82-f4ef-11ee-97cf-0242ac130003",
-                "name": "Toy history"
+                "name": "Toy history",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4bac6f82-f4ef-11ee-97cf-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4bac6f82-f4ef-11ee-97cf-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4bac6f82-f4ef-11ee-97cf-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 47,
@@ -13457,10 +13551,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                "name": "ROCA DE EMIYA 🐒"
             },
             "opponent2": {
-                "id": null
+                "id": "afdfc73a-f55b-11ee-9376-0242ac130003",
+                "name": "Oreon"
             },
             "match_games": []
         },
@@ -13711,7 +13807,8 @@
                 "name": "Xsports"
             },
             "opponent2": {
-                "id": null
+                "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                "name": "Bahianos"
             },
             "match_games": []
         },
@@ -17534,10 +17631,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e9265948-f423-11ee-b167-0242ac130003",
+                "name": "Bestas enjauladas"
             },
             "opponent2": {
-                "id": null
+                "id": "478e53ac-f945-11ee-a360-0242ac130003",
+                "name": "CochiClub"
             },
             "match_games": []
         },

@@ -37597,16 +37597,57 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "550c3796-f554-11ee-b12a-0242ac130003",
-                "name": "RDL | WANGESTU"
+                "name": "RDL | WANGESTU",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b34f0f4e-f36b-11ee-bbd4-0242ac130003",
-                "name": "Ultimate Flores"
+                "name": "Ultimate Flores",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b34f0f4e-f36b-11ee-bbd4-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b34f0f4e-f36b-11ee-bbd4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b34f0f4e-f36b-11ee-bbd4-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 841,
@@ -38782,7 +38823,8 @@
                 "name": "Fortune Tigers"
             },
             "opponent2": {
-                "id": null
+                "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                "name": "RDL | WANGESTU"
             },
             "match_games": []
         },

@@ -33946,6 +33946,29 @@
             "img": ""
         },
         {
+            "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
+            "tournament_id": 0,
+            "name": "ROSSES",
+            "players": [
+                "🥀Alenkoo🥀",
+                "🥀DudiN🥀",
+                "🥀NoodY🥀"
+            ],
+            "img": ""
+        },
+        {
+            "id": "42255dc8-f294-11ee-95ab-0242ac130002",
+            "tournament_id": 0,
+            "name": "Lazy",
+            "players": [
+                "我|Sweaty⛩️",
+                "👻|Ghost Sims",
+                "gamer",
+                "/GiveAmber"
+            ],
+            "img": ""
+        },
+        {
             "id": "0f266bd0-f373-11ee-bbf5-0242ac130003",
             "tournament_id": 0,
             "name": "Bojovnici Os",
@@ -67959,16 +67982,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
-                "name": "ROSSES"
+                "name": "ROSSES",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "35c57658-f401-11ee-86c3-0242ac130003",
-                "name": "TEAM HAZE"
+                "name": "TEAM HAZE",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "35c57658-f401-11ee-86c3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "35c57658-f401-11ee-86c3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "35c57658-f401-11ee-86c3-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 991,
@@ -67977,16 +68041,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "42255dc8-f294-11ee-95ab-0242ac130002",
-                "name": "Lazy"
+                "name": "Lazy",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "03430eba-f420-11ee-988d-0242ac130003",
-                "name": "Sp team"
+                "name": "Sp team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "42255dc8-f294-11ee-95ab-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "03430eba-f420-11ee-988d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "42255dc8-f294-11ee-95ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "03430eba-f420-11ee-988d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "42255dc8-f294-11ee-95ab-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "03430eba-f420-11ee-988d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 992,
@@ -77902,7 +78007,8 @@
                 "name": "Say gex"
             },
             "opponent2": {
-                "id": null
+                "id": "35c57658-f401-11ee-86c3-0242ac130003",
+                "name": "TEAM HAZE"
             },
             "match_games": []
         },
@@ -77915,10 +78021,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "03430eba-f420-11ee-988d-0242ac130003",
+                "name": "Sp team"
             },
             "opponent2": {
-                "id": null
+                "id": "5f6bf418-f344-11ee-a410-0242ac130002",
+                "name": "UA I esports"
             },
             "match_games": []
         },
@@ -95180,7 +95288,8 @@
                 "name": "Mellstroy Team"
             },
             "opponent2": {
-                "id": null
+                "id": "da8f4d8c-f58f-11ee-ba46-0242ac130003",
+                "name": "ROSSES"
             },
             "match_games": []
         },
@@ -95193,10 +95302,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "42255dc8-f294-11ee-95ab-0242ac130002",
+                "name": "Lazy"
             },
             "opponent2": {
-                "id": null
+                "id": "0f266bd0-f373-11ee-bbf5-0242ac130003",
+                "name": "Bojovnici Os"
             },
             "match_games": []
         },

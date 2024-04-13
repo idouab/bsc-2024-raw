@@ -18995,16 +18995,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b88470f2-f295-11ee-a442-0242ac130002",
-                "name": "Golden Vortex"
+                "name": "Golden Vortex",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6976c1dc-f87f-11ee-aa06-0242ac130003",
-                "name": "The Bad Batch"
+                "name": "The Bad Batch",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b88470f2-f295-11ee-a442-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6976c1dc-f87f-11ee-aa06-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b88470f2-f295-11ee-a442-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6976c1dc-f87f-11ee-aa06-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 445,
@@ -20846,10 +20875,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6976c1dc-f87f-11ee-aa06-0242ac130003",
+                "name": "The Bad Batch"
             },
             "opponent2": {
-                "id": null
+                "id": "e183e782-f428-11ee-8aa0-0242ac130003",
+                "name": "The limite"
             },
             "match_games": []
         },
@@ -23003,16 +23034,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "91bec842-f43d-11ee-809e-0242ac130003",
-                "name": "AKBRAWL"
+                "name": "AKBRAWL",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2977137e-f529-11ee-b0c0-0242ac130003",
-                "name": "EL BUENOS"
+                "name": "EL BUENOS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 303,
@@ -24238,7 +24298,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b88470f2-f295-11ee-a442-0242ac130002",
+                "name": "Golden Vortex"
             },
             "opponent2": {
                 "id": null
@@ -24938,7 +24999,8 @@
                 "name": "RANKEY TAYOBA"
             },
             "opponent2": {
-                "id": null
+                "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                "name": "EL BUENOS"
             },
             "match_games": []
         },

@@ -40481,16 +40481,57 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
-                "name": "Infinite Void"
+                "name": "Infinite Void",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
-                "name": "Fatherly Figures"
+                "name": "Fatherly Figures",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1523,
@@ -40773,7 +40814,8 @@
                 "name": "Utopia"
             },
             "opponent2": {
-                "id": null
+                "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                "name": "Infinite Void"
             },
             "match_games": []
         },
@@ -54251,7 +54293,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                "name": "Fatherly Figures"
             },
             "opponent2": {
                 "id": null

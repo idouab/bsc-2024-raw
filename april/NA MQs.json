@@ -7517,6 +7517,17 @@
             "img": ""
         },
         {
+            "id": "169b8792-f87d-11ee-af20-0242ac130003",
+            "tournament_id": 0,
+            "name": "Goofy Goobers",
+            "players": [
+                "I have two moms",
+                "Blackrhino",
+                "ßøå"
+            ],
+            "img": ""
+        },
+        {
             "id": "fbe1b13c-f4c2-11ee-8e26-0242ac130003",
             "tournament_id": 0,
             "name": "Gauss Prime",
@@ -14467,16 +14478,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "340d997a-f3c1-11ee-81fb-0242ac130003",
-                "name": "OMEGA | JPFF"
+                "name": "OMEGA | JPFF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "169b8792-f87d-11ee-af20-0242ac130003",
-                "name": "Goofy Goobers"
+                "name": "Goofy Goobers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "340d997a-f3c1-11ee-81fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169b8792-f87d-11ee-af20-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "340d997a-f3c1-11ee-81fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169b8792-f87d-11ee-af20-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 411,
@@ -19784,7 +19824,8 @@
                 "name": "Inverse"
             },
             "opponent2": {
-                "id": null
+                "id": "340d997a-f3c1-11ee-81fb-0242ac130003",
+                "name": "OMEGA | JPFF"
             },
             "match_games": []
         },

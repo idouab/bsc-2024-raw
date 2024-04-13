@@ -70598,16 +70598,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ac25310-f294-11ee-aa65-0242ac130002",
-                "name": "Egiptus"
+                "name": "Egiptus",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6313eb80-f294-11ee-abe0-0242ac130002",
-                "name": "The Big Burgers"
+                "name": "The Big Burgers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3ac25310-f294-11ee-aa65-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6313eb80-f294-11ee-abe0-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3ac25310-f294-11ee-aa65-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6313eb80-f294-11ee-abe0-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1547,
@@ -80137,16 +80166,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "15eed0d2-f4e1-11ee-9d62-0242ac130003",
-                "name": "PLM ESPORTS"
+                "name": "PLM ESPORTS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a03bf7f4-f731-11ee-af26-0242ac130003",
-                "name": "F/AntasticNoPlastic"
+                "name": "F/AntasticNoPlastic",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "15eed0d2-f4e1-11ee-9d62-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a03bf7f4-f731-11ee-af26-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "15eed0d2-f4e1-11ee-9d62-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a03bf7f4-f731-11ee-af26-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1874,
@@ -85661,10 +85719,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ac25310-f294-11ee-aa65-0242ac130002",
+                "name": "Egiptus"
             },
             "opponent2": {
-                "id": null
+                "id": "13cd0102-f536-11ee-b404-0242ac130003",
+                "name": "Reb1rth"
             },
             "match_games": []
         },
@@ -88521,7 +88581,8 @@
                 "name": "TU | Team Unpossible"
             },
             "opponent2": {
-                "id": null
+                "id": "a03bf7f4-f731-11ee-af26-0242ac130003",
+                "name": "F/AntasticNoPlastic"
             },
             "match_games": []
         },
@@ -108041,10 +108102,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "15eed0d2-f4e1-11ee-9d62-0242ac130003",
+                "name": "PLM ESPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "3106d11a-f452-11ee-896b-0242ac130003",
+                "name": "WDTG Hun"
             },
             "match_games": []
         },
@@ -113819,10 +113882,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6313eb80-f294-11ee-abe0-0242ac130002",
+                "name": "The Big Burgers"
             },
             "opponent2": {
-                "id": null
+                "id": "29f1bc2c-f390-11ee-b728-0242ac130003",
+                "name": "Eclipse"
             },
             "match_games": []
         },

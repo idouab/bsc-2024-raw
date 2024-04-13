@@ -18497,16 +18497,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70d74788-f426-11ee-8a5f-0242ac130003",
-                "name": "SDGs/たわし"
+                "name": "SDGs/たわし",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
-                "name": "煽り愛好家のこうちゃん"
+                "name": "煽り愛好家のこうちゃん",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "70d74788-f426-11ee-8a5f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 395,
@@ -18675,16 +18716,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdaee784-f293-11ee-9d06-0242ac130002",
-                "name": "MO' RESILIENCE"
+                "name": "MO' RESILIENCE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ce049238-f293-11ee-a287-0242ac130002",
-                "name": "SMG"
+                "name": "SMG",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce049238-f293-11ee-a287-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ce049238-f293-11ee-a287-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce049238-f293-11ee-a287-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 400,
@@ -19603,7 +19685,8 @@
                 "name": "Delay Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "b46725e2-f424-11ee-8cf7-0242ac130003",
+                "name": "煽り愛好家のこうちゃん"
             },
             "match_games": []
         },
@@ -19652,10 +19735,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdaee784-f293-11ee-9d06-0242ac130002",
+                "name": "MO' RESILIENCE"
             },
             "opponent2": {
-                "id": null
+                "id": "70903e02-f53d-11ee-8f6e-0242ac130003",
+                "name": "Demonic"
             },
             "match_games": []
         },

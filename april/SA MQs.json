@@ -35098,16 +35098,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89880e14-f47d-11ee-ba62-0242ac130003",
-                "name": "Turtle Mavericks🐢"
+                "name": "Turtle Mavericks🐢",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
-                "name": "Los estelares"
+                "name": "Los estelares",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dcb32ca4-f5cc-11ee-a90d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 762,
@@ -37055,7 +37096,8 @@
                 "name": "Mamba mentality 🐍"
             },
             "opponent2": {
-                "id": null
+                "id": "89880e14-f47d-11ee-ba62-0242ac130003",
+                "name": "Turtle Mavericks🐢"
             },
             "match_games": []
         },

@@ -7983,6 +7983,17 @@
             "img": ""
         },
         {
+            "id": "2a2804fe-f35d-11ee-8e8a-0242ac130003",
+            "tournament_id": 0,
+            "name": "Golden Pigs",
+            "players": [
+                "троль",
+                "матвей",
+                "Мака"
+            ],
+            "img": ""
+        },
+        {
             "id": "96ecdb7c-f43a-11ee-82f1-0242ac130003",
             "tournament_id": 0,
             "name": "Destroyers",
@@ -8959,6 +8970,17 @@
                 "AQM | LAMB🧸",
                 "GR|crix",
                 "🔥🥀ҞﾁᏣ🥀🔥"
+            ],
+            "img": ""
+        },
+        {
+            "id": "7a2f3a72-f604-11ee-9817-0242ac130003",
+            "tournament_id": 0,
+            "name": "RamosGaming",
+            "players": [
+                "RodrigoGaming",
+                "Chris8a",
+                "Targaryen🔥"
             ],
             "img": ""
         },
@@ -22054,16 +22076,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a2f3a72-f604-11ee-9817-0242ac130003",
-                "name": "RamosGaming"
+                "name": "RamosGaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "51238568-f391-11ee-849f-0242ac130003",
-                "name": "Qcx"
+                "name": "Qcx",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7a2f3a72-f604-11ee-9817-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "51238568-f391-11ee-849f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7a2f3a72-f604-11ee-9817-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "51238568-f391-11ee-849f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 711,
@@ -25604,16 +25655,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a2804fe-f35d-11ee-8e8a-0242ac130003",
-                "name": "Golden Pigs"
+                "name": "Golden Pigs",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3b50096a-f8e0-11ee-8d55-0242ac130003",
-                "name": "Brawl Guardians"
+                "name": "Brawl Guardians",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a2804fe-f35d-11ee-8e8a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3b50096a-f8e0-11ee-8d55-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a2804fe-f35d-11ee-8e8a-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3b50096a-f8e0-11ee-8d55-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 845,
@@ -27882,7 +27962,8 @@
                 "name": "The Nova Musketeers"
             },
             "opponent2": {
-                "id": null
+                "id": "51238568-f391-11ee-849f-0242ac130003",
+                "name": "Qcx"
             },
             "match_games": []
         },
@@ -32235,10 +32316,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a2804fe-f35d-11ee-8e8a-0242ac130003",
+                "name": "Golden Pigs"
             },
             "opponent2": {
-                "id": null
+                "id": "96ecdb7c-f43a-11ee-82f1-0242ac130003",
+                "name": "Destroyers"
             },
             "match_games": []
         },
@@ -33473,10 +33556,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a2f3a72-f604-11ee-9817-0242ac130003",
+                "name": "RamosGaming"
             },
             "opponent2": {
-                "id": null
+                "id": "169b8792-f87d-11ee-af20-0242ac130003",
+                "name": "Goofy Goobers"
             },
             "match_games": []
         },

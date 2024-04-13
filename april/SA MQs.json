@@ -5734,6 +5734,17 @@
             "img": ""
         },
         {
+            "id": "45adbc8c-f416-11ee-9f9d-0242ac130003",
+            "tournament_id": 0,
+            "name": "LosBlines",
+            "players": [
+                "LM_TIAGO",
+                "Santy",
+                "§eßa§ Đ"
+            ],
+            "img": ""
+        },
+        {
             "id": "d7bfce5e-f5f0-11ee-a72d-0242ac130003",
             "tournament_id": 0,
             "name": "CHIMPYS",
@@ -5807,6 +5818,17 @@
                 "Brenoll",
                 "TH| Lukinhax",
                 "🤡rafis7😈"
+            ],
+            "img": ""
+        },
+        {
+            "id": "980be172-f3b5-11ee-b13c-0242ac130003",
+            "tournament_id": 0,
+            "name": "malardium 🤑",
+            "players": [
+                "nuufiexz.",
+                "¥Mïßæəł ¥",
+                "QM/ JARET"
             ],
             "img": ""
         }
@@ -11353,16 +11375,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bdba1082-f514-11ee-9311-0242ac130003",
-                "name": "AGC"
+                "name": "AGC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "45adbc8c-f416-11ee-9f9d-0242ac130003",
-                "name": "LosBlines"
+                "name": "LosBlines",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45adbc8c-f416-11ee-9f9d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45adbc8c-f416-11ee-9f9d-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 220,
@@ -12124,16 +12175,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "328c3a72-f5b3-11ee-8566-0242ac130003",
-                "name": "Newgates"
+                "name": "Newgates",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "980be172-f3b5-11ee-b13c-0242ac130003",
-                "name": "malardium 🤑"
+                "name": "malardium 🤑",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "328c3a72-f5b3-11ee-8566-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "980be172-f3b5-11ee-b13c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "328c3a72-f5b3-11ee-8566-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "980be172-f3b5-11ee-b13c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 249,
@@ -14096,10 +14176,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bdba1082-f514-11ee-9311-0242ac130003",
+                "name": "AGC"
             },
             "opponent2": {
-                "id": null
+                "id": "872203f0-f5b8-11ee-b65b-0242ac130003",
+                "name": "Kaze Ikigaze"
             },
             "match_games": []
         },
@@ -14332,7 +14414,8 @@
                 "name": "Mamba mentality 🐍"
             },
             "opponent2": {
-                "id": null
+                "id": "328c3a72-f5b3-11ee-8566-0242ac130003",
+                "name": "Newgates"
             },
             "match_games": []
         },
@@ -17567,10 +17650,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "45adbc8c-f416-11ee-9f9d-0242ac130003",
+                "name": "LosBlines"
             },
             "opponent2": {
-                "id": null
+                "id": "d7bfce5e-f5f0-11ee-a72d-0242ac130003",
+                "name": "CHIMPYS"
             },
             "match_games": []
         },
@@ -17733,7 +17818,8 @@
                 "name": "kutova"
             },
             "opponent2": {
-                "id": null
+                "id": "980be172-f3b5-11ee-b13c-0242ac130003",
+                "name": "malardium 🤑"
             },
             "match_games": []
         },

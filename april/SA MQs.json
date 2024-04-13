@@ -5384,6 +5384,18 @@
             "img": ""
         },
         {
+            "id": "ba6f5996-f618-11ee-a17b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Gods of the Chaqueta",
+            "players": [
+                "×ºᴊᴇʀɢᴀᴄɪʀº×🕷️",
+                "(o_o)",
+                "Tredd",
+                "✨RICYER™✨"
+            ],
+            "img": ""
+        },
+        {
             "id": "277d317c-f43c-11ee-abab-0242ac130003",
             "tournament_id": 0,
             "name": "Golden Wind",
@@ -7331,16 +7343,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba6f5996-f618-11ee-a17b-0242ac130003",
-                "name": "Gods of the Chaqueta"
+                "name": "Gods of the Chaqueta",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
-                "name": "Sorvetinho"
+                "name": "Sorvetinho",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ba6f5996-f618-11ee-a17b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ba6f5996-f618-11ee-a17b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 71,

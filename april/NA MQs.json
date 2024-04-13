@@ -9344,6 +9344,17 @@
             "img": ""
         },
         {
+            "id": "c83ae6f6-f48a-11ee-99d0-0242ac130003",
+            "tournament_id": 0,
+            "name": "Heaven Divers",
+            "players": [
+                "ScarfyAnimation",
+                "⚡️Dragoon⚡️",
+                "YoLit"
+            ],
+            "img": ""
+        },
+        {
             "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
             "tournament_id": 0,
             "name": "TECSHADOW",
@@ -20855,16 +20866,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2d94d9d2-f295-11ee-8b77-0242ac130002",
-                "name": "sugar rocks"
+                "name": "sugar rocks",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c83ae6f6-f48a-11ee-99d0-0242ac130003",
-                "name": "Heaven Divers"
+                "name": "Heaven Divers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2d94d9d2-f295-11ee-8b77-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c83ae6f6-f48a-11ee-99d0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2d94d9d2-f295-11ee-8b77-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c83ae6f6-f48a-11ee-99d0-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 671,
@@ -33986,10 +34026,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c83ae6f6-f48a-11ee-99d0-0242ac130003",
+                "name": "Heaven Divers"
             },
             "opponent2": {
-                "id": null
+                "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
+                "name": "TECSHADOW"
             },
             "match_games": []
         },

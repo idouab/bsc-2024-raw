@@ -31919,16 +31919,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "768766dc-f795-11ee-9ecb-0242ac130003",
-                "name": "Lucky E-Sports"
+                "name": "Lucky E-Sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "32557968-f547-11ee-bc93-0242ac130003",
-                "name": "BIT"
+                "name": "BIT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "768766dc-f795-11ee-9ecb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32557968-f547-11ee-bc93-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "768766dc-f795-11ee-9ecb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32557968-f547-11ee-bc93-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 758,
@@ -33014,7 +33043,8 @@
                 "name": "Los chapulines"
             },
             "opponent2": {
-                "id": null
+                "id": "768766dc-f795-11ee-9ecb-0242ac130003",
+                "name": "Lucky E-Sports"
             },
             "match_games": []
         },

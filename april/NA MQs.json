@@ -7424,6 +7424,18 @@
                 "blobber"
             ],
             "img": ""
+        },
+        {
+            "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
+            "tournament_id": 0,
+            "name": "RED TAİLS",
+            "players": [
+                "EMOKİNG",
+                "PWR|m1ljannッ",
+                "Raul pune mâna",
+                "🇬🇪toma🇬🇪"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -12108,16 +12120,69 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
-                "name": "Team Salchicha"
+                "name": "Team Salchicha",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
-                "name": "RED TAİLS"
+                "name": "RED TAİLS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bc0bb46e-f976-11ee-b177-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 287,
@@ -18189,7 +18254,8 @@
                 "name": "Who’s in paris"
             },
             "opponent2": {
-                "id": null
+                "id": "4b132bc4-f3aa-11ee-bc80-0242ac130003",
+                "name": "Team Salchicha"
             },
             "match_games": []
         },

@@ -10417,16 +10417,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdd1a882-f293-11ee-b54a-0242ac130002",
-                "name": "Crescent🌙Esports"
+                "name": "Crescent🌙Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "90af17de-f408-11ee-8deb-0242ac130003",
-                "name": "XFØRCE"
+                "name": "XFØRCE",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cdd1a882-f293-11ee-b54a-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cdd1a882-f293-11ee-b54a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cdd1a882-f293-11ee-b54a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 235,
@@ -11550,7 +11591,8 @@
                 "name": "Revenant Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "cdd1a882-f293-11ee-b54a-0242ac130002",
+                "name": "Crescent🌙Esports"
             },
             "match_games": []
         },
@@ -13706,7 +13748,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "90af17de-f408-11ee-8deb-0242ac130003",
+                "name": "XFØRCE"
             },
             "opponent2": {
                 "id": null

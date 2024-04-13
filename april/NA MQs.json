@@ -31054,16 +31054,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "29e34ddc-f295-11ee-a574-0242ac130002",
-                "name": "La pandilla momera"
+                "name": "La pandilla momera",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
-                "name": "DATEKO"
+                "name": "DATEKO",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "29e34ddc-f295-11ee-a574-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "29e34ddc-f295-11ee-a574-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "29e34ddc-f295-11ee-a574-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1050,
@@ -35765,10 +35806,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "29e34ddc-f295-11ee-a574-0242ac130002",
+                "name": "La pandilla momera"
             },
             "opponent2": {
-                "id": null
+                "id": "0bb115dc-f921-11ee-8ff2-0242ac130003",
+                "name": "Humble Shooters"
             },
             "match_games": []
         },
@@ -43714,7 +43757,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ee7f4502-f938-11ee-a4d3-0242ac130003",
+                "name": "DATEKO"
             },
             "opponent2": {
                 "id": null

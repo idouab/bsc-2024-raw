@@ -13074,16 +13074,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
-                "name": "F/A Nai Dug"
+                "name": "F/A Nai Dug",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
-                "name": "Why we lose"
+                "name": "Why we lose",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 385,
@@ -13526,7 +13555,8 @@
                 "name": "HOW"
             },
             "opponent2": {
-                "id": null
+                "id": "cd0f4fa8-f293-11ee-93e2-0242ac130002",
+                "name": "F/A Nai Dug"
             },
             "match_games": []
         },
@@ -18831,7 +18861,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cde0c81c-f351-11ee-ab9d-0242ac130003",
+                "name": "Why we lose"
             },
             "opponent2": {
                 "id": null

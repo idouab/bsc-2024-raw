@@ -26843,16 +26843,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "147d7ff2-f296-11ee-8349-0242ac130002",
-                "name": "Blue Lock⚽"
+                "name": "Blue Lock⚽",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b8da95b8-f295-11ee-83b8-0242ac130002",
-                "name": "Reis do PL"
+                "name": "Reis do PL",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b8da95b8-f295-11ee-83b8-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b8da95b8-f295-11ee-83b8-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 910,
@@ -26921,7 +26950,8 @@
                 "name": "F/A MiniPekkas"
             },
             "opponent2": {
-                "id": null
+                "id": "b8da95b8-f295-11ee-83b8-0242ac130002",
+                "name": "Reis do PL"
             },
             "match_games": []
         },
@@ -40166,7 +40196,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                "name": "Blue Lock⚽"
             },
             "opponent2": {
                 "id": null

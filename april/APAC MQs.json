@@ -18841,16 +18841,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
-                "name": "ZXCV"
+                "name": "ZXCV",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
-                "name": "The Last Dance"
+                "name": "The Last Dance",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8aa6d238-f86c-11ee-96a6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 403,
@@ -19827,7 +19868,8 @@
                 "name": "ぽよ"
             },
             "opponent2": {
-                "id": null
+                "id": "cfe2a324-f293-11ee-8f64-0242ac130002",
+                "name": "ZXCV"
             },
             "match_games": []
         },

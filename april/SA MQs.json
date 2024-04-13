@@ -31674,16 +31674,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
-                "name": "AnimaGang"
+                "name": "AnimaGang",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
-                "name": "SQS - Se quiser sim"
+                "name": "SQS - Se quiser sim",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 691,
@@ -32260,16 +32289,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
-                "name": "Team wolf 🐺"
+                "name": "Team wolf 🐺",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aeb68428-f616-11ee-959a-0242ac130003",
-                "name": "JustFunkin"
+                "name": "JustFunkin",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aeb68428-f616-11ee-959a-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aeb68428-f616-11ee-959a-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 719,
@@ -32976,7 +33034,8 @@
                 "name": "TEAM R.Y.A."
             },
             "opponent2": {
-                "id": null
+                "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                "name": "AnimaGang"
             },
             "match_games": []
         },
@@ -33454,7 +33513,8 @@
                 "name": "GBD BILLY"
             },
             "opponent2": {
-                "id": null
+                "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
+                "name": "Team wolf 🐺"
             },
             "match_games": []
         },
@@ -34149,7 +34209,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b662dab6-f295-11ee-b6c4-0242ac130002",
+                "name": "Távola Redonda"
             },
             "opponent2": {
                 "id": null

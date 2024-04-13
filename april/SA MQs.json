@@ -21323,16 +21323,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b574017a-f295-11ee-8794-0242ac130002",
-                "name": "OPKF"
+                "name": "OPKF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
-                "name": "NVD"
+                "name": "NVD",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b574017a-f295-11ee-8794-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 606,
@@ -21936,16 +21965,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dffd33b2-f8e4-11ee-8f60-0242ac130003",
-                "name": "Osas Team"
+                "name": "Osas Team",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b583e432-f295-11ee-ad4d-0242ac130002",
-                "name": "Legends Stars"
+                "name": "Legends Stars",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "dffd33b2-f8e4-11ee-8f60-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "dffd33b2-f8e4-11ee-8f60-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 632,
@@ -29633,7 +29691,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b89ce90c-f295-11ee-8fc5-0242ac130002",
+                "name": "NVD"
             },
             "opponent2": {
                 "id": null
@@ -30253,7 +30312,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dffd33b2-f8e4-11ee-8f60-0242ac130003",
+                "name": "Osas Team"
             },
             "opponent2": {
                 "id": null

@@ -10024,16 +10024,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
-                "name": "Rising Raccoon"
+                "name": "Rising Raccoon",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a8a2934-f324-11ee-b382-0242ac130002",
-                "name": "APDO"
+                "name": "APDO",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 240,
@@ -10736,7 +10765,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                "name": "Rising Raccoon"
             },
             "opponent2": {
                 "id": null
@@ -12259,16 +12289,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e95183f6-f3de-11ee-9f2e-0242ac130003",
-                "name": "Team | Gladiators"
+                "name": "Team | Gladiators",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9da4fbe0-f32a-11ee-a00a-0242ac130002",
-                "name": "靚仔隊"
+                "name": "靚仔隊",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e95183f6-f3de-11ee-9f2e-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9da4fbe0-f32a-11ee-a00a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e95183f6-f3de-11ee-9f2e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9da4fbe0-f32a-11ee-a00a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 182,
@@ -12480,7 +12539,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a8a2934-f324-11ee-b382-0242ac130002",
+                "name": "APDO"
             },
             "opponent2": {
                 "id": null
@@ -13320,7 +13380,8 @@
                 "name": "Cowboys"
             },
             "opponent2": {
-                "id": null
+                "id": "9da4fbe0-f32a-11ee-a00a-0242ac130002",
+                "name": "靚仔隊"
             },
             "match_games": []
         },

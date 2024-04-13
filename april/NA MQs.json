@@ -7816,6 +7816,17 @@
             "img": ""
         },
         {
+            "id": "f2e34e4e-f92f-11ee-8698-0242ac130003",
+            "tournament_id": 0,
+            "name": "Titans AFH",
+            "players": [
+                "✨JaVieR✨",
+                "Nippy",
+                "AngelitoKun"
+            ],
+            "img": ""
+        },
+        {
             "id": "a726e306-f41d-11ee-81b5-0242ac130003",
             "tournament_id": 0,
             "name": "Supa-N1k4s",
@@ -26957,16 +26968,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f2e34e4e-f92f-11ee-8698-0242ac130003",
-                "name": "Titans AFH"
+                "name": "Titans AFH",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f1493a3e-f462-11ee-8814-0242ac130003",
-                "name": "Espumilla F/C"
+                "name": "Espumilla F/C",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f2e34e4e-f92f-11ee-8698-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f1493a3e-f462-11ee-8814-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f2e34e4e-f92f-11ee-8698-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f1493a3e-f462-11ee-8814-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 871,
@@ -27390,16 +27430,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "30b4ff98-f295-11ee-8a45-0242ac130002",
-                "name": "Zharsito’s Fans"
+                "name": "Zharsito’s Fans",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0ab8df16-f462-11ee-a4d6-0242ac130003",
-                "name": "IB HL MATH AA"
+                "name": "IB HL MATH AA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "30b4ff98-f295-11ee-8a45-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ab8df16-f462-11ee-a4d6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "30b4ff98-f295-11ee-8a45-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ab8df16-f462-11ee-a4d6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 887,
@@ -32694,10 +32763,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f2e34e4e-f92f-11ee-8698-0242ac130003",
+                "name": "Titans AFH"
             },
             "opponent2": {
-                "id": null
+                "id": "a726e306-f41d-11ee-81b5-0242ac130003",
+                "name": "Supa-N1k4s"
             },
             "match_games": []
         },

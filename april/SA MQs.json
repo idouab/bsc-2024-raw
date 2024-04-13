@@ -5737,6 +5737,17 @@
             "img": ""
         },
         {
+            "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+            "tournament_id": 0,
+            "name": "Brazilian Vikings",
+            "players": [
+                "BVK | Senpai",
+                "BVK | Hitz",
+                "BVK | duderson"
+            ],
+            "img": ""
+        },
+        {
             "id": "099e1170-f3c0-11ee-829b-0242ac130003",
             "tournament_id": 0,
             "name": "Zé Tralhas",
@@ -9987,16 +9998,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a80aee78-f361-11ee-a296-0242ac130003",
-                "name": "[JAH] LANÇADORES"
+                "name": "[JAH] LANÇADORES",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
-                "name": "Brazilian Vikings"
+                "name": "Brazilian Vikings",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 127,
@@ -14984,7 +15036,8 @@
                 "name": "MaGaCho"
             },
             "opponent2": {
-                "id": null
+                "id": "a80aee78-f361-11ee-a296-0242ac130003",
+                "name": "[JAH] LANÇADORES"
             },
             "match_games": []
         },
@@ -18765,7 +18818,8 @@
                 "name": "Abençoados"
             },
             "opponent2": {
-                "id": null
+                "id": "a50d70fe-f4f8-11ee-8874-0242ac130003",
+                "name": "Brazilian Vikings"
             },
             "match_games": []
         },

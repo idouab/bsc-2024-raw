@@ -39806,16 +39806,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
-                "name": "Kings"
+                "name": "Kings",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b825f78e-f295-11ee-a313-0242ac130002",
-                "name": "BrawlBros💪🎭"
+                "name": "BrawlBros💪🎭",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b825f78e-f295-11ee-a313-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b825f78e-f295-11ee-a313-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6d46af8e-f438-11ee-a6b9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b825f78e-f295-11ee-a313-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 897,
@@ -40353,7 +40394,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b825f78e-f295-11ee-a313-0242ac130002",
+                "name": "BrawlBros💪🎭"
             },
             "opponent2": {
                 "id": null

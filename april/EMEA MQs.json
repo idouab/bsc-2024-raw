@@ -25066,6 +25066,17 @@
             "img": ""
         },
         {
+            "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
+            "tournament_id": 0,
+            "name": "Akustyczni",
+            "players": [
+                "Pjotlet🦅",
+                "🦝lazaro🦝",
+                "🍁|Jasineczek"
+            ],
+            "img": ""
+        },
+        {
             "id": "31050426-f294-11ee-acb7-0242ac130002",
             "tournament_id": 0,
             "name": "MJA",
@@ -27402,6 +27413,17 @@
             "img": ""
         },
         {
+            "id": "fff3f6a8-f3e2-11ee-b46b-0242ac130003",
+            "tournament_id": 0,
+            "name": "Phoenix Gaming",
+            "players": [
+                "SG|SaSa",
+                "PXG|Saido™",
+                "🧸Nopexie?♡"
+            ],
+            "img": ""
+        },
+        {
             "id": "afb0a444-f40e-11ee-980b-0242ac130003",
             "tournament_id": 0,
             "name": "Revenge",
@@ -28329,6 +28351,17 @@
             "img": ""
         },
         {
+            "id": "100160bc-f578-11ee-8075-0242ac130003",
+            "tournament_id": 0,
+            "name": "LENZUOLI",
+            "players": [
+                "QLS|ITALIA❤️",
+                "[7ds] Flavem",
+                "NAVI | Laul"
+            ],
+            "img": ""
+        },
+        {
             "id": "1f81d686-f526-11ee-9587-0242ac130003",
             "tournament_id": 0,
             "name": "Milan à chier",
@@ -28482,6 +28515,17 @@
                 "TTM|DJ LØR¥🐧❄️",
                 "🧧TTM|PiPoz🧧",
                 "tommaso c3tani"
+            ],
+            "img": ""
+        },
+        {
+            "id": "a4694d46-f357-11ee-a452-0242ac130003",
+            "tournament_id": 0,
+            "name": "FTD Brawl",
+            "players": [
+                "Bot 8",
+                "Frozen Inferno",
+                "Pommes"
             ],
             "img": ""
         },
@@ -35061,16 +35105,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
-                "name": "Akustyczni"
+                "name": "Akustyczni",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f1ba720a-f38e-11ee-8990-0242ac130003",
-                "name": "Nightfighterz"
+                "name": "Nightfighterz",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f1ba720a-f38e-11ee-8990-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f1ba720a-f38e-11ee-8990-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f1ba720a-f38e-11ee-8990-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 179,
@@ -45229,14 +45314,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "38afc020-f64b-11ee-ae96-0242ac130003",
                 "name": "Nino Nino 🚨"
             },
             "opponent2": {
                 "id": "100160bc-f578-11ee-8075-0242ac130003",
-                "name": "LENZUOLI"
+                "name": "LENZUOLI",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -45693,16 +45779,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2346f7d4-f32c-11ee-a221-0242ac130002",
-                "name": "🤫BSN🤫"
+                "name": "🤫BSN🤫",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a4694d46-f357-11ee-a452-0242ac130003",
-                "name": "FTD Brawl"
+                "name": "FTD Brawl",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2346f7d4-f32c-11ee-a221-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a4694d46-f357-11ee-a452-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2346f7d4-f32c-11ee-a221-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a4694d46-f357-11ee-a452-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2346f7d4-f32c-11ee-a221-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a4694d46-f357-11ee-a452-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 495,
@@ -57082,7 +57209,8 @@
                 "name": "MALEFA"
             },
             "opponent2": {
-                "id": null
+                "id": "f1ba720a-f38e-11ee-8990-0242ac130003",
+                "name": "Nightfighterz"
             },
             "match_games": []
         },
@@ -59013,7 +59141,8 @@
                 "name": "OsP"
             },
             "opponent2": {
-                "id": null
+                "id": "5d94b0f4-f294-11ee-9a6c-0242ac130002",
+                "name": "TCN Stars"
             },
             "match_games": []
         },
@@ -59779,10 +59908,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "38afc020-f64b-11ee-ae96-0242ac130003",
+                "name": "Nino Nino 🚨"
             },
             "opponent2": {
-                "id": null
+                "id": "86d7c744-f915-11ee-96f0-0242ac130003",
+                "name": "東京卍会"
             },
             "match_games": []
         },
@@ -59907,7 +60038,8 @@
                 "name": "Jesko"
             },
             "opponent2": {
-                "id": null
+                "id": "2346f7d4-f32c-11ee-a221-0242ac130002",
+                "name": "🤫BSN🤫"
             },
             "match_games": []
         },
@@ -73875,7 +74007,8 @@
                 "name": "Los GoGoG"
             },
             "opponent2": {
-                "id": null
+                "id": "c4c349fa-f395-11ee-b8ca-0242ac130003",
+                "name": "Akustyczni"
             },
             "match_games": []
         },
@@ -75806,7 +75939,8 @@
                 "name": "Spike"
             },
             "opponent2": {
-                "id": null
+                "id": "fff3f6a8-f3e2-11ee-b46b-0242ac130003",
+                "name": "Phoenix Gaming"
             },
             "match_games": []
         },
@@ -76572,10 +76706,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "100160bc-f578-11ee-8075-0242ac130003",
+                "name": "LENZUOLI"
             },
             "opponent2": {
-                "id": null
+                "id": "1f81d686-f526-11ee-9587-0242ac130003",
+                "name": "Milan à chier"
             },
             "match_games": []
         },
@@ -76700,7 +76836,8 @@
                 "name": "BD|Bad Randoms"
             },
             "opponent2": {
-                "id": null
+                "id": "a4694d46-f357-11ee-a452-0242ac130003",
+                "name": "FTD Brawl"
             },
             "match_games": []
         },

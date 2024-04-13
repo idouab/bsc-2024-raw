@@ -7526,6 +7526,17 @@
             "img": ""
         },
         {
+            "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
+            "tournament_id": 0,
+            "name": "Pro Brawlers",
+            "players": [
+                "FizzyElf",
+                "SIREN_EO",
+                "Mengo Master"
+            ],
+            "img": ""
+        },
+        {
             "id": "d8d4651e-f3c2-11ee-9c49-0242ac130003",
             "tournament_id": 0,
             "name": "Covenant",
@@ -27921,16 +27932,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
-                "name": "Pro Brawlers"
+                "name": "Pro Brawlers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "254e0284-f390-11ee-8a0d-0242ac130003",
-                "name": "SR4TB"
+                "name": "SR4TB",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "254e0284-f390-11ee-8a0d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "254e0284-f390-11ee-8a0d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 903,
@@ -32445,10 +32485,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
+                "name": "Pro Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "d8d4651e-f3c2-11ee-9c49-0242ac130003",
+                "name": "Covenant"
             },
             "match_games": []
         },

@@ -21475,16 +21475,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
-                "name": "Tres tristes tigres"
+                "name": "Tres tristes tigres",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
-                "name": "F/A JPZ"
+                "name": "F/A JPZ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 608,
@@ -21493,16 +21522,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5b64c60-f295-11ee-a9ea-0242ac130002",
-                "name": "Mini XB"
+                "name": "Mini XB",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b53f718a-f295-11ee-a717-0242ac130002",
-                "name": "TMR"
+                "name": "TMR",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5b64c60-f295-11ee-a9ea-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5b64c60-f295-11ee-a9ea-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 609,
@@ -22060,16 +22118,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b212c584-f295-11ee-8838-0242ac130002",
-                "name": "Cerrau"
+                "name": "Cerrau",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "550c3796-f554-11ee-b12a-0242ac130003",
-                "name": "RDL | WANGESTU"
+                "name": "RDL | WANGESTU",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b212c584-f295-11ee-8838-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b212c584-f295-11ee-8838-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 626,
@@ -23294,7 +23381,8 @@
                 "name": "Panchos"
             },
             "opponent2": {
-                "id": null
+                "id": "bc130b6a-f43a-11ee-9037-0242ac130003",
+                "name": "F/A JPZ"
             },
             "match_games": []
         },
@@ -23307,10 +23395,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                "name": "TMR"
             },
             "opponent2": {
-                "id": null
+                "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                "name": "Skibidi Tlil"
             },
             "match_games": []
         },
@@ -30076,7 +30166,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                "name": "RDL | WANGESTU"
             },
             "opponent2": {
                 "id": null
@@ -30357,7 +30448,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5b64c60-f295-11ee-a9ea-0242ac130002",
+                "name": "Mini XB"
             },
             "opponent2": {
                 "id": null
@@ -30373,7 +30465,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b337fbfa-f295-11ee-8c61-0242ac130002",
+                "name": "Tres tristes tigres"
             },
             "opponent2": {
                 "id": null

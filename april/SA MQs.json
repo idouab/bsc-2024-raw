@@ -22825,16 +22825,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7a296f0-f295-11ee-8387-0242ac130002",
-                "name": "Aposentados ™"
+                "name": "Aposentados ™",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e76646c-f3be-11ee-852f-0242ac130003",
-                "name": "THE BEST PLAYERS"
+                "name": "THE BEST PLAYERS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7a296f0-f295-11ee-8387-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7a296f0-f295-11ee-8387-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 654,
@@ -23558,7 +23587,8 @@
                 "name": "NORTH SIDE RAIDERS"
             },
             "opponent2": {
-                "id": null
+                "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                "name": "THE BEST PLAYERS"
             },
             "match_games": []
         },
@@ -30378,7 +30408,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7a296f0-f295-11ee-8387-0242ac130002",
+                "name": "Aposentados ™"
             },
             "opponent2": {
                 "id": null

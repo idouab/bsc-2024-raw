@@ -26727,16 +26727,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b269c6c-f295-11ee-a47b-0242ac130002",
-                "name": "Woggies"
+                "name": "Woggies",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
-                "name": "SGJ"
+                "name": "SGJ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b269c6c-f295-11ee-a47b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b269c6c-f295-11ee-a47b-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b269c6c-f295-11ee-a47b-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 826,
@@ -31138,10 +31179,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                "name": "SGJ"
             },
             "opponent2": {
-                "id": null
+                "id": "d7dc9d4a-f9a6-11ee-8646-0242ac130003",
+                "name": "Fx-92+"
             },
             "match_games": []
         },

@@ -33470,16 +33470,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
-                "name": "Freak Show"
+                "name": "Freak Show",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
-                "name": "Sorvetinho"
+                "name": "Sorvetinho",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "57291bee-f52b-11ee-bd8c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 709,
@@ -34794,7 +34835,8 @@
                 "name": "MacarronesBRO"
             },
             "opponent2": {
-                "id": null
+                "id": "d6d6af70-f3ad-11ee-b71d-0242ac130003",
+                "name": "Sorvetinho"
             },
             "match_games": []
         },

@@ -7638,6 +7638,18 @@
             "img": ""
         },
         {
+            "id": "278ed84c-f350-11ee-b5df-0242ac130003",
+            "tournament_id": 0,
+            "name": "GeeTee",
+            "players": [
+                "Zoned",
+                "Blaze",
+                "Dreading",
+                "/\\/ / /\\/ _/ /\\"
+            ],
+            "img": ""
+        },
+        {
             "id": "94224468-f55c-11ee-ba73-0242ac130003",
             "tournament_id": 0,
             "name": "Shidos",
@@ -28624,16 +28636,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "278ed84c-f350-11ee-b5df-0242ac130003",
-                "name": "GeeTee"
+                "name": "GeeTee",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "861aa16a-f90a-11ee-af0c-0242ac130003",
-                "name": "AZEM™"
+                "name": "AZEM™",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "278ed84c-f350-11ee-b5df-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "861aa16a-f90a-11ee-af0c-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "278ed84c-f350-11ee-b5df-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "861aa16a-f90a-11ee-af0c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "278ed84c-f350-11ee-b5df-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "861aa16a-f90a-11ee-af0c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 893,
@@ -31298,7 +31351,8 @@
                 "name": "Mambas Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "861aa16a-f90a-11ee-af0c-0242ac130003",
+                "name": "AZEM™"
             },
             "match_games": []
         },
@@ -33697,10 +33751,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "278ed84c-f350-11ee-b5df-0242ac130003",
+                "name": "GeeTee"
             },
             "opponent2": {
-                "id": null
+                "id": "94224468-f55c-11ee-ba73-0242ac130003",
+                "name": "Shidos"
             },
             "match_games": []
         },

@@ -33667,16 +33667,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
-                "name": "Real Ones"
+                "name": "Real Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5608ecf6-f6cc-11ee-be51-0242ac130003",
-                "name": "Schlurg"
+                "name": "Schlurg",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5608ecf6-f6cc-11ee-be51-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5608ecf6-f6cc-11ee-be51-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1156,
@@ -35075,10 +35104,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                "name": "Real Ones"
             },
             "opponent2": {
-                "id": null
+                "id": "30b4ff98-f295-11ee-8a45-0242ac130002",
+                "name": "Zharsito’s Fans"
             },
             "match_games": []
         },
@@ -42160,7 +42191,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5608ecf6-f6cc-11ee-be51-0242ac130003",
+                "name": "Schlurg"
             },
             "opponent2": {
                 "id": null

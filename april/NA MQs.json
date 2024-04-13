@@ -9376,6 +9376,17 @@
             "img": ""
         },
         {
+            "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
+            "tournament_id": 0,
+            "name": "Marksmen",
+            "players": [
+                "DAA| Denzel💙🐻",
+                "T5|NickoAcosta",
+                "ToMan|SantyGR💙"
+            ],
+            "img": ""
+        },
+        {
             "id": "f4762994-f3b6-11ee-bdc8-0242ac130003",
             "tournament_id": 0,
             "name": "Sbb",
@@ -21852,16 +21863,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
-                "name": "Marksmen"
+                "name": "Marksmen",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3d75a254-f38b-11ee-825a-0242ac130003",
-                "name": "OutLaw"
+                "name": "OutLaw",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d75a254-f38b-11ee-825a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d75a254-f38b-11ee-825a-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d75a254-f38b-11ee-825a-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 687,
@@ -29033,7 +29085,8 @@
                 "name": "Wolf Legend"
             },
             "opponent2": {
-                "id": null
+                "id": "3d75a254-f38b-11ee-825a-0242ac130003",
+                "name": "OutLaw"
             },
             "match_games": []
         },
@@ -35110,10 +35163,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
+                "name": "Marksmen"
             },
             "opponent2": {
-                "id": null
+                "id": "f4762994-f3b6-11ee-bdc8-0242ac130003",
+                "name": "Sbb"
             },
             "match_games": []
         },

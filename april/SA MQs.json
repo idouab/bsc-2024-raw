@@ -16089,16 +16089,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6856aae-f295-11ee-8626-0242ac130002",
-                "name": "Xsports"
+                "name": "Xsports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
-                "name": "Bahianos"
+                "name": "Bahianos",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6856aae-f295-11ee-8626-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6856aae-f295-11ee-8626-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b6856aae-f295-11ee-8626-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 365,
@@ -19070,16 +19111,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
-                "name": "Vaixco"
+                "name": "Vaixco",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "93a4b2da-f47d-11ee-a786-0242ac130003",
-                "name": "te voy a fusilar"
+                "name": "te voy a fusilar",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "93a4b2da-f47d-11ee-a786-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "93a4b2da-f47d-11ee-a786-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 456,
@@ -19799,7 +19869,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6a8e7c8-f366-11ee-ad83-0242ac130003",
+                "name": "Bahianos"
             },
             "opponent2": {
                 "id": null
@@ -20557,7 +20628,8 @@
                 "name": "Blue Lock⚽"
             },
             "opponent2": {
-                "id": null
+                "id": "b2497bb0-f295-11ee-ad6d-0242ac130002",
+                "name": "Vaixco"
             },
             "match_games": []
         },
@@ -22577,16 +22649,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b354dbf8-f295-11ee-828d-0242ac130002",
-                "name": "MidNight sports"
+                "name": "MidNight sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4abe0740-f60f-11ee-9bb1-0242ac130003",
-                "name": "TD|World"
+                "name": "TD|World",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b354dbf8-f295-11ee-828d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4abe0740-f60f-11ee-9bb1-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b354dbf8-f295-11ee-828d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4abe0740-f60f-11ee-9bb1-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 302,
@@ -23642,7 +23743,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "93a4b2da-f47d-11ee-a786-0242ac130003",
+                "name": "te voy a fusilar"
             },
             "opponent2": {
                 "id": null
@@ -25157,7 +25259,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6856aae-f295-11ee-8626-0242ac130002",
+                "name": "Xsports"
             },
             "opponent2": {
                 "id": null

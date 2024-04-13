@@ -31815,16 +31815,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b8c71cc-f295-11ee-ae50-0242ac130002",
-                "name": "Brawl Babes"
+                "name": "Brawl Babes",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a51cc5f6-f51e-11ee-a877-0242ac130003",
-                "name": "LA Autistics"
+                "name": "LA Autistics",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b8c71cc-f295-11ee-ae50-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a51cc5f6-f51e-11ee-a877-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b8c71cc-f295-11ee-ae50-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a51cc5f6-f51e-11ee-a877-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1070,
@@ -35824,10 +35853,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b8c71cc-f295-11ee-ae50-0242ac130002",
+                "name": "Brawl Babes"
             },
             "opponent2": {
-                "id": null
+                "id": "29d90ab6-f295-11ee-bda8-0242ac130002",
+                "name": "Ñiquiñaques"
             },
             "match_games": []
         },
@@ -43203,7 +43234,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a51cc5f6-f51e-11ee-a877-0242ac130003",
+                "name": "LA Autistics"
             },
             "opponent2": {
                 "id": null

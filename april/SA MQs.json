@@ -37559,16 +37559,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a1370ae-f817-11ee-ac1d-0242ac130003",
-                "name": "FIG"
+                "name": "FIG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
-                "name": "LanzRea"
+                "name": "LanzRea",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5a1370ae-f817-11ee-ac1d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5a1370ae-f817-11ee-ac1d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 844,
@@ -37750,16 +37779,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
-                "name": "AnimaGang"
+                "name": "AnimaGang",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6cde2338-f398-11ee-8309-0242ac130003",
-                "name": "Renegades(RNG)"
+                "name": "Renegades(RNG)",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6cde2338-f398-11ee-8309-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6cde2338-f398-11ee-8309-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 853,
@@ -38398,7 +38456,8 @@
                 "name": "Team Fluid"
             },
             "opponent2": {
-                "id": null
+                "id": "5a1370ae-f817-11ee-ac1d-0242ac130003",
+                "name": "FIG"
             },
             "match_games": []
         },
@@ -38552,7 +38611,8 @@
                 "name": "La Plata Gimnasia"
             },
             "opponent2": {
-                "id": null
+                "id": "a7c25dcc-f3c3-11ee-91d9-0242ac130003",
+                "name": "AnimaGang"
             },
             "match_games": []
         },

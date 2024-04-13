@@ -33731,16 +33731,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
-                "name": "Kollas United"
+                "name": "Kollas United",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ed2a4622-f6fc-11ee-90af-0242ac130003",
-                "name": "LightSiders"
+                "name": "LightSiders",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ed2a4622-f6fc-11ee-90af-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed2a4622-f6fc-11ee-90af-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed2a4622-f6fc-11ee-90af-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 708,
@@ -35145,7 +35186,8 @@
                 "name": "Star Nexus"
             },
             "opponent2": {
-                "id": null
+                "id": "655eaeb8-f6ac-11ee-8fe2-0242ac130003",
+                "name": "Kollas United"
             },
             "match_games": []
         },

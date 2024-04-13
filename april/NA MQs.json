@@ -7515,6 +7515,17 @@
             "img": ""
         },
         {
+            "id": "f231ff80-f3db-11ee-bcfa-0242ac130003",
+            "tournament_id": 0,
+            "name": "Cococabra",
+            "players": [
+                "》El Kinkaju《",
+                "《☆-JOSÉJGV-☆》",
+                "ZagSavage"
+            ],
+            "img": ""
+        },
+        {
             "id": "db152120-f399-11ee-83f9-0242ac130003",
             "tournament_id": 0,
             "name": "La minerve",
@@ -9774,16 +9785,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
-                "name": "LofiLand"
+                "name": "LofiLand",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f231ff80-f3db-11ee-bcfa-0242ac130003",
-                "name": "Cococabra"
+                "name": "Cococabra",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f231ff80-f3db-11ee-bcfa-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f231ff80-f3db-11ee-bcfa-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f231ff80-f3db-11ee-bcfa-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 67,
@@ -19733,7 +19785,8 @@
                 "name": "Real dudes 🦋"
             },
             "opponent2": {
-                "id": null
+                "id": "78b4c8de-f6e4-11ee-a54d-0242ac130003",
+                "name": "LofiLand"
             },
             "match_games": []
         },

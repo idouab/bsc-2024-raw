@@ -19125,16 +19125,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
-                "name": "국회의사당"
+                "name": "국회의사당",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
-                "name": "未成年"
+                "name": "未成年",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fbe935c-f54b-11ee-a483-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 410,
@@ -19865,10 +19894,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e0a8d5c2-f363-11ee-a90f-0242ac130003",
+                "name": "국회의사당"
             },
             "opponent2": {
-                "id": null
+                "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                "name": "Feasible Gaming"
             },
             "match_games": []
         },

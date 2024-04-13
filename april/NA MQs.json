@@ -33177,16 +33177,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa3df288-f39a-11ee-a4ef-0242ac130003",
-                "name": "Petrichor"
+                "name": "Petrichor",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eb7e8838-f8fa-11ee-9e1d-0242ac130003",
-                "name": "A1 Trio"
+                "name": "A1 Trio",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "aa3df288-f39a-11ee-a4ef-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eb7e8838-f8fa-11ee-9e1d-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "aa3df288-f39a-11ee-a4ef-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "eb7e8838-f8fa-11ee-9e1d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "aa3df288-f39a-11ee-a4ef-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eb7e8838-f8fa-11ee-9e1d-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1101,
@@ -43489,7 +43530,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eb7e8838-f8fa-11ee-9e1d-0242ac130003",
+                "name": "A1 Trio"
             },
             "opponent2": {
                 "id": null

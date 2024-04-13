@@ -25143,16 +25143,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
-                "name": "Team Fluid"
+                "name": "Team Fluid",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "472fee76-f430-11ee-a5f0-0242ac130003",
-                "name": "DirectX"
+                "name": "DirectX",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "472fee76-f430-11ee-a5f0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "472fee76-f430-11ee-a5f0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 748,
@@ -25850,7 +25879,8 @@
                 "name": "Marruecos"
             },
             "opponent2": {
-                "id": null
+                "id": "472fee76-f430-11ee-a5f0-0242ac130003",
+                "name": "DirectX"
             },
             "match_games": []
         },
@@ -33643,16 +33673,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a0e2b462-f444-11ee-b8ed-0242ac130003",
-                "name": "Colossal Gaming"
+                "name": "Colossal Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5b155b94-f555-11ee-8a13-0242ac130003",
-                "name": "ixiTeam"
+                "name": "ixiTeam",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a0e2b462-f444-11ee-b8ed-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a0e2b462-f444-11ee-b8ed-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 718,
@@ -34889,7 +34948,8 @@
                 "name": "TCM"
             },
             "opponent2": {
-                "id": null
+                "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                "name": "ixiTeam"
             },
             "match_games": []
         },
@@ -35639,7 +35699,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                "name": "Team Fluid"
             },
             "opponent2": {
                 "id": null

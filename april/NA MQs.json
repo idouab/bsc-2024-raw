@@ -8084,6 +8084,17 @@
             "img": ""
         },
         {
+            "id": "61118684-f8f8-11ee-91b5-0242ac130003",
+            "tournament_id": 0,
+            "name": "SAURIS GAMING",
+            "players": [
+                "Tribe|jajasalu2",
+                "TheLeonHD",
+                "@BdöŃ"
+            ],
+            "img": ""
+        },
+        {
             "id": "e3a2f4d4-f3cb-11ee-af4f-0242ac130003",
             "tournament_id": 0,
             "name": "AVC",
@@ -17040,16 +17051,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
-                "name": "Team KCK"
+                "name": "Team KCK",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61118684-f8f8-11ee-91b5-0242ac130003",
-                "name": "SAURIS GAMING"
+                "name": "SAURIS GAMING",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61118684-f8f8-11ee-91b5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61118684-f8f8-11ee-91b5-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61118684-f8f8-11ee-91b5-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 427,
@@ -22449,7 +22501,8 @@
                 "name": "FHRITP"
             },
             "opponent2": {
-                "id": null
+                "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                "name": "Team KCK"
             },
             "match_games": []
         },

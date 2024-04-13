@@ -7995,6 +7995,18 @@
             "img": ""
         },
         {
+            "id": "0bc51914-f972-11ee-b116-0242ac130003",
+            "tournament_id": 0,
+            "name": "Perry the Platypus",
+            "players": [
+                "Floare11.YT",
+                "nikt0",
+                "skiller",
+                "pro gamer"
+            ],
+            "img": ""
+        },
+        {
             "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
             "tournament_id": 0,
             "name": "JCQ",
@@ -8002,6 +8014,17 @@
                 "fujifas",
                 "Brock Li",
                 "colt"
+            ],
+            "img": ""
+        },
+        {
+            "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
+            "tournament_id": 0,
+            "name": "TECSHADOW",
+            "players": [
+                "papachuy:3",
+                "Dani",
+                "SAUL_NETO"
             ],
             "img": ""
         },
@@ -17401,16 +17424,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "43dc612a-f3ac-11ee-89f7-0242ac130003",
-                "name": "Brawl Bros"
+                "name": "Brawl Bros",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0bc51914-f972-11ee-b116-0242ac130003",
-                "name": "Perry the Platypus"
+                "name": "Perry the Platypus",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "43dc612a-f3ac-11ee-89f7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0bc51914-f972-11ee-b116-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "43dc612a-f3ac-11ee-89f7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0bc51914-f972-11ee-b116-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 479,
@@ -17622,16 +17674,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
-                "name": "TECSHADOW"
+                "name": "TECSHADOW",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5de66b40-f430-11ee-8058-0242ac130003",
-                "name": "FloMo"
+                "name": "FloMo",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9c637cee-f5cc-11ee-9f74-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 491,
@@ -22277,7 +22370,8 @@
                 "name": "Jam FC"
             },
             "opponent2": {
-                "id": null
+                "id": "43dc612a-f3ac-11ee-89f7-0242ac130003",
+                "name": "Brawl Bros"
             },
             "match_games": []
         },
@@ -22382,7 +22476,8 @@
                 "name": "Utopia"
             },
             "opponent2": {
-                "id": null
+                "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                "name": "FloMo"
             },
             "match_games": []
         },

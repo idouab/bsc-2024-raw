@@ -32034,16 +32034,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4ad12770-f4ee-11ee-8581-0242ac130003",
-                "name": "RGMS"
+                "name": "RGMS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fd2103c-f788-11ee-980c-0242ac130003",
-                "name": "IMPERIAL FAKERS"
+                "name": "IMPERIAL FAKERS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4ad12770-f4ee-11ee-8581-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4ad12770-f4ee-11ee-8581-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fd2103c-f788-11ee-980c-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 680,
@@ -33720,7 +33749,8 @@
                 "name": "Los collanquis🌽🐦🦙"
             },
             "opponent2": {
-                "id": null
+                "id": "4ad12770-f4ee-11ee-8581-0242ac130003",
+                "name": "RGMS"
             },
             "match_games": []
         },

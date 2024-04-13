@@ -21790,16 +21790,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2bb19632-f295-11ee-bb36-0242ac130002",
-                "name": "Hacker’s web"
+                "name": "Hacker’s web",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "27e376f6-f970-11ee-b009-0242ac130003",
-                "name": "Ogurchiki"
+                "name": "Ogurchiki",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2bb19632-f295-11ee-bb36-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2bb19632-f295-11ee-bb36-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 706,
@@ -26203,16 +26232,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2be5fada-f295-11ee-965f-0242ac130002",
-                "name": "One and One"
+                "name": "One and One",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c0f56058-f839-11ee-b421-0242ac130003",
-                "name": "Part Timers"
+                "name": "Part Timers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c0f56058-f839-11ee-b421-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c0f56058-f839-11ee-b421-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 876,
@@ -27623,7 +27681,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2bb19632-f295-11ee-bb36-0242ac130002",
+                "name": "Hacker’s web"
             },
             "opponent2": {
                 "id": null
@@ -29024,10 +29083,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0f56058-f839-11ee-b421-0242ac130003",
+                "name": "Part Timers"
             },
             "opponent2": {
-                "id": null
+                "id": "88e32fda-f887-11ee-8392-0242ac130003",
+                "name": "Vatos locos"
             },
             "match_games": []
         },

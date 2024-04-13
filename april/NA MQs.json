@@ -21116,16 +21116,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e9dc573a-f369-11ee-a3e9-0242ac130003",
-                "name": "CUMS ESPORTS"
+                "name": "CUMS ESPORTS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3fadbd98-f838-11ee-b071-0242ac130003",
-                "name": "2 ticos y un veneco"
+                "name": "2 ticos y un veneco",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e9dc573a-f369-11ee-a3e9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3fadbd98-f838-11ee-b071-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e9dc573a-f369-11ee-a3e9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3fadbd98-f838-11ee-b071-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 709,

@@ -22040,16 +22040,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b2c2888e-f295-11ee-9fc2-0242ac130002",
-                "name": "BROKEN ONE"
+                "name": "BROKEN ONE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f3742d3a-f4f0-11ee-8812-0242ac130003",
-                "name": "Us cria"
+                "name": "Us cria",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b2c2888e-f295-11ee-9fc2-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f3742d3a-f4f0-11ee-8812-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b2c2888e-f295-11ee-9fc2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3742d3a-f4f0-11ee-8812-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b2c2888e-f295-11ee-9fc2-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3742d3a-f4f0-11ee-8812-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 621,
@@ -22559,16 +22600,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
-                "name": "mibs"
+                "name": "mibs",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5ce420d6-f730-11ee-8d5a-0242ac130003",
-                "name": "Los chupacornetas"
+                "name": "Los chupacornetas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ce420d6-f730-11ee-8d5a-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5ce420d6-f730-11ee-8d5a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5ce420d6-f730-11ee-8d5a-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 634,
@@ -23875,10 +23957,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2c2888e-f295-11ee-9fc2-0242ac130002",
+                "name": "BROKEN ONE"
             },
             "opponent2": {
-                "id": null
+                "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                "name": "RM"
             },
             "match_games": []
         },
@@ -23980,7 +24064,8 @@
                 "name": "Merlenses"
             },
             "opponent2": {
-                "id": null
+                "id": "5ce420d6-f730-11ee-8d5a-0242ac130003",
+                "name": "Los chupacornetas"
             },
             "match_games": []
         },
@@ -31181,7 +31266,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f3742d3a-f4f0-11ee-8812-0242ac130003",
+                "name": "Us cria"
             },
             "opponent2": {
                 "id": null
@@ -32034,7 +32120,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                "name": "mibs"
             },
             "opponent2": {
                 "id": null

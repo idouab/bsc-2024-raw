@@ -16442,16 +16442,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b26a327e-f295-11ee-af5b-0242ac130002",
-                "name": "Demons Gaming"
+                "name": "Demons Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5f526ed2-f388-11ee-b38a-0242ac130003",
-                "name": "Tuniquetes"
+                "name": "Tuniquetes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5f526ed2-f388-11ee-b38a-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5f526ed2-f388-11ee-b38a-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 383,
@@ -17164,16 +17193,69 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14889162-f296-11ee-a9ed-0242ac130002",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "136602fc-f37b-11ee-9be3-0242ac130003",
-                "name": "Perde baixo"
+                "name": "Perde baixo",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "136602fc-f37b-11ee-9be3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "136602fc-f37b-11ee-9be3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "136602fc-f37b-11ee-9be3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "136602fc-f37b-11ee-9be3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 407,
@@ -19227,7 +19309,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                "name": "Demons Gaming"
             },
             "opponent2": {
                 "id": null
@@ -19427,10 +19510,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14889162-f296-11ee-a9ed-0242ac130002",
+                "name": "SKCalalas"
             },
             "opponent2": {
-                "id": null
+                "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                "name": "Los chapulines"
             },
             "match_games": []
         },
@@ -20981,16 +21066,69 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e9265948-f423-11ee-b167-0242ac130003",
-                "name": "Bestas enjauladas"
+                "name": "Bestas enjauladas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "478e53ac-f945-11ee-a360-0242ac130003",
-                "name": "CochiClub"
+                "name": "CochiClub",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "478e53ac-f945-11ee-a360-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "478e53ac-f945-11ee-a360-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "478e53ac-f945-11ee-a360-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e9265948-f423-11ee-b167-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "478e53ac-f945-11ee-a360-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 262,
@@ -22678,7 +22816,8 @@
                 "name": "47| NUTRIAS QILLA"
             },
             "opponent2": {
-                "id": null
+                "id": "e9265948-f423-11ee-b167-0242ac130003",
+                "name": "Bestas enjauladas"
             },
             "match_games": []
         },
@@ -23590,7 +23729,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "136602fc-f37b-11ee-9be3-0242ac130003",
+                "name": "Perde baixo"
             },
             "opponent2": {
                 "id": null
@@ -23986,7 +24126,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5f526ed2-f388-11ee-b38a-0242ac130003",
+                "name": "Tuniquetes"
             },
             "opponent2": {
                 "id": null

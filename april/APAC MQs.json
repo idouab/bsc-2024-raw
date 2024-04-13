@@ -19808,16 +19808,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
-                "name": "★Ak★"
+                "name": "★Ak★",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f3c44900-f293-11ee-a556-0242ac130002",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cb617f30-f4e8-11ee-829e-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 435,
@@ -19880,16 +19909,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "886761a0-f3de-11ee-ac97-0242ac130003",
-                "name": "たぬきむなげ"
+                "name": "たぬきむなげ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2b33bd18-f4f5-11ee-bcd4-0242ac130003",
-                "name": "完全な理解は存在しません"
+                "name": "完全な理解は存在しません",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b33bd18-f4f5-11ee-bcd4-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b33bd18-f4f5-11ee-bcd4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 439,
@@ -20188,7 +20246,8 @@
                 "name": "Figt quietly"
             },
             "opponent2": {
-                "id": null
+                "id": "f3c44900-f293-11ee-a556-0242ac130002",
+                "name": "Octopus Primes 🐙"
             },
             "match_games": []
         },
@@ -20256,7 +20315,8 @@
                 "name": "最強狐崇拝也nhk党"
             },
             "opponent2": {
-                "id": null
+                "id": "886761a0-f3de-11ee-ac97-0242ac130003",
+                "name": "たぬきむなげ"
             },
             "match_games": []
         },

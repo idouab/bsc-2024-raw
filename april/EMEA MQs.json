@@ -70177,16 +70177,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c1ac9df4-f294-11ee-9ffa-0242ac130002",
-                "name": "SK Gaming"
+                "name": "SK Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "69357644-f345-11ee-bd24-0242ac130003",
-                "name": "Csak a Batyi"
+                "name": "Csak a Batyi",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c1ac9df4-f294-11ee-9ffa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "69357644-f345-11ee-bd24-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c1ac9df4-f294-11ee-9ffa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "69357644-f345-11ee-bd24-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1537,
@@ -71671,16 +71700,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ee1af18-f294-11ee-832c-0242ac130002",
-                "name": "TheFurios"
+                "name": "TheFurios",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dbfbadc0-f367-11ee-81b2-0242ac130003",
-                "name": "HNC"
+                "name": "HNC",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "3ee1af18-f294-11ee-832c-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dbfbadc0-f367-11ee-81b2-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "3ee1af18-f294-11ee-832c-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dbfbadc0-f367-11ee-81b2-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1620,
@@ -72481,16 +72539,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
-                "name": "BC* Gaming"
+                "name": "BC* Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "af3b6784-f3e0-11ee-b4cf-0242ac130003",
-                "name": "F/A KAMPERAKIA"
+                "name": "F/A KAMPERAKIA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af3b6784-f3e0-11ee-b4cf-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af3b6784-f3e0-11ee-b4cf-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1665,
@@ -79386,7 +79473,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c1ac9df4-f294-11ee-9ffa-0242ac130002",
+                "name": "SK Gaming"
             },
             "opponent2": {
                 "id": null
@@ -80410,7 +80498,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c1b18ed6-f294-11ee-b57a-0242ac130002",
+                "name": "BC* Gaming"
             },
             "opponent2": {
                 "id": null
@@ -104508,7 +104597,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "af3b6784-f3e0-11ee-b4cf-0242ac130003",
+                "name": "F/A KAMPERAKIA"
             },
             "opponent2": {
                 "id": null
@@ -105228,10 +105318,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ee1af18-f294-11ee-832c-0242ac130002",
+                "name": "TheFurios"
             },
             "opponent2": {
-                "id": null
+                "id": "de5b1554-f512-11ee-94b3-0242ac130003",
+                "name": "Deutsche Bahn eSport"
             },
             "match_games": []
         },
@@ -106556,10 +106648,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "69357644-f345-11ee-bd24-0242ac130003",
+                "name": "Csak a Batyi"
             },
             "opponent2": {
-                "id": null
+                "id": "3d794eb0-f514-11ee-bed0-0242ac130003",
+                "name": "Wafle 🇵🇱"
             },
             "match_games": []
         },

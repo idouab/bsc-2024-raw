@@ -37832,16 +37832,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "692c921e-f538-11ee-a098-0242ac130003",
-                "name": "LPV TEAM"
+                "name": "LPV TEAM",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7a9af06c-f5ac-11ee-a1a7-0242ac130003",
-                "name": "The misteries"
+                "name": "The misteries",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a9af06c-f5ac-11ee-a1a7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "692c921e-f538-11ee-a098-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a9af06c-f5ac-11ee-a1a7-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 864,
@@ -38389,7 +38418,8 @@
                 "name": "F/A Ponnys"
             },
             "opponent2": {
-                "id": null
+                "id": "7a9af06c-f5ac-11ee-a1a7-0242ac130003",
+                "name": "The misteries"
             },
             "match_games": []
         },

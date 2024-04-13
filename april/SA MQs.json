@@ -24361,16 +24361,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b37fc278-f295-11ee-abaa-0242ac130002",
-                "name": "One Chance 🌎"
+                "name": "One Chance 🌎",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
-                "name": "Shadown Lions |🦁"
+                "name": "Shadown Lions |🦁",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 733,
@@ -25375,10 +25404,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b37fc278-f295-11ee-abaa-0242ac130002",
+                "name": "One Chance 🌎"
             },
             "opponent2": {
-                "id": null
+                "id": "b05bc54c-f295-11ee-974c-0242ac130002",
+                "name": "Olimpo Squad"
             },
             "match_games": []
         },
@@ -31926,16 +31957,45 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
-                "name": "SANJU B.S."
+                "name": "SANJU B.S.",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
-                "name": "Sapecas"
+                "name": "Sapecas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 682,
@@ -33509,7 +33569,8 @@
                 "name": "The FERANX"
             },
             "opponent2": {
-                "id": null
+                "id": "eabbb060-f47c-11ee-bcc9-0242ac130003",
+                "name": "Sapecas"
             },
             "match_games": []
         },
@@ -35160,7 +35221,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                "name": "Shadown Lions |🦁"
             },
             "opponent2": {
                 "id": null

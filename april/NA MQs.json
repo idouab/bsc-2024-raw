@@ -7673,6 +7673,17 @@
             "img": ""
         },
         {
+            "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
+            "tournament_id": 0,
+            "name": "Cavern Churn Poco",
+            "players": [
+                "Illusive",
+                "Kyle Francis",
+                "AZ|RajaZa"
+            ],
+            "img": ""
+        },
+        {
             "id": "57cceacc-f3ea-11ee-9206-0242ac130003",
             "tournament_id": 0,
             "name": "Tolok's eSports",
@@ -13888,16 +13899,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
-                "name": "Cavern Churn Poco"
+                "name": "Cavern Churn Poco",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "84f37088-f436-11ee-b96f-0242ac130003",
-                "name": "Brawl Bots"
+                "name": "Brawl Bots",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "35f56ad0-f5c2-11ee-85af-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 331,
@@ -20002,7 +20042,8 @@
                 "name": "The Goonerz"
             },
             "opponent2": {
-                "id": null
+                "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                "name": "Brawl Bots"
             },
             "match_games": []
         },

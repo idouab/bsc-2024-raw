@@ -5747,6 +5747,17 @@
             "img": ""
         },
         {
+            "id": "a7541318-f3b3-11ee-9861-0242ac130003",
+            "tournament_id": 0,
+            "name": "OS PADAUA",
+            "players": [
+                "OS PADAUA",
+                "OS PADAUA",
+                "OS PADAUA"
+            ],
+            "img": ""
+        },
+        {
             "id": "a6bfe80e-f418-11ee-b0d8-0242ac130003",
             "tournament_id": 0,
             "name": "•AJJAX•",
@@ -5875,6 +5886,17 @@
                 "PedroGH96",
                 "SPACE | BORATTO",
                 "SPACE | FIRE"
+            ],
+            "img": ""
+        },
+        {
+            "id": "568583ba-f596-11ee-b110-0242ac130003",
+            "tournament_id": 0,
+            "name": "Antes comia papa",
+            "players": [
+                "LAUTARO.",
+                "ᵐ𝑩𝒆𝒏𝒊𝒑𝒓𝒐",
+                "bot 1"
             ],
             "img": ""
         },
@@ -7577,16 +7599,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9b8d480e-f36f-11ee-ba4b-0242ac130003",
-                "name": "TLF"
+                "name": "TLF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2366cdee-f493-11ee-91b8-0242ac130003",
-                "name": "Brigada fantasma"
+                "name": "Brigada fantasma",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9b8d480e-f36f-11ee-ba4b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2366cdee-f493-11ee-91b8-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9b8d480e-f36f-11ee-ba4b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2366cdee-f493-11ee-91b8-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 59,
@@ -10523,16 +10574,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f14c2a40-f5cb-11ee-b499-0242ac130003",
-                "name": "Los papus"
+                "name": "Los papus",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a7541318-f3b3-11ee-9861-0242ac130003",
-                "name": "OS PADAUA"
+                "name": "OS PADAUA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f14c2a40-f5cb-11ee-b499-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a7541318-f3b3-11ee-9861-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f14c2a40-f5cb-11ee-b499-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a7541318-f3b3-11ee-9861-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 169,
@@ -12236,16 +12316,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6f9e0f20-f8d9-11ee-b487-0242ac130003",
-                "name": "Thunder Titans"
+                "name": "Thunder Titans",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "568583ba-f596-11ee-b110-0242ac130003",
-                "name": "Antes comia papa"
+                "name": "Antes comia papa",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6f9e0f20-f8d9-11ee-b487-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "568583ba-f596-11ee-b110-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6f9e0f20-f8d9-11ee-b487-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "568583ba-f596-11ee-b110-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 237,
@@ -14139,7 +14248,8 @@
                 "name": "DragonSlayers"
             },
             "opponent2": {
-                "id": null
+                "id": "f14c2a40-f5cb-11ee-b499-0242ac130003",
+                "name": "Los papus"
             },
             "match_games": []
         },
@@ -17792,7 +17902,8 @@
                 "name": "Fire Jokers Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "a7541318-f3b3-11ee-9861-0242ac130003",
+                "name": "OS PADAUA"
             },
             "match_games": []
         },

@@ -2943,6 +2943,17 @@
             "img": ""
         },
         {
+            "id": "d43b920c-f421-11ee-bc24-0242ac130003",
+            "tournament_id": 0,
+            "name": "ロンにゃ❗️",
+            "players": [
+                "コア",
+                "∞(*σ∀σ)∞-FIN4LE",
+                "ヨル"
+            ],
+            "img": ""
+        },
+        {
             "id": "8cab0652-f345-11ee-8345-0242ac130002",
             "tournament_id": 0,
             "name": "Gladiatorz",
@@ -2951,6 +2962,17 @@
                 "king Amogh king",
                 "BEAST2.0",
                 "rocky"
+            ],
+            "img": ""
+        },
+        {
+            "id": "671ff684-f338-11ee-b4b4-0242ac130003",
+            "tournament_id": 0,
+            "name": "ヒザコゾウ",
+            "players": [
+                "red.ps/💋Ramchi",
+                "あんこ餅。",
+                "風鈴"
             ],
             "img": ""
         },
@@ -4560,16 +4582,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d43b920c-f421-11ee-bc24-0242ac130003",
-                "name": "ロンにゃ❗️"
+                "name": "ロンにゃ❗️",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e50805de-f359-11ee-b416-0242ac130003",
-                "name": "PHoenixStrikerz"
+                "name": "PHoenixStrikerz",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "d43b920c-f421-11ee-bc24-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e50805de-f359-11ee-b416-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "d43b920c-f421-11ee-bc24-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e50805de-f359-11ee-b416-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 53,
@@ -4697,16 +4748,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1d895f32-f7d5-11ee-b16a-0242ac130003",
-                "name": "Trash Tier"
+                "name": "Trash Tier",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "671ff684-f338-11ee-b4b4-0242ac130003",
-                "name": "ヒザコゾウ"
+                "name": "ヒザコゾウ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1d895f32-f7d5-11ee-b16a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "671ff684-f338-11ee-b4b4-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1d895f32-f7d5-11ee-b16a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "671ff684-f338-11ee-b4b4-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 59,

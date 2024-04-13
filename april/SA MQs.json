@@ -5567,6 +5567,17 @@
             "img": ""
         },
         {
+            "id": "1121c298-f3de-11ee-8157-0242ac130003",
+            "tournament_id": 0,
+            "name": "AEAA SPORTS",
+            "players": [
+                "DARK| Omega07",
+                "Andrek",
+                "Vegpro"
+            ],
+            "img": ""
+        },
+        {
             "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
             "tournament_id": 0,
             "name": "CFC",
@@ -5620,6 +5631,17 @@
                 "་₪εσ₪ᶤᴰᵃⁿᵍᵉʳ",
                 "swords",
                 "ᴅɢᶤᴰᵃⁿᵍᵉʳ"
+            ],
+            "img": ""
+        },
+        {
+            "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
+            "tournament_id": 0,
+            "name": "🔱Trythent⚡",
+            "players": [
+                "TTT|🔱Lucas GG⚡",
+                "TTT|🍌Moffin⚡",
+                "TTT|🔱Triistán⚡"
             ],
             "img": ""
         },
@@ -5886,6 +5908,17 @@
                 "nuufiexz.",
                 "¥Mïßæəł ¥",
                 "QM/ JARET"
+            ],
+            "img": ""
+        },
+        {
+            "id": "32557968-f547-11ee-bc93-0242ac130003",
+            "tournament_id": 0,
+            "name": "BIT",
+            "players": [
+                "Tupalaki",
+                "𝕻𝖊𝖕𝖘𝖎°𝕮𝖔",
+                "⚡️⚡️Yug4⚽️"
             ],
             "img": ""
         }
@@ -8638,16 +8671,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
-                "name": "Los 3 maiores"
+                "name": "Los 3 maiores",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1121c298-f3de-11ee-8157-0242ac130003",
-                "name": "AEAA SPORTS"
+                "name": "AEAA SPORTS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 100,
@@ -9415,16 +9489,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9737758-f473-11ee-ba76-0242ac130003",
-                "name": "Los chapulines"
+                "name": "Los chapulines",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
-                "name": "🔱Trythent⚡"
+                "name": "🔱Trythent⚡",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b9737758-f473-11ee-ba76-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "42d90df0-f3d4-11ee-bbd2-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 133,
@@ -12597,16 +12700,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
-                "name": "The Angry Ones"
+                "name": "The Angry Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "32557968-f547-11ee-bc93-0242ac130003",
-                "name": "BIT"
+                "name": "BIT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32557968-f547-11ee-bc93-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7c2498c-f295-11ee-98b1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32557968-f547-11ee-bc93-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 342,
@@ -13089,7 +13221,8 @@
                 "name": "Olimpo Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "9b8d480e-f36f-11ee-ba4b-0242ac130003",
+                "name": "TLF"
             },
             "match_games": []
         },
@@ -13436,10 +13569,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0a9e7f06-f460-11ee-8bf5-0242ac130003",
+                "name": "Los 3 maiores"
             },
             "opponent2": {
-                "id": null
+                "id": "5c7815a6-f56b-11ee-acd8-0242ac130003",
+                "name": "Familia Stars"
             },
             "match_games": []
         },
@@ -17261,10 +17396,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1121c298-f3de-11ee-8157-0242ac130003",
+                "name": "AEAA SPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "0b1f21b4-f5e7-11ee-a739-0242ac130003",
+                "name": "CFC"
             },
             "match_games": []
         },

@@ -7550,6 +7550,17 @@
             "img": ""
         },
         {
+            "id": "33c9c48c-f3d7-11ee-9257-0242ac130003",
+            "tournament_id": 0,
+            "name": "Fuerza G.jk",
+            "players": [
+                "DEAD COOL",
+                "Kaloupi",
+                "lubok111"
+            ],
+            "img": ""
+        },
+        {
             "id": "169b8792-f87d-11ee-af20-0242ac130003",
             "tournament_id": 0,
             "name": "Goofy Goobers",
@@ -14217,16 +14228,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "33c9c48c-f3d7-11ee-9257-0242ac130003",
-                "name": "Fuerza G.jk"
+                "name": "Fuerza G.jk",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "011b7e38-f740-11ee-928e-0242ac130003",
-                "name": "Cipher Pol 0"
+                "name": "Cipher Pol 0",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "33c9c48c-f3d7-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "33c9c48c-f3d7-11ee-9257-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "33c9c48c-f3d7-11ee-9257-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 387,
@@ -19738,7 +19790,8 @@
                 "name": "Spacestation Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "011b7e38-f740-11ee-928e-0242ac130003",
+                "name": "Cipher Pol 0"
             },
             "match_games": []
         },

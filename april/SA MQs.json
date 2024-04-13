@@ -5623,6 +5623,18 @@
             "img": ""
         },
         {
+            "id": "cf0c86ec-f601-11ee-baf0-0242ac130003",
+            "tournament_id": 0,
+            "name": "perutina",
+            "players": [
+                "jacri291027",
+                "Josh",
+                "maximo",
+                "ppdres"
+            ],
+            "img": ""
+        },
+        {
             "id": "b3e6b2bc-f295-11ee-b668-0242ac130002",
             "tournament_id": 0,
             "name": "Abençoados",
@@ -5864,6 +5876,18 @@
                 "AkaneNish",
                 "Facha",
                 "Jeremias"
+            ],
+            "img": ""
+        },
+        {
+            "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+            "tournament_id": 0,
+            "name": "Grupinho do Brawl",
+            "players": [
+                "Bot 5",
+                "Bot 4",
+                "KSVULGO",
+                "꧁Ȼ.Ɖ꧂Xɑɳɗɛ"
             ],
             "img": ""
         },
@@ -9370,16 +9394,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cf0c86ec-f601-11ee-baf0-0242ac130003",
-                "name": "perutina"
+                "name": "perutina",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
-                "name": "PaiN"
+                "name": "PaiN",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cf0c86ec-f601-11ee-baf0-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cf0c86ec-f601-11ee-baf0-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 125,
@@ -11165,16 +11218,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16e8de1c-f363-11ee-aade-0242ac130003",
-                "name": "Team FL PERÚ"
+                "name": "Team FL PERÚ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "146793f4-f4f3-11ee-ad0e-0242ac130003",
-                "name": "𝘏𝘠𝘒"
+                "name": "𝘏𝘠𝘒",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "16e8de1c-f363-11ee-aade-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "146793f4-f4f3-11ee-ad0e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "16e8de1c-f363-11ee-aade-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "146793f4-f4f3-11ee-ad0e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 191,
@@ -12153,16 +12235,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6eb23c6a-f674-11ee-833f-0242ac130003",
-                "name": "Toros Negros"
+                "name": "Toros Negros",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
-                "name": "Grupinho do Brawl"
+                "name": "Grupinho do Brawl",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6eb23c6a-f674-11ee-833f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6eb23c6a-f674-11ee-833f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6eb23c6a-f674-11ee-833f-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acb39280-f3ad-11ee-aab6-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 231,
@@ -13881,7 +14004,8 @@
                 "name": "3DBR Black"
             },
             "opponent2": {
-                "id": null
+                "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                "name": "PaiN"
             },
             "match_games": []
         },
@@ -14435,7 +14559,8 @@
                 "name": "LOS CRIAS TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "16e8de1c-f363-11ee-aade-0242ac130003",
+                "name": "Team FL PERÚ"
             },
             "match_games": []
         },
@@ -17640,7 +17765,8 @@
                 "name": "Drink Team"
             },
             "opponent2": {
-                "id": null
+                "id": "cf0c86ec-f601-11ee-baf0-0242ac130003",
+                "name": "perutina"
             },
             "match_games": []
         },

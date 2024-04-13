@@ -16603,16 +16603,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "780155d8-f482-11ee-8c4c-0242ac130003",
-                "name": "TEAM FOX"
+                "name": "TEAM FOX",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d69b639e-f8e8-11ee-9b83-0242ac130003",
-                "name": "Gang⁷⁷"
+                "name": "Gang⁷⁷",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "780155d8-f482-11ee-8c4c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d69b639e-f8e8-11ee-9b83-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "780155d8-f482-11ee-8c4c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d69b639e-f8e8-11ee-9b83-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "780155d8-f482-11ee-8c4c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d69b639e-f8e8-11ee-9b83-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 380,
@@ -17767,16 +17808,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
-                "name": "mibs"
+                "name": "mibs",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
-                "name": "SQS - Se quiser sim"
+                "name": "SQS - Se quiser sim",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 413,
@@ -19252,16 +19322,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b129a1ce-f295-11ee-8208-0242ac130002",
-                "name": "ACRE LOVERS"
+                "name": "ACRE LOVERS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3647d652-f947-11ee-abdb-0242ac130003",
-                "name": "ARGENTINA"
+                "name": "ARGENTINA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3647d652-f947-11ee-abdb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3647d652-f947-11ee-abdb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 459,
@@ -20305,7 +20404,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b8d8ff00-f295-11ee-8f16-0242ac130002",
+                "name": "mibs"
             },
             "opponent2": {
                 "id": null
@@ -20689,10 +20789,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                "name": "ACRE LOVERS"
             },
             "opponent2": {
-                "id": null
+                "id": "6f9e0f20-f8d9-11ee-b487-0242ac130003",
+                "name": "Thunder Titans"
             },
             "match_games": []
         },
@@ -23724,7 +23826,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3647d652-f947-11ee-abdb-0242ac130003",
+                "name": "ARGENTINA"
             },
             "opponent2": {
                 "id": null
@@ -24489,7 +24592,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                "name": "SQS - Se quiser sim"
             },
             "opponent2": {
                 "id": null
@@ -25040,7 +25144,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "780155d8-f482-11ee-8c4c-0242ac130003",
+                "name": "TEAM FOX"
             },
             "opponent2": {
                 "id": null

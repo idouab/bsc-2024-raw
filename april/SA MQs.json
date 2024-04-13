@@ -5881,6 +5881,17 @@
             "img": ""
         },
         {
+            "id": "039add98-f48e-11ee-9064-0242ac130003",
+            "tournament_id": 0,
+            "name": "CataYork",
+            "players": [
+                "Play_Wolf1",
+                "RoS |Nitsuga979",
+                "leann"
+            ],
+            "img": ""
+        },
+        {
             "id": "a6bfe80e-f418-11ee-b0d8-0242ac130003",
             "tournament_id": 0,
             "name": "•AJJAX•",
@@ -11527,16 +11538,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "039add98-f48e-11ee-9064-0242ac130003",
-                "name": "CataYork"
+                "name": "CataYork",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
-                "name": "SANJU B.S."
+                "name": "SANJU B.S.",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "039add98-f48e-11ee-9064-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "039add98-f48e-11ee-9064-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "039add98-f48e-11ee-9064-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 181,
@@ -15204,7 +15256,8 @@
                 "name": "ⁱᵃᵐ|𝗙及𝑺𒆜"
             },
             "opponent2": {
-                "id": null
+                "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                "name": "SANJU B.S."
             },
             "match_games": []
         },
@@ -18820,7 +18873,8 @@
                 "name": "El Rejunte"
             },
             "opponent2": {
-                "id": null
+                "id": "039add98-f48e-11ee-9064-0242ac130003",
+                "name": "CataYork"
             },
             "match_games": []
         },

@@ -3480,6 +3480,17 @@
             "img": ""
         },
         {
+            "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+            "tournament_id": 0,
+            "name": "Laosai Team",
+            "players": [
+                "✨山羊(●´ω｀●)💫",
+                "✨菠萝(●´ω｀●)💫",
+                "bot 3"
+            ],
+            "img": ""
+        },
+        {
             "id": "de28905a-f4a1-11ee-a2c2-0242ac130003",
             "tournament_id": 0,
             "name": "シュークリーム大西",
@@ -6373,16 +6384,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
-                "name": "Laosai Team"
+                "name": "Laosai Team",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d5281fbe-f5b1-11ee-8162-0242ac130003",
-                "name": "🔥cryIix/💫"
+                "name": "🔥cryIix/💫",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d5281fbe-f5b1-11ee-8162-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d5281fbe-f5b1-11ee-8162-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 76,
@@ -8736,10 +8776,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d5281fbe-f5b1-11ee-8162-0242ac130003",
+                "name": "🔥cryIix/💫"
             },
             "opponent2": {
-                "id": null
+                "id": "abfcc566-f356-11ee-b0dc-0242ac130003",
+                "name": "LSC"
             },
             "match_games": []
         },
@@ -10739,10 +10781,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                "name": "Laosai Team"
             },
             "opponent2": {
-                "id": null
+                "id": "de28905a-f4a1-11ee-a2c2-0242ac130003",
+                "name": "シュークリーム大西"
             },
             "match_games": []
         },

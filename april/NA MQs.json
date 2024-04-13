@@ -7505,6 +7505,72 @@
             "img": ""
         },
         {
+            "id": "11ebff5e-f375-11ee-a372-0242ac130003",
+            "tournament_id": 0,
+            "name": "The Shakers",
+            "players": [
+                "RAGNAROK",
+                "lolapro",
+                "BrinyMouse"
+            ],
+            "img": ""
+        },
+        {
+            "id": "3c9bb7a8-f3b6-11ee-9cf4-0242ac130003",
+            "tournament_id": 0,
+            "name": "Rice Bag",
+            "players": [
+                "Mathew",
+                "Z0w0boi",
+                "Rock"
+            ],
+            "img": ""
+        },
+        {
+            "id": "a1cd8574-f46b-11ee-9077-0242ac130003",
+            "tournament_id": 0,
+            "name": "Sprout My God",
+            "players": [
+                "Harkor630",
+                "Jradious",
+                "弔G |Uchiha💕"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b4506b12-f623-11ee-a956-0242ac130003",
+            "tournament_id": 0,
+            "name": "The ghosts of Sparta",
+            "players": [
+                "Evans❤️",
+                "Alexis♡",
+                "JorgeFIFA"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c122f0a2-f485-11ee-858a-0242ac130003",
+            "tournament_id": 0,
+            "name": "BrawlYardigans",
+            "players": [
+                "Dixie Normuss",
+                "Aiden",
+                "UrAHorseGirl"
+            ],
+            "img": ""
+        },
+        {
+            "id": "414cadf6-f97a-11ee-8824-0242ac130003",
+            "tournament_id": 0,
+            "name": "3 Afghana",
+            "players": [
+                "🔥FIRE MORTIS🔥",
+                "QLS|KING CR7",
+                "QLS|Mostafa"
+            ],
+            "img": ""
+        },
+        {
             "id": "ab6dea06-f623-11ee-bb2f-0242ac130003",
             "tournament_id": 0,
             "name": "Pro Brawlers",
@@ -40727,16 +40793,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
-                "name": "Real Ones"
+                "name": "Real Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2c079f6e-f295-11ee-82da-0242ac130002",
-                "name": "Mambas Gaming"
+                "name": "Mambas Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c079f6e-f295-11ee-82da-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c079f6e-f295-11ee-82da-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1538,
@@ -40877,7 +40972,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                "name": "Real Ones"
             },
             "opponent2": {
                 "id": null
@@ -41025,8 +41121,65 @@
             "match_games": []
         },
         {
-            "id": 520,
+            "id": 517,
             "number": 5,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 1,
+            "child_count": 3,
+            "status": 4,
+            "opponent1": {
+                "id": "11ebff5e-f375-11ee-a372-0242ac130003",
+                "name": "The Shakers"
+            },
+            "opponent2": {
+                "id": "3c9bb7a8-f3b6-11ee-9cf4-0242ac130003",
+                "name": "Rice Bag",
+                "forfeit": 1
+            },
+            "match_games": []
+        },
+        {
+            "id": 518,
+            "number": 6,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 1,
+            "child_count": 3,
+            "status": 4,
+            "opponent1": {
+                "id": "a1cd8574-f46b-11ee-9077-0242ac130003",
+                "name": "Sprout My God"
+            },
+            "opponent2": {
+                "id": "b4506b12-f623-11ee-a956-0242ac130003",
+                "name": "The ghosts of Sparta",
+                "forfeit": 1
+            },
+            "match_games": []
+        },
+        {
+            "id": 519,
+            "number": 7,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 1,
+            "child_count": 3,
+            "status": 4,
+            "opponent1": {
+                "id": "c122f0a2-f485-11ee-858a-0242ac130003",
+                "name": "BrawlYardigans"
+            },
+            "opponent2": {
+                "id": "414cadf6-f97a-11ee-8824-0242ac130003",
+                "name": "3 Afghana",
+                "forfeit": 1
+            },
+            "match_games": []
+        },
+        {
+            "id": 520,
+            "number": 8,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41045,7 +41198,7 @@
         },
         {
             "id": 521,
-            "number": 6,
+            "number": 9,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41064,7 +41217,7 @@
         },
         {
             "id": 522,
-            "number": 7,
+            "number": 10,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41083,7 +41236,7 @@
         },
         {
             "id": 523,
-            "number": 8,
+            "number": 11,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41102,7 +41255,7 @@
         },
         {
             "id": 524,
-            "number": 9,
+            "number": 12,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41121,7 +41274,7 @@
         },
         {
             "id": 525,
-            "number": 10,
+            "number": 13,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41140,7 +41293,7 @@
         },
         {
             "id": 526,
-            "number": 11,
+            "number": 14,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41159,7 +41312,7 @@
         },
         {
             "id": 527,
-            "number": 12,
+            "number": 15,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41218,7 +41371,7 @@
         },
         {
             "id": 528,
-            "number": 13,
+            "number": 16,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41265,7 +41418,7 @@
         },
         {
             "id": 529,
-            "number": 14,
+            "number": 17,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41284,7 +41437,7 @@
         },
         {
             "id": 530,
-            "number": 15,
+            "number": 18,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41303,7 +41456,7 @@
         },
         {
             "id": 531,
-            "number": 16,
+            "number": 19,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41322,7 +41475,7 @@
         },
         {
             "id": 532,
-            "number": 17,
+            "number": 20,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41341,7 +41494,7 @@
         },
         {
             "id": 533,
-            "number": 18,
+            "number": 21,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41360,7 +41513,7 @@
         },
         {
             "id": 534,
-            "number": 19,
+            "number": 22,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41379,7 +41532,7 @@
         },
         {
             "id": 535,
-            "number": 20,
+            "number": 23,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41398,7 +41551,7 @@
         },
         {
             "id": 536,
-            "number": 21,
+            "number": 24,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41417,7 +41570,7 @@
         },
         {
             "id": 537,
-            "number": 22,
+            "number": 25,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41436,7 +41589,7 @@
         },
         {
             "id": 538,
-            "number": 23,
+            "number": 26,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41455,7 +41608,7 @@
         },
         {
             "id": 539,
-            "number": 24,
+            "number": 27,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41474,7 +41627,7 @@
         },
         {
             "id": 540,
-            "number": 25,
+            "number": 28,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41493,7 +41646,7 @@
         },
         {
             "id": 541,
-            "number": 26,
+            "number": 29,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41512,7 +41665,7 @@
         },
         {
             "id": 542,
-            "number": 27,
+            "number": 30,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41531,7 +41684,7 @@
         },
         {
             "id": 543,
-            "number": 28,
+            "number": 31,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41550,7 +41703,7 @@
         },
         {
             "id": 544,
-            "number": 29,
+            "number": 32,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41569,7 +41722,7 @@
         },
         {
             "id": 545,
-            "number": 30,
+            "number": 33,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41616,7 +41769,7 @@
         },
         {
             "id": 546,
-            "number": 31,
+            "number": 34,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41635,7 +41788,7 @@
         },
         {
             "id": 547,
-            "number": 32,
+            "number": 35,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41654,7 +41807,7 @@
         },
         {
             "id": 548,
-            "number": 33,
+            "number": 36,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41673,7 +41826,7 @@
         },
         {
             "id": 549,
-            "number": 34,
+            "number": 37,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41692,7 +41845,7 @@
         },
         {
             "id": 550,
-            "number": 35,
+            "number": 38,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41739,7 +41892,7 @@
         },
         {
             "id": 551,
-            "number": 36,
+            "number": 39,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41798,7 +41951,7 @@
         },
         {
             "id": 552,
-            "number": 37,
+            "number": 40,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41817,7 +41970,7 @@
         },
         {
             "id": 553,
-            "number": 38,
+            "number": 41,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41864,7 +42017,7 @@
         },
         {
             "id": 554,
-            "number": 39,
+            "number": 42,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41883,7 +42036,7 @@
         },
         {
             "id": 555,
-            "number": 40,
+            "number": 43,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41902,7 +42055,7 @@
         },
         {
             "id": 556,
-            "number": 41,
+            "number": 44,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41921,7 +42074,7 @@
         },
         {
             "id": 557,
-            "number": 42,
+            "number": 45,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41940,7 +42093,7 @@
         },
         {
             "id": 558,
-            "number": 43,
+            "number": 46,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41959,7 +42112,7 @@
         },
         {
             "id": 559,
-            "number": 44,
+            "number": 47,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41978,7 +42131,7 @@
         },
         {
             "id": 560,
-            "number": 45,
+            "number": 48,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -41997,7 +42150,7 @@
         },
         {
             "id": 561,
-            "number": 46,
+            "number": 49,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42016,7 +42169,7 @@
         },
         {
             "id": 562,
-            "number": 47,
+            "number": 50,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42035,7 +42188,7 @@
         },
         {
             "id": 563,
-            "number": 48,
+            "number": 51,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42054,7 +42207,7 @@
         },
         {
             "id": 564,
-            "number": 49,
+            "number": 52,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42073,7 +42226,7 @@
         },
         {
             "id": 565,
-            "number": 50,
+            "number": 53,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42092,7 +42245,7 @@
         },
         {
             "id": 566,
-            "number": 51,
+            "number": 54,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42151,7 +42304,7 @@
         },
         {
             "id": 567,
-            "number": 52,
+            "number": 55,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42170,7 +42323,7 @@
         },
         {
             "id": 568,
-            "number": 53,
+            "number": 56,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42189,7 +42342,7 @@
         },
         {
             "id": 569,
-            "number": 54,
+            "number": 57,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42208,7 +42361,7 @@
         },
         {
             "id": 570,
-            "number": 55,
+            "number": 58,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42227,7 +42380,7 @@
         },
         {
             "id": 571,
-            "number": 56,
+            "number": 59,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42246,7 +42399,7 @@
         },
         {
             "id": 572,
-            "number": 57,
+            "number": 60,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42265,7 +42418,7 @@
         },
         {
             "id": 573,
-            "number": 58,
+            "number": 61,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42284,7 +42437,7 @@
         },
         {
             "id": 574,
-            "number": 59,
+            "number": 62,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42303,7 +42456,7 @@
         },
         {
             "id": 575,
-            "number": 60,
+            "number": 63,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42322,7 +42475,7 @@
         },
         {
             "id": 576,
-            "number": 61,
+            "number": 64,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42341,7 +42494,7 @@
         },
         {
             "id": 577,
-            "number": 62,
+            "number": 65,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42360,7 +42513,7 @@
         },
         {
             "id": 578,
-            "number": 63,
+            "number": 66,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42379,7 +42532,7 @@
         },
         {
             "id": 579,
-            "number": 64,
+            "number": 67,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42398,7 +42551,7 @@
         },
         {
             "id": 580,
-            "number": 65,
+            "number": 68,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42417,7 +42570,7 @@
         },
         {
             "id": 581,
-            "number": 66,
+            "number": 69,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42436,7 +42589,7 @@
         },
         {
             "id": 582,
-            "number": 67,
+            "number": 70,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42455,7 +42608,7 @@
         },
         {
             "id": 583,
-            "number": 68,
+            "number": 71,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42474,7 +42627,7 @@
         },
         {
             "id": 584,
-            "number": 69,
+            "number": 72,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42493,7 +42646,7 @@
         },
         {
             "id": 585,
-            "number": 70,
+            "number": 73,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42512,7 +42665,7 @@
         },
         {
             "id": 586,
-            "number": 71,
+            "number": 74,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42531,7 +42684,7 @@
         },
         {
             "id": 587,
-            "number": 72,
+            "number": 75,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42550,7 +42703,7 @@
         },
         {
             "id": 588,
-            "number": 73,
+            "number": 76,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42569,7 +42722,7 @@
         },
         {
             "id": 589,
-            "number": 74,
+            "number": 77,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42628,7 +42781,7 @@
         },
         {
             "id": 590,
-            "number": 75,
+            "number": 78,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42647,7 +42800,7 @@
         },
         {
             "id": 591,
-            "number": 76,
+            "number": 79,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42666,7 +42819,7 @@
         },
         {
             "id": 592,
-            "number": 77,
+            "number": 80,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42685,7 +42838,7 @@
         },
         {
             "id": 593,
-            "number": 78,
+            "number": 81,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42704,7 +42857,7 @@
         },
         {
             "id": 594,
-            "number": 79,
+            "number": 82,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42723,7 +42876,7 @@
         },
         {
             "id": 595,
-            "number": 80,
+            "number": 83,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42742,7 +42895,7 @@
         },
         {
             "id": 596,
-            "number": 81,
+            "number": 84,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42761,7 +42914,7 @@
         },
         {
             "id": 597,
-            "number": 82,
+            "number": 85,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42780,7 +42933,7 @@
         },
         {
             "id": 598,
-            "number": 83,
+            "number": 86,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42799,7 +42952,7 @@
         },
         {
             "id": 599,
-            "number": 84,
+            "number": 87,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42818,7 +42971,7 @@
         },
         {
             "id": 600,
-            "number": 85,
+            "number": 88,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42837,7 +42990,7 @@
         },
         {
             "id": 601,
-            "number": 86,
+            "number": 89,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42856,7 +43009,7 @@
         },
         {
             "id": 602,
-            "number": 87,
+            "number": 90,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42875,7 +43028,7 @@
         },
         {
             "id": 603,
-            "number": 88,
+            "number": 91,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42894,7 +43047,7 @@
         },
         {
             "id": 604,
-            "number": 89,
+            "number": 92,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42913,7 +43066,7 @@
         },
         {
             "id": 605,
-            "number": 90,
+            "number": 93,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42932,7 +43085,7 @@
         },
         {
             "id": 606,
-            "number": 91,
+            "number": 94,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42951,7 +43104,7 @@
         },
         {
             "id": 607,
-            "number": 92,
+            "number": 95,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -42970,7 +43123,7 @@
         },
         {
             "id": 608,
-            "number": 93,
+            "number": 96,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43017,7 +43170,7 @@
         },
         {
             "id": 609,
-            "number": 94,
+            "number": 97,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43036,7 +43189,7 @@
         },
         {
             "id": 610,
-            "number": 95,
+            "number": 98,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43055,7 +43208,7 @@
         },
         {
             "id": 611,
-            "number": 96,
+            "number": 99,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43114,7 +43267,7 @@
         },
         {
             "id": 612,
-            "number": 97,
+            "number": 100,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43173,7 +43326,7 @@
         },
         {
             "id": 613,
-            "number": 98,
+            "number": 101,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43192,7 +43345,7 @@
         },
         {
             "id": 614,
-            "number": 99,
+            "number": 102,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43211,7 +43364,7 @@
         },
         {
             "id": 615,
-            "number": 100,
+            "number": 103,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43230,7 +43383,7 @@
         },
         {
             "id": 616,
-            "number": 101,
+            "number": 104,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43249,7 +43402,7 @@
         },
         {
             "id": 617,
-            "number": 102,
+            "number": 105,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43268,7 +43421,7 @@
         },
         {
             "id": 618,
-            "number": 103,
+            "number": 106,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43287,7 +43440,7 @@
         },
         {
             "id": 619,
-            "number": 104,
+            "number": 107,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43306,7 +43459,7 @@
         },
         {
             "id": 620,
-            "number": 105,
+            "number": 108,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43325,7 +43478,7 @@
         },
         {
             "id": 621,
-            "number": 106,
+            "number": 109,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43344,7 +43497,7 @@
         },
         {
             "id": 622,
-            "number": 107,
+            "number": 110,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43363,7 +43516,7 @@
         },
         {
             "id": 623,
-            "number": 108,
+            "number": 111,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43382,7 +43535,7 @@
         },
         {
             "id": 624,
-            "number": 109,
+            "number": 112,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43441,7 +43594,7 @@
         },
         {
             "id": 625,
-            "number": 110,
+            "number": 113,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43460,7 +43613,7 @@
         },
         {
             "id": 626,
-            "number": 111,
+            "number": 114,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43479,7 +43632,7 @@
         },
         {
             "id": 627,
-            "number": 112,
+            "number": 115,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43498,7 +43651,7 @@
         },
         {
             "id": 628,
-            "number": 113,
+            "number": 116,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43517,7 +43670,7 @@
         },
         {
             "id": 629,
-            "number": 114,
+            "number": 117,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43536,7 +43689,7 @@
         },
         {
             "id": 630,
-            "number": 115,
+            "number": 118,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43555,7 +43708,7 @@
         },
         {
             "id": 631,
-            "number": 116,
+            "number": 119,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43574,7 +43727,7 @@
         },
         {
             "id": 632,
-            "number": 117,
+            "number": 120,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43593,7 +43746,7 @@
         },
         {
             "id": 633,
-            "number": 118,
+            "number": 121,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43612,7 +43765,7 @@
         },
         {
             "id": 634,
-            "number": 119,
+            "number": 122,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43631,7 +43784,7 @@
         },
         {
             "id": 635,
-            "number": 120,
+            "number": 123,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43650,7 +43803,7 @@
         },
         {
             "id": 636,
-            "number": 121,
+            "number": 124,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43697,7 +43850,7 @@
         },
         {
             "id": 637,
-            "number": 122,
+            "number": 125,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43716,7 +43869,7 @@
         },
         {
             "id": 638,
-            "number": 123,
+            "number": 126,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43735,7 +43888,7 @@
         },
         {
             "id": 639,
-            "number": 124,
+            "number": 127,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43754,7 +43907,7 @@
         },
         {
             "id": 640,
-            "number": 125,
+            "number": 128,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43773,7 +43926,7 @@
         },
         {
             "id": 641,
-            "number": 126,
+            "number": 129,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43792,7 +43945,7 @@
         },
         {
             "id": 642,
-            "number": 127,
+            "number": 130,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43811,7 +43964,7 @@
         },
         {
             "id": 643,
-            "number": 128,
+            "number": 131,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43858,7 +44011,7 @@
         },
         {
             "id": 644,
-            "number": 129,
+            "number": 132,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43877,7 +44030,7 @@
         },
         {
             "id": 645,
-            "number": 130,
+            "number": 133,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43896,7 +44049,7 @@
         },
         {
             "id": 646,
-            "number": 131,
+            "number": 134,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43915,7 +44068,7 @@
         },
         {
             "id": 647,
-            "number": 132,
+            "number": 135,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43934,7 +44087,7 @@
         },
         {
             "id": 648,
-            "number": 133,
+            "number": 136,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43953,7 +44106,7 @@
         },
         {
             "id": 649,
-            "number": 134,
+            "number": 137,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43972,7 +44125,7 @@
         },
         {
             "id": 650,
-            "number": 135,
+            "number": 138,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -43991,7 +44144,7 @@
         },
         {
             "id": 651,
-            "number": 136,
+            "number": 139,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44038,7 +44191,7 @@
         },
         {
             "id": 652,
-            "number": 137,
+            "number": 140,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44057,7 +44210,7 @@
         },
         {
             "id": 653,
-            "number": 138,
+            "number": 141,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44076,7 +44229,7 @@
         },
         {
             "id": 654,
-            "number": 139,
+            "number": 142,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44095,7 +44248,7 @@
         },
         {
             "id": 655,
-            "number": 140,
+            "number": 143,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44142,7 +44295,7 @@
         },
         {
             "id": 656,
-            "number": 141,
+            "number": 144,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44161,7 +44314,7 @@
         },
         {
             "id": 657,
-            "number": 142,
+            "number": 145,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -44180,7 +44333,7 @@
         },
         {
             "id": 658,
-            "number": 143,
+            "number": 146,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -47265,133 +47418,8 @@
             "match_games": []
         },
         {
-            "id": 1029,
-            "number": 118,
-            "stage_id": 0,
-            "group_id": 1,
-            "round_id": 2,
-            "child_count": 3,
-            "status": 4,
-            "opponent1": {
-                "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
-                "name": "Marksmen",
-                "score": 2,
-                "result": "win"
-            },
-            "opponent2": {
-                "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
-                "name": "Bozos F/A",
-                "score": 0,
-                "result": "loss"
-            },
-            "match_games": [
-                {
-                    "id": 0,
-                    "name": "match_1",
-                    "opponent1": {
-                        "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
-                        "score": 2
-                    },
-                    "opponent2": {
-                        "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
-                        "score": 0
-                    }
-                },
-                {
-                    "id": 1,
-                    "name": "match_2",
-                    "opponent1": {
-                        "id": "b0681b92-f6e3-11ee-9e01-0242ac130003",
-                        "score": 2
-                    },
-                    "opponent2": {
-                        "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
-                        "score": 0
-                    }
-                }
-            ]
-        },
-        {
-            "id": 1030,
-            "number": 119,
-            "stage_id": 0,
-            "group_id": 1,
-            "round_id": 2,
-            "child_count": 3,
-            "status": 4,
-            "opponent1": {
-                "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                "name": "Purdue Princess",
-                "score": 1,
-                "result": "loss"
-            },
-            "opponent2": {
-                "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
-                "name": "tumbados",
-                "score": 2,
-                "result": "win"
-            },
-            "match_games": [
-                {
-                    "id": 0,
-                    "name": "match_1",
-                    "opponent1": {
-                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                        "score": 0
-                    },
-                    "opponent2": {
-                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
-                        "score": 2
-                    }
-                },
-                {
-                    "id": 1,
-                    "name": "match_2",
-                    "opponent1": {
-                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                        "score": 2
-                    },
-                    "opponent2": {
-                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
-                        "score": 0
-                    }
-                },
-                {
-                    "id": 2,
-                    "name": "match_3",
-                    "opponent1": {
-                        "id": "b7443946-f43b-11ee-9a13-0242ac130003",
-                        "score": 1
-                    },
-                    "opponent2": {
-                        "id": "f29fdefc-f3cb-11ee-8825-0242ac130003",
-                        "score": 2
-                    }
-                }
-            ]
-        },
-        {
-            "id": 1031,
-            "number": 120,
-            "stage_id": 0,
-            "group_id": 1,
-            "round_id": 2,
-            "child_count": 3,
-            "status": 4,
-            "opponent1": {
-                "id": "066a64b6-f86d-11ee-8d05-0242ac130003",
-                "name": "FRAN/ANDY/BOT"
-            },
-            "opponent2": {
-                "id": "2b9c51aa-f295-11ee-b21f-0242ac130002",
-                "name": "Sp Zap",
-                "forfeit": 1
-            },
-            "match_games": []
-        },
-        {
             "id": 1032,
-            "number": 121,
+            "number": 118,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47410,7 +47438,7 @@
         },
         {
             "id": 1033,
-            "number": 122,
+            "number": 119,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47429,7 +47457,7 @@
         },
         {
             "id": 1034,
-            "number": 123,
+            "number": 120,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47448,7 +47476,7 @@
         },
         {
             "id": 1035,
-            "number": 124,
+            "number": 121,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47507,7 +47535,7 @@
         },
         {
             "id": 1036,
-            "number": 125,
+            "number": 122,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47526,7 +47554,7 @@
         },
         {
             "id": 1037,
-            "number": 126,
+            "number": 123,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47545,7 +47573,7 @@
         },
         {
             "id": 1038,
-            "number": 127,
+            "number": 124,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47604,7 +47632,7 @@
         },
         {
             "id": 1039,
-            "number": 128,
+            "number": 125,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47651,7 +47679,7 @@
         },
         {
             "id": 1040,
-            "number": 129,
+            "number": 126,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47670,7 +47698,7 @@
         },
         {
             "id": 1041,
-            "number": 130,
+            "number": 127,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -47689,7 +47717,7 @@
         },
         {
             "id": 1042,
-            "number": 131,
+            "number": 128,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 2,
@@ -51587,16 +51615,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f185344e-f48f-11ee-b808-0242ac130003",
-                "name": "Almuerzo"
+                "name": "Almuerzo",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
-                "name": "hugo is bad"
+                "name": "hugo is bad",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f185344e-f48f-11ee-b808-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f185344e-f48f-11ee-b808-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1369,
@@ -52031,8 +52088,26 @@
             "match_games": []
         },
         {
-            "id": 1394,
+            "id": 1393,
             "number": 31,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 4,
+            "child_count": 3,
+            "status": 3,
+            "opponent1": {
+                "id": "2d45e584-f295-11ee-a31d-0242ac130002",
+                "name": "CEREAL GAMING"
+            },
+            "opponent2": {
+                "id": "2d32514a-f295-11ee-822f-0242ac130002",
+                "name": "Bringers Of Doom"
+            },
+            "match_games": []
+        },
+        {
+            "id": 1394,
+            "number": 32,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52050,7 +52125,7 @@
         },
         {
             "id": 1395,
-            "number": 32,
+            "number": 33,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52068,7 +52143,7 @@
         },
         {
             "id": 1396,
-            "number": 33,
+            "number": 34,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52086,7 +52161,7 @@
         },
         {
             "id": 1397,
-            "number": 34,
+            "number": 35,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52104,7 +52179,7 @@
         },
         {
             "id": 1398,
-            "number": 35,
+            "number": 36,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52122,7 +52197,7 @@
         },
         {
             "id": 1399,
-            "number": 36,
+            "number": 37,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52140,7 +52215,7 @@
         },
         {
             "id": 1400,
-            "number": 37,
+            "number": 38,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52158,7 +52233,7 @@
         },
         {
             "id": 1401,
-            "number": 38,
+            "number": 39,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52176,7 +52251,7 @@
         },
         {
             "id": 1402,
-            "number": 39,
+            "number": 40,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52194,7 +52269,7 @@
         },
         {
             "id": 1403,
-            "number": 40,
+            "number": 41,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52212,7 +52287,7 @@
         },
         {
             "id": 1404,
-            "number": 41,
+            "number": 42,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52230,7 +52305,7 @@
         },
         {
             "id": 1405,
-            "number": 42,
+            "number": 43,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52248,7 +52323,7 @@
         },
         {
             "id": 1406,
-            "number": 43,
+            "number": 44,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52266,7 +52341,7 @@
         },
         {
             "id": 1407,
-            "number": 44,
+            "number": 45,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52284,7 +52359,7 @@
         },
         {
             "id": 1408,
-            "number": 45,
+            "number": 46,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52302,7 +52377,7 @@
         },
         {
             "id": 1409,
-            "number": 46,
+            "number": 47,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52320,7 +52395,7 @@
         },
         {
             "id": 1410,
-            "number": 47,
+            "number": 48,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52338,7 +52413,7 @@
         },
         {
             "id": 1411,
-            "number": 48,
+            "number": 49,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52356,7 +52431,7 @@
         },
         {
             "id": 1412,
-            "number": 49,
+            "number": 50,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52374,7 +52449,7 @@
         },
         {
             "id": 1413,
-            "number": 50,
+            "number": 51,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52392,7 +52467,7 @@
         },
         {
             "id": 1414,
-            "number": 51,
+            "number": 52,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52410,7 +52485,7 @@
         },
         {
             "id": 1415,
-            "number": 52,
+            "number": 53,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52428,7 +52503,7 @@
         },
         {
             "id": 1416,
-            "number": 53,
+            "number": 54,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52446,7 +52521,7 @@
         },
         {
             "id": 1417,
-            "number": 54,
+            "number": 55,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52464,7 +52539,7 @@
         },
         {
             "id": 1418,
-            "number": 55,
+            "number": 56,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52482,7 +52557,7 @@
         },
         {
             "id": 1419,
-            "number": 56,
+            "number": 57,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52500,7 +52575,7 @@
         },
         {
             "id": 1420,
-            "number": 57,
+            "number": 58,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52518,7 +52593,7 @@
         },
         {
             "id": 1421,
-            "number": 58,
+            "number": 59,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52536,7 +52611,7 @@
         },
         {
             "id": 1422,
-            "number": 59,
+            "number": 60,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52554,7 +52629,7 @@
         },
         {
             "id": 1423,
-            "number": 60,
+            "number": 61,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52572,7 +52647,7 @@
         },
         {
             "id": 1424,
-            "number": 61,
+            "number": 62,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52590,7 +52665,7 @@
         },
         {
             "id": 1425,
-            "number": 62,
+            "number": 63,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52608,7 +52683,7 @@
         },
         {
             "id": 1426,
-            "number": 63,
+            "number": 64,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 4,
@@ -52722,7 +52797,8 @@
                 "name": "TexMex"
             },
             "opponent2": {
-                "id": null
+                "id": "fdee40fc-f3c9-11ee-a0d1-0242ac130003",
+                "name": "hugo is bad"
             },
             "match_games": []
         },
@@ -53492,8 +53568,25 @@
             "match_games": []
         },
         {
-            "id": 1511,
+            "id": 1510,
             "number": 52,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 5,
+            "child_count": 3,
+            "status": 0,
+            "opponent1": {
+                "id": "bda2e8f2-f46b-11ee-b955-0242ac130003",
+                "name": "Gobble Gang"
+            },
+            "opponent2": {
+                "id": null
+            },
+            "match_games": []
+        },
+        {
+            "id": 1511,
+            "number": 53,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53510,7 +53603,7 @@
         },
         {
             "id": 1512,
-            "number": 53,
+            "number": 54,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53527,7 +53620,7 @@
         },
         {
             "id": 1513,
-            "number": 54,
+            "number": 55,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53544,7 +53637,7 @@
         },
         {
             "id": 1514,
-            "number": 55,
+            "number": 56,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53561,7 +53654,7 @@
         },
         {
             "id": 1515,
-            "number": 56,
+            "number": 57,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53578,7 +53671,7 @@
         },
         {
             "id": 1516,
-            "number": 57,
+            "number": 58,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53595,7 +53688,7 @@
         },
         {
             "id": 1517,
-            "number": 58,
+            "number": 59,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53612,7 +53705,7 @@
         },
         {
             "id": 1518,
-            "number": 59,
+            "number": 60,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53629,7 +53722,7 @@
         },
         {
             "id": 1519,
-            "number": 60,
+            "number": 61,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53646,7 +53739,7 @@
         },
         {
             "id": 1520,
-            "number": 61,
+            "number": 62,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53663,7 +53756,7 @@
         },
         {
             "id": 1521,
-            "number": 62,
+            "number": 63,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -53680,7 +53773,7 @@
         },
         {
             "id": 1522,
-            "number": 63,
+            "number": 64,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,
@@ -55112,7 +55205,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c079f6e-f295-11ee-82da-0242ac130002",
+                "name": "Mambas Gaming"
             },
             "opponent2": {
                 "id": null

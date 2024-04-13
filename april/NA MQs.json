@@ -26423,16 +26423,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
-                "name": "The Goonerz"
+                "name": "The Goonerz",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "84f37088-f436-11ee-b96f-0242ac130003",
-                "name": "Brawl Bots"
+                "name": "Brawl Bots",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "84f37088-f436-11ee-b96f-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 824,
@@ -30877,10 +30918,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                "name": "The Goonerz"
             },
             "opponent2": {
-                "id": null
+                "id": "94f247de-f48b-11ee-b727-0242ac130003",
+                "name": "Minors"
             },
             "match_games": []
         },

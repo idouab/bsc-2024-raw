@@ -8743,6 +8743,17 @@
             "img": ""
         },
         {
+            "id": "2d7f784e-f295-11ee-ac98-0242ac130002",
+            "tournament_id": 0,
+            "name": "DEX Gaming",
+            "players": [
+                "SF|RAULITOTO",
+                "i7T Wolfer",
+                "PPs|Ace20"
+            ],
+            "img": ""
+        },
+        {
             "id": "f256e872-f9a3-11ee-98cc-0242ac130003",
             "tournament_id": 0,
             "name": "Akatsuki",
@@ -21929,16 +21940,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2c11ff40-f295-11ee-922d-0242ac130002",
-                "name": "The Other Guys"
+                "name": "The Other Guys",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "acc0d32c-f863-11ee-bb4c-0242ac130003",
-                "name": "Spark Blaze"
+                "name": "Spark Blaze",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2c11ff40-f295-11ee-922d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acc0d32c-f863-11ee-bb4c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2c11ff40-f295-11ee-922d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "acc0d32c-f863-11ee-bb4c-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 700,
@@ -23365,16 +23405,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2d7f784e-f295-11ee-ac98-0242ac130002",
-                "name": "DEX Gaming"
+                "name": "DEX Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "044ed52c-f8e0-11ee-8d1c-0242ac130003",
-                "name": "Mex Light"
+                "name": "Mex Light",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2d7f784e-f295-11ee-ac98-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "044ed52c-f8e0-11ee-8d1c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2d7f784e-f295-11ee-ac98-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "044ed52c-f8e0-11ee-8d1c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 752,
@@ -26168,16 +26237,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2865e186-f295-11ee-bf26-0242ac130002",
-                "name": "Brobby PG"
+                "name": "Brobby PG",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
-                "name": "Jokers"
+                "name": "Jokers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2865e186-f295-11ee-bf26-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2865e186-f295-11ee-bf26-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 850,
@@ -28733,7 +28831,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "044ed52c-f8e0-11ee-8d1c-0242ac130003",
+                "name": "Mex Light"
             },
             "opponent2": {
                 "id": null
@@ -29545,7 +29644,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                "name": "Jokers"
             },
             "opponent2": {
                 "id": null
@@ -33625,10 +33725,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2d7f784e-f295-11ee-ac98-0242ac130002",
+                "name": "DEX Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "f256e872-f9a3-11ee-98cc-0242ac130003",
+                "name": "Akatsuki"
             },
             "match_games": []
         },

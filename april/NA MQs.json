@@ -7906,6 +7906,18 @@
             "img": ""
         },
         {
+            "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
+            "tournament_id": 0,
+            "name": "ROCKET TEAM",
+            "players": [
+                "tony",
+                "Char-Lee",
+                "Lil Paul",
+                "PekiDroiid"
+            ],
+            "img": ""
+        },
+        {
             "id": "db6ca9a0-f992-11ee-9f59-0242ac130003",
             "tournament_id": 0,
             "name": "ahhhh",
@@ -14727,16 +14739,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
-                "name": "ROCKET TEAM"
+                "name": "ROCKET TEAM",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "264d82b8-f3e0-11ee-a36d-0242ac130003",
-                "name": "Team Goombas"
+                "name": "Team Goombas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "264d82b8-f3e0-11ee-a36d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "264d82b8-f3e0-11ee-a36d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "264d82b8-f3e0-11ee-a36d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 307,
@@ -21702,7 +21755,8 @@
                 "name": "Goblin Gang F/A"
             },
             "opponent2": {
-                "id": null
+                "id": "264d82b8-f3e0-11ee-a36d-0242ac130003",
+                "name": "Team Goombas"
             },
             "match_games": []
         },

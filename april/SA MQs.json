@@ -6953,16 +6953,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
-                "name": "Blue"
+                "name": "Blue",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
-                "name": "Panela da Saturn 🪐"
+                "name": "Panela da Saturn 🪐",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 79,
@@ -8484,16 +8513,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dcd7c874-f460-11ee-afa2-0242ac130003",
-                "name": "PanpugaLovers"
+                "name": "PanpugaLovers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "16cfb888-f381-11ee-a943-0242ac130003",
-                "name": "Trío Galleta"
+                "name": "Trío Galleta",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "dcd7c874-f460-11ee-afa2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "16cfb888-f381-11ee-a943-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "dcd7c874-f460-11ee-afa2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "16cfb888-f381-11ee-a943-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 163,
@@ -10944,7 +11002,8 @@
                 "name": "F/A Ponnys"
             },
             "opponent2": {
-                "id": null
+                "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                "name": "Panela da Saturn 🪐"
             },
             "match_games": []
         },
@@ -11467,7 +11526,8 @@
                 "name": "mibs"
             },
             "opponent2": {
-                "id": null
+                "id": "1a76fd36-f4e7-11ee-bef5-0242ac130003",
+                "name": "SQS - Se quiser sim"
             },
             "match_games": []
         },
@@ -11630,7 +11690,8 @@
                 "name": "Marruecos"
             },
             "opponent2": {
-                "id": null
+                "id": "16cfb888-f381-11ee-a943-0242ac130003",
+                "name": "Trío Galleta"
             },
             "match_games": []
         },

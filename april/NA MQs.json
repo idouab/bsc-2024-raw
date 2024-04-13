@@ -7537,6 +7537,17 @@
             "img": ""
         },
         {
+            "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
+            "tournament_id": 0,
+            "name": "MD",
+            "players": [
+                "Ita",
+                "TRB|Simeon",
+                "xBrayanx¶"
+            ],
+            "img": ""
+        },
+        {
             "id": "f3a58748-f3d0-11ee-b23a-0242ac130003",
             "tournament_id": 0,
             "name": "Triple7",
@@ -7544,6 +7555,17 @@
                 "H U G O🐊⁷⁷⁷",
                 "C H O U🐐⁷⁷⁷",
                 "M E D_G Y🦍⁷⁷⁷"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b2768cae-f434-11ee-b440-0242ac130003",
+            "tournament_id": 0,
+            "name": "1892",
+            "players": [
+                "Dylan",
+                "orca",
+                "Flex"
             ],
             "img": ""
         },
@@ -7880,6 +7902,17 @@
                 "pippo",
                 "ᴳᵒʲᵒメsᴀᴛᴏʀᴜシ︎",
                 "B&D LUCA"
+            ],
+            "img": ""
+        },
+        {
+            "id": "58dfc6f4-f3dc-11ee-93b9-0242ac130003",
+            "tournament_id": 0,
+            "name": "The Giants",
+            "players": [
+                "HEDGEHOGDEMON",
+                "Olythekatty",
+                "Razzled"
             ],
             "img": ""
         },
@@ -10028,16 +10061,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
-                "name": "MD"
+                "name": "MD",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "27e376f6-f970-11ee-b009-0242ac130003",
-                "name": "Ogurchiki"
+                "name": "Ogurchiki",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cc93b9c8-f3ac-11ee-a459-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 95,
@@ -10249,16 +10323,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
-                "name": "Raiders"
+                "name": "Raiders",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2768cae-f434-11ee-b440-0242ac130003",
-                "name": "1892"
+                "name": "1892",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2768cae-f434-11ee-b440-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b2768cae-f434-11ee-b440-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2768cae-f434-11ee-b440-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 107,
@@ -15157,16 +15272,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "59b47fc8-f6d1-11ee-954a-0242ac130003",
-                "name": "SD|Warriors⚜️🎩"
+                "name": "SD|Warriors⚜️🎩",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "58dfc6f4-f3dc-11ee-93b9-0242ac130003",
-                "name": "The Giants"
+                "name": "The Giants",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "59b47fc8-f6d1-11ee-954a-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58dfc6f4-f3dc-11ee-93b9-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "59b47fc8-f6d1-11ee-954a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58dfc6f4-f3dc-11ee-93b9-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "59b47fc8-f6d1-11ee-954a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58dfc6f4-f3dc-11ee-93b9-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 355,
@@ -18982,7 +19138,8 @@
                 "name": "Hacker’s web"
             },
             "opponent2": {
-                "id": null
+                "id": "27e376f6-f970-11ee-b009-0242ac130003",
+                "name": "Ogurchiki"
             },
             "match_games": []
         },
@@ -19087,7 +19244,8 @@
                 "name": "Brawl Babes"
             },
             "opponent2": {
-                "id": null
+                "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                "name": "Raiders"
             },
             "match_games": []
         },
@@ -21279,7 +21437,8 @@
                 "name": "STMN"
             },
             "opponent2": {
-                "id": null
+                "id": "59b47fc8-f6d1-11ee-954a-0242ac130003",
+                "name": "SD|Warriors⚜️🎩"
             },
             "match_games": []
         },
@@ -34966,7 +35125,7 @@
             "match_games": []
         },
         {
-            "id": 1510,
+            "id": 1509,
             "number": 51,
             "stage_id": 0,
             "group_id": 1,
@@ -34982,7 +35141,7 @@
             "match_games": []
         },
         {
-            "id": 1511,
+            "id": 1510,
             "number": 52,
             "stage_id": 0,
             "group_id": 1,
@@ -34998,7 +35157,7 @@
             "match_games": []
         },
         {
-            "id": 1512,
+            "id": 1511,
             "number": 53,
             "stage_id": 0,
             "group_id": 1,
@@ -35014,7 +35173,7 @@
             "match_games": []
         },
         {
-            "id": 1513,
+            "id": 1512,
             "number": 54,
             "stage_id": 0,
             "group_id": 1,
@@ -35030,7 +35189,7 @@
             "match_games": []
         },
         {
-            "id": 1514,
+            "id": 1513,
             "number": 55,
             "stage_id": 0,
             "group_id": 1,
@@ -35046,7 +35205,7 @@
             "match_games": []
         },
         {
-            "id": 1515,
+            "id": 1514,
             "number": 56,
             "stage_id": 0,
             "group_id": 1,
@@ -35062,7 +35221,7 @@
             "match_games": []
         },
         {
-            "id": 1516,
+            "id": 1515,
             "number": 57,
             "stage_id": 0,
             "group_id": 1,
@@ -35078,7 +35237,7 @@
             "match_games": []
         },
         {
-            "id": 1517,
+            "id": 1516,
             "number": 58,
             "stage_id": 0,
             "group_id": 1,
@@ -35094,7 +35253,7 @@
             "match_games": []
         },
         {
-            "id": 1518,
+            "id": 1517,
             "number": 59,
             "stage_id": 0,
             "group_id": 1,
@@ -35110,7 +35269,7 @@
             "match_games": []
         },
         {
-            "id": 1519,
+            "id": 1518,
             "number": 60,
             "stage_id": 0,
             "group_id": 1,
@@ -35126,7 +35285,7 @@
             "match_games": []
         },
         {
-            "id": 1520,
+            "id": 1519,
             "number": 61,
             "stage_id": 0,
             "group_id": 1,
@@ -35142,7 +35301,7 @@
             "match_games": []
         },
         {
-            "id": 1521,
+            "id": 1520,
             "number": 62,
             "stage_id": 0,
             "group_id": 1,
@@ -35158,8 +35317,24 @@
             "match_games": []
         },
         {
-            "id": 1522,
+            "id": 1521,
             "number": 63,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 5,
+            "child_count": 3,
+            "status": 0,
+            "opponent1": {
+                "id": null
+            },
+            "opponent2": {
+                "id": null
+            },
+            "match_games": []
+        },
+        {
+            "id": 1522,
+            "number": 64,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 5,

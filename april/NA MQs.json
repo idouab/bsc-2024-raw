@@ -7493,6 +7493,17 @@
             "img": ""
         },
         {
+            "id": "8926af7c-f453-11ee-87d1-0242ac130003",
+            "tournament_id": 0,
+            "name": "MAR28",
+            "players": [
+                "phytotoxicology",
+                "lynn",
+                "NOT IDK"
+            ],
+            "img": ""
+        },
+        {
             "id": "9d6dac74-f5d9-11ee-8bc8-0242ac130003",
             "tournament_id": 0,
             "name": "Illegals United",
@@ -9478,16 +9489,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
-                "name": "Bozos F/A"
+                "name": "Bozos F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8926af7c-f453-11ee-87d1-0242ac130003",
-                "name": "MAR28"
+                "name": "MAR28",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8926af7c-f453-11ee-87d1-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8926af7c-f453-11ee-87d1-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8926af7c-f453-11ee-87d1-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 55,
@@ -19563,7 +19615,8 @@
                 "name": "Wolf Legend"
             },
             "opponent2": {
-                "id": null
+                "id": "d57756b8-f51d-11ee-a75a-0242ac130003",
+                "name": "Bozos F/A"
             },
             "match_games": []
         },

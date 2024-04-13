@@ -7528,6 +7528,28 @@
             "img": ""
         },
         {
+            "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
+            "tournament_id": 0,
+            "name": "JCQ",
+            "players": [
+                "fujifas",
+                "Brock Li",
+                "colt"
+            ],
+            "img": ""
+        },
+        {
+            "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+            "tournament_id": 0,
+            "name": "ShadowMechIDK",
+            "players": [
+                "The new guy",
+                "RelativeMin",
+                "Coinshado 🪙"
+            ],
+            "img": ""
+        },
+        {
             "id": "4ee27f5e-f8da-11ee-b0a7-0242ac130003",
             "tournament_id": 0,
             "name": "Fénix Club",
@@ -15614,16 +15636,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
-                "name": "MSMS A"
+                "name": "MSMS A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
-                "name": "JCQ"
+                "name": "JCQ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f8a56ea-f7af-11ee-be38-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 483,
@@ -15869,16 +15920,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2420ea00-f699-11ee-94bb-0242ac130003",
-                "name": "ShadowMechIDK"
+                "name": "ShadowMechIDK",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1f70dd78-f3e5-11ee-b912-0242ac130003",
-                "name": "MYF"
+                "name": "MYF",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1f70dd78-f3e5-11ee-b912-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2420ea00-f699-11ee-94bb-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1f70dd78-f3e5-11ee-b912-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 499,
@@ -20333,7 +20413,8 @@
                 "name": ":3"
             },
             "opponent2": {
-                "id": null
+                "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
+                "name": "MSMS A"
             },
             "match_games": []
         },
@@ -20472,7 +20553,8 @@
                 "name": "Infinite Void"
             },
             "opponent2": {
-                "id": null
+                "id": "1f70dd78-f3e5-11ee-b912-0242ac130003",
+                "name": "MYF"
             },
             "match_games": []
         },

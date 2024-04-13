@@ -8662,6 +8662,18 @@
             "img": ""
         },
         {
+            "id": "fb03e60c-f988-11ee-80a6-0242ac130003",
+            "tournament_id": 0,
+            "name": "Bots",
+            "players": [
+                "ANKREX",
+                "Bot 1",
+                "Bot 2",
+                "Ninjago"
+            ],
+            "img": ""
+        },
+        {
             "id": "148b4b86-f77e-11ee-8c90-0242ac130003",
             "tournament_id": 0,
             "name": "BigBusinessBrawls",
@@ -23250,16 +23262,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fb03e60c-f988-11ee-80a6-0242ac130003",
-                "name": "Bots"
+                "name": "Bots",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9a34db32-f380-11ee-85d0-0242ac130003",
-                "name": "JKS"
+                "name": "JKS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fb03e60c-f988-11ee-80a6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9a34db32-f380-11ee-85d0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fb03e60c-f988-11ee-80a6-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9a34db32-f380-11ee-85d0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 755,
@@ -33232,10 +33273,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fb03e60c-f988-11ee-80a6-0242ac130003",
+                "name": "Bots"
             },
             "opponent2": {
-                "id": null
+                "id": "148b4b86-f77e-11ee-8c90-0242ac130003",
+                "name": "BigBusinessBrawls"
             },
             "match_games": []
         },

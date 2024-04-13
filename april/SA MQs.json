@@ -5418,6 +5418,18 @@
             "img": ""
         },
         {
+            "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+            "tournament_id": 0,
+            "name": "Tired of winning Tow",
+            "players": [
+                "melodie uwu",
+                "Connect Veemon",
+                "MrJim",
+                "H⚔️|alfredo"
+            ],
+            "img": ""
+        },
+        {
             "id": "5616bec4-f507-11ee-800b-0242ac130003",
             "tournament_id": 0,
             "name": "Drink Team",
@@ -6373,14 +6385,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5552ceca-f44d-11ee-a0e4-0242ac130003",
                 "name": "Os sortudos"
             },
             "opponent2": {
                 "id": "3f797544-f38b-11ee-bae6-0242ac130003",
-                "name": "Força DHC"
+                "name": "Força DHC",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -7836,16 +7849,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b36cb912-f295-11ee-9555-0242ac130002",
-                "name": "RM"
+                "name": "RM",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
-                "name": "Tired of winning Tow"
+                "name": "Tired of winning Tow",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 94,
@@ -11743,7 +11785,8 @@
                 "name": "DOM Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "5552ceca-f44d-11ee-a0e4-0242ac130003",
+                "name": "Os sortudos"
             },
             "match_games": []
         },
@@ -12301,7 +12344,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b36cb912-f295-11ee-9555-0242ac130002",
+                "name": "RM"
             },
             "opponent2": {
                 "id": null
@@ -16128,7 +16172,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "047230b2-f98f-11ee-b2c7-0242ac130003",
+                "name": "Tired of winning Tow"
             },
             "opponent2": {
                 "id": null

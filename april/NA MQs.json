@@ -36510,16 +36510,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e13844e-f295-11ee-8815-0242ac130002",
-                "name": "33% ASEAN"
+                "name": "33% ASEAN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "28ee7d84-f295-11ee-8979-0242ac130002",
-                "name": "Photon And Company"
+                "name": "Photon And Company",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28ee7d84-f295-11ee-8979-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28ee7d84-f295-11ee-8979-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1307,
@@ -37317,16 +37346,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "30d771ae-f295-11ee-b800-0242ac130002",
-                "name": "Saro Squad"
+                "name": "Saro Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
-                "name": "Haunters"
+                "name": "Haunters",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "30d771ae-f295-11ee-b800-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "30d771ae-f295-11ee-b800-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1327,
@@ -38623,7 +38681,8 @@
                 "name": "Blackout Hat"
             },
             "opponent2": {
-                "id": null
+                "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                "name": "33% ASEAN"
             },
             "match_games": []
         },
@@ -49632,7 +49691,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "28ee7d84-f295-11ee-8979-0242ac130002",
+                "name": "Photon And Company"
             },
             "opponent2": {
                 "id": null
@@ -49967,7 +50027,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                "name": "Haunters"
             },
             "opponent2": {
                 "id": null

@@ -7906,6 +7906,18 @@
             "img": ""
         },
         {
+            "id": "b5e91fce-f3b1-11ee-9270-0242ac130003",
+            "tournament_id": 0,
+            "name": "Burning stars",
+            "players": [
+                "C broly",
+                "We won cuz i",
+                "western 2",
+                "20070509"
+            ],
+            "img": ""
+        },
+        {
             "id": "ecaf7ec8-f6a8-11ee-8c92-0242ac130003",
             "tournament_id": 0,
             "name": "ROCKET TEAM",
@@ -14676,16 +14688,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5e91fce-f3b1-11ee-9270-0242ac130003",
-                "name": "Burning stars"
+                "name": "Burning stars",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9915f5a0-f94e-11ee-954d-0242ac130003",
-                "name": "qu'abricki'shaniquia"
+                "name": "qu'abricki'shaniquia",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5e91fce-f3b1-11ee-9270-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9915f5a0-f94e-11ee-954d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5e91fce-f3b1-11ee-9270-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9915f5a0-f94e-11ee-954d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 303,
@@ -21720,7 +21761,8 @@
                 "name": "Taco naco"
             },
             "opponent2": {
-                "id": null
+                "id": "9915f5a0-f94e-11ee-954d-0242ac130003",
+                "name": "qu'abricki'shaniquia"
             },
             "match_games": []
         },

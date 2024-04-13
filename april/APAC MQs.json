@@ -20170,16 +20170,57 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
-                "name": "Laosai Team"
+                "name": "Laosai Team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
-                "name": "T0 Team"
+                "name": "T0 Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cf18dc38-f293-11ee-9ced-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 443,
@@ -20648,7 +20689,8 @@
                 "name": "ケイワイプレイヤー"
             },
             "opponent2": {
-                "id": null
+                "id": "ce7f077a-f293-11ee-bd3a-0242ac130002",
+                "name": "T0 Team"
             },
             "match_games": []
         },

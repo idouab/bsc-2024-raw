@@ -6059,6 +6059,17 @@
             "img": ""
         },
         {
+            "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
+            "tournament_id": 0,
+            "name": "Black kitsune",
+            "players": [
+                "MR20",
+                "Marin❄ZER0",
+                "Kyojuro"
+            ],
+            "img": ""
+        },
+        {
             "id": "5b155b94-f555-11ee-8a13-0242ac130003",
             "tournament_id": 0,
             "name": "ixiTeam",
@@ -12991,16 +13002,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b877908a-f295-11ee-86f1-0242ac130002",
-                "name": "Perú×Brawl×México"
+                "name": "Perú×Brawl×México",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
-                "name": "Black kitsune"
+                "name": "Black kitsune",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 224,
@@ -15866,10 +15918,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b877908a-f295-11ee-86f1-0242ac130002",
+                "name": "Perú×Brawl×México"
             },
             "opponent2": {
-                "id": null
+                "id": "3e76646c-f3be-11ee-852f-0242ac130003",
+                "name": "THE BEST PLAYERS"
             },
             "match_games": []
         },
@@ -19366,10 +19420,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d3cd3d4-f798-11ee-8077-0242ac130003",
+                "name": "Black kitsune"
             },
             "opponent2": {
-                "id": null
+                "id": "5b155b94-f555-11ee-8a13-0242ac130003",
+                "name": "ixiTeam"
             },
             "match_games": []
         },

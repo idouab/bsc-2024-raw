@@ -26608,16 +26608,45 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14801af0-f296-11ee-a967-0242ac130002",
-                "name": "Team Queso"
+                "name": "Team Queso",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b26a327e-f295-11ee-af5b-0242ac130002",
-                "name": "Demons Gaming"
+                "name": "Demons Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "14801af0-f296-11ee-a967-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "14801af0-f296-11ee-a967-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 873,
@@ -26852,10 +26881,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "14801af0-f296-11ee-a967-0242ac130002",
+                "name": "Team Queso"
             },
             "opponent2": {
-                "id": null
+                "id": "14877f8e-f296-11ee-8473-0242ac130002",
+                "name": "Urubus do Pix 🐦‍⬛"
             },
             "match_games": []
         },
@@ -40185,7 +40216,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                "name": "Demons Gaming"
             },
             "opponent2": {
                 "id": null

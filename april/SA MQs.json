@@ -15634,16 +15634,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
-                "name": "Revenge Gaming"
+                "name": "Revenge Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "944b7442-f484-11ee-a485-0242ac130003",
-                "name": "News Sports"
+                "name": "News Sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "944b7442-f484-11ee-a485-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "944b7442-f484-11ee-a485-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 351,
@@ -16551,16 +16580,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b4911e96-f295-11ee-87dd-0242ac130002",
-                "name": "F/A Ponnys"
+                "name": "F/A Ponnys",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
-                "name": "Panela da Saturn 🪐"
+                "name": "Panela da Saturn 🪐",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 381,
@@ -18112,16 +18170,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58f15220-f4ea-11ee-b5a4-0242ac130003",
-                "name": "Os Mata Newbas"
+                "name": "Os Mata Newbas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c34c5fe0-f3c6-11ee-ba6a-0242ac130003",
-                "name": "PMA Incendiary🔥"
+                "name": "PMA Incendiary🔥",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "58f15220-f4ea-11ee-b5a4-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c34c5fe0-f3c6-11ee-ba6a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "58f15220-f4ea-11ee-b5a4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c34c5fe0-f3c6-11ee-ba6a-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "58f15220-f4ea-11ee-b5a4-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c34c5fe0-f3c6-11ee-ba6a-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 428,
@@ -19584,7 +19683,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                "name": "Revenge Gaming"
             },
             "opponent2": {
                 "id": null
@@ -19833,7 +19933,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                "name": "F/A Ponnys"
             },
             "opponent2": {
                 "id": null
@@ -20225,7 +20326,8 @@
                 "name": "Team Fluid"
             },
             "opponent2": {
-                "id": null
+                "id": "58f15220-f4ea-11ee-b5a4-0242ac130003",
+                "name": "Os Mata Newbas"
             },
             "match_games": []
         },
@@ -21776,16 +21878,45 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
-                "name": "Bastodont🔥"
+                "name": "Bastodont🔥",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
-                "name": "Kls"
+                "name": "Kls",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "dd5a83aa-f7a7-11ee-81f7-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 268,
@@ -23531,7 +23662,8 @@
                 "name": "UY|FA"
             },
             "opponent2": {
-                "id": null
+                "id": "c06858c2-f3b9-11ee-8a42-0242ac130003",
+                "name": "Kls"
             },
             "match_games": []
         },
@@ -23974,7 +24106,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c34c5fe0-f3c6-11ee-ba6a-0242ac130003",
+                "name": "PMA Incendiary🔥"
             },
             "opponent2": {
                 "id": null
@@ -24755,10 +24888,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "137b766a-f4ec-11ee-b24e-0242ac130003",
+                "name": "Panela da Saturn 🪐"
             },
             "opponent2": {
-                "id": null
+                "id": "921b0914-f626-11ee-abea-0242ac130003",
+                "name": "El Rejunte"
             },
             "match_games": []
         },
@@ -25254,7 +25389,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "944b7442-f484-11ee-a485-0242ac130003",
+                "name": "News Sports"
             },
             "opponent2": {
                 "id": null

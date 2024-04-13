@@ -19042,16 +19042,57 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
-                "name": "LockGang"
+                "name": "LockGang",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
-                "name": "Rising Phoenix"
+                "name": "Rising Phoenix",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7122e4e4-f693-11ee-b6a3-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 414,
@@ -19266,16 +19307,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
-                "name": "Dandelion"
+                "name": "Dandelion",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
-                "name": "Ok we do"
+                "name": "Ok we do",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24a19f3a-f8e0-11ee-8f28-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 420,
@@ -19630,10 +19700,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bc20ddd2-f352-11ee-a0ec-0242ac130003",
+                "name": "LockGang"
             },
             "opponent2": {
-                "id": null
+                "id": "313a7c7a-f5bc-11ee-87c4-0242ac130003",
+                "name": "SECOND KING"
             },
             "match_games": []
         },
@@ -19680,10 +19752,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4aa5586c-f4ca-11ee-8860-0242ac130003",
+                "name": "Dandelion"
             },
             "opponent2": {
-                "id": null
+                "id": "3d61ef3e-f336-11ee-bd8d-0242ac130002",
+                "name": "DHN"
             },
             "match_games": []
         },

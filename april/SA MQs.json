@@ -27176,16 +27176,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b1e6196-f3b7-11ee-b492-0242ac130003",
-                "name": "Motocas013"
+                "name": "Motocas013",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1baa39a2-f4a1-11ee-af57-0242ac130003",
-                "name": "Disaster Masters"
+                "name": "Disaster Masters",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7b1e6196-f3b7-11ee-b492-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1baa39a2-f4a1-11ee-af57-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7b1e6196-f3b7-11ee-b492-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1baa39a2-f4a1-11ee-af57-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 523,
@@ -29079,7 +29108,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1baa39a2-f4a1-11ee-af57-0242ac130003",
+                "name": "Disaster Masters"
             },
             "opponent2": {
                 "id": null

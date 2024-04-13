@@ -3312,6 +3312,17 @@
             "img": ""
         },
         {
+            "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
+            "tournament_id": 0,
+            "name": "Blackfeather",
+            "players": [
+                "𝕭𝕱|𝖘𝖚𝖇𝖙𝖆",
+                "𝕭𝕱|𝖙𝖆𝖌𝖊𝖓",
+                "𝕭𝕱|𝖈𝖍𝖔𝖕"
+            ],
+            "img": ""
+        },
+        {
             "id": "78d7e1a4-f4bc-11ee-beda-0242ac130003",
             "tournament_id": 0,
             "name": "Maron Birds",
@@ -5789,16 +5800,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
-                "name": "Blackfeather"
+                "name": "Blackfeather",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "73ba5486-f372-11ee-87a6-0242ac130003",
-                "name": "초밥들이여"
+                "name": "초밥들이여",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "73ba5486-f372-11ee-87a6-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73ba5486-f372-11ee-87a6-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "73ba5486-f372-11ee-87a6-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 56,
@@ -8692,10 +8744,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "73ba5486-f372-11ee-87a6-0242ac130003",
+                "name": "초밥들이여"
             },
             "opponent2": {
-                "id": null
+                "id": "0174aa96-f3fb-11ee-92d1-0242ac130003",
+                "name": "長宗我部"
             },
             "match_games": []
         },
@@ -10717,10 +10771,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd739dfa-f293-11ee-82c3-0242ac130002",
+                "name": "Blackfeather"
             },
             "opponent2": {
-                "id": null
+                "id": "78d7e1a4-f4bc-11ee-beda-0242ac130003",
+                "name": "Maron Birds"
             },
             "match_games": []
         },

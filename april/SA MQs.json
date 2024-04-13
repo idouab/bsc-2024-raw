@@ -32973,16 +32973,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
-                "name": "PaiN"
+                "name": "PaiN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "152d41ae-f38f-11ee-9e5a-0242ac130003",
-                "name": "RANKEY TAYOBA"
+                "name": "RANKEY TAYOBA",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "152d41ae-f38f-11ee-9e5a-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "152d41ae-f38f-11ee-9e5a-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "152d41ae-f38f-11ee-9e5a-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 696,
@@ -34608,7 +34649,8 @@
                 "name": "Team Return🌀"
             },
             "opponent2": {
-                "id": null
+                "id": "5281c57a-f5b0-11ee-90fb-0242ac130003",
+                "name": "PaiN"
             },
             "match_games": []
         },

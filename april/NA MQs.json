@@ -45013,16 +45013,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8b11da80-f487-11ee-95c0-0242ac130003",
-                "name": "Team 505"
+                "name": "Team 505",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
-                "name": "Raiders"
+                "name": "Raiders",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8b11da80-f487-11ee-95c0-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8b11da80-f487-11ee-95c0-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1017,
@@ -47352,7 +47381,8 @@
                 "name": "Hunter"
             },
             "opponent2": {
-                "id": null
+                "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                "name": "Raiders"
             },
             "match_games": []
         },

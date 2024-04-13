@@ -13856,7 +13856,7 @@
             "tournament_id": 0,
             "name": "Pepsi Team",
             "players": [
-                "Brayan_4O4O",
+                "PSI|Brayan_4040",
                 "Daniel San",
                 "✨zombozino✨",
                 "Superderekcl"
@@ -74012,16 +74012,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "525b6da8-f443-11ee-b396-0242ac130003",
-                "name": "OnlyinOhio"
+                "name": "OnlyinOhio",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "17b74c36-f4ec-11ee-b706-0242ac130003",
-                "name": "Karpita"
+                "name": "Karpita",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "525b6da8-f443-11ee-b396-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "17b74c36-f4ec-11ee-b706-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "525b6da8-f443-11ee-b396-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "17b74c36-f4ec-11ee-b706-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "525b6da8-f443-11ee-b396-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "17b74c36-f4ec-11ee-b706-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1651,
@@ -79198,16 +79239,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d828d86a-f4c7-11ee-be05-0242ac130003",
-                "name": "MMR Team"
+                "name": "MMR Team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "600b7854-f294-11ee-936a-0242ac130002",
-                "name": "Dark Prime"
+                "name": "Dark Prime",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "d828d86a-f4c7-11ee-be05-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "600b7854-f294-11ee-936a-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "d828d86a-f4c7-11ee-be05-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "600b7854-f294-11ee-936a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "d828d86a-f4c7-11ee-be05-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "600b7854-f294-11ee-936a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1809,
@@ -88615,10 +88697,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "525b6da8-f443-11ee-b396-0242ac130003",
+                "name": "OnlyinOhio"
             },
             "opponent2": {
-                "id": null
+                "id": "8190cb50-f811-11ee-a66e-0242ac130003",
+                "name": "Lightning Esports"
             },
             "match_games": []
         },
@@ -90024,7 +90108,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "600b7854-f294-11ee-936a-0242ac130002",
+                "name": "Dark Prime"
             },
             "opponent2": {
                 "id": null
@@ -111331,10 +111416,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d828d86a-f4c7-11ee-be05-0242ac130003",
+                "name": "MMR Team"
             },
             "opponent2": {
-                "id": null
+                "id": "100160bc-f578-11ee-8075-0242ac130003",
+                "name": "LENZUOLI"
             },
             "match_games": []
         },
@@ -114159,10 +114246,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "17b74c36-f4ec-11ee-b706-0242ac130003",
+                "name": "Karpita"
             },
             "opponent2": {
-                "id": null
+                "id": "f8dd63a2-f37b-11ee-b7f3-0242ac130003",
+                "name": "Infinity Orange"
             },
             "match_games": []
         },

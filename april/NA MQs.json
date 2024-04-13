@@ -37714,16 +37714,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
-                "name": "The Goonerz"
+                "name": "The Goonerz",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
-                "name": "SGJ"
+                "name": "SGJ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6323dd44-f3b4-11ee-b906-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1341,
@@ -43217,16 +43246,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
-                "name": "Campers"
+                "name": "Campers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
-                "name": "Bookies"
+                "name": "Bookies",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "51ba8e6c-f36f-11ee-ab8c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 939,
@@ -45856,7 +45914,8 @@
                 "name": "LFP ESPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "165c0482-f6b6-11ee-8ccc-0242ac130003",
+                "name": "Bookies"
             },
             "match_games": []
         },
@@ -48823,7 +48882,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "28a0bdec-f295-11ee-be8f-0242ac130002",
+                "name": "The Goonerz"
             },
             "opponent2": {
                 "id": null

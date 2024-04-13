@@ -39755,16 +39755,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
-                "name": "Shadown Lions |🦁"
+                "name": "Shadown Lions |🦁",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "921b0914-f626-11ee-abea-0242ac130003",
-                "name": "El Rejunte"
+                "name": "El Rejunte",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "921b0914-f626-11ee-abea-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5098d792-f82d-11ee-bdf2-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "921b0914-f626-11ee-abea-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 901,
@@ -40188,7 +40217,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "921b0914-f626-11ee-abea-0242ac130003",
+                "name": "El Rejunte"
             },
             "opponent2": {
                 "id": null

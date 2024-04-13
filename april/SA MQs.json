@@ -36074,16 +36074,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b758bd50-f295-11ee-aed3-0242ac130002",
-                "name": "GBD BILLY"
+                "name": "GBD BILLY",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
-                "name": "Team wolf 🐺"
+                "name": "Team wolf 🐺",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c2e515f4-f55d-11ee-a5b5-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 815,
@@ -36678,7 +36707,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                "name": "GBD BILLY"
             },
             "opponent2": {
                 "id": null

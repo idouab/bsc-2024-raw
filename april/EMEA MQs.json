@@ -91095,7 +91095,7 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 0,
+            "status": 3,
             "opponent1": {
                 "id": "3721b4e4-f294-11ee-8191-0242ac130002",
                 "name": "ACC |"
@@ -91527,16 +91527,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "59263c44-f443-11ee-b7b5-0242ac130003",
-                "name": "FFP | 𝔾𝔸𝕄𝕀ℕ𝔾"
+                "name": "FFP | 𝔾𝔸𝕄𝕀ℕ𝔾",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2e2c88f0-f294-11ee-8184-0242ac130002",
-                "name": "Skepsis Gaming"
+                "name": "Skepsis Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "59263c44-f443-11ee-b7b5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2e2c88f0-f294-11ee-8184-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "59263c44-f443-11ee-b7b5-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2e2c88f0-f294-11ee-8184-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2730,
@@ -124727,7 +124756,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "59263c44-f443-11ee-b7b5-0242ac130003",
+                "name": "FFP | 𝔾𝔸𝕄𝕀ℕ𝔾"
             },
             "opponent2": {
                 "id": null

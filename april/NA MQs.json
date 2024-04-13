@@ -7537,6 +7537,17 @@
             "img": ""
         },
         {
+            "id": "9b020054-f451-11ee-9a8f-0242ac130003",
+            "tournament_id": 0,
+            "name": "Nye",
+            "players": [
+                "kevrm69",
+                "ElJefedeJefes",
+                "EL MARI WANO"
+            ],
+            "img": ""
+        },
+        {
             "id": "972beda0-f3b6-11ee-bd13-0242ac130003",
             "tournament_id": 0,
             "name": "Phantoms FC Gaming",
@@ -11394,16 +11405,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7d868a34-f67e-11ee-8933-0242ac130003",
-                "name": "Los Gatos Locos"
+                "name": "Los Gatos Locos",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
-                "name": "Gridlock Gaming"
+                "name": "Gridlock Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7d868a34-f67e-11ee-8933-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7d868a34-f67e-11ee-8933-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c2f3d85e-f3ec-11ee-bd00-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 211,
@@ -11993,16 +12033,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bcc080a8-f523-11ee-b231-0242ac130003",
-                "name": "Donpablos"
+                "name": "Donpablos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9b020054-f451-11ee-9a8f-0242ac130003",
-                "name": "Nye"
+                "name": "Nye",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "bcc080a8-f523-11ee-b231-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b020054-f451-11ee-9a8f-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "bcc080a8-f523-11ee-b231-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b020054-f451-11ee-9a8f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 247,
@@ -18781,7 +18850,8 @@
                 "name": "Toronto Brawl Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "bcc080a8-f523-11ee-b231-0242ac130003",
+                "name": "Donpablos"
             },
             "match_games": []
         },

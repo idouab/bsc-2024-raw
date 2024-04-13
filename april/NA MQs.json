@@ -40210,16 +40210,57 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
-                "name": "VortexZX"
+                "name": "VortexZX",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
-                "name": "castrurris"
+                "name": "castrurris",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 612,
@@ -42650,10 +42691,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
+                "name": "castrurris"
             },
             "opponent2": {
-                "id": null
+                "id": "0e74f78a-f42f-11ee-bbf0-0242ac130003",
+                "name": "Divine Gaming"
             },
             "match_games": []
         },

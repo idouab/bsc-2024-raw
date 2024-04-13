@@ -31679,16 +31679,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "41098574-f530-11ee-a323-0242ac130003",
-                "name": "Stardust Crusaders"
+                "name": "Stardust Crusaders",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
-                "name": "PIPER’S"
+                "name": "PIPER’S",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "41098574-f530-11ee-a323-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "41098574-f530-11ee-a323-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "41098574-f530-11ee-a323-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 669,
@@ -32793,16 +32834,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f004ce54-f5a2-11ee-b45e-0242ac130003",
-                "name": "4fun"
+                "name": "4fun",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2755575c-f512-11ee-8321-0242ac130003",
-                "name": "ZMS"
+                "name": "ZMS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "f004ce54-f5a2-11ee-b45e-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2755575c-f512-11ee-8321-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "f004ce54-f5a2-11ee-b45e-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2755575c-f512-11ee-8321-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "f004ce54-f5a2-11ee-b45e-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2755575c-f512-11ee-8321-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 705,
@@ -33446,7 +33528,8 @@
                 "name": "Clube do Rovai"
             },
             "opponent2": {
-                "id": null
+                "id": "9f88f4b2-f414-11ee-a3cb-0242ac130003",
+                "name": "PIPER’S"
             },
             "match_games": []
         },
@@ -34072,7 +34155,8 @@
                 "name": "APOSENTADOS"
             },
             "opponent2": {
-                "id": null
+                "id": "2755575c-f512-11ee-8321-0242ac130003",
+                "name": "ZMS"
             },
             "match_games": []
         },

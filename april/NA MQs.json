@@ -7515,6 +7515,18 @@
             "img": ""
         },
         {
+            "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+            "tournament_id": 0,
+            "name": "Random's club",
+            "players": [
+                "sándwich 🍞",
+                "Hoopa",
+                "? ? ?",
+                "Isco"
+            ],
+            "img": ""
+        },
+        {
             "id": "8f73f054-f991-11ee-890f-0242ac130003",
             "tournament_id": 0,
             "name": "FDR | FEDORS",
@@ -10366,16 +10378,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7a08488-f3b6-11ee-83bf-0242ac130003",
-                "name": "OVERTIME"
+                "name": "OVERTIME",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
-                "name": "Random's club"
+                "name": "Random's club",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b7a08488-f3b6-11ee-83bf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b7a08488-f3b6-11ee-83bf-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8cd5e376-f931-11ee-94d7-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 139,
@@ -18222,7 +18263,8 @@
                 "name": "Quackers"
             },
             "opponent2": {
-                "id": null
+                "id": "b7a08488-f3b6-11ee-83bf-0242ac130003",
+                "name": "OVERTIME"
             },
             "match_games": []
         },

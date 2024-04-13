@@ -30992,16 +30992,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "38418da6-f675-11ee-a0e7-0242ac130003",
-                "name": "Master's Prophets"
+                "name": "Master's Prophets",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ea1c5768-f4ae-11ee-899b-0242ac130003",
-                "name": "ToyoBoBo"
+                "name": "ToyoBoBo",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "38418da6-f675-11ee-a0e7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea1c5768-f4ae-11ee-899b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "38418da6-f675-11ee-a0e7-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea1c5768-f4ae-11ee-899b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1053,
@@ -33644,16 +33673,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "27954c10-f295-11ee-84cc-0242ac130002",
-                "name": "Utopia"
+                "name": "Utopia",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c5d57030-f524-11ee-b949-0242ac130003",
-                "name": "Yes is a giroud"
+                "name": "Yes is a giroud",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "27954c10-f295-11ee-84cc-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c5d57030-f524-11ee-b949-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "27954c10-f295-11ee-84cc-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c5d57030-f524-11ee-b949-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1166,
@@ -34773,10 +34831,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "27954c10-f295-11ee-84cc-0242ac130002",
+                "name": "Utopia"
             },
             "opponent2": {
-                "id": null
+                "id": "f750ebf4-f54b-11ee-bc09-0242ac130003",
+                "name": "Team Storm"
             },
             "match_games": []
         },
@@ -41360,7 +41420,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ea1c5768-f4ae-11ee-899b-0242ac130003",
+                "name": "ToyoBoBo"
             },
             "opponent2": {
                 "id": null
@@ -41602,7 +41663,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c5d57030-f524-11ee-b949-0242ac130003",
+                "name": "Yes is a giroud"
             },
             "opponent2": {
                 "id": null

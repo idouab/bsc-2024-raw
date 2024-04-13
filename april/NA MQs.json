@@ -8956,6 +8956,17 @@
             "img": ""
         },
         {
+            "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+            "tournament_id": 0,
+            "name": "VortexZX",
+            "players": [
+                "pixelpoika★彡",
+                "ĐĪƏĞŒ/ÝÞ",
+                "メ | 𝒫𝑒𝒸𝑜 ☁️"
+            ],
+            "img": ""
+        },
+        {
             "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
             "tournament_id": 0,
             "name": "castrurris",
@@ -23844,16 +23855,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
-                "name": "VortexZX"
+                "name": "VortexZX",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a6e161ec-f480-11ee-80cb-0242ac130003",
-                "name": "MG VARSITY"
+                "name": "MG VARSITY",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a6e161ec-f480-11ee-80cb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a6e161ec-f480-11ee-80cb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a6e161ec-f480-11ee-80cb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 745,
@@ -30252,7 +30304,8 @@
                 "name": "Midnight Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "a6e161ec-f480-11ee-80cb-0242ac130003",
+                "name": "MG VARSITY"
             },
             "match_games": []
         },
@@ -35322,10 +35375,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c61b2bc-f528-11ee-a35b-0242ac130003",
+                "name": "VortexZX"
             },
             "opponent2": {
-                "id": null
+                "id": "006a9c6a-f986-11ee-a8f3-0242ac130003",
+                "name": "castrurris"
             },
             "match_games": []
         },

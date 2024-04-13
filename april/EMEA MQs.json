@@ -72384,16 +72384,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "307b99ca-f294-11ee-a999-0242ac130002",
-                "name": "Hagener ESPORTS"
+                "name": "Hagener ESPORTS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3d06d3c4-f6bf-11ee-b610-0242ac130003",
-                "name": "LMG SQUAD"
+                "name": "LMG SQUAD",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "307b99ca-f294-11ee-a999-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3d06d3c4-f6bf-11ee-b610-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "307b99ca-f294-11ee-a999-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d06d3c4-f6bf-11ee-b610-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "307b99ca-f294-11ee-a999-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d06d3c4-f6bf-11ee-b610-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1597,
@@ -88560,10 +88601,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d06d3c4-f6bf-11ee-b610-0242ac130003",
+                "name": "LMG SQUAD"
             },
             "opponent2": {
-                "id": null
+                "id": "7cd0d144-f37c-11ee-9167-0242ac130003",
+                "name": "The Dreamers F/A"
             },
             "match_games": []
         },
@@ -115594,10 +115637,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "307b99ca-f294-11ee-a999-0242ac130002",
+                "name": "Hagener ESPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "1435b3f2-f35e-11ee-a8f6-0242ac130003",
+                "name": "Death zone"
             },
             "match_games": []
         },

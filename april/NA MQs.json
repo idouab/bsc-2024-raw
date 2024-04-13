@@ -31367,16 +31367,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e13844e-f295-11ee-8815-0242ac130002",
-                "name": "33% ASEAN"
+                "name": "33% ASEAN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5c85c5c-f47b-11ee-8028-0242ac130003",
-                "name": "Light$ide"
+                "name": "Light$ide",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c85c5c-f47b-11ee-8028-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c85c5c-f47b-11ee-8028-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1058,
@@ -32447,16 +32476,57 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1522dade-f3a3-11ee-a8e8-0242ac130003",
-                "name": "Rebellious"
+                "name": "Rebellious",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
-                "name": "Llj gaming"
+                "name": "Llj gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1522dade-f3a3-11ee-a8e8-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1522dade-f3a3-11ee-a8e8-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "1522dade-f3a3-11ee-a8e8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1089,
@@ -35650,7 +35720,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e13844e-f295-11ee-8815-0242ac130002",
+                "name": "33% ASEAN"
             },
             "opponent2": {
                 "id": null
@@ -35910,7 +35981,8 @@
                 "name": "Fusyon EC"
             },
             "opponent2": {
-                "id": null
+                "id": "fab5d53a-f4a5-11ee-b5ee-0242ac130003",
+                "name": "Llj gaming"
             },
             "match_games": []
         },
@@ -42815,7 +42887,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1522dade-f3a3-11ee-a8e8-0242ac130003",
+                "name": "Rebellious"
             },
             "opponent2": {
                 "id": null
@@ -43329,7 +43402,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5c85c5c-f47b-11ee-8028-0242ac130003",
+                "name": "Light$ide"
             },
             "opponent2": {
                 "id": null

@@ -34732,16 +34732,45 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "550c3796-f554-11ee-b12a-0242ac130003",
-                "name": "RDL | WANGESTU"
+                "name": "RDL | WANGESTU",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ecb490dc-f4ed-11ee-aa74-0242ac130003",
-                "name": "Pichula gorda"
+                "name": "Pichula gorda",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ecb490dc-f4ed-11ee-aa74-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ecb490dc-f4ed-11ee-aa74-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 763,
@@ -36078,7 +36107,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "550c3796-f554-11ee-b12a-0242ac130003",
+                "name": "RDL | WANGESTU"
             },
             "opponent2": {
                 "id": null

@@ -3081,6 +3081,17 @@
             "img": ""
         },
         {
+            "id": "f5762048-f360-11ee-bf86-0242ac130003",
+            "tournament_id": 0,
+            "name": "@Tukusumu",
+            "players": [
+                "ヒマラヤ山脈",
+                "アンデス山脈",
+                "アパラチア山脈"
+            ],
+            "img": ""
+        },
+        {
             "id": "698075b8-f584-11ee-b779-0242ac130003",
             "tournament_id": 0,
             "name": "DARKSIDE",
@@ -3100,6 +3111,18 @@
                 "JM#ryuchan",
                 "どすこいばけつ",
                 "JM#arts"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+            "tournament_id": 0,
+            "name": "Trash boys",
+            "players": [
+                "Five",
+                "priyanshu",
+                "✵| Ravage™",
+                "HYDRA |ARYAN™"
             ],
             "img": ""
         },
@@ -5692,16 +5715,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "42be1068-f442-11ee-9c82-0242ac130003",
-                "name": "E-Sports Team Simama"
+                "name": "E-Sports Team Simama",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5762048-f360-11ee-bf86-0242ac130003",
-                "name": "@Tukusumu"
+                "name": "@Tukusumu",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "42be1068-f442-11ee-9c82-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "42be1068-f442-11ee-9c82-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 92,
@@ -5804,16 +5856,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
-                "name": "Trash boys"
+                "name": "Trash boys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dcb60fee-f484-11ee-a894-0242ac130003",
-                "name": "広尾学園"
+                "name": "広尾学園",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 95,
@@ -7435,10 +7516,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "42be1068-f442-11ee-9c82-0242ac130003",
+                "name": "E-Sports Team Simama"
             },
             "opponent2": {
-                "id": null
+                "id": "0fe721e6-f4f3-11ee-b5ac-0242ac130003",
+                "name": "Essential"
             },
             "match_games": []
         },
@@ -7455,7 +7538,8 @@
                 "name": "ぐろーりーうぇーん"
             },
             "opponent2": {
-                "id": null
+                "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                "name": "広尾学園"
             },
             "match_games": []
         },
@@ -9348,10 +9432,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5762048-f360-11ee-bf86-0242ac130003",
+                "name": "@Tukusumu"
             },
             "opponent2": {
-                "id": null
+                "id": "698075b8-f584-11ee-b779-0242ac130003",
+                "name": "DARKSIDE"
             },
             "match_games": []
         },
@@ -9368,7 +9454,8 @@
                 "name": "ジャストミート"
             },
             "opponent2": {
-                "id": null
+                "id": "c93def42-f7c0-11ee-88ae-0242ac130003",
+                "name": "Trash boys"
             },
             "match_games": []
         },

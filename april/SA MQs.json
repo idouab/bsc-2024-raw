@@ -6216,16 +6216,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6b542ad2-f97c-11ee-9ae9-0242ac130003",
-                "name": "MJL"
+                "name": "MJL",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c9703786-f392-11ee-b240-0242ac130003",
-                "name": "9AliensCampeão"
+                "name": "9AliensCampeão",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6b542ad2-f97c-11ee-9ae9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c9703786-f392-11ee-b240-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6b542ad2-f97c-11ee-9ae9-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c9703786-f392-11ee-b240-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 43,
@@ -10537,7 +10566,8 @@
                 "name": "Mini XB"
             },
             "opponent2": {
-                "id": null
+                "id": "c9703786-f392-11ee-b240-0242ac130003",
+                "name": "9AliensCampeão"
             },
             "match_games": []
         },

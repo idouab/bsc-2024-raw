@@ -31791,16 +31791,45 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
-                "name": "Haunters"
+                "name": "Haunters",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c54e2862-f382-11ee-a983-0242ac130003",
-                "name": "FANNAF"
+                "name": "FANNAF",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "5b9bfa02-f44a-11ee-88fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1099,
@@ -39895,7 +39924,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c54e2862-f382-11ee-a983-0242ac130003",
+                "name": "FANNAF"
             },
             "opponent2": {
                 "id": null

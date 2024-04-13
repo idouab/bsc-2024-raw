@@ -5543,6 +5543,18 @@
             "img": ""
         },
         {
+            "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+            "tournament_id": 0,
+            "name": "TEAM DEPENDE",
+            "players": [
+                "⛩️|Ƀɇɍsɇɍꝁ𒉭•",
+                "𝕴𝔠𝔢|𝔰𝔞𝔪🥶",
+                "pan con cafe",
+                "Fetuchinni❄️"
+            ],
+            "img": ""
+        },
+        {
             "id": "5277071c-f6d1-11ee-b8d7-0242ac130003",
             "tournament_id": 0,
             "name": "Los eso brad",
@@ -5584,6 +5596,17 @@
                 "TD|Agus",
                 "TD |Pruder",
                 "Danbex×"
+            ],
+            "img": ""
+        },
+        {
+            "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+            "tournament_id": 0,
+            "name": "EL BUENOS",
+            "players": [
+                "*EL PURGA*",
+                "tøp bøy",
+                "El foosey"
             ],
             "img": ""
         },
@@ -8391,16 +8414,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
-                "name": "TEAM DEPENDE"
+                "name": "TEAM DEPENDE",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
-                "name": "Ovni"
+                "name": "Ovni",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 95,
@@ -9257,16 +9309,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
-                "name": "HembrasHermosas"
+                "name": "HembrasHermosas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2977137e-f529-11ee-b0c0-0242ac130003",
-                "name": "EL BUENOS"
+                "name": "EL BUENOS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 137,
@@ -12960,7 +13053,8 @@
                 "name": "RM"
             },
             "opponent2": {
-                "id": null
+                "id": "7d8a4242-f3a3-11ee-95ca-0242ac130003",
+                "name": "Ovni"
             },
             "match_games": []
         },
@@ -16794,7 +16888,8 @@
                 "name": "Tired of winning Tow"
             },
             "opponent2": {
-                "id": null
+                "id": "73bdc7f2-f786-11ee-a6ee-0242ac130003",
+                "name": "TEAM DEPENDE"
             },
             "match_games": []
         },

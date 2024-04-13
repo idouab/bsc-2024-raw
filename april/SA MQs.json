@@ -27575,16 +27575,45 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
-                "name": "SANJU B.S."
+                "name": "SANJU B.S.",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
-                "name": "Blue"
+                "name": "Blue",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53dd9f0a-f369-11ee-928b-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 509,
@@ -30085,7 +30114,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4a18f572-f3ce-11ee-bdce-0242ac130003",
+                "name": "SANJU B.S."
             },
             "opponent2": {
                 "id": null

@@ -18226,16 +18226,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b758bd50-f295-11ee-aed3-0242ac130002",
-                "name": "GBD BILLY"
+                "name": "GBD BILLY",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "301ae754-f543-11ee-90fb-0242ac130003",
-                "name": "Astral Divinity"
+                "name": "Astral Divinity",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "301ae754-f543-11ee-90fb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "301ae754-f543-11ee-90fb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "301ae754-f543-11ee-90fb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 422,
@@ -18498,16 +18539,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "472fee76-f430-11ee-a5f0-0242ac130003",
-                "name": "DirectX"
+                "name": "DirectX",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "91919aa8-f44b-11ee-ae06-0242ac130003",
-                "name": "TripletSanity"
+                "name": "TripletSanity",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "472fee76-f430-11ee-a5f0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91919aa8-f44b-11ee-ae06-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "472fee76-f430-11ee-a5f0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91919aa8-f44b-11ee-ae06-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 430,
@@ -19142,16 +19212,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
-                "name": "VongolaAkatsuki"
+                "name": "VongolaAkatsuki",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "40255264-f373-11ee-88c7-0242ac130003",
-                "name": "Team crow"
+                "name": "Team crow",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "40255264-f373-11ee-88c7-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "40255264-f373-11ee-88c7-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 447,
@@ -20718,7 +20817,8 @@
                 "name": "Sunflowers 🌻"
             },
             "opponent2": {
-                "id": null
+                "id": "b758bd50-f295-11ee-aed3-0242ac130002",
+                "name": "GBD BILLY"
             },
             "match_games": []
         },
@@ -20935,10 +21035,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                "name": "VongolaAkatsuki"
             },
             "opponent2": {
-                "id": null
+                "id": "b5f3dbde-f295-11ee-bcee-0242ac130002",
+                "name": "TERRAZAP"
             },
             "match_games": []
         },
@@ -24347,7 +24449,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "40255264-f373-11ee-88c7-0242ac130003",
+                "name": "Team crow"
             },
             "opponent2": {
                 "id": null
@@ -24632,10 +24735,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "91919aa8-f44b-11ee-ae06-0242ac130003",
+                "name": "TripletSanity"
             },
             "opponent2": {
-                "id": null
+                "id": "f0c33f2e-f458-11ee-bfbb-0242ac130003",
+                "name": "TDB/DIVISÃO"
             },
             "match_games": []
         },
@@ -24765,10 +24870,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "301ae754-f543-11ee-90fb-0242ac130003",
+                "name": "Astral Divinity"
             },
             "opponent2": {
-                "id": null
+                "id": "f29e3afa-f463-11ee-a336-0242ac130003",
+                "name": "Originais"
             },
             "match_games": []
         },

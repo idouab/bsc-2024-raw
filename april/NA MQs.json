@@ -22019,16 +22019,45 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "27b9f1a0-f295-11ee-8d25-0242ac130002",
-                "name": "Team Nexus Titans"
+                "name": "Team Nexus Titans",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f3cdfd2-f93f-11ee-8dd0-0242ac130003",
-                "name": "Panick picks"
+                "name": "Panick picks",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "27b9f1a0-f295-11ee-8d25-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f3cdfd2-f93f-11ee-8dd0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "27b9f1a0-f295-11ee-8d25-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f3cdfd2-f93f-11ee-8dd0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 762,
@@ -23063,16 +23092,69 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e07589a-f295-11ee-90ab-0242ac130002",
-                "name": "Juan Carlos Team"
+                "name": "Juan Carlos Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ae07cbb8-f3d2-11ee-8ffb-0242ac130003",
-                "name": "Knee Growers"
+                "name": "Knee Growers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae07cbb8-f3d2-11ee-8ffb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae07cbb8-f3d2-11ee-8ffb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae07cbb8-f3d2-11ee-8ffb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae07cbb8-f3d2-11ee-8ffb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 820,
@@ -25667,7 +25749,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6f3cdfd2-f93f-11ee-8dd0-0242ac130003",
+                "name": "Panick picks"
             },
             "opponent2": {
                 "id": null
@@ -26131,7 +26214,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e07589a-f295-11ee-90ab-0242ac130002",
+                "name": "Juan Carlos Team"
             },
             "opponent2": {
                 "id": null

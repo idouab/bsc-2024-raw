@@ -10280,16 +10280,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cca3957e-f293-11ee-ad2b-0242ac130002",
-                "name": "ぐろーりーうぇーん"
+                "name": "ぐろーりーうぇーん",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dcb60fee-f484-11ee-a894-0242ac130003",
-                "name": "広尾学園"
+                "name": "広尾学園",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cca3957e-f293-11ee-ad2b-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cca3957e-f293-11ee-ad2b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cca3957e-f293-11ee-ad2b-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 232,
@@ -11405,7 +11446,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dcb60fee-f484-11ee-a894-0242ac130003",
+                "name": "広尾学園"
             },
             "opponent2": {
                 "id": null
@@ -13626,7 +13668,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cca3957e-f293-11ee-ad2b-0242ac130002",
+                "name": "ぐろーりーうぇーん"
             },
             "opponent2": {
                 "id": null

@@ -73850,16 +73850,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9868bc2e-f501-11ee-a661-0242ac130003",
-                "name": "Bat9"
+                "name": "Bat9",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "373a1c28-f294-11ee-98b8-0242ac130002",
-                "name": "Limoonchoy"
+                "name": "Limoonchoy",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "373a1c28-f294-11ee-98b8-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "373a1c28-f294-11ee-98b8-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "373a1c28-f294-11ee-98b8-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1644,
@@ -89359,7 +89400,8 @@
                 "name": "CookiesMonsters"
             },
             "opponent2": {
-                "id": null
+                "id": "373a1c28-f294-11ee-98b8-0242ac130002",
+                "name": "Limoonchoy"
             },
             "match_games": []
         },
@@ -115165,10 +115207,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9868bc2e-f501-11ee-a661-0242ac130003",
+                "name": "Bat9"
             },
             "opponent2": {
-                "id": null
+                "id": "81f22de0-f678-11ee-8364-0242ac130003",
+                "name": "F/A Africa"
             },
             "match_games": []
         },

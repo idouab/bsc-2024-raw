@@ -33118,16 +33118,57 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6590f1ae-f5bf-11ee-89bd-0242ac130003",
-                "name": "SUITS"
+                "name": "SUITS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b698c2de-f295-11ee-9c24-0242ac130002",
-                "name": "JJJ"
+                "name": "JJJ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "6590f1ae-f5bf-11ee-89bd-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "6590f1ae-f5bf-11ee-89bd-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "6590f1ae-f5bf-11ee-89bd-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 713,
@@ -34365,7 +34406,8 @@
                 "name": "LPV TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "b698c2de-f295-11ee-9c24-0242ac130002",
+                "name": "JJJ"
             },
             "match_games": []
         },

@@ -24314,16 +24314,45 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b53f718a-f295-11ee-a717-0242ac130002",
-                "name": "TMR"
+                "name": "TMR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4e40485a-f74b-11ee-b945-0242ac130003",
-                "name": "Skibidi Tlil"
+                "name": "Skibidi Tlil",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 732,
@@ -25303,7 +25332,8 @@
                 "name": "Panchos"
             },
             "opponent2": {
-                "id": null
+                "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                "name": "TMR"
             },
             "match_games": []
         },
@@ -35011,7 +35041,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                "name": "Skibidi Tlil"
             },
             "opponent2": {
                 "id": null

@@ -7482,6 +7482,17 @@
             "img": ""
         },
         {
+            "id": "934db748-f449-11ee-982e-0242ac130003",
+            "tournament_id": 0,
+            "name": "Cheesy",
+            "players": [
+                "Rithwik",
+                "Helsi",
+                "dipsauces"
+            ],
+            "img": ""
+        },
+        {
             "id": "82d6393c-f398-11ee-832d-0242ac130003",
             "tournament_id": 0,
             "name": "Lemays",
@@ -10052,16 +10063,45 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "38ed3872-f549-11ee-ac17-0242ac130003",
-                "name": "Ladder warrior team"
+                "name": "Ladder warrior team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "934db748-f449-11ee-982e-0242ac130003",
-                "name": "Cheesy"
+                "name": "Cheesy",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "38ed3872-f549-11ee-ac17-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "934db748-f449-11ee-982e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "38ed3872-f549-11ee-ac17-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "934db748-f449-11ee-982e-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 127,
@@ -18075,7 +18115,8 @@
                 "name": "YucaPros"
             },
             "opponent2": {
-                "id": null
+                "id": "38ed3872-f549-11ee-ac17-0242ac130003",
+                "name": "Ladder warrior team"
             },
             "match_games": []
         },

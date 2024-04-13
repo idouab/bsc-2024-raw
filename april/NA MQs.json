@@ -38272,16 +38272,57 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ea83c38c-f943-11ee-8f88-0242ac130003",
-                "name": "VCSK 2.0"
+                "name": "VCSK 2.0",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f45cab34-f539-11ee-8357-0242ac130003",
-                "name": "Yeet"
+                "name": "Yeet",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "ea83c38c-f943-11ee-8f88-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "ea83c38c-f943-11ee-8f88-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "ea83c38c-f943-11ee-8f88-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1351,
@@ -38337,14 +38378,15 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b67523e-f295-11ee-b435-0242ac130002",
                 "name": "FHRITP"
             },
             "opponent2": {
                 "id": "980ee836-f9a0-11ee-a33d-0242ac130003",
-                "name": "Drxam |🪐"
+                "name": "Drxam |🪐",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -39122,7 +39164,8 @@
                 "name": "PDF Team"
             },
             "opponent2": {
-                "id": null
+                "id": "f45cab34-f539-11ee-8357-0242ac130003",
+                "name": "Yeet"
             },
             "match_games": []
         },
@@ -39139,7 +39182,8 @@
                 "name": "Yippee"
             },
             "opponent2": {
-                "id": null
+                "id": "2b67523e-f295-11ee-b435-0242ac130002",
+                "name": "FHRITP"
             },
             "match_games": []
         },
@@ -49554,7 +49598,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ea83c38c-f943-11ee-8f88-0242ac130003",
+                "name": "VCSK 2.0"
             },
             "opponent2": {
                 "id": null
@@ -49587,7 +49632,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "980ee836-f9a0-11ee-a33d-0242ac130003",
+                "name": "Drxam |🪐"
             },
             "opponent2": {
                 "id": null

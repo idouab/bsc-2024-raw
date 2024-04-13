@@ -38318,16 +38318,57 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2937ab08-f295-11ee-b1b7-0242ac130002",
-                "name": "MNC ESPORTS"
+                "name": "MNC ESPORTS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e840dd02-f93a-11ee-a93f-0242ac130003",
-                "name": "Los Fujas"
+                "name": "Los Fujas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2937ab08-f295-11ee-b1b7-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e840dd02-f93a-11ee-a93f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2937ab08-f295-11ee-b1b7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e840dd02-f93a-11ee-a93f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2937ab08-f295-11ee-b1b7-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e840dd02-f93a-11ee-a93f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1349,
@@ -39303,7 +39344,8 @@
                 "name": "Spacestation Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "2937ab08-f295-11ee-b1b7-0242ac130002",
+                "name": "MNC ESPORTS"
             },
             "match_games": []
         },
@@ -49837,7 +49879,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e840dd02-f93a-11ee-a93f-0242ac130003",
+                "name": "Los Fujas"
             },
             "opponent2": {
                 "id": null

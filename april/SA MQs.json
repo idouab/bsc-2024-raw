@@ -5450,6 +5450,18 @@
             "img": ""
         },
         {
+            "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+            "tournament_id": 0,
+            "name": "LanzRea",
+            "players": [
+                "@Mark.rom 👾",
+                "❥awarefieldゴジョ©",
+                "elprofabry",
+                "TR | ARCHI"
+            ],
+            "img": ""
+        },
+        {
             "id": "6d3c6afa-f44d-11ee-afca-0242ac130003",
             "tournament_id": 0,
             "name": "AXIS",
@@ -5788,6 +5800,18 @@
                 "TD|Agus",
                 "TD |Pruder",
                 "Danbex×"
+            ],
+            "img": ""
+        },
+        {
+            "id": "91bec842-f43d-11ee-809e-0242ac130003",
+            "tournament_id": 0,
+            "name": "AKBRAWL",
+            "players": [
+                "Koppus",
+                "✨Allen$ | AK✨",
+                "Montmorency",
+                "👑DS|YisuesXD"
             ],
             "img": ""
         },
@@ -7770,16 +7794,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
-                "name": "LanzRea"
+                "name": "LanzRea",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4e40485a-f74b-11ee-b945-0242ac130003",
-                "name": "Skibidi Tlil"
+                "name": "Skibidi Tlil",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 48,
@@ -10452,16 +10517,57 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b583e432-f295-11ee-ad4d-0242ac130002",
-                "name": "Legends Stars"
+                "name": "Legends Stars",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "91bec842-f43d-11ee-809e-0242ac130003",
-                "name": "AKBRAWL"
+                "name": "AKBRAWL",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 136,
@@ -14615,7 +14721,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4e40485a-f74b-11ee-b945-0242ac130003",
+                "name": "Skibidi Tlil"
             },
             "opponent2": {
                 "id": null
@@ -15356,10 +15463,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b583e432-f295-11ee-ad4d-0242ac130002",
+                "name": "Legends Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "fbe962c8-f798-11ee-bdf0-0242ac130003",
+                "name": "HembrasHermosas"
             },
             "match_games": []
         },
@@ -18625,7 +18734,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6ef8a38-f295-11ee-a49c-0242ac130002",
+                "name": "LanzRea"
             },
             "opponent2": {
                 "id": null
@@ -19122,10 +19232,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "91bec842-f43d-11ee-809e-0242ac130003",
+                "name": "AKBRAWL"
             },
             "opponent2": {
-                "id": null
+                "id": "2977137e-f529-11ee-b0c0-0242ac130003",
+                "name": "EL BUENOS"
             },
             "match_games": []
         },

@@ -9325,16 +9325,57 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1b2a9e88-f5ad-11ee-b5cd-0242ac130003",
-                "name": "ウラノス"
+                "name": "ウラノス",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "daf90dde-f356-11ee-94e7-0242ac130003",
-                "name": "OUT"
+                "name": "OUT",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "1b2a9e88-f5ad-11ee-b5cd-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "daf90dde-f356-11ee-94e7-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "1b2a9e88-f5ad-11ee-b5cd-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "daf90dde-f356-11ee-94e7-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "1b2a9e88-f5ad-11ee-b5cd-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "daf90dde-f356-11ee-94e7-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 207,
@@ -11224,7 +11265,8 @@
                 "name": "ますたー芸人🐋"
             },
             "opponent2": {
-                "id": null
+                "id": "1b2a9e88-f5ad-11ee-b5cd-0242ac130003",
+                "name": "ウラノス"
             },
             "match_games": []
         },
@@ -12313,10 +12355,11 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ddcd0122-f4e7-11ee-8f91-0242ac130003",
-                "name": "暇人必殺ZKルト"
+                "name": "暇人必殺ZKルト",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "5bf4f1b4-f3ed-11ee-9482-0242ac130003",
@@ -13639,7 +13682,8 @@
                 "name": "WYD5"
             },
             "opponent2": {
-                "id": null
+                "id": "5bf4f1b4-f3ed-11ee-9482-0242ac130003",
+                "name": "The Nemesis Alliance"
             },
             "match_games": []
         },
@@ -14091,7 +14135,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "daf90dde-f356-11ee-94e7-0242ac130003",
+                "name": "OUT"
             },
             "opponent2": {
                 "id": null

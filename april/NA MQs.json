@@ -60023,16 +60023,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "212da522-f509-11ee-b8fc-0242ac130003",
-                "name": "Masters club"
+                "name": "Masters club",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "60875144-f47f-11ee-85cb-0242ac130003",
-                "name": "Underdog"
+                "name": "Underdog",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60875144-f47f-11ee-85cb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60875144-f47f-11ee-85cb-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1630,
@@ -60303,7 +60332,8 @@
                 "name": "Paputilinos"
             },
             "opponent2": {
-                "id": null
+                "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                "name": "Masters club"
             },
             "match_games": []
         },

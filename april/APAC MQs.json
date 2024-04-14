@@ -22152,16 +22152,57 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "504ccc40-f59d-11ee-b497-0242ac130003",
-                "name": "Feasible Gaming"
+                "name": "Feasible Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
-                "name": "Rising Raccoon"
+                "name": "Rising Raccoon",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ce1e961a-f293-11ee-8fc3-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 488,
@@ -22259,7 +22300,8 @@
                 "name": "Crazy Raccoon"
             },
             "opponent2": {
-                "id": null
+                "id": "504ccc40-f59d-11ee-b497-0242ac130003",
+                "name": "Feasible Gaming"
             },
             "match_games": []
         },

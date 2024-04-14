@@ -41029,16 +41029,57 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b74ee168-f295-11ee-ad80-0242ac130002",
-                "name": "3DBR Sports Ultra"
+                "name": "3DBR Sports Ultra",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b74ee168-f295-11ee-ad80-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 931,
@@ -41593,8 +41634,14 @@
             "round_id": 9,
             "child_count": 3,
             "status": 0,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                "name": "Escandalosos"
+            },
+            "opponent2": {
+                "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                "name": "Fortune Tigers"
+            },
             "match_games": []
         },
         {

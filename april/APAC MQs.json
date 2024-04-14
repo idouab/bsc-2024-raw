@@ -22052,16 +22052,57 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
-                "name": "アヒル同好会"
+                "name": "アヒル同好会",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61eda130-f64d-11ee-846f-0242ac130003",
-                "name": "Aquamarine"
+                "name": "Aquamarine",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61eda130-f64d-11ee-846f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 487,
@@ -22158,7 +22199,8 @@
                 "name": "3R Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                "name": "アヒル同好会"
             },
             "match_games": []
         },

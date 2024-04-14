@@ -61312,16 +61312,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
-                "name": "pencilpoopoo"
+                "name": "pencilpoopoo",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
-                "name": "Ye"
+                "name": "Ye",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a4274a6-f295-11ee-a8b5-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1651,
@@ -61601,7 +61630,8 @@
                 "name": "512"
             },
             "opponent2": {
-                "id": null
+                "id": "5cae7b7a-f703-11ee-b790-0242ac130003",
+                "name": "Ye"
             },
             "match_games": []
         },

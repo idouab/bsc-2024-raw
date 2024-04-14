@@ -61866,16 +61866,45 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a6a2884-f295-11ee-a851-0242ac130002",
-                "name": "Team Oinkers"
+                "name": "Team Oinkers",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "299448ea-f295-11ee-9744-0242ac130002",
-                "name": "Complexity"
+                "name": "Complexity",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "299448ea-f295-11ee-9744-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "299448ea-f295-11ee-9744-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1663,
@@ -61941,7 +61970,8 @@
                 "name": "Juan Carlos Team"
             },
             "opponent2": {
-                "id": null
+                "id": "299448ea-f295-11ee-9744-0242ac130002",
+                "name": "Complexity"
             },
             "match_games": []
         },

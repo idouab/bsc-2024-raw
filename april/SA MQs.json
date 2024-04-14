@@ -42153,16 +42153,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b53f718a-f295-11ee-a717-0242ac130002",
-                "name": "TMR"
+                "name": "TMR",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
-                "name": "Ifood Team"
+                "name": "Ifood Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b53f718a-f295-11ee-a717-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 960,

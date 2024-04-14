@@ -60908,16 +60908,57 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
-                "name": "Paputilinos"
+                "name": "Paputilinos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "212da522-f509-11ee-b8fc-0242ac130003",
-                "name": "Masters club"
+                "name": "Masters club",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1646,
@@ -61029,7 +61070,10 @@
             "round_id": 10,
             "child_count": 3,
             "status": 0,
-            "opponent1": null,
+            "opponent1": {
+                "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
+                "name": "Paputilinos"
+            },
             "opponent2": null,
             "match_games": []
         },

@@ -61200,16 +61200,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86d7df40-f933-11ee-810d-0242ac130003",
-                "name": "The Informants"
+                "name": "The Informants",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2819945c-f295-11ee-a4ca-0242ac130002",
-                "name": "Goblin Gang F/A"
+                "name": "Goblin Gang F/A",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1648,
@@ -61420,7 +61449,8 @@
                 "name": "West Coast FA"
             },
             "opponent2": {
-                "id": null
+                "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                "name": "The Informants"
             },
             "match_games": []
         },

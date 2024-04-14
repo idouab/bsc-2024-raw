@@ -41633,16 +41633,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2b07450-f295-11ee-b95c-0242ac130002",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b07450-f295-11ee-b95c-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 947,
@@ -41792,16 +41821,57 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
-                "name": "bota limpo"
+                "name": "bota limpo",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b129a1ce-f295-11ee-8208-0242ac130002",
-                "name": "ACRE LOVERS"
+                "name": "ACRE LOVERS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b129a1ce-f295-11ee-8208-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 951,
@@ -41941,7 +42011,8 @@
                 "name": "Sunflowers 🌻"
             },
             "opponent2": {
-                "id": null
+                "id": "8beea14c-f5f2-11ee-bdbb-0242ac130003",
+                "name": "Escandalosos"
             },
             "match_games": []
         },
@@ -42012,7 +42083,8 @@
                 "name": "DOM Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "match_games": []
         },

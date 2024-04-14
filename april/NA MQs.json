@@ -59877,16 +59877,57 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2be5fada-f295-11ee-965f-0242ac130002",
-                "name": "One and One"
+                "name": "One and One",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
-                "name": "WitnessTheJourney"
+                "name": "WitnessTheJourney",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1618,
@@ -60287,7 +60328,8 @@
                 "name": "Entity"
             },
             "opponent2": {
-                "id": null
+                "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                "name": "One and One"
             },
             "match_games": []
         },

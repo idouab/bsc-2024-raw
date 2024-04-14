@@ -60449,16 +60449,57 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
-                "name": "SGA"
+                "name": "SGA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
-                "name": "ZTMN babys"
+                "name": "ZTMN babys",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1631,
@@ -60740,7 +60781,8 @@
                 "name": "Complexity"
             },
             "opponent2": {
-                "id": null
+                "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                "name": "SGA"
             },
             "match_games": []
         },

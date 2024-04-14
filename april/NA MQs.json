@@ -56883,16 +56883,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83866976-f3d7-11ee-b812-0242ac130003",
-                "name": "Alpha"
+                "name": "Alpha",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "86d7df40-f933-11ee-810d-0242ac130003",
-                "name": "The Informants"
+                "name": "The Informants",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "83866976-f3d7-11ee-b812-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "83866976-f3d7-11ee-b812-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1540,
@@ -57465,7 +57494,8 @@
                 "name": "312"
             },
             "opponent2": {
-                "id": null
+                "id": "86d7df40-f933-11ee-810d-0242ac130003",
+                "name": "The Informants"
             },
             "match_games": []
         },

@@ -62220,16 +62220,45 @@
             "group_id": 1,
             "round_id": 13,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
-                "name": "Luminosity"
+                "name": "Luminosity",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7e088fee-f295-11ee-872a-0242ac130002",
-                "name": "West Coast FA"
+                "name": "West Coast FA",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7e088fee-f295-11ee-872a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7e088fee-f295-11ee-872a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1668,

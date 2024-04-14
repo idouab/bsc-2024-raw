@@ -61247,16 +61247,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2be5fada-f295-11ee-965f-0242ac130002",
-                "name": "One and One"
+                "name": "One and One",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
-                "name": "Jokers"
+                "name": "Jokers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2be5fada-f295-11ee-965f-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1649,
@@ -61467,7 +61496,8 @@
                 "name": "Midnight Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "05d71f2c-f96b-11ee-accc-0242ac130003",
+                "name": "Jokers"
             },
             "match_games": []
         },

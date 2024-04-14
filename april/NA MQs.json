@@ -54707,16 +54707,57 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a987370a-f44e-11ee-bba1-0242ac130003",
-                "name": "TTA"
+                "name": "TTA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5de66b40-f430-11ee-8058-0242ac130003",
-                "name": "FloMo"
+                "name": "FloMo",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5de66b40-f430-11ee-8058-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1462,
@@ -54725,16 +54766,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2887332c-f295-11ee-a589-0242ac130002",
-                "name": "2W"
+                "name": "2W",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
-                "name": "MSMS A"
+                "name": "MSMS A",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2887332c-f295-11ee-a589-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2887332c-f295-11ee-a589-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8c340fe-f3d0-11ee-9cba-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1463,
@@ -56428,10 +56498,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                "name": "TTA"
             },
             "opponent2": {
-                "id": null
+                "id": "2887332c-f295-11ee-a589-0242ac130002",
+                "name": "2W"
             },
             "match_games": []
         },

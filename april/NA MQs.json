@@ -57896,16 +57896,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4b53cbb4-f569-11ee-93ae-0242ac130003",
-                "name": "Lost Paradise"
+                "name": "Lost Paradise",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9065d2f8-f751-11ee-872b-0242ac130003",
-                "name": "Imminent"
+                "name": "Imminent",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "4b53cbb4-f569-11ee-93ae-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "4b53cbb4-f569-11ee-93ae-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "4b53cbb4-f569-11ee-93ae-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1559,
@@ -58658,7 +58699,8 @@
                 "name": "AV"
             },
             "opponent2": {
-                "id": null
+                "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                "name": "Imminent"
             },
             "match_games": []
         },

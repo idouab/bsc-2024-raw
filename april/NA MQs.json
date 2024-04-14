@@ -57058,16 +57058,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a987370a-f44e-11ee-bba1-0242ac130003",
-                "name": "TTA"
+                "name": "TTA",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2887332c-f295-11ee-a589-0242ac130002",
-                "name": "2W"
+                "name": "2W",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2887332c-f295-11ee-a589-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2887332c-f295-11ee-a589-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "a987370a-f44e-11ee-bba1-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2887332c-f295-11ee-a589-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1541,
@@ -57188,16 +57229,45 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
-                "name": "Team KCK"
+                "name": "Team KCK",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
-                "name": "WitnessTheJourney"
+                "name": "WitnessTheJourney",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "886c45d6-f3ba-11ee-9393-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1545,
@@ -58157,7 +58227,8 @@
                 "name": "Clean Up Crew"
             },
             "opponent2": {
-                "id": null
+                "id": "2887332c-f295-11ee-a589-0242ac130002",
+                "name": "2W"
             },
             "match_games": []
         },
@@ -58227,7 +58298,8 @@
                 "name": "The Hustlers"
             },
             "opponent2": {
-                "id": null
+                "id": "6f4fd6f4-f544-11ee-9b9f-0242ac130003",
+                "name": "WitnessTheJourney"
             },
             "match_games": []
         },

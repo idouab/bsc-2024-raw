@@ -42059,16 +42059,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "147d7ff2-f296-11ee-8349-0242ac130002",
-                "name": "Blue Lock⚽"
+                "name": "Blue Lock⚽",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
-                "name": "Revenge Gaming"
+                "name": "Revenge Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "147d7ff2-f296-11ee-8349-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4a08962-f295-11ee-8e1b-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 958,

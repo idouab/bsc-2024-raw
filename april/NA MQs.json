@@ -57447,16 +57447,57 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0db3d83a-f47e-11ee-9049-0242ac130003",
-                "name": "Black space"
+                "name": "Black space",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "62373c5c-f94d-11ee-8233-0242ac130003",
-                "name": "Fatherly Figures B"
+                "name": "Fatherly Figures B",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0db3d83a-f47e-11ee-9049-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0db3d83a-f47e-11ee-9049-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "0db3d83a-f47e-11ee-9049-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1550,
@@ -58445,7 +58486,8 @@
                 "name": "Shadow Realm"
             },
             "opponent2": {
-                "id": null
+                "id": "62373c5c-f94d-11ee-8233-0242ac130003",
+                "name": "Fatherly Figures B"
             },
             "match_games": []
         },

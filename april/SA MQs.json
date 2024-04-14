@@ -42417,16 +42417,45 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
-                "name": "Sunflowers 🌻"
+                "name": "Sunflowers 🌻",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
-                "name": "Level Esports"
+                "name": "Level Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c591d7da-f745-11ee-8a5f-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 963,
@@ -42524,7 +42553,8 @@
                 "name": "Urubus do Pix 🐦‍⬛"
             },
             "opponent2": {
-                "id": null
+                "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                "name": "Level Esports"
             },
             "match_games": []
         },

@@ -61395,16 +61395,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e99a880-f295-11ee-8771-0242ac130002",
-                "name": "Instinct Gaming"
+                "name": "Instinct Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "292e4004-f295-11ee-8190-0242ac130002",
-                "name": "Fusyon EC"
+                "name": "Fusyon EC",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "292e4004-f295-11ee-8190-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "292e4004-f295-11ee-8190-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1654,
@@ -61583,7 +61612,8 @@
                 "name": "Juan Carlos Team"
             },
             "opponent2": {
-                "id": null
+                "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                "name": "Instinct Gaming"
             },
             "match_games": []
         },

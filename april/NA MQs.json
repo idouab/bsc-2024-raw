@@ -62055,16 +62055,57 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
-                "name": "Yippee"
+                "name": "Yippee",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
-                "name": "512"
+                "name": "512",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1665,
@@ -62162,7 +62203,8 @@
                 "name": "Spacestation Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
+                "name": "512"
             },
             "match_games": []
         },

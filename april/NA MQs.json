@@ -60641,16 +60641,57 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "284545e8-f295-11ee-b49d-0242ac130002",
-                "name": "PDF Team"
+                "name": "PDF Team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c052956c-f3ca-11ee-b912-0242ac130003",
-                "name": "MVR"
+                "name": "MVR",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "284545e8-f295-11ee-b49d-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "284545e8-f295-11ee-b49d-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "284545e8-f295-11ee-b49d-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1636,
@@ -61138,8 +61179,14 @@
             "round_id": 10,
             "child_count": 3,
             "status": 0,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                "name": "MVR"
+            },
+            "opponent2": {
+                "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                "name": "Yippee"
+            },
             "match_games": []
         },
         {

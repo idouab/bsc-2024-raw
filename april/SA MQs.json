@@ -42453,16 +42453,45 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
-                "name": "bota limpo"
+                "name": "bota limpo",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
-                "name": "Ifood Team"
+                "name": "Ifood Team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5c69dc2-f295-11ee-b6a3-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 965,
@@ -42529,7 +42558,8 @@
                 "name": "F/A MiniPekkas"
             },
             "opponent2": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "match_games": []
         },

@@ -60529,16 +60529,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2819945c-f295-11ee-a4ca-0242ac130002",
-                "name": "Goblin Gang F/A"
+                "name": "Goblin Gang F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3537067e-f79a-11ee-ad69-0242ac130003",
-                "name": "We Do Trust You"
+                "name": "We Do Trust You",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3537067e-f79a-11ee-ad69-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2819945c-f295-11ee-a4ca-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3537067e-f79a-11ee-ad69-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1633,

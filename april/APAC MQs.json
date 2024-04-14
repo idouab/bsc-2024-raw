@@ -22088,16 +22088,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
-                "name": "coco loco"
+                "name": "coco loco",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0880410-f87f-11ee-8b3f-0242ac130003",
-                "name": "4G Entertainment"
+                "name": "4G Entertainment",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0880410-f87f-11ee-8b3f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0880410-f87f-11ee-8b3f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 489,
@@ -22163,7 +22192,8 @@
                 "name": "F/A Nai Dug"
             },
             "opponent2": {
-                "id": null
+                "id": "cc4417f2-f293-11ee-b3ce-0242ac130002",
+                "name": "coco loco"
             },
             "match_games": []
         }

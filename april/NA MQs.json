@@ -61290,16 +61290,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "299bdc04-f295-11ee-8563-0242ac130002",
-                "name": "sintikols gaming"
+                "name": "sintikols gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2dc8fa8c-f295-11ee-9a02-0242ac130002",
-                "name": "🥷🏻🥷🏻🥷🏻"
+                "name": "🥷🏻🥷🏻🥷🏻",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "299bdc04-f295-11ee-8563-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2dc8fa8c-f295-11ee-9a02-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "299bdc04-f295-11ee-8563-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2dc8fa8c-f295-11ee-9a02-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1653,
@@ -61435,7 +61464,8 @@
                 "name": "Part Timers"
             },
             "opponent2": {
-                "id": null
+                "id": "2dc8fa8c-f295-11ee-9a02-0242ac130002",
+                "name": "🥷🏻🥷🏻🥷🏻"
             },
             "match_games": []
         },

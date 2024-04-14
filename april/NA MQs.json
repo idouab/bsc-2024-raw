@@ -55208,16 +55208,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
-                "name": "BP"
+                "name": "BP",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0262ec4c-f879-11ee-930d-0242ac130003",
-                "name": "V2"
+                "name": "V2",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0262ec4c-f879-11ee-930d-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "a9c9e3d4-f4a8-11ee-8ab5-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0262ec4c-f879-11ee-930d-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1485,
@@ -55605,16 +55634,45 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28ee7d84-f295-11ee-8979-0242ac130002",
-                "name": "Photon And Company"
+                "name": "Photon And Company",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9065d2f8-f751-11ee-872b-0242ac130003",
-                "name": "Imminent"
+                "name": "Imminent",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "28ee7d84-f295-11ee-8979-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "28ee7d84-f295-11ee-8979-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1499,
@@ -55890,16 +55948,57 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2db9b338-f295-11ee-bcf1-0242ac130002",
-                "name": "NF"
+                "name": "NF",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
-                "name": "Raiders"
+                "name": "Raiders",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2db9b338-f295-11ee-bcf1-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2db9b338-f295-11ee-bcf1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "2db9b338-f295-11ee-bcf1-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e7940ee8-f5c4-11ee-b872-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1510,
@@ -56719,10 +56818,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2db9b338-f295-11ee-bcf1-0242ac130002",
+                "name": "NF"
             },
             "opponent2": {
-                "id": null
+                "id": "bda2e8f2-f46b-11ee-b955-0242ac130003",
+                "name": "Gobble Gang"
             },
             "match_games": []
         },

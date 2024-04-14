@@ -41433,16 +41433,57 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9dda658-f295-11ee-a118-0242ac130002",
-                "name": "GOLDEN FALCONS"
+                "name": "GOLDEN FALCONS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b5622b44-f295-11ee-bad3-0242ac130002",
-                "name": "Titans E-Sports"
+                "name": "Titans E-Sports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b9dda658-f295-11ee-a118-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 945,
@@ -41451,16 +41492,57 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5638df4-f295-11ee-a8f5-0242ac130002",
-                "name": "Merlenses"
+                "name": "Merlenses",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
-                "name": "ROCA DE EMIYA 🐒"
+                "name": "ROCA DE EMIYA 🐒",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b5638df4-f295-11ee-a8f5-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b5638df4-f295-11ee-a8f5-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b5638df4-f295-11ee-a8f5-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 946,
@@ -41593,10 +41675,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5622b44-f295-11ee-bad3-0242ac130002",
+                "name": "Titans E-Sports"
             },
             "opponent2": {
-                "id": null
+                "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                "name": "ROCA DE EMIYA 🐒"
             },
             "match_games": []
         },

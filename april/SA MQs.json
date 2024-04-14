@@ -41651,16 +41651,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
-                "name": "Team Fluid"
+                "name": "Team Fluid",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a899230c-f931-11ee-aff0-0242ac130003",
-                "name": "The lords"
+                "name": "The lords",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b8b76d36-f295-11ee-81dc-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 948,
@@ -41800,7 +41829,8 @@
                 "name": "Level Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                "name": "The lords"
             },
             "match_games": []
         },

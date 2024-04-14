@@ -58971,16 +58971,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
-                "name": "WBA"
+                "name": "WBA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "212da522-f509-11ee-b8fc-0242ac130003",
-                "name": "Masters club"
+                "name": "Masters club",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "0cc6bf86-f380-11ee-8bdc-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1608,
@@ -59025,16 +59054,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
-                "name": "ZTMN babys"
+                "name": "ZTMN babys",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4cffb8c6-f42c-11ee-aee1-0242ac130003",
-                "name": "White Lotus"
+                "name": "White Lotus",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cffb8c6-f42c-11ee-aee1-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "9a482b0a-f49e-11ee-8616-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cffb8c6-f42c-11ee-aee1-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1615,
@@ -59271,7 +59329,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "212da522-f509-11ee-b8fc-0242ac130003",
+                "name": "Masters club"
             },
             "opponent2": {
                 "id": null

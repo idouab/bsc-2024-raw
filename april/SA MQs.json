@@ -41698,16 +41698,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b05bc54c-f295-11ee-974c-0242ac130002",
-                "name": "Olimpo Squad"
+                "name": "Olimpo Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "148657b2-f296-11ee-b611-0242ac130002",
-                "name": "Panchos"
+                "name": "Panchos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b05bc54c-f295-11ee-974c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "148657b2-f296-11ee-b611-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b05bc54c-f295-11ee-974c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "148657b2-f296-11ee-b611-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 949,
@@ -41877,7 +41906,8 @@
                 "name": "NORTH SIDE RAIDERS"
             },
             "opponent2": {
-                "id": null
+                "id": "b05bc54c-f295-11ee-974c-0242ac130002",
+                "name": "Olimpo Squad"
             },
             "match_games": []
         },

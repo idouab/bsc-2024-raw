@@ -42142,16 +42142,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b26a327e-f295-11ee-af5b-0242ac130002",
-                "name": "Demons Gaming"
+                "name": "Demons Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4911e96-f295-11ee-87dd-0242ac130002",
-                "name": "F/A Ponnys"
+                "name": "F/A Ponnys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4911e96-f295-11ee-87dd-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 961,
@@ -42228,7 +42257,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                "name": "Demons Gaming"
             },
             "opponent2": {
                 "id": null

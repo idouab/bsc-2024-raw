@@ -42023,16 +42023,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
-                "name": "Level Esports"
+                "name": "Level Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a899230c-f931-11ee-aff0-0242ac130003",
-                "name": "The lords"
+                "name": "The lords",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b6b1c40a-f295-11ee-a5fb-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a899230c-f931-11ee-aff0-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 956,

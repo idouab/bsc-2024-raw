@@ -41541,16 +41541,45 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
-                "name": "Luminosity"
+                "name": "Luminosity",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2a6a2884-f295-11ee-a851-0242ac130002",
-                "name": "Team Oinkers"
+                "name": "Team Oinkers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1576,
@@ -41665,16 +41694,45 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
-                "name": "Real Ones"
+                "name": "Real Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
-                "name": "Infinite Void"
+                "name": "Infinite Void",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1611,
@@ -41721,10 +41779,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e09d0ac-f295-11ee-9d9a-0242ac130002",
+                "name": "Luminosity"
             },
             "opponent2": {
-                "id": null
+                "id": "294281c2-f295-11ee-ba9b-0242ac130002",
+                "name": "STMN"
             },
             "match_games": []
         },
@@ -41741,7 +41801,8 @@
                 "name": "Spacestation Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "7e0c8194-f295-11ee-9a8a-0242ac130002",
+                "name": "Real Ones"
             },
             "match_games": []
         },
@@ -58586,7 +58647,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "28dbeb42-f295-11ee-a1cd-0242ac130002",
+                "name": "Infinite Void"
             },
             "opponent2": {
                 "id": null
@@ -58636,7 +58698,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a6a2884-f295-11ee-a851-0242ac130002",
+                "name": "Team Oinkers"
             },
             "opponent2": {
                 "id": null

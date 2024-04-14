@@ -41395,16 +41395,45 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7e088fee-f295-11ee-872a-0242ac130002",
-                "name": "West Coast FA"
+                "name": "West Coast FA",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2784528e-f295-11ee-83bf-0242ac130002",
-                "name": "Homeless"
+                "name": "Homeless",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "7e088fee-f295-11ee-872a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2784528e-f295-11ee-83bf-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "7e088fee-f295-11ee-872a-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2784528e-f295-11ee-83bf-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1575,
@@ -57389,7 +57418,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7e088fee-f295-11ee-872a-0242ac130002",
+                "name": "West Coast FA"
             },
             "opponent2": {
                 "id": null

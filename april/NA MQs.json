@@ -60102,16 +60102,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "27632f32-f295-11ee-a219-0242ac130002",
-                "name": "Good Randoms"
+                "name": "Good Randoms",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9065d2f8-f751-11ee-872b-0242ac130003",
-                "name": "Imminent"
+                "name": "Imminent",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "27632f32-f295-11ee-a219-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "27632f32-f295-11ee-a219-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1625,
@@ -60450,7 +60479,8 @@
                 "name": "Blackout Hat"
             },
             "opponent2": {
-                "id": null
+                "id": "9065d2f8-f751-11ee-872b-0242ac130003",
+                "name": "Imminent"
             },
             "match_games": []
         },

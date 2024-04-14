@@ -59843,16 +59843,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c052956c-f3ca-11ee-b912-0242ac130003",
-                "name": "MVR"
+                "name": "MVR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3fadbd98-f838-11ee-b071-0242ac130003",
-                "name": "2 ticos y un veneco"
+                "name": "2 ticos y un veneco",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fadbd98-f838-11ee-b071-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fadbd98-f838-11ee-b071-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1620,
@@ -60191,7 +60220,8 @@
                 "name": "PDF Team"
             },
             "opponent2": {
-                "id": null
+                "id": "c052956c-f3ca-11ee-b912-0242ac130003",
+                "name": "MVR"
             },
             "match_games": []
         },

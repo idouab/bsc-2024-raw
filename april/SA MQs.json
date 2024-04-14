@@ -42276,16 +42276,57 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
-                "name": "🇵🇪PERUVIAN STARS🏆"
+                "name": "🇵🇪PERUVIAN STARS🏆",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
-                "name": "ROCA DE EMIYA 🐒"
+                "name": "ROCA DE EMIYA 🐒",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "opponent1": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64bee4e8-f466-11ee-b95c-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 962,
@@ -42350,7 +42391,8 @@
                 "name": "Demons Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                "name": "🇵🇪PERUVIAN STARS🏆"
             },
             "match_games": []
         },

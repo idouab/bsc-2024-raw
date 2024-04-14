@@ -58726,16 +58726,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
-                "name": "Fatherly Figures"
+                "name": "Fatherly Figures",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd76b966-f3a3-11ee-8b6f-0242ac130003",
-                "name": "Console Players"
+                "name": "Console Players",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd76b966-f3a3-11ee-8b6f-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd76b966-f3a3-11ee-8b6f-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1596,
@@ -58899,16 +58928,45 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2e99a880-f295-11ee-8771-0242ac130002",
-                "name": "Instinct Gaming"
+                "name": "Instinct Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2b8a08f6-f295-11ee-9515-0242ac130002",
-                "name": "Infamous Opossums"
+                "name": "Infamous Opossums",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b8a08f6-f295-11ee-9515-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b8a08f6-f295-11ee-9515-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1604,
@@ -59233,7 +59291,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2de9c4f6-f295-11ee-a77c-0242ac130002",
+                "name": "Fatherly Figures"
             },
             "opponent2": {
                 "id": null
@@ -59297,7 +59356,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2e99a880-f295-11ee-8771-0242ac130002",
+                "name": "Instinct Gaming"
             },
             "opponent2": {
                 "id": null

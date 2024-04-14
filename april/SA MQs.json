@@ -41150,16 +41150,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "148657b2-f296-11ee-b611-0242ac130002",
-                "name": "Panchos"
+                "name": "Panchos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
-                "name": "VongolaAkatsuki"
+                "name": "VongolaAkatsuki",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "148657b2-f296-11ee-b611-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "148657b2-f296-11ee-b611-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3201c9c-f295-11ee-8e49-0242ac130002",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 936,
@@ -41206,16 +41235,45 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b682d85c-f295-11ee-9f81-0242ac130002",
-                "name": "TWO"
+                "name": "TWO",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "24dfe222-f809-11ee-9289-0242ac130003",
-                "name": "bota limpo"
+                "name": "bota limpo",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b682d85c-f295-11ee-9f81-0242ac130002",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b682d85c-f295-11ee-9f81-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 939,
@@ -41419,7 +41477,8 @@
                 "name": "Olimpo Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "148657b2-f296-11ee-b611-0242ac130002",
+                "name": "Panchos"
             },
             "match_games": []
         },
@@ -41450,7 +41509,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24dfe222-f809-11ee-9289-0242ac130003",
+                "name": "bota limpo"
             },
             "opponent2": {
                 "id": null

@@ -22276,16 +22276,45 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd49d88a-f293-11ee-9545-0242ac130002",
-                "name": "3R Gaming"
+                "name": "3R Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
-                "name": "アヒル同好会"
+                "name": "アヒル同好会",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "cd49d88a-f293-11ee-9545-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "cd49d88a-f293-11ee-9545-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0a0dae-f293-11ee-9f89-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 491,

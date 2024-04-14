@@ -61648,16 +61648,45 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2c11ff40-f295-11ee-922d-0242ac130002",
-                "name": "The Other Guys"
+                "name": "The Other Guys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
-                "name": "Yippee"
+                "name": "Yippee",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "2c11ff40-f295-11ee-922d-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "2c11ff40-f295-11ee-922d-0242ac130002",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1658,
@@ -61832,10 +61861,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2b0b64ba-f295-11ee-a1bb-0242ac130002",
+                "name": "Yippee"
             },
             "opponent2": {
-                "id": null
+                "id": "2c4938b6-f295-11ee-a50a-0242ac130002",
+                "name": "512"
             },
             "match_games": []
         },

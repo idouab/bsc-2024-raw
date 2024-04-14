@@ -60967,16 +60967,45 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "299448ea-f295-11ee-9744-0242ac130002",
-                "name": "Complexity"
+                "name": "Complexity",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
-                "name": "SGA"
+                "name": "SGA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "299448ea-f295-11ee-9744-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "299448ea-f295-11ee-9744-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c17fe72a-f931-11ee-9a57-0242ac130003",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1647,
@@ -61074,7 +61103,10 @@
                 "id": "0ea6a590-f7be-11ee-b4d0-0242ac130003",
                 "name": "Paputilinos"
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "299448ea-f295-11ee-9744-0242ac130002",
+                "name": "Complexity"
+            },
             "match_games": []
         },
         {

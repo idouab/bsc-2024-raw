@@ -42529,16 +42529,45 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b26a327e-f295-11ee-af5b-0242ac130002",
-                "name": "Demons Gaming"
+                "name": "Demons Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
-                "name": "🇵🇪PERUVIAN STARS🏆"
+                "name": "🇵🇪PERUVIAN STARS🏆",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "opponent1": {
+                        "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b3f837a8-f295-11ee-b85f-0242ac130002",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 966,
@@ -42606,7 +42635,8 @@
                 "name": "Marruecos"
             },
             "opponent2": {
-                "id": null
+                "id": "b26a327e-f295-11ee-af5b-0242ac130002",
+                "name": "Demons Gaming"
             },
             "match_games": []
         }

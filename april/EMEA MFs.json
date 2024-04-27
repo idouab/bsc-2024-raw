@@ -524,16 +524,91 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
-                "name": "ZETA DIVISION"
+                "name": "ZETA DIVISION",
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "65d63ec4-0313-11ef-b973-0242ac130004",
-                "name": "Oceanus Gaming"
+                "name": "Oceanus Gaming",
+                "score": 2,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "65d63ec4-0313-11ef-b973-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d63ec4-0313-11ef-b973-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "opponent1": {
+                        "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "65d63ec4-0313-11ef-b973-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d63ec4-0313-11ef-b973-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_5",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "opponent1": {
+                        "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d63ec4-0313-11ef-b973-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -548,7 +623,8 @@
                 "name": "HMBLE"
             },
             "opponent2": {
-                "id": null
+                "id": "65d8d8d2-0313-11ef-908d-0242ac130004",
+                "name": "ZETA DIVISION"
             },
             "match_games": []
         }

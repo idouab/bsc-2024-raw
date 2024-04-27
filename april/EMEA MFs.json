@@ -161,16 +161,63 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
-                "name": "HMBLE"
+                "name": "HMBLE",
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "65d45d52-0313-11ef-9bfa-0242ac130004",
-                "name": "F/A KEBAP"
+                "name": "F/A KEBAP",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "opponent1": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d45d52-0313-11ef-9bfa-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "opponent1": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d45d52-0313-11ef-9bfa-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "opponent1": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d45d52-0313-11ef-9bfa-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 3,

@@ -319,16 +319,63 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "13552892-fc09-11ee-a209-0242ac130003",
-                "name": "NAVI"
+                "name": "NAVI",
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "135434fa-fc09-11ee-a918-0242ac130003",
-                "name": "3R Gaming"
+                "name": "3R Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "opponent1": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "135434fa-fc09-11ee-a918-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "opponent1": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "135434fa-fc09-11ee-a918-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "135434fa-fc09-11ee-a918-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 5,

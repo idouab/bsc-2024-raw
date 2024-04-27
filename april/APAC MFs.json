@@ -431,16 +431,63 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1352c35e-fc09-11ee-8b54-0242ac130003",
-                "name": "coco loco"
+                "name": "coco loco",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "135987ac-fc09-11ee-82df-0242ac130003",
-                "name": "Crazy Raccoon"
+                "name": "Crazy Raccoon",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "opponent1": {
+                        "id": "1352c35e-fc09-11ee-8b54-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "1352c35e-fc09-11ee-8b54-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "1352c35e-fc09-11ee-8b54-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -469,7 +516,8 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                "name": "Crazy Raccoon"
             },
             "opponent2": {
                 "id": null

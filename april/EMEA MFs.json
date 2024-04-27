@@ -431,16 +431,91 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
-                "name": "SK Gaming"
+                "name": "SK Gaming",
+                "score": 2,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
-                "name": "HMBLE"
+                "name": "HMBLE",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "opponent1": {
+                        "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Ring of Fire",
+                    "opponent1": {
+                        "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_5",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "65d6c27c-0313-11ef-bd84-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -469,7 +544,8 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "65d7cff0-0313-11ef-9b30-0242ac130004",
+                "name": "HMBLE"
             },
             "opponent2": {
                 "id": null

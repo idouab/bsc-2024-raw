@@ -301,16 +301,63 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1357d182-fc09-11ee-a47c-0242ac130003",
-                "name": "Revenant Esports"
+                "name": "Revenant Esports",
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1358ab34-fc09-11ee-8224-0242ac130003",
-                "name": "Angelic"
+                "name": "Angelic",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1358ab34-fc09-11ee-8224-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1358ab34-fc09-11ee-8224-0242ac130003",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Ring of Fire",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1358ab34-fc09-11ee-8224-0242ac130003",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -404,10 +451,12 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                "name": "Revenant Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "13552892-fc09-11ee-a209-0242ac130003",
+                "name": "NAVI"
             },
             "match_games": []
         },

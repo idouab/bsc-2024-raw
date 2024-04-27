@@ -496,16 +496,77 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1357d182-fc09-11ee-a47c-0242ac130003",
-                "name": "Revenant Esports"
+                "name": "Revenant Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "13552892-fc09-11ee-a209-0242ac130003",
-                "name": "NAVI"
+                "name": "NAVI",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "1357d182-fc09-11ee-a47c-0242ac130003",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "13552892-fc09-11ee-a209-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -520,7 +581,8 @@
                 "name": "Crazy Raccoon"
             },
             "opponent2": {
-                "id": null
+                "id": "13552892-fc09-11ee-a209-0242ac130003",
+                "name": "NAVI"
             },
             "match_games": []
         }

@@ -161,16 +161,63 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "13560ad2-fc09-11ee-9ca8-0242ac130003",
-                "name": "Team S1"
+                "name": "Team S1",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "135987ac-fc09-11ee-82df-0242ac130003",
-                "name": "Crazy Raccoon"
+                "name": "Crazy Raccoon",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Pit Stop",
+                    "opponent1": {
+                        "id": "13560ad2-fc09-11ee-9ca8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Split",
+                    "opponent1": {
+                        "id": "13560ad2-fc09-11ee-9ca8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "13560ad2-fc09-11ee-9ca8-0242ac130003",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "135987ac-fc09-11ee-82df-0242ac130003",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 3,

@@ -75,7 +75,7 @@
             "players": [
                 "STMN|bobby",
                 "STMN|sans",
-                "Zhar is cool"
+                "STMN|Zhar"
             ],
             "img": ""
         },
@@ -141,16 +141,77 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d1a333dc-0313-11ef-a087-0242ac130004",
-                "name": "Tribe Gaming"
+                "name": "Tribe Gaming",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d1a24440-0313-11ef-b247-0242ac130004",
-                "name": "Juan Carlos Team"
+                "name": "Juan Carlos Team",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "opponent1": {
+                        "id": "d1a333dc-0313-11ef-a087-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "opponent1": {
+                        "id": "d1a333dc-0313-11ef-a087-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "opponent1": {
+                        "id": "d1a333dc-0313-11ef-a087-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "opponent1": {
+                        "id": "d1a333dc-0313-11ef-a087-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2,
@@ -215,7 +276,8 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                "name": "Juan Carlos Team"
             },
             "opponent2": {
                 "id": null

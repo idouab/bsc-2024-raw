@@ -316,16 +316,63 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2514ab4a-0314-11ef-b5fa-0242ac130004",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "25153b8c-0314-11ef-ad01-0242ac130004",
-                "name": "F/A MiniPekkas"
+                "name": "F/A MiniPekkas",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "2514ab4a-0314-11ef-b5fa-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "25153b8c-0314-11ef-ad01-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "2514ab4a-0314-11ef-b5fa-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "25153b8c-0314-11ef-ad01-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Ring of Fire",
+                    "opponent1": {
+                        "id": "2514ab4a-0314-11ef-b5fa-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "25153b8c-0314-11ef-ad01-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -372,7 +419,8 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "25153b8c-0314-11ef-ad01-0242ac130004",
+                "name": "F/A MiniPekkas"
             },
             "opponent2": {
                 "id": null

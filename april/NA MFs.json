@@ -443,16 +443,63 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d1a24440-0313-11ef-b247-0242ac130004",
-                "name": "Juan Carlos Team"
+                "name": "Juan Carlos Team",
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d1a14a7c-0313-11ef-ada7-0242ac130004",
-                "name": "512"
+                "name": "512",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "opponent1": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d1a14a7c-0313-11ef-ada7-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d1a14a7c-0313-11ef-ada7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d1a14a7c-0313-11ef-ada7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -481,7 +528,8 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d1a24440-0313-11ef-b247-0242ac130004",
+                "name": "Juan Carlos Team"
             },
             "opponent2": {
                 "id": null

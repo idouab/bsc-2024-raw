@@ -508,16 +508,77 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d1a1c22c-0313-11ef-a43f-0242ac130004",
-                "name": "Remaining 7 Esports"
+                "name": "Remaining 7 Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
-                "name": "STMN"
+                "name": "STMN",
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Rustic Arcade",
+                    "opponent1": {
+                        "id": "d1a1c22c-0313-11ef-a43f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "opponent1": {
+                        "id": "d1a1c22c-0313-11ef-a43f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "opponent1": {
+                        "id": "d1a1c22c-0313-11ef-a43f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Goalkeeper's Dream",
+                    "opponent1": {
+                        "id": "d1a1c22c-0313-11ef-a43f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -532,7 +593,8 @@
                 "name": "Juan Carlos Team"
             },
             "opponent2": {
-                "id": null
+                "id": "d19f21e8-0313-11ef-bd23-0242ac130004",
+                "name": "STMN"
             },
             "match_games": []
         }

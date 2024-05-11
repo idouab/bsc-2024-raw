@@ -39543,16 +39543,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "75f228a0-07d6-11ef-978a-0242ac130004",
-                "name": "Texas burguer"
+                "name": "Texas burguer",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
-                "name": "Team Kioby"
+                "name": "Team Kioby",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 811,
@@ -40787,7 +40822,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                "name": "Texas burguer"
             },
             "opponent2": {
                 "id": null

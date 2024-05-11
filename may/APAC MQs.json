@@ -16590,16 +16590,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "34a50820-0acb-11ef-b281-0242ac130004",
-                "name": "Team L"
+                "name": "Team L",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
-                "name": "VAX"
+                "name": "VAX",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "34a50820-0acb-11ef-b281-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "34a50820-0acb-11ef-b281-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 348,
@@ -17261,7 +17296,8 @@
                 "name": "透明エレジー"
             },
             "opponent2": {
-                "id": null
+                "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
+                "name": "VAX"
             },
             "match_games": []
         },

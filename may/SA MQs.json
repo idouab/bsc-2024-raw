@@ -18160,16 +18160,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7c18d5a8-07d6-11ef-8675-0242ac130004",
-                "name": ">:3"
+                "name": ">:3",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e4e45218-0a71-11ef-bd81-0242ac130004",
-                "name": "🐧🦇•Pingücielago"
+                "name": "🐧🦇•Pingücielago",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7c18d5a8-07d6-11ef-8675-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4e45218-0a71-11ef-bd81-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7c18d5a8-07d6-11ef-8675-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e4e45218-0a71-11ef-bd81-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 397,
@@ -22067,10 +22102,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7c18d5a8-07d6-11ef-8675-0242ac130004",
+                "name": ">:3"
             },
             "opponent2": {
-                "id": null
+                "id": "7740338c-07d6-11ef-8619-0242ac130004",
+                "name": "Tormentium"
             },
             "match_games": []
         },
@@ -28563,7 +28600,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e4e45218-0a71-11ef-bd81-0242ac130004",
+                "name": "🐧🦇•Pingücielago"
             },
             "opponent2": {
                 "id": null

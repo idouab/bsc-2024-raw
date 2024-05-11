@@ -13154,16 +13154,51 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "523366f2-07d3-11ef-b948-0242ac130004",
-                "name": "ケイワイプレイヤー"
+                "name": "ケイワイプレイヤー",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
-                "name": "Naku"
+                "name": "Naku",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 232,

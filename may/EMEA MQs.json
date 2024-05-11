@@ -80583,16 +80583,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dcf5abba-0aee-11ef-ab23-0242ac130004",
-                "name": "LR Shadow"
+                "name": "LR Shadow",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3cb87fbc-0989-11ef-be45-0242ac130004",
-                "name": "PiouPiou"
+                "name": "PiouPiou",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "dcf5abba-0aee-11ef-ab23-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3cb87fbc-0989-11ef-be45-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "dcf5abba-0aee-11ef-ab23-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3cb87fbc-0989-11ef-be45-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1783,
@@ -91858,7 +91893,8 @@
                 "name": "Team KODAK"
             },
             "opponent2": {
-                "id": null
+                "id": "3cb87fbc-0989-11ef-be45-0242ac130004",
+                "name": "PiouPiou"
             },
             "match_games": []
         },
@@ -114926,10 +114962,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dcf5abba-0aee-11ef-ab23-0242ac130004",
+                "name": "LR Shadow"
             },
             "opponent2": {
-                "id": null
+                "id": "62675d94-0a21-11ef-b6a9-0242ac130004",
+                "name": "TP_ dinamikes"
             },
             "match_games": []
         },

@@ -24174,6 +24174,18 @@
             "img": ""
         },
         {
+            "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
+            "tournament_id": 0,
+            "name": "Die Töm Töms",
+            "players": [
+                "Sprayx",
+                "böröck bude",
+                "Cm|David",
+                "Sprayx mini"
+            ],
+            "img": ""
+        },
+        {
             "id": "cc328dfa-098d-11ef-a74e-0242ac130004",
             "tournament_id": 0,
             "name": "xSty",
@@ -27235,6 +27247,17 @@
                 "THL|craynox",
                 "THL|OpAssa🔥♥️",
                 "THL|titi"
+            ],
+            "img": ""
+        },
+        {
+            "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
+            "tournament_id": 0,
+            "name": "Hamsters",
+            "players": [
+                "Dragon",
+                "⚜️ROSTIK⚜️",
+                "♠️_Igor_♠️"
             ],
             "img": ""
         },
@@ -31580,16 +31603,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
-                "name": "Die Töm Töms"
+                "name": "Die Töm Töms",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4735cc82-0976-11ef-ac3d-0242ac130004",
-                "name": "Forza Turkey"
+                "name": "Forza Turkey",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4735cc82-0976-11ef-ac3d-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4735cc82-0976-11ef-ac3d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4735cc82-0976-11ef-ac3d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 99,
@@ -41129,16 +41202,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
-                "name": "Hamsters"
+                "name": "Hamsters",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "700b9b2c-095e-11ef-b701-0242ac130004",
-                "name": "Slayers"
+                "name": "Slayers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "700b9b2c-095e-11ef-b701-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "700b9b2c-095e-11ef-b701-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "700b9b2c-095e-11ef-b701-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 401,
@@ -54777,7 +54900,8 @@
                 "name": "TOP | Esport"
             },
             "opponent2": {
-                "id": null
+                "id": "4735cc82-0976-11ef-ac3d-0242ac130004",
+                "name": "Forza Turkey"
             },
             "match_games": []
         },
@@ -57454,7 +57578,8 @@
                 "name": "Bănănuțele trnsprate"
             },
             "opponent2": {
-                "id": null
+                "id": "700b9b2c-095e-11ef-b701-0242ac130004",
+                "name": "Slayers"
             },
             "match_games": []
         },
@@ -71537,7 +71662,8 @@
                 "name": "Supernenasbeticas"
             },
             "opponent2": {
-                "id": null
+                "id": "de6cc62c-07d3-11ef-af16-0242ac130004",
+                "name": "Die Töm Töms"
             },
             "match_games": []
         },
@@ -74214,7 +74340,8 @@
                 "name": "THL |"
             },
             "opponent2": {
-                "id": null
+                "id": "8a9d3042-0c81-11ef-a744-0242ac130004",
+                "name": "Hamsters"
             },
             "match_games": []
         },

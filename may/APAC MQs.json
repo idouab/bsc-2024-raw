@@ -12602,16 +12602,66 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
-                "name": "アヒル同好会"
+                "name": "アヒル同好会",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "550410ac-07d3-11ef-a54f-0242ac130004",
-                "name": "Ok"
+                "name": "Ok",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 366,
@@ -12927,7 +12977,8 @@
                 "name": "HOW"
             },
             "opponent2": {
-                "id": null
+                "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                "name": "アヒル同好会"
             },
             "match_games": []
         },
@@ -15792,16 +15843,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
-                "name": "핫트쭌"
+                "name": "핫트쭌",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
-                "name": "ASIANO2"
+                "name": "ASIANO2",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 326,
@@ -16721,7 +16807,8 @@
                 "name": "Peak Radiance"
             },
             "opponent2": {
-                "id": null
+                "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                "name": "ASIANO2"
             },
             "match_games": []
         },
@@ -17527,7 +17614,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                "name": "Ok"
             },
             "opponent2": {
                 "id": null

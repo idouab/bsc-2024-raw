@@ -4946,16 +4946,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a3e8ae98-0a27-11ef-bbe1-0242ac130004",
-                "name": "野菜マン"
+                "name": "野菜マン",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ad0b7bfa-0acb-11ef-8a73-0242ac130004",
-                "name": "Haerin"
+                "name": "Haerin",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "a3e8ae98-0a27-11ef-bbe1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ad0b7bfa-0acb-11ef-8a73-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "a3e8ae98-0a27-11ef-bbe1-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ad0b7bfa-0acb-11ef-8a73-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 99,
@@ -6463,7 +6498,8 @@
                 "name": "Revenant Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "ad0b7bfa-0acb-11ef-8a73-0242ac130004",
+                "name": "Haerin"
             },
             "match_games": []
         },

@@ -29084,6 +29084,17 @@
             "img": ""
         },
         {
+            "id": "af4abb7e-07d3-11ef-9ef6-0242ac130004",
+            "tournament_id": 0,
+            "name": "NARCOS",
+            "players": [
+                "ᴵ ᵃᵐ 𝙟𝙚𝙛𝙚 ᵈ",
+                "AQM | khalid⚡⚡",
+                "🎲𝓜𝓸𝓱𝓪🎲"
+            ],
+            "img": ""
+        },
+        {
             "id": "0d66ed42-0bdd-11ef-9fc7-0242ac130004",
             "tournament_id": 0,
             "name": "Los duros",
@@ -29366,6 +29377,17 @@
             "img": ""
         },
         {
+            "id": "75b24812-0c94-11ef-b928-0242ac130004",
+            "tournament_id": 0,
+            "name": "Reyes Del Caos",
+            "players": [
+                "🤩JAM|Juan🔱",
+                "Sharkbr",
+                "fenix | OP"
+            ],
+            "img": ""
+        },
+        {
             "id": "ef823694-095f-11ef-bc74-0242ac130004",
             "tournament_id": 0,
             "name": "Brawlbros",
@@ -29609,6 +29631,17 @@
                 "SSQ|Stamb",
                 "REVO",
                 "🇩🇪hapasa"
+            ],
+            "img": ""
+        },
+        {
+            "id": "12465f94-0969-11ef-a2bc-0242ac130004",
+            "tournament_id": 0,
+            "name": "NB Team",
+            "players": [
+                "⚡NB|CV_92™⚡",
+                "[NB] Pi€rø™",
+                "[NB]Tic_exit™"
             ],
             "img": ""
         },
@@ -51053,16 +51086,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a61af70-0ef4-11ef-9400-0242ac130004",
-                "name": "CYCLON STARS"
+                "name": "CYCLON STARS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "af4abb7e-07d3-11ef-9ef6-0242ac130004",
-                "name": "NARCOS"
+                "name": "NARCOS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3a61af70-0ef4-11ef-9400-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af4abb7e-07d3-11ef-9ef6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3a61af70-0ef4-11ef-9400-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af4abb7e-07d3-11ef-9ef6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 611,
@@ -54838,16 +54906,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cdc163aa-07d3-11ef-8061-0242ac130004",
-                "name": "Clepto"
+                "name": "Clepto",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "75b24812-0c94-11ef-b928-0242ac130004",
-                "name": "Reyes Del Caos"
+                "name": "Reyes Del Caos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "cdc163aa-07d3-11ef-8061-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75b24812-0c94-11ef-b928-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cdc163aa-07d3-11ef-8061-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75b24812-0c94-11ef-b928-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 766,
@@ -57851,16 +57954,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ad677054-07d3-11ef-8663-0242ac130004",
-                "name": "RGG"
+                "name": "RGG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "12465f94-0969-11ef-a2bc-0242ac130004",
-                "name": "NB Team"
+                "name": "NB Team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ad677054-07d3-11ef-8663-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "12465f94-0969-11ef-a2bc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ad677054-07d3-11ef-8663-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "12465f94-0969-11ef-a2bc-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 890,
@@ -58370,16 +58508,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4b8ad99c-0edc-11ef-98a3-0242ac130004",
-                "name": "Tynex Esports"
+                "name": "Tynex Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "da6b265a-0985-11ef-af4a-0242ac130004",
-                "name": "Marko"
+                "name": "Marko",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "4b8ad99c-0edc-11ef-98a3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "da6b265a-0985-11ef-af4a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "4b8ad99c-0edc-11ef-98a3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "da6b265a-0985-11ef-af4a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 913,
@@ -60240,16 +60413,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3445c600-096b-11ef-af13-0242ac130004",
-                "name": "Gëne"
+                "name": "Gëne",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fd48fce6-09a4-11ef-ab51-0242ac130004",
-                "name": "Fc kurdistan"
+                "name": "Fc kurdistan",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3445c600-096b-11ef-af13-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fd48fce6-09a4-11ef-ab51-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3445c600-096b-11ef-af13-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fd48fce6-09a4-11ef-ab51-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 983,
@@ -66957,7 +67165,8 @@
                 "name": "Scandinavian Elite"
             },
             "opponent2": {
-                "id": null
+                "id": "3a61af70-0ef4-11ef-9400-0242ac130004",
+                "name": "CYCLON STARS"
             },
             "match_games": []
         },
@@ -68218,10 +68427,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdc163aa-07d3-11ef-8061-0242ac130004",
+                "name": "Clepto"
             },
             "opponent2": {
-                "id": null
+                "id": "abc18c08-07d3-11ef-b122-0242ac130004",
+                "name": "[SQUAD38]"
             },
             "match_games": []
         },
@@ -69228,10 +69439,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ad677054-07d3-11ef-8663-0242ac130004",
+                "name": "RGG"
             },
             "opponent2": {
-                "id": null
+                "id": "ad987272-0afc-11ef-a22b-0242ac130004",
+                "name": "Suge Razz"
             },
             "match_games": []
         },
@@ -69982,7 +70195,8 @@
                 "name": "8?"
             },
             "opponent2": {
-                "id": null
+                "id": "3445c600-096b-11ef-af13-0242ac130004",
+                "name": "Gëne"
             },
             "match_games": []
         },
@@ -83860,7 +84074,8 @@
                 "name": "Brw"
             },
             "opponent2": {
-                "id": null
+                "id": "af4abb7e-07d3-11ef-9ef6-0242ac130004",
+                "name": "NARCOS"
             },
             "match_games": []
         },
@@ -85121,10 +85336,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "75b24812-0c94-11ef-b928-0242ac130004",
+                "name": "Reyes Del Caos"
             },
             "opponent2": {
-                "id": null
+                "id": "ef823694-095f-11ef-bc74-0242ac130004",
+                "name": "Brawlbros"
             },
             "match_games": []
         },
@@ -86131,10 +86348,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "12465f94-0969-11ef-a2bc-0242ac130004",
+                "name": "NB Team"
             },
             "opponent2": {
-                "id": null
+                "id": "db976ea2-07d3-11ef-935c-0242ac130004",
+                "name": "TORTA DEL LUNES"
             },
             "match_games": []
         },

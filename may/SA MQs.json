@@ -37131,16 +37131,66 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "205b8bbe-0b11-11ef-8802-0242ac130004",
-                "name": "Dulce de leche"
+                "name": "Dulce de leche",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7569f9d0-07d6-11ef-b37b-0242ac130004",
-                "name": "The Last Hope 🔮"
+                "name": "The Last Hope 🔮",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "205b8bbe-0b11-11ef-8802-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7569f9d0-07d6-11ef-b37b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "205b8bbe-0b11-11ef-8802-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7569f9d0-07d6-11ef-b37b-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "205b8bbe-0b11-11ef-8802-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7569f9d0-07d6-11ef-b37b-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 720,
@@ -37444,16 +37494,66 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
-                "name": "Sapecas"
+                "name": "Sapecas",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c911198c-0f34-11ef-a7bf-0242ac130004",
-                "name": "NAVAL FORCE"
+                "name": "NAVAL FORCE",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c911198c-0f34-11ef-a7bf-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c911198c-0f34-11ef-a7bf-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c911198c-0f34-11ef-a7bf-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 726,
@@ -39070,7 +39170,8 @@
                 "name": "RM-MILLÁN"
             },
             "opponent2": {
-                "id": null
+                "id": "7569f9d0-07d6-11ef-b37b-0242ac130004",
+                "name": "The Last Hope 🔮"
             },
             "match_games": []
         },
@@ -39177,7 +39278,8 @@
                 "name": "DAA TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                "name": "Sapecas"
             },
             "match_games": []
         },

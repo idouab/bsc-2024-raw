@@ -6909,6 +6909,17 @@
             "img": ""
         },
         {
+            "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
+            "tournament_id": 0,
+            "name": "Mein Autotiro",
+            "players": [
+                "KI🌒",
+                "SrTroco🇻🇪",
+                "Fhoenix"
+            ],
+            "img": ""
+        },
+        {
             "id": "7a5a77ee-07d6-11ef-8928-0242ac130004",
             "tournament_id": 0,
             "name": "Chaqueteados",
@@ -8309,6 +8320,17 @@
                 "♦️Daniel♦️",
                 "node",
                 "bandikiller"
+            ],
+            "img": ""
+        },
+        {
+            "id": "1a0adc84-0a39-11ef-8bc6-0242ac130004",
+            "tournament_id": 0,
+            "name": "Caça Franks F/A",
+            "players": [
+                "Møita(づ￣ ³￣)づ",
+                "drekz",
+                "DebiasiL"
             ],
             "img": ""
         },
@@ -12535,16 +12557,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74d829a0-0b01-11ef-928d-0242ac130004",
-                "name": "LOS CHUPINGAÑAWIS"
+                "name": "LOS CHUPINGAÑAWIS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
-                "name": "Mein Autotiro"
+                "name": "Mein Autotiro",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "74d829a0-0b01-11ef-928d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "74d829a0-0b01-11ef-928d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "74d829a0-0b01-11ef-928d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 115,
@@ -17005,16 +17077,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a0adc84-0a39-11ef-8bc6-0242ac130004",
-                "name": "Caça Franks F/A"
+                "name": "Caça Franks F/A",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "75557b2e-0978-11ef-9b30-0242ac130004",
-                "name": "Brothers"
+                "name": "Brothers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "1a0adc84-0a39-11ef-8bc6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1a0adc84-0a39-11ef-8bc6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 249,
@@ -18230,7 +18337,8 @@
                 "name": "One Chance 🌎"
             },
             "opponent2": {
-                "id": null
+                "id": "74d829a0-0b01-11ef-928d-0242ac130004",
+                "name": "LOS CHUPINGAÑAWIS"
             },
             "match_games": []
         },
@@ -19430,7 +19538,8 @@
                 "name": "3co"
             },
             "opponent2": {
-                "id": null
+                "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                "name": "Brothers"
             },
             "match_games": []
         },
@@ -22485,7 +22594,8 @@
                 "name": "GGM"
             },
             "opponent2": {
-                "id": null
+                "id": "90fe003c-0a3e-11ef-8318-0242ac130004",
+                "name": "Mein Autotiro"
             },
             "match_games": []
         },
@@ -23649,7 +23759,8 @@
                 "name": "Bodriopapus"
             },
             "opponent2": {
-                "id": null
+                "id": "1a0adc84-0a39-11ef-8bc6-0242ac130004",
+                "name": "Caça Franks F/A"
             },
             "match_games": []
         },

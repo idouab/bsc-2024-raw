@@ -26821,6 +26821,17 @@
             "img": ""
         },
         {
+            "id": "c2d3174a-07d3-11ef-a157-0242ac130004",
+            "tournament_id": 0,
+            "name": "Los sabrosos",
+            "players": [
+                "adazag03",
+                "GB|GUILLEVDM",
+                "Ignacio"
+            ],
+            "img": ""
+        },
+        {
             "id": "e4c13740-0af5-11ef-9a62-0242ac130004",
             "tournament_id": 0,
             "name": "Absolutes",
@@ -40296,16 +40307,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c2d3174a-07d3-11ef-a157-0242ac130004",
-                "name": "Los sabrosos"
+                "name": "Los sabrosos",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ee6f68fa-0e35-11ef-901b-0242ac130004",
-                "name": "gitanos y un catalán"
+                "name": "gitanos y un catalán",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c2d3174a-07d3-11ef-a157-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee6f68fa-0e35-11ef-901b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c2d3174a-07d3-11ef-a157-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee6f68fa-0e35-11ef-901b-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 346,
@@ -58250,10 +58296,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ee6f68fa-0e35-11ef-901b-0242ac130004",
+                "name": "gitanos y un catalán"
             },
             "opponent2": {
-                "id": null
+                "id": "b235ec50-07d3-11ef-81cf-0242ac130004",
+                "name": "💂‍♀️BE|Wintsnow🐣🐝"
             },
             "match_games": []
         },
@@ -75042,10 +75090,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c2d3174a-07d3-11ef-a157-0242ac130004",
+                "name": "Los sabrosos"
             },
             "opponent2": {
-                "id": null
+                "id": "e4c13740-0af5-11ef-9a62-0242ac130004",
+                "name": "Absolutes"
             },
             "match_games": []
         },

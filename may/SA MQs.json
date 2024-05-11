@@ -21055,16 +21055,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
-                "name": "Gravity Monks"
+                "name": "Gravity Monks",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
-                "name": "ABUBACADOS F/A 🌴"
+                "name": "ABUBACADOS F/A 🌴",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 492,
@@ -26574,7 +26609,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                "name": "Gravity Monks"
             },
             "opponent2": {
                 "id": null

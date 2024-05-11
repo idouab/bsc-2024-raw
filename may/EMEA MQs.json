@@ -30595,6 +30595,17 @@
             "img": ""
         },
         {
+            "id": "0437034e-0adc-11ef-9032-0242ac130004",
+            "tournament_id": 0,
+            "name": "Black Opium",
+            "players": [
+                "UA|Hoder ˢᵒʳʳʸ",
+                "Spark",
+                "°Ykponyшek™ ^2^"
+            ],
+            "img": ""
+        },
+        {
             "id": "d71530a8-07d3-11ef-aa78-0242ac130004",
             "tournament_id": 0,
             "name": "Snake 🐍",
@@ -31724,6 +31735,17 @@
                 "σχ|Daki丸",
                 "astro baw",
                 "squaletto fox 2"
+            ],
+            "img": ""
+        },
+        {
+            "id": "59397afe-0981-11ef-bf13-0242ac130004",
+            "tournament_id": 0,
+            "name": "Nabodu ACADEMY",
+            "players": [
+                "kelmarh",
+                "FaZe_Juarezzzzz",
+                "EFFI|TxuRiP"
             ],
             "img": ""
         },
@@ -58769,16 +58791,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c472850e-07d3-11ef-adb3-0242ac130004",
-                "name": "Sguatt's Private"
+                "name": "Sguatt's Private",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0437034e-0adc-11ef-9032-0242ac130004",
-                "name": "Black Opium"
+                "name": "Black Opium",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c472850e-07d3-11ef-adb3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0437034e-0adc-11ef-9032-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c472850e-07d3-11ef-adb3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0437034e-0adc-11ef-9032-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 668,
@@ -62170,16 +62227,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c09fcd2e-07d3-11ef-ad98-0242ac130004",
-                "name": "SoloVerde"
+                "name": "SoloVerde",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "59397afe-0981-11ef-bf13-0242ac130004",
-                "name": "Nabodu ACADEMY"
+                "name": "Nabodu ACADEMY",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c09fcd2e-07d3-11ef-ad98-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59397afe-0981-11ef-bf13-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c09fcd2e-07d3-11ef-ad98-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "59397afe-0981-11ef-bf13-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c09fcd2e-07d3-11ef-ad98-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59397afe-0981-11ef-bf13-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 769,
@@ -77335,10 +77442,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c472850e-07d3-11ef-adb3-0242ac130004",
+                "name": "Sguatt's Private"
             },
             "opponent2": {
-                "id": null
+                "id": "fcc38a64-0956-11ef-8f67-0242ac130004",
+                "name": "The Fish"
             },
             "match_games": []
         },
@@ -78237,7 +78346,8 @@
                 "name": "FM GAMING"
             },
             "opponent2": {
-                "id": null
+                "id": "c09fcd2e-07d3-11ef-ad98-0242ac130004",
+                "name": "SoloVerde"
             },
             "match_games": []
         },
@@ -94661,10 +94771,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0437034e-0adc-11ef-9032-0242ac130004",
+                "name": "Black Opium"
             },
             "opponent2": {
-                "id": null
+                "id": "d71530a8-07d3-11ef-aa78-0242ac130004",
+                "name": "Snake 🐍"
             },
             "match_games": []
         },
@@ -95563,7 +95675,8 @@
                 "name": "Sgrodel eSports"
             },
             "opponent2": {
-                "id": null
+                "id": "59397afe-0981-11ef-bf13-0242ac130004",
+                "name": "Nabodu ACADEMY"
             },
             "match_games": []
         },

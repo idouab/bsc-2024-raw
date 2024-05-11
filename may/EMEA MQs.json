@@ -52116,16 +52116,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d87a1d82-07d3-11ef-829e-0242ac130004",
-                "name": "Magic kabonosy Hot"
+                "name": "Magic kabonosy Hot",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d3f0359c-0960-11ef-81b3-0242ac130004",
-                "name": "Marmialb"
+                "name": "Marmialb",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d87a1d82-07d3-11ef-829e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d3f0359c-0960-11ef-81b3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d87a1d82-07d3-11ef-829e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d3f0359c-0960-11ef-81b3-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 590,
@@ -53551,16 +53586,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b714b8fa-07d3-11ef-acc4-0242ac130004",
-                "name": "YI"
+                "name": "YI",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f3959436-097a-11ef-8431-0242ac130004",
-                "name": "LS Gaming"
+                "name": "LS Gaming",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b714b8fa-07d3-11ef-acc4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f3959436-097a-11ef-8431-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b714b8fa-07d3-11ef-acc4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3959436-097a-11ef-8431-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "b714b8fa-07d3-11ef-acc4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3959436-097a-11ef-8431-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 633,
@@ -71385,7 +71470,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d3f0359c-0960-11ef-81b3-0242ac130004",
+                "name": "Marmialb"
             },
             "opponent2": {
                 "id": null
@@ -71739,7 +71825,8 @@
                 "name": "ASH Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "b714b8fa-07d3-11ef-acc4-0242ac130004",
+                "name": "YI"
             },
             "match_games": []
         },

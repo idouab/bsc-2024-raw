@@ -2548,6 +2548,17 @@
             "img": ""
         },
         {
+            "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
+            "tournament_id": 0,
+            "name": "ウォーターボトル",
+            "players": [
+                "ゴリゴリゴリ",
+                "🔥ポちち🔥🐗💴",
+                "★dora★"
+            ],
+            "img": ""
+        },
+        {
             "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
             "tournament_id": 0,
             "name": "神戸星城",
@@ -3142,16 +3153,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
-                "name": "None"
+                "name": "None",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
-                "name": "ウォーターボトル"
+                "name": "ウォーターボトル",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 20,
@@ -5646,7 +5692,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                "name": "None"
             },
             "opponent2": {
                 "id": null
@@ -7601,7 +7648,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
+                "name": "ウォーターボトル"
             },
             "opponent2": {
                 "id": null

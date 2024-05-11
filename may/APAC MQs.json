@@ -8423,16 +8423,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
-                "name": "Peak Radiance"
+                "name": "Peak Radiance",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3ff94ac8-0b99-11ef-b3e1-0242ac130004",
-                "name": "☆우둥이☆"
+                "name": "☆우둥이☆",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3ff94ac8-0b99-11ef-b3e1-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ff94ac8-0b99-11ef-b3e1-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ff94ac8-0b99-11ef-b3e1-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 188,
@@ -10165,7 +10215,8 @@
                 "name": "Rival Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                "name": "Peak Radiance"
             },
             "match_games": []
         },
@@ -12293,10 +12344,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ff94ac8-0b99-11ef-b3e1-0242ac130004",
+                "name": "☆우둥이☆"
             },
             "opponent2": {
-                "id": null
+                "id": "e2505852-0a9a-11ef-9b0c-0242ac130004",
+                "name": "おさるのショーン"
             },
             "match_games": []
         },

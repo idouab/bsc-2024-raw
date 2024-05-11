@@ -12096,16 +12096,51 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a12e0808-07d7-11ef-bc3e-0242ac130004",
-                "name": "NAVI"
+                "name": "NAVI",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
-                "name": "Rising Phoenix"
+                "name": "Rising Phoenix",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a12e0808-07d7-11ef-bc3e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "a12e0808-07d7-11ef-bc3e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 359,
@@ -12381,7 +12416,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a12e0808-07d7-11ef-bc3e-0242ac130004",
+                "name": "NAVI"
             },
             "opponent2": {
                 "id": null
@@ -16883,7 +16919,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
+                "name": "Rising Phoenix"
             },
             "opponent2": {
                 "id": null

@@ -25223,6 +25223,17 @@
             "img": ""
         },
         {
+            "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
+            "tournament_id": 0,
+            "name": "The Sheild",
+            "players": [
+                "Abdullahx",
+                "البطل",
+                "murtizano"
+            ],
+            "img": ""
+        },
+        {
             "id": "361907f6-0ab7-11ef-aa84-0242ac130004",
             "tournament_id": 0,
             "name": "AN | ESPORT",
@@ -27759,6 +27770,17 @@
                 "ReNa|ℜoͥdrͣiͫgo",
                 "ReNa|✨η𝐚†𝕙✨",
                 "ReNa|♤Äłëx♤"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
+            "tournament_id": 0,
+            "name": "I FEMIAS",
+            "players": [
+                "GX MISTERY",
+                "NyS-creeper",
+                "GX MANNO"
             ],
             "img": ""
         },
@@ -35353,16 +35375,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
-                "name": "The Sheild"
+                "name": "The Sheild",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
-                "name": "The ArchAngels"
+                "name": "The ArchAngels",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 198,
@@ -43404,16 +43476,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
-                "name": "I FEMIAS"
+                "name": "I FEMIAS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0670ce22-0ac5-11ef-87ee-0242ac130004",
-                "name": "SC | Slasher Cry"
+                "name": "SC | Slasher Cry",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0670ce22-0ac5-11ef-87ee-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0670ce22-0ac5-11ef-87ee-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0670ce22-0ac5-11ef-87ee-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 436,
@@ -56973,10 +57095,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                "name": "The ArchAngels"
             },
             "opponent2": {
-                "id": null
+                "id": "c9182226-094f-11ef-a279-0242ac130004",
+                "name": "F/A SSJ"
             },
             "match_games": []
         },
@@ -59097,10 +59221,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0670ce22-0ac5-11ef-87ee-0242ac130004",
+                "name": "SC | Slasher Cry"
             },
             "opponent2": {
-                "id": null
+                "id": "7df8f6f4-096c-11ef-949b-0242ac130004",
+                "name": "Sigma gaming"
             },
             "match_games": []
         },
@@ -73767,10 +73893,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d59b5e5a-07d3-11ef-8e29-0242ac130004",
+                "name": "The Sheild"
             },
             "opponent2": {
-                "id": null
+                "id": "361907f6-0ab7-11ef-aa84-0242ac130004",
+                "name": "AN | ESPORT"
             },
             "match_games": []
         },
@@ -75891,10 +76019,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c3fd249e-07d3-11ef-906b-0242ac130004",
+                "name": "I FEMIAS"
             },
             "opponent2": {
-                "id": null
+                "id": "56e83244-0b17-11ef-bb3c-0242ac130004",
+                "name": "Brawler xtreme"
             },
             "match_games": []
         },

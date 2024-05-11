@@ -23263,6 +23263,17 @@
             "img": ""
         },
         {
+            "id": "c3397968-0981-11ef-90d5-0242ac130004",
+            "tournament_id": 0,
+            "name": "Shadow strikes",
+            "players": [
+                "あ | MARU 🫐",
+                "Zruf",
+                "KiKi|❤️‍🔥🍀💕"
+            ],
+            "img": ""
+        },
+        {
             "id": "24e71744-0a25-11ef-9d28-0242ac130004",
             "tournament_id": 0,
             "name": "FL",
@@ -29612,16 +29623,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d2a64bf6-07d3-11ef-9337-0242ac130004",
-                "name": "TEAM SB"
+                "name": "TEAM SB",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c3397968-0981-11ef-90d5-0242ac130004",
-                "name": "Shadow strikes"
+                "name": "Shadow strikes",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d2a64bf6-07d3-11ef-9337-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c3397968-0981-11ef-90d5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d2a64bf6-07d3-11ef-9337-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c3397968-0981-11ef-90d5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 321,

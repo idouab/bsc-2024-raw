@@ -29285,6 +29285,28 @@
             "img": ""
         },
         {
+            "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
+            "tournament_id": 0,
+            "name": "The United Kings",
+            "players": [
+                "kakarotto890",
+                "$$ Álvaret $$",
+                "juancar100🗿😎"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
+            "tournament_id": 0,
+            "name": "team croûton",
+            "players": [
+                "yoyo",
+                "lulu. l",
+                "Solary-Nath"
+            ],
+            "img": ""
+        },
+        {
             "id": "5182616c-0973-11ef-bfc6-0242ac130004",
             "tournament_id": 0,
             "name": "LMN | Team",
@@ -30263,6 +30285,17 @@
                 "Roni",
                 "Geheimdienst",
                 "Lion fighter"
+            ],
+            "img": ""
+        },
+        {
+            "id": "1ae569c0-099a-11ef-9088-0242ac130004",
+            "tournament_id": 0,
+            "name": "Triple L",
+            "players": [
+                "luluthb7",
+                "Lukasos",
+                "Loïc"
             ],
             "img": ""
         },
@@ -52918,16 +52951,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "abe26a18-07d3-11ef-bb3b-0242ac130004",
-                "name": "SGM"
+                "name": "SGM",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
-                "name": "The United Kings"
+                "name": "The United Kings",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "abe26a18-07d3-11ef-bb3b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "abe26a18-07d3-11ef-bb3b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "abe26a18-07d3-11ef-bb3b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 630,
@@ -53062,16 +53145,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
-                "name": "team croûton"
+                "name": "team croûton",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cff0db6a-07d3-11ef-b1da-0242ac130004",
-                "name": "AGA Gaming"
+                "name": "AGA Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cff0db6a-07d3-11ef-b1da-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cff0db6a-07d3-11ef-b1da-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cff0db6a-07d3-11ef-b1da-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 638,
@@ -61530,16 +61663,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "26f623c8-0989-11ef-9c74-0242ac130004",
-                "name": "Eu Esports"
+                "name": "Eu Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1ae569c0-099a-11ef-9088-0242ac130004",
-                "name": "Triple L"
+                "name": "Triple L",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "26f623c8-0989-11ef-9c74-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1ae569c0-099a-11ef-9088-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "26f623c8-0989-11ef-9c74-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1ae569c0-099a-11ef-9088-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "26f623c8-0989-11ef-9c74-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1ae569c0-099a-11ef-9088-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 927,
@@ -70578,7 +70761,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "abe26a18-07d3-11ef-bb3b-0242ac130004",
+                "name": "SGM"
             },
             "opponent2": {
                 "id": null
@@ -70642,7 +70826,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cff0db6a-07d3-11ef-b1da-0242ac130004",
+                "name": "AGA Gaming"
             },
             "opponent2": {
                 "id": null
@@ -87530,7 +87715,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c294b664-0a1a-11ef-ae34-0242ac130004",
+                "name": "The United Kings"
             },
             "opponent2": {
                 "id": null
@@ -87594,7 +87780,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c9d9b8b4-07d3-11ef-8988-0242ac130004",
+                "name": "team croûton"
             },
             "opponent2": {
                 "id": null

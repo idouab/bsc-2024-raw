@@ -9306,6 +9306,17 @@
             "img": ""
         },
         {
+            "id": "8dfd4ce6-0c03-11ef-ade0-0242ac130004",
+            "tournament_id": 0,
+            "name": "Cachinflines SV",
+            "players": [
+                "raul1114",
+                "S4NCH3ZGG",
+                "™Donovan╰‿╯"
+            ],
+            "img": ""
+        },
+        {
             "id": "a4cea24c-0b38-11ef-b8ae-0242ac130004",
             "tournament_id": 0,
             "name": "Class’n’Grass 🌱",
@@ -27839,16 +27850,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8dfd4ce6-0c03-11ef-ade0-0242ac130004",
-                "name": "Cachinflines SV"
+                "name": "Cachinflines SV",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b61d3600-0f69-11ef-8078-0242ac130004",
-                "name": "Blond"
+                "name": "Blond",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "8dfd4ce6-0c03-11ef-ade0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b61d3600-0f69-11ef-8078-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "8dfd4ce6-0c03-11ef-ade0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b61d3600-0f69-11ef-8078-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 897,
@@ -35191,10 +35237,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8dfd4ce6-0c03-11ef-ade0-0242ac130004",
+                "name": "Cachinflines SV"
             },
             "opponent2": {
-                "id": null
+                "id": "a4cea24c-0b38-11ef-b8ae-0242ac130004",
+                "name": "Class’n’Grass 🌱"
             },
             "match_games": []
         },

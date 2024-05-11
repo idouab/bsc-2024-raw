@@ -18274,16 +18274,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "78f58c22-07d6-11ef-858a-0242ac130004",
-                "name": "Perde baixo"
+                "name": "Perde baixo",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b34317ec-0a3c-11ef-837d-0242ac130004",
-                "name": "ZETA BR"
+                "name": "ZETA BR",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "78f58c22-07d6-11ef-858a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b34317ec-0a3c-11ef-837d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "78f58c22-07d6-11ef-858a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b34317ec-0a3c-11ef-837d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 410,
@@ -25928,7 +25963,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b34317ec-0a3c-11ef-837d-0242ac130004",
+                "name": "ZETA BR"
             },
             "opponent2": {
                 "id": null

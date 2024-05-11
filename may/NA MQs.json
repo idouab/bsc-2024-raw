@@ -10402,6 +10402,17 @@
             "img": ""
         },
         {
+            "id": "f92fbd3c-098d-11ef-b943-0242ac130004",
+            "tournament_id": 0,
+            "name": "mx",
+            "players": [
+                "ben",
+                "MitStomper",
+                "Link Piece"
+            ],
+            "img": ""
+        },
+        {
             "id": "f9508e6e-0950-11ef-88e7-0242ac130004",
             "tournament_id": 0,
             "name": "The Rebels",
@@ -25981,16 +25992,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6cbf9d04-07d5-11ef-8ef0-0242ac130004",
-                "name": "DATEKO"
+                "name": "DATEKO",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f92fbd3c-098d-11ef-b943-0242ac130004",
-                "name": "mx"
+                "name": "mx",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6cbf9d04-07d5-11ef-8ef0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f92fbd3c-098d-11ef-b943-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6cbf9d04-07d5-11ef-8ef0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f92fbd3c-098d-11ef-b943-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 798,
@@ -29378,16 +29424,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6a6e0180-07d5-11ef-9132-0242ac130004",
-                "name": "MIT_Elite"
+                "name": "MIT_Elite",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1920885e-09b8-11ef-95c9-0242ac130004",
-                "name": "Laguna Del Caimán"
+                "name": "Laguna Del Caimán",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6a6e0180-07d5-11ef-9132-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1920885e-09b8-11ef-95c9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6a6e0180-07d5-11ef-9132-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1920885e-09b8-11ef-95c9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 952,
@@ -30727,7 +30808,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6cbf9d04-07d5-11ef-8ef0-0242ac130004",
+                "name": "DATEKO"
             },
             "opponent2": {
                 "id": null
@@ -37049,10 +37131,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f92fbd3c-098d-11ef-b943-0242ac130004",
+                "name": "mx"
             },
             "opponent2": {
-                "id": null
+                "id": "f9508e6e-0950-11ef-88e7-0242ac130004",
+                "name": "The Rebels"
             },
             "match_games": []
         },

@@ -17480,16 +17480,66 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
-                "name": "Peak Radiance"
+                "name": "Peak Radiance",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
-                "name": "ASIANO2"
+                "name": "ASIANO2",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 374,
@@ -18514,7 +18564,8 @@
                 "name": "訳アリ"
             },
             "opponent2": {
-                "id": null
+                "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                "name": "ASIANO2"
             },
             "match_games": []
         },

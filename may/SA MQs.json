@@ -19656,16 +19656,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "766fca8a-07d6-11ef-940f-0242ac130004",
-                "name": "LiLParty"
+                "name": "LiLParty",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6e7de08e-098c-11ef-b4b6-0242ac130004",
-                "name": "JC/SVG/3"
+                "name": "JC/SVG/3",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "766fca8a-07d6-11ef-940f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6e7de08e-098c-11ef-b4b6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "766fca8a-07d6-11ef-940f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6e7de08e-098c-11ef-b4b6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 454,
@@ -26356,7 +26391,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6e7de08e-098c-11ef-b4b6-0242ac130004",
+                "name": "JC/SVG/3"
             },
             "opponent2": {
                 "id": null

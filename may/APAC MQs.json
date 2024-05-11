@@ -20624,16 +20624,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "56558a8a-0ac6-11ef-8e75-0242ac130004",
-                "name": "Team GE"
+                "name": "Team GE",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56558a8a-0ac6-11ef-8e75-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56558a8a-0ac6-11ef-8e75-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 454,
@@ -20768,7 +20803,8 @@
                 "name": "Kinchana"
             },
             "opponent2": {
-                "id": null
+                "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                "name": "College Students"
             },
             "match_games": []
         },

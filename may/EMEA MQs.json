@@ -24479,6 +24479,17 @@
             "img": ""
         },
         {
+            "id": "114dd9f2-0980-11ef-9cd0-0242ac130004",
+            "tournament_id": 0,
+            "name": "French Esport",
+            "players": [
+                "Luka",
+                "IS|db_z💥cancan",
+                "nuzlokfire"
+            ],
+            "img": ""
+        },
+        {
             "id": "f3f76714-0a5c-11ef-a8fa-0242ac130004",
             "tournament_id": 0,
             "name": "IKY | Grands-one",
@@ -24743,6 +24754,18 @@
                 "Ich King Kong",
                 "ㄥ工卂爪ィザード🥥🤍",
                 "$$$"
+            ],
+            "img": ""
+        },
+        {
+            "id": "555ec62c-0946-11ef-a85c-0242ac130004",
+            "tournament_id": 0,
+            "name": "ETIK",
+            "players": [
+                "Igor💜heist",
+                "◜𝖤𝗑σ𝚝ιᴄ・ 🥋◞",
+                "𝑆𝑇𝐸𝑉𝐾𝐸",
+                "🇷🇸aleksa🇷🇸"
             ],
             "img": ""
         },
@@ -25408,6 +25431,18 @@
                 "FPK.Stefan🥀",
                 "FPK.Andrey❤️‍🔥",
                 "FPK.Costy"
+            ],
+            "img": ""
+        },
+        {
+            "id": "338e66d6-097f-11ef-a174-0242ac130004",
+            "tournament_id": 0,
+            "name": "Turkey>all",
+            "players": [
+                "~EfsoYago~",
+                "✖➕➖➗=zeki",
+                "The_Killer",
+                "✖️➕➖➗=Enes"
             ],
             "img": ""
         },
@@ -32569,16 +32604,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d2ccb57a-07d3-11ef-899b-0242ac130004",
-                "name": "Galactic Protus"
+                "name": "Galactic Protus",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "114dd9f2-0980-11ef-9cd0-0242ac130004",
-                "name": "French Esport"
+                "name": "French Esport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d2ccb57a-07d3-11ef-899b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "114dd9f2-0980-11ef-9cd0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d2ccb57a-07d3-11ef-899b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "114dd9f2-0980-11ef-9cd0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 129,
@@ -33430,16 +33500,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8dbc6a70-0977-11ef-95b7-0242ac130004",
-                "name": "LAN"
+                "name": "LAN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "555ec62c-0946-11ef-a85c-0242ac130004",
-                "name": "ETIK"
+                "name": "ETIK",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "8dbc6a70-0977-11ef-95b7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "555ec62c-0946-11ef-a85c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "8dbc6a70-0977-11ef-95b7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "555ec62c-0946-11ef-a85c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "8dbc6a70-0977-11ef-95b7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "555ec62c-0946-11ef-a85c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -35592,16 +35712,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c3040ecc-07d3-11ef-b344-0242ac130004",
-                "name": "CDA Esports"
+                "name": "CDA Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "338e66d6-097f-11ef-a174-0242ac130004",
-                "name": "Turkey>all"
+                "name": "Turkey>all",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c3040ecc-07d3-11ef-b344-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "338e66d6-097f-11ef-a174-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c3040ecc-07d3-11ef-b344-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "338e66d6-097f-11ef-a174-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c3040ecc-07d3-11ef-b344-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "338e66d6-097f-11ef-a174-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 225,
@@ -54873,7 +55043,8 @@
                 "name": "MBS"
             },
             "opponent2": {
-                "id": null
+                "id": "d2ccb57a-07d3-11ef-899b-0242ac130004",
+                "name": "Galactic Protus"
             },
             "match_games": []
         },
@@ -55118,10 +55289,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8dbc6a70-0977-11ef-95b7-0242ac130004",
+                "name": "LAN"
             },
             "opponent2": {
-                "id": null
+                "id": "b9dc88f6-07d3-11ef-b591-0242ac130004",
+                "name": "037"
             },
             "match_games": []
         },
@@ -55719,7 +55892,8 @@
                 "name": "The Unicorns 🦄"
             },
             "opponent2": {
-                "id": null
+                "id": "c3040ecc-07d3-11ef-b344-0242ac130004",
+                "name": "CDA Esports"
             },
             "match_games": []
         },
@@ -71629,7 +71803,8 @@
                 "name": "Pamzi Veraniega"
             },
             "opponent2": {
-                "id": null
+                "id": "114dd9f2-0980-11ef-9cd0-0242ac130004",
+                "name": "French Esport"
             },
             "match_games": []
         },
@@ -71874,10 +72049,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "555ec62c-0946-11ef-a85c-0242ac130004",
+                "name": "ETIK"
             },
             "opponent2": {
-                "id": null
+                "id": "78f1e846-098f-11ef-afba-0242ac130004",
+                "name": "Terror"
             },
             "match_games": []
         },
@@ -72475,7 +72652,8 @@
                 "name": "FPK"
             },
             "opponent2": {
-                "id": null
+                "id": "338e66d6-097f-11ef-a174-0242ac130004",
+                "name": "Turkey>all"
             },
             "match_games": []
         },

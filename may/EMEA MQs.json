@@ -23138,6 +23138,17 @@
                 "мега мурмур"
             ],
             "img": ""
+        },
+        {
+            "id": "9b366a44-0f1b-11ef-a051-0242ac130004",
+            "tournament_id": 0,
+            "name": "YQ Gaming",
+            "players": [
+                "Ghost98",
+                "farzad_Yo",
+                "yusefi"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -26784,16 +26795,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a846d6e-07d8-11ef-91b5-0242ac130004",
-                "name": "F/A KEBAP"
+                "name": "F/A KEBAP",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9b366a44-0f1b-11ef-a051-0242ac130004",
-                "name": "YQ Gaming"
+                "name": "YQ Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "1a846d6e-07d8-11ef-91b5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b366a44-0f1b-11ef-a051-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1a846d6e-07d8-11ef-91b5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b366a44-0f1b-11ef-a051-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 194,
@@ -43298,7 +43344,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a846d6e-07d8-11ef-91b5-0242ac130004",
+                "name": "F/A KEBAP"
             },
             "opponent2": {
                 "id": null
@@ -59618,7 +59665,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9b366a44-0f1b-11ef-a051-0242ac130004",
+                "name": "YQ Gaming"
             },
             "opponent2": {
                 "id": null

@@ -6615,16 +6615,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87186df2-0a91-11ef-8525-0242ac130004",
-                "name": "野犬ハート"
+                "name": "野犬ハート",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "073ba8bc-0a8f-11ef-8a2d-0242ac130004",
-                "name": "札幌有徳JP"
+                "name": "札幌有徳JP",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "87186df2-0a91-11ef-8525-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "073ba8bc-0a8f-11ef-8a2d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "87186df2-0a91-11ef-8525-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "073ba8bc-0a8f-11ef-8a2d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "87186df2-0a91-11ef-8525-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "073ba8bc-0a8f-11ef-8a2d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 107,
@@ -8291,7 +8341,8 @@
                 "name": "T0 Team"
             },
             "opponent2": {
-                "id": null
+                "id": "87186df2-0a91-11ef-8525-0242ac130004",
+                "name": "野犬ハート"
             },
             "match_games": []
         },

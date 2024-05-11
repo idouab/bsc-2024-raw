@@ -2672,6 +2672,17 @@
             "img": ""
         },
         {
+            "id": "548e2216-07d3-11ef-9589-0242ac130004",
+            "tournament_id": 0,
+            "name": "아기상어",
+            "players": [
+                "잡이ᴸᴵᴺᴱ",
+                "저 꿈을 덧그리며",
+                "LINE_럭키"
+            ],
+            "img": ""
+        },
+        {
             "id": "eade1806-0a18-11ef-87df-0242ac130004",
             "tournament_id": 0,
             "name": "CRIMSON ESPORTS",
@@ -5404,16 +5415,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "548e2216-07d3-11ef-9589-0242ac130004",
-                "name": "아기상어"
+                "name": "아기상어",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
-                "name": "Crush"
+                "name": "Crush",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "548e2216-07d3-11ef-9589-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "548e2216-07d3-11ef-9589-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 112,
@@ -6815,7 +6861,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                "name": "Crush"
             },
             "opponent2": {
                 "id": null
@@ -8382,7 +8429,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "548e2216-07d3-11ef-9589-0242ac130004",
+                "name": "아기상어"
             },
             "opponent2": {
                 "id": null

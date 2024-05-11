@@ -3103,16 +3103,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0224e992-0d55-11ef-8a00-0242ac130004",
-                "name": "HKSC"
+                "name": "HKSC",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
-                "name": "かいとさまさんじょう！"
+                "name": "かいとさまさんじょう！",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "0224e992-0d55-11ef-8a00-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "0224e992-0d55-11ef-8a00-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 23,
@@ -5191,7 +5226,8 @@
                 "name": "StickyBall"
             },
             "opponent2": {
-                "id": null
+                "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
+                "name": "かいとさまさんじょう！"
             },
             "match_games": []
         },

@@ -18780,16 +18780,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
-                "name": "訳アリ"
+                "name": "訳アリ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
-                "name": "ASIANO2"
+                "name": "ASIANO2",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 412,
@@ -19283,7 +19318,8 @@
                 "name": "MO' RESILIENCE"
             },
             "opponent2": {
-                "id": null
+                "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                "name": "訳アリ"
             },
             "match_games": []
         },

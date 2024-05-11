@@ -7288,7 +7288,7 @@
             "name": "PITOGYRO",
             "players": [
                 "EFRAIMOGLOU",
-                "Skoonyt",
+                "PIT|Skoonyt",
                 "stam79"
             ],
             "img": ""
@@ -86767,16 +86767,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c7bac3c0-07d3-11ef-b54d-0242ac130004",
-                "name": "The Final Set Beta"
+                "name": "The Final Set Beta",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e24fb89e-07d3-11ef-aab8-0242ac130004",
-                "name": "Young Cowboys"
+                "name": "Young Cowboys",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c7bac3c0-07d3-11ef-b54d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e24fb89e-07d3-11ef-aab8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c7bac3c0-07d3-11ef-b54d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e24fb89e-07d3-11ef-aab8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "c7bac3c0-07d3-11ef-b54d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e24fb89e-07d3-11ef-aab8-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1930,
@@ -94886,10 +94936,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e24fb89e-07d3-11ef-aab8-0242ac130004",
+                "name": "Young Cowboys"
             },
             "opponent2": {
-                "id": null
+                "id": "23656342-0991-11ef-bfb8-0242ac130004",
+                "name": "⚡️BLAZE STORM🌪️"
             },
             "match_games": []
         },
@@ -114062,10 +114114,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c7bac3c0-07d3-11ef-b54d-0242ac130004",
+                "name": "The Final Set Beta"
             },
             "opponent2": {
-                "id": null
+                "id": "ede2b656-0982-11ef-91e5-0242ac130004",
+                "name": "Cute"
             },
             "match_games": []
         },

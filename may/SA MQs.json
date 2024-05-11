@@ -6462,6 +6462,17 @@
             "img": ""
         },
         {
+            "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
+            "tournament_id": 0,
+            "name": "LOS BUTS",
+            "players": [
+                "@gabriel_mbu",
+                "<c4>Spike</c>",
+                "juandaacool"
+            ],
+            "img": ""
+        },
+        {
             "id": "f882208e-09b8-11ef-82bf-0242ac130004",
             "tournament_id": 0,
             "name": "Void Team",
@@ -6806,6 +6817,17 @@
                 "CT | Skibidi⁶⁹✈",
                 "Cristorey",
                 "Zeansz"
+            ],
+            "img": ""
+        },
+        {
+            "id": "7955984a-0a53-11ef-99ab-0242ac130004",
+            "tournament_id": 0,
+            "name": "los changos fc",
+            "players": [
+                "jOaCo.MuSa",
+                "TM|Feli",
+                "pepo"
             ],
             "img": ""
         },
@@ -7918,6 +7940,17 @@
                 "SCL|F.O.T.",
                 "TM | Texcla🐸",
                 "SCL|ZEA🌱"
+            ],
+            "img": ""
+        },
+        {
+            "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
+            "tournament_id": 0,
+            "name": "TM Juniors",
+            "players": [
+                "NicoLoco",
+                "Aguti⚽",
+                "莱昂内尔😬"
             ],
             "img": ""
         },
@@ -10866,16 +10899,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
-                "name": "LOS BUTS"
+                "name": "LOS BUTS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e774c30c-0970-11ef-9d69-0242ac130004",
-                "name": "PE/LIRKENS🇵🇪"
+                "name": "PE/LIRKENS🇵🇪",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 71,
@@ -12100,16 +12183,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c99b010c-0a97-11ef-9bc7-0242ac130004",
-                "name": "OS GOTY"
+                "name": "OS GOTY",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7955984a-0a53-11ef-99ab-0242ac130004",
-                "name": "los changos fc"
+                "name": "los changos fc",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c99b010c-0a97-11ef-9bc7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7955984a-0a53-11ef-99ab-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c99b010c-0a97-11ef-9bc7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7955984a-0a53-11ef-99ab-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c99b010c-0a97-11ef-9bc7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7955984a-0a53-11ef-99ab-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 107,
@@ -15842,16 +15975,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
-                "name": "TM Juniors"
+                "name": "TM Juniors",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "79052112-0968-11ef-b6e9-0242ac130004",
-                "name": "A+"
+                "name": "A+",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "79052112-0968-11ef-b6e9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "79052112-0968-11ef-b6e9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "79052112-0968-11ef-b6e9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 215,
@@ -17658,7 +17841,8 @@
                 "name": "SMG |[Doritos]™"
             },
             "opponent2": {
-                "id": null
+                "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                "name": "PE/LIRKENS🇵🇪"
             },
             "match_games": []
         },
@@ -17974,7 +18158,8 @@
                 "name": "Mini XB"
             },
             "opponent2": {
-                "id": null
+                "id": "c99b010c-0a97-11ef-9bc7-0242ac130004",
+                "name": "OS GOTY"
             },
             "match_games": []
         },
@@ -18940,7 +19125,8 @@
                 "name": "Ñam sports"
             },
             "opponent2": {
-                "id": null
+                "id": "79052112-0968-11ef-b6e9-0242ac130004",
+                "name": "A+"
             },
             "match_games": []
         },
@@ -21910,7 +22096,8 @@
                 "name": "Arnolds/Blf"
             },
             "opponent2": {
-                "id": null
+                "id": "62f4e090-0b4a-11ef-87a9-0242ac130004",
+                "name": "LOS BUTS"
             },
             "match_games": []
         },
@@ -22226,7 +22413,8 @@
                 "name": "I N S A N O S  |  FC"
             },
             "opponent2": {
-                "id": null
+                "id": "7955984a-0a53-11ef-99ab-0242ac130004",
+                "name": "los changos fc"
             },
             "match_games": []
         },
@@ -23156,7 +23344,8 @@
                 "name": "Sacrile"
             },
             "opponent2": {
-                "id": null
+                "id": "5767efa2-0bb7-11ef-9fba-0242ac130004",
+                "name": "TM Juniors"
             },
             "match_games": []
         },

@@ -11107,16 +11107,51 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "523b8756-07d3-11ef-9afe-0242ac130004",
-                "name": "POCHENLEGEND"
+                "name": "POCHENLEGEND",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "46667620-0af8-11ef-8fef-0242ac130004",
-                "name": "🤡"
+                "name": "🤡",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "523b8756-07d3-11ef-9afe-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "523b8756-07d3-11ef-9afe-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 306,
@@ -12069,7 +12104,8 @@
                 "name": "ますたー芸人🐋"
             },
             "opponent2": {
-                "id": null
+                "id": "523b8756-07d3-11ef-9afe-0242ac130004",
+                "name": "POCHENLEGEND"
             },
             "match_games": []
         },
@@ -15543,7 +15579,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                "name": "🤡"
             },
             "opponent2": {
                 "id": null

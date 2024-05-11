@@ -11190,6 +11190,17 @@
             "img": ""
         },
         {
+            "id": "5660ef88-0b02-11ef-ae9c-0242ac130004",
+            "tournament_id": 0,
+            "name": "The Hollow",
+            "players": [
+                "<c4>Pug</c>",
+                "Macp06",
+                "Bot 5"
+            ],
+            "img": ""
+        },
+        {
             "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
             "tournament_id": 0,
             "name": "Slw Crew",
@@ -28006,16 +28017,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5660ef88-0b02-11ef-ae9c-0242ac130004",
-                "name": "The Hollow"
+                "name": "The Hollow",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ac4011b4-0f43-11ef-92a5-0242ac130004",
-                "name": "Axolotl team"
+                "name": "Axolotl team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "5660ef88-0b02-11ef-ae9c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ac4011b4-0f43-11ef-92a5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "5660ef88-0b02-11ef-ae9c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ac4011b4-0f43-11ef-92a5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 795,
@@ -35868,7 +35914,8 @@
                 "name": "Shadow Realm"
             },
             "opponent2": {
-                "id": null
+                "id": "ac4011b4-0f43-11ef-92a5-0242ac130004",
+                "name": "Axolotl team"
             },
             "match_games": []
         },
@@ -42466,10 +42513,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5660ef88-0b02-11ef-ae9c-0242ac130004",
+                "name": "The Hollow"
             },
             "opponent2": {
-                "id": null
+                "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
+                "name": "Slw Crew"
             },
             "match_games": []
         },

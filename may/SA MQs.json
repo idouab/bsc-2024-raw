@@ -43914,16 +43914,66 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b71d0a0-07d6-11ef-aade-0242ac130004",
-                "name": "El Rejunte"
+                "name": "El Rejunte",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "75f228a0-07d6-11ef-978a-0242ac130004",
-                "name": "Texas burguer"
+                "name": "Texas burguer",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7b71d0a0-07d6-11ef-aade-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7b71d0a0-07d6-11ef-aade-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "7b71d0a0-07d6-11ef-aade-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 925,
@@ -44885,7 +44935,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                "name": "Texas burguer"
             },
             "opponent2": {
                 "id": null

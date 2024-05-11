@@ -24736,6 +24736,17 @@
             "img": ""
         },
         {
+            "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
+            "tournament_id": 0,
+            "name": "SK | Onfire🔥",
+            "players": [
+                "rico",
+                "メGuido🤍",
+                "Sniper🐙"
+            ],
+            "img": ""
+        },
+        {
             "id": "e2b26b8a-0ae2-11ef-8f30-0242ac130004",
             "tournament_id": 0,
             "name": "THE BOYZ",
@@ -25204,6 +25215,17 @@
                 "fnatic kev",
                 "GX andre_07",
                 "Snoop Dogg"
+            ],
+            "img": ""
+        },
+        {
+            "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Magnetic",
+            "players": [
+                "๛𝐖𝐢𝐧𝐝シ︎",
+                "MC|Vanko🍺😝",
+                "𝓎ᵒ𝒽ᵒ🜸༄♐︎"
             ],
             "img": ""
         },
@@ -33876,16 +33898,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dc60bb7c-07d3-11ef-9509-0242ac130004",
-                "name": "Quantum gaming"
+                "name": "Quantum gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
-                "name": "SK | Onfire🔥"
+                "name": "SK | Onfire🔥",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dc60bb7c-07d3-11ef-9509-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dc60bb7c-07d3-11ef-9509-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "dc60bb7c-07d3-11ef-9509-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 147,
@@ -35419,16 +35491,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
-                "name": "Magnetic"
+                "name": "Magnetic",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1a9ac15c-0951-11ef-95d3-0242ac130004",
-                "name": "Kings"
+                "name": "Kings",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1a9ac15c-0951-11ef-95d3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a9ac15c-0951-11ef-95d3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a9ac15c-0951-11ef-95d3-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 192,
@@ -57314,7 +57436,8 @@
                 "name": "The Best Germans"
             },
             "opponent2": {
-                "id": null
+                "id": "dc60bb7c-07d3-11ef-9509-0242ac130004",
+                "name": "Quantum gaming"
             },
             "match_games": []
         },
@@ -57721,10 +57844,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a9ac15c-0951-11ef-95d3-0242ac130004",
+                "name": "Kings"
             },
             "opponent2": {
-                "id": null
+                "id": "b84e8908-07d3-11ef-8e88-0242ac130004",
+                "name": "LK Gaming"
             },
             "match_games": []
         },
@@ -74127,7 +74252,8 @@
                 "name": "NK | Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "39c6c59c-0ae8-11ef-a398-0242ac130004",
+                "name": "SK | Onfire🔥"
             },
             "match_games": []
         },
@@ -74534,10 +74660,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d156b7fe-07d3-11ef-979f-0242ac130004",
+                "name": "Magnetic"
             },
             "opponent2": {
-                "id": null
+                "id": "83a1ae38-0981-11ef-a5a9-0242ac130004",
+                "name": "AR|"
             },
             "match_games": []
         },

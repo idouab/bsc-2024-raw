@@ -23239,6 +23239,29 @@
                 "Im"
             ],
             "img": ""
+        },
+        {
+            "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+            "tournament_id": 0,
+            "name": "FL",
+            "players": [
+                "Graviton_",
+                "anorak",
+                "Le FrOmAgE 3D"
+            ],
+            "img": ""
+        },
+        {
+            "id": "dc342a20-098c-11ef-9229-0242ac130004",
+            "tournament_id": 0,
+            "name": "NIL Esports",
+            "players": [
+                "Nil_gamer BS🦛",
+                "niko1505",
+                "Ledrix🥀",
+                "Andriiuu"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -30008,16 +30031,81 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "add94404-07d3-11ef-9ba2-0242ac130004",
-                "name": "Nuclow"
+                "name": "Nuclow",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "24e71744-0a25-11ef-9d28-0242ac130004",
-                "name": "FL"
+                "name": "FL",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "add94404-07d3-11ef-9ba2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "add94404-07d3-11ef-9ba2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "add94404-07d3-11ef-9ba2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "add94404-07d3-11ef-9ba2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 350,
@@ -31934,16 +32022,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dc342a20-098c-11ef-9229-0242ac130004",
-                "name": "NIL Esports"
+                "name": "NIL Esports",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cdd1fbf8-0aca-11ef-9402-0242ac130004",
-                "name": "lb"
+                "name": "lb",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dc342a20-098c-11ef-9229-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cdd1fbf8-0aca-11ef-9402-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dc342a20-098c-11ef-9229-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cdd1fbf8-0aca-11ef-9402-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 457,
@@ -44966,7 +45089,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "add94404-07d3-11ef-9ba2-0242ac130004",
+                "name": "Nuclow"
             },
             "opponent2": {
                 "id": null
@@ -61290,7 +61414,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "24e71744-0a25-11ef-9d28-0242ac130004",
+                "name": "FL"
             },
             "opponent2": {
                 "id": null

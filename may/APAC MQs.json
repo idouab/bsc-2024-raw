@@ -2548,6 +2548,28 @@
             "img": ""
         },
         {
+            "id": "aa036efa-096c-11ef-895b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Amaranthine",
+            "players": [
+                "⭐RawJam⭐",
+                "⭐tony112055⭐",
+                "⭐willwill⭐"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+            "tournament_id": 0,
+            "name": "TAXI DRIVERS",
+            "players": [
+                "Mr Jelly Bean",
+                "II | MaxiTaxi",
+                "II|Moon🌙"
+            ],
+            "img": ""
+        },
+        {
             "id": "eade1806-0a18-11ef-87df-0242ac130004",
             "tournament_id": 0,
             "name": "CRIMSON ESPORTS",
@@ -4347,16 +4369,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
-                "name": "透明エレジー"
+                "name": "透明エレジー",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aa036efa-096c-11ef-895b-0242ac130004",
-                "name": "Amaranthine"
+                "name": "Amaranthine",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aa036efa-096c-11ef-895b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aa036efa-096c-11ef-895b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 93,
@@ -4398,16 +4455,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "550410ac-07d3-11ef-a54f-0242ac130004",
-                "name": "Ok"
+                "name": "Ok",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
-                "name": "TAXI DRIVERS"
+                "name": "TAXI DRIVERS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 96,
@@ -5834,7 +5926,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                "name": "Ok"
             },
             "opponent2": {
                 "id": null
@@ -7459,7 +7552,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+                "name": "TAXI DRIVERS"
             },
             "opponent2": {
                 "id": null

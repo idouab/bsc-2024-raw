@@ -29580,6 +29580,17 @@
             "img": ""
         },
         {
+            "id": "9f7571d4-0b1c-11ef-b5b0-0242ac130004",
+            "tournament_id": 0,
+            "name": "SkibidiOhioSigma",
+            "players": [
+                "I❤️Blobfisch",
+                "Opalost",
+                "tyler08"
+            ],
+            "img": ""
+        },
+        {
             "id": "3180370e-0a2c-11ef-a405-0242ac130004",
             "tournament_id": 0,
             "name": "Weimar Esport",
@@ -58732,16 +58743,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9f7571d4-0b1c-11ef-b5b0-0242ac130004",
-                "name": "SkibidiOhioSigma"
+                "name": "SkibidiOhioSigma",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "38af366e-0a69-11ef-9cdd-0242ac130004",
-                "name": "Unity"
+                "name": "Unity",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "9f7571d4-0b1c-11ef-b5b0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "38af366e-0a69-11ef-9cdd-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "9f7571d4-0b1c-11ef-b5b0-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "38af366e-0a69-11ef-9cdd-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 964,
@@ -68514,7 +68560,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "38af366e-0a69-11ef-9cdd-0242ac130004",
+                "name": "Unity"
             },
             "opponent2": {
                 "id": null
@@ -85393,7 +85440,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9f7571d4-0b1c-11ef-b5b0-0242ac130004",
+                "name": "SkibidiOhioSigma"
             },
             "opponent2": {
                 "id": null

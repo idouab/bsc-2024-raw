@@ -23206,6 +23206,18 @@
             "img": ""
         },
         {
+            "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
+            "tournament_id": 0,
+            "name": "Dareber's Bande",
+            "players": [
+                "Dareber",
+                "CT1922",
+                "Fanbio2009",
+                "ˢ°乂 g i t e"
+            ],
+            "img": ""
+        },
+        {
             "id": "9bc03fec-0aea-11ef-ab75-0242ac130004",
             "tournament_id": 0,
             "name": "Glry",
@@ -23247,6 +23259,18 @@
                 "ᴊғғ | ᴀʟᴇx 🤍",
                 "Ninoo",
                 "Zian"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cfa30570-07d3-11ef-b1d8-0242ac130004",
+            "tournament_id": 0,
+            "name": "ND Gaming",
+            "players": [
+                "⁎ 𝐍ʞo77⛩️",
+                "𝕯яT88⛩️",
+                "✨DragonFly™✨",
+                "lebj"
             ],
             "img": ""
         },
@@ -24917,16 +24941,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e27ab328-07d3-11ef-8338-0242ac130004",
-                "name": "Synchronic Gaming"
+                "name": "Synchronic Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
-                "name": "Dareber's Bande"
+                "name": "Dareber's Bande",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "e27ab328-07d3-11ef-8338-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e27ab328-07d3-11ef-8338-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 50,
@@ -26425,16 +26484,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfa30570-07d3-11ef-b1d8-0242ac130004",
-                "name": "ND Gaming"
+                "name": "ND Gaming",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ee80fdea-0a25-11ef-b48f-0242ac130004",
-                "name": "Incrediblepeacock"
+                "name": "Incrediblepeacock",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "cfa30570-07d3-11ef-b1d8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee80fdea-0a25-11ef-b48f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cfa30570-07d3-11ef-b1d8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ee80fdea-0a25-11ef-b48f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 126,
@@ -44271,7 +44365,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e27ab328-07d3-11ef-8338-0242ac130004",
+                "name": "Synchronic Gaming"
             },
             "opponent2": {
                 "id": null
@@ -44882,7 +44977,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ee80fdea-0a25-11ef-b48f-0242ac130004",
+                "name": "Incrediblepeacock"
             },
             "opponent2": {
                 "id": null
@@ -60619,7 +60715,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
+                "name": "Dareber's Bande"
             },
             "opponent2": {
                 "id": null
@@ -61230,7 +61327,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cfa30570-07d3-11ef-b1d8-0242ac130004",
+                "name": "ND Gaming"
             },
             "opponent2": {
                 "id": null

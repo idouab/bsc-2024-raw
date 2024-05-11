@@ -10710,16 +10710,51 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a1313366-07d7-11ef-8dce-0242ac130004",
-                "name": "Angelic"
+                "name": "Angelic",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
-                "name": "Brawling legends"
+                "name": "Brawling legends",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "a1313366-07d7-11ef-8dce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a1313366-07d7-11ef-8dce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 307,
@@ -11271,7 +11306,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a1313366-07d7-11ef-8dce-0242ac130004",
+                "name": "Angelic"
             },
             "opponent2": {
                 "id": null
@@ -14645,7 +14681,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                "name": "Brawling legends"
             },
             "opponent2": {
                 "id": null

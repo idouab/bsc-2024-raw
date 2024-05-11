@@ -18795,16 +18795,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79a99168-07d6-11ef-9039-0242ac130004",
-                "name": "Mamadegosha"
+                "name": "Mamadegosha",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4ee442c4-0a66-11ef-9656-0242ac130004",
-                "name": "ORRAI SPORT"
+                "name": "ORRAI SPORT",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "79a99168-07d6-11ef-9039-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4ee442c4-0a66-11ef-9656-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "79a99168-07d6-11ef-9039-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4ee442c4-0a66-11ef-9656-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 405,
@@ -24192,10 +24227,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4ee442c4-0a66-11ef-9656-0242ac130004",
+                "name": "ORRAI SPORT"
             },
             "opponent2": {
-                "id": null
+                "id": "8c252122-0d9e-11ef-8880-0242ac130004",
+                "name": "CHIBAS"
             },
             "match_games": []
         },
@@ -31196,10 +31233,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "79a99168-07d6-11ef-9039-0242ac130004",
+                "name": "Mamadegosha"
             },
             "opponent2": {
-                "id": null
+                "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+                "name": "Knock Out"
             },
             "match_games": []
         },

@@ -10339,6 +10339,17 @@
             "img": ""
         },
         {
+            "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
+            "tournament_id": 0,
+            "name": "Angry Raccoons",
+            "players": [
+                "kz",
+                "SupremeKing2",
+                "ꞁꬿꞁꬽꝉ"
+            ],
+            "img": ""
+        },
+        {
             "id": "35878912-0994-11ef-88d0-0242ac130004",
             "tournament_id": 0,
             "name": "Los Chicos",
@@ -31051,16 +31062,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
-                "name": "Angry Raccoons"
+                "name": "Angry Raccoons",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6be08d7e-0a7f-11ef-b1dc-0242ac130004",
-                "name": "THELOKOS"
+                "name": "THELOKOS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6be08d7e-0a7f-11ef-b1dc-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6be08d7e-0a7f-11ef-b1dc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6be08d7e-0a7f-11ef-b1dc-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 857,
@@ -37518,7 +37579,8 @@
                 "name": "Stealth Cidatel"
             },
             "opponent2": {
-                "id": null
+                "id": "6be08d7e-0a7f-11ef-b1dc-0242ac130004",
+                "name": "THELOKOS"
             },
             "match_games": []
         },
@@ -42693,10 +42755,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e07589dc-0aa2-11ef-9c0c-0242ac130004",
+                "name": "Angry Raccoons"
             },
             "opponent2": {
-                "id": null
+                "id": "35878912-0994-11ef-88d0-0242ac130004",
+                "name": "Los Chicos"
             },
             "match_games": []
         },

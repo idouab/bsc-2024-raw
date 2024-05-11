@@ -8868,6 +8868,17 @@
             "img": ""
         },
         {
+            "id": "e671fa78-0eda-11ef-861a-0242ac130004",
+            "tournament_id": 0,
+            "name": "COOL POTATO",
+            "players": [
+                "Mr. Maxim",
+                "Kedi1450",
+                "╱༒iblood309༒╲"
+            ],
+            "img": ""
+        },
+        {
             "id": "529c501c-0b1c-11ef-8e76-0242ac130004",
             "tournament_id": 0,
             "name": "Ricardo Milos Team",
@@ -28509,16 +28520,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6b6b6dd4-07d5-11ef-8f94-0242ac130004",
-                "name": "The Golden Phoenix"
+                "name": "The Golden Phoenix",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e671fa78-0eda-11ef-861a-0242ac130004",
-                "name": "COOL POTATO"
+                "name": "COOL POTATO",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6b6b6dd4-07d5-11ef-8f94-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e671fa78-0eda-11ef-861a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6b6b6dd4-07d5-11ef-8f94-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e671fa78-0eda-11ef-861a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 937,
@@ -34399,10 +34445,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e671fa78-0eda-11ef-861a-0242ac130004",
+                "name": "COOL POTATO"
             },
             "opponent2": {
-                "id": null
+                "id": "529c501c-0b1c-11ef-8e76-0242ac130004",
+                "name": "Ricardo Milos Team"
             },
             "match_games": []
         },

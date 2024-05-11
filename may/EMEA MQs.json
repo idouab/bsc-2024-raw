@@ -23274,6 +23274,17 @@
             "img": ""
         },
         {
+            "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
+            "tournament_id": 0,
+            "name": "DPG Esports",
+            "players": [
+                "DPG|Bone",
+                "DPG|bonehro",
+                "DPG|Torsten"
+            ],
+            "img": ""
+        },
+        {
             "id": "da2af3ae-07d3-11ef-a2fb-0242ac130004",
             "tournament_id": 0,
             "name": "NNC|Boys",
@@ -27207,6 +27218,18 @@
             "img": ""
         },
         {
+            "id": "a8373528-0bd5-11ef-978b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Xlight team",
+            "players": [
+                "Diamoncard",
+                "DESTROYER🐐",
+                "★彡[爪ǐ𝐠υ℮𝗹]彡★",
+                "serranoo"
+            ],
+            "img": ""
+        },
+        {
             "id": "7923e966-0987-11ef-9b05-0242ac130004",
             "tournament_id": 0,
             "name": "Manchester chelsea",
@@ -28966,16 +28989,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
-                "name": "DPG Esports"
+                "name": "DPG Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3a66b0c8-0d51-11ef-a1e0-0242ac130004",
-                "name": "Waza Esports"
+                "name": "Waza Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3a66b0c8-0d51-11ef-a1e0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3a66b0c8-0d51-11ef-a1e0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3a66b0c8-0d51-11ef-a1e0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 14,
@@ -41074,16 +41147,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a8373528-0bd5-11ef-978b-0242ac130004",
-                "name": "Xlight team"
+                "name": "Xlight team",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4a9a4fc4-0af7-11ef-9740-0242ac130004",
-                "name": "European Empire"
+                "name": "European Empire",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "a8373528-0bd5-11ef-978b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4a9a4fc4-0af7-11ef-9740-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "a8373528-0bd5-11ef-978b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a9a4fc4-0af7-11ef-9740-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "a8373528-0bd5-11ef-978b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4a9a4fc4-0af7-11ef-9740-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 396,
@@ -54146,10 +54269,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a66b0c8-0d51-11ef-a1e0-0242ac130004",
+                "name": "Waza Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "2051a89c-0b2a-11ef-a6ff-0242ac130004",
+                "name": "Molina Gang😈"
             },
             "match_games": []
         },
@@ -57540,10 +57665,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4a9a4fc4-0af7-11ef-9740-0242ac130004",
+                "name": "European Empire"
             },
             "opponent2": {
-                "id": null
+                "id": "e860d500-0e9b-11ef-8052-0242ac130004",
+                "name": "Polez Team"
             },
             "match_games": []
         },
@@ -70908,10 +71035,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bcaebac2-07d3-11ef-b3ad-0242ac130004",
+                "name": "DPG Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "da2af3ae-07d3-11ef-a2fb-0242ac130004",
+                "name": "NNC|Boys"
             },
             "match_games": []
         },
@@ -74302,10 +74431,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a8373528-0bd5-11ef-978b-0242ac130004",
+                "name": "Xlight team"
             },
             "opponent2": {
-                "id": null
+                "id": "7923e966-0987-11ef-9b05-0242ac130004",
+                "name": "Manchester chelsea"
             },
             "match_games": []
         },

@@ -3210,6 +3210,17 @@
             "img": ""
         },
         {
+            "id": "3a129be0-09f6-11ef-9e8c-0242ac130004",
+            "tournament_id": 0,
+            "name": "杰哥隊",
+            "players": [
+                "拳擊王(火神普里莫)",
+                "杰哥",
+                "狂牛王（龍杯）"
+            ],
+            "img": ""
+        },
+        {
             "id": "eade1806-0a18-11ef-87df-0242ac130004",
             "tournament_id": 0,
             "name": "CRIMSON ESPORTS",
@@ -7069,14 +7080,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "521138a2-07d3-11ef-b3de-0242ac130004",
                 "name": "Cowboys"
             },
             "opponent2": {
                 "id": "3a129be0-09f6-11ef-9e8c-0242ac130004",
-                "name": "杰哥隊"
+                "name": "杰哥隊",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -8463,10 +8475,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                "name": "Cowboys"
             },
             "opponent2": {
-                "id": null
+                "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                "name": "ASIANO1"
             },
             "match_games": []
         },
@@ -10050,10 +10064,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a129be0-09f6-11ef-9e8c-0242ac130004",
+                "name": "杰哥隊"
             },
             "opponent2": {
-                "id": null
+                "id": "eade1806-0a18-11ef-87df-0242ac130004",
+                "name": "CRIMSON ESPORTS"
             },
             "match_games": []
         },

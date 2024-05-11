@@ -14035,16 +14035,51 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
-                "name": "Sun Lights"
+                "name": "Sun Lights",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "548e2216-07d3-11ef-9589-0242ac130004",
-                "name": "아기상어"
+                "name": "아기상어",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "548e2216-07d3-11ef-9589-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "548e2216-07d3-11ef-9589-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 282,

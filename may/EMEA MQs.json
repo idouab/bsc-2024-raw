@@ -24624,6 +24624,17 @@
             "img": ""
         },
         {
+            "id": "516b4a66-093e-11ef-aec2-0242ac130004",
+            "tournament_id": 0,
+            "name": "Furioso🔥",
+            "players": [
+                "Daniel",
+                "Champion",
+                "Cedstar 28"
+            ],
+            "img": ""
+        },
+        {
             "id": "28b63642-0d69-11ef-ae86-0242ac130004",
             "tournament_id": 0,
             "name": "SH | gaming",
@@ -33509,16 +33520,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "516b4a66-093e-11ef-aec2-0242ac130004",
-                "name": "Furioso🔥"
+                "name": "Furioso🔥",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0803dc82-0ac7-11ef-8eb4-0242ac130004",
-                "name": "StarStrikers"
+                "name": "StarStrikers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "516b4a66-093e-11ef-aec2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0803dc82-0ac7-11ef-8eb4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "516b4a66-093e-11ef-aec2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0803dc82-0ac7-11ef-8eb4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "516b4a66-093e-11ef-aec2-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0803dc82-0ac7-11ef-8eb4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 137,
@@ -56979,7 +57040,8 @@
                 "name": "Boom|Esport"
             },
             "opponent2": {
-                "id": null
+                "id": "0803dc82-0ac7-11ef-8eb4-0242ac130004",
+                "name": "StarStrikers"
             },
             "match_games": []
         },
@@ -73787,7 +73849,8 @@
                 "name": "Astral FR"
             },
             "opponent2": {
-                "id": null
+                "id": "516b4a66-093e-11ef-aec2-0242ac130004",
+                "name": "Furioso🔥"
             },
             "match_games": []
         },

@@ -47499,16 +47499,51 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1e1afd66-0b17-11ef-a243-0242ac130004",
-                "name": "AHS"
+                "name": "AHS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d903aa3c-0cfd-11ef-abde-0242ac130004",
-                "name": "mv baddies"
+                "name": "mv baddies",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "1e1afd66-0b17-11ef-a243-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d903aa3c-0cfd-11ef-abde-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "1e1afd66-0b17-11ef-a243-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d903aa3c-0cfd-11ef-abde-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 554,
@@ -52185,10 +52220,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1e1afd66-0b17-11ef-a243-0242ac130004",
+                "name": "AHS"
             },
             "opponent2": {
-                "id": null
+                "id": "9f672468-0b25-11ef-aa0c-0242ac130004",
+                "name": "LT esport"
             },
             "match_games": []
         },

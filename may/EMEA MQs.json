@@ -93535,14 +93535,15 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba1396d4-07d3-11ef-8a19-0242ac130004",
                 "name": "Prisoners"
             },
             "opponent2": {
                 "id": "dd6adf7a-07d3-11ef-b1f9-0242ac130004",
-                "name": "ReNa|TEAM💮"
+                "name": "ReNa|TEAM💮",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -98735,16 +98736,51 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f26cd664-09b1-11ef-9ebc-0242ac130004",
-                "name": "pizzazz pals"
+                "name": "pizzazz pals",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be752a84-0969-11ef-9adc-0242ac130004",
-                "name": "QUEQUETTE-SPORT"
+                "name": "QUEQUETTE-SPORT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "f26cd664-09b1-11ef-9ebc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be752a84-0969-11ef-9adc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "f26cd664-09b1-11ef-9ebc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be752a84-0969-11ef-9adc-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1527,

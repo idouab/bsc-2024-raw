@@ -4923,16 +4923,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bd2c3540-0a9b-11ef-a2c5-0242ac130004",
-                "name": "MNR"
+                "name": "MNR",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ed40e128-0a81-11ef-8662-0242ac130004",
-                "name": "MSH"
+                "name": "MSH",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bd2c3540-0a9b-11ef-a2c5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed40e128-0a81-11ef-8662-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bd2c3540-0a9b-11ef-a2c5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed40e128-0a81-11ef-8662-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "bd2c3540-0a9b-11ef-a2c5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed40e128-0a81-11ef-8662-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 91,
@@ -6726,7 +6776,8 @@
                 "name": "アヒル同好会"
             },
             "opponent2": {
-                "id": null
+                "id": "ed40e128-0a81-11ef-8662-0242ac130004",
+                "name": "MSH"
             },
             "match_games": []
         },

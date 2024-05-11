@@ -9694,16 +9694,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
-                "name": "핫트쭌"
+                "name": "핫트쭌",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
-                "name": "モチキンズ"
+                "name": "モチキンズ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 220,
@@ -10401,7 +10436,8 @@
                 "name": "coco loco"
             },
             "opponent2": {
-                "id": null
+                "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                "name": "モチキンズ"
             },
             "match_games": []
         },
@@ -11712,10 +11748,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b1ec3dde-0d4c-11ef-b04d-0242ac130004",
+                "name": "핫트쭌"
             },
             "opponent2": {
-                "id": null
+                "id": "205023ae-0946-11ef-8475-0242ac130004",
+                "name": "SDN"
             },
             "match_games": []
         },

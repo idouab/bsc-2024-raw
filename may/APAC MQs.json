@@ -19134,16 +19134,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8938e212-0b61-11ef-aa7d-0242ac130004",
-                "name": "Jia Zhe one"
+                "name": "Jia Zhe one",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
-                "name": "モチキンズ"
+                "name": "モチキンズ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "8938e212-0b61-11ef-aa7d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "8938e212-0b61-11ef-aa7d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 420,
@@ -19495,7 +19530,8 @@
                 "name": "4G Entertainment"
             },
             "opponent2": {
-                "id": null
+                "id": "34c4d84a-0b65-11ef-84e9-0242ac130004",
+                "name": "モチキンズ"
             },
             "match_games": []
         },

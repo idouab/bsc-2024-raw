@@ -29028,6 +29028,17 @@
             "img": ""
         },
         {
+            "id": "ec01bd2a-0a11-11ef-8eed-0242ac130004",
+            "tournament_id": 0,
+            "name": "TICKAO GAMING",
+            "players": [
+                "manoob9",
+                "Hpvardasca06",
+                "NOVADORGA"
+            ],
+            "img": ""
+        },
+        {
             "id": "05ad0832-0a4f-11ef-99f4-0242ac130004",
             "tournament_id": 0,
             "name": "Ultimate Gladiators",
@@ -29406,6 +29417,17 @@
                 "₱uⱤ|Aᴛᴇ$ᴳᵒᵈ🌪️",
                 "ɖɛռɨʐ ɛʄɛ",
                 "TxC|Tiger🦋"
+            ],
+            "img": ""
+        },
+        {
+            "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
+            "tournament_id": 0,
+            "name": "Yarramgaming",
+            "players": [
+                "eyuothebaba",
+                "CHECKMATEE",
+                "the siyar"
             ],
             "img": ""
         },
@@ -50035,16 +50057,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ec01bd2a-0a11-11ef-8eed-0242ac130004",
-                "name": "TICKAO GAMING"
+                "name": "TICKAO GAMING",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "08d17b22-09f7-11ef-8a34-0242ac130004",
-                "name": "lkm"
+                "name": "lkm",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ec01bd2a-0a11-11ef-8eed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "08d17b22-09f7-11ef-8a34-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ec01bd2a-0a11-11ef-8eed-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "08d17b22-09f7-11ef-8a34-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ec01bd2a-0a11-11ef-8eed-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "08d17b22-09f7-11ef-8a34-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 585,
@@ -56657,16 +56729,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c045531c-07d3-11ef-b403-0242ac130004",
-                "name": "GYMBROs"
+                "name": "GYMBROs",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
-                "name": "Yarramgaming"
+                "name": "Yarramgaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c045531c-07d3-11ef-b403-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c045531c-07d3-11ef-b403-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 882,
@@ -67649,7 +67756,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c045531c-07d3-11ef-b403-0242ac130004",
+                "name": "GYMBROs"
             },
             "opponent2": {
                 "id": null
@@ -84527,7 +84635,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
+                "name": "Yarramgaming"
             },
             "opponent2": {
                 "id": null

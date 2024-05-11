@@ -20481,16 +20481,66 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9bff3948-0de9-11ef-8772-0242ac130004",
-                "name": "ふぁーすとぺんぎん"
+                "name": "ふぁーすとぺんぎん",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "550410ac-07d3-11ef-a54f-0242ac130004",
-                "name": "Ok"
+                "name": "Ok",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 448,
@@ -20805,7 +20855,8 @@
                 "name": "Frenzy Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                "name": "Ok"
             },
             "match_games": []
         },

@@ -30289,6 +30289,17 @@
             "img": ""
         },
         {
+            "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
+            "tournament_id": 0,
+            "name": "The Sigma",
+            "players": [
+                "ciruzzo",
+                "Bot 7",
+                "Noob😞🥶😉⁉️👍"
+            ],
+            "img": ""
+        },
+        {
             "id": "d260b8de-07d3-11ef-89b4-0242ac130004",
             "tournament_id": 0,
             "name": "EP | JKM",
@@ -57719,16 +57730,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
-                "name": "The Sigma"
+                "name": "The Sigma",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b61b9716-07d3-11ef-9ce7-0242ac130004",
-                "name": "FGD GAMING"
+                "name": "FGD GAMING",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b61b9716-07d3-11ef-9ce7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b61b9716-07d3-11ef-9ce7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b61b9716-07d3-11ef-9ce7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 641,
@@ -76917,7 +76978,8 @@
                 "name": "PERMATRAGO FC"
             },
             "opponent2": {
-                "id": null
+                "id": "b61b9716-07d3-11ef-9ce7-0242ac130004",
+                "name": "FGD GAMING"
             },
             "match_games": []
         },
@@ -94240,7 +94302,8 @@
                 "name": "Cachopin"
             },
             "opponent2": {
-                "id": null
+                "id": "870b7a7e-0f1a-11ef-adc5-0242ac130004",
+                "name": "The Sigma"
             },
             "match_games": []
         },

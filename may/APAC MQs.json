@@ -2548,6 +2548,17 @@
             "img": ""
         },
         {
+            "id": "eade1806-0a18-11ef-87df-0242ac130004",
+            "tournament_id": 0,
+            "name": "CRIMSON ESPORTS",
+            "players": [
+                "KIÑG KÑIGHT",
+                "SOUL | EAGLE YT",
+                "EAGEL Kush"
+            ],
+            "img": ""
+        },
+        {
             "id": "6aac3722-0dfa-11ef-b7ba-0242ac130004",
             "tournament_id": 0,
             "name": "SOUL",
@@ -4784,16 +4795,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eade1806-0a18-11ef-87df-0242ac130004",
-                "name": "CRIMSON ESPORTS"
+                "name": "CRIMSON ESPORTS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
-                "name": "ASIANO1"
+                "name": "ASIANO1",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "eade1806-0a18-11ef-87df-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "eade1806-0a18-11ef-87df-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 121,

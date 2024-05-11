@@ -23195,6 +23195,17 @@
             "img": ""
         },
         {
+            "id": "cca4f702-0945-11ef-bad5-0242ac130004",
+            "tournament_id": 0,
+            "name": "Gregorios S.L.",
+            "players": [
+                "Elinova Escobar",
+                "Paco Fiestas",
+                "marc mila"
+            ],
+            "img": ""
+        },
+        {
             "id": "fd630fc6-0988-11ef-901f-0242ac130004",
             "tournament_id": 0,
             "name": "i parenti",
@@ -23475,6 +23486,17 @@
             "img": ""
         },
         {
+            "id": "abd3987e-0a4b-11ef-888a-0242ac130004",
+            "tournament_id": 0,
+            "name": "RBN e-sports",
+            "players": [
+                "RBN|Katakuri",
+                "RBN|Yoshi",
+                "RBN|Burner"
+            ],
+            "img": ""
+        },
+        {
             "id": "ac52d528-0b7a-11ef-b1a3-0242ac130004",
             "tournament_id": 0,
             "name": "sneaky time",
@@ -23510,6 +23532,17 @@
             "img": ""
         },
         {
+            "id": "43e7aee2-0a02-11ef-9283-0242ac130004",
+            "tournament_id": 0,
+            "name": "AXI",
+            "players": [
+                "CDN_D4NTRUX1K⚡",
+                "✨Akrikez✨",
+                "Chupetee345"
+            ],
+            "img": ""
+        },
+        {
             "id": "dc342a20-098c-11ef-9229-0242ac130004",
             "tournament_id": 0,
             "name": "NIL Esports",
@@ -23518,6 +23551,17 @@
                 "niko1505",
                 "Ledrix🥀",
                 "Andriiuu"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b5df7ce0-07d3-11ef-8a10-0242ac130004",
+            "tournament_id": 0,
+            "name": "LTG",
+            "players": [
+                "シ|𝖓𝖔𝖔𝖇✌︎︎",
+                "💫𝑺𝑨𝑽𝑽𝒀⚡️",
+                "🔥SamDeBaam🔥"
             ],
             "img": ""
         }
@@ -24515,16 +24559,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3444c5cc-0bb2-11ef-9b2d-0242ac130004",
-                "name": "YouGotServed"
+                "name": "YouGotServed",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cca4f702-0945-11ef-bad5-0242ac130004",
-                "name": "Gregorios S.L."
+                "name": "Gregorios S.L.",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3444c5cc-0bb2-11ef-9b2d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cca4f702-0945-11ef-bad5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3444c5cc-0bb2-11ef-9b2d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cca4f702-0945-11ef-bad5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 37,
@@ -31990,16 +32069,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba8a7d08-07d3-11ef-9cfd-0242ac130004",
-                "name": "Promachus"
+                "name": "Promachus",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "abd3987e-0a4b-11ef-888a-0242ac130004",
-                "name": "RBN e-sports"
+                "name": "RBN e-sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ba8a7d08-07d3-11ef-9cfd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "abd3987e-0a4b-11ef-888a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ba8a7d08-07d3-11ef-9cfd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "abd3987e-0a4b-11ef-888a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 402,
@@ -32491,16 +32605,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
-                "name": "Old Brawl Stars"
+                "name": "Old Brawl Stars",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "43e7aee2-0a02-11ef-9283-0242ac130004",
-                "name": "AXI"
+                "name": "AXI",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "43e7aee2-0a02-11ef-9283-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "43e7aee2-0a02-11ef-9283-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 424,
@@ -39888,14 +40037,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "3863ec84-0eb7-11ef-87d5-0242ac130004",
                 "name": "B’ocky"
             },
             "opponent2": {
                 "id": "b5df7ce0-07d3-11ef-8a10-0242ac130004",
-                "name": "LTG"
+                "name": "LTG",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -43642,7 +43792,8 @@
                 "name": "Brawl King 23"
             },
             "opponent2": {
-                "id": null
+                "id": "3444c5cc-0bb2-11ef-9b2d-0242ac130004",
+                "name": "YouGotServed"
             },
             "match_games": []
         },
@@ -46582,7 +46733,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ba8a7d08-07d3-11ef-9cfd-0242ac130004",
+                "name": "Promachus"
             },
             "opponent2": {
                 "id": null
@@ -46760,7 +46912,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
+                "name": "Old Brawl Stars"
             },
             "opponent2": {
                 "id": null
@@ -59982,7 +60135,8 @@
                 "name": "D.M.P"
             },
             "opponent2": {
-                "id": null
+                "id": "cca4f702-0945-11ef-bad5-0242ac130004",
+                "name": "Gregorios S.L."
             },
             "match_games": []
         },
@@ -62922,7 +63076,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "abd3987e-0a4b-11ef-888a-0242ac130004",
+                "name": "RBN e-sports"
             },
             "opponent2": {
                 "id": null
@@ -63100,7 +63255,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "43e7aee2-0a02-11ef-9283-0242ac130004",
+                "name": "AXI"
             },
             "opponent2": {
                 "id": null

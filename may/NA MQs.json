@@ -51616,16 +51616,66 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e002452-0a50-11ef-b80f-0242ac130004",
-                "name": "BSC GLADIADORES"
+                "name": "BSC GLADIADORES",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f4e9ecda-09cd-11ef-8a53-0242ac130004",
-                "name": "RDM Exports"
+                "name": "RDM Exports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "3e002452-0a50-11ef-b80f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4e9ecda-09cd-11ef-8a53-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "3e002452-0a50-11ef-b80f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f4e9ecda-09cd-11ef-8a53-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "3e002452-0a50-11ef-b80f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4e9ecda-09cd-11ef-8a53-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 725,
@@ -53826,7 +53876,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e002452-0a50-11ef-b80f-0242ac130004",
+                "name": "BSC GLADIADORES"
             },
             "opponent2": {
                 "id": null

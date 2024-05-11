@@ -10573,6 +10573,17 @@
             "img": ""
         },
         {
+            "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
+            "tournament_id": 0,
+            "name": "ZERO SKILL",
+            "players": [
+                "益•| Mangel ツ",
+                "益•| Shiro ツ",
+                "益•| Neki ツ"
+            ],
+            "img": ""
+        },
+        {
             "id": "729c7288-09a6-11ef-babd-0242ac130004",
             "tournament_id": 0,
             "name": "JMoney",
@@ -30484,16 +30495,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
-                "name": "ZERO SKILL"
+                "name": "ZERO SKILL",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e573910a-0eed-11ef-abab-0242ac130004",
-                "name": "Exodus"
+                "name": "Exodus",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e573910a-0eed-11ef-abab-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e573910a-0eed-11ef-abab-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e573910a-0eed-11ef-abab-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 841,
@@ -37446,7 +37507,8 @@
                 "name": "Nova Plátanos"
             },
             "opponent2": {
-                "id": null
+                "id": "e573910a-0eed-11ef-abab-0242ac130004",
+                "name": "Exodus"
             },
             "match_games": []
         },
@@ -42993,10 +43055,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ee2d9a0a-0b20-11ef-8961-0242ac130004",
+                "name": "ZERO SKILL"
             },
             "opponent2": {
-                "id": null
+                "id": "729c7288-09a6-11ef-babd-0242ac130004",
+                "name": "JMoney"
             },
             "match_games": []
         },

@@ -74837,16 +74837,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "22dd68fc-0afe-11ef-800b-0242ac130004",
-                "name": "Enough Boys"
+                "name": "Enough Boys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5281d978-095d-11ef-aa9f-0242ac130004",
-                "name": "SchelmGaming"
+                "name": "SchelmGaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "22dd68fc-0afe-11ef-800b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5281d978-095d-11ef-aa9f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "22dd68fc-0afe-11ef-800b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5281d978-095d-11ef-aa9f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1609,
@@ -92239,7 +92274,8 @@
                 "name": "LMG SQUAD"
             },
             "opponent2": {
-                "id": null
+                "id": "5281d978-095d-11ef-aa9f-0242ac130004",
+                "name": "SchelmGaming"
             },
             "match_games": []
         },
@@ -120077,10 +120113,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "22dd68fc-0afe-11ef-800b-0242ac130004",
+                "name": "Enough Boys"
             },
             "opponent2": {
-                "id": null
+                "id": "37e62eea-0a50-11ef-8afe-0242ac130004",
+                "name": "Yarramgaming"
             },
             "match_games": []
         },

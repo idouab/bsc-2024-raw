@@ -9482,16 +9482,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "946f5458-0d42-11ef-97db-0242ac130004",
-                "name": "Abababa"
+                "name": "Abababa",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e9ffddfe-0967-11ef-b8d5-0242ac130004",
-                "name": "Nutrition柒"
+                "name": "Nutrition柒",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e9ffddfe-0967-11ef-b8d5-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e9ffddfe-0967-11ef-b8d5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 216,
@@ -11707,10 +11742,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e9ffddfe-0967-11ef-b8d5-0242ac130004",
+                "name": "Nutrition柒"
             },
             "opponent2": {
-                "id": null
+                "id": "0224e992-0d55-11ef-8a00-0242ac130004",
+                "name": "HKSC"
             },
             "match_games": []
         },

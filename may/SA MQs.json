@@ -7563,6 +7563,18 @@
             "img": ""
         },
         {
+            "id": "8b46acca-098f-11ef-86e3-0242ac130004",
+            "tournament_id": 0,
+            "name": "Cebolla coño",
+            "players": [
+                "⛩️|LaSombra08🎋",
+                "⛩️|Andres08🎋",
+                "makakiño.exe",
+                "TP|TheFacus"
+            ],
+            "img": ""
+        },
+        {
             "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
             "tournament_id": 0,
             "name": "IronRandoms",
@@ -14498,16 +14510,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
-                "name": "Los bukele"
+                "name": "Los bukele",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8b46acca-098f-11ef-86e3-0242ac130004",
-                "name": "Cebolla coño"
+                "name": "Cebolla coño",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8b46acca-098f-11ef-86e3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8b46acca-098f-11ef-86e3-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8b46acca-098f-11ef-86e3-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 173,
@@ -19029,7 +19091,8 @@
                 "name": "Underdogs"
             },
             "opponent2": {
-                "id": null
+                "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                "name": "Los bukele"
             },
             "match_games": []
         },
@@ -23271,7 +23334,8 @@
                 "name": "Los hacheritos"
             },
             "opponent2": {
-                "id": null
+                "id": "8b46acca-098f-11ef-86e3-0242ac130004",
+                "name": "Cebolla coño"
             },
             "match_games": []
         },

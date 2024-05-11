@@ -11157,6 +11157,18 @@
             "img": ""
         },
         {
+            "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
+            "tournament_id": 0,
+            "name": "MidKnights",
+            "players": [
+                "EDGRRR",
+                "Metro Boomin",
+                "Zack ⇝",
+                "꧁乂✰𝙢üҜ𝓸𝘴✰乂꧂"
+            ],
+            "img": ""
+        },
+        {
             "id": "b3c7fa14-0a93-11ef-b778-0242ac130004",
             "tournament_id": 0,
             "name": "Los Nitos",
@@ -29252,16 +29264,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6952301e-07d5-11ef-9f84-0242ac130004",
-                "name": "SSQ"
+                "name": "SSQ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
-                "name": "MidKnights"
+                "name": "MidKnights",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6952301e-07d5-11ef-9f84-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6952301e-07d5-11ef-9f84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6952301e-07d5-11ef-9f84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 811,
@@ -37577,7 +37639,8 @@
                 "name": "TICOS STARS"
             },
             "opponent2": {
-                "id": null
+                "id": "6952301e-07d5-11ef-9f84-0242ac130004",
+                "name": "SSQ"
             },
             "match_games": []
         },
@@ -43858,10 +43921,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dddc814c-0bf8-11ef-852c-0242ac130004",
+                "name": "MidKnights"
             },
             "opponent2": {
-                "id": null
+                "id": "b3c7fa14-0a93-11ef-b778-0242ac130004",
+                "name": "Los Nitos"
             },
             "match_games": []
         },

@@ -10406,6 +10406,17 @@
             "img": ""
         },
         {
+            "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Ruined Souls",
+            "players": [
+                "ꜛDany⸙🐼",
+                "Oskar ❤",
+                "LILANG"
+            ],
+            "img": ""
+        },
+        {
             "id": "9cf16ec8-0a2b-11ef-8f19-0242ac130004",
             "tournament_id": 0,
             "name": "Akatsuki",
@@ -10593,6 +10604,17 @@
                 "Cronic",
                 "Sinful",
                 "Josh22"
+            ],
+            "img": ""
+        },
+        {
+            "id": "36c004e6-0b0e-11ef-b17d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Tima Rakov🥵",
+            "players": [
+                "🥷ㄆskarexㄔ☔",
+                "Êxōtíç",
+                "XARCHOK"
             ],
             "img": ""
         },
@@ -28940,16 +28962,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "36c004e6-0b0e-11ef-b17d-0242ac130004",
-                "name": "Tima Rakov🥵"
+                "name": "Tima Rakov🥵",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9e85da6a-0f2d-11ef-bacd-0242ac130004",
-                "name": "Weimaraner"
+                "name": "Weimaraner",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "36c004e6-0b0e-11ef-b17d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9e85da6a-0f2d-11ef-bacd-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "36c004e6-0b0e-11ef-b17d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9e85da6a-0f2d-11ef-bacd-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 827,
@@ -29420,16 +29477,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64dc06a4-07d5-11ef-91d5-0242ac130004",
-                "name": "Sheep Squad"
+                "name": "Sheep Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
-                "name": "Ruined Souls"
+                "name": "Ruined Souls",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "64dc06a4-07d5-11ef-91d5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64dc06a4-07d5-11ef-91d5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "64dc06a4-07d5-11ef-91d5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 842,
@@ -35410,7 +35517,8 @@
                 "name": "2W"
             },
             "opponent2": {
-                "id": null
+                "id": "9e85da6a-0f2d-11ef-bacd-0242ac130004",
+                "name": "Weimaraner"
             },
             "match_games": []
         },
@@ -35538,7 +35646,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64dc06a4-07d5-11ef-91d5-0242ac130004",
+                "name": "Sheep Squad"
             },
             "opponent2": {
                 "id": null
@@ -41008,10 +41117,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5df50218-09a7-11ef-9a4b-0242ac130004",
+                "name": "Ruined Souls"
             },
             "opponent2": {
-                "id": null
+                "id": "9cf16ec8-0a2b-11ef-8f19-0242ac130004",
+                "name": "Akatsuki"
             },
             "match_games": []
         },
@@ -41224,10 +41335,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "36c004e6-0b0e-11ef-b17d-0242ac130004",
+                "name": "Tima Rakov🥵"
             },
             "opponent2": {
-                "id": null
+                "id": "7fec7a24-0c93-11ef-93c3-0242ac130004",
+                "name": "Smash Brawls"
             },
             "match_games": []
         },

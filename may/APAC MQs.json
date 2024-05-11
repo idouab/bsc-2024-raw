@@ -4817,16 +4817,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "04ff4106-0aaa-11ef-9b7e-0242ac130004",
-                "name": "self improvement"
+                "name": "self improvement",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
-                "name": "ASIANO2"
+                "name": "ASIANO2",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "04ff4106-0aaa-11ef-9b7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "04ff4106-0aaa-11ef-9b7e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 115,
@@ -6079,7 +6114,8 @@
                 "name": "coco loco"
             },
             "opponent2": {
-                "id": null
+                "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                "name": "ASIANO2"
             },
             "match_games": []
         },

@@ -17485,16 +17485,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
-                "name": "Crush"
+                "name": "Crush",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5384a212-0960-11ef-b904-0242ac130004",
-                "name": "Bomboclaat"
+                "name": "Bomboclaat",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 391,
@@ -17863,7 +17898,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "438e8a54-09e6-11ef-9c65-0242ac130004",
+                "name": "Crush"
             },
             "opponent2": {
                 "id": null

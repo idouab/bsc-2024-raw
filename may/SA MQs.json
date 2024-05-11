@@ -20866,16 +20866,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7622d220-07d6-11ef-9214-0242ac130004",
-                "name": "Ifood Team"
+                "name": "Ifood Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4e78893e-0a44-11ef-a32a-0242ac130004",
-                "name": "Team TKL"
+                "name": "Team TKL",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7622d220-07d6-11ef-9214-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e78893e-0a44-11ef-a32a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7622d220-07d6-11ef-9214-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4e78893e-0a44-11ef-a32a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 459,
@@ -23899,10 +23934,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7622d220-07d6-11ef-9214-0242ac130004",
+                "name": "Ifood Team"
             },
             "opponent2": {
-                "id": null
+                "id": "064c45d6-0a46-11ef-b1f0-0242ac130004",
+                "name": "IFN-sport"
             },
             "match_games": []
         },
@@ -29164,7 +29201,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4e78893e-0a44-11ef-a32a-0242ac130004",
+                "name": "Team TKL"
             },
             "opponent2": {
                 "id": null

@@ -7497,6 +7497,17 @@
             "img": ""
         },
         {
+            "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+            "tournament_id": 0,
+            "name": "IronRandoms",
+            "players": [
+                "Sir Hell",
+                "IM | Coco!",
+                "♾MONTIX♾"
+            ],
+            "img": ""
+        },
+        {
             "id": "988d1c2e-0c1f-11ef-a4ca-0242ac130004",
             "tournament_id": 0,
             "name": "CHAUFA STARS",
@@ -14106,16 +14117,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
-                "name": "IronRandoms"
+                "name": "IronRandoms",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 174,
@@ -18471,10 +18517,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                "name": "Escandalosos"
             },
             "opponent2": {
-                "id": null
+                "id": "417fa482-0955-11ef-8599-0242ac130004",
+                "name": "paiN"
             },
             "match_games": []
         },
@@ -22702,10 +22750,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+                "name": "IronRandoms"
             },
             "opponent2": {
-                "id": null
+                "id": "988d1c2e-0c1f-11ef-a4ca-0242ac130004",
+                "name": "CHAUFA STARS"
             },
             "match_games": []
         },

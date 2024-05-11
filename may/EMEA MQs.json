@@ -29150,6 +29150,18 @@
             "img": ""
         },
         {
+            "id": "c5154820-07d3-11ef-bd35-0242ac130004",
+            "tournament_id": 0,
+            "name": "Broccoli lovers",
+            "players": [
+                "joss",
+                "BD - Joe",
+                "broccoli_lover",
+                "Wallis"
+            ],
+            "img": ""
+        },
+        {
             "id": "43ec82f2-0c71-11ef-a10a-0242ac130004",
             "tournament_id": 0,
             "name": "Unknown Cooking",
@@ -30556,6 +30568,17 @@
                 "zaheff",
                 "nour rezk",
                 "DarkForEver"
+            ],
+            "img": ""
+        },
+        {
+            "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
+            "tournament_id": 0,
+            "name": "LRE | 77",
+            "players": [
+                "Foussain-_-",
+                "Tottenham",
+                "☘️|Diego°⚡"
             ],
             "img": ""
         },
@@ -32066,6 +32089,17 @@
                 "POCO LOCO?",
                 "NINJA",
                 "Ratarna_987"
+            ],
+            "img": ""
+        },
+        {
+            "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
+            "tournament_id": 0,
+            "name": "🔥FN🔥",
+            "players": [
+                "zivGG",
+                "יונתן המלך",
+                "איתי המלך"
             ],
             "img": ""
         },
@@ -53850,16 +53884,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5b396ba4-0d4e-11ef-944e-0242ac130004",
-                "name": "CLAW"
+                "name": "CLAW",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c5154820-07d3-11ef-bd35-0242ac130004",
-                "name": "Broccoli lovers"
+                "name": "Broccoli lovers",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5b396ba4-0d4e-11ef-944e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c5154820-07d3-11ef-bd35-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5b396ba4-0d4e-11ef-944e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c5154820-07d3-11ef-bd35-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "5b396ba4-0d4e-11ef-944e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c5154820-07d3-11ef-bd35-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 539,
@@ -62801,16 +62885,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
-                "name": "🔥FN🔥"
+                "name": "🔥FN🔥",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d678f2ce-07d3-11ef-8b36-0242ac130004",
-                "name": "AVI Esports"
+                "name": "AVI Esports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d678f2ce-07d3-11ef-8b36-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d678f2ce-07d3-11ef-8b36-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d678f2ce-07d3-11ef-8b36-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 813,
@@ -74960,7 +75094,8 @@
                 "name": "F/A Resurgent"
             },
             "opponent2": {
-                "id": null
+                "id": "5b396ba4-0d4e-11ef-944e-0242ac130004",
+                "name": "CLAW"
             },
             "match_games": []
         },
@@ -77407,7 +77542,8 @@
                 "name": "Intergalactic Finger"
             },
             "opponent2": {
-                "id": null
+                "id": "d678f2ce-07d3-11ef-8b36-0242ac130004",
+                "name": "AVI Esports"
             },
             "match_games": []
         },
@@ -92257,7 +92393,8 @@
                 "name": "Abufishy🐡🐡🐡🐡"
             },
             "opponent2": {
-                "id": null
+                "id": "c5154820-07d3-11ef-bd35-0242ac130004",
+                "name": "Broccoli lovers"
             },
             "match_games": []
         },
@@ -93437,7 +93574,8 @@
                 "name": "Shadow Reapers"
             },
             "opponent2": {
-                "id": null
+                "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
+                "name": "LRE | 77"
             },
             "match_games": []
         },
@@ -94704,7 +94842,8 @@
                 "name": "Sigma"
             },
             "opponent2": {
-                "id": null
+                "id": "710fadf2-0a34-11ef-b7ba-0242ac130004",
+                "name": "🔥FN🔥"
             },
             "match_games": []
         },

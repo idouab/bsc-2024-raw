@@ -2537,6 +2537,17 @@
             "img": ""
         },
         {
+            "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+            "tournament_id": 0,
+            "name": "Naku",
+            "players": [
+                "Brajesh☃️",
+                "OPxSanji",
+                "Saurya Sun"
+            ],
+            "img": ""
+        },
+        {
             "id": "954da932-0edd-11ef-af7a-0242ac130004",
             "tournament_id": 0,
             "name": "ASG",
@@ -3003,16 +3014,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
-                "name": "Naku"
+                "name": "Naku",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 12,
@@ -5929,10 +5975,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                "name": "College Students"
             },
             "opponent2": {
-                "id": null
+                "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                "name": "Counter Punch"
             },
             "match_games": []
         },
@@ -7926,10 +7974,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                "name": "Naku"
             },
             "opponent2": {
-                "id": null
+                "id": "954da932-0edd-11ef-af7a-0242ac130004",
+                "name": "ASG"
             },
             "match_games": []
         },

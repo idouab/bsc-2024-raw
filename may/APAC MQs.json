@@ -12167,16 +12167,51 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a12fa014-07d7-11ef-b3f7-0242ac130004",
-                "name": "Rival Esports"
+                "name": "Rival Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
-                "name": "特別支援学級A組"
+                "name": "特別支援学級A組",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a12fa014-07d7-11ef-b3f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "a12fa014-07d7-11ef-b3f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 361,
@@ -12468,7 +12503,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a12fa014-07d7-11ef-b3f7-0242ac130004",
+                "name": "Rival Esports"
             },
             "opponent2": {
                 "id": null
@@ -16989,7 +17025,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
+                "name": "特別支援学級A組"
             },
             "opponent2": {
                 "id": null

@@ -2672,6 +2672,17 @@
             "img": ""
         },
         {
+            "id": "92d28c14-0d29-11ef-a6e8-0242ac130004",
+            "tournament_id": 0,
+            "name": "Brawl Busters",
+            "players": [
+                "J.A.R.V.I.S.",
+                "うずい天元⚡",
+                "F.R.I.D.A.Y."
+            ],
+            "img": ""
+        },
+        {
             "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
             "tournament_id": 0,
             "name": "うぅどん",
@@ -4502,16 +4513,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53c9862c-07d3-11ef-b721-0242ac130004",
-                "name": "Lone Wolf"
+                "name": "Lone Wolf",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "92d28c14-0d29-11ef-a6e8-0242ac130004",
-                "name": "Brawl Busters"
+                "name": "Brawl Busters",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "92d28c14-0d29-11ef-a6e8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "92d28c14-0d29-11ef-a6e8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 60,
@@ -6996,7 +7042,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                "name": "Lone Wolf"
             },
             "opponent2": {
                 "id": null
@@ -8795,7 +8842,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "92d28c14-0d29-11ef-a6e8-0242ac130004",
+                "name": "Brawl Busters"
             },
             "opponent2": {
                 "id": null

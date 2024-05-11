@@ -23151,6 +23151,18 @@
             "img": ""
         },
         {
+            "id": "fd630fc6-0988-11ef-901f-0242ac130004",
+            "tournament_id": 0,
+            "name": "i parenti",
+            "players": [
+                "cipmic",
+                "NicoClappedYuo",
+                "luca",
+                "⚡⚽REZ⚽⚡"
+            ],
+            "img": ""
+        },
+        {
             "id": "415d4846-0a00-11ef-a161-0242ac130004",
             "tournament_id": 0,
             "name": "🇮🇱NMN | CLAN🇮🇱",
@@ -23169,6 +23181,18 @@
                 "Ghost98",
                 "farzad_Yo",
                 "yusefi"
+            ],
+            "img": ""
+        },
+        {
+            "id": "ea28f582-0eed-11ef-ad05-0242ac130004",
+            "tournament_id": 0,
+            "name": "Serinity | E-sport",
+            "players": [
+                "orribi",
+                "Sky~Wazizi",
+                "Takagoul",
+                "•Aaron•"
             ],
             "img": ""
         },
@@ -25344,16 +25368,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "888836ba-0e18-11ef-a908-0242ac130004",
-                "name": "LLC ESPORT 2"
+                "name": "LLC ESPORT 2",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fd630fc6-0988-11ef-901f-0242ac130004",
-                "name": "i parenti"
+                "name": "i parenti",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "888836ba-0e18-11ef-a908-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fd630fc6-0988-11ef-901f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "888836ba-0e18-11ef-a908-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fd630fc6-0988-11ef-901f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 109,
@@ -27808,16 +27867,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bfda9ea0-07d3-11ef-acc3-0242ac130004",
-                "name": "REVERSO EU"
+                "name": "REVERSO EU",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ea28f582-0eed-11ef-ad05-0242ac130004",
-                "name": "Serinity | E-sport"
+                "name": "Serinity | E-sport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bfda9ea0-07d3-11ef-acc3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea28f582-0eed-11ef-ad05-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bfda9ea0-07d3-11ef-acc3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea28f582-0eed-11ef-ad05-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 242,
@@ -43913,7 +44007,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bfda9ea0-07d3-11ef-acc3-0242ac130004",
+                "name": "REVERSO EU"
             },
             "opponent2": {
                 "id": null
@@ -60236,7 +60331,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ea28f582-0eed-11ef-ad05-0242ac130004",
+                "name": "Serinity | E-sport"
             },
             "opponent2": {
                 "id": null

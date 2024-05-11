@@ -9990,6 +9990,17 @@
             "img": ""
         },
         {
+            "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
+            "tournament_id": 0,
+            "name": "Phantom Troupe",
+            "players": [
+                "TheEggman",
+                "TheWalrus",
+                "GooGoo G’Joob"
+            ],
+            "img": ""
+        },
+        {
             "id": "ebb6ebc4-0a3e-11ef-ab87-0242ac130004",
             "tournament_id": 0,
             "name": "The Burkers",
@@ -10437,6 +10448,17 @@
                 "Гульнара",
                 "груд [примос]",
                 "Top|MadRussain"
+            ],
+            "img": ""
+        },
+        {
+            "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
+            "tournament_id": 0,
+            "name": "Dirty Birds",
+            "players": [
+                "Hawaii",
+                "Serpentine Duck",
+                "KingoMelonYT"
             ],
             "img": ""
         },
@@ -11051,6 +11073,17 @@
                 "Superman",
                 "batman",
                 "Agent001"
+            ],
+            "img": ""
+        },
+        {
+            "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Braulio Estrellas",
+            "players": [
+                "Aurelion Sol",
+                "Dilahk",
+                "Armandorc04"
             ],
             "img": ""
         },
@@ -11935,6 +11968,17 @@
                 "😎AlfonsoYT😎",
                 "Mishell1186",
                 "𝙹𝚀𝚖𝚊𝚗𝚐𝚘␈"
+            ],
+            "img": ""
+        },
+        {
+            "id": "411c5ffe-0e86-11ef-820b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Prawn Ready",
+            "players": [
+                "iggy",
+                "SuperSmileyFace",
+                "ChiefDave777"
             ],
             "img": ""
         },
@@ -26107,16 +26151,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64c63f2c-07d5-11ef-83e7-0242ac130004",
-                "name": "NOIR"
+                "name": "NOIR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "411c5ffe-0e86-11ef-820b-0242ac130004",
-                "name": "Prawn Ready"
+                "name": "Prawn Ready",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "64c63f2c-07d5-11ef-83e7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "411c5ffe-0e86-11ef-820b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64c63f2c-07d5-11ef-83e7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "411c5ffe-0e86-11ef-820b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 745,
@@ -28337,16 +28416,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6602713a-07d5-11ef-8a6c-0242ac130004",
-                "name": "So Booty"
+                "name": "So Booty",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
-                "name": "Braulio Estrellas"
+                "name": "Braulio Estrellas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6602713a-07d5-11ef-8a6c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6602713a-07d5-11ef-8a6c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6602713a-07d5-11ef-8a6c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 805,
@@ -29992,16 +30121,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7537f54e-0b72-11ef-b9c6-0242ac130004",
-                "name": "Empty Crown"
+                "name": "Empty Crown",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
-                "name": "Dirty Birds"
+                "name": "Dirty Birds",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7537f54e-0b72-11ef-b9c6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7537f54e-0b72-11ef-b9c6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7537f54e-0b72-11ef-b9c6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 845,
@@ -31140,16 +31319,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
-                "name": "Phantom Troupe"
+                "name": "Phantom Troupe",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6d372fd2-09c3-11ef-9809-0242ac130004",
-                "name": "JAM"
+                "name": "JAM",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d372fd2-09c3-11ef-9809-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d372fd2-09c3-11ef-9809-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d372fd2-09c3-11ef-9809-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 876,
@@ -35493,7 +35722,8 @@
                 "name": "Mako Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "64c63f2c-07d5-11ef-83e7-0242ac130004",
+                "name": "NOIR"
             },
             "match_games": []
         },
@@ -36605,7 +36835,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d372fd2-09c3-11ef-9809-0242ac130004",
+                "name": "JAM"
             },
             "opponent2": {
                 "id": null
@@ -41305,10 +41536,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "63b6ebb8-07d5-11ef-ab00-0242ac130004",
+                "name": "Phantom Troupe"
             },
             "opponent2": {
-                "id": null
+                "id": "ebb6ebc4-0a3e-11ef-ab87-0242ac130004",
+                "name": "The Burkers"
             },
             "match_games": []
         },
@@ -41763,10 +41996,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a39ffad0-09dd-11ef-8249-0242ac130004",
+                "name": "Dirty Birds"
             },
             "opponent2": {
-                "id": null
+                "id": "0dc3ef68-0afe-11ef-9b26-0242ac130004",
+                "name": "B.Y.E"
             },
             "match_games": []
         },
@@ -42363,10 +42598,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "539e31ae-09d4-11ef-a64f-0242ac130004",
+                "name": "Braulio Estrellas"
             },
             "opponent2": {
-                "id": null
+                "id": "2c3e1c58-0b07-11ef-a5d4-0242ac130004",
+                "name": "Doors"
             },
             "match_games": []
         },
@@ -43261,10 +43498,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "411c5ffe-0e86-11ef-820b-0242ac130004",
+                "name": "Prawn Ready"
             },
             "opponent2": {
-                "id": null
+                "id": "761b461e-09a6-11ef-8b41-0242ac130004",
+                "name": "The broken sigmas"
             },
             "match_games": []
         },

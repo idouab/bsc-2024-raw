@@ -7609,6 +7609,17 @@
             "img": ""
         },
         {
+            "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
+            "tournament_id": 0,
+            "name": "Blaard NT",
+            "players": [
+                "Erick_GG",
+                "NT|𝙷𝚊𝚕𝚟𝚎𝚔☆",
+                "Caio_:D"
+            ],
+            "img": ""
+        },
+        {
             "id": "29a53e0c-09a6-11ef-b4ac-0242ac130004",
             "tournament_id": 0,
             "name": "Zé carrasco",
@@ -8031,6 +8042,17 @@
                 "DMS|Fer🦦ᵀʰʸ",
                 "DMS|DANYᵀʰʸ",
                 "DMS|FalcoNzᵀʰʸ"
+            ],
+            "img": ""
+        },
+        {
+            "id": "59c2f080-096e-11ef-967e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Completos de Doug",
+            "players": [
+                "MS | 「E4rly」",
+                "¯\\_(ツ)_/¯",
+                "MS | Axo"
             ],
             "img": ""
         },
@@ -14449,16 +14471,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
-                "name": "Blaard NT"
+                "name": "Blaard NT",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "289fcb84-0b3c-11ef-8c83-0242ac130004",
-                "name": "ZQ GAMING BR"
+                "name": "ZQ GAMING BR",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "289fcb84-0b3c-11ef-8c83-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "289fcb84-0b3c-11ef-8c83-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "289fcb84-0b3c-11ef-8c83-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 187,
@@ -16017,16 +16089,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
-                "name": "ACP STARTS"
+                "name": "ACP STARTS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "59c2f080-096e-11ef-967e-0242ac130004",
-                "name": "Completos de Doug"
+                "name": "Completos de Doug",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59c2f080-096e-11ef-967e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59c2f080-096e-11ef-967e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 231,
@@ -18287,7 +18394,8 @@
                 "name": "The Last Hope 🔮"
             },
             "opponent2": {
-                "id": null
+                "id": "289fcb84-0b3c-11ef-8c83-0242ac130004",
+                "name": "ZQ GAMING BR"
             },
             "match_games": []
         },
@@ -18678,7 +18786,8 @@
                 "name": "Underrated Ones"
             },
             "opponent2": {
-                "id": null
+                "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                "name": "ACP STARTS"
             },
             "match_games": []
         },
@@ -22511,7 +22620,8 @@
                 "name": "CYY66"
             },
             "opponent2": {
-                "id": null
+                "id": "c5f72d12-0e04-11ef-9a55-0242ac130004",
+                "name": "Blaard NT"
             },
             "match_games": []
         },
@@ -22884,7 +22994,8 @@
                 "name": "Datryums Titans"
             },
             "opponent2": {
-                "id": null
+                "id": "59c2f080-096e-11ef-967e-0242ac130004",
+                "name": "Completos de Doug"
             },
             "match_games": []
         },

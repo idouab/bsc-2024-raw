@@ -86624,16 +86624,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bd65b394-07d3-11ef-8586-0242ac130004",
-                "name": "The Dark Night"
+                "name": "The Dark Night",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e3759fcc-07d3-11ef-8415-0242ac130004",
-                "name": "Raul gitano"
+                "name": "Raul gitano",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e3759fcc-07d3-11ef-8415-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e3759fcc-07d3-11ef-8415-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e3759fcc-07d3-11ef-8415-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1950,
@@ -93726,10 +93776,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e3759fcc-07d3-11ef-8415-0242ac130004",
+                "name": "Raul gitano"
             },
             "opponent2": {
-                "id": null
+                "id": "cc2b5370-07d3-11ef-b324-0242ac130004",
+                "name": "𝖉𝖙𝖒"
             },
             "match_games": []
         },
@@ -112339,10 +112391,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                "name": "The Dark Night"
             },
             "opponent2": {
-                "id": null
+                "id": "d0aab94a-07d3-11ef-9642-0242ac130004",
+                "name": "OneShot E-Sports"
             },
             "match_games": []
         },

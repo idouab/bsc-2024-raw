@@ -13430,16 +13430,51 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b04b4d98-0a19-11ef-9887-0242ac130004",
-                "name": "名宏低能兒"
+                "name": "名宏低能兒",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
-                "name": "VAX"
+                "name": "VAX",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "b04b4d98-0a19-11ef-9887-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "b04b4d98-0a19-11ef-9887-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "806f44e8-0ee8-11ef-8af0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 278,

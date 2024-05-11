@@ -11244,6 +11244,18 @@
             "img": ""
         },
         {
+            "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
+            "tournament_id": 0,
+            "name": "Rice and beans",
+            "players": [
+                "J0SH",
+                "Iced Water",
+                "Random",
+                "MorketyMorkXD"
+            ],
+            "img": ""
+        },
+        {
             "id": "f9d695f4-0973-11ef-b8dd-0242ac130004",
             "tournament_id": 0,
             "name": "Freshy",
@@ -28760,16 +28772,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
-                "name": "Rice and beans"
+                "name": "Rice and beans",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4fa3fbda-0e41-11ef-b4ed-0242ac130004",
-                "name": "E3 CVA"
+                "name": "E3 CVA",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4fa3fbda-0e41-11ef-b4ed-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4fa3fbda-0e41-11ef-b4ed-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4fa3fbda-0e41-11ef-b4ed-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 803,
@@ -37361,7 +37423,8 @@
                 "name": "Real Ones"
             },
             "opponent2": {
-                "id": null
+                "id": "4fa3fbda-0e41-11ef-b4ed-0242ac130004",
+                "name": "E3 CVA"
             },
             "match_games": []
         },
@@ -43823,10 +43886,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71fae2d0-0b2f-11ef-8a80-0242ac130004",
+                "name": "Rice and beans"
             },
             "opponent2": {
-                "id": null
+                "id": "f9d695f4-0973-11ef-b8dd-0242ac130004",
+                "name": "Freshy"
             },
             "match_games": []
         },

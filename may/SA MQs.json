@@ -19322,16 +19322,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "77c26348-07d6-11ef-9329-0242ac130004",
-                "name": "Dynamite team"
+                "name": "Dynamite team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "56400364-0a34-11ef-83e8-0242ac130004",
-                "name": "Los Don Pollo"
+                "name": "Los Don Pollo",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "77c26348-07d6-11ef-9329-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56400364-0a34-11ef-83e8-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "77c26348-07d6-11ef-9329-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56400364-0a34-11ef-83e8-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 426,
@@ -21842,16 +21877,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "76a8751a-07d6-11ef-ba05-0242ac130004",
-                "name": "3co"
+                "name": "3co",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "75557b2e-0978-11ef-9b30-0242ac130004",
-                "name": "Brothers"
+                "name": "Brothers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "76a8751a-07d6-11ef-ba05-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "76a8751a-07d6-11ef-ba05-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 506,
@@ -22393,7 +22463,8 @@
                 "name": "LPC F/A"
             },
             "opponent2": {
-                "id": null
+                "id": "77c26348-07d6-11ef-9329-0242ac130004",
+                "name": "Dynamite team"
             },
             "match_games": []
         },
@@ -26892,10 +26963,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "76a8751a-07d6-11ef-ba05-0242ac130004",
+                "name": "3co"
             },
             "opponent2": {
-                "id": null
+                "id": "0c81a6aa-0a94-11ef-8279-0242ac130004",
+                "name": "BV | Clash"
             },
             "match_games": []
         },
@@ -28205,7 +28278,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "56400364-0a34-11ef-83e8-0242ac130004",
+                "name": "Los Don Pollo"
             },
             "opponent2": {
                 "id": null

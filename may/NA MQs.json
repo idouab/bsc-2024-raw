@@ -10495,6 +10495,18 @@
             "img": ""
         },
         {
+            "id": "7d276726-0a41-11ef-803c-0242ac130004",
+            "tournament_id": 0,
+            "name": "Snow bunny heaven",
+            "players": [
+                "chaconutz",
+                "HudsonFakeBurp",
+                "Jamu",
+                "Shlopisen"
+            ],
+            "img": ""
+        },
+        {
             "id": "27f1d572-0a62-11ef-9784-0242ac130004",
             "tournament_id": 0,
             "name": "hear me out",
@@ -28618,16 +28630,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6437de80-07d5-11ef-993f-0242ac130004",
-                "name": "Cruz Azul"
+                "name": "Cruz Azul",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7d276726-0a41-11ef-803c-0242ac130004",
-                "name": "Snow bunny heaven"
+                "name": "Snow bunny heaven",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6437de80-07d5-11ef-993f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d276726-0a41-11ef-803c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6437de80-07d5-11ef-993f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d276726-0a41-11ef-803c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 831,
@@ -40477,10 +40524,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7d276726-0a41-11ef-803c-0242ac130004",
+                "name": "Snow bunny heaven"
             },
             "opponent2": {
-                "id": null
+                "id": "27f1d572-0a62-11ef-9784-0242ac130004",
+                "name": "hear me out"
             },
             "match_games": []
         },

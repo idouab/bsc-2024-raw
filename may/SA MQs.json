@@ -6776,6 +6776,17 @@
             "img": ""
         },
         {
+            "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Galaxy",
+            "players": [
+                "Leidan",
+                "✨XxincognitoxX✨",
+                "newhero"
+            ],
+            "img": ""
+        },
+        {
             "id": "329b0518-0b37-11ef-a542-0242ac130004",
             "tournament_id": 0,
             "name": "TyA Gaming",
@@ -12060,16 +12071,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
-                "name": "Team Galaxy"
+                "name": "Team Galaxy",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5aa9b28c-0b16-11ef-b559-0242ac130004",
-                "name": "Los mancos 🥺"
+                "name": "Los mancos 🥺",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5aa9b28c-0b16-11ef-b559-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5aa9b28c-0b16-11ef-b559-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5aa9b28c-0b16-11ef-b559-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 99,
@@ -18306,7 +18367,8 @@
                 "name": "Marruecos"
             },
             "opponent2": {
-                "id": null
+                "id": "5aa9b28c-0b16-11ef-b559-0242ac130004",
+                "name": "Los mancos 🥺"
             },
             "match_games": []
         },
@@ -22565,7 +22627,8 @@
                 "name": "The Randoms"
             },
             "opponent2": {
-                "id": null
+                "id": "3c668a3a-0f5c-11ef-a08d-0242ac130004",
+                "name": "Team Galaxy"
             },
             "match_games": []
         },

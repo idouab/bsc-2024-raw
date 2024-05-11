@@ -19897,16 +19897,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "946f5458-0d42-11ef-97db-0242ac130004",
-                "name": "Abababa"
+                "name": "Abababa",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 436,
@@ -20415,7 +20450,8 @@
                 "name": "Demonic"
             },
             "opponent2": {
-                "id": null
+                "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                "name": "Octopus Primes 🐙"
             },
             "match_games": []
         },

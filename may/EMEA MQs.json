@@ -28937,6 +28937,17 @@
             "img": ""
         },
         {
+            "id": "4cb6a996-0a30-11ef-9af3-0242ac130004",
+            "tournament_id": 0,
+            "name": "The Sugar Boys",
+            "players": [
+                "1N|takimi",
+                "JESSEMAIN",
+                "Omg it's..."
+            ],
+            "img": ""
+        },
+        {
             "id": "92293218-09e1-11ef-9413-0242ac130004",
             "tournament_id": 0,
             "name": "Nerf Poco",
@@ -29522,6 +29533,18 @@
             "img": ""
         },
         {
+            "id": "86accbb0-0b95-11ef-8228-0242ac130004",
+            "tournament_id": 0,
+            "name": "WASB",
+            "players": [
+                "Itachi Uchiwa",
+                "Aboubacar",
+                "UP|ωιѕу🌊",
+                "bs_asn127"
+            ],
+            "img": ""
+        },
+        {
             "id": "1f0625c6-0bca-11ef-83b7-0242ac130004",
             "tournament_id": 0,
             "name": "BalticBears",
@@ -29925,6 +29948,17 @@
             "img": ""
         },
         {
+            "id": "4aabb1d8-096c-11ef-b682-0242ac130004",
+            "tournament_id": 0,
+            "name": "LEM | Savage",
+            "players": [
+                "BF|Bonjour2.0",
+                "Leonardo2006",
+                "Xasha1999"
+            ],
+            "img": ""
+        },
+        {
             "id": "7353d148-0993-11ef-a773-0242ac130004",
             "tournament_id": 0,
             "name": "YK/ gaming",
@@ -29932,6 +29966,17 @@
                 "iKAOS伊卡奧斯好",
                 "Peptobo",
                 "Come Tacos xd"
+            ],
+            "img": ""
+        },
+        {
+            "id": "bfeb62ee-07d3-11ef-bfc1-0242ac130004",
+            "tournament_id": 0,
+            "name": "Cactus compagnie",
+            "players": [
+                "rypo83",
+                "tyty_spike",
+                "CC | Mariuscss"
             ],
             "img": ""
         },
@@ -30271,6 +30316,17 @@
                 "TGA|Best Olivér",
                 "zsomika",
                 "Z|napóleon"
+            ],
+            "img": ""
+        },
+        {
+            "id": "091e3ad6-0d74-11ef-9974-0242ac130004",
+            "tournament_id": 0,
+            "name": "Black Aura",
+            "players": [
+                "Vers",
+                "QLS | Toper⛓️",
+                "Verka"
             ],
             "img": ""
         },
@@ -49616,16 +49672,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce934208-07d3-11ef-93f7-0242ac130004",
-                "name": "WW Team"
+                "name": "WW Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4cb6a996-0a30-11ef-9af3-0242ac130004",
-                "name": "The Sugar Boys"
+                "name": "The Sugar Boys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ce934208-07d3-11ef-93f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cb6a996-0a30-11ef-9af3-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ce934208-07d3-11ef-93f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cb6a996-0a30-11ef-9af3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 526,
@@ -54979,16 +55070,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d2c0b4d2-07d3-11ef-9ee1-0242ac130004",
-                "name": "Hadzhi Dimitar"
+                "name": "Hadzhi Dimitar",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "86accbb0-0b95-11ef-8228-0242ac130004",
-                "name": "WASB"
+                "name": "WASB",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d2c0b4d2-07d3-11ef-9ee1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "86accbb0-0b95-11ef-8228-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d2c0b4d2-07d3-11ef-9ee1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "86accbb0-0b95-11ef-8228-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d2c0b4d2-07d3-11ef-9ee1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "86accbb0-0b95-11ef-8228-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 712,
@@ -68755,7 +68896,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ce934208-07d3-11ef-93f7-0242ac130004",
+                "name": "WW Team"
             },
             "opponent2": {
                 "id": null
@@ -70278,7 +70420,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d2c0b4d2-07d3-11ef-9ee1-0242ac130004",
+                "name": "Hadzhi Dimitar"
             },
             "opponent2": {
                 "id": null
@@ -85692,7 +85835,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4cb6a996-0a30-11ef-9af3-0242ac130004",
+                "name": "The Sugar Boys"
             },
             "opponent2": {
                 "id": null
@@ -87215,7 +87359,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "86accbb0-0b95-11ef-8228-0242ac130004",
+                "name": "WASB"
             },
             "opponent2": {
                 "id": null
@@ -88345,7 +88490,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4aabb1d8-096c-11ef-b682-0242ac130004",
+                "name": "LEM | Savage"
             },
             "opponent2": {
                 "id": null
@@ -88378,7 +88524,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bfeb62ee-07d3-11ef-bfc1-0242ac130004",
+                "name": "Cactus compagnie"
             },
             "opponent2": {
                 "id": null
@@ -89327,7 +89474,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "091e3ad6-0d74-11ef-9974-0242ac130004",
+                "name": "Black Aura"
             },
             "opponent2": {
                 "id": null

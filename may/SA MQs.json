@@ -39380,16 +39380,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7797fc48-07d6-11ef-8d4e-0242ac130004",
-                "name": "Golden Vortex"
+                "name": "Golden Vortex",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fb1601be-0a4c-11ef-9c4c-0242ac130004",
-                "name": "💀TIBURONSIN-ABC💀"
+                "name": "💀TIBURONSIN-ABC💀",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7797fc48-07d6-11ef-8d4e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb1601be-0a4c-11ef-9c4c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "7797fc48-07d6-11ef-8d4e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb1601be-0a4c-11ef-9c4c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 799,
@@ -41109,7 +41144,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7797fc48-07d6-11ef-8d4e-0242ac130004",
+                "name": "Golden Vortex"
             },
             "opponent2": {
                 "id": null

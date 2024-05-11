@@ -10170,6 +10170,18 @@
             "img": ""
         },
         {
+            "id": "746ab3a6-0b4d-11ef-b43f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Ghost",
+            "players": [
+                "SK|DELTAGOOD13",
+                "SPE|Uriel 🐣💛",
+                "isain",
+                "avonaur"
+            ],
+            "img": ""
+        },
+        {
             "id": "449ca8ec-0f93-11ef-b1ec-0242ac130004",
             "tournament_id": 0,
             "name": "ACE",
@@ -11257,6 +11269,17 @@
                 "Bommy<3",
                 "꧁[Ѧṽ]ℊ_ℓ◎к﹩꧂",
                 "Aw3some_57"
+            ],
+            "img": ""
+        },
+        {
+            "id": "0a22a12e-0e7d-11ef-99e7-0242ac130004",
+            "tournament_id": 0,
+            "name": "WC",
+            "players": [
+                "satyen7",
+                "LEON*fgz*2056",
+                "CommonSense"
             ],
             "img": ""
         },
@@ -26582,16 +26605,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63b4472a-0b25-11ef-a423-0242ac130004",
-                "name": "Lost Warriors"
+                "name": "Lost Warriors",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0a22a12e-0e7d-11ef-99e7-0242ac130004",
-                "name": "WC"
+                "name": "WC",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "63b4472a-0b25-11ef-a423-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0a22a12e-0e7d-11ef-99e7-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "63b4472a-0b25-11ef-a423-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0a22a12e-0e7d-11ef-99e7-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 771,
@@ -29123,16 +29181,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6694567c-07d5-11ef-9f7b-0242ac130004",
-                "name": "DEX Gaming"
+                "name": "DEX Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "746ab3a6-0b4d-11ef-b43f-0242ac130004",
-                "name": "Team Ghost"
+                "name": "Team Ghost",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6694567c-07d5-11ef-9f7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "746ab3a6-0b4d-11ef-b43f-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6694567c-07d5-11ef-9f7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "746ab3a6-0b4d-11ef-b43f-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 858,
@@ -33976,7 +34069,8 @@
                 "name": "CT Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "63b4472a-0b25-11ef-a423-0242ac130004",
+                "name": "Lost Warriors"
             },
             "match_games": []
         },
@@ -34698,10 +34792,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6694567c-07d5-11ef-9f7b-0242ac130004",
+                "name": "DEX Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "13b99372-0bb8-11ef-8af1-0242ac130004",
+                "name": "Team Mortadela"
             },
             "match_games": []
         },
@@ -39795,10 +39891,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "746ab3a6-0b4d-11ef-b43f-0242ac130004",
+                "name": "Team Ghost"
             },
             "opponent2": {
-                "id": null
+                "id": "449ca8ec-0f93-11ef-b1ec-0242ac130004",
+                "name": "ACE"
             },
             "match_games": []
         },
@@ -41053,10 +41151,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0a22a12e-0e7d-11ef-99e7-0242ac130004",
+                "name": "WC"
             },
             "opponent2": {
-                "id": null
+                "id": "bb6afff6-0975-11ef-9f24-0242ac130004",
+                "name": "DJC Gaming"
             },
             "match_games": []
         },

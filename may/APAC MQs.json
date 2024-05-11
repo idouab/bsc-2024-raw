@@ -11076,16 +11076,51 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54b8951e-07d3-11ef-a93b-0242ac130004",
-                "name": "ウラノス"
+                "name": "ウラノス",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
-                "name": "Turnip"
+                "name": "Turnip",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "54b8951e-07d3-11ef-a93b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "54b8951e-07d3-11ef-a93b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 144,
@@ -11876,7 +11911,8 @@
                 "name": "HSH"
             },
             "opponent2": {
-                "id": null
+                "id": "54b8951e-07d3-11ef-a93b-0242ac130004",
+                "name": "ウラノス"
             },
             "match_games": []
         },

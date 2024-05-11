@@ -9144,16 +9144,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51cceaa8-07d3-11ef-858c-0242ac130004",
-                "name": "法然"
+                "name": "法然",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd0e793e-0abc-11ef-8078-0242ac130004",
-                "name": "障害族PEROが通る道を開けろあ、鱗落ち"
+                "name": "障害族PEROが通る道を開けろあ、鱗落ち",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "51cceaa8-07d3-11ef-858c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0e793e-0abc-11ef-8078-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "51cceaa8-07d3-11ef-858c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0e793e-0abc-11ef-8078-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 205,
@@ -10365,10 +10400,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "51cceaa8-07d3-11ef-858c-0242ac130004",
+                "name": "法然"
             },
             "opponent2": {
-                "id": null
+                "id": "54e8961a-07d3-11ef-9f1a-0242ac130004",
+                "name": "Trash boys"
             },
             "match_games": []
         },
@@ -12056,7 +12093,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cd0e793e-0abc-11ef-8078-0242ac130004",
+                "name": "障害族PEROが通る道を開けろあ、鱗落ち"
             },
             "opponent2": {
                 "id": null

@@ -9699,6 +9699,17 @@
             "img": ""
         },
         {
+            "id": "014addc4-0fa8-11ef-8401-0242ac130004",
+            "tournament_id": 0,
+            "name": "Só os Faixa Preta",
+            "players": [
+                "🌴HM|Yuji",
+                "Mateus_bertucci",
+                "Andrade"
+            ],
+            "img": ""
+        },
+        {
             "id": "6611dc9a-09b2-11ef-83cf-0242ac130004",
             "tournament_id": 0,
             "name": "Jun’s Dynasty",
@@ -10507,6 +10518,17 @@
             "img": ""
         },
         {
+            "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
+            "tournament_id": 0,
+            "name": "Дикие Кабаны",
+            "players": [
+                "I love danik🤍",
+                "親友🤍warrior",
+                "親友🤍danikk"
+            ],
+            "img": ""
+        },
+        {
             "id": "750aa196-0d54-11ef-8a96-0242ac130004",
             "tournament_id": 0,
             "name": "Kings Of Things",
@@ -10928,6 +10950,18 @@
                 "mr. carrot",
                 "19pederko87",
                 "TQ|Jaki™"
+            ],
+            "img": ""
+        },
+        {
+            "id": "348a8d62-0f92-11ef-9202-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team $wag",
+            "players": [
+                "$wagman",
+                "☀︎︎ⒹⒺⒻⒺⓃⒺⒸⒽⒾ☀︎︎",
+                "Sigma Hassan",
+                "Wire"
             ],
             "img": ""
         },
@@ -28292,16 +28326,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5c37f42c-0b13-11ef-b4db-0242ac130004",
-                "name": "Sandstorm"
+                "name": "Sandstorm",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "348a8d62-0f92-11ef-9202-0242ac130004",
-                "name": "Team $wag"
+                "name": "Team $wag",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "5c37f42c-0b13-11ef-b4db-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "348a8d62-0f92-11ef-9202-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "5c37f42c-0b13-11ef-b4db-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "348a8d62-0f92-11ef-9202-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 809,
@@ -29403,16 +29472,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
-                "name": "Дикие Кабаны"
+                "name": "Дикие Кабаны",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a3191f30-09d1-11ef-81b0-0242ac130004",
-                "name": "Glacier"
+                "name": "Glacier",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a3191f30-09d1-11ef-81b0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a3191f30-09d1-11ef-81b0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a3191f30-09d1-11ef-81b0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 836,
@@ -31464,16 +31583,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6ddd882-0b28-11ef-a031-0242ac130004",
-                "name": "Monkey Madness"
+                "name": "Monkey Madness",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "014addc4-0fa8-11ef-8401-0242ac130004",
-                "name": "Só os Faixa Preta"
+                "name": "Só os Faixa Preta",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "b6ddd882-0b28-11ef-a031-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "014addc4-0fa8-11ef-8401-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "b6ddd882-0b28-11ef-a031-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "014addc4-0fa8-11ef-8401-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 893,
@@ -35538,7 +35692,8 @@
                 "name": "Tilines"
             },
             "opponent2": {
-                "id": null
+                "id": "5c37f42c-0b13-11ef-b4db-0242ac130004",
+                "name": "Sandstorm"
             },
             "match_games": []
         },
@@ -35774,7 +35929,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a3191f30-09d1-11ef-81b0-0242ac130004",
+                "name": "Glacier"
             },
             "opponent2": {
                 "id": null
@@ -36246,7 +36402,8 @@
                 "name": "MAA LuismiBoy's"
             },
             "opponent2": {
-                "id": null
+                "id": "b6ddd882-0b28-11ef-a031-0242ac130004",
+                "name": "Monkey Madness"
             },
             "match_games": []
         },
@@ -40541,10 +40698,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "014addc4-0fa8-11ef-8401-0242ac130004",
+                "name": "Só os Faixa Preta"
             },
             "opponent2": {
-                "id": null
+                "id": "6611dc9a-09b2-11ef-83cf-0242ac130004",
+                "name": "Jun’s Dynasty"
             },
             "match_games": []
         },
@@ -41385,10 +41544,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "69843c08-07d5-11ef-a1b1-0242ac130004",
+                "name": "Дикие Кабаны"
             },
             "opponent2": {
-                "id": null
+                "id": "750aa196-0d54-11ef-8a96-0242ac130004",
+                "name": "Kings Of Things"
             },
             "match_games": []
         },
@@ -41797,10 +41958,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "348a8d62-0f92-11ef-9202-0242ac130004",
+                "name": "Team $wag"
             },
             "opponent2": {
-                "id": null
+                "id": "78e70e2e-0996-11ef-b3e9-0242ac130004",
+                "name": "SVG"
             },
             "match_games": []
         },

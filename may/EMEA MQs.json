@@ -29353,6 +29353,17 @@
             "img": ""
         },
         {
+            "id": "81f814b2-096a-11ef-a64b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Skreed esports",
+            "players": [
+                "SK | Halo🥀",
+                "FATALITY...",
+                "BEASTMODE"
+            ],
+            "img": ""
+        },
+        {
             "id": "1116f09c-0a00-11ef-9dc9-0242ac130004",
             "tournament_id": 0,
             "name": "LMX",
@@ -29563,6 +29574,17 @@
                 "NoMercy",
                 "NaVi|MMa",
                 "hfop"
+            ],
+            "img": ""
+        },
+        {
+            "id": "f7e7c432-0e48-11ef-86f3-0242ac130004",
+            "tournament_id": 0,
+            "name": "Frau Berlin",
+            "players": [
+                "Roni",
+                "Geheimdienst",
+                "Lion fighter"
             ],
             "img": ""
         },
@@ -55115,16 +55137,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b9126a80-07d3-11ef-aa57-0242ac130004",
-                "name": "The Sleepers Squad"
+                "name": "The Sleepers Squad",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "81f814b2-096a-11ef-a64b-0242ac130004",
-                "name": "Skreed esports"
+                "name": "Skreed esports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b9126a80-07d3-11ef-aa57-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "81f814b2-096a-11ef-a64b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b9126a80-07d3-11ef-aa57-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "81f814b2-096a-11ef-a64b-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 794,
@@ -58065,16 +58122,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b46384ba-07d3-11ef-9849-0242ac130004",
-                "name": "RVP"
+                "name": "RVP",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f7e7c432-0e48-11ef-86f3-0242ac130004",
-                "name": "Frau Berlin"
+                "name": "Frau Berlin",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b46384ba-07d3-11ef-9849-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7e7c432-0e48-11ef-86f3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b46384ba-07d3-11ef-9849-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7e7c432-0e48-11ef-86f3-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 922,
@@ -67694,7 +67786,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9126a80-07d3-11ef-aa57-0242ac130004",
+                "name": "The Sleepers Squad"
             },
             "opponent2": {
                 "id": null
@@ -68732,7 +68825,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b46384ba-07d3-11ef-9849-0242ac130004",
+                "name": "RVP"
             },
             "opponent2": {
                 "id": null
@@ -84581,7 +84675,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "81f814b2-096a-11ef-a64b-0242ac130004",
+                "name": "Skreed esports"
             },
             "opponent2": {
                 "id": null
@@ -85619,7 +85714,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f7e7c432-0e48-11ef-86f3-0242ac130004",
+                "name": "Frau Berlin"
             },
             "opponent2": {
                 "id": null

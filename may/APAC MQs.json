@@ -10423,16 +10423,66 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
-                "name": "Feasible Gaming"
+                "name": "Feasible Gaming",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
-                "name": "Counter Punch"
+                "name": "Counter Punch",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 293,
@@ -11908,10 +11958,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                "name": "Counter Punch"
             },
             "opponent2": {
-                "id": null
+                "id": "54f47a66-07d3-11ef-8698-0242ac130004",
+                "name": "4G Entertainment"
             },
             "match_games": []
         },
@@ -15710,7 +15762,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                "name": "Feasible Gaming"
             },
             "opponent2": {
                 "id": null

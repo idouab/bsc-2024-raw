@@ -81363,16 +81363,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c137f626-07d3-11ef-b3cb-0242ac130004",
-                "name": "Panda Esport$"
+                "name": "Panda Esport$",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7ec342b4-0a12-11ef-92d3-0242ac130004",
-                "name": "Mannys"
+                "name": "Mannys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c137f626-07d3-11ef-b3cb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7ec342b4-0a12-11ef-92d3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c137f626-07d3-11ef-b3cb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7ec342b4-0a12-11ef-92d3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1777,
@@ -93973,7 +94008,8 @@
                 "name": "F/A New Italy"
             },
             "opponent2": {
-                "id": null
+                "id": "c137f626-07d3-11ef-b3cb-0242ac130004",
+                "name": "Panda Esport$"
             },
             "match_games": []
         },
@@ -117290,10 +117326,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7ec342b4-0a12-11ef-92d3-0242ac130004",
+                "name": "Mannys"
             },
             "opponent2": {
-                "id": null
+                "id": "d1f7e200-07d3-11ef-93c3-0242ac130004",
+                "name": "Free Palestine🇵🇸❤️"
             },
             "match_games": []
         },

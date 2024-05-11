@@ -19153,16 +19153,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "01f0b37c-0b87-11ef-8661-0242ac130004",
-                "name": "BLITZ"
+                "name": "BLITZ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
-                "name": "透明エレジー"
+                "name": "透明エレジー",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "01f0b37c-0b87-11ef-8661-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "01f0b37c-0b87-11ef-8661-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 423,
@@ -19440,7 +19475,8 @@
                 "name": "Rising Phoenix"
             },
             "opponent2": {
-                "id": null
+                "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                "name": "透明エレジー"
             },
             "match_games": []
         },

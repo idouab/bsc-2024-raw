@@ -29611,6 +29611,17 @@
             "img": ""
         },
         {
+            "id": "34326f1e-0976-11ef-8def-0242ac130004",
+            "tournament_id": 0,
+            "name": "LES HAUT-SAVOYARDS",
+            "players": [
+                "Loan le pro",
+                "Alex le tipex",
+                "evan"
+            ],
+            "img": ""
+        },
+        {
             "id": "c88d46a4-098d-11ef-823c-0242ac130004",
             "tournament_id": 0,
             "name": "OVUZ TEAM",
@@ -55557,16 +55568,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "de82ba90-07d3-11ef-ad39-0242ac130004",
-                "name": "SKYLANDXR"
+                "name": "SKYLANDXR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "34326f1e-0976-11ef-8def-0242ac130004",
-                "name": "LES HAUT-SAVOYARDS"
+                "name": "LES HAUT-SAVOYARDS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "de82ba90-07d3-11ef-ad39-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "34326f1e-0976-11ef-8def-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "de82ba90-07d3-11ef-ad39-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "34326f1e-0976-11ef-8def-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "de82ba90-07d3-11ef-ad39-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "34326f1e-0976-11ef-8def-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 579,
@@ -76771,7 +76832,8 @@
                 "name": "Underdogs"
             },
             "opponent2": {
-                "id": null
+                "id": "de82ba90-07d3-11ef-ad39-0242ac130004",
+                "name": "SKYLANDXR"
             },
             "match_games": []
         },
@@ -94105,7 +94167,8 @@
                 "name": "GG Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "34326f1e-0976-11ef-8def-0242ac130004",
+                "name": "LES HAUT-SAVOYARDS"
             },
             "match_games": []
         },

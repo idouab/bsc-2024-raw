@@ -7784,16 +7784,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "548ffbe0-07d3-11ef-b646-0242ac130004",
-                "name": "UniTy"
+                "name": "UniTy",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a07e75a-0b4b-11ef-863d-0242ac130004",
-                "name": "wHKA"
+                "name": "wHKA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "548ffbe0-07d3-11ef-b646-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a07e75a-0b4b-11ef-863d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "548ffbe0-07d3-11ef-b646-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a07e75a-0b4b-11ef-863d-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 170,
@@ -8920,16 +8955,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f347f95e-0d55-11ef-b351-0242ac130004",
-                "name": "復活のDK"
+                "name": "復活のDK",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
-                "name": "Galaxy"
+                "name": "Galaxy",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "f347f95e-0d55-11ef-b351-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "f347f95e-0d55-11ef-b351-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f347f95e-0d55-11ef-b351-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 202,
@@ -12395,10 +12480,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a07e75a-0b4b-11ef-863d-0242ac130004",
+                "name": "wHKA"
             },
             "opponent2": {
-                "id": null
+                "id": "04ff4106-0aaa-11ef-9b7e-0242ac130004",
+                "name": "self improvement"
             },
             "match_games": []
         },

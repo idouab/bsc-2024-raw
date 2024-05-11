@@ -4582,16 +4582,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "db72d838-0ad2-11ef-8a81-0242ac130004",
-                "name": "Challenging"
+                "name": "Challenging",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f123f5c-0a9c-11ef-98ee-0242ac130004",
-                "name": "我們一起扛"
+                "name": "我們一起扛",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "db72d838-0ad2-11ef-8a81-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f123f5c-0a9c-11ef-98ee-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "db72d838-0ad2-11ef-8a81-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f123f5c-0a9c-11ef-98ee-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "db72d838-0ad2-11ef-8a81-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f123f5c-0a9c-11ef-98ee-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 47,
@@ -7415,7 +7465,8 @@
                 "name": "Why we lose"
             },
             "opponent2": {
-                "id": null
+                "id": "6f123f5c-0a9c-11ef-98ee-0242ac130004",
+                "name": "我們一起扛"
             },
             "match_games": []
         },

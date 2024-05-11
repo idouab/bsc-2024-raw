@@ -21060,16 +21060,66 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51d5a170-07d3-11ef-8246-0242ac130004",
-                "name": "F/A Nai Dug"
+                "name": "F/A Nai Dug",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54f47a66-07d3-11ef-8698-0242ac130004",
-                "name": "4G Entertainment"
+                "name": "4G Entertainment",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "54f47a66-07d3-11ef-8698-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54f47a66-07d3-11ef-8698-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54f47a66-07d3-11ef-8698-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 459,
@@ -21274,10 +21324,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                "name": "F/A Nai Dug"
             },
             "opponent2": {
-                "id": null
+                "id": "a1307200-07d7-11ef-8c4d-0242ac130004",
+                "name": "Revenant Esports"
             },
             "match_games": []
         },

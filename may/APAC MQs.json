@@ -12935,16 +12935,51 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
-                "name": "None"
+                "name": "None",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a12d22e4-07d7-11ef-a5d6-0242ac130004",
-                "name": "3R Gaming"
+                "name": "3R Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a12d22e4-07d7-11ef-a5d6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a12d22e4-07d7-11ef-a5d6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 404,
@@ -18497,7 +18532,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "aa2ce478-0eef-11ef-81e9-0242ac130004",
+                "name": "None"
             },
             "opponent2": {
                 "id": null

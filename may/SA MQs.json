@@ -8168,6 +8168,17 @@
             "img": ""
         },
         {
+            "id": "74c4ea12-07d6-11ef-beec-0242ac130004",
+            "tournament_id": 0,
+            "name": "GDB",
+            "players": [
+                "GDB|DanzX",
+                "GDB|𝐎ᴸᴬᶠ",
+                "GDB | MigzX"
+            ],
+            "img": ""
+        },
+        {
             "id": "74ce2e7e-07d6-11ef-96ca-0242ac130004",
             "tournament_id": 0,
             "name": "Cerrau",
@@ -16718,16 +16729,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74c4ea12-07d6-11ef-beec-0242ac130004",
-                "name": "GDB"
+                "name": "GDB",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4dd43952-0a8e-11ef-8635-0242ac130004",
-                "name": "Saperi sports"
+                "name": "Saperi sports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "74c4ea12-07d6-11ef-beec-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4dd43952-0a8e-11ef-8635-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "74c4ea12-07d6-11ef-beec-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4dd43952-0a8e-11ef-8635-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 233,
@@ -19457,7 +19503,8 @@
                 "name": "E$PARTANOS"
             },
             "opponent2": {
-                "id": null
+                "id": "4dd43952-0a8e-11ef-8635-0242ac130004",
+                "name": "Saperi sports"
             },
             "match_games": []
         },
@@ -23679,7 +23726,8 @@
                 "name": "MS LEGENDS"
             },
             "opponent2": {
-                "id": null
+                "id": "74c4ea12-07d6-11ef-beec-0242ac130004",
+                "name": "GDB"
             },
             "match_games": []
         },

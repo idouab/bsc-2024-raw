@@ -18834,16 +18834,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
-                "name": "Demonic"
+                "name": "Demonic",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
-                "name": "神戸星城"
+                "name": "神戸星城",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 415,
@@ -19264,7 +19299,8 @@
                 "name": "広尾学園"
             },
             "opponent2": {
-                "id": null
+                "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                "name": "Demonic"
             },
             "match_games": []
         },

@@ -11033,6 +11033,18 @@
             "img": ""
         },
         {
+            "id": "7729e6b8-0f10-11ef-ab0a-0242ac130004",
+            "tournament_id": 0,
+            "name": "Ghots Stars",
+            "players": [
+                "Ghost_C-137",
+                "Sasafross YT",
+                "Alex UwU",
+                "Colt God Man°°"
+            ],
+            "img": ""
+        },
+        {
             "id": "18a22550-09a8-11ef-9c22-0242ac130004",
             "tournament_id": 0,
             "name": "Team SIR",
@@ -11144,6 +11156,17 @@
                 "☄️AITOR☄️🦈",
                 "stingui",
                 "⸙ ᴀɴᴅʀᴇꜱ あ"
+            ],
+            "img": ""
+        },
+        {
+            "id": "64f49296-07d5-11ef-bc16-0242ac130004",
+            "tournament_id": 0,
+            "name": "312",
+            "players": [
+                "Angel 312",
+                "ʝσиα༆₃₁₂",
+                "Alexis 312"
             ],
             "img": ""
         },
@@ -27173,16 +27196,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64f49296-07d5-11ef-bc16-0242ac130004",
-                "name": "312"
+                "name": "312",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "21c30eda-0b09-11ef-b4dc-0242ac130004",
-                "name": "SoulHunter_Team"
+                "name": "SoulHunter_Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "64f49296-07d5-11ef-bc16-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "21c30eda-0b09-11ef-b4dc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64f49296-07d5-11ef-bc16-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "21c30eda-0b09-11ef-b4dc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "64f49296-07d5-11ef-bc16-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "21c30eda-0b09-11ef-b4dc-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 782,
@@ -27406,16 +27479,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c5ab826-07d5-11ef-8694-0242ac130004",
-                "name": "Eeesotilin"
+                "name": "Eeesotilin",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7729e6b8-0f10-11ef-ab0a-0242ac130004",
-                "name": "Ghots Stars"
+                "name": "Ghots Stars",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6c5ab826-07d5-11ef-8694-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7729e6b8-0f10-11ef-ab0a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6c5ab826-07d5-11ef-8694-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7729e6b8-0f10-11ef-ab0a-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 793,
@@ -34418,7 +34526,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "21c30eda-0b09-11ef-b4dc-0242ac130004",
+                "name": "SoulHunter_Team"
             },
             "opponent2": {
                 "id": null
@@ -41096,10 +41205,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7729e6b8-0f10-11ef-ab0a-0242ac130004",
+                "name": "Ghots Stars"
             },
             "opponent2": {
-                "id": null
+                "id": "18a22550-09a8-11ef-9c22-0242ac130004",
+                "name": "Team SIR"
             },
             "match_games": []
         },
@@ -41242,10 +41353,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64f49296-07d5-11ef-bc16-0242ac130004",
+                "name": "312"
             },
             "opponent2": {
-                "id": null
+                "id": "8ffaf328-0a54-11ef-a911-0242ac130004",
+                "name": "Balls"
             },
             "match_games": []
         },

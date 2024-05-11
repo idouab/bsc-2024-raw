@@ -9609,6 +9609,17 @@
             "img": ""
         },
         {
+            "id": "aa897e34-099c-11ef-a23c-0242ac130004",
+            "tournament_id": 0,
+            "name": "BSBULLS",
+            "players": [
+                "sus",
+                "jamezz",
+                "Fat Bagel Boss"
+            ],
+            "img": ""
+        },
+        {
             "id": "a31351d0-0f63-11ef-ac9c-0242ac130004",
             "tournament_id": 0,
             "name": "PHNX",
@@ -31570,16 +31581,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "691d8166-07d5-11ef-af04-0242ac130004",
-                "name": "Luminosity"
+                "name": "Luminosity",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aa897e34-099c-11ef-a23c-0242ac130004",
-                "name": "BSBULLS"
+                "name": "BSBULLS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "691d8166-07d5-11ef-af04-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aa897e34-099c-11ef-a23c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "691d8166-07d5-11ef-af04-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aa897e34-099c-11ef-a23c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 898,
@@ -36150,7 +36196,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "691d8166-07d5-11ef-af04-0242ac130004",
+                "name": "Luminosity"
             },
             "opponent2": {
                 "id": null
@@ -40325,10 +40372,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "aa897e34-099c-11ef-a23c-0242ac130004",
+                "name": "BSBULLS"
             },
             "opponent2": {
-                "id": null
+                "id": "a31351d0-0f63-11ef-ac9c-0242ac130004",
+                "name": "PHNX"
             },
             "match_games": []
         },

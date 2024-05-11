@@ -8701,16 +8701,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
-                "name": "coco loco"
+                "name": "coco loco",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
-                "name": "ASIANO2"
+                "name": "ASIANO2",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 219,
@@ -9367,7 +9402,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                "name": "coco loco"
             },
             "opponent2": {
                 "id": null
@@ -10589,7 +10625,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a8466cc4-0a76-11ef-b599-0242ac130004",
+                "name": "ASIANO2"
             },
             "opponent2": {
                 "id": null

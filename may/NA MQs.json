@@ -9260,6 +9260,17 @@
             "img": ""
         },
         {
+            "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+            "tournament_id": 0,
+            "name": "Green St. Goblins",
+            "players": [
+                "G check",
+                "GimmeUrJewGold",
+                "VinnyChase"
+            ],
+            "img": ""
+        },
+        {
             "id": "a4b7c156-0f31-11ef-bd2a-0242ac130004",
             "tournament_id": 0,
             "name": "Freak Stars",
@@ -10808,6 +10819,17 @@
                 "⚡️Dark Knight⚡️",
                 "Ahi",
                 "★SHAY★"
+            ],
+            "img": ""
+        },
+        {
+            "id": "572ba45e-0b4c-11ef-9454-0242ac130004",
+            "tournament_id": 0,
+            "name": "SKBD",
+            "players": [
+                "Fallen",
+                "KENDRICKG@YMAR",
+                "50 Fent"
             ],
             "img": ""
         },
@@ -25239,16 +25261,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65eea2b8-07d5-11ef-bbc4-0242ac130004",
-                "name": "Kaox Esports"
+                "name": "Kaox Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "572ba45e-0b4c-11ef-9454-0242ac130004",
-                "name": "SKBD"
+                "name": "SKBD",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "65eea2b8-07d5-11ef-bbc4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "572ba45e-0b4c-11ef-9454-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "65eea2b8-07d5-11ef-bbc4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "572ba45e-0b4c-11ef-9454-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 762,
@@ -28391,16 +28448,81 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
-                "name": "Ye"
+                "name": "Ye",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
-                "name": "Green St. Goblins"
+                "name": "Green St. Goblins",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 906,
@@ -30518,7 +30640,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "65eea2b8-07d5-11ef-bbc4-0242ac130004",
+                "name": "Kaox Esports"
             },
             "opponent2": {
                 "id": null
@@ -31683,7 +31806,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c28a610-07d5-11ef-88ea-0242ac130004",
+                "name": "Ye"
             },
             "opponent2": {
                 "id": null
@@ -35611,10 +35735,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2f3a6996-0b18-11ef-9bfb-0242ac130004",
+                "name": "Green St. Goblins"
             },
             "opponent2": {
-                "id": null
+                "id": "a4b7c156-0f31-11ef-bd2a-0242ac130004",
+                "name": "Freak Stars"
             },
             "match_games": []
         },
@@ -37651,10 +37777,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "572ba45e-0b4c-11ef-9454-0242ac130004",
+                "name": "SKBD"
             },
             "opponent2": {
-                "id": null
+                "id": "76cb50fc-0f89-11ef-84f5-0242ac130004",
+                "name": "LLC | Gembloux"
             },
             "match_games": []
         },

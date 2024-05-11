@@ -32946,6 +32946,17 @@
             "img": ""
         },
         {
+            "id": "b20821b6-0955-11ef-ba38-0242ac130004",
+            "tournament_id": 0,
+            "name": "8AITS",
+            "players": [
+                "pumpy_thaies",
+                "BC*| Dr. Curry",
+                "nichdJonah"
+            ],
+            "img": ""
+        },
+        {
             "id": "bb2754ac-07d3-11ef-8446-0242ac130004",
             "tournament_id": 0,
             "name": "RAW Esports",
@@ -65828,16 +65839,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b20821b6-0955-11ef-ba38-0242ac130004",
-                "name": "8AITS"
+                "name": "8AITS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b5c86698-0942-11ef-b9b2-0242ac130004",
-                "name": "BringThemHome"
+                "name": "BringThemHome",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b20821b6-0955-11ef-ba38-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5c86698-0942-11ef-b9b2-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b20821b6-0955-11ef-ba38-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b5c86698-0942-11ef-b9b2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "b20821b6-0955-11ef-ba38-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b5c86698-0942-11ef-b9b2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 884,
@@ -79040,10 +79101,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5c86698-0942-11ef-b9b2-0242ac130004",
+                "name": "BringThemHome"
             },
             "opponent2": {
-                "id": null
+                "id": "81968ff2-0943-11ef-83cb-0242ac130004",
+                "name": "AMD DEAF"
             },
             "match_games": []
         },
@@ -96361,10 +96424,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b20821b6-0955-11ef-ba38-0242ac130004",
+                "name": "8AITS"
             },
             "opponent2": {
-                "id": null
+                "id": "bb2754ac-07d3-11ef-8446-0242ac130004",
+                "name": "RAW Esports"
             },
             "match_games": []
         },

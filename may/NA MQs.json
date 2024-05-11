@@ -8802,6 +8802,17 @@
             "img": ""
         },
         {
+            "id": "04d1187c-0be9-11ef-9fc4-0242ac130004",
+            "tournament_id": 0,
+            "name": "Ex-Ghxst",
+            "players": [
+                "Excalibur",
+                "D♡a□n◇i□e♡l■d",
+                "cfer|estomac"
+            ],
+            "img": ""
+        },
+        {
             "id": "356fba64-0a5a-11ef-bd1a-0242ac130004",
             "tournament_id": 0,
             "name": "Chin Reaction",
@@ -9639,6 +9650,18 @@
             "img": ""
         },
         {
+            "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
+            "tournament_id": 0,
+            "name": "OTF",
+            "players": [
+                "Jesterisk",
+                "⚡️PMBO.JAVI⚡️",
+                "𝕷𝖚𝖎𝖘™︎|<3",
+                "schchild.gaming"
+            ],
+            "img": ""
+        },
+        {
             "id": "f8df0710-0b28-11ef-9530-0242ac130004",
             "tournament_id": 0,
             "name": "Oracle",
@@ -10455,6 +10478,17 @@
                 "Safeer",
                 "Ibrxz",
                 "🥊𝖍𝖚𝖌𝖔❦♛"
+            ],
+            "img": ""
+        },
+        {
+            "id": "67027f58-07d5-11ef-9f16-0242ac130004",
+            "tournament_id": 0,
+            "name": "Quantum Esports",
+            "players": [
+                "QNM | STØRM⚡️",
+                "QNM | DeeVee",
+                "QNM | llama"
             ],
             "img": ""
         },
@@ -26398,16 +26432,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "67027f58-07d5-11ef-9f16-0242ac130004",
-                "name": "Quantum Esports"
+                "name": "Quantum Esports",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "881a3400-0c13-11ef-8920-0242ac130004",
-                "name": "TONOTOS"
+                "name": "TONOTOS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "67027f58-07d5-11ef-9f16-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "881a3400-0c13-11ef-8920-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "67027f58-07d5-11ef-9f16-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "881a3400-0c13-11ef-8920-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 806,
@@ -28203,16 +28272,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6afc02d2-07d5-11ef-9e92-0242ac130004",
-                "name": "RDA"
+                "name": "RDA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
-                "name": "OTF"
+                "name": "OTF",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6afc02d2-07d5-11ef-9e92-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6afc02d2-07d5-11ef-9e92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6afc02d2-07d5-11ef-9e92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 881,
@@ -30025,16 +30144,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "644a4494-07d5-11ef-b41b-0242ac130004",
-                "name": "Webanghotwomen"
+                "name": "Webanghotwomen",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "04d1187c-0be9-11ef-9fc4-0242ac130004",
-                "name": "Ex-Ghxst"
+                "name": "Ex-Ghxst",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "644a4494-07d5-11ef-b41b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04d1187c-0be9-11ef-9fc4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "644a4494-07d5-11ef-b41b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04d1187c-0be9-11ef-9fc4-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 950,
@@ -31617,7 +31771,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "881a3400-0c13-11ef-8920-0242ac130004",
+                "name": "TONOTOS"
             },
             "opponent2": {
                 "id": null
@@ -32222,7 +32377,8 @@
                 "name": "PANTHEON"
             },
             "opponent2": {
-                "id": null
+                "id": "6afc02d2-07d5-11ef-9e92-0242ac130004",
+                "name": "RDA"
             },
             "match_games": []
         },
@@ -32788,7 +32944,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "644a4494-07d5-11ef-b41b-0242ac130004",
+                "name": "Webanghotwomen"
             },
             "opponent2": {
                 "id": null
@@ -35735,10 +35892,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "04d1187c-0be9-11ef-9fc4-0242ac130004",
+                "name": "Ex-Ghxst"
             },
             "opponent2": {
-                "id": null
+                "id": "356fba64-0a5a-11ef-bd1a-0242ac130004",
+                "name": "Chin Reaction"
             },
             "match_games": []
         },
@@ -36739,10 +36898,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "91a7e91a-09e1-11ef-8d3b-0242ac130004",
+                "name": "OTF"
             },
             "opponent2": {
-                "id": null
+                "id": "f8df0710-0b28-11ef-9530-0242ac130004",
+                "name": "Oracle"
             },
             "match_games": []
         },
@@ -37795,10 +37956,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "67027f58-07d5-11ef-9f16-0242ac130004",
+                "name": "Quantum Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
+                "name": "Its An Art"
             },
             "match_games": []
         },

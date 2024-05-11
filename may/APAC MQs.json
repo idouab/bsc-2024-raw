@@ -2149,7 +2149,7 @@
             "name": "Team S2",
             "players": [
                 "OP|Wangmeshi",
-                "OP|Veti",
+                "S2|Veti",
                 "S0 | Raychel",
                 "has.le🫠"
             ],
@@ -2535,6 +2535,17 @@
                 "親指の神コナン"
             ],
             "img": ""
+        },
+        {
+            "id": "954da932-0edd-11ef-af7a-0242ac130004",
+            "tournament_id": 0,
+            "name": "ASG",
+            "players": [
+                "たこわさ!!",
+                "白レンジャー",
+                "𓀠𓀠𓀠𓀠𓀠𓀠𓀠"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -2863,16 +2874,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "954da932-0edd-11ef-af7a-0242ac130004",
-                "name": "ASG"
+                "name": "ASG",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
-                "name": "Counter Punch"
+                "name": "Counter Punch",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "954da932-0edd-11ef-af7a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "954da932-0edd-11ef-af7a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 13,

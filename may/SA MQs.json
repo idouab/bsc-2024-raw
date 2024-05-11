@@ -5837,6 +5837,17 @@
             "img": ""
         },
         {
+            "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+            "tournament_id": 0,
+            "name": "LOST TIME",
+            "players": [
+                "T1ME|RickY⏳",
+                "Kairos",
+                "蛇Snaider™"
+            ],
+            "img": ""
+        },
+        {
             "id": "fbb32dd0-0cc3-11ef-9c15-0242ac130004",
             "tournament_id": 0,
             "name": "The Fellas",
@@ -5991,6 +6002,17 @@
                 "TK | Drevor",
                 "TK | Cxpaa",
                 "TK | Se6aS"
+            ],
+            "img": ""
+        },
+        {
+            "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
+            "tournament_id": 0,
+            "name": "Brawl de Gordas",
+            "players": [
+                "Santyy4",
+                "ITZ_SANTI10",
+                "Danilo07"
             ],
             "img": ""
         },
@@ -7833,6 +7855,17 @@
             "img": ""
         },
         {
+            "id": "4884c5fe-0d70-11ef-8771-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sacrile",
+            "players": [
+                "SCL|F.O.T.",
+                "TM | Texcla🐸",
+                "SCL|ZEA🌱"
+            ],
+            "img": ""
+        },
+        {
             "id": "c7d4d626-09b2-11ef-9b0f-0242ac130004",
             "tournament_id": 0,
             "name": "TEAM CHAMBEADORES",
@@ -8835,16 +8868,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a389232-07d6-11ef-97cf-0242ac130004",
-                "name": "LOST TIME"
+                "name": "LOST TIME",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "32788704-0e66-11ef-be26-0242ac130004",
-                "name": "Nobruzes"
+                "name": "Nobruzes",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "32788704-0e66-11ef-be26-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "32788704-0e66-11ef-be26-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "32788704-0e66-11ef-be26-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 14,
@@ -9221,16 +9304,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d488f01a-0b73-11ef-9bf9-0242ac130004",
-                "name": "LUCKY_BEGINNERS☘️"
+                "name": "LUCKY_BEGINNERS☘️",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
-                "name": "Brawl de Gordas"
+                "name": "Brawl de Gordas",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d488f01a-0b73-11ef-9bf9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d488f01a-0b73-11ef-9bf9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d488f01a-0b73-11ef-9bf9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 29,
@@ -15343,16 +15476,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "76e2028a-07d6-11ef-9f2d-0242ac130004",
-                "name": "Ñam sports"
+                "name": "Ñam sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4884c5fe-0d70-11ef-8771-0242ac130004",
-                "name": "Sacrile"
+                "name": "Sacrile",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "76e2028a-07d6-11ef-9f2d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4884c5fe-0d70-11ef-8771-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "76e2028a-07d6-11ef-9f2d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4884c5fe-0d70-11ef-8771-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 214,
@@ -16585,10 +16753,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "32788704-0e66-11ef-be26-0242ac130004",
+                "name": "Nobruzes"
             },
             "opponent2": {
-                "id": null
+                "id": "ac392246-094e-11ef-bebd-0242ac130004",
+                "name": "Invictus"
             },
             "match_games": []
         },
@@ -16713,7 +16883,8 @@
                 "name": "Supercachaditos z"
             },
             "opponent2": {
-                "id": null
+                "id": "d488f01a-0b73-11ef-9bf9-0242ac130004",
+                "name": "LUCKY_BEGINNERS☘️"
             },
             "match_games": []
         },
@@ -18360,7 +18531,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "76e2028a-07d6-11ef-9f2d-0242ac130004",
+                "name": "Ñam sports"
             },
             "opponent2": {
                 "id": null
@@ -20823,10 +20995,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                "name": "LOST TIME"
             },
             "opponent2": {
-                "id": null
+                "id": "fbb32dd0-0cc3-11ef-9c15-0242ac130004",
+                "name": "The Fellas"
             },
             "match_games": []
         },
@@ -20951,7 +21125,8 @@
                 "name": "The kigns"
             },
             "opponent2": {
-                "id": null
+                "id": "037287a2-0b1e-11ef-90aa-0242ac130004",
+                "name": "Brawl de Gordas"
             },
             "match_games": []
         },
@@ -22562,7 +22737,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4884c5fe-0d70-11ef-8771-0242ac130004",
+                "name": "Sacrile"
             },
             "opponent2": {
                 "id": null

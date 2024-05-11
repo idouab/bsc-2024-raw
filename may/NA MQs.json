@@ -9707,6 +9707,18 @@
                 "CancerEnhancer"
             ],
             "img": ""
+        },
+        {
+            "id": "dc289856-0a89-11ef-ab26-0242ac130004",
+            "tournament_id": 0,
+            "name": "TEAM YETIS",
+            "players": [
+                "YT[KUROO 😼]",
+                "⚡jeremy121⚡",
+                "ChuckyXD",
+                "McLOVIN"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -23165,16 +23177,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dc289856-0a89-11ef-ab26-0242ac130004",
-                "name": "TEAM YETIS"
+                "name": "TEAM YETIS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
-                "name": "Inarizaki"
+                "name": "Inarizaki",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dc289856-0a89-11ef-ab26-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dc289856-0a89-11ef-ab26-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 737,
@@ -27680,7 +27727,8 @@
                 "name": "Markito Rey"
             },
             "opponent2": {
-                "id": null
+                "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                "name": "Inarizaki"
             },
             "match_games": []
         },

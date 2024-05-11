@@ -5723,6 +5723,17 @@
                 "◤NS◢|⛓️PERXITA☠"
             ],
             "img": ""
+        },
+        {
+            "id": "5ad9212c-0984-11ef-8080-0242ac130004",
+            "tournament_id": 0,
+            "name": "Fc/ JJI",
+            "players": [
+                "JoelxD",
+                "Brawler",
+                "ian285p🇨🇱"
+            ],
+            "img": ""
         }
     ],
     "stage": [
@@ -10170,16 +10181,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
-                "name": "Time 7"
+                "name": "Time 7",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ad9212c-0984-11ef-8080-0242ac130004",
-                "name": "Fc/ JJI"
+                "name": "Fc/ JJI",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ad9212c-0984-11ef-8080-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ad9212c-0984-11ef-8080-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 241,

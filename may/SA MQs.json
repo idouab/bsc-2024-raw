@@ -21791,16 +21791,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "417fa482-0955-11ef-8599-0242ac130004",
-                "name": "paiN"
+                "name": "paiN",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "417fa482-0955-11ef-8599-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "417fa482-0955-11ef-8599-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "417fa482-0955-11ef-8599-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 469,
@@ -24654,10 +24704,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "417fa482-0955-11ef-8599-0242ac130004",
+                "name": "paiN"
             },
             "opponent2": {
-                "id": null
+                "id": "7694ff94-07d6-11ef-8fd5-0242ac130004",
+                "name": "🔱MASTER TOP🔱"
             },
             "match_games": []
         },
@@ -29773,7 +29825,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                "name": "Escandalosos"
             },
             "opponent2": {
                 "id": null

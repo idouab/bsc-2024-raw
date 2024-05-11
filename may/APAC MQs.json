@@ -8799,16 +8799,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5b218d78-09e7-11ef-9647-0242ac130004",
-                "name": "防風鈴"
+                "name": "防風鈴",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "46667620-0af8-11ef-8fef-0242ac130004",
-                "name": "🤡"
+                "name": "🤡",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 194,
@@ -10493,7 +10543,8 @@
                 "name": "POCHENLEGEND"
             },
             "opponent2": {
-                "id": null
+                "id": "46667620-0af8-11ef-8fef-0242ac130004",
+                "name": "🤡"
             },
             "match_games": []
         },
@@ -12542,10 +12593,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                "name": "防風鈴"
             },
             "opponent2": {
-                "id": null
+                "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                "name": "Roopa Squad"
             },
             "match_games": []
         },

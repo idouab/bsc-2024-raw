@@ -56946,16 +56946,66 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6ae6b1dc-0a75-11ef-a1c6-0242ac130004",
-                "name": "Toronto FC"
+                "name": "Toronto FC",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
-                "name": "Its An Art"
+                "name": "Its An Art",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "6ae6b1dc-0a75-11ef-a1c6-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "6ae6b1dc-0a75-11ef-a1c6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6ae6b1dc-0a75-11ef-a1c6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1087,
@@ -59477,7 +59527,8 @@
                 "name": "Team Rage"
             },
             "opponent2": {
-                "id": null
+                "id": "e17ff49a-0a5a-11ef-9d58-0242ac130004",
+                "name": "Its An Art"
             },
             "match_games": []
         },

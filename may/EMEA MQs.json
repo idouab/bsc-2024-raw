@@ -30175,6 +30175,17 @@
             "img": ""
         },
         {
+            "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
+            "tournament_id": 0,
+            "name": "PLM|ASSASINS",
+            "players": [
+                "MisterP",
+                "Absoluce31",
+                "SO6|Azemad"
+            ],
+            "img": ""
+        },
+        {
             "id": "e9a3daf2-0ddd-11ef-bb42-0242ac130004",
             "tournament_id": 0,
             "name": "PK",
@@ -57093,16 +57104,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
-                "name": "PLM|ASSASINS"
+                "name": "PLM|ASSASINS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e360208e-07d3-11ef-98e4-0242ac130004",
-                "name": "Chini Team"
+                "name": "Chini Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e360208e-07d3-11ef-98e4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e360208e-07d3-11ef-98e4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e360208e-07d3-11ef-98e4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 635,
@@ -75758,7 +75819,8 @@
                 "name": "Unlegit"
             },
             "opponent2": {
-                "id": null
+                "id": "e360208e-07d3-11ef-98e4-0242ac130004",
+                "name": "Chini Team"
             },
             "match_games": []
         },
@@ -93054,7 +93116,8 @@
                 "name": "BoltAdik Team"
             },
             "opponent2": {
-                "id": null
+                "id": "a5331b36-0ca1-11ef-87bb-0242ac130004",
+                "name": "PLM|ASSASINS"
             },
             "match_games": []
         },

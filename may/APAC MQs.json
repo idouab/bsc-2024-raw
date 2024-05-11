@@ -2638,6 +2638,17 @@
             "img": ""
         },
         {
+            "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Turnip",
+            "players": [
+                "Portal Lord",
+                "Lach11",
+                "HyperActive"
+            ],
+            "img": ""
+        },
+        {
             "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
             "tournament_id": 0,
             "name": "66% Black",
@@ -4290,16 +4301,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
-                "name": "Turnip"
+                "name": "Turnip",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "72954ec8-0955-11ef-9003-0242ac130004",
-                "name": "MED"
+                "name": "MED",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72954ec8-0955-11ef-9003-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ef6d0c6e-0b8b-11ef-8c5d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72954ec8-0955-11ef-9003-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 57,

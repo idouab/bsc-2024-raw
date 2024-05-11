@@ -6820,6 +6820,17 @@
             "img": ""
         },
         {
+            "id": "77777a04-07d6-11ef-80da-0242ac130004",
+            "tournament_id": 0,
+            "name": "Pokas Ofc",
+            "players": [
+                "pK•YaZa",
+                "pK•Felipemasc",
+                "pK.Vitão"
+            ],
+            "img": ""
+        },
+        {
             "id": "6aa3e438-0a43-11ef-9cc5-0242ac130004",
             "tournament_id": 0,
             "name": "T1",
@@ -12294,16 +12305,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "77777a04-07d6-11ef-80da-0242ac130004",
-                "name": "Pokas Ofc"
+                "name": "Pokas Ofc",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6d804402-0cb0-11ef-b887-0242ac130004",
-                "name": "✨️The World_Fin✨️🌎"
+                "name": "✨️The World_Fin✨️🌎",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "77777a04-07d6-11ef-80da-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6d804402-0cb0-11ef-b887-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "77777a04-07d6-11ef-80da-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d804402-0cb0-11ef-b887-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 104,
@@ -18477,10 +18523,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d804402-0cb0-11ef-b887-0242ac130004",
+                "name": "✨️The World_Fin✨️🌎"
             },
             "opponent2": {
-                "id": null
+                "id": "eec412bc-0974-11ef-9d9b-0242ac130004",
+                "name": "Legends"
             },
             "match_games": []
         },
@@ -22738,10 +22786,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "77777a04-07d6-11ef-80da-0242ac130004",
+                "name": "Pokas Ofc"
             },
             "opponent2": {
-                "id": null
+                "id": "6aa3e438-0a43-11ef-9cc5-0242ac130004",
+                "name": "T1"
             },
             "match_games": []
         },

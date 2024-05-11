@@ -2626,6 +2626,28 @@
             "img": ""
         },
         {
+            "id": "77ebce62-09df-11ef-8ec2-0242ac130004",
+            "tournament_id": 0,
+            "name": "CSR",
+            "players": [
+                "しーちゃん",
+                "たける",
+                "しん🥀life"
+            ],
+            "img": ""
+        },
+        {
+            "id": "7b4b27e0-0a40-11ef-a4d4-0242ac130004",
+            "tournament_id": 0,
+            "name": "TEAM FOOL",
+            "players": [
+                "不鹹の白鹽",
+                "Jeremy",
+                "夢魘貓咪"
+            ],
+            "img": ""
+        },
+        {
             "id": "d92b281e-0c85-11ef-b8a4-0242ac130004",
             "tournament_id": 0,
             "name": "ウォーターボトル",
@@ -7978,16 +8000,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
-                "name": "Rising Phoenix"
+                "name": "Rising Phoenix",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
-                "name": "蘑菇圈"
+                "name": "蘑菇圈",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "54cf6870-07d3-11ef-b24d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 182,
@@ -10138,8 +10195,26 @@
             "match_games": []
         },
         {
-            "id": 134,
+            "id": 133,
             "number": 5,
+            "stage_id": 0,
+            "group_id": 1,
+            "round_id": 1,
+            "child_count": 3,
+            "status": 3,
+            "opponent1": {
+                "id": "77ebce62-09df-11ef-8ec2-0242ac130004",
+                "name": "CSR"
+            },
+            "opponent2": {
+                "id": "7b4b27e0-0a40-11ef-a4d4-0242ac130004",
+                "name": "TEAM FOOL"
+            },
+            "match_games": []
+        },
+        {
+            "id": 134,
+            "number": 6,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10157,7 +10232,7 @@
         },
         {
             "id": 135,
-            "number": 6,
+            "number": 7,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10175,7 +10250,7 @@
         },
         {
             "id": 136,
-            "number": 7,
+            "number": 8,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10193,7 +10268,7 @@
         },
         {
             "id": 137,
-            "number": 8,
+            "number": 9,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10211,7 +10286,7 @@
         },
         {
             "id": 138,
-            "number": 9,
+            "number": 10,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10229,7 +10304,7 @@
         },
         {
             "id": 139,
-            "number": 10,
+            "number": 11,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10247,7 +10322,7 @@
         },
         {
             "id": 140,
-            "number": 11,
+            "number": 12,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10265,7 +10340,7 @@
         },
         {
             "id": 141,
-            "number": 12,
+            "number": 13,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10283,7 +10358,7 @@
         },
         {
             "id": 142,
-            "number": 13,
+            "number": 14,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10301,7 +10376,7 @@
         },
         {
             "id": 143,
-            "number": 14,
+            "number": 15,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10319,7 +10394,7 @@
         },
         {
             "id": 144,
-            "number": 15,
+            "number": 16,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10337,7 +10412,7 @@
         },
         {
             "id": 145,
-            "number": 16,
+            "number": 17,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10355,7 +10430,7 @@
         },
         {
             "id": 146,
-            "number": 17,
+            "number": 18,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10373,7 +10448,7 @@
         },
         {
             "id": 147,
-            "number": 18,
+            "number": 19,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10391,7 +10466,7 @@
         },
         {
             "id": 148,
-            "number": 19,
+            "number": 20,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10409,7 +10484,7 @@
         },
         {
             "id": 149,
-            "number": 20,
+            "number": 21,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10427,7 +10502,7 @@
         },
         {
             "id": 150,
-            "number": 21,
+            "number": 22,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10445,7 +10520,7 @@
         },
         {
             "id": 151,
-            "number": 22,
+            "number": 23,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10463,7 +10538,7 @@
         },
         {
             "id": 152,
-            "number": 23,
+            "number": 24,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10481,7 +10556,7 @@
         },
         {
             "id": 153,
-            "number": 24,
+            "number": 25,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10499,7 +10574,7 @@
         },
         {
             "id": 154,
-            "number": 25,
+            "number": 26,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10517,7 +10592,7 @@
         },
         {
             "id": 155,
-            "number": 26,
+            "number": 27,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10535,7 +10610,7 @@
         },
         {
             "id": 156,
-            "number": 27,
+            "number": 28,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10553,7 +10628,7 @@
         },
         {
             "id": 157,
-            "number": 28,
+            "number": 29,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10571,7 +10646,7 @@
         },
         {
             "id": 158,
-            "number": 29,
+            "number": 30,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10589,7 +10664,7 @@
         },
         {
             "id": 159,
-            "number": 30,
+            "number": 31,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10607,7 +10682,7 @@
         },
         {
             "id": 160,
-            "number": 31,
+            "number": 32,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10625,7 +10700,7 @@
         },
         {
             "id": 161,
-            "number": 32,
+            "number": 33,
             "stage_id": 0,
             "group_id": 1,
             "round_id": 1,
@@ -10877,10 +10952,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f342f62e-0aea-11ef-90b7-0242ac130004",
+                "name": "DETNIT"
             },
             "opponent2": {
-                "id": null
+                "id": "53c757f8-07d3-11ef-9555-0242ac130004",
+                "name": "ホングコング"
             },
             "match_games": []
         },
@@ -11363,10 +11440,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                "name": "蘑菇圈"
             },
             "opponent2": {
-                "id": null
+                "id": "bd2c3540-0a9b-11ef-a2c5-0242ac130004",
+                "name": "MNR"
             },
             "match_games": []
         },

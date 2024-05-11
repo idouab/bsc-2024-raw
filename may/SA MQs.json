@@ -7833,6 +7833,17 @@
             "img": ""
         },
         {
+            "id": "769112ee-07d6-11ef-874b-0242ac130004",
+            "tournament_id": 0,
+            "name": "JJJ",
+            "players": [
+                "VIRUZX/HDF🇨🇱",
+                "Cilantro//JJ",
+                "Brawler"
+            ],
+            "img": ""
+        },
+        {
             "id": "c390b022-0efc-11ef-9caa-0242ac130004",
             "tournament_id": 0,
             "name": "Azules CL",
@@ -15159,16 +15170,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "769112ee-07d6-11ef-874b-0242ac130004",
-                "name": "JJJ"
+                "name": "JJJ",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b228304e-0bf0-11ef-bae0-0242ac130004",
-                "name": "TL Eternity"
+                "name": "TL Eternity",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "769112ee-07d6-11ef-874b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b228304e-0bf0-11ef-bae0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "769112ee-07d6-11ef-874b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b228304e-0bf0-11ef-bae0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "769112ee-07d6-11ef-874b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b228304e-0bf0-11ef-bae0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 224,
@@ -17947,10 +18008,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b228304e-0bf0-11ef-bae0-0242ac130004",
+                "name": "TL Eternity"
             },
             "opponent2": {
-                "id": null
+                "id": "2f2f0426-097d-11ef-b855-0242ac130004",
+                "name": "Pitusas F/A"
             },
             "match_games": []
         },
@@ -22136,10 +22199,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "769112ee-07d6-11ef-874b-0242ac130004",
+                "name": "JJJ"
             },
             "opponent2": {
-                "id": null
+                "id": "c390b022-0efc-11ef-9caa-0242ac130004",
+                "name": "Azules CL"
             },
             "match_games": []
         },

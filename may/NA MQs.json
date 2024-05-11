@@ -44646,16 +44646,66 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7ba5add8-098b-11ef-a7a3-0242ac130004",
-                "name": "Sigma gamers"
+                "name": "Sigma gamers",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "69dfaa0c-07d5-11ef-a346-0242ac130004",
-                "name": "Groomers"
+                "name": "Groomers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "7ba5add8-098b-11ef-a7a3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "69dfaa0c-07d5-11ef-a346-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "7ba5add8-098b-11ef-a7a3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "69dfaa0c-07d5-11ef-a346-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "7ba5add8-098b-11ef-a7a3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "69dfaa0c-07d5-11ef-a346-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1383,
@@ -47703,7 +47753,8 @@
                 "name": "PDF Team"
             },
             "opponent2": {
-                "id": null
+                "id": "69dfaa0c-07d5-11ef-a346-0242ac130004",
+                "name": "Groomers"
             },
             "match_games": []
         },
@@ -61582,7 +61633,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7ba5add8-098b-11ef-a7a3-0242ac130004",
+                "name": "Sigma gamers"
             },
             "opponent2": {
                 "id": null

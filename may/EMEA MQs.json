@@ -16989,7 +16989,7 @@
             "tournament_id": 0,
             "name": "EL PRIMOS BS",
             "players": [
-                "GT.fedela7.k47",
+                "𝖦𝖳|Fedeᵏⁱˡˡ ᵘ",
                 "Lil.Ruffy🥀",
                 "Lukiᶫᵒᵛᵉᵧₒᵤ"
             ],
@@ -30062,6 +30062,17 @@
             "img": ""
         },
         {
+            "id": "49db950a-0a40-11ef-86c3-0242ac130004",
+            "tournament_id": 0,
+            "name": "HaYa BeHi",
+            "players": [
+                "HB | loubya",
+                "HB | lableby",
+                "HB | legmi"
+            ],
+            "img": ""
+        },
+        {
             "id": "184bf516-0a3b-11ef-a862-0242ac130004",
             "tournament_id": 0,
             "name": "Zagreb boys",
@@ -30445,6 +30456,17 @@
             "img": ""
         },
         {
+            "id": "eaba1e28-0a14-11ef-a075-0242ac130004",
+            "tournament_id": 0,
+            "name": "Vanokunda",
+            "players": [
+                "VNK|Arcunマ",
+                "VNK|Patriotikkマ",
+                "VNK|SeriusCマ"
+            ],
+            "img": ""
+        },
+        {
             "id": "4257e12a-09fb-11ef-9437-0242ac130004",
             "tournament_id": 0,
             "name": "Polish Gamers",
@@ -30567,6 +30589,17 @@
                 "DLV|✞𝓐𝓵𝓮✞",
                 "DLV|⚚𝓔𝓵𝓲𝓪⚚",
                 "DLV|♕𝓛𝓸𝓻𝓮♕"
+            ],
+            "img": ""
+        },
+        {
+            "id": "c1035586-0974-11ef-bdee-0242ac130004",
+            "tournament_id": 0,
+            "name": "Conco | Team🌵",
+            "players": [
+                "•Տђαdσω☔️ツ•",
+                "endria4567",
+                "TikTok:KikkiAce"
             ],
             "img": ""
         },
@@ -59310,16 +59343,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bd65b394-07d3-11ef-8586-0242ac130004",
-                "name": "The Dark Night"
+                "name": "The Dark Night",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "49db950a-0a40-11ef-86c3-0242ac130004",
-                "name": "HaYa BeHi"
+                "name": "HaYa BeHi",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "49db950a-0a40-11ef-86c3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "49db950a-0a40-11ef-86c3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "49db950a-0a40-11ef-86c3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 826,
@@ -62500,14 +62583,15 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b8a45e0a-07d3-11ef-ac39-0242ac130004",
                 "name": "LA GASCONETA"
             },
             "opponent2": {
                 "id": "eaba1e28-0a14-11ef-a075-0242ac130004",
-                "name": "Vanokunda"
+                "name": "Vanokunda",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -63452,16 +63536,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "df12fe2a-07d3-11ef-af29-0242ac130004",
-                "name": "Chicken Soup"
+                "name": "Chicken Soup",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c1035586-0974-11ef-bdee-0242ac130004",
-                "name": "Conco | Team🌵"
+                "name": "Conco | Team🌵",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "df12fe2a-07d3-11ef-af29-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c1035586-0974-11ef-bdee-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "df12fe2a-07d3-11ef-af29-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c1035586-0974-11ef-bdee-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "df12fe2a-07d3-11ef-af29-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c1035586-0974-11ef-bdee-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 963,
@@ -73005,7 +73139,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bd65b394-07d3-11ef-8586-0242ac130004",
+                "name": "The Dark Night"
             },
             "opponent2": {
                 "id": null
@@ -73895,7 +74030,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b8a45e0a-07d3-11ef-ac39-0242ac130004",
+                "name": "LA GASCONETA"
             },
             "opponent2": {
                 "id": null
@@ -89970,7 +90106,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "49db950a-0a40-11ef-86c3-0242ac130004",
+                "name": "HaYa BeHi"
             },
             "opponent2": {
                 "id": null
@@ -90860,7 +90997,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eaba1e28-0a14-11ef-a075-0242ac130004",
+                "name": "Vanokunda"
             },
             "opponent2": {
                 "id": null

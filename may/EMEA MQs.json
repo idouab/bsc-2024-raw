@@ -34093,6 +34093,18 @@
             "img": ""
         },
         {
+            "id": "265d2b4c-09e7-11ef-ae6e-0242ac130004",
+            "tournament_id": 0,
+            "name": "SCB GAMING",
+            "players": [
+                "꧁ঔৣ☬✞𝓓𝖔𝖓✞☬ঔৣ",
+                "moonskoop",
+                "<~Tezu~>",
+                "🔥TBK|koyher🥀"
+            ],
+            "img": ""
+        },
+        {
             "id": "34e96f74-0cba-11ef-b085-0242ac130004",
             "tournament_id": 0,
             "name": "FLYING DUTCHMAN",
@@ -69949,16 +69961,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c8031b2a-07d3-11ef-ad65-0242ac130004",
-                "name": "Gover"
+                "name": "Gover",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "265d2b4c-09e7-11ef-ae6e-0242ac130004",
-                "name": "SCB GAMING"
+                "name": "SCB GAMING",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c8031b2a-07d3-11ef-ad65-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "265d2b4c-09e7-11ef-ae6e-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c8031b2a-07d3-11ef-ad65-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "265d2b4c-09e7-11ef-ae6e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 976,
@@ -80674,10 +80721,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8031b2a-07d3-11ef-ad65-0242ac130004",
+                "name": "Gover"
             },
             "opponent2": {
-                "id": null
+                "id": "aea3bc4c-0b08-11ef-8d63-0242ac130004",
+                "name": "VIVA LA HAZE"
             },
             "match_games": []
         },
@@ -98016,10 +98065,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "265d2b4c-09e7-11ef-ae6e-0242ac130004",
+                "name": "SCB GAMING"
             },
             "opponent2": {
-                "id": null
+                "id": "34e96f74-0cba-11ef-b085-0242ac130004",
+                "name": "FLYING DUTCHMAN"
             },
             "match_games": []
         },

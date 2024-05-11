@@ -5458,16 +5458,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "46113f72-0a29-11ef-b245-0242ac130004",
-                "name": "Buwha"
+                "name": "Buwha",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "34a50820-0acb-11ef-b281-0242ac130004",
-                "name": "Team L"
+                "name": "Team L",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "46113f72-0a29-11ef-b245-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "34a50820-0acb-11ef-b281-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "46113f72-0a29-11ef-b245-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "34a50820-0acb-11ef-b281-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -7053,7 +7088,8 @@
                 "name": "広尾学園"
             },
             "opponent2": {
-                "id": null
+                "id": "46113f72-0a29-11ef-b245-0242ac130004",
+                "name": "Buwha"
             },
             "match_games": []
         },

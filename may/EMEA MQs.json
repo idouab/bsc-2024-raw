@@ -28950,6 +28950,18 @@
             "img": ""
         },
         {
+            "id": "d13e2900-07d3-11ef-b785-0242ac130004",
+            "tournament_id": 0,
+            "name": "SANFE TEAM",
+            "players": [
+                "Bryant Myers",
+                "urii",
+                "miop",
+                "myketowers"
+            ],
+            "img": ""
+        },
+        {
             "id": "b93a00b8-07d3-11ef-9d13-0242ac130004",
             "tournament_id": 0,
             "name": "Shiny Legends",
@@ -55701,16 +55713,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e3d37e9e-07d3-11ef-8d2a-0242ac130004",
-                "name": "YE"
+                "name": "YE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d13e2900-07d3-11ef-b785-0242ac130004",
-                "name": "SANFE TEAM"
+                "name": "SANFE TEAM",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "e3d37e9e-07d3-11ef-8d2a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d13e2900-07d3-11ef-b785-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e3d37e9e-07d3-11ef-8d2a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d13e2900-07d3-11ef-b785-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 954,
@@ -65165,7 +65212,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e3d37e9e-07d3-11ef-8d2a-0242ac130004",
+                "name": "YE"
             },
             "opponent2": {
                 "id": null
@@ -82000,7 +82048,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d13e2900-07d3-11ef-b785-0242ac130004",
+                "name": "SANFE TEAM"
             },
             "opponent2": {
                 "id": null

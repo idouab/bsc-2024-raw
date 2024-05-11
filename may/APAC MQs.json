@@ -20936,16 +20936,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "526dddf0-07d3-11ef-b009-0242ac130004",
-                "name": "Frenzy Gaming"
+                "name": "Frenzy Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "550410ac-07d3-11ef-a54f-0242ac130004",
-                "name": "Ok"
+                "name": "Ok",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "550410ac-07d3-11ef-a54f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 456,
@@ -21103,7 +21138,8 @@
                 "name": "ますたー芸人🐋"
             },
             "opponent2": {
-                "id": null
+                "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                "name": "Frenzy Gaming"
             },
             "match_games": []
         },

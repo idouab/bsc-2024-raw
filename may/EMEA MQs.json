@@ -31828,6 +31828,18 @@
             "img": ""
         },
         {
+            "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
+            "tournament_id": 0,
+            "name": "SKG",
+            "players": [
+                "Physic🎀",
+                "⛩💮LdY💮⛩",
+                "titouan",
+                "Alex3131"
+            ],
+            "img": ""
+        },
+        {
             "id": "babfdb38-0a44-11ef-8958-0242ac130004",
             "tournament_id": 0,
             "name": "Thunder",
@@ -32797,6 +32809,18 @@
                 "djdjdj",
                 "Real Big Noob",
                 "♦♠LOKBMZ♣♦"
+            ],
+            "img": ""
+        },
+        {
+            "id": "56a9c142-0add-11ef-9a2d-0242ac130004",
+            "tournament_id": 0,
+            "name": "LastChance",
+            "players": [
+                "🇻🇪Anthony🇻🇪",
+                "Cristian 13",
+                "Ivan24",
+                "Michelangelo"
             ],
             "img": ""
         },
@@ -62369,16 +62393,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
-                "name": "SKG"
+                "name": "SKG",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7099ad1a-0993-11ef-a94c-0242ac130004",
-                "name": "gym bros"
+                "name": "gym bros",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7099ad1a-0993-11ef-a94c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7099ad1a-0993-11ef-a94c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7099ad1a-0993-11ef-a94c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 779,
@@ -65533,16 +65607,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "56a9c142-0add-11ef-9a2d-0242ac130004",
-                "name": "LastChance"
+                "name": "LastChance",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d80f8d78-07d3-11ef-acfc-0242ac130004",
-                "name": "CTL | Gaming"
+                "name": "CTL | Gaming",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "56a9c142-0add-11ef-9a2d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d80f8d78-07d3-11ef-acfc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "56a9c142-0add-11ef-9a2d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d80f8d78-07d3-11ef-acfc-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 869,
@@ -78217,7 +78326,8 @@
                 "name": "Coconuts"
             },
             "opponent2": {
-                "id": null
+                "id": "7099ad1a-0993-11ef-a94c-0242ac130004",
+                "name": "gym bros"
             },
             "match_games": []
         },
@@ -79024,7 +79134,8 @@
                 "name": "CIBALGINILS"
             },
             "opponent2": {
-                "id": null
+                "id": "d80f8d78-07d3-11ef-acfc-0242ac130004",
+                "name": "CTL | Gaming"
             },
             "match_games": []
         },
@@ -95541,7 +95652,8 @@
                 "name": "The pushers"
             },
             "opponent2": {
-                "id": null
+                "id": "05a4d14a-096d-11ef-b7bf-0242ac130004",
+                "name": "SKG"
             },
             "match_games": []
         },
@@ -96348,7 +96460,8 @@
                 "name": "Banana"
             },
             "opponent2": {
-                "id": null
+                "id": "56a9c142-0add-11ef-9a2d-0242ac130004",
+                "name": "LastChance"
             },
             "match_games": []
         },

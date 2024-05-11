@@ -37895,16 +37895,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "380d035a-0bed-11ef-a649-0242ac130004",
-                "name": "FriedPotatoes"
+                "name": "FriedPotatoes",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "200ce9f0-0a80-11ef-9db1-0242ac130004",
-                "name": "DMD"
+                "name": "DMD",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "380d035a-0bed-11ef-a649-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "200ce9f0-0a80-11ef-9db1-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "380d035a-0bed-11ef-a649-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "200ce9f0-0a80-11ef-9db1-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 735,
@@ -39490,7 +39525,8 @@
                 "name": "Cocadôilitro"
             },
             "opponent2": {
-                "id": null
+                "id": "380d035a-0bed-11ef-a649-0242ac130004",
+                "name": "FriedPotatoes"
             },
             "match_games": []
         },

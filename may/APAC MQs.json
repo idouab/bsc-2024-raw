@@ -19987,16 +19987,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4f0a73e0-0aed-11ef-895a-0242ac130004",
-                "name": "🐮🖐にょっす！にょ、にょまれ～～✋"
+                "name": "🐮🖐にょっす！にょ、にょまれ～～✋",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5293deba-07d3-11ef-900b-0242ac130004",
-                "name": "T0 Team"
+                "name": "T0 Team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "4f0a73e0-0aed-11ef-895a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5293deba-07d3-11ef-900b-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "4f0a73e0-0aed-11ef-895a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5293deba-07d3-11ef-900b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 441,
@@ -20180,7 +20215,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4f0a73e0-0aed-11ef-895a-0242ac130004",
+                "name": "🐮🖐にょっす！にょ、にょまれ～～✋"
             },
             "opponent2": {
                 "id": null

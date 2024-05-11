@@ -19259,16 +19259,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7d3cffc0-0c51-11ef-ba4a-0242ac130004",
-                "name": "Immortals"
+                "name": "Immortals",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7d3cffc0-0c51-11ef-ba4a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7d3cffc0-0c51-11ef-ba4a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 425,
@@ -19546,7 +19581,8 @@
                 "name": "特別支援学級A組"
             },
             "opponent2": {
-                "id": null
+                "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                "name": "College Students"
             },
             "match_games": []
         },

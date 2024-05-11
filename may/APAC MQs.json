@@ -17270,16 +17270,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
-                "name": "訳アリ"
+                "name": "訳アリ",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "521138a2-07d3-11ef-b3de-0242ac130004",
-                "name": "Cowboys"
+                "name": "Cowboys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 373,
@@ -18213,7 +18248,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d8897172-0edd-11ef-aa5b-0242ac130004",
+                "name": "訳アリ"
             },
             "opponent2": {
                 "id": null

@@ -31139,6 +31139,17 @@
             "img": ""
         },
         {
+            "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
+            "tournament_id": 0,
+            "name": "BU Ultras",
+            "players": [
+                "KussAufDieNuss",
+                "❄ice|luk;)❄",
+                "TDIR | ❄️ᎥČĔ™️"
+            ],
+            "img": ""
+        },
+        {
             "id": "cd15f20e-07d3-11ef-a4ea-0242ac130004",
             "tournament_id": 0,
             "name": "Last 3",
@@ -31613,6 +31624,17 @@
                 "joker",
                 "koksa stumdau",
                 "FuZe_Kristis"
+            ],
+            "img": ""
+        },
+        {
+            "id": "d85946ca-07d3-11ef-963a-0242ac130004",
+            "tournament_id": 0,
+            "name": "khust",
+            "players": [
+                "SPIKE",
+                "♡MEOWTH◇",
+                "FAIRBOBA"
             ],
             "img": ""
         },
@@ -60426,16 +60448,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
-                "name": "BU Ultras"
+                "name": "BU Ultras",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "97ab3aa0-0997-11ef-99d4-0242ac130004",
-                "name": "Merguez Party"
+                "name": "Merguez Party",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "97ab3aa0-0997-11ef-99d4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "97ab3aa0-0997-11ef-99d4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "97ab3aa0-0997-11ef-99d4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 719,
@@ -61661,16 +61733,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d85946ca-07d3-11ef-963a-0242ac130004",
-                "name": "khust"
+                "name": "khust",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d1461de0-07d3-11ef-b06d-0242ac130004",
-                "name": "Mͥorͣtͫisᵍ ͦ ͩ🔛🔝"
+                "name": "Mͥorͣtͫisᵍ ͦ ͩ🔛🔝",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d85946ca-07d3-11ef-963a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d1461de0-07d3-11ef-b06d-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d85946ca-07d3-11ef-963a-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d1461de0-07d3-11ef-b06d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d85946ca-07d3-11ef-963a-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d1461de0-07d3-11ef-b06d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 762,
@@ -77371,7 +77493,8 @@
                 "name": "Piselli ( ❛ ͜ʖ ❛ )"
             },
             "opponent2": {
-                "id": null
+                "id": "97ab3aa0-0997-11ef-99d4-0242ac130004",
+                "name": "Merguez Party"
             },
             "match_games": []
         },
@@ -77762,10 +77885,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d1461de0-07d3-11ef-b06d-0242ac130004",
+                "name": "Mͥorͣtͫisᵍ ͦ ͩ🔛🔝"
             },
             "opponent2": {
-                "id": null
+                "id": "29b7544e-0afe-11ef-b085-0242ac130004",
+                "name": "Spoke dook"
             },
             "match_games": []
         },
@@ -94688,7 +94813,8 @@
                 "name": "Easy clap"
             },
             "opponent2": {
-                "id": null
+                "id": "98e4b5bc-0a47-11ef-8d4f-0242ac130004",
+                "name": "BU Ultras"
             },
             "match_games": []
         },
@@ -95079,10 +95205,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d85946ca-07d3-11ef-963a-0242ac130004",
+                "name": "khust"
             },
             "opponent2": {
-                "id": null
+                "id": "db852d82-07d3-11ef-9192-0242ac130004",
+                "name": "Chonchi"
             },
             "match_games": []
         },

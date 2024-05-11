@@ -2672,6 +2672,17 @@
             "img": ""
         },
         {
+            "id": "538f7ed2-07d3-11ef-805e-0242ac130004",
+            "tournament_id": 0,
+            "name": "under損",
+            "players": [
+                "@paru_麦",
+                "わきげ",
+                "ばっこりちゃっこり"
+            ],
+            "img": ""
+        },
+        {
             "id": "548e2216-07d3-11ef-9589-0242ac130004",
             "tournament_id": 0,
             "name": "아기상어",
@@ -5311,16 +5322,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "538f7ed2-07d3-11ef-805e-0242ac130004",
-                "name": "under損"
+                "name": "under損",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "946f5458-0d42-11ef-97db-0242ac130004",
-                "name": "Abababa"
+                "name": "Abababa",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "538f7ed2-07d3-11ef-805e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "538f7ed2-07d3-11ef-805e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 108,
@@ -6827,7 +6873,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "946f5458-0d42-11ef-97db-0242ac130004",
+                "name": "Abababa"
             },
             "opponent2": {
                 "id": null
@@ -8413,7 +8460,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "538f7ed2-07d3-11ef-805e-0242ac130004",
+                "name": "under損"
             },
             "opponent2": {
                 "id": null

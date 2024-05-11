@@ -23162,6 +23162,28 @@
             "img": ""
         },
         {
+            "id": "eaf3fb04-0a53-11ef-8cf2-0242ac130004",
+            "tournament_id": 0,
+            "name": "TRIO NOCCIOLA",
+            "players": [
+                "LL | PIGGIO",
+                "LL | dennyx",
+                "Leon"
+            ],
+            "img": ""
+        },
+        {
+            "id": "6e7461f4-0940-11ef-8a29-0242ac130004",
+            "tournament_id": 0,
+            "name": "D.M.P",
+            "players": [
+                "ODaicuAndrei",
+                "NE|c☆Patrix",
+                "LUCA"
+            ],
+            "img": ""
+        },
+        {
             "id": "fd630fc6-0988-11ef-901f-0242ac130004",
             "tournament_id": 0,
             "name": "i parenti",
@@ -24187,16 +24209,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e36e5f8c-07d3-11ef-aec8-0242ac130004",
-                "name": "🍆🍑"
+                "name": "🍆🍑",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eaf3fb04-0a53-11ef-8cf2-0242ac130004",
-                "name": "TRIO NOCCIOLA"
+                "name": "TRIO NOCCIOLA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "e36e5f8c-07d3-11ef-aec8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eaf3fb04-0a53-11ef-8cf2-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e36e5f8c-07d3-11ef-aec8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eaf3fb04-0a53-11ef-8cf2-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 34,
@@ -24223,16 +24280,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8f3bf5ce-0a2f-11ef-8272-0242ac130004",
-                "name": "Brawl King 23"
+                "name": "Brawl King 23",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6e7461f4-0940-11ef-8a29-0242ac130004",
-                "name": "D.M.P"
+                "name": "D.M.P",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "8f3bf5ce-0a2f-11ef-8272-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6e7461f4-0940-11ef-8a29-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "8f3bf5ce-0a2f-11ef-8272-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6e7461f4-0940-11ef-8a29-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 36,
@@ -42926,7 +43018,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e36e5f8c-07d3-11ef-aec8-0242ac130004",
+                "name": "🍆🍑"
             },
             "opponent2": {
                 "id": null
@@ -42942,7 +43035,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8f3bf5ce-0a2f-11ef-8272-0242ac130004",
+                "name": "Brawl King 23"
             },
             "opponent2": {
                 "id": null
@@ -59257,7 +59351,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eaf3fb04-0a53-11ef-8cf2-0242ac130004",
+                "name": "TRIO NOCCIOLA"
             },
             "opponent2": {
                 "id": null
@@ -59273,7 +59368,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6e7461f4-0940-11ef-8a29-0242ac130004",
+                "name": "D.M.P"
             },
             "opponent2": {
                 "id": null

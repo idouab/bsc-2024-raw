@@ -44202,16 +44202,66 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a86cb68c-0a57-11ef-84c7-0242ac130004",
-                "name": "BH COMANDA"
+                "name": "BH COMANDA",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
-                "name": "Hady"
+                "name": "Hady",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "a86cb68c-0a57-11ef-84c7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "a86cb68c-0a57-11ef-84c7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "a86cb68c-0a57-11ef-84c7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 936,
@@ -44836,7 +44886,8 @@
                 "name": "Team Evil Gamer"
             },
             "opponent2": {
-                "id": null
+                "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                "name": "Hady"
             },
             "match_games": []
         },

@@ -10360,6 +10360,18 @@
             "img": ""
         },
         {
+            "id": "04ced024-09a7-11ef-994f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Omni",
+            "players": [
+                "BEN_TEN",
+                "dark",
+                "💫flocco💫",
+                "Lovely"
+            ],
+            "img": ""
+        },
+        {
             "id": "4567a6fc-0a37-11ef-9e24-0242ac130004",
             "tournament_id": 0,
             "name": "Xtreme",
@@ -25728,16 +25740,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
-                "name": "Shadow Realm"
+                "name": "Shadow Realm",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "04ced024-09a7-11ef-994f-0242ac130004",
-                "name": "Omni"
+                "name": "Omni",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04ced024-09a7-11ef-994f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04ced024-09a7-11ef-994f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 794,
@@ -30196,7 +30243,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                "name": "Shadow Realm"
             },
             "opponent2": {
                 "id": null
@@ -36591,10 +36639,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "04ced024-09a7-11ef-994f-0242ac130004",
+                "name": "Omni"
             },
             "opponent2": {
-                "id": null
+                "id": "4567a6fc-0a37-11ef-9e24-0242ac130004",
+                "name": "Xtreme"
             },
             "match_games": []
         },

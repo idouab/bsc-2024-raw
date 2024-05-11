@@ -3820,16 +3820,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
-                "name": "Sun Lights"
+                "name": "Sun Lights",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f573ff86-0a7e-11ef-81fd-0242ac130004",
-                "name": "nano-ricky"
+                "name": "nano-ricky",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f573ff86-0a7e-11ef-81fd-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f573ff86-0a7e-11ef-81fd-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f573ff86-0a7e-11ef-81fd-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 19,
@@ -7277,7 +7327,8 @@
                 "name": "Octopus Primes 🐙"
             },
             "opponent2": {
-                "id": null
+                "id": "601f8c8c-0a9e-11ef-9e93-0242ac130004",
+                "name": "Sun Lights"
             },
             "match_games": []
         },

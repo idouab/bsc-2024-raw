@@ -25651,6 +25651,18 @@
             "img": ""
         },
         {
+            "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
+            "tournament_id": 0,
+            "name": "Heavenly Haze",
+            "players": [
+                "HH|Starkᵒᵖ",
+                "HH|Moijt❤️‍🔥",
+                "HH|❦𝑳𝒙𝒗𝒌𝒐☆",
+                "TTM |Asior"
+            ],
+            "img": ""
+        },
+        {
             "id": "256edaf0-0988-11ef-b3d6-0242ac130004",
             "tournament_id": 0,
             "name": "Berdichevskie",
@@ -36932,16 +36944,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
-                "name": "Heavenly Haze"
+                "name": "Heavenly Haze",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a98753ce-0b83-11ef-a8bb-0242ac130004",
-                "name": "Mi novio y otro"
+                "name": "Mi novio y otro",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a98753ce-0b83-11ef-a8bb-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a98753ce-0b83-11ef-a8bb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a98753ce-0b83-11ef-a8bb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 232,
@@ -58017,10 +58079,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a98753ce-0b83-11ef-a8bb-0242ac130004",
+                "name": "Mi novio y otro"
             },
             "opponent2": {
-                "id": null
+                "id": "1b9a7fe4-0ad1-11ef-80d3-0242ac130004",
+                "name": "B.I.D Esports"
             },
             "match_games": []
         },
@@ -74828,10 +74892,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d3a74cee-07d3-11ef-a180-0242ac130004",
+                "name": "Heavenly Haze"
             },
             "opponent2": {
-                "id": null
+                "id": "256edaf0-0988-11ef-b3d6-0242ac130004",
+                "name": "Berdichevskie"
             },
             "match_games": []
         },

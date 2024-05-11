@@ -23285,6 +23285,17 @@
             "img": ""
         },
         {
+            "id": "dbb1a7cc-07d3-11ef-8329-0242ac130004",
+            "tournament_id": 0,
+            "name": "Toxic",
+            "players": [
+                "Tx|Smartie 友",
+                "Karam",
+                "Naikochi SV"
+            ],
+            "img": ""
+        },
+        {
             "id": "c5022748-0c67-11ef-b2ee-0242ac130004",
             "tournament_id": 0,
             "name": "Hauptsache brawlen",
@@ -23292,6 +23303,18 @@
                 "a jop",
                 "Try_Fisk",
                 "Leͥgeͣnͫd"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b02017ea-0f00-11ef-8541-0242ac130004",
+            "tournament_id": 0,
+            "name": "BS Academy",
+            "players": [
+                "Adamus",
+                "Théo71",
+                "꧁°ᵀᵒˣⁱᶜ☆MATH☆꧂",
+                "BS|Liitchii"
             ],
             "img": ""
         },
@@ -30677,16 +30700,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dbb1a7cc-07d3-11ef-8329-0242ac130004",
-                "name": "Toxic"
+                "name": "Toxic",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bbb76408-0bdd-11ef-8fe9-0242ac130004",
-                "name": "Paladins"
+                "name": "Paladins",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dbb1a7cc-07d3-11ef-8329-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bbb76408-0bdd-11ef-8fe9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dbb1a7cc-07d3-11ef-8329-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bbb76408-0bdd-11ef-8fe9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 374,
@@ -31504,16 +31562,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3039222-07d3-11ef-bfff-0242ac130004",
-                "name": "GG eSports"
+                "name": "GG eSports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b02017ea-0f00-11ef-8541-0242ac130004",
-                "name": "BS Academy"
+                "name": "BS Academy",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b3039222-07d3-11ef-bfff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b02017ea-0f00-11ef-8541-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b3039222-07d3-11ef-bfff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b02017ea-0f00-11ef-8541-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 418,
@@ -45468,7 +45561,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bbb76408-0bdd-11ef-8fe9-0242ac130004",
+                "name": "Paladins"
             },
             "opponent2": {
                 "id": null
@@ -45821,7 +45915,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b3039222-07d3-11ef-bfff-0242ac130004",
+                "name": "GG eSports"
             },
             "opponent2": {
                 "id": null
@@ -61796,7 +61891,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dbb1a7cc-07d3-11ef-8329-0242ac130004",
+                "name": "Toxic"
             },
             "opponent2": {
                 "id": null
@@ -62149,7 +62245,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b02017ea-0f00-11ef-8541-0242ac130004",
+                "name": "BS Academy"
             },
             "opponent2": {
                 "id": null

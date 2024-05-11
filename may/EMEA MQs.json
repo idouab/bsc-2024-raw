@@ -29184,6 +29184,17 @@
             "img": ""
         },
         {
+            "id": "cb88858c-07d3-11ef-b1b5-0242ac130004",
+            "tournament_id": 0,
+            "name": "The Brawl Boys",
+            "players": [
+                "Hero",
+                "ThomasgamingYT",
+                "krijn joker"
+            ],
+            "img": ""
+        },
+        {
             "id": "43ec82f2-0c71-11ef-a10a-0242ac130004",
             "tournament_id": 0,
             "name": "Unknown Cooking",
@@ -54333,16 +54344,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "821aecc2-0af4-11ef-b9b4-0242ac130004",
-                "name": "IgnaKingzz"
+                "name": "IgnaKingzz",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cb88858c-07d3-11ef-b1b5-0242ac130004",
-                "name": "The Brawl Boys"
+                "name": "The Brawl Boys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "821aecc2-0af4-11ef-b9b4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb88858c-07d3-11ef-b1b5-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "821aecc2-0af4-11ef-b9b4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb88858c-07d3-11ef-b1b5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 540,
@@ -76549,10 +76595,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "821aecc2-0af4-11ef-b9b4-0242ac130004",
+                "name": "IgnaKingzz"
             },
             "opponent2": {
-                "id": null
+                "id": "671d6cc0-0968-11ef-afb3-0242ac130004",
+                "name": "Fc Presque"
             },
             "match_games": []
         },
@@ -93885,10 +93933,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cb88858c-07d3-11ef-b1b5-0242ac130004",
+                "name": "The Brawl Boys"
             },
             "opponent2": {
-                "id": null
+                "id": "43ec82f2-0c71-11ef-a10a-0242ac130004",
+                "name": "Unknown Cooking"
             },
             "match_games": []
         },

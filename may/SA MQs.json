@@ -45200,16 +45200,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
-                "name": "All PLAYERS Done"
+                "name": "All PLAYERS Done",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "47a35a96-0a33-11ef-873f-0242ac130004",
-                "name": "Pan con chancho"
+                "name": "Pan con chancho",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "47a35a96-0a33-11ef-873f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "47a35a96-0a33-11ef-873f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 964,
@@ -45307,16 +45342,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "756d559e-07d6-11ef-94ee-0242ac130004",
-                "name": "LPC F/A"
+                "name": "LPC F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ef5f8cf4-0f0c-11ef-abfa-0242ac130004",
-                "name": "Belgranitos"
+                "name": "Belgranitos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ef5f8cf4-0f0c-11ef-abfa-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ef5f8cf4-0f0c-11ef-abfa-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 968,
@@ -45559,7 +45629,8 @@
                 "name": "Time 7"
             },
             "opponent2": {
-                "id": null
+                "id": "47a35a96-0a33-11ef-873f-0242ac130004",
+                "name": "Pan con chancho"
             },
             "match_games": []
         },
@@ -45628,7 +45699,8 @@
                 "name": "paiN"
             },
             "opponent2": {
-                "id": null
+                "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                "name": "LPC F/A"
             },
             "match_games": []
         },

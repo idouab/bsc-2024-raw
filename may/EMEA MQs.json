@@ -18634,7 +18634,7 @@
             "players": [
                 "HB | loubya",
                 "louay.dhawedi",
-                "ŸÃHŸÃ ÃR"
+                "HB | legmi"
             ],
             "img": ""
         },
@@ -23428,6 +23428,17 @@
             "img": ""
         },
         {
+            "id": "cb93c404-0acd-11ef-a4df-0242ac130004",
+            "tournament_id": 0,
+            "name": "NoName",
+            "players": [
+                "YZGT",
+                "ᴅᴇsᴛяσчᴇя",
+                "dominik"
+            ],
+            "img": ""
+        },
+        {
             "id": "24e71744-0a25-11ef-9d28-0242ac130004",
             "tournament_id": 0,
             "name": "FL",
@@ -23526,6 +23537,17 @@
                 "RBN|Katakuri",
                 "RBN|Yoshi",
                 "RBN|Burner"
+            ],
+            "img": ""
+        },
+        {
+            "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
+            "tournament_id": 0,
+            "name": "RNJ",
+            "players": [
+                "ROBII06",
+                "nath",
+                "Agent Brawl n°7"
             ],
             "img": ""
         },
@@ -30959,16 +30981,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb93c404-0acd-11ef-a4df-0242ac130004",
-                "name": "NoName"
+                "name": "NoName",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ef61d928-0999-11ef-8eba-0242ac130004",
-                "name": "Imperium"
+                "name": "Imperium",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "cb93c404-0acd-11ef-a4df-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ef61d928-0999-11ef-8eba-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cb93c404-0acd-11ef-a4df-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ef61d928-0999-11ef-8eba-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 348,
@@ -32438,16 +32495,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dbf7461a-07d3-11ef-b63d-0242ac130004",
-                "name": "Seksipommit"
+                "name": "Seksipommit",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
-                "name": "RNJ"
+                "name": "RNJ",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dbf7461a-07d3-11ef-b63d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dbf7461a-07d3-11ef-b63d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 411,
@@ -46574,7 +46666,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ef61d928-0999-11ef-8eba-0242ac130004",
+                "name": "Imperium"
             },
             "opponent2": {
                 "id": null
@@ -62921,7 +63014,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cb93c404-0acd-11ef-a4df-0242ac130004",
+                "name": "NoName"
             },
             "opponent2": {
                 "id": null

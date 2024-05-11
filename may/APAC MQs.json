@@ -18100,16 +18100,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88632f92-0953-11ef-97c3-0242ac130004",
-                "name": "Sane Fox"
+                "name": "Sane Fox",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
-                "name": "蘑菇圈"
+                "name": "蘑菇圈",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "88632f92-0953-11ef-97c3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "88632f92-0953-11ef-97c3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 393,
@@ -18567,7 +18602,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "88632f92-0953-11ef-97c3-0242ac130004",
+                "name": "Sane Fox"
             },
             "opponent2": {
                 "id": null

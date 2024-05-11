@@ -43723,16 +43723,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2d3d0226-0ca2-11ef-8a72-0242ac130004",
-                "name": "Nova Vestroia"
+                "name": "Nova Vestroia",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
-                "name": "Gravity Monks"
+                "name": "Gravity Monks",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "2d3d0226-0ca2-11ef-8a72-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "2d3d0226-0ca2-11ef-8a72-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 923,
@@ -43866,16 +43901,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7707102a-07d6-11ef-a52c-0242ac130004",
-                "name": "DOM Esports"
+                "name": "DOM Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
-                "name": "Escandalosos"
+                "name": "Escandalosos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7707102a-07d6-11ef-a52c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7707102a-07d6-11ef-a52c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7b577cd2-07d6-11ef-bf3d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 929,
@@ -43884,16 +43954,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2f2f0426-097d-11ef-b855-0242ac130004",
-                "name": "Pitusas F/A"
+                "name": "Pitusas F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "383955c2-0ce7-11ef-af80-0242ac130004",
-                "name": "Los Gamperos"
+                "name": "Los Gamperos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "2f2f0426-097d-11ef-b855-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "383955c2-0ce7-11ef-af80-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "2f2f0426-097d-11ef-b855-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "383955c2-0ce7-11ef-af80-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 930,
@@ -44506,10 +44611,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7b9397e4-07d6-11ef-ba30-0242ac130004",
+                "name": "Gravity Monks"
             },
             "opponent2": {
-                "id": null
+                "id": "baa60170-0ba4-11ef-92c8-0242ac130004",
+                "name": "Underdogs"
             },
             "match_games": []
         },
@@ -44554,10 +44661,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7707102a-07d6-11ef-a52c-0242ac130004",
+                "name": "DOM Esports"
             },
             "opponent2": {
-                "id": null
+                "id": "2f2f0426-097d-11ef-b855-0242ac130004",
+                "name": "Pitusas F/A"
             },
             "match_games": []
         },

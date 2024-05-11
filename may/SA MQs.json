@@ -20290,16 +20290,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
-                "name": "CBM|🐸"
+                "name": "CBM|🐸",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 467,
@@ -22297,7 +22332,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                "name": "Fortune Tigers"
             },
             "opponent2": {
                 "id": null
@@ -26947,7 +26983,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                "name": "CBM|🐸"
             },
             "opponent2": {
                 "id": null

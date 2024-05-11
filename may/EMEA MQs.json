@@ -93911,16 +93911,51 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "acd8a720-07d3-11ef-8bc6-0242ac130004",
-                "name": "Reverso FR"
+                "name": "Reverso FR",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bbb0798a-07d3-11ef-b954-0242ac130004",
-                "name": "Raven Gaming"
+                "name": "Raven Gaming",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "acd8a720-07d3-11ef-8bc6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bbb0798a-07d3-11ef-b954-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "acd8a720-07d3-11ef-8bc6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bbb0798a-07d3-11ef-b954-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2674,
@@ -97401,7 +97436,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "acd8a720-07d3-11ef-8bc6-0242ac130004",
+                "name": "Reverso FR"
             },
             "opponent2": {
                 "id": null
@@ -126021,7 +126057,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bbb0798a-07d3-11ef-b954-0242ac130004",
+                "name": "Raven Gaming"
             },
             "opponent2": {
                 "id": null

@@ -20094,16 +20094,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
-                "name": "特別支援学級A組"
+                "name": "特別支援学級A組",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "52bffbd0-07d3-11ef-89e4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 445,
@@ -20248,7 +20283,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                "name": "College Students"
             },
             "opponent2": {
                 "id": null

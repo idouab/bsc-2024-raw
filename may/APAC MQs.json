@@ -18817,16 +18817,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
-                "name": "かいとさまさんじょう！"
+                "name": "かいとさまさんじょう！",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
-                "name": "Octopus Primes 🐙"
+                "name": "Octopus Primes 🐙",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d7cb0de0-094c-11ef-b2c2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 416,
@@ -19141,7 +19176,8 @@
                 "name": "Abababa"
             },
             "opponent2": {
-                "id": null
+                "id": "5378b79c-07d3-11ef-ac70-0242ac130004",
+                "name": "Octopus Primes 🐙"
             },
             "match_games": []
         },

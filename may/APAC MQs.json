@@ -17374,16 +17374,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fb98fb24-0b59-11ef-9759-0242ac130004",
-                "name": "菜就多練"
+                "name": "菜就多練",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
-                "name": "Demonic"
+                "name": "Demonic",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "fb98fb24-0b59-11ef-9759-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "fb98fb24-0b59-11ef-9759-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 379,
@@ -18047,7 +18082,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5499c918-07d3-11ef-b1e5-0242ac130004",
+                "name": "Demonic"
             },
             "opponent2": {
                 "id": null

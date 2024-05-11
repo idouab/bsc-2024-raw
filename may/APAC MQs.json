@@ -7571,16 +7571,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "013a6c7c-09be-11ef-b633-0242ac130004",
-                "name": "Grapefruit Ice"
+                "name": "Grapefruit Ice",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fdc323d8-0bb4-11ef-bdb2-0242ac130004",
-                "name": "Collapse"
+                "name": "Collapse",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "013a6c7c-09be-11ef-b633-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fdc323d8-0bb4-11ef-bdb2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "013a6c7c-09be-11ef-b633-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fdc323d8-0bb4-11ef-bdb2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 164,
@@ -8703,16 +8738,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51d5a170-07d3-11ef-8246-0242ac130004",
-                "name": "F/A Nai Dug"
+                "name": "F/A Nai Dug",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "720976fa-0a18-11ef-b070-0242ac130004",
-                "name": "SHINKOYASU"
+                "name": "SHINKOYASU",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "720976fa-0a18-11ef-b070-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "720976fa-0a18-11ef-b070-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 223,
@@ -9258,7 +9328,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                "name": "F/A Nai Dug"
             },
             "opponent2": {
                 "id": null
@@ -10380,7 +10451,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "720976fa-0a18-11ef-b070-0242ac130004",
+                "name": "SHINKOYASU"
             },
             "opponent2": {
                 "id": null
@@ -11327,10 +11399,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "013a6c7c-09be-11ef-b633-0242ac130004",
+                "name": "Grapefruit Ice"
             },
             "opponent2": {
-                "id": null
+                "id": "185dbdd4-0aa7-11ef-b983-0242ac130004",
+                "name": "じょーじfitness"
             },
             "match_games": []
         },

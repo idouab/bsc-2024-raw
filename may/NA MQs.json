@@ -9933,6 +9933,17 @@
             "img": ""
         },
         {
+            "id": "10118b34-0a38-11ef-b7e5-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team RCX",
+            "players": [
+                "RCX|Camachito",
+                "RCX|Rogery",
+                "RCX|DarkPamax⚜️"
+            ],
+            "img": ""
+        },
+        {
             "id": "642223a6-0a73-11ef-b465-0242ac130004",
             "tournament_id": 0,
             "name": "Strike team",
@@ -26407,16 +26418,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6359db4e-07d5-11ef-9351-0242ac130004",
-                "name": "Tasmanian Devils"
+                "name": "Tasmanian Devils",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "affa4d4a-0a95-11ef-a71f-0242ac130004",
-                "name": "TAQUITOS TEAM TTJ"
+                "name": "TAQUITOS TEAM TTJ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6359db4e-07d5-11ef-9351-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "affa4d4a-0a95-11ef-a71f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6359db4e-07d5-11ef-9351-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "affa4d4a-0a95-11ef-a71f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 776,
@@ -29062,16 +29108,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c837694-07d5-11ef-96fd-0242ac130004",
-                "name": "Cerezos"
+                "name": "Cerezos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "10118b34-0a38-11ef-b7e5-0242ac130004",
-                "name": "Team RCX"
+                "name": "Team RCX",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6c837694-07d5-11ef-96fd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "10118b34-0a38-11ef-b7e5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6c837694-07d5-11ef-96fd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "10118b34-0a38-11ef-b7e5-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 871,
@@ -33312,7 +33393,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "affa4d4a-0a95-11ef-a71f-0242ac130004",
+                "name": "TAQUITOS TEAM TTJ"
             },
             "opponent2": {
                 "id": null
@@ -38870,10 +38952,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "10118b34-0a38-11ef-b7e5-0242ac130004",
+                "name": "Team RCX"
             },
             "opponent2": {
-                "id": null
+                "id": "642223a6-0a73-11ef-b465-0242ac130004",
+                "name": "Strike team"
             },
             "match_games": []
         },

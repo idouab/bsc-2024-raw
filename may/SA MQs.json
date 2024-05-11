@@ -36675,16 +36675,66 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "28fe7ec4-0b0d-11ef-8b40-0242ac130004",
-                "name": "RDT"
+                "name": "RDT",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "327e3b1c-09b2-11ef-8bdb-0242ac130004",
-                "name": "Arco Ardiente"
+                "name": "Arco Ardiente",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "28fe7ec4-0b0d-11ef-8b40-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "327e3b1c-09b2-11ef-8bdb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "28fe7ec4-0b0d-11ef-8b40-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "327e3b1c-09b2-11ef-8bdb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "28fe7ec4-0b0d-11ef-8b40-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "327e3b1c-09b2-11ef-8bdb-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 708,
@@ -38349,16 +38399,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7b3d2aa8-07d6-11ef-ae83-0242ac130004",
-                "name": "Los sauces AC"
+                "name": "Los sauces AC",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "527c072c-0b3e-11ef-95d2-0242ac130004",
-                "name": "viciados"
+                "name": "viciados",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "7b3d2aa8-07d6-11ef-ae83-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "527c072c-0b3e-11ef-95d2-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "7b3d2aa8-07d6-11ef-ae83-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "527c072c-0b3e-11ef-95d2-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 756,
@@ -38725,7 +38810,8 @@
                 "name": "BNM"
             },
             "opponent2": {
-                "id": null
+                "id": "28fe7ec4-0b0d-11ef-8b40-0242ac130004",
+                "name": "RDT"
             },
             "match_games": []
         },
@@ -39562,7 +39648,8 @@
                 "name": "Fortune Tigers"
             },
             "opponent2": {
-                "id": null
+                "id": "7b3d2aa8-07d6-11ef-ae83-0242ac130004",
+                "name": "Los sauces AC"
             },
             "match_games": []
         },

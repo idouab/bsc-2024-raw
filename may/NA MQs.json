@@ -9092,6 +9092,18 @@
             "img": ""
         },
         {
+            "id": "0b00c134-0b2b-11ef-993d-0242ac130004",
+            "tournament_id": 0,
+            "name": "With One Left Hand",
+            "players": [
+                "Skillful Noodle",
+                "LightSpeed",
+                "jqsxn",
+                "VexedGrain78546"
+            ],
+            "img": ""
+        },
+        {
             "id": "2234b378-09e7-11ef-8e52-0242ac130004",
             "tournament_id": 0,
             "name": "CAK GAMING",
@@ -27705,16 +27717,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62d53920-07d5-11ef-9419-0242ac130004",
-                "name": "Homeless"
+                "name": "Homeless",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0b00c134-0b2b-11ef-993d-0242ac130004",
-                "name": "With One Left Hand"
+                "name": "With One Left Hand",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "62d53920-07d5-11ef-9419-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0b00c134-0b2b-11ef-993d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "62d53920-07d5-11ef-9419-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0b00c134-0b2b-11ef-993d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 914,
@@ -30592,7 +30639,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "62d53920-07d5-11ef-9419-0242ac130004",
+                "name": "Homeless"
             },
             "opponent2": {
                 "id": null
@@ -34323,10 +34371,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0b00c134-0b2b-11ef-993d-0242ac130004",
+                "name": "With One Left Hand"
             },
             "opponent2": {
-                "id": null
+                "id": "2234b378-09e7-11ef-8e52-0242ac130004",
+                "name": "CAK GAMING"
             },
             "match_games": []
         },

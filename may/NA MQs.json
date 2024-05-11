@@ -9211,6 +9211,17 @@
             "img": ""
         },
         {
+            "id": "729c7288-09a6-11ef-babd-0242ac130004",
+            "tournament_id": 0,
+            "name": "JMoney",
+            "players": [
+                "JMoor37",
+                "strawhat jakey",
+                "I Hate Teamers"
+            ],
+            "img": ""
+        },
+        {
             "id": "f5cd9f80-0e18-11ef-9761-0242ac130004",
             "tournament_id": 0,
             "name": "Mounsters FC",
@@ -9411,6 +9422,17 @@
                 "viktor4e",
                 "KÖLLE",
                 "Michiel K"
+            ],
+            "img": ""
+        },
+        {
+            "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
+            "tournament_id": 0,
+            "name": "Slw Crew",
+            "players": [
+                "YTjahir",
+                "TheBlackMamba®",
+                "elquetegano"
             ],
             "img": ""
         },
@@ -18037,16 +18059,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ac9d3f80-0b22-11ef-88fb-0242ac130004",
-                "name": "BRSB"
+                "name": "BRSB",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "729c7288-09a6-11ef-babd-0242ac130004",
-                "name": "JMoney"
+                "name": "JMoney",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ac9d3f80-0b22-11ef-88fb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "729c7288-09a6-11ef-babd-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ac9d3f80-0b22-11ef-88fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "729c7288-09a6-11ef-babd-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ac9d3f80-0b22-11ef-88fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "729c7288-09a6-11ef-babd-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 307,
@@ -20287,16 +20359,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9a15df7e-097a-11ef-9083-0242ac130004",
-                "name": "FOYATIN"
+                "name": "FOYATIN",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
-                "name": "Slw Crew"
+                "name": "Slw Crew",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "9a15df7e-097a-11ef-9083-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "9a15df7e-097a-11ef-9083-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "9a15df7e-097a-11ef-9083-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9cfa6e08-0c1d-11ef-89c6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 399,
@@ -25750,7 +25872,8 @@
                 "name": "Midnight Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "ac9d3f80-0b22-11ef-88fb-0242ac130004",
+                "name": "BRSB"
             },
             "match_games": []
         },
@@ -26556,7 +26679,8 @@
                 "name": "FloMo"
             },
             "opponent2": {
-                "id": null
+                "id": "9a15df7e-097a-11ef-9083-0242ac130004",
+                "name": "FOYATIN"
             },
             "match_games": []
         },

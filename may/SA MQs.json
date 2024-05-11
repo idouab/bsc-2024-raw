@@ -5826,6 +5826,17 @@
             "img": ""
         },
         {
+            "id": "147b952c-09be-11ef-955a-0242ac130004",
+            "tournament_id": 0,
+            "name": "LA CHISPA",
+            "players": [
+                "JOACOMITI",
+                "AgUsT1N",
+                "Bauti11casa"
+            ],
+            "img": ""
+        },
+        {
             "id": "fc2203ec-0a7d-11ef-a1c0-0242ac130004",
             "tournament_id": 0,
             "name": "Zumo y los gemelos l",
@@ -5927,6 +5938,17 @@
             "img": ""
         },
         {
+            "id": "5dc1376e-0a6d-11ef-8f91-0242ac130004",
+            "tournament_id": 0,
+            "name": "HAM",
+            "players": [
+                "hugosoltero",
+                "mateo",
+                "andres :D"
+            ],
+            "img": ""
+        },
+        {
             "id": "79b34adc-07d6-11ef-aeed-0242ac130004",
             "tournament_id": 0,
             "name": "Imortais",
@@ -5945,6 +5967,17 @@
                 "I̸L̸U̸D̸I̸D̸O̸",
                 "B̷L̷4̷C̷K̷",
                 "guga"
+            ],
+            "img": ""
+        },
+        {
+            "id": "2f7dd8e6-0980-11ef-a6fd-0242ac130004",
+            "tournament_id": 0,
+            "name": "IC Sports",
+            "players": [
+                "Hisoka",
+                "IC DUQUE",
+                "(ms)kker?"
             ],
             "img": ""
         },
@@ -6023,6 +6056,17 @@
                 "Alastør",
                 "LeonClashYT",
                 "☆★HaYaTo★☆"
+            ],
+            "img": ""
+        },
+        {
+            "id": "f9b49aae-0a94-11ef-bd7d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Chupapis Leage",
+            "players": [
+                "Tiktok:Matiztq",
+                "MeLaJaloCon",
+                "Cunumi"
             ],
             "img": ""
         },
@@ -7559,16 +7603,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79ac7428-07d6-11ef-8cbd-0242ac130004",
-                "name": "AEAA SPORTS"
+                "name": "AEAA SPORTS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "147b952c-09be-11ef-955a-0242ac130004",
-                "name": "LA CHISPA"
+                "name": "LA CHISPA",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "79ac7428-07d6-11ef-8cbd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "147b952c-09be-11ef-955a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "79ac7428-07d6-11ef-8cbd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "147b952c-09be-11ef-955a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 54,
@@ -8756,16 +8835,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5dc1376e-0a6d-11ef-8f91-0242ac130004",
-                "name": "HAM"
+                "name": "HAM",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1a30b2f0-0a80-11ef-bf86-0242ac130004",
-                "name": "Railaiters"
+                "name": "Railaiters",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5dc1376e-0a6d-11ef-8f91-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a30b2f0-0a80-11ef-bf86-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5dc1376e-0a6d-11ef-8f91-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1a30b2f0-0a80-11ef-bf86-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -9294,16 +9408,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "617dedd2-0e7a-11ef-b2dd-0242ac130004",
-                "name": "JPK inferno"
+                "name": "JPK inferno",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f7dd8e6-0980-11ef-a6fd-0242ac130004",
-                "name": "IC Sports"
+                "name": "IC Sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "617dedd2-0e7a-11ef-b2dd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f7dd8e6-0980-11ef-a6fd-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "617dedd2-0e7a-11ef-b2dd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f7dd8e6-0980-11ef-a6fd-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 129,
@@ -10579,16 +10728,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "282d508e-0a53-11ef-adfb-0242ac130004",
-                "name": "KM|ESPORTS"
+                "name": "KM|ESPORTS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f9b49aae-0a94-11ef-bd7d-0242ac130004",
-                "name": "Chupapis Leage"
+                "name": "Chupapis Leage",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "282d508e-0a53-11ef-adfb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f9b49aae-0a94-11ef-bd7d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "282d508e-0a53-11ef-adfb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f9b49aae-0a94-11ef-bd7d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 185,
@@ -12630,10 +12814,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "79ac7428-07d6-11ef-8cbd-0242ac130004",
+                "name": "AEAA SPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "45b0208c-0a76-11ef-bd34-0242ac130004",
+                "name": "PixulasTristes"
             },
             "match_games": []
         },
@@ -16672,10 +16858,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "147b952c-09be-11ef-955a-0242ac130004",
+                "name": "LA CHISPA"
             },
             "opponent2": {
-                "id": null
+                "id": "fc2203ec-0a7d-11ef-a1c0-0242ac130004",
+                "name": "Zumo y los gemelos l"
             },
             "match_games": []
         },

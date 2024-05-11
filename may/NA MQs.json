@@ -48391,16 +48391,51 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63d07808-07d5-11ef-aea1-0242ac130004",
-                "name": "Midnight Brawlers"
+                "name": "Midnight Brawlers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "56d95142-0a41-11ef-8b95-0242ac130004",
-                "name": "Prepucines sports"
+                "name": "Prepucines sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "63d07808-07d5-11ef-aea1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56d95142-0a41-11ef-8b95-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "63d07808-07d5-11ef-aea1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "56d95142-0a41-11ef-8b95-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1525,
@@ -64129,7 +64164,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "56d95142-0a41-11ef-8b95-0242ac130004",
+                "name": "Prepucines sports"
             },
             "opponent2": {
                 "id": null

@@ -6095,6 +6095,17 @@
             "img": ""
         },
         {
+            "id": "247c3192-0997-11ef-9df5-0242ac130004",
+            "tournament_id": 0,
+            "name": "Peruvian Top",
+            "players": [
+                "MauricioT28",
+                "MarcioTTR",
+                "⚡MĄLQÙÏ|YÎSÙS⚡"
+            ],
+            "img": ""
+        },
+        {
             "id": "7570319c-07d6-11ef-b078-0242ac130004",
             "tournament_id": 0,
             "name": "LCDTH",
@@ -9740,16 +9751,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1005d1aa-0e0b-11ef-adbb-0242ac130004",
-                "name": "Varsita BS"
+                "name": "Varsita BS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "247c3192-0997-11ef-9df5-0242ac130004",
-                "name": "Peruvian Top"
+                "name": "Peruvian Top",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "1005d1aa-0e0b-11ef-adbb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "247c3192-0997-11ef-9df5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1005d1aa-0e0b-11ef-adbb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "247c3192-0997-11ef-9df5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "1005d1aa-0e0b-11ef-adbb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "247c3192-0997-11ef-9df5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 37,
@@ -17643,7 +17704,8 @@
                 "name": "DAA TEAM"
             },
             "opponent2": {
-                "id": null
+                "id": "1005d1aa-0e0b-11ef-adbb-0242ac130004",
+                "name": "Varsita BS"
             },
             "match_games": []
         },
@@ -21900,7 +21962,8 @@
                 "name": "Pira"
             },
             "opponent2": {
-                "id": null
+                "id": "247c3192-0997-11ef-9df5-0242ac130004",
+                "name": "Peruvian Top"
             },
             "match_games": []
         },

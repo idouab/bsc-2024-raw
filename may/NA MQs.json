@@ -10190,6 +10190,17 @@
             "img": ""
         },
         {
+            "id": "3375576a-0b30-11ef-a963-0242ac130004",
+            "tournament_id": 0,
+            "name": "Full Next",
+            "players": [
+                "Xx | Lester Jr",
+                "DarkLave",
+                "Brandon105"
+            ],
+            "img": ""
+        },
+        {
             "id": "57950726-0a1d-11ef-ad31-0242ac130004",
             "tournament_id": 0,
             "name": "BRAWL BABY",
@@ -25643,16 +25654,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "504006e8-07d8-11ef-89a6-0242ac130004",
-                "name": "Real Ones"
+                "name": "Real Ones",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3375576a-0b30-11ef-a963-0242ac130004",
-                "name": "Full Next"
+                "name": "Full Next",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "504006e8-07d8-11ef-89a6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3375576a-0b30-11ef-a963-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "504006e8-07d8-11ef-89a6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3375576a-0b30-11ef-a963-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 802,
@@ -29649,7 +29695,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "504006e8-07d8-11ef-89a6-0242ac130004",
+                "name": "Real Ones"
             },
             "opponent2": {
                 "id": null
@@ -35844,10 +35891,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3375576a-0b30-11ef-a963-0242ac130004",
+                "name": "Full Next"
             },
             "opponent2": {
-                "id": null
+                "id": "57950726-0a1d-11ef-ad31-0242ac130004",
+                "name": "BRAWL BABY"
             },
             "match_games": []
         },

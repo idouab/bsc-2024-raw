@@ -27682,6 +27682,18 @@
             "img": ""
         },
         {
+            "id": "81cb4720-096a-11ef-966d-0242ac130004",
+            "tournament_id": 0,
+            "name": "NGL | ESPORT",
+            "players": [
+                "𝔾𝕒𝕓𝕣𝕚𝕩✨❤️",
+                "max la menace",
+                "YT|Leader King",
+                "Neil🤙"
+            ],
+            "img": ""
+        },
+        {
             "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
             "tournament_id": 0,
             "name": "RNJ",
@@ -43473,16 +43485,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d5d94b0c-07d3-11ef-baf4-0242ac130004",
-                "name": "VK gaming"
+                "name": "VK gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "81cb4720-096a-11ef-966d-0242ac130004",
-                "name": "NGL | ESPORT"
+                "name": "NGL | ESPORT",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d5d94b0c-07d3-11ef-baf4-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "81cb4720-096a-11ef-966d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d5d94b0c-07d3-11ef-baf4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "81cb4720-096a-11ef-966d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d5d94b0c-07d3-11ef-baf4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "81cb4720-096a-11ef-966d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 410,
@@ -60175,10 +60237,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d5d94b0c-07d3-11ef-baf4-0242ac130004",
+                "name": "VK gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "dbf7461a-07d3-11ef-b63d-0242ac130004",
+                "name": "Seksipommit"
             },
             "match_games": []
         },
@@ -76998,10 +77062,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "81cb4720-096a-11ef-966d-0242ac130004",
+                "name": "NGL | ESPORT"
             },
             "opponent2": {
-                "id": null
+                "id": "fb696ca0-0af1-11ef-88fc-0242ac130004",
+                "name": "RNJ"
             },
             "match_games": []
         },

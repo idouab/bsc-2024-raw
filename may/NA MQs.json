@@ -9395,6 +9395,17 @@
             "img": ""
         },
         {
+            "id": "6d93b3d2-07d5-11ef-a726-0242ac130004",
+            "tournament_id": 0,
+            "name": "XEK - HUNTERS",
+            "players": [
+                "EMAKILLER",
+                "xBiel",
+                "Killer"
+            ],
+            "img": ""
+        },
+        {
             "id": "6212052a-0a6b-11ef-b98e-0242ac130004",
             "tournament_id": 0,
             "name": "Zodiac",
@@ -30366,16 +30377,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d93b3d2-07d5-11ef-a726-0242ac130004",
-                "name": "XEK - HUNTERS"
+                "name": "XEK - HUNTERS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e4665fa6-0a4a-11ef-ad70-0242ac130004",
-                "name": "M&V Corporation"
+                "name": "M&V Corporation",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6d93b3d2-07d5-11ef-a726-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e4665fa6-0a4a-11ef-ad70-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6d93b3d2-07d5-11ef-a726-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e4665fa6-0a4a-11ef-ad70-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 911,
@@ -38238,10 +38284,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d93b3d2-07d5-11ef-a726-0242ac130004",
+                "name": "XEK - HUNTERS"
             },
             "opponent2": {
-                "id": null
+                "id": "6212052a-0a6b-11ef-b98e-0242ac130004",
+                "name": "Zodiac"
             },
             "match_games": []
         },

@@ -5725,6 +5725,28 @@
             "img": ""
         },
         {
+            "id": "96f9fc2e-0972-11ef-8741-0242ac130004",
+            "tournament_id": 0,
+            "name": "NT-CLAN",
+            "players": [
+                "NT_Emi",
+                "NT_Gabri",
+                "NT-Tomi"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
+            "tournament_id": 0,
+            "name": "All PLAYERS Done",
+            "players": [
+                "APD|BÄKÜGØŪ|RD☺",
+                "APD|TØKØYÄMÎ|RD",
+                "INSTA:MAYLONPES"
+            ],
+            "img": ""
+        },
+        {
             "id": "5ad9212c-0984-11ef-8080-0242ac130004",
             "tournament_id": 0,
             "name": "Fc/ JJI",
@@ -6011,16 +6033,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
-                "name": "Team Evil Gamer"
+                "name": "Team Evil Gamer",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "96f9fc2e-0972-11ef-8741-0242ac130004",
-                "name": "NT-CLAN"
+                "name": "NT-CLAN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "96f9fc2e-0972-11ef-8741-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "96f9fc2e-0972-11ef-8741-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 9,
@@ -8528,16 +8585,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
-                "name": "All PLAYERS Done"
+                "name": "All PLAYERS Done",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c4ebc23a-0b29-11ef-b5ad-0242ac130004",
-                "name": "LaGrasa"
+                "name": "LaGrasa",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c4ebc23a-0b29-11ef-b5ad-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cb0890ba-0b53-11ef-a094-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c4ebc23a-0b29-11ef-b5ad-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 149,

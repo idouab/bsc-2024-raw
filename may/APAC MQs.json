@@ -21042,16 +21042,66 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
-                "name": "Counter Punch"
+                "name": "Counter Punch",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54ec061a-07d3-11ef-8669-0242ac130004",
-                "name": "Delay Esports"
+                "name": "Delay Esports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "54ec061a-07d3-11ef-8669-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54ec061a-07d3-11ef-8669-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54ec061a-07d3-11ef-8669-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 458,
@@ -21311,7 +21361,8 @@
                 "name": "Octopus Primes 🐙"
             },
             "opponent2": {
-                "id": null
+                "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                "name": "Counter Punch"
             },
             "match_games": []
         },

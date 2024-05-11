@@ -7631,6 +7631,17 @@
             "img": ""
         },
         {
+            "id": "5277d0c8-0e2f-11ef-bc07-0242ac130004",
+            "tournament_id": 0,
+            "name": "Tutti frutos",
+            "players": [
+                "felipe 2k",
+                "KingZ",
+                "kinggalolandia"
+            ],
+            "img": ""
+        },
+        {
             "id": "7b4e8584-099b-11ef-99fb-0242ac130004",
             "tournament_id": 0,
             "name": "NOCTULONES",
@@ -7807,6 +7818,17 @@
                 "DysterWTF|YT",
                 "Alesoucute ㄡ",
                 "Zangw"
+            ],
+            "img": ""
+        },
+        {
+            "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+            "tournament_id": 0,
+            "name": "Knock Out",
+            "players": [
+                "Gakai",
+                "nicolino",
+                "WindKL"
             ],
             "img": ""
         },
@@ -14440,16 +14462,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5277d0c8-0e2f-11ef-bc07-0242ac130004",
-                "name": "Tutti frutos"
+                "name": "Tutti frutos",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bebd3bf0-0980-11ef-8ba7-0242ac130004",
-                "name": "Gamba BS"
+                "name": "Gamba BS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5277d0c8-0e2f-11ef-bc07-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bebd3bf0-0980-11ef-8ba7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5277d0c8-0e2f-11ef-bc07-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bebd3bf0-0980-11ef-8ba7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "5277d0c8-0e2f-11ef-bc07-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bebd3bf0-0980-11ef-8ba7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 193,
@@ -15203,16 +15275,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "627941ba-0a37-11ef-a0bb-0242ac130004",
-                "name": "Os três Mosqueteiros"
+                "name": "Os três Mosqueteiros",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "53b810e0-0995-11ef-bcef-0242ac130004",
-                "name": "Knock Out"
+                "name": "Knock Out",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "627941ba-0a37-11ef-a0bb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "627941ba-0a37-11ef-a0bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "627941ba-0a37-11ef-a0bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 213,
@@ -18224,7 +18346,8 @@
                 "name": "Anarchy's"
             },
             "opponent2": {
-                "id": null
+                "id": "627941ba-0a37-11ef-a0bb-0242ac130004",
+                "name": "Os três Mosqueteiros"
             },
             "match_games": []
         },
@@ -22425,7 +22548,8 @@
                 "name": "SouCuteam"
             },
             "opponent2": {
-                "id": null
+                "id": "53b810e0-0995-11ef-bcef-0242ac130004",
+                "name": "Knock Out"
             },
             "match_games": []
         },

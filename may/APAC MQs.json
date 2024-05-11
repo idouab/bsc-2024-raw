@@ -3803,16 +3803,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d9e16c88-0d0b-11ef-be86-0242ac130004",
-                "name": "돼지는강하다"
+                "name": "돼지는강하다",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3625426c-0951-11ef-926b-0242ac130004",
-                "name": "✝︎超究極最強卍会鬼殺隊‪✝︎"
+                "name": "✝︎超究極最強卍会鬼殺隊‪✝︎",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d9e16c88-0d0b-11ef-be86-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3625426c-0951-11ef-926b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d9e16c88-0d0b-11ef-be86-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3625426c-0951-11ef-926b-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 39,
@@ -6434,7 +6469,8 @@
                 "name": "Aegis X Genius"
             },
             "opponent2": {
-                "id": null
+                "id": "3625426c-0951-11ef-926b-0242ac130004",
+                "name": "✝︎超究極最強卍会鬼殺隊‪✝︎"
             },
             "match_games": []
         },

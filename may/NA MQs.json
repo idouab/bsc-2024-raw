@@ -8467,6 +8467,17 @@
             "img": ""
         },
         {
+            "id": "3bfaee80-09b0-11ef-bc7f-0242ac130004",
+            "tournament_id": 0,
+            "name": "The beaners",
+            "players": [
+                "cristian",
+                "Tu Madre",
+                "$pooked"
+            ],
+            "img": ""
+        },
+        {
             "id": "acfd6b9c-09df-11ef-a2dc-0242ac130004",
             "tournament_id": 0,
             "name": "EPUKEL TEAM",
@@ -8496,6 +8507,17 @@
                 "Chocotr0ll",
                 "**CRISTIAN**",
                 "GT|Wichito"
+            ],
+            "img": ""
+        },
+        {
+            "id": "229f8af0-0fa4-11ef-8182-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Mortals",
+            "players": [
+                "Ивайло Г.",
+                "Denis",
+                "E R I K"
             ],
             "img": ""
         },
@@ -10976,6 +10998,17 @@
                 "Run",
                 "3PowerPushPop",
                 "Barley"
+            ],
+            "img": ""
+        },
+        {
+            "id": "b2343902-0f2e-11ef-8181-0242ac130004",
+            "tournament_id": 0,
+            "name": "Lineys",
+            "players": [
+                "Keek",
+                "KFIZZ",
+                "Ayanokoji"
             ],
             "img": ""
         },
@@ -26315,16 +26348,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65f056ee-07d5-11ef-84fa-0242ac130004",
-                "name": "ACG"
+                "name": "ACG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2343902-0f2e-11ef-8181-0242ac130004",
-                "name": "Lineys"
+                "name": "Lineys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "65f056ee-07d5-11ef-84fa-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2343902-0f2e-11ef-8181-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "65f056ee-07d5-11ef-84fa-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2343902-0f2e-11ef-8181-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 781,
@@ -32059,16 +32127,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "229f8af0-0fa4-11ef-8182-0242ac130004",
-                "name": "Team Mortals"
+                "name": "Team Mortals",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "154fbadc-0b4e-11ef-9586-0242ac130004",
-                "name": "LettuceCook"
+                "name": "LettuceCook",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "229f8af0-0fa4-11ef-8182-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "154fbadc-0b4e-11ef-9586-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "229f8af0-0fa4-11ef-8182-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "154fbadc-0b4e-11ef-9586-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 979,
@@ -32113,16 +32216,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62dabc1a-07d5-11ef-ae23-0242ac130004",
-                "name": "$CIW$Gobblers"
+                "name": "$CIW$Gobblers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3bfaee80-09b0-11ef-bc7f-0242ac130004",
-                "name": "The beaners"
+                "name": "The beaners",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "62dabc1a-07d5-11ef-ae23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3bfaee80-09b0-11ef-bc7f-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "62dabc1a-07d5-11ef-ae23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3bfaee80-09b0-11ef-bc7f-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 982,
@@ -34528,7 +34666,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "62dabc1a-07d5-11ef-ae23-0242ac130004",
+                "name": "$CIW$Gobblers"
             },
             "opponent2": {
                 "id": null
@@ -36766,10 +36905,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3bfaee80-09b0-11ef-bc7f-0242ac130004",
+                "name": "The beaners"
             },
             "opponent2": {
-                "id": null
+                "id": "acfd6b9c-09df-11ef-a2dc-0242ac130004",
+                "name": "EPUKEL TEAM"
             },
             "match_games": []
         },
@@ -36814,10 +36955,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "229f8af0-0fa4-11ef-8182-0242ac130004",
+                "name": "Team Mortals"
             },
             "opponent2": {
-                "id": null
+                "id": "fec051a0-09c2-11ef-a07c-0242ac130004",
+                "name": "GALLIX GAMING"
             },
             "match_games": []
         },
@@ -39678,10 +39821,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2343902-0f2e-11ef-8181-0242ac130004",
+                "name": "Lineys"
             },
             "opponent2": {
-                "id": null
+                "id": "504847cc-098b-11ef-a5e3-0242ac130004",
+                "name": "Quebec Gaming"
             },
             "match_games": []
         },

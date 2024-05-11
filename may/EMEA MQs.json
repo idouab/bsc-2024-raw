@@ -29117,6 +29117,17 @@
             "img": ""
         },
         {
+            "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
+            "tournament_id": 0,
+            "name": "Bragas de piper",
+            "players": [
+                "Nuñezz🌒",
+                "ʸᵒᵘⁿᵍnuñez🌖",
+                "Elizarii"
+            ],
+            "img": ""
+        },
+        {
             "id": "d4923e16-07d3-11ef-b44d-0242ac130004",
             "tournament_id": 0,
             "name": "FL / Fighter Life",
@@ -29579,6 +29590,18 @@
             "img": ""
         },
         {
+            "id": "dc74327e-07d3-11ef-a499-0242ac130004",
+            "tournament_id": 0,
+            "name": "CELESTIAL|ESPORT",
+            "players": [
+                "天|𝑬¡𝘴𝐤𝗮ļt🃏",
+                "天|🥀𝗜ⱥ𝖒𝓜𝓲🃏",
+                "天| 𝕬𝖖𝖎𝖑🃏",
+                "bot 5"
+            ],
+            "img": ""
+        },
+        {
             "id": "aad313a2-07d3-11ef-98fc-0242ac130004",
             "tournament_id": 0,
             "name": "Chicken Wing",
@@ -29787,6 +29810,17 @@
                 "tribe|rune",
                 "tribe | keano",
                 "youtube"
+            ],
+            "img": ""
+        },
+        {
+            "id": "05bd864e-0a45-11ef-bb23-0242ac130004",
+            "tournament_id": 0,
+            "name": "Dakuzōn",
+            "players": [
+                "YŪ|Daga",
+                "乂💎๔คץคภ💎️乂",
+                "YŪ|Thelight7"
             ],
             "img": ""
         },
@@ -51288,16 +51322,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9ee52cd2-09f5-11ef-97fc-0242ac130004",
-                "name": "Die Affengang"
+                "name": "Die Affengang",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
-                "name": "Bragas de piper"
+                "name": "Bragas de piper",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "9ee52cd2-09f5-11ef-97fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "9ee52cd2-09f5-11ef-97fc-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "9ee52cd2-09f5-11ef-97fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 596,
@@ -56236,16 +56320,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "dc74327e-07d3-11ef-a499-0242ac130004",
-                "name": "CELESTIAL|ESPORT"
+                "name": "CELESTIAL|ESPORT",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "706ba9dc-0962-11ef-bf1e-0242ac130004",
-                "name": "Royalty | Esport"
+                "name": "Royalty | Esport",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "dc74327e-07d3-11ef-a499-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "706ba9dc-0962-11ef-bf1e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "dc74327e-07d3-11ef-a499-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "706ba9dc-0962-11ef-bf1e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 782,
@@ -58052,16 +58171,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "05bd864e-0a45-11ef-bb23-0242ac130004",
-                "name": "Dakuzōn"
+                "name": "Dakuzōn",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "be73f350-0bb5-11ef-9312-0242ac130004",
-                "name": "StarrFysh"
+                "name": "StarrFysh",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "05bd864e-0a45-11ef-bb23-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "be73f350-0bb5-11ef-9312-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "05bd864e-0a45-11ef-bb23-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "be73f350-0bb5-11ef-9312-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 847,
@@ -68511,7 +68665,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9ee52cd2-09f5-11ef-97fc-0242ac130004",
+                "name": "Die Affengang"
             },
             "opponent2": {
                 "id": null
@@ -70027,7 +70182,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "706ba9dc-0962-11ef-bf1e-0242ac130004",
+                "name": "Royalty | Esport"
             },
             "opponent2": {
                 "id": null
@@ -85439,7 +85595,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cb051f1c-07d3-11ef-96e0-0242ac130004",
+                "name": "Bragas de piper"
             },
             "opponent2": {
                 "id": null
@@ -86955,7 +87112,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dc74327e-07d3-11ef-a499-0242ac130004",
+                "name": "CELESTIAL|ESPORT"
             },
             "opponent2": {
                 "id": null

@@ -28950,6 +28950,17 @@
             "img": ""
         },
         {
+            "id": "25748e40-0d21-11ef-842c-0242ac130004",
+            "tournament_id": 0,
+            "name": "Whermacht",
+            "players": [
+                "Monkey D. Rufy",
+                "#ProAle#",
+                "𝕹𝒾𝕔𝓸❤︎︎"
+            ],
+            "img": ""
+        },
+        {
             "id": "b33c6cbe-0ac6-11ef-9e6d-0242ac130004",
             "tournament_id": 0,
             "name": "[Tap]",
@@ -28958,6 +28969,17 @@
                 "[Tap]--Taza--",
                 "挨 |𝓕𝓲𝓫𝓲𝓮🥀",
                 "quattro."
+            ],
+            "img": ""
+        },
+        {
+            "id": "d9184174-07d3-11ef-b864-0242ac130004",
+            "tournament_id": 0,
+            "name": "CAMSD",
+            "players": [
+                "bavavo",
+                "TTM | AdriiX🐉",
+                "Assasin MC"
             ],
             "img": ""
         },
@@ -28981,6 +29003,17 @@
                 "lil‘TTM|Niclas",
                 "Unluck",
                 "TTM | Concon"
+            ],
+            "img": ""
+        },
+        {
+            "id": "8480e3bc-097e-11ef-8c5f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Machomen",
+            "players": [
+                "DZ|⚡PUJURRI⚡",
+                "Alejandro",
+                "KITITO"
             ],
             "img": ""
         },
@@ -29015,6 +29048,29 @@
                 "urii",
                 "miop",
                 "myketowers"
+            ],
+            "img": ""
+        },
+        {
+            "id": "3180370e-0a2c-11ef-a405-0242ac130004",
+            "tournament_id": 0,
+            "name": "Weimar Esport",
+            "players": [
+                "BT|Tishou 🐠",
+                "PoWeR=tOtLeBeN",
+                "Super Venegas",
+                "scimmietta"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+            "tournament_id": 0,
+            "name": "Outsiders",
+            "players": [
+                "OUT |Seishi",
+                "OUT |Palio",
+                "OUT|Cryzax"
             ],
             "img": ""
         },
@@ -49828,16 +49884,81 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
-                "name": "EL-STARS"
+                "name": "EL-STARS",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "25748e40-0d21-11ef-842c-0242ac130004",
-                "name": "Whermacht"
+                "name": "Whermacht",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "25748e40-0d21-11ef-842c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "25748e40-0d21-11ef-842c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "25748e40-0d21-11ef-842c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "25748e40-0d21-11ef-842c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 622,
@@ -52215,16 +52336,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d9184174-07d3-11ef-b864-0242ac130004",
-                "name": "CAMSD"
+                "name": "CAMSD",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3dd0f24c-0990-11ef-b4b5-0242ac130004",
-                "name": "Ghost Team"
+                "name": "Ghost Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d9184174-07d3-11ef-b864-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3dd0f24c-0990-11ef-b4b5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d9184174-07d3-11ef-b864-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3dd0f24c-0990-11ef-b4b5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 751,
@@ -53215,16 +53371,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b78f1e88-07d3-11ef-970c-0242ac130004",
-                "name": "WJ| Team"
+                "name": "WJ| Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8480e3bc-097e-11ef-8c5f-0242ac130004",
-                "name": "Machomen"
+                "name": "Machomen",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b78f1e88-07d3-11ef-970c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8480e3bc-097e-11ef-8c5f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b78f1e88-07d3-11ef-970c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8480e3bc-097e-11ef-8c5f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 801,
@@ -56382,16 +56573,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "04c85bae-0e34-11ef-9912-0242ac130004",
-                "name": "Team|Laughing Coffin"
+                "name": "Team|Laughing Coffin",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3180370e-0a2c-11ef-a405-0242ac130004",
-                "name": "Weimar Esport"
+                "name": "Weimar Esport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "04c85bae-0e34-11ef-9912-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3180370e-0a2c-11ef-a405-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "04c85bae-0e34-11ef-9912-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3180370e-0a2c-11ef-a405-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 973,
@@ -57228,16 +57454,81 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
-                "name": "i san marinesi"
+                "name": "i san marinesi",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
-                "name": "Outsiders"
+                "name": "Outsiders",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1020,
@@ -62849,7 +63140,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b0955ef8-07d3-11ef-8c23-0242ac130004",
+                "name": "EL-STARS"
             },
             "opponent2": {
                 "id": null
@@ -66037,10 +66329,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c32f331a-0c8b-11ef-bf10-0242ac130004",
+                "name": "i san marinesi"
             },
             "opponent2": {
-                "id": null
+                "id": "02850258-098d-11ef-92f2-0242ac130004",
+                "name": "ACYYM"
             },
             "match_games": []
         },
@@ -79689,7 +79983,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "25748e40-0d21-11ef-842c-0242ac130004",
+                "name": "Whermacht"
             },
             "opponent2": {
                 "id": null
@@ -82877,10 +83172,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cc1bd7c4-07d3-11ef-b2a6-0242ac130004",
+                "name": "Outsiders"
             },
             "opponent2": {
-                "id": null
+                "id": "b93a00b8-07d3-11ef-9d13-0242ac130004",
+                "name": "Shiny Legends"
             },
             "match_games": []
         },

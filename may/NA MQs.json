@@ -10785,6 +10785,17 @@
             "img": ""
         },
         {
+            "id": "e2dbb65a-099a-11ef-b46d-0242ac130004",
+            "tournament_id": 0,
+            "name": "69ers",
+            "players": [
+                "BIGDADDY",
+                "zaddy",
+                "turtle bob"
+            ],
+            "img": ""
+        },
+        {
             "id": "50d8764c-0a8c-11ef-9078-0242ac130004",
             "tournament_id": 0,
             "name": "Sheeshers",
@@ -28586,16 +28597,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64012f84-07d5-11ef-a6fb-0242ac130004",
-                "name": "sintikols gaming"
+                "name": "sintikols gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e2dbb65a-099a-11ef-b46d-0242ac130004",
-                "name": "69ers"
+                "name": "69ers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "64012f84-07d5-11ef-a6fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2dbb65a-099a-11ef-b46d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64012f84-07d5-11ef-a6fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2dbb65a-099a-11ef-b46d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 818,
@@ -35526,10 +35572,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64012f84-07d5-11ef-a6fb-0242ac130004",
+                "name": "sintikols gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "061e3406-0b55-11ef-aad9-0242ac130004",
+                "name": "Boppell Boyzz"
             },
             "match_games": []
         },
@@ -41562,10 +41610,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e2dbb65a-099a-11ef-b46d-0242ac130004",
+                "name": "69ers"
             },
             "opponent2": {
-                "id": null
+                "id": "50d8764c-0a8c-11ef-9078-0242ac130004",
+                "name": "Sheeshers"
             },
             "match_games": []
         },

@@ -20571,16 +20571,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
-                "name": "透明エレジー"
+                "name": "透明エレジー",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
-                "name": "Why we lose"
+                "name": "Why we lose",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "d8db9fc4-0bf9-11ef-bb87-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 453,
@@ -20715,7 +20750,8 @@
                 "name": "HOW"
             },
             "opponent2": {
-                "id": null
+                "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                "name": "Why we lose"
             },
             "match_games": []
         },

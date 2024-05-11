@@ -30644,16 +30644,51 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74b28c14-07d6-11ef-b560-0242ac130004",
-                "name": "CFZ"
+                "name": "CFZ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "98998e32-07d8-11ef-aff7-0242ac130004",
-                "name": "Reis do PL"
+                "name": "Reis do PL",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "74b28c14-07d6-11ef-b560-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "98998e32-07d8-11ef-aff7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "74b28c14-07d6-11ef-b560-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "98998e32-07d8-11ef-aff7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 257,
@@ -45296,7 +45331,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "74b28c14-07d6-11ef-b560-0242ac130004",
+                "name": "CFZ"
             },
             "opponent2": {
                 "id": null

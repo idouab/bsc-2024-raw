@@ -7750,16 +7750,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
-                "name": "Counter Punch"
+                "name": "Counter Punch",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 168,
@@ -10108,7 +10158,8 @@
                 "name": "Feasible Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "ab51ed3a-0963-11ef-be72-0242ac130004",
+                "name": "Counter Punch"
             },
             "match_games": []
         },
@@ -12846,10 +12897,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                "name": "College Students"
             },
             "opponent2": {
-                "id": null
+                "id": "43718d24-0d41-11ef-853c-0242ac130004",
+                "name": "El primo"
             },
             "match_games": []
         },

@@ -18862,16 +18862,66 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "547a6ae6-07d3-11ef-9ac6-0242ac130004",
-                "name": "TOC"
+                "name": "TOC",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "53c9862c-07d3-11ef-b721-0242ac130004",
-                "name": "Lone Wolf"
+                "name": "Lone Wolf",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "547a6ae6-07d3-11ef-9ac6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "547a6ae6-07d3-11ef-9ac6-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "547a6ae6-07d3-11ef-9ac6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 411,
@@ -19606,7 +19656,8 @@
                 "name": "Figt quietly"
             },
             "opponent2": {
-                "id": null
+                "id": "53c9862c-07d3-11ef-b721-0242ac130004",
+                "name": "Lone Wolf"
             },
             "match_games": []
         },

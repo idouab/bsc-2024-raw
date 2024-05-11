@@ -23207,6 +23207,17 @@
             "img": ""
         },
         {
+            "id": "e7579a18-0e32-11ef-a194-0242ac130004",
+            "tournament_id": 0,
+            "name": "Hippopotamus BC",
+            "players": [
+                "Ferelomer",
+                "Mclovin ur mom",
+                "Hermanoo"
+            ],
+            "img": ""
+        },
+        {
             "id": "415d4846-0a00-11ef-a161-0242ac130004",
             "tournament_id": 0,
             "name": "🇮🇱NMN | CLAN🇮🇱",
@@ -23225,6 +23236,17 @@
                 "Ghost98",
                 "farzad_Yo",
                 "yusefi"
+            ],
+            "img": ""
+        },
+        {
+            "id": "eb3b8a44-0951-11ef-b0df-0242ac130004",
+            "tournament_id": 0,
+            "name": "FPK",
+            "players": [
+                "FPK.Stefan🥀",
+                "FPK.Andrey❤️‍🔥",
+                "FPK.Costy"
             ],
             "img": ""
         },
@@ -26915,16 +26937,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e7579a18-0e32-11ef-a194-0242ac130004",
-                "name": "Hippopotamus BC"
+                "name": "Hippopotamus BC",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e1a34528-07d3-11ef-90d1-0242ac130004",
-                "name": "REVERS|BS"
+                "name": "REVERS|BS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "e7579a18-0e32-11ef-a194-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e1a34528-07d3-11ef-90d1-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e7579a18-0e32-11ef-a194-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e1a34528-07d3-11ef-90d1-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 179,
@@ -27795,16 +27852,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba77bf38-07d3-11ef-a312-0242ac130004",
-                "name": "The Unicorns 🦄"
+                "name": "The Unicorns 🦄",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eb3b8a44-0951-11ef-b0df-0242ac130004",
-                "name": "FPK"
+                "name": "FPK",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ba77bf38-07d3-11ef-a312-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eb3b8a44-0951-11ef-b0df-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ba77bf38-07d3-11ef-a312-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eb3b8a44-0951-11ef-b0df-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 224,
@@ -44357,7 +44449,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ba77bf38-07d3-11ef-a312-0242ac130004",
+                "name": "The Unicorns 🦄"
             },
             "opponent2": {
                 "id": null
@@ -60687,7 +60780,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eb3b8a44-0951-11ef-b0df-0242ac130004",
+                "name": "FPK"
             },
             "opponent2": {
                 "id": null

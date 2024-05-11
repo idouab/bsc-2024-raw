@@ -8002,16 +8002,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9bff3948-0de9-11ef-8772-0242ac130004",
-                "name": "ふぁーすとぺんぎん"
+                "name": "ふぁーすとぺんぎん",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5384a212-0960-11ef-b904-0242ac130004",
-                "name": "Bomboclaat"
+                "name": "Bomboclaat",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 186,
@@ -10937,10 +10972,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5384a212-0960-11ef-b904-0242ac130004",
+                "name": "Bomboclaat"
             },
             "opponent2": {
-                "id": null
+                "id": "bee4e522-0a81-11ef-8588-0242ac130004",
+                "name": "Odango Gaming"
             },
             "match_games": []
         },

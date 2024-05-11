@@ -10113,6 +10113,17 @@
             "img": ""
         },
         {
+            "id": "fb016576-0f1d-11ef-b4a5-0242ac130004",
+            "tournament_id": 0,
+            "name": "KINGS👑 AZTECAS🇲🇽",
+            "players": [
+                "VALISTE QUESO",
+                "MAURICIO 🇲🇽",
+                "SK|Bs_Jisus"
+            ],
+            "img": ""
+        },
+        {
             "id": "4e22fbc8-0c19-11ef-84e2-0242ac130004",
             "tournament_id": 0,
             "name": "The Hive",
@@ -29201,16 +29212,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1226f55c-0c1e-11ef-be62-0242ac130004",
-                "name": "JNJ Gaming"
+                "name": "JNJ Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fb016576-0f1d-11ef-b4a5-0242ac130004",
-                "name": "KINGS👑 AZTECAS🇲🇽"
+                "name": "KINGS👑 AZTECAS🇲🇽",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "1226f55c-0c1e-11ef-be62-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb016576-0f1d-11ef-b4a5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "1226f55c-0c1e-11ef-be62-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fb016576-0f1d-11ef-b4a5-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 861,
@@ -39697,10 +39743,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fb016576-0f1d-11ef-b4a5-0242ac130004",
+                "name": "KINGS👑 AZTECAS🇲🇽"
             },
             "opponent2": {
-                "id": null
+                "id": "4e22fbc8-0c19-11ef-84e2-0242ac130004",
+                "name": "The Hive"
             },
             "match_games": []
         },

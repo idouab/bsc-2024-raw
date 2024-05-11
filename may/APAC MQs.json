@@ -13515,16 +13515,66 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54d6912c-07d3-11ef-82db-0242ac130004",
-                "name": "Team S2"
+                "name": "Team S2",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
-                "name": "coco loco"
+                "name": "coco loco",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "54d6912c-07d3-11ef-82db-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "54d6912c-07d3-11ef-82db-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "54d6912c-07d3-11ef-82db-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a12b697c-07d7-11ef-aaa8-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 129,
@@ -18883,16 +18933,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9bff3948-0de9-11ef-8772-0242ac130004",
-                "name": "ふぁーすとぺんぎん"
+                "name": "ふぁーすとぺんぎん",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f67418c4-0a17-11ef-89ab-0242ac130004",
-                "name": "Invicta Moirai F/A"
+                "name": "Invicta Moirai F/A",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f67418c4-0a17-11ef-89ab-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f67418c4-0a17-11ef-89ab-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 413,
@@ -19456,7 +19541,8 @@
                 "name": "Trash boys"
             },
             "opponent2": {
-                "id": null
+                "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                "name": "ふぁーすとぺんぎん"
             },
             "match_games": []
         },
@@ -20043,7 +20129,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54d6912c-07d3-11ef-82db-0242ac130004",
+                "name": "Team S2"
             },
             "opponent2": {
                 "id": null

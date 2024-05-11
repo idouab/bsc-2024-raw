@@ -43974,16 +43974,51 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
-                "name": "Team Evil Gamer"
+                "name": "Team Evil Gamer",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a6f1edc4-0a64-11ef-be8e-0242ac130004",
-                "name": "lospardillos"
+                "name": "lospardillos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a6f1edc4-0a64-11ef-be8e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a6f1edc4-0a64-11ef-be8e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 935,
@@ -44498,7 +44533,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a2d3b12-07d6-11ef-80c9-0242ac130004",
+                "name": "Team Evil Gamer"
             },
             "opponent2": {
                 "id": null

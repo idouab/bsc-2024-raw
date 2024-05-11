@@ -4323,16 +4323,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a2e2d00-0c39-11ef-8482-0242ac130004",
-                "name": "cheeky monkeys"
+                "name": "cheeky monkeys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8accbf34-0951-11ef-850e-0242ac130004",
-                "name": "HGムチムチ隊"
+                "name": "HGムチムチ隊",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5a2e2d00-0c39-11ef-8482-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5a2e2d00-0c39-11ef-8482-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 71,
@@ -5188,16 +5223,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
-                "name": "CHAMAR 💙📘"
+                "name": "CHAMAR 💙📘",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aca55eb4-0946-11ef-a6e9-0242ac130004",
-                "name": "bunny girl senpai"
+                "name": "bunny girl senpai",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aca55eb4-0946-11ef-a6e9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aca55eb4-0946-11ef-a6e9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 111,
@@ -6265,7 +6335,8 @@
                 "name": "Figt quietly"
             },
             "opponent2": {
-                "id": null
+                "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                "name": "HGムチムチ隊"
             },
             "match_games": []
         },
@@ -6598,7 +6669,8 @@
                 "name": "Team S2"
             },
             "opponent2": {
-                "id": null
+                "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
+                "name": "CHAMAR 💙📘"
             },
             "match_games": []
         },

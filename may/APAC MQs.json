@@ -16216,16 +16216,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
-                "name": "Galaxy"
+                "name": "Galaxy",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
-                "name": "TAKE OUT"
+                "name": "TAKE OUT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 335,
@@ -17071,7 +17106,8 @@
                 "name": "UniTy"
             },
             "opponent2": {
-                "id": null
+                "id": "54ae3c2c-07d3-11ef-945f-0242ac130004",
+                "name": "Galaxy"
             },
             "match_games": []
         },

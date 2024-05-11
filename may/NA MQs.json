@@ -45315,16 +45315,51 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "503cd81a-07d8-11ef-88e5-0242ac130004",
-                "name": "Motomamis FA"
+                "name": "Motomamis FA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d92fe904-0a5e-11ef-85ba-0242ac130004",
-                "name": "HOBO"
+                "name": "HOBO",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "503cd81a-07d8-11ef-88e5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d92fe904-0a5e-11ef-85ba-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "503cd81a-07d8-11ef-88e5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d92fe904-0a5e-11ef-85ba-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1426,
@@ -45989,7 +46024,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "503cd81a-07d8-11ef-88e5-0242ac130004",
+                "name": "Motomamis FA"
             },
             "opponent2": {
                 "id": null
@@ -57902,7 +57938,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d92fe904-0a5e-11ef-85ba-0242ac130004",
+                "name": "HOBO"
             },
             "opponent2": {
                 "id": null

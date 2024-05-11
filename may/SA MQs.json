@@ -44434,16 +44434,66 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "756d559e-07d6-11ef-94ee-0242ac130004",
-                "name": "LPC F/A"
+                "name": "LPC F/A",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
-                "name": "Fortune Tigers"
+                "name": "Fortune Tigers",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "74ff3a32-07d6-11ef-b1c5-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 945,
@@ -44828,7 +44878,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "756d559e-07d6-11ef-94ee-0242ac130004",
+                "name": "LPC F/A"
             },
             "opponent2": {
                 "id": null

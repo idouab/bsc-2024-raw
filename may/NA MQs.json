@@ -9160,6 +9160,18 @@
             "img": ""
         },
         {
+            "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
+            "tournament_id": 0,
+            "name": "FromAboveGang",
+            "players": [
+                "NyX | Sherif",
+                "NyX | Zill",
+                "mikel pikel",
+                "sunnyx💙"
+            ],
+            "img": ""
+        },
+        {
             "id": "2fbb1058-0967-11ef-bdbe-0242ac130004",
             "tournament_id": 0,
             "name": "NA Holys",
@@ -34424,16 +34436,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "45e35f6e-0b2b-11ef-9aff-0242ac130004",
-                "name": "Team Rage"
+                "name": "Team Rage",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
-                "name": "FromAboveGang"
+                "name": "FromAboveGang",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "45e35f6e-0b2b-11ef-9aff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "45e35f6e-0b2b-11ef-9aff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "45e35f6e-0b2b-11ef-9aff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 935,
@@ -41765,10 +41827,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a9019dc-0a73-11ef-83ed-0242ac130004",
+                "name": "FromAboveGang"
             },
             "opponent2": {
-                "id": null
+                "id": "2fbb1058-0967-11ef-bdbe-0242ac130004",
+                "name": "NA Holys"
             },
             "match_games": []
         },

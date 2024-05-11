@@ -95997,16 +95997,51 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
-                "name": "Eclipsar Esport"
+                "name": "Eclipsar Esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5af2e38a-093b-11ef-9e1a-0242ac130004",
-                "name": "Espeon"
+                "name": "Espeon",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5af2e38a-093b-11ef-9e1a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5af2e38a-093b-11ef-9e1a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2786,
@@ -98439,10 +98474,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                "name": "Eclipsar Esport"
             },
             "opponent2": {
-                "id": null
+                "id": "c40b7ffc-0950-11ef-b0f2-0242ac130004",
+                "name": "Goats of Hungary"
             },
             "match_games": []
         },
@@ -128507,7 +128544,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5af2e38a-093b-11ef-9e1a-0242ac130004",
+                "name": "Espeon"
             },
             "opponent2": {
                 "id": null

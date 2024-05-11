@@ -36621,16 +36621,66 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "83899336-0e70-11ef-a8b0-0242ac130004",
-                "name": "My little pony"
+                "name": "My little pony",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
-                "name": "ACP STARTS"
+                "name": "ACP STARTS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "83899336-0e70-11ef-a8b0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "83899336-0e70-11ef-a8b0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "83899336-0e70-11ef-a8b0-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 709,
@@ -37857,16 +37907,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
-                "name": "IronRandoms"
+                "name": "IronRandoms",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7456b54e-09af-11ef-9e54-0242ac130004",
-                "name": "WW TEAM"
+                "name": "WW TEAM",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7456b54e-09af-11ef-9e54-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "32b907ba-0e2b-11ef-ad47-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7456b54e-09af-11ef-9e54-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 746,
@@ -38584,7 +38669,8 @@
                 "name": "Los motes"
             },
             "opponent2": {
-                "id": null
+                "id": "cd587d34-0b4f-11ef-998a-0242ac130004",
+                "name": "ACP STARTS"
             },
             "match_games": []
         },
@@ -39228,7 +39314,8 @@
                 "name": "Anarchy's"
             },
             "opponent2": {
-                "id": null
+                "id": "7456b54e-09af-11ef-9e54-0242ac130004",
+                "name": "WW TEAM"
             },
             "match_games": []
         },

@@ -87859,16 +87859,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c10b08b4-07d3-11ef-b906-0242ac130004",
-                "name": "BGG"
+                "name": "BGG",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d7693efa-07d3-11ef-ba83-0242ac130004",
-                "name": "Knockout"
+                "name": "Knockout",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c10b08b4-07d3-11ef-b906-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d7693efa-07d3-11ef-ba83-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c10b08b4-07d3-11ef-b906-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d7693efa-07d3-11ef-ba83-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "c10b08b4-07d3-11ef-b906-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d7693efa-07d3-11ef-ba83-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1963,
@@ -89344,16 +89394,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d09b6efe-07d3-11ef-9244-0242ac130004",
-                "name": "F/A FRUGO"
+                "name": "F/A FRUGO",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "134f1448-0b81-11ef-ac61-0242ac130004",
-                "name": "I Kujo💤"
+                "name": "I Kujo💤",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "d09b6efe-07d3-11ef-9244-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "134f1448-0b81-11ef-ac61-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d09b6efe-07d3-11ef-9244-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "134f1448-0b81-11ef-ac61-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2008,
@@ -94760,7 +94845,8 @@
                 "name": "BWS esports"
             },
             "opponent2": {
-                "id": null
+                "id": "c10b08b4-07d3-11ef-b906-0242ac130004",
+                "name": "BGG"
             },
             "match_games": []
         },
@@ -95163,10 +95249,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d09b6efe-07d3-11ef-9244-0242ac130004",
+                "name": "F/A FRUGO"
             },
             "opponent2": {
-                "id": null
+                "id": "ff3d1680-0e19-11ef-9014-0242ac130004",
+                "name": "Las Cabras"
             },
             "match_games": []
         },
@@ -112241,10 +112329,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "134f1448-0b81-11ef-ac61-0242ac130004",
+                "name": "I Kujo💤"
             },
             "opponent2": {
-                "id": null
+                "id": "9bc03fec-0aea-11ef-ab75-0242ac130004",
+                "name": "Glry"
             },
             "match_games": []
         },
@@ -113043,10 +113133,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d7693efa-07d3-11ef-ba83-0242ac130004",
+                "name": "Knockout"
             },
             "opponent2": {
-                "id": null
+                "id": "ea881372-0cf5-11ef-9526-0242ac130004",
+                "name": "Team Platypus"
             },
             "match_games": []
         },

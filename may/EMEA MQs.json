@@ -29432,6 +29432,18 @@
             "img": ""
         },
         {
+            "id": "b052ef96-07d3-11ef-ad05-0242ac130004",
+            "tournament_id": 0,
+            "name": "SD_Family",
+            "players": [
+                "OgUrChIk Rick",
+                "(BAN) FEzi",
+                "Bᴏʀɴ ᴛᴏ ʟiveツ",
+                "GSG | Leroyy 😴"
+            ],
+            "img": ""
+        },
+        {
             "id": "2d7705f8-0986-11ef-9c1d-0242ac130004",
             "tournament_id": 0,
             "name": "MRE - Team",
@@ -30103,6 +30115,17 @@
                 "ⁱᵃᵐ✰𝑆𝑘𝑦☁️",
                 "ⁱᵃᵐ✰𝑅𝑎𝑖𝑛💧",
                 "🌹ayaz🌹"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cfd00d8c-0f20-11ef-9580-0242ac130004",
+            "tournament_id": 0,
+            "name": "Explicity Esports",
+            "players": [
+                "Galaxy_Ryan",
+                "FlenXry",
+                "AntoniTrau 3"
             ],
             "img": ""
         },
@@ -54062,16 +54085,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b052ef96-07d3-11ef-ad05-0242ac130004",
-                "name": "SD_Family"
+                "name": "SD_Family",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f2a0b1e0-0f02-11ef-9f62-0242ac130004",
-                "name": "LE HÉRON"
+                "name": "LE HÉRON",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b052ef96-07d3-11ef-ad05-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f2a0b1e0-0f02-11ef-9f62-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b052ef96-07d3-11ef-ad05-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f2a0b1e0-0f02-11ef-9f62-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 674,
@@ -60340,16 +60398,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
-                "name": "Eclipsar Esport"
+                "name": "Eclipsar Esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cfd00d8c-0f20-11ef-9580-0242ac130004",
-                "name": "Explicity Esports"
+                "name": "Explicity Esports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cfd00d8c-0f20-11ef-9580-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cfd00d8c-0f20-11ef-9580-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 898,
@@ -70433,7 +70526,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f2a0b1e0-0f02-11ef-9f62-0242ac130004",
+                "name": "LE HÉRON"
             },
             "opponent2": {
                 "id": null
@@ -72269,7 +72363,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1a8b70b4-07d8-11ef-ac9f-0242ac130004",
+                "name": "Eclipsar Esport"
             },
             "opponent2": {
                 "id": null
@@ -87378,7 +87473,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b052ef96-07d3-11ef-ad05-0242ac130004",
+                "name": "SD_Family"
             },
             "opponent2": {
                 "id": null
@@ -89214,7 +89310,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cfd00d8c-0f20-11ef-9580-0242ac130004",
+                "name": "Explicity Esports"
             },
             "opponent2": {
                 "id": null

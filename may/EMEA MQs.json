@@ -32577,6 +32577,17 @@
             "img": ""
         },
         {
+            "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
+            "tournament_id": 0,
+            "name": "SKBD",
+            "players": [
+                "HDF|Matías yt",
+                "SK|Krampuss🃏",
+                "RonYT"
+            ],
+            "img": ""
+        },
+        {
             "id": "186a6cdc-0d31-11ef-91c0-0242ac130004",
             "tournament_id": 0,
             "name": "M8 BS",
@@ -64836,16 +64847,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2f7b66be-096d-11ef-834b-0242ac130004",
-                "name": "GRM_Esports"
+                "name": "GRM_Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
-                "name": "SKBD"
+                "name": "SKBD",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "2f7b66be-096d-11ef-834b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "2f7b66be-096d-11ef-834b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "2f7b66be-096d-11ef-834b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 845,
@@ -79090,7 +79151,8 @@
                 "name": "Team el PEPE 🗿"
             },
             "opponent2": {
-                "id": null
+                "id": "2f7b66be-096d-11ef-834b-0242ac130004",
+                "name": "GRM_Esports"
             },
             "match_games": []
         },
@@ -96421,7 +96483,8 @@
                 "name": "Peshpa Owners"
             },
             "opponent2": {
-                "id": null
+                "id": "a478e60e-0b1a-11ef-b683-0242ac130004",
+                "name": "SKBD"
             },
             "match_games": []
         },

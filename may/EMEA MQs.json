@@ -23668,6 +23668,17 @@
             "img": ""
         },
         {
+            "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
+            "tournament_id": 0,
+            "name": "CRM esport",
+            "players": [
+                "#le phénix#",
+                "#DR raphlou",
+                "Keinott🐦"
+            ],
+            "img": ""
+        },
+        {
             "id": "b87bd8fa-0ef8-11ef-b1fd-0242ac130004",
             "tournament_id": 0,
             "name": "Dareber's Bande",
@@ -30624,16 +30635,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d29bca3c-07d3-11ef-8a69-0242ac130004",
-                "name": "HLR Esport"
+                "name": "HLR Esport",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
-                "name": "CRM esport"
+                "name": "CRM esport",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d29bca3c-07d3-11ef-8a69-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d29bca3c-07d3-11ef-8a69-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d29bca3c-07d3-11ef-8a69-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 49,
@@ -56619,7 +56680,8 @@
                 "name": "The Underrated Trio"
             },
             "opponent2": {
-                "id": null
+                "id": "d29bca3c-07d3-11ef-8a69-0242ac130004",
+                "name": "HLR Esport"
             },
             "match_games": []
         },
@@ -73436,7 +73498,8 @@
                 "name": "tropical gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "f3b8b59e-0a18-11ef-b40a-0242ac130004",
+                "name": "CRM esport"
             },
             "match_games": []
         },

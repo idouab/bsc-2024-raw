@@ -18767,7 +18767,7 @@
             "tournament_id": 0,
             "name": "Mesa1 playing",
             "players": [
-                "LM|𝔖𝔞𝔫𝔱𝔶𝔐",
+                "MESA1|Santy⚽️11",
                 "33333",
                 "rodolfo",
                 "x._.DreamZxZ"
@@ -32478,7 +32478,7 @@
             "tournament_id": 0,
             "name": "Mesa1 playing",
             "players": [
-                "LM|𝔖𝔞𝔫𝔱𝔶𝔐",
+                "MESA1|Santy⚽️11",
                 "33333",
                 "rodolfo",
                 "x._.DreamZxZ"
@@ -79123,10 +79123,11 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d958f9c-0954-11ef-b37c-0242ac130004",
-                "name": "syrup"
+                "name": "syrup",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "c593ffb0-0979-11ef-991e-0242ac130004",
@@ -82616,16 +82617,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f7202bbe-0a21-11ef-bf66-0242ac130004",
-                "name": "Nerf Kit"
+                "name": "Nerf Kit",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a520a02e-093a-11ef-8442-0242ac130004",
-                "name": "The DraugheZ"
+                "name": "The DraugheZ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "f7202bbe-0a21-11ef-bf66-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a520a02e-093a-11ef-8442-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "f7202bbe-0a21-11ef-bf66-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a520a02e-093a-11ef-8442-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f7202bbe-0a21-11ef-bf66-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a520a02e-093a-11ef-8442-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1815,
@@ -93229,7 +93280,8 @@
                 "name": "Paladins"
             },
             "opponent2": {
-                "id": null
+                "id": "c593ffb0-0979-11ef-991e-0242ac130004",
+                "name": "Gym-Lehrte"
             },
             "match_games": []
         },
@@ -94037,7 +94089,8 @@
                 "name": "ISG|team2❄️"
             },
             "opponent2": {
-                "id": null
+                "id": "a520a02e-093a-11ef-8442-0242ac130004",
+                "name": "The DraugheZ"
             },
             "match_games": []
         },
@@ -116320,10 +116373,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f7202bbe-0a21-11ef-bf66-0242ac130004",
+                "name": "Nerf Kit"
             },
             "opponent2": {
-                "id": null
+                "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+                "name": "EXB"
             },
             "match_games": []
         },
@@ -117936,10 +117991,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d958f9c-0954-11ef-b37c-0242ac130004",
+                "name": "syrup"
             },
             "opponent2": {
-                "id": null
+                "id": "cf3ad1d8-0a55-11ef-9e72-0242ac130004",
+                "name": "Triple mooous'K"
             },
             "match_games": []
         },

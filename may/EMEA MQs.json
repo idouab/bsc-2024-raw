@@ -26655,6 +26655,17 @@
             "img": ""
         },
         {
+            "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Die Rabauken",
+            "players": [
+                "Hawking♿️",
+                "德|TB$ 个",
+                "TSM_klohbrille"
+            ],
+            "img": ""
+        },
+        {
             "id": "d2d7d396-0d74-11ef-b1c4-0242ac130004",
             "tournament_id": 0,
             "name": "Jeyyes",
@@ -39804,16 +39815,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
-                "name": "Die Rabauken"
+                "name": "Die Rabauken",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0b5a7bfa-0952-11ef-8d93-0242ac130004",
-                "name": "GLIBAVCI"
+                "name": "GLIBAVCI",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0b5a7bfa-0952-11ef-8d93-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0b5a7bfa-0952-11ef-8d93-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0b5a7bfa-0952-11ef-8d93-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 329,
@@ -58263,7 +58324,8 @@
                 "name": "LAST WARRIORS"
             },
             "opponent2": {
-                "id": null
+                "id": "0b5a7bfa-0952-11ef-8d93-0242ac130004",
+                "name": "GLIBAVCI"
             },
             "match_games": []
         },
@@ -75061,7 +75123,8 @@
                 "name": "Bobigazou"
             },
             "opponent2": {
-                "id": null
+                "id": "e04b3cfe-0958-11ef-8f7e-0242ac130004",
+                "name": "Die Rabauken"
             },
             "match_games": []
         },

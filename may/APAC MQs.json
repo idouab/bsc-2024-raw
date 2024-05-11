@@ -17461,16 +17461,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9bff3948-0de9-11ef-8772-0242ac130004",
-                "name": "ふぁーすとぺんぎん"
+                "name": "ふぁーすとぺんぎん",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
-                "name": "CHAMAR 💙📘"
+                "name": "CHAMAR 💙📘",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b24d7f18-0ee1-11ef-b725-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 375,
@@ -18455,10 +18490,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9bff3948-0de9-11ef-8772-0242ac130004",
+                "name": "ふぁーすとぺんぎん"
             },
             "opponent2": {
-                "id": null
+                "id": "f67418c4-0a17-11ef-89ab-0242ac130004",
+                "name": "Invicta Moirai F/A"
             },
             "match_games": []
         },

@@ -8610,6 +8610,17 @@
             "img": ""
         },
         {
+            "id": "09e3e00c-0c01-11ef-9739-0242ac130004",
+            "tournament_id": 0,
+            "name": "GodSpell",
+            "players": [
+                "Chepe-Kün",
+                "Haku½",
+                "MayRashon"
+            ],
+            "img": ""
+        },
+        {
             "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
             "tournament_id": 0,
             "name": "Pollo Hermanos",
@@ -8798,6 +8809,18 @@
                 "CR|Bryce ❤️ 🍒",
                 "CR|RicoMy🥷🏿",
                 "Maybe Julian😹"
+            ],
+            "img": ""
+        },
+        {
+            "id": "ac13fef0-09d8-11ef-81c5-0242ac130004",
+            "tournament_id": 0,
+            "name": "THE MASTERS LEGENDS",
+            "players": [
+                "CrossTownElf104",
+                "Debanhi Escobar",
+                "VICTORELIUX",
+                "爱我 l TriAxiSᴳᵒᵈ"
             ],
             "img": ""
         },
@@ -29776,16 +29799,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6bce6ef2-07d5-11ef-9542-0242ac130004",
-                "name": "Xenon Gaming"
+                "name": "Xenon Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ac13fef0-09d8-11ef-81c5-0242ac130004",
-                "name": "THE MASTERS LEGENDS"
+                "name": "THE MASTERS LEGENDS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6bce6ef2-07d5-11ef-9542-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ac13fef0-09d8-11ef-81c5-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6bce6ef2-07d5-11ef-9542-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ac13fef0-09d8-11ef-81c5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 949,
@@ -30187,16 +30245,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "660987ae-07d5-11ef-8190-0242ac130004",
-                "name": "GGs"
+                "name": "GGs",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "09e3e00c-0c01-11ef-9739-0242ac130004",
-                "name": "GodSpell"
+                "name": "GodSpell",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "660987ae-07d5-11ef-8190-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09e3e00c-0c01-11ef-9739-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "660987ae-07d5-11ef-8190-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09e3e00c-0c01-11ef-9739-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 966,
@@ -32649,7 +32742,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "660987ae-07d5-11ef-8190-0242ac130004",
+                "name": "GGs"
             },
             "opponent2": {
                 "id": null
@@ -35235,10 +35329,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "09e3e00c-0c01-11ef-9739-0242ac130004",
+                "name": "GodSpell"
             },
             "opponent2": {
-                "id": null
+                "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
+                "name": "Pollo Hermanos"
             },
             "match_games": []
         },
@@ -35479,10 +35575,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ac13fef0-09d8-11ef-81c5-0242ac130004",
+                "name": "THE MASTERS LEGENDS"
             },
             "opponent2": {
-                "id": null
+                "id": "066f4e46-09ab-11ef-b3dd-0242ac130004",
+                "name": "Foam Rollers"
             },
             "match_games": []
         },

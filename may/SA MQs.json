@@ -31376,16 +31376,51 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c6399b36-0b2d-11ef-95cf-0242ac130004",
-                "name": "Pura cuea"
+                "name": "Pura cuea",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7a389232-07d6-11ef-97cf-0242ac130004",
-                "name": "LOST TIME"
+                "name": "LOST TIME",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "c6399b36-0b2d-11ef-95cf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c6399b36-0b2d-11ef-95cf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 517,
@@ -34647,7 +34682,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                "name": "LOST TIME"
             },
             "opponent2": {
                 "id": null

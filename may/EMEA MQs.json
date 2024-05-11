@@ -82616,16 +82616,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce400232-07d3-11ef-96ed-0242ac130004",
-                "name": "LutscherVomDienst"
+                "name": "LutscherVomDienst",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5269a1f4-09fe-11ef-9489-0242ac130004",
-                "name": "322 BS"
+                "name": "322 BS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "ce400232-07d3-11ef-96ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5269a1f4-09fe-11ef-9489-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "ce400232-07d3-11ef-96ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5269a1f4-09fe-11ef-9489-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1949,
@@ -88307,7 +88342,8 @@
                 "name": "ALPHA DIVISION"
             },
             "opponent2": {
-                "id": null
+                "id": "ce400232-07d3-11ef-96ed-0242ac130004",
+                "name": "LutscherVomDienst"
             },
             "match_games": []
         },
@@ -106722,10 +106758,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5269a1f4-09fe-11ef-9489-0242ac130004",
+                "name": "322 BS"
             },
             "opponent2": {
-                "id": null
+                "id": "a9ff9dba-07d3-11ef-81ac-0242ac130004",
+                "name": "TERMINATORS"
             },
             "match_games": []
         },
@@ -113394,10 +113432,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3b6fe2e8-0a2a-11ef-9af4-0242ac130004",
+                "name": "TM | Esport™"
             },
             "opponent2": {
-                "id": null
+                "id": "c86c6c9c-0a58-11ef-a1a4-0242ac130004",
+                "name": "Bs|OctopusTeam🐙"
             },
             "match_games": []
         },

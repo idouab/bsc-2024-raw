@@ -21165,16 +21165,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "795b1fb0-07d6-11ef-a0ca-0242ac130004",
-                "name": "Trio Parada Dura"
+                "name": "Trio Parada Dura",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "fd7a05f6-0a77-11ef-bb65-0242ac130004",
-                "name": "Free Lane"
+                "name": "Free Lane",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "795b1fb0-07d6-11ef-a0ca-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "fd7a05f6-0a77-11ef-bb65-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "795b1fb0-07d6-11ef-a0ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fd7a05f6-0a77-11ef-bb65-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "795b1fb0-07d6-11ef-a0ca-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "fd7a05f6-0a77-11ef-bb65-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 457,
@@ -24448,10 +24498,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fd7a05f6-0a77-11ef-bb65-0242ac130004",
+                "name": "Free Lane"
             },
             "opponent2": {
-                "id": null
+                "id": "c6615818-097c-11ef-8fae-0242ac130004",
+                "name": "CAFFETO"
             },
             "match_games": []
         },
@@ -29872,10 +29924,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "795b1fb0-07d6-11ef-a0ca-0242ac130004",
+                "name": "Trio Parada Dura"
             },
             "opponent2": {
-                "id": null
+                "id": "79b34adc-07d6-11ef-aeed-0242ac130004",
+                "name": "Imortais"
             },
             "match_games": []
         },

@@ -15977,16 +15977,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "06980e2e-0dea-11ef-b351-0242ac130004",
-                "name": "Your mom Esports"
+                "name": "Your mom Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
-                "name": "TAXI DRIVERS"
+                "name": "TAXI DRIVERS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "06980e2e-0dea-11ef-b351-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "06980e2e-0dea-11ef-b351-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c9cbffe4-09ea-11ef-8087-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 346,
@@ -16677,7 +16712,8 @@
                 "name": "ポンズばなな"
             },
             "opponent2": {
-                "id": null
+                "id": "06980e2e-0dea-11ef-b351-0242ac130004",
+                "name": "Your mom Esports"
             },
             "match_games": []
         },

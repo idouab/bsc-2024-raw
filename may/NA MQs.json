@@ -9115,6 +9115,17 @@
             "img": ""
         },
         {
+            "id": "73474822-0b52-11ef-aa79-0242ac130004",
+            "tournament_id": 0,
+            "name": "SpenLC Simps",
+            "players": [
+                "TheLitLegend",
+                "Chomp",
+                "auto aim master"
+            ],
+            "img": ""
+        },
+        {
             "id": "6c94a3f2-0a77-11ef-8e12-0242ac130004",
             "tournament_id": 0,
             "name": "LODIBIDON",
@@ -27689,16 +27700,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62e2cffe-07d5-11ef-8a3a-0242ac130004",
-                "name": "VICTORIUS AP GAMING"
+                "name": "VICTORIUS AP GAMING",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0f11f57c-0ce8-11ef-8efc-0242ac130004",
-                "name": "chipotle munchers"
+                "name": "chipotle munchers",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "62e2cffe-07d5-11ef-8a3a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0f11f57c-0ce8-11ef-8efc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "62e2cffe-07d5-11ef-8a3a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0f11f57c-0ce8-11ef-8efc-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 864,
@@ -29243,16 +29289,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "66db14e0-07d5-11ef-9905-0242ac130004",
-                "name": "Good Randoms"
+                "name": "Good Randoms",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73474822-0b52-11ef-aa79-0242ac130004",
-                "name": "SpenLC Simps"
+                "name": "SpenLC Simps",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "66db14e0-07d5-11ef-9905-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73474822-0b52-11ef-aa79-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "66db14e0-07d5-11ef-9905-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73474822-0b52-11ef-aa79-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 922,
@@ -31914,7 +31995,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0f11f57c-0ce8-11ef-8efc-0242ac130004",
+                "name": "chipotle munchers"
             },
             "opponent2": {
                 "id": null
@@ -32387,7 +32469,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "66db14e0-07d5-11ef-9905-0242ac130004",
+                "name": "Good Randoms"
             },
             "opponent2": {
                 "id": null
@@ -35965,10 +36048,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "73474822-0b52-11ef-aa79-0242ac130004",
+                "name": "SpenLC Simps"
             },
             "opponent2": {
-                "id": null
+                "id": "6c94a3f2-0a77-11ef-8e12-0242ac130004",
+                "name": "LODIBIDON"
             },
             "match_games": []
         },

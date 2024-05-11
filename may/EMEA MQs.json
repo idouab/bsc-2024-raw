@@ -24243,6 +24243,17 @@
             "img": ""
         },
         {
+            "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
+            "tournament_id": 0,
+            "name": "LMI eSports",
+            "players": [
+                "ﾌᴀｍᴀяᵏᵘˡᵗᶦᵐ",
+                "🚀Aleksiić塔",
+                "icy🥱"
+            ],
+            "img": ""
+        },
+        {
             "id": "3c586a42-0956-11ef-b3cd-0242ac130004",
             "tournament_id": 0,
             "name": "Vox",
@@ -32214,16 +32225,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f8452976-09f0-11ef-b087-0242ac130004",
-                "name": "ALDARCOSE"
+                "name": "ALDARCOSE",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
-                "name": "LMI eSports"
+                "name": "LMI eSports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "f8452976-09f0-11ef-b087-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f8452976-09f0-11ef-b087-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "f8452976-09f0-11ef-b087-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -56612,7 +56673,8 @@
                 "name": "SPICY EGGS"
             },
             "opponent2": {
-                "id": null
+                "id": "f8452976-09f0-11ef-b087-0242ac130004",
+                "name": "ALDARCOSE"
             },
             "match_games": []
         },
@@ -73419,7 +73481,8 @@
                 "name": "Edgers"
             },
             "opponent2": {
-                "id": null
+                "id": "4cab263e-0a7b-11ef-94c7-0242ac130004",
+                "name": "LMI eSports"
             },
             "match_games": []
         },

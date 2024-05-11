@@ -33102,6 +33102,17 @@
             "img": ""
         },
         {
+            "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
+            "tournament_id": 0,
+            "name": "PayDayGermany BERLIN",
+            "players": [
+                "⛩ |Tizi64 |🥀",
+                "marstarbln",
+                "EL REY PRIMO"
+            ],
+            "img": ""
+        },
+        {
             "id": "081b91fa-0b9f-11ef-a96f-0242ac130004",
             "tournament_id": 0,
             "name": "Team CBS",
@@ -58489,16 +58500,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ca9257bc-0a20-11ef-95cd-0242ac130004",
-                "name": "Bombs"
+                "name": "Bombs",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
-                "name": "LRE | 77"
+                "name": "LRE | 77",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ca9257bc-0a20-11ef-95cd-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ca9257bc-0a20-11ef-95cd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ca9257bc-0a20-11ef-95cd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ba6a9694-09d8-11ef-a489-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 671,
@@ -65997,16 +66058,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce187136-07d3-11ef-bb13-0242ac130004",
-                "name": "Nike Shox"
+                "name": "Nike Shox",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
-                "name": "PayDayGermany BERLIN"
+                "name": "PayDayGermany BERLIN",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ce187136-07d3-11ef-bb13-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ce187136-07d3-11ef-bb13-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ce187136-07d3-11ef-bb13-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 910,
@@ -76275,7 +76386,8 @@
                 "name": "BD"
             },
             "opponent2": {
-                "id": null
+                "id": "ca9257bc-0a20-11ef-95cd-0242ac130004",
+                "name": "Bombs"
             },
             "match_games": []
         },
@@ -78410,10 +78522,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ce187136-07d3-11ef-bb13-0242ac130004",
+                "name": "Nike Shox"
             },
             "opponent2": {
-                "id": null
+                "id": "3ee865c2-0a4c-11ef-a627-0242ac130004",
+                "name": "bad randoms"
             },
             "match_games": []
         },
@@ -95710,10 +95824,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e3ecc7de-0d44-11ef-bf11-0242ac130004",
+                "name": "PayDayGermany BERLIN"
             },
             "opponent2": {
-                "id": null
+                "id": "081b91fa-0b9f-11ef-a96f-0242ac130004",
+                "name": "Team CBS"
             },
             "match_games": []
         },

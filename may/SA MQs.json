@@ -29641,16 +29641,66 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79bae63e-07d6-11ef-9876-0242ac130004",
-                "name": "3DBR Black"
+                "name": "3DBR Black",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
-                "name": "ABUBACADOS F/A 🌴"
+                "name": "ABUBACADOS F/A 🌴",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cbabfc94-0bbe-11ef-b43e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 876,
@@ -42674,7 +42724,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                "name": "3DBR Black"
             },
             "opponent2": {
                 "id": null

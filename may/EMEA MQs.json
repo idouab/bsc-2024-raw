@@ -73717,16 +73717,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
-                "name": "The ArchAngels"
+                "name": "The ArchAngels",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c9182226-094f-11ef-a279-0242ac130004",
-                "name": "F/A SSJ"
+                "name": "F/A SSJ",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c9182226-094f-11ef-a279-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c9182226-094f-11ef-a279-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1636,
@@ -81955,7 +81990,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c9182226-094f-11ef-a279-0242ac130004",
+                "name": "F/A SSJ"
             },
             "opponent2": {
                 "id": null
@@ -107839,10 +107875,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fff6734e-0a10-11ef-9a3d-0242ac130004",
+                "name": "The ArchAngels"
             },
             "opponent2": {
-                "id": null
+                "id": "184bf516-0a3b-11ef-a862-0242ac130004",
+                "name": "Zagreb boys"
             },
             "match_games": []
         },

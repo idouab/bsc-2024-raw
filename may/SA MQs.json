@@ -19405,16 +19405,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c84fd05a-0bca-11ef-b93e-0242ac130004",
-                "name": "Warriors Team"
+                "name": "Warriors Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a421e48a-0cc8-11ef-abdb-0242ac130004",
-                "name": "Kravicula"
+                "name": "Kravicula",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c84fd05a-0bca-11ef-b93e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a421e48a-0cc8-11ef-abdb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c84fd05a-0bca-11ef-b93e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a421e48a-0cc8-11ef-abdb-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 422,
@@ -29603,10 +29638,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a421e48a-0cc8-11ef-abdb-0242ac130004",
+                "name": "Kravicula"
             },
             "opponent2": {
-                "id": null
+                "id": "552efdfe-0a2f-11ef-a8d8-0242ac130004",
+                "name": "Phantom Knights"
             },
             "match_games": []
         },

@@ -27964,6 +27964,18 @@
             "img": ""
         },
         {
+            "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
+            "tournament_id": 0,
+            "name": "Brown's Family",
+            "players": [
+                "Stalai Joker",
+                "Léo.pqr(fr)",
+                "Bouts De CHOU",
+                "🖤٨𝐠ɇ𝖓ţᴳօⅆ🖤"
+            ],
+            "img": ""
+        },
+        {
             "id": "dc342a20-098c-11ef-9229-0242ac130004",
             "tournament_id": 0,
             "name": "NIL Esports",
@@ -28106,6 +28118,17 @@
                 "說|MaldOID🎋",
                 "德|farabutto🎋",
                 "就|BusettOID🎋"
+            ],
+            "img": ""
+        },
+        {
+            "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+            "tournament_id": 0,
+            "name": "EXB",
+            "players": [
+                "𝙀𝙓𝘽|Ricardoᵐ",
+                "⚡jhonatan1101⚡",
+                "𝙀𝙓𝘽|Juanluu™"
             ],
             "img": ""
         },
@@ -43929,16 +43952,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d4207d6c-07d3-11ef-815d-0242ac130004",
-                "name": "CLD|Team"
+                "name": "CLD|Team",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
-                "name": "Brown's Family"
+                "name": "Brown's Family",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d4207d6c-07d3-11ef-815d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d4207d6c-07d3-11ef-815d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d4207d6c-07d3-11ef-815d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 456,
@@ -44330,16 +44403,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
-                "name": "EXB"
+                "name": "EXB",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6c4e7650-0c04-11ef-81ae-0242ac130004",
-                "name": "Oh waheeed"
+                "name": "Oh waheeed",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6c4e7650-0c04-11ef-81ae-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6c4e7650-0c04-11ef-81ae-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6c4e7650-0c04-11ef-81ae-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 470,
@@ -59104,10 +59227,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d4207d6c-07d3-11ef-815d-0242ac130004",
+                "name": "CLD|Team"
             },
             "opponent2": {
-                "id": null
+                "id": "cdd1fbf8-0aca-11ef-9402-0242ac130004",
+                "name": "lb"
             },
             "match_games": []
         },
@@ -59228,10 +59353,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c4e7650-0c04-11ef-81ae-0242ac130004",
+                "name": "Oh waheeed"
             },
             "opponent2": {
-                "id": null
+                "id": "991f809c-094e-11ef-b5ce-0242ac130004",
+                "name": "TMD Gaming"
             },
             "match_games": []
         },
@@ -75892,10 +76019,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a91244c0-0a08-11ef-97e6-0242ac130004",
+                "name": "Brown's Family"
             },
             "opponent2": {
-                "id": null
+                "id": "dc342a20-098c-11ef-9229-0242ac130004",
+                "name": "NIL Esports"
             },
             "match_games": []
         },
@@ -76016,10 +76145,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bcc49518-07d3-11ef-b41c-0242ac130004",
+                "name": "EXB"
             },
             "opponent2": {
-                "id": null
+                "id": "36ded9f0-0a11-11ef-b033-0242ac130004",
+                "name": "ASF Gaming"
             },
             "match_games": []
         },

@@ -2694,6 +2694,17 @@
             "img": ""
         },
         {
+            "id": "814a117e-0a1d-11ef-b12b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Yk",
+            "players": [
+                "しゃいせぇー",
+                "YK|harutam",
+                "イキイキした毎日"
+            ],
+            "img": ""
+        },
+        {
             "id": "8938e212-0b61-11ef-aa7d-0242ac130004",
             "tournament_id": 0,
             "name": "Jia Zhe one",
@@ -4661,16 +4672,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
-                "name": "Roopa Squad"
+                "name": "Roopa Squad",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f2856f10-0a30-11ef-a7f2-0242ac130004",
-                "name": "プロスター"
+                "name": "プロスター",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f2856f10-0a30-11ef-a7f2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f2856f10-0a30-11ef-a7f2-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f2856f10-0a30-11ef-a7f2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 67,
@@ -4836,16 +4897,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "814a117e-0a1d-11ef-b12b-0242ac130004",
-                "name": "Yk"
+                "name": "Yk",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3f821dc6-0ad2-11ef-b9eb-0242ac130004",
-                "name": "Sodium Chloride"
+                "name": "Sodium Chloride",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "814a117e-0a1d-11ef-b12b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f821dc6-0ad2-11ef-b9eb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "814a117e-0a1d-11ef-b12b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f821dc6-0ad2-11ef-b9eb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "814a117e-0a1d-11ef-b12b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f821dc6-0ad2-11ef-b9eb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 73,
@@ -6939,7 +7050,8 @@
                 "name": "Angelic"
             },
             "opponent2": {
-                "id": null
+                "id": "f2856f10-0a30-11ef-a7f2-0242ac130004",
+                "name": "プロスター"
             },
             "match_games": []
         },

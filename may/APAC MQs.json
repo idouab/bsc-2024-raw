@@ -15780,16 +15780,51 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a83477a0-09f7-11ef-b049-0242ac130004",
-                "name": "ezdub"
+                "name": "ezdub",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8accbf34-0951-11ef-850e-0242ac130004",
-                "name": "HGムチムチ隊"
+                "name": "HGムチムチ隊",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "a83477a0-09f7-11ef-b049-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "a83477a0-09f7-11ef-b049-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 337,
@@ -16488,7 +16523,8 @@
                 "name": "Midnight"
             },
             "opponent2": {
-                "id": null
+                "id": "8accbf34-0951-11ef-850e-0242ac130004",
+                "name": "HGムチムチ隊"
             },
             "match_games": []
         },

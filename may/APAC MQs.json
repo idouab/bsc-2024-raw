@@ -2548,6 +2548,17 @@
             "img": ""
         },
         {
+            "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
+            "tournament_id": 0,
+            "name": "神戸星城",
+            "players": [
+                "🐶しょう🐾",
+                "MELEA67",
+                "アクリル絵の具"
+            ],
+            "img": ""
+        },
+        {
             "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
             "tournament_id": 0,
             "name": "66% Black",
@@ -3506,16 +3517,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
-                "name": "蘑菇圈"
+                "name": "蘑菇圈",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
-                "name": "神戸星城"
+                "name": "神戸星城",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "76544e26-0a1b-11ef-bba8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 41,

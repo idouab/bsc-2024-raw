@@ -44952,16 +44952,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "75f228a0-07d6-11ef-978a-0242ac130004",
-                "name": "Texas burguer"
+                "name": "Texas burguer",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "75f228a0-07d6-11ef-978a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 958,
@@ -45168,16 +45203,51 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "753888b4-07d6-11ef-8c52-0242ac130004",
-                "name": "One Chance 🌎"
+                "name": "One Chance 🌎",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8733ca88-0a33-11ef-82fc-0242ac130004",
-                "name": "The Jokers 🙂‍↕️✋"
+                "name": "The Jokers 🙂‍↕️✋",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8733ca88-0a33-11ef-82fc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8733ca88-0a33-11ef-82fc-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 970,
@@ -45243,7 +45313,8 @@
                 "name": "Warriors Team"
             },
             "opponent2": {
-                "id": null
+                "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                "name": "SKCalalas"
             },
             "match_games": []
         },
@@ -45447,7 +45518,8 @@
                 "name": "Kaze Ikigaze"
             },
             "opponent2": {
-                "id": null
+                "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                "name": "One Chance 🌎"
             },
             "match_games": []
         },

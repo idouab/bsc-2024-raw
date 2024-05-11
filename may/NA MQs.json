@@ -10574,6 +10574,17 @@
             "img": ""
         },
         {
+            "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
+            "tournament_id": 0,
+            "name": "TMLD",
+            "players": [
+                "TMLD|RPM",
+                "TMLD|CASTRO",
+                "TMLD|LEGENDRE"
+            ],
+            "img": ""
+        },
+        {
             "id": "897e3e4a-09d9-11ef-8305-0242ac130004",
             "tournament_id": 0,
             "name": "RDG ACADEMY",
@@ -11526,6 +11537,18 @@
                 "spin_if_ur_gay",
                 "mój siur to",
                 "Nibs2.0"
+            ],
+            "img": ""
+        },
+        {
+            "id": "a3147b92-0995-11ef-b987-0242ac130004",
+            "tournament_id": 0,
+            "name": "Kasar",
+            "players": [
+                "kasar_samthepro",
+                "ALPHA",
+                "rage pas t nul",
+                "bilgun"
             ],
             "img": ""
         },
@@ -27668,16 +27691,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64f83d56-07d5-11ef-9c6d-0242ac130004",
-                "name": "Quackers"
+                "name": "Quackers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a3147b92-0995-11ef-b987-0242ac130004",
-                "name": "Kasar"
+                "name": "Kasar",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "64f83d56-07d5-11ef-9c6d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a3147b92-0995-11ef-b987-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64f83d56-07d5-11ef-9c6d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a3147b92-0995-11ef-b987-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "64f83d56-07d5-11ef-9c6d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a3147b92-0995-11ef-b987-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 778,
@@ -30143,16 +30216,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "674027d6-07d5-11ef-9ced-0242ac130004",
-                "name": "Brawlacticos"
+                "name": "Brawlacticos",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
-                "name": "TMLD"
+                "name": "TMLD",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 838,
@@ -36493,7 +36616,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64f83d56-07d5-11ef-9c6d-0242ac130004",
+                "name": "Quackers"
             },
             "opponent2": {
                 "id": null
@@ -37004,10 +37128,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                "name": "Brawlacticos"
             },
             "opponent2": {
-                "id": null
+                "id": "9a0a5b8c-0b31-11ef-9c0a-0242ac130004",
+                "name": "Dog Eaters"
             },
             "match_games": []
         },
@@ -42594,10 +42720,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7d31b8cc-0ab2-11ef-86e8-0242ac130004",
+                "name": "TMLD"
             },
             "opponent2": {
-                "id": null
+                "id": "897e3e4a-09d9-11ef-8305-0242ac130004",
+                "name": "RDG ACADEMY"
             },
             "match_games": []
         },
@@ -43506,10 +43634,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a3147b92-0995-11ef-b987-0242ac130004",
+                "name": "Kasar"
             },
             "opponent2": {
-                "id": null
+                "id": "164052b6-0f7d-11ef-b0d0-0242ac130004",
+                "name": "Bambusses"
             },
             "match_games": []
         },

@@ -39842,16 +39842,51 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e774c30c-0970-11ef-9d69-0242ac130004",
-                "name": "PE/LIRKENS🇵🇪"
+                "name": "PE/LIRKENS🇵🇪",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c12f7716-0a4a-11ef-a25c-0242ac130004",
-                "name": "Los Rechuchaboys"
+                "name": "Los Rechuchaboys",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c12f7716-0a4a-11ef-a25c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c12f7716-0a4a-11ef-a25c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 813,
@@ -41262,10 +41297,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e774c30c-0970-11ef-9d69-0242ac130004",
+                "name": "PE/LIRKENS🇵🇪"
             },
             "opponent2": {
-                "id": null
+                "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                "name": "SKCalalas"
             },
             "match_games": []
         },

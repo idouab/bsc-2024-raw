@@ -2672,6 +2672,17 @@
             "img": ""
         },
         {
+            "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
+            "tournament_id": 0,
+            "name": "うぅどん",
+            "players": [
+                "おいしいうぅどん",
+                "ウイエ",
+                "ユソハ"
+            ],
+            "img": ""
+        },
+        {
             "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
             "tournament_id": 0,
             "name": "66% Black",
@@ -4549,16 +4560,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
-                "name": "うぅどん"
+                "name": "うぅどん",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5b218d78-09e7-11ef-9647-0242ac130004",
-                "name": "防風鈴"
+                "name": "防風鈴",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 64,
@@ -6857,7 +6918,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5b218d78-09e7-11ef-9647-0242ac130004",
+                "name": "防風鈴"
             },
             "opponent2": {
                 "id": null
@@ -8637,7 +8699,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "53ac8d42-07d3-11ef-8773-0242ac130004",
+                "name": "うぅどん"
             },
             "opponent2": {
                 "id": null

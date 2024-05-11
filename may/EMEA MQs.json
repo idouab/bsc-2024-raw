@@ -33407,6 +33407,17 @@
             "img": ""
         },
         {
+            "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
+            "tournament_id": 0,
+            "name": "CG|Crasher",
+            "players": [
+                "ASKALAT|🎭",
+                "DIENOWBRO1 | 🎭",
+                "ANDY|🎭"
+            ],
+            "img": ""
+        },
+        {
             "id": "e56622d4-097c-11ef-b18d-0242ac130004",
             "tournament_id": 0,
             "name": "Estonia Esports",
@@ -67434,16 +67445,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d9a20e04-07d3-11ef-9751-0242ac130004",
-                "name": "Black death"
+                "name": "Black death",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
-                "name": "CG|Crasher"
+                "name": "CG|Crasher",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d9a20e04-07d3-11ef-9751-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d9a20e04-07d3-11ef-9751-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d9a20e04-07d3-11ef-9751-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 920,
@@ -79708,10 +79769,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d9a20e04-07d3-11ef-9751-0242ac130004",
+                "name": "Black death"
             },
             "opponent2": {
-                "id": null
+                "id": "d33d51f4-07d3-11ef-95de-0242ac130004",
+                "name": "Gitanss"
             },
             "match_games": []
         },
@@ -97037,10 +97100,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cdfc4b82-07d3-11ef-9a69-0242ac130004",
+                "name": "CG|Crasher"
             },
             "opponent2": {
-                "id": null
+                "id": "e56622d4-097c-11ef-b18d-0242ac130004",
+                "name": "Estonia Esports"
             },
             "match_games": []
         },

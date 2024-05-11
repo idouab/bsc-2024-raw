@@ -2559,6 +2559,18 @@
             "img": ""
         },
         {
+            "id": "88a8924c-0aef-11ef-94f3-0242ac130004",
+            "tournament_id": 0,
+            "name": "HIGH ROSS",
+            "players": [
+                "채나비",
+                "봄감자",
+                "Arty",
+                "🌪️Zen|Krish™️"
+            ],
+            "img": ""
+        },
+        {
             "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
             "tournament_id": 0,
             "name": "TAKE OUT",
@@ -3701,16 +3713,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88a8924c-0aef-11ef-94f3-0242ac130004",
-                "name": "HIGH ROSS"
+                "name": "HIGH ROSS",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5384a212-0960-11ef-b904-0242ac130004",
-                "name": "Bomboclaat"
+                "name": "Bomboclaat",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "88a8924c-0aef-11ef-94f3-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "88a8924c-0aef-11ef-94f3-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5384a212-0960-11ef-b904-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 49,
@@ -3787,16 +3834,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
-                "name": "Peak Radiance"
+                "name": "Peak Radiance",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
-                "name": "TAKE OUT"
+                "name": "TAKE OUT",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2d5b6cb0-09d3-11ef-8b7a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 52,
@@ -5830,7 +5912,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6939d7a6-0c7d-11ef-9de5-0242ac130004",
+                "name": "Peak Radiance"
             },
             "opponent2": {
                 "id": null

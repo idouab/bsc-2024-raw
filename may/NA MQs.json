@@ -8522,6 +8522,17 @@
             "img": ""
         },
         {
+            "id": "ae56bc34-0fa5-11ef-82eb-0242ac130004",
+            "tournament_id": 0,
+            "name": "Os Marca-Diabo",
+            "players": [
+                "Kyrama",
+                "LBaccin",
+                "NeewⓉ"
+            ],
+            "img": ""
+        },
+        {
             "id": "290c4e38-0e27-11ef-91f9-0242ac130004",
             "tournament_id": 0,
             "name": "420 Esports",
@@ -10222,6 +10233,17 @@
                 "1Nonly",
                 "coolguy360",
                 "🥀Yo boy🥀"
+            ],
+            "img": ""
+        },
+        {
+            "id": "6032e378-0bbf-11ef-8813-0242ac130004",
+            "tournament_id": 0,
+            "name": "UAG",
+            "players": [
+                "Sarao",
+                "CR4KS1T0",
+                "AlejandroJGA"
             ],
             "img": ""
         },
@@ -27377,16 +27399,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6032e378-0bbf-11ef-8813-0242ac130004",
-                "name": "UAG"
+                "name": "UAG",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1fa6d168-0a87-11ef-baf9-0242ac130004",
-                "name": "KissKlan"
+                "name": "KissKlan",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6032e378-0bbf-11ef-8813-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1fa6d168-0a87-11ef-baf9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6032e378-0bbf-11ef-8813-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1fa6d168-0a87-11ef-baf9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 833,
@@ -31193,16 +31250,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "76f9fcc4-0cf8-11ef-a1d4-0242ac130004",
-                "name": "Jigglers"
+                "name": "Jigglers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ae56bc34-0fa5-11ef-82eb-0242ac130004",
-                "name": "Os Marca-Diabo"
+                "name": "Os Marca-Diabo",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "76f9fcc4-0cf8-11ef-a1d4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae56bc34-0fa5-11ef-82eb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "76f9fcc4-0cf8-11ef-a1d4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae56bc34-0fa5-11ef-82eb-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 975,
@@ -32414,7 +32506,8 @@
                 "name": "Oinkers Reborn"
             },
             "opponent2": {
-                "id": null
+                "id": "1fa6d168-0a87-11ef-baf9-0242ac130004",
+                "name": "KissKlan"
             },
             "match_games": []
         },
@@ -33574,7 +33667,8 @@
                 "name": "ZTMN babys"
             },
             "opponent2": {
-                "id": null
+                "id": "76f9fcc4-0cf8-11ef-a1d4-0242ac130004",
+                "name": "Jigglers"
             },
             "match_games": []
         },
@@ -35965,10 +36059,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ae56bc34-0fa5-11ef-82eb-0242ac130004",
+                "name": "Os Marca-Diabo"
             },
             "opponent2": {
-                "id": null
+                "id": "290c4e38-0e27-11ef-91f9-0242ac130004",
+                "name": "420 Esports"
             },
             "match_games": []
         },
@@ -38019,10 +38115,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6032e378-0bbf-11ef-8813-0242ac130004",
+                "name": "UAG"
             },
             "opponent2": {
-                "id": null
+                "id": "da91f5c0-0b3b-11ef-a5f5-0242ac130004",
+                "name": "Avening Lost"
             },
             "match_games": []
         },

@@ -28970,6 +28970,17 @@
             "img": ""
         },
         {
+            "id": "21034c80-0b9f-11ef-9559-0242ac130004",
+            "tournament_id": 0,
+            "name": "LZX | e-gamer",
+            "players": [
+                "🎋LuxZX•47💫",
+                "killer",
+                "FO|G4B Yoshi"
+            ],
+            "img": ""
+        },
+        {
             "id": "bbb02b6e-0ac2-11ef-9572-0242ac130004",
             "tournament_id": 0,
             "name": "Scopas E-sports",
@@ -34124,6 +34135,17 @@
                 "東Tσмσdαcнi🎃",
                 "東Cℓємi🎃",
                 "TT|Gabryy❤️‍🔥"
+            ],
+            "img": ""
+        },
+        {
+            "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
+            "tournament_id": 0,
+            "name": "TAP",
+            "players": [
+                "RV|Karbozz❤️‍🔥",
+                "Pepito🧸ルダーウク💕",
+                "Ayzen🧸ルダーウク💕"
             ],
             "img": ""
         },
@@ -53629,16 +53651,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aae0ecac-07d3-11ef-b7ab-0242ac130004",
-                "name": "BDGforEVER"
+                "name": "BDGforEVER",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "21034c80-0b9f-11ef-9559-0242ac130004",
-                "name": "LZX | e-gamer"
+                "name": "LZX | e-gamer",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "aae0ecac-07d3-11ef-b7ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "21034c80-0b9f-11ef-9559-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "aae0ecac-07d3-11ef-b7ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "21034c80-0b9f-11ef-9559-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 520,
@@ -70088,16 +70145,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c68f2978-07d3-11ef-afc9-0242ac130004",
-                "name": "Good Gamers"
+                "name": "Good Gamers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
-                "name": "TAP"
+                "name": "TAP",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c68f2978-07d3-11ef-afc9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c68f2978-07d3-11ef-afc9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c68f2978-07d3-11ef-afc9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 981,
@@ -76463,10 +76570,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "aae0ecac-07d3-11ef-b7ab-0242ac130004",
+                "name": "BDGforEVER"
             },
             "opponent2": {
-                "id": null
+                "id": "fabfe802-0b81-11ef-94d7-0242ac130004",
+                "name": "VIP"
             },
             "match_games": []
         },
@@ -80603,7 +80712,8 @@
                 "name": "XeN ESPORTS"
             },
             "opponent2": {
-                "id": null
+                "id": "c68f2978-07d3-11ef-afc9-0242ac130004",
+                "name": "Good Gamers"
             },
             "match_games": []
         },
@@ -93802,10 +93912,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "21034c80-0b9f-11ef-9559-0242ac130004",
+                "name": "LZX | e-gamer"
             },
             "opponent2": {
-                "id": null
+                "id": "bbb02b6e-0ac2-11ef-9572-0242ac130004",
+                "name": "Scopas E-sports"
             },
             "match_games": []
         },
@@ -97942,7 +98054,8 @@
                 "name": "Owned"
             },
             "opponent2": {
-                "id": null
+                "id": "04ff8ee0-0992-11ef-8380-0242ac130004",
+                "name": "TAP"
             },
             "match_games": []
         },

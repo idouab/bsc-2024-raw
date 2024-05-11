@@ -6730,6 +6730,18 @@
             "img": ""
         },
         {
+            "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sapecas",
+            "players": [
+                "Dry",
+                "DZB | Rudi",
+                "Thiago Defeitos",
+                "Løͥvͣeͫͫra⁰⁰⁷ッ"
+            ],
+            "img": ""
+        },
+        {
             "id": "ea4c1120-0be1-11ef-931b-0242ac130004",
             "tournament_id": 0,
             "name": "MERCOSUR",
@@ -7940,6 +7952,17 @@
                 "TheJAAZ",
                 "RagnarLB",
                 "Ancient Warrior"
+            ],
+            "img": ""
+        },
+        {
+            "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
+            "tournament_id": 0,
+            "name": "Mancos bellacos",
+            "players": [
+                "El Rey Jalea",
+                "Terr×r",
+                "xMax_Orzx"
             ],
             "img": ""
         },
@@ -11864,16 +11887,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
-                "name": "Sapecas"
+                "name": "Sapecas",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "53f7315c-0da6-11ef-a352-0242ac130004",
-                "name": "Lei da Fuinha"
+                "name": "Lei da Fuinha",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 94,
@@ -16092,16 +16165,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
-                "name": "Mancos bellacos"
+                "name": "Mancos bellacos",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
-                "name": "Team Kioby"
+                "name": "Team Kioby",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 209,
@@ -18437,10 +18560,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                "name": "Lei da Fuinha"
             },
             "opponent2": {
-                "id": null
+                "id": "434f33d4-0966-11ef-a858-0242ac130004",
+                "name": "ALFAS"
             },
             "match_games": []
         },
@@ -19461,7 +19586,8 @@
                 "name": "GAMEOVER ZERO"
             },
             "opponent2": {
-                "id": null
+                "id": "1a244e84-0b02-11ef-96a7-0242ac130004",
+                "name": "Team Kioby"
             },
             "match_games": []
         },
@@ -22700,10 +22826,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a50dbc6-07d6-11ef-be57-0242ac130004",
+                "name": "Sapecas"
             },
             "opponent2": {
-                "id": null
+                "id": "ea4c1120-0be1-11ef-931b-0242ac130004",
+                "name": "MERCOSUR"
             },
             "match_games": []
         },
@@ -23688,7 +23816,8 @@
                 "name": "Los Walker"
             },
             "opponent2": {
-                "id": null
+                "id": "77d23c46-07d6-11ef-81ee-0242ac130004",
+                "name": "Mancos bellacos"
             },
             "match_games": []
         },

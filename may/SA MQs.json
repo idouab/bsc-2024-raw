@@ -19841,16 +19841,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53f7315c-0da6-11ef-a352-0242ac130004",
-                "name": "Lei da Fuinha"
+                "name": "Lei da Fuinha",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "434f33d4-0966-11ef-a858-0242ac130004",
-                "name": "ALFAS"
+                "name": "ALFAS",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "434f33d4-0966-11ef-a858-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "434f33d4-0966-11ef-a858-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "434f33d4-0966-11ef-a858-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 429,
@@ -24108,10 +24158,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "434f33d4-0966-11ef-a858-0242ac130004",
+                "name": "ALFAS"
             },
             "opponent2": {
-                "id": null
+                "id": "775048f8-07d6-11ef-8f5a-0242ac130004",
+                "name": "Los Capullos FC"
             },
             "match_games": []
         },
@@ -30187,7 +30239,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "53f7315c-0da6-11ef-a352-0242ac130004",
+                "name": "Lei da Fuinha"
             },
             "opponent2": {
                 "id": null

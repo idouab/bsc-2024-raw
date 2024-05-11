@@ -29253,16 +29253,66 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9898b91c-07d8-11ef-801e-0242ac130004",
-                "name": "Level Esports"
+                "name": "Level Esports",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "783771a6-07d6-11ef-83c7-0242ac130004",
-                "name": "Mochilas"
+                "name": "Mochilas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 865,
@@ -30020,10 +30070,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                "name": "Mochilas"
             },
             "opponent2": {
-                "id": null
+                "id": "78a914fa-07d6-11ef-b456-0242ac130004",
+                "name": "Blue Lock⚽"
             },
             "match_games": []
         },
@@ -43005,7 +43057,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                "name": "Level Esports"
             },
             "opponent2": {
                 "id": null

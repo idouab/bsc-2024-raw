@@ -29150,6 +29150,17 @@
             "img": ""
         },
         {
+            "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
+            "tournament_id": 0,
+            "name": "JB | GAMING",
+            "players": [
+                "alfablackhawk77",
+                "War¥o",
+                "bokuaka"
+            ],
+            "img": ""
+        },
+        {
             "id": "1b780240-0a48-11ef-a88a-0242ac130004",
             "tournament_id": 0,
             "name": "Abufishy🐡🐡🐡🐡",
@@ -54010,16 +54021,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d3301444-07d3-11ef-bcdc-0242ac130004",
-                "name": "SunFire"
+                "name": "SunFire",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
-                "name": "JB | GAMING"
+                "name": "JB | GAMING",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d3301444-07d3-11ef-bcdc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d3301444-07d3-11ef-bcdc-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "d3301444-07d3-11ef-bcdc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 537,
@@ -75862,7 +75923,8 @@
                 "name": "ICE||CORP"
             },
             "opponent2": {
-                "id": null
+                "id": "d3301444-07d3-11ef-bcdc-0242ac130004",
+                "name": "SunFire"
             },
             "match_games": []
         },
@@ -93182,7 +93244,8 @@
                 "name": "Sword art online"
             },
             "opponent2": {
-                "id": null
+                "id": "531d8ef2-097d-11ef-ac38-0242ac130004",
+                "name": "JB | GAMING"
             },
             "match_games": []
         },

@@ -9540,6 +9540,17 @@
             "img": ""
         },
         {
+            "id": "a72aaa30-0963-11ef-9229-0242ac130004",
+            "tournament_id": 0,
+            "name": "IL | THG",
+            "players": [
+                "star M🌟🌠✨",
+                "I king👑",
+                "dark[shot]😈"
+            ],
+            "img": ""
+        },
+        {
             "id": "b0e8448e-0f98-11ef-8fe4-0242ac130004",
             "tournament_id": 0,
             "name": "Losmances",
@@ -9702,6 +9713,18 @@
                 "ORA|adrl3n",
                 "ORA|WayPointt",
                 "ORA|Cero"
+            ],
+            "img": ""
+        },
+        {
+            "id": "e486a06e-0a9e-11ef-9c70-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Storm",
+            "players": [
+                "ŮR!£L",
+                "DS | Bislam X ⭐",
+                "༄Rzm64⛩",
+                "for 100 drops😎"
             ],
             "img": ""
         },
@@ -28542,16 +28565,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e486a06e-0a9e-11ef-9c70-0242ac130004",
-                "name": "Team Storm"
+                "name": "Team Storm",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
-                "name": "Unforgettable"
+                "name": "Unforgettable",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "e486a06e-0a9e-11ef-9c70-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "e486a06e-0a9e-11ef-9c70-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 879,
@@ -28996,16 +29054,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
-                "name": "MAA LuismiBoy's"
+                "name": "MAA LuismiBoy's",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a72aaa30-0963-11ef-9229-0242ac130004",
-                "name": "IL | THG"
+                "name": "IL | THG",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a72aaa30-0963-11ef-9229-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a72aaa30-0963-11ef-9229-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a72aaa30-0963-11ef-9229-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 892,
@@ -32994,7 +33102,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                "name": "MAA LuismiBoy's"
             },
             "opponent2": {
                 "id": null
@@ -37263,10 +37372,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a72aaa30-0963-11ef-9229-0242ac130004",
+                "name": "IL | THG"
             },
             "opponent2": {
-                "id": null
+                "id": "b0e8448e-0f98-11ef-8fe4-0242ac130004",
+                "name": "Losmances"
             },
             "match_games": []
         },
@@ -37447,10 +37558,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e486a06e-0a9e-11ef-9c70-0242ac130004",
+                "name": "Team Storm"
             },
             "opponent2": {
-                "id": null
+                "id": "83c5e95e-0e33-11ef-8851-0242ac130004",
+                "name": "CRU | SGMS"
             },
             "match_games": []
         },

@@ -5971,6 +5971,18 @@
             "img": ""
         },
         {
+            "id": "6f15b1e0-0f02-11ef-ac08-0242ac130004",
+            "tournament_id": 0,
+            "name": "ProPlays",
+            "players": [
+                "CRAQUE MESTRE",
+                "Davse :-D",
+                "Zeus",
+                "Perrobomba17"
+            ],
+            "img": ""
+        },
+        {
             "id": "2f7dd8e6-0980-11ef-a6fd-0242ac130004",
             "tournament_id": 0,
             "name": "IC Sports",
@@ -6012,6 +6024,18 @@
                 "ADES",
                 "ZEUS",
                 "ARES"
+            ],
+            "img": ""
+        },
+        {
+            "id": "825d5bea-0e62-11ef-9cb3-0242ac130004",
+            "tournament_id": 0,
+            "name": "TOTTEM PE",
+            "players": [
+                "ANDRES BC🐣💛",
+                "TX|Tegui11🦉",
+                "杀 |ʙᴇɴᴊɪ 🥀",
+                "SK|GuilleVGX"
             ],
             "img": ""
         },
@@ -6067,6 +6091,17 @@
                 "Tiktok:Matiztq",
                 "MeLaJaloCon",
                 "Cunumi"
+            ],
+            "img": ""
+        },
+        {
+            "id": "77030358-0a6b-11ef-a05b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Le’s Cabreus",
+            "players": [
+                "HowToLeon",
+                "Howtomortis",
+                "rolopersamomo"
             ],
             "img": ""
         },
@@ -9282,16 +9317,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "755c15c2-07d6-11ef-9eab-0242ac130004",
-                "name": "🇵🇪PERUVIAN STARS🏆"
+                "name": "🇵🇪PERUVIAN STARS🏆",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6f15b1e0-0f02-11ef-ac08-0242ac130004",
-                "name": "ProPlays"
+                "name": "ProPlays",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "755c15c2-07d6-11ef-9eab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f15b1e0-0f02-11ef-ac08-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "755c15c2-07d6-11ef-9eab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f15b1e0-0f02-11ef-ac08-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 122,
@@ -10066,16 +10136,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "825d5bea-0e62-11ef-9cb3-0242ac130004",
-                "name": "TOTTEM PE"
+                "name": "TOTTEM PE",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d8dca3d2-0b55-11ef-af15-0242ac130004",
-                "name": "Legend Prime👾💛"
+                "name": "Legend Prime👾💛",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "825d5bea-0e62-11ef-9cb3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d8dca3d2-0b55-11ef-af15-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "825d5bea-0e62-11ef-9cb3-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d8dca3d2-0b55-11ef-af15-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -11012,16 +11117,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "77030358-0a6b-11ef-a05b-0242ac130004",
-                "name": "Le’s Cabreus"
+                "name": "Le’s Cabreus",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b3c65a4c-0a84-11ef-81ed-0242ac130004",
-                "name": "ENZO QUEBRA COCO"
+                "name": "ENZO QUEBRA COCO",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "77030358-0a6b-11ef-a05b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b3c65a4c-0a84-11ef-81ed-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "77030358-0a6b-11ef-a05b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b3c65a4c-0a84-11ef-81ed-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 199,
@@ -13368,7 +13508,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "755c15c2-07d6-11ef-9eab-0242ac130004",
+                "name": "🇵🇪PERUVIAN STARS🏆"
             },
             "opponent2": {
                 "id": null
@@ -13643,7 +13784,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d8dca3d2-0b55-11ef-af15-0242ac130004",
+                "name": "Legend Prime👾💛"
             },
             "opponent2": {
                 "id": null
@@ -17412,7 +17554,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6f15b1e0-0f02-11ef-ac08-0242ac130004",
+                "name": "ProPlays"
             },
             "opponent2": {
                 "id": null
@@ -17669,7 +17812,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "825d5bea-0e62-11ef-9cb3-0242ac130004",
+                "name": "TOTTEM PE"
             },
             "opponent2": {
                 "id": null

@@ -37308,16 +37308,66 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "35767b18-09c1-11ef-8225-0242ac130004",
-                "name": "El escuadron tuaton"
+                "name": "El escuadron tuaton",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
-                "name": "CBM|🐸"
+                "name": "CBM|🐸",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 724,
@@ -39091,7 +39141,8 @@
                 "name": "DA | ⭐♥️🥀Mini_Bazán"
             },
             "opponent2": {
-                "id": null
+                "id": "ec5c4520-0a51-11ef-907a-0242ac130004",
+                "name": "CBM|🐸"
             },
             "match_games": []
         },

@@ -29545,6 +29545,18 @@
             "img": ""
         },
         {
+            "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
+            "tournament_id": 0,
+            "name": "italia🇮🇹",
+            "players": [
+                "PG|BLACKTOMB",
+                "Denis",
+                "ʟզㅤ⁝ㅤLink",
+                "stephyon"
+            ],
+            "img": ""
+        },
+        {
             "id": "1f0625c6-0bca-11ef-83b7-0242ac130004",
             "tournament_id": 0,
             "name": "BalticBears",
@@ -55162,16 +55174,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1936de08-0b73-11ef-b6fc-0242ac130004",
-                "name": "NA Esports"
+                "name": "NA Esports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
-                "name": "italia🇮🇹"
+                "name": "italia🇮🇹",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "1936de08-0b73-11ef-b6fc-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1936de08-0b73-11ef-b6fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "1936de08-0b73-11ef-b6fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 713,
@@ -70683,7 +70745,8 @@
                 "name": "Hadzhi Dimitar"
             },
             "opponent2": {
-                "id": null
+                "id": "1936de08-0b73-11ef-b6fc-0242ac130004",
+                "name": "NA Esports"
             },
             "match_games": []
         },
@@ -87627,7 +87690,8 @@
                 "name": "WASB"
             },
             "opponent2": {
-                "id": null
+                "id": "122ff7da-0ac8-11ef-af6f-0242ac130004",
+                "name": "italia🇮🇹"
             },
             "match_games": []
         },

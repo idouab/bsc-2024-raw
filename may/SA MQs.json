@@ -26186,16 +26186,51 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "75557b2e-0978-11ef-9b30-0242ac130004",
-                "name": "Brothers"
+                "name": "Brothers",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 700,
@@ -26818,7 +26853,8 @@
                 "name": "Olimpo Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                "name": "Aurora Gaming"
             },
             "match_games": []
         },
@@ -35031,7 +35067,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "75557b2e-0978-11ef-9b30-0242ac130004",
+                "name": "Brothers"
             },
             "opponent2": {
                 "id": null

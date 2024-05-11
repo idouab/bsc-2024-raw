@@ -32494,16 +32494,66 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
-                "name": "Los bukele"
+                "name": "Los bukele",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "35767b18-09c1-11ef-8225-0242ac130004",
-                "name": "El escuadron tuaton"
+                "name": "El escuadron tuaton",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "530b5704-0ba9-11ef-96b4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 553,
@@ -34980,7 +35030,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "35767b18-09c1-11ef-8225-0242ac130004",
+                "name": "El escuadron tuaton"
             },
             "opponent2": {
                 "id": null

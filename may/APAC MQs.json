@@ -13377,16 +13377,51 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a1313366-07d7-11ef-8dce-0242ac130004",
-                "name": "Angelic"
+                "name": "Angelic",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
-                "name": "アヒル同好会"
+                "name": "アヒル同好会",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "a1313366-07d7-11ef-8dce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "a1313366-07d7-11ef-8dce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 429,
@@ -18836,16 +18871,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
-                "name": "Roopa Squad"
+                "name": "Roopa Squad",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "99d28350-0b78-11ef-90f2-0242ac130004",
-                "name": "F/A Washed"
+                "name": "F/A Washed",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "99d28350-0b78-11ef-90f2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "71d39340-0abe-11ef-9b7e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "99d28350-0b78-11ef-90f2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 419,
@@ -19122,7 +19192,8 @@
                 "name": "💫MSO❄️"
             },
             "opponent2": {
-                "id": null
+                "id": "99d28350-0b78-11ef-90f2-0242ac130004",
+                "name": "F/A Washed"
             },
             "match_games": []
         },
@@ -19582,7 +19653,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "51d2eef8-07d3-11ef-9a88-0242ac130004",
+                "name": "アヒル同好会"
             },
             "opponent2": {
                 "id": null

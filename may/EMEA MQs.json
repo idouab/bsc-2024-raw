@@ -98944,16 +98944,51 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cd1261b6-07d3-11ef-b1e2-0242ac130004",
-                "name": "TTN|TOTEN"
+                "name": "TTN|TOTEN",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "da6b265a-0985-11ef-af4a-0242ac130004",
-                "name": "Marko"
+                "name": "Marko",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "cd1261b6-07d3-11ef-b1e2-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "da6b265a-0985-11ef-af4a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "cd1261b6-07d3-11ef-b1e2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "da6b265a-0985-11ef-af4a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1481,

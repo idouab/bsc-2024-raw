@@ -2559,6 +2559,18 @@
             "img": ""
         },
         {
+            "id": "4fbd9dbe-0bb3-11ef-936f-0242ac130004",
+            "tournament_id": 0,
+            "name": "OLD TURTLE",
+            "players": [
+                "OL | Nickname",
+                "Anya Forger",
+                "𝐌 𝐈𝐈 𝐍",
+                "OL | KKamo"
+            ],
+            "img": ""
+        },
+        {
             "id": "1b409702-0ad8-11ef-b0a6-0242ac130004",
             "tournament_id": 0,
             "name": "神戸星城",
@@ -3545,16 +3557,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4fbd9dbe-0bb3-11ef-936f-0242ac130004",
-                "name": "OLD TURTLE"
+                "name": "OLD TURTLE",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "225abb8e-0c14-11ef-acec-0242ac130004",
-                "name": "TEAM INSANE"
+                "name": "TEAM INSANE",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "4fbd9dbe-0bb3-11ef-936f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "225abb8e-0c14-11ef-acec-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "4fbd9dbe-0bb3-11ef-936f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "225abb8e-0c14-11ef-acec-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 36,
@@ -4531,16 +4578,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d162da1c-0ae3-11ef-ba97-0242ac130004",
-                "name": "現代の倫理"
+                "name": "現代の倫理",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e2505852-0a9a-11ef-9b0c-0242ac130004",
-                "name": "おさるのショーン"
+                "name": "おさるのショーン",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d162da1c-0ae3-11ef-ba97-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2505852-0a9a-11ef-9b0c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d162da1c-0ae3-11ef-ba97-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2505852-0a9a-11ef-9b0c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 79,
@@ -6048,7 +6130,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "225abb8e-0c14-11ef-acec-0242ac130004",
+                "name": "TEAM INSANE"
             },
             "opponent2": {
                 "id": null
@@ -6402,7 +6485,8 @@
                 "name": "MO' RESILIENCE"
             },
             "opponent2": {
-                "id": null
+                "id": "d162da1c-0ae3-11ef-ba97-0242ac130004",
+                "name": "現代の倫理"
             },
             "match_games": []
         },
@@ -7939,7 +8023,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4fbd9dbe-0bb3-11ef-936f-0242ac130004",
+                "name": "OLD TURTLE"
             },
             "opponent2": {
                 "id": null

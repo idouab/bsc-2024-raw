@@ -75422,16 +75422,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6ef97f8c-09eb-11ef-9fc2-0242ac130004",
-                "name": "Les pupuces"
+                "name": "Les pupuces",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "fa8be508-0a1d-11ef-ba49-0242ac130004",
-                "name": "Ares auf WC"
+                "name": "Ares auf WC",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6ef97f8c-09eb-11ef-9fc2-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "fa8be508-0a1d-11ef-ba49-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6ef97f8c-09eb-11ef-9fc2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fa8be508-0a1d-11ef-ba49-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6ef97f8c-09eb-11ef-9fc2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "fa8be508-0a1d-11ef-ba49-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1625,
@@ -91590,7 +91640,8 @@
                 "name": "Pavlovi"
             },
             "opponent2": {
-                "id": null
+                "id": "6ef97f8c-09eb-11ef-9fc2-0242ac130004",
+                "name": "Les pupuces"
             },
             "match_games": []
         },
@@ -118939,10 +118990,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "fa8be508-0a1d-11ef-ba49-0242ac130004",
+                "name": "Ares auf WC"
             },
             "opponent2": {
-                "id": null
+                "id": "4aabb1d8-096c-11ef-b682-0242ac130004",
+                "name": "LEM | Savage"
             },
             "match_games": []
         },

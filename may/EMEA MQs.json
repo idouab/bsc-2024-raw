@@ -34071,6 +34071,17 @@
             "img": ""
         },
         {
+            "id": "b8e441da-098d-11ef-a748-0242ac130004",
+            "tournament_id": 0,
+            "name": "Freezy E-Sports",
+            "players": [
+                "FRZ|Oli ッ",
+                "FRZ | Ad1ix ッ",
+                "FRZ|bra ッ"
+            ],
+            "img": ""
+        },
+        {
             "id": "34e96f74-0cba-11ef-b085-0242ac130004",
             "tournament_id": 0,
             "name": "FLYING DUTCHMAN",
@@ -69828,16 +69839,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3433620-07d3-11ef-a71b-0242ac130004",
-                "name": "-AllBacks-"
+                "name": "-AllBacks-",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b8e441da-098d-11ef-a748-0242ac130004",
-                "name": "Freezy E-Sports"
+                "name": "Freezy E-Sports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "b3433620-07d3-11ef-a71b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b8e441da-098d-11ef-a748-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b3433620-07d3-11ef-a71b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b8e441da-098d-11ef-a748-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 975,
@@ -80505,7 +80551,8 @@
                 "name": "o block"
             },
             "opponent2": {
-                "id": null
+                "id": "b3433620-07d3-11ef-a71b-0242ac130004",
+                "name": "-AllBacks-"
             },
             "match_games": []
         },
@@ -97843,7 +97890,8 @@
                 "name": "Fluit MemeTeam"
             },
             "opponent2": {
-                "id": null
+                "id": "b8e441da-098d-11ef-a748-0242ac130004",
+                "name": "Freezy E-Sports"
             },
             "match_games": []
         },

@@ -9902,16 +9902,66 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "523366f2-07d3-11ef-b948-0242ac130004",
-                "name": "ケイワイプレイヤー"
+                "name": "ケイワイプレイヤー",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e285b2f2-094d-11ef-ac23-0242ac130004",
-                "name": "Pantgraph"
+                "name": "Pantgraph",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e285b2f2-094d-11ef-ac23-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e285b2f2-094d-11ef-ac23-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e285b2f2-094d-11ef-ac23-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 221,
@@ -10638,10 +10688,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e285b2f2-094d-11ef-ac23-0242ac130004",
+                "name": "Pantgraph"
             },
             "opponent2": {
-                "id": null
+                "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                "name": "ASIANO1"
             },
             "match_games": []
         },
@@ -11956,10 +12008,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "523366f2-07d3-11ef-b948-0242ac130004",
+                "name": "ケイワイプレイヤー"
             },
             "opponent2": {
-                "id": null
+                "id": "53bcbfa0-07d3-11ef-9249-0242ac130004",
+                "name": "Naku"
             },
             "match_games": []
         },

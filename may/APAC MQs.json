@@ -8761,16 +8761,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "528ab8d0-07d3-11ef-8635-0242ac130004",
-                "name": "Kinchana"
+                "name": "Kinchana",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b1773a8a-0945-11ef-a68e-0242ac130004",
-                "name": "HSH"
+                "name": "HSH",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "528ab8d0-07d3-11ef-8635-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1773a8a-0945-11ef-a68e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "528ab8d0-07d3-11ef-8635-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1773a8a-0945-11ef-a68e-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 199,
@@ -9385,16 +9420,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "521138a2-07d3-11ef-b3de-0242ac130004",
-                "name": "Cowboys"
+                "name": "Cowboys",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
-                "name": "ASIANO1"
+                "name": "ASIANO1",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c4b77bf4-0aea-11ef-8aeb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 222,
@@ -9848,10 +9918,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "528ab8d0-07d3-11ef-8635-0242ac130004",
+                "name": "Kinchana"
             },
             "opponent2": {
-                "id": null
+                "id": "53d9cbe0-07d3-11ef-b208-0242ac130004",
+                "name": "Black Cats"
             },
             "match_games": []
         },
@@ -11186,10 +11258,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "521138a2-07d3-11ef-b3de-0242ac130004",
+                "name": "Cowboys"
             },
             "opponent2": {
-                "id": null
+                "id": "531aeb3a-07d3-11ef-8473-0242ac130004",
+                "name": "이거지면재수함"
             },
             "match_games": []
         },
@@ -11563,7 +11637,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b1773a8a-0945-11ef-a68e-0242ac130004",
+                "name": "HSH"
             },
             "opponent2": {
                 "id": null

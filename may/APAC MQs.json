@@ -7625,16 +7625,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
-                "name": "Feasible Gaming"
+                "name": "Feasible Gaming",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "12ec0b80-0a93-11ef-b7ba-0242ac130004",
-                "name": "Terminal team"
+                "name": "Terminal team",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "12ec0b80-0a93-11ef-b7ba-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "12ec0b80-0a93-11ef-b7ba-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 167,
@@ -8739,7 +8774,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54b520b4-07d3-11ef-a61a-0242ac130004",
+                "name": "Feasible Gaming"
             },
             "opponent2": {
                 "id": null
@@ -11205,7 +11241,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "12ec0b80-0a93-11ef-b7ba-0242ac130004",
+                "name": "Terminal team"
             },
             "opponent2": {
                 "id": null

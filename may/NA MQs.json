@@ -42206,16 +42206,66 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6cb5db02-07d5-11ef-8cff-0242ac130004",
-                "name": "💰BANDITS💰"
+                "name": "💰BANDITS💰",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6ec3b316-0f9f-11ef-9a18-0242ac130004",
-                "name": "QS Team"
+                "name": "QS Team",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6cb5db02-07d5-11ef-8cff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6ec3b316-0f9f-11ef-9a18-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6cb5db02-07d5-11ef-8cff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ec3b316-0f9f-11ef-9a18-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "6cb5db02-07d5-11ef-8cff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6ec3b316-0f9f-11ef-9a18-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1207,
@@ -45112,7 +45162,8 @@
                 "name": "Ye"
             },
             "opponent2": {
-                "id": null
+                "id": "6ec3b316-0f9f-11ef-9a18-0242ac130004",
+                "name": "QS Team"
             },
             "match_games": []
         },
@@ -55536,7 +55587,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6cb5db02-07d5-11ef-8cff-0242ac130004",
+                "name": "💰BANDITS💰"
             },
             "opponent2": {
                 "id": null

@@ -23151,6 +23151,17 @@
             "img": ""
         },
         {
+            "id": "2a8c7926-0b03-11ef-a5ec-0242ac130004",
+            "tournament_id": 0,
+            "name": "dk*gaming",
+            "players": [
+                "caramel",
+                "🕊Off-White🕊",
+                "EhrenLauch"
+            ],
+            "img": ""
+        },
+        {
             "id": "084a4346-0b7d-11ef-bc02-0242ac130004",
             "tournament_id": 0,
             "name": "I Galacticos",
@@ -23336,6 +23347,18 @@
                 "Tx|Smartie 友",
                 "Karam",
                 "Naikochi SV"
+            ],
+            "img": ""
+        },
+        {
+            "id": "d511e6c0-07d3-11ef-a72e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Chaussure 👞",
+            "players": [
+                "A.speed",
+                "ElTitou",
+                "lulu",
+                "Matt"
             ],
             "img": ""
         },
@@ -30991,16 +31014,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d511e6c0-07d3-11ef-a72e-0242ac130004",
-                "name": "Chaussure 👞"
+                "name": "Chaussure 👞",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "93f6f3fe-0e24-11ef-8eed-0242ac130004",
-                "name": "FreeKill"
+                "name": "FreeKill",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "d511e6c0-07d3-11ef-a72e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "93f6f3fe-0e24-11ef-8eed-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d511e6c0-07d3-11ef-a72e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "93f6f3fe-0e24-11ef-8eed-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 378,
@@ -42906,7 +42964,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a6c088fa-0ad8-11ef-a9aa-0242ac130004",
+                "name": "WİNX"
             },
             "opponent2": {
                 "id": null
@@ -45781,7 +45840,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "93f6f3fe-0e24-11ef-8eed-0242ac130004",
+                "name": "FreeKill"
             },
             "opponent2": {
                 "id": null
@@ -59239,7 +59299,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a8c7926-0b03-11ef-a5ec-0242ac130004",
+                "name": "dk*gaming"
             },
             "opponent2": {
                 "id": null
@@ -62114,7 +62175,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d511e6c0-07d3-11ef-a72e-0242ac130004",
+                "name": "Chaussure 👞"
             },
             "opponent2": {
                 "id": null

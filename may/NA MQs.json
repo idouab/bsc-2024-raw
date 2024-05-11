@@ -6964,7 +6964,7 @@
             "players": [
                 "acsoccerallday",
                 "spin_if_ur_gay",
-                "JANUSZEK",
+                "mój siur to",
                 "Nibs2.0"
             ],
             "img": ""
@@ -8530,6 +8530,28 @@
                 "AB_leVrai",
                 "No Pain No Gain",
                 "ま｜Alex$$ • 💫"
+            ],
+            "img": ""
+        },
+        {
+            "id": "cd0c4de4-09d6-11ef-bc6c-0242ac130004",
+            "tournament_id": 0,
+            "name": "Thunder Legends",
+            "players": [
+                "TL/Sugar150",
+                "TL|Salt250",
+                "padi omali"
+            ],
+            "img": ""
+        },
+        {
+            "id": "e5fbaf10-0987-11ef-90a1-0242ac130004",
+            "tournament_id": 0,
+            "name": "Les viandes",
+            "players": [
+                "爱𝑪𝑶𝑩𝑹𝑨ᴳᵒᵈ〆",
+                "²¹🖤爱sͥaltͣyͫ〆",
+                "Łege͢͢͢nᵈᴳᴼᴰ♦️"
             ],
             "img": ""
         },
@@ -11819,16 +11841,66 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65fd337a-0a58-11ef-a215-0242ac130004",
-                "name": "SteelSun"
+                "name": "SteelSun",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cd0c4de4-09d6-11ef-bc6c-0242ac130004",
-                "name": "Thunder Legends"
+                "name": "Thunder Legends",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cd0c4de4-09d6-11ef-bc6c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0c4de4-09d6-11ef-bc6c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cd0c4de4-09d6-11ef-bc6c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 73,
@@ -11852,10 +11924,11 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e5fbaf10-0987-11ef-90a1-0242ac130004",
-                "name": "Les viandes"
+                "name": "Les viandes",
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "e34b5356-0bf3-11ef-bb0c-0242ac130004",
@@ -23614,7 +23687,8 @@
                 "name": "INTER DE MILAN"
             },
             "opponent2": {
-                "id": null
+                "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                "name": "SteelSun"
             },
             "match_games": []
         },
@@ -23631,7 +23705,8 @@
                 "name": "Swedish Vikings"
             },
             "opponent2": {
-                "id": null
+                "id": "e34b5356-0bf3-11ef-bb0c-0242ac130004",
+                "name": "HumboldtHippies"
             },
             "match_games": []
         },

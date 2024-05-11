@@ -2548,6 +2548,17 @@
             "img": ""
         },
         {
+            "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
+            "tournament_id": 0,
+            "name": "66% Black",
+            "players": [
+                "Vasee da Legend",
+                "excelsior",
+                "Employee"
+            ],
+            "img": ""
+        },
+        {
             "id": "aa036efa-096c-11ef-895b-0242ac130004",
             "tournament_id": 0,
             "name": "Amaranthine",
@@ -3937,16 +3948,51 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
-                "name": "66% Black"
+                "name": "66% Black",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
-                "name": "Brawling legends"
+                "name": "Brawling legends",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 68,
@@ -5730,7 +5776,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0d1dbb66-0bc6-11ef-a34f-0242ac130004",
+                "name": "Brawling legends"
             },
             "opponent2": {
                 "id": null
@@ -7476,7 +7523,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c7f1a7ca-0b46-11ef-826e-0242ac130004",
+                "name": "66% Black"
             },
             "opponent2": {
                 "id": null

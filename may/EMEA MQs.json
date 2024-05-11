@@ -75786,16 +75786,51 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
-                "name": "Old Brawl Stars"
+                "name": "Old Brawl Stars",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0d902752-0ad4-11ef-9e00-0242ac130004",
-                "name": "SVN"
+                "name": "SVN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0d902752-0ad4-11ef-9e00-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "b7e68722-07d3-11ef-b1e2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0d902752-0ad4-11ef-9e00-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1749,
@@ -106105,10 +106140,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0d902752-0ad4-11ef-9e00-0242ac130004",
+                "name": "SVN"
             },
             "opponent2": {
-                "id": null
+                "id": "b23785d8-07d3-11ef-9896-0242ac130004",
+                "name": "Optic Gaming"
             },
             "match_games": []
         },

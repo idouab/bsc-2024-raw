@@ -3209,7 +3209,7 @@
             "name": "The Giants",
             "players": [
                 "HEDGEHOGDEMON",
-                "Olythekatty",
+                "Olympus",
                 "Razzled"
             ],
             "img": ""
@@ -64605,16 +64605,66 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "65fd337a-0a58-11ef-a215-0242ac130004",
-                "name": "SteelSun"
+                "name": "SteelSun",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "230fc8ac-0a8a-11ef-a716-0242ac130004",
-                "name": "Linx Esports"
+                "name": "Linx Esports",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "230fc8ac-0a8a-11ef-a716-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "230fc8ac-0a8a-11ef-a716-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "230fc8ac-0a8a-11ef-a716-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1465,
@@ -66389,14 +66439,15 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
                 "name": "100B"
             },
             "opponent2": {
                 "id": "3d01114a-09a8-11ef-98c4-0242ac130004",
-                "name": "GENE IE"
+                "name": "GENE IE",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -66857,7 +66908,8 @@
                 "name": "kitchen esports"
             },
             "opponent2": {
-                "id": null
+                "id": "65fd337a-0a58-11ef-a215-0242ac130004",
+                "name": "SteelSun"
             },
             "match_games": []
         },
@@ -67531,7 +67583,8 @@
                 "name": "Stealth Cidatel"
             },
             "opponent2": {
-                "id": null
+                "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
+                "name": "100B"
             },
             "match_games": []
         },

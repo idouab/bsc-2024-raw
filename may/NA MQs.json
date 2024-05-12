@@ -73550,16 +73550,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "924e6378-0b6f-11ef-8561-0242ac130004",
-                "name": "Utopia"
+                "name": "Utopia",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ea7449ac-09c9-11ef-8b97-0242ac130004",
-                "name": "hoangs"
+                "name": "hoangs",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "924e6378-0b6f-11ef-8561-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea7449ac-09c9-11ef-8b97-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "924e6378-0b6f-11ef-8561-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ea7449ac-09c9-11ef-8b97-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1719,

@@ -46430,16 +46430,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ef357e2-0c0a-11ef-bd25-0242ac130004",
-                "name": "Sunflowers"
+                "name": "Sunflowers",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9898b91c-07d8-11ef-801e-0242ac130004",
-                "name": "Level Esports"
+                "name": "Level Esports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3ef357e2-0c0a-11ef-bd25-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "3ef357e2-0c0a-11ef-bd25-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9898b91c-07d8-11ef-801e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 989,
@@ -46649,7 +46684,8 @@
                 "name": "ABUBACADOS F/A 🌴"
             },
             "opponent2": {
-                "id": null
+                "id": "3ef357e2-0c0a-11ef-bd25-0242ac130004",
+                "name": "Sunflowers"
             },
             "match_games": []
         },

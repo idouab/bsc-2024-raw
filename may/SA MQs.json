@@ -46181,16 +46181,66 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
-                "name": "Tin keso"
+                "name": "Tin keso",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "775e8b02-07d6-11ef-8c48-0242ac130004",
-                "name": "BrawlBros💪🎭"
+                "name": "BrawlBros💪🎭",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "775e8b02-07d6-11ef-8c48-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "775e8b02-07d6-11ef-8c48-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "775e8b02-07d6-11ef-8c48-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 982,
@@ -46405,7 +46455,8 @@
                 "name": "3DBR Black"
             },
             "opponent2": {
-                "id": null
+                "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                "name": "Tin keso"
             },
             "match_games": []
         },

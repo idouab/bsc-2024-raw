@@ -72524,16 +72524,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a77a7dc2-0e49-11ef-a1f7-0242ac130004",
-                "name": "First rounders"
+                "name": "First rounders",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9f672468-0b25-11ef-aa0c-0242ac130004",
-                "name": "LT esport"
+                "name": "LT esport",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a77a7dc2-0e49-11ef-a1f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9f672468-0b25-11ef-aa0c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "a77a7dc2-0e49-11ef-a1f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9f672468-0b25-11ef-aa0c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1696,
@@ -72542,16 +72577,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ed2488c-0f45-11ef-a09e-0242ac130004",
-                "name": "Squad 0"
+                "name": "Squad 0",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "881a3400-0c13-11ef-8920-0242ac130004",
-                "name": "TONOTOS"
+                "name": "TONOTOS",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "0ed2488c-0f45-11ef-a09e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "881a3400-0c13-11ef-8920-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "0ed2488c-0f45-11ef-a09e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "881a3400-0c13-11ef-8920-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1697,
@@ -72851,7 +72921,8 @@
                 "name": "Ye"
             },
             "opponent2": {
-                "id": null
+                "id": "a77a7dc2-0e49-11ef-a1f7-0242ac130004",
+                "name": "First rounders"
             },
             "match_games": []
         },
@@ -72868,7 +72939,8 @@
                 "name": "Good Randoms"
             },
             "opponent2": {
-                "id": null
+                "id": "0ed2488c-0f45-11ef-a09e-0242ac130004",
+                "name": "Squad 0"
             },
             "match_games": []
         },

@@ -46675,16 +46675,66 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "75e729c8-07d6-11ef-919c-0242ac130004",
-                "name": "NORTH SIDE RAIDERS"
+                "name": "NORTH SIDE RAIDERS",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "753888b4-07d6-11ef-8c52-0242ac130004",
-                "name": "One Chance 🌎"
+                "name": "One Chance 🌎",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "75e729c8-07d6-11ef-919c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "75e729c8-07d6-11ef-919c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "75e729c8-07d6-11ef-919c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 994,
@@ -46823,7 +46873,8 @@
                 "name": "Arranca Diu"
             },
             "opponent2": {
-                "id": null
+                "id": "753888b4-07d6-11ef-8c52-0242ac130004",
+                "name": "One Chance 🌎"
             },
             "match_games": []
         },

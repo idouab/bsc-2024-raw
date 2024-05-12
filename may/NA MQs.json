@@ -69935,16 +69935,66 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0e8e14a4-0f00-11ef-89c0-0242ac130004",
-                "name": "Bad Loves"
+                "name": "Bad Loves",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6b1d020c-07d5-11ef-bc21-0242ac130004",
-                "name": "Taqueria"
+                "name": "Taqueria",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "0e8e14a4-0f00-11ef-89c0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6b1d020c-07d5-11ef-bc21-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "0e8e14a4-0f00-11ef-89c0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b1d020c-07d5-11ef-bc21-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "0e8e14a4-0f00-11ef-89c0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b1d020c-07d5-11ef-bc21-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1628,
@@ -71205,7 +71255,8 @@
                 "name": "🧋BOBA Masters 🧋"
             },
             "opponent2": {
-                "id": null
+                "id": "6b1d020c-07d5-11ef-bc21-0242ac130004",
+                "name": "Taqueria"
             },
             "match_games": []
         },

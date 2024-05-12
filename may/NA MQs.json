@@ -72756,16 +72756,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54f5039a-0c2f-11ef-89e9-0242ac130004",
-                "name": "Ares’s Children"
+                "name": "Ares’s Children",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
-                "name": "Shadow Realm"
+                "name": "Shadow Realm",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "54f5039a-0c2f-11ef-89e9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "54f5039a-0c2f-11ef-89e9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1705,
@@ -73076,7 +73111,8 @@
                 "name": "512"
             },
             "opponent2": {
-                "id": null
+                "id": "66ff25ba-07d5-11ef-8542-0242ac130004",
+                "name": "Shadow Realm"
             },
             "match_games": []
         },

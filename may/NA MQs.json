@@ -74536,16 +74536,51 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d409216-0f4a-11ef-adcb-0242ac130004",
-                "name": "Naucalpan eSports"
+                "name": "Naucalpan eSports",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "503c1128-07d8-11ef-af32-0242ac130004",
-                "name": "512"
+                "name": "512",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "6d409216-0f4a-11ef-adcb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "503c1128-07d8-11ef-af32-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "6d409216-0f4a-11ef-adcb-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "503c1128-07d8-11ef-af32-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1739,

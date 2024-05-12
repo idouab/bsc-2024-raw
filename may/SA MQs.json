@@ -47414,16 +47414,51 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74b28c14-07d6-11ef-b560-0242ac130004",
-                "name": "CFZ"
+                "name": "CFZ",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "783771a6-07d6-11ef-83c7-0242ac130004",
-                "name": "Mochilas"
+                "name": "Mochilas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "74b28c14-07d6-11ef-b560-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "74b28c14-07d6-11ef-b560-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "783771a6-07d6-11ef-83c7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1009,

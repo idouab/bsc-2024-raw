@@ -73283,16 +73283,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
-                "name": "Unforgettable"
+                "name": "Unforgettable",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64e3c86c-07d5-11ef-ad3e-0242ac130004",
-                "name": "Yippee"
+                "name": "Yippee",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64e3c86c-07d5-11ef-ad3e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "5304d356-0f7e-11ef-9f24-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64e3c86c-07d5-11ef-ad3e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1710,
@@ -73748,7 +73783,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "64e3c86c-07d5-11ef-ad3e-0242ac130004",
+                "name": "Yippee"
             },
             "opponent2": {
                 "id": null

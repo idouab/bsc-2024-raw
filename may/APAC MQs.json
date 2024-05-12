@@ -21337,16 +21337,66 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "530e60fe-07d3-11ef-a970-0242ac130004",
-                "name": "ますたー芸人🐋"
+                "name": "ますたー芸人🐋",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "526dddf0-07d3-11ef-b009-0242ac130004",
-                "name": "Frenzy Gaming"
+                "name": "Frenzy Gaming",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "530e60fe-07d3-11ef-a970-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "530e60fe-07d3-11ef-a970-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "530e60fe-07d3-11ef-a970-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "526dddf0-07d3-11ef-b009-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 463,
@@ -21535,7 +21585,8 @@
                 "name": "アヒル同好会"
             },
             "opponent2": {
-                "id": null
+                "id": "530e60fe-07d3-11ef-a970-0242ac130004",
+                "name": "ますたー芸人🐋"
             },
             "match_games": []
         },

@@ -46466,16 +46466,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
-                "name": "Hady"
+                "name": "Hady",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
-                "name": "Time 7"
+                "name": "Time 7",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f18fa52-0d3f-11ef-a27f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 991,
@@ -46648,7 +46683,8 @@
                 "name": ">:3"
             },
             "opponent2": {
-                "id": null
+                "id": "d9e9a246-0a4e-11ef-84af-0242ac130004",
+                "name": "Hady"
             },
             "match_games": []
         },

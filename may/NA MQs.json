@@ -74933,16 +74933,66 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e7bfadba-0dbf-11ef-94ce-0242ac130004",
-                "name": "IX Squares"
+                "name": "IX Squares",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "95daf0ca-0f0b-11ef-98ae-0242ac130004",
-                "name": "THE LANTERNS"
+                "name": "THE LANTERNS",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "e7bfadba-0dbf-11ef-94ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95daf0ca-0f0b-11ef-98ae-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e7bfadba-0dbf-11ef-94ce-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "95daf0ca-0f0b-11ef-98ae-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "e7bfadba-0dbf-11ef-94ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "95daf0ca-0f0b-11ef-98ae-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1743,
@@ -75046,7 +75096,8 @@
                 "name": "Motomamis FA"
             },
             "opponent2": {
-                "id": null
+                "id": "e7bfadba-0dbf-11ef-94ce-0242ac130004",
+                "name": "IX Squares"
             },
             "match_games": []
         },

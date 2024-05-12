@@ -73567,16 +73567,66 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
-                "name": "SGA"
+                "name": "SGA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "169e03b2-0b44-11ef-b229-0242ac130004",
-                "name": "Nameless"
+                "name": "Nameless",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169e03b2-0b44-11ef-b229-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "169e03b2-0b44-11ef-b229-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169e03b2-0b44-11ef-b229-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1718,
@@ -73884,10 +73934,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                "name": "SGA"
             },
             "opponent2": {
-                "id": null
+                "id": "924e6378-0b6f-11ef-8561-0242ac130004",
+                "name": "Utopia"
             },
             "match_games": []
         },

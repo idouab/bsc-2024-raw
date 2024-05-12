@@ -66847,16 +66847,51 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
-                "name": "MAA LuismiBoy's"
+                "name": "MAA LuismiBoy's",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
-                "name": "Pollo Hermanos"
+                "name": "Pollo Hermanos",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "6a3eadb8-07d5-11ef-bc6c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1544,
@@ -68362,10 +68397,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2c8de99c-0f10-11ef-832b-0242ac130004",
+                "name": "Pollo Hermanos"
             },
             "opponent2": {
-                "id": null
+                "id": "b61d3600-0f69-11ef-8078-0242ac130004",
+                "name": "Blond"
             },
             "match_games": []
         },

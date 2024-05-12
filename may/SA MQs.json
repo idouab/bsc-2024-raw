@@ -46483,16 +46483,66 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "75e3c454-07d6-11ef-bbe9-0242ac130004",
-                "name": "Titans E-Sports"
+                "name": "Titans E-Sports",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
-                "name": "Aurora Gaming"
+                "name": "Aurora Gaming",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "75e3c454-07d6-11ef-bbe9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "75e3c454-07d6-11ef-bbe9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "75e3c454-07d6-11ef-bbe9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "79fdc4ea-07d6-11ef-b60f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 990,
@@ -46702,7 +46752,8 @@
                 "name": "Olimpo Squad"
             },
             "opponent2": {
-                "id": null
+                "id": "75e3c454-07d6-11ef-bbe9-0242ac130004",
+                "name": "Titans E-Sports"
             },
             "match_games": []
         },

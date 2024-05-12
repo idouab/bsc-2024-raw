@@ -74029,16 +74029,51 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
-                "name": "SGA"
+                "name": "SGA",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "924e6378-0b6f-11ef-8561-0242ac130004",
-                "name": "Utopia"
+                "name": "Utopia",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "924e6378-0b6f-11ef-8561-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "924e6378-0b6f-11ef-8561-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1730,
@@ -74245,7 +74280,8 @@
                 "name": "Skibidi"
             },
             "opponent2": {
-                "id": null
+                "id": "6cba9aa2-07d5-11ef-aab8-0242ac130004",
+                "name": "SGA"
             },
             "match_games": []
         },

@@ -21373,16 +21373,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51d5a170-07d3-11ef-8246-0242ac130004",
-                "name": "F/A Nai Dug"
+                "name": "F/A Nai Dug",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a1307200-07d7-11ef-8c4d-0242ac130004",
-                "name": "Revenant Esports"
+                "name": "Revenant Esports",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1307200-07d7-11ef-8c4d-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1307200-07d7-11ef-8c4d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 465,
@@ -21449,7 +21484,8 @@
                 "name": "3R Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "51d5a170-07d3-11ef-8246-0242ac130004",
+                "name": "F/A Nai Dug"
             },
             "match_games": []
         },

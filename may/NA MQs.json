@@ -72506,16 +72506,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c263efee-0b72-11ef-a1f9-0242ac130004",
-                "name": "Outlaws"
+                "name": "Outlaws",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "674027d6-07d5-11ef-9ced-0242ac130004",
-                "name": "Brawlacticos"
+                "name": "Brawlacticos",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "c263efee-0b72-11ef-a1f9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "c263efee-0b72-11ef-a1f9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "674027d6-07d5-11ef-9ced-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1695,
@@ -72880,16 +72915,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63e1d99a-07d5-11ef-83df-0242ac130004",
-                "name": "On3"
+                "name": "On3",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6608bcf2-07d5-11ef-a1a3-0242ac130004",
-                "name": "Akr Sports"
+                "name": "Akr Sports",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "63e1d99a-07d5-11ef-83df-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6608bcf2-07d5-11ef-a1a3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "63e1d99a-07d5-11ef-83df-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6608bcf2-07d5-11ef-a1a3-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1708,
@@ -72939,7 +73009,8 @@
                 "name": "Midnight Brawlers"
             },
             "opponent2": {
-                "id": null
+                "id": "c263efee-0b72-11ef-a1f9-0242ac130004",
+                "name": "Outlaws"
             },
             "match_games": []
         },
@@ -73164,7 +73235,8 @@
                 "name": "Ping Diff"
             },
             "opponent2": {
-                "id": null
+                "id": "6608bcf2-07d5-11ef-a1a3-0242ac130004",
+                "name": "Akr Sports"
             },
             "match_games": []
         },

@@ -46730,16 +46730,51 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bab02b54-0d76-11ef-b9e8-0242ac130004",
-                "name": "øX Gaming🏳️‍🌈"
+                "name": "øX Gaming🏳️‍🌈",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7a389232-07d6-11ef-97cf-0242ac130004",
-                "name": "LOST TIME"
+                "name": "LOST TIME",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "bab02b54-0d76-11ef-b9e8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "bab02b54-0d76-11ef-b9e8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7a389232-07d6-11ef-97cf-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 995,
@@ -47066,10 +47101,12 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bab02b54-0d76-11ef-b9e8-0242ac130004",
+                "name": "øX Gaming🏳️‍🌈"
             },
             "opponent2": {
-                "id": null
+                "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                "name": "SKCalalas"
             },
             "match_games": []
         },

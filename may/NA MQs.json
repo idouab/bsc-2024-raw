@@ -74712,16 +74712,66 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4168bf30-0f3e-11ef-aec1-0242ac130004",
-                "name": "nah"
+                "name": "nah",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "09c0e2dc-0e2c-11ef-a050-0242ac130004",
-                "name": "Game Two Players"
+                "name": "Game Two Players",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "4168bf30-0f3e-11ef-aec1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "09c0e2dc-0e2c-11ef-a050-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "4168bf30-0f3e-11ef-aec1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09c0e2dc-0e2c-11ef-a050-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "4168bf30-0f3e-11ef-aec1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "09c0e2dc-0e2c-11ef-a050-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1741,
@@ -74787,7 +74837,8 @@
                 "name": "Homeless"
             },
             "opponent2": {
-                "id": null
+                "id": "09c0e2dc-0e2c-11ef-a050-0242ac130004",
+                "name": "Game Two Players"
             },
             "match_games": []
         },

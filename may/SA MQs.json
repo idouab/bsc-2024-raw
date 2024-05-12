@@ -45989,16 +45989,51 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
-                "name": "DirectX"
+                "name": "DirectX",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5b9248e-0b0b-11ef-9168-0242ac130004",
-                "name": "Newbas"
+                "name": "Newbas",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5b9248e-0b0b-11ef-9168-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5b9248e-0b0b-11ef-9168-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 983,
@@ -46160,7 +46195,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                "name": "DirectX"
             },
             "opponent2": {
                 "id": null

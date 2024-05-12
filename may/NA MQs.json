@@ -74100,16 +74100,51 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "35f97924-0f3d-11ef-a557-0242ac130004",
-                "name": "Harvard Brawl Stars"
+                "name": "Harvard Brawl Stars",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "244c751e-0a83-11ef-85f8-0242ac130004",
-                "name": "Arctic Blitz"
+                "name": "Arctic Blitz",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "35f97924-0f3d-11ef-a557-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "244c751e-0a83-11ef-85f8-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "35f97924-0f3d-11ef-a557-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "244c751e-0a83-11ef-85f8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1732,
@@ -74245,7 +74280,8 @@
                 "name": "Homeless"
             },
             "opponent2": {
-                "id": null
+                "id": "35f97924-0f3d-11ef-a557-0242ac130004",
+                "name": "Harvard Brawl Stars"
             },
             "match_games": []
         },

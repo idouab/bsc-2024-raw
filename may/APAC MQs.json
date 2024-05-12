@@ -21426,16 +21426,66 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
-                "name": "Why we lose"
+                "name": "Why we lose",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
-                "name": "College Students"
+                "name": "College Students",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8a882ce-0d4e-11ef-8b76-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 466,
@@ -21502,7 +21552,8 @@
                 "name": "NAVI"
             },
             "opponent2": {
-                "id": null
+                "id": "53afcb60-07d3-11ef-b02a-0242ac130004",
+                "name": "Why we lose"
             },
             "match_games": []
         }

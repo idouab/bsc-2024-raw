@@ -46657,16 +46657,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
-                "name": "DirectX"
+                "name": "DirectX",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "417fa482-0955-11ef-8599-0242ac130004",
-                "name": "paiN"
+                "name": "paiN",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "417fa482-0955-11ef-8599-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "417fa482-0955-11ef-8599-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 993,
@@ -46856,7 +46891,8 @@
                 "name": "Revenge Gaming"
             },
             "opponent2": {
-                "id": null
+                "id": "79d1237c-07d6-11ef-90b1-0242ac130004",
+                "name": "DirectX"
             },
             "match_games": []
         },

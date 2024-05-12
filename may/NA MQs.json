@@ -50230,16 +50230,66 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "13ae390c-0f21-11ef-90bb-0242ac130004",
-                "name": "Skibidi"
+                "name": "Skibidi",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
-                "name": "Inarizaki"
+                "name": "Inarizaki",
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "13ae390c-0f21-11ef-90bb-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "13ae390c-0f21-11ef-90bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "13ae390c-0f21-11ef-90bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1649,
@@ -50380,7 +50430,8 @@
                 "name": "STMN"
             },
             "opponent2": {
-                "id": null
+                "id": "13ae390c-0f21-11ef-90bb-0242ac130004",
+                "name": "Skibidi"
             },
             "match_games": []
         },
@@ -64233,14 +64284,15 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "df2bbaa6-0d86-11ef-b9ac-0242ac130004",
                 "name": "Knuckleheads"
             },
             "opponent2": {
                 "id": "1442a15a-0b16-11ef-a558-0242ac130004",
-                "name": "The Offenders"
+                "name": "The Offenders",
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -66630,7 +66682,8 @@
                 "name": "Star Phoenix"
             },
             "opponent2": {
-                "id": null
+                "id": "df2bbaa6-0d86-11ef-b9ac-0242ac130004",
+                "name": "Knuckleheads"
             },
             "match_games": []
         },
@@ -68956,7 +69009,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "23b018ac-0f62-11ef-8c69-0242ac130004",
+                "name": "Inarizaki"
             },
             "opponent2": {
                 "id": null

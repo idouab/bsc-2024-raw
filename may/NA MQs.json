@@ -69050,16 +69050,66 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b980e89c-0a90-11ef-b59b-0242ac130004",
-                "name": "Stealth Cidatel"
+                "name": "Stealth Cidatel",
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
-                "name": "100B"
+                "name": "100B",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "b980e89c-0a90-11ef-b59b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "b980e89c-0a90-11ef-b59b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "b980e89c-0a90-11ef-b59b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1599,
@@ -69693,7 +69743,8 @@
                 "name": "Imminent"
             },
             "opponent2": {
-                "id": null
+                "id": "f8ad7110-0a55-11ef-846a-0242ac130004",
+                "name": "100B"
             },
             "match_games": []
         },

@@ -46377,16 +46377,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "baa60170-0ba4-11ef-92c8-0242ac130004",
-                "name": "Underdogs"
+                "name": "Underdogs",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
-                "name": "SKCalalas"
+                "name": "SKCalalas",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "baa60170-0ba4-11ef-92c8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "baa60170-0ba4-11ef-92c8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 988,
@@ -46449,16 +46484,51 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "79bae63e-07d6-11ef-9876-0242ac130004",
-                "name": "3DBR Black"
+                "name": "3DBR Black",
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
-                "name": "Tin keso"
+                "name": "Tin keso",
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "78ac2f78-07d6-11ef-9def-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 992,
@@ -46526,7 +46596,8 @@
                 "name": "Panchos"
             },
             "opponent2": {
-                "id": null
+                "id": "989e7000-07d8-11ef-a5a5-0242ac130004",
+                "name": "SKCalalas"
             },
             "match_games": []
         },
@@ -46594,7 +46665,8 @@
                 "name": "Mochilas"
             },
             "opponent2": {
-                "id": null
+                "id": "79bae63e-07d6-11ef-9876-0242ac130004",
+                "name": "3DBR Black"
             },
             "match_games": []
         },

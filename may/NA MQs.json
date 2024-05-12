@@ -50751,16 +50751,51 @@
             "group_id": 0,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f417c410-09bb-11ef-b8f2-0242ac130004",
-                "name": "Oinkers Reborn"
+                "name": "Oinkers Reborn",
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "503e6a2c-07d8-11ef-939f-0242ac130004",
-                "name": "West Coast FA"
+                "name": "West Coast FA",
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "f417c410-09bb-11ef-b8f2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "503e6a2c-07d8-11ef-939f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "f417c410-09bb-11ef-b8f2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "503e6a2c-07d8-11ef-939f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1691,
@@ -71409,7 +71444,8 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f417c410-09bb-11ef-b8f2-0242ac130004",
+                "name": "Oinkers Reborn"
             },
             "opponent2": {
                 "id": null

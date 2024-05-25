@@ -413,18 +413,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58f576d0-104b-11ef-be6a-0242ac130004",
                 "name": "Crazy Raccoon",
-                "seed": 3
+                "seed": 3,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "58f14088-104b-11ef-a131-0242ac130004",
                 "name": "Master Entertainer",
-                "seed": 6
+                "seed": 6,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "58f576d0-104b-11ef-be6a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f14088-104b-11ef-a131-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "58f576d0-104b-11ef-be6a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f14088-104b-11ef-a131-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "58f576d0-104b-11ef-be6a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f14088-104b-11ef-a131-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 5,
@@ -460,7 +510,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "58f576d0-104b-11ef-be6a-0242ac130004",
+                "name": "Crazy Raccoon",
+                "seed": 3
             },
             "match_games": []
         },

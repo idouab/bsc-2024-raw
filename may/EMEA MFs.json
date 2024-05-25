@@ -313,18 +313,83 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9d18027e-10a5-11ef-8d01-0242ac130004",
                 "name": "Oceanus Gaming",
-                "seed": 2
+                "seed": 2,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
                 "name": "HMBLE",
-                "seed": 7
+                "seed": 7,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "9d18027e-10a5-11ef-8d01-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "9d18027e-10a5-11ef-8d01-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "9d18027e-10a5-11ef-8d01-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "9d18027e-10a5-11ef-8d01-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -375,7 +440,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9d19aa20-10a5-11ef-aa58-0242ac130004",
+                "name": "HMBLE",
+                "seed": 7
             },
             "opponent2": {
                 "id": null

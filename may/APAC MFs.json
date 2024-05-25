@@ -228,18 +228,83 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
                 "name": "Rival Esports",
-                "seed": 4
+                "seed": 4,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "58f261e8-104b-11ef-a26a-0242ac130004",
                 "name": "Why we lose",
-                "seed": 5
+                "seed": 5,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f261e8-104b-11ef-a26a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f261e8-104b-11ef-a26a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58f261e8-104b-11ef-a26a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58f261e8-104b-11ef-a26a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -375,7 +440,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                "name": "Rival Esports",
+                "seed": 4
             },
             "match_games": []
         },

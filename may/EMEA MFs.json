@@ -653,18 +653,83 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16e530f4-192a-11ef-bf76-0242ac130004",
                 "name": "Eclipsar Esport",
-                "seed": 8
+                "seed": 8,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9d190cdc-10a5-11ef-8947-0242ac130004",
                 "name": "Reply Totem",
-                "seed": 3
+                "seed": 3,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "16e530f4-192a-11ef-bf76-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d190cdc-10a5-11ef-8947-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "16e530f4-192a-11ef-bf76-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9d190cdc-10a5-11ef-8947-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "16e530f4-192a-11ef-bf76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9d190cdc-10a5-11ef-8947-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "16e530f4-192a-11ef-bf76-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9d190cdc-10a5-11ef-8947-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         }
     ]
 }

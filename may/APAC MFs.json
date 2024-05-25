@@ -653,18 +653,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
                 "name": "Rival Esports",
-                "seed": 4
+                "seed": 4,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "58f36a16-104b-11ef-801a-0242ac130004",
                 "name": "coco loco",
-                "seed": 2
+                "seed": 2,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58f36a16-104b-11ef-801a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "58f36a16-104b-11ef-801a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "58f469ca-104b-11ef-b6ff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "58f36a16-104b-11ef-801a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         }
     ]
 }

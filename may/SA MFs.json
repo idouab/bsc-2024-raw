@@ -454,18 +454,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb8c0e74-10a6-11ef-a008-0242ac130004",
                 "name": "Team Queso",
-                "seed": 1
+                "seed": 1,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cb8d2a2a-10a6-11ef-a5f5-0242ac130004",
                 "name": "Spacestation Gaming",
-                "seed": 4
+                "seed": 4,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "cb8c0e74-10a6-11ef-a008-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cb8d2a2a-10a6-11ef-a5f5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "cb8c0e74-10a6-11ef-a008-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cb8d2a2a-10a6-11ef-a5f5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "cb8c0e74-10a6-11ef-a008-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cb8d2a2a-10a6-11ef-a5f5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -496,7 +546,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cb8d2a2a-10a6-11ef-a5f5-0242ac130004",
+                "name": "Spacestation Gaming",
+                "seed": 4
             },
             "opponent2": {
                 "id": null

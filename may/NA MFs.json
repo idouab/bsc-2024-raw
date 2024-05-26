@@ -421,18 +421,98 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
                 "name": "Motomamis FA",
-                "seed": 8
+                "seed": 8,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
                 "name": "CT Esports",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_5",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bb86da6-112a-11ef-9ae3-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -463,7 +543,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                "name": "Motomamis FA",
+                "seed": 8
             },
             "opponent2": {
                 "id": null

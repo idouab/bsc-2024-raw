@@ -141,18 +141,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6bba8d84-112a-11ef-aab7-0242ac130004",
                 "name": "Pioneers",
-                "seed": 1
+                "seed": 1,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
                 "name": "Motomamis FA",
-                "seed": 8
+                "seed": 8,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "6bba8d84-112a-11ef-aab7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "6bba8d84-112a-11ef-aab7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "6bba8d84-112a-11ef-aab7-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2,
@@ -273,7 +323,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6bb9fde2-112a-11ef-b2ab-0242ac130004",
+                "name": "Motomamis FA",
+                "seed": 8
             },
             "opponent2": {
                 "id": null

@@ -524,18 +524,83 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
                 "name": "F/A MiniPekkas",
-                "seed": 2
+                "seed": 2,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cb8b7eb4-10a6-11ef-9cb7-0242ac130004",
                 "name": "Reis do PL",
-                "seed": 3
+                "seed": 3,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cb8b7eb4-10a6-11ef-9cb7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb8b7eb4-10a6-11ef-9cb7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb8b7eb4-10a6-11ef-9cb7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb8b7eb4-10a6-11ef-9cb7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -551,7 +616,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "cb8dc8ae-10a6-11ef-86fc-0242ac130004",
+                "name": "F/A MiniPekkas",
+                "seed": 2
             },
             "match_games": []
         }

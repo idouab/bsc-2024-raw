@@ -5920,6 +5920,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "3ee362f0-1e17-11ef-a2ff-0242ac130004",
+            "tournament_id": 0,
+            "name": "BH COMANDA",
+            "players": [
+                "joao paulo",
+                "SFH_BRUNO",
+                "₪𝕱𝖗𝖔𝖔𝖘𝖙☯★",
+                "AdriemYegarth"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "c8175138-2549-11ef-9d6a-0242ac130004",
             "tournament_id": 0,
             "name": "L4Maravilla1",
@@ -6073,6 +6085,18 @@
                 "IRINEU",
                 "Jvpl10",
                 "Snøw\"cria"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "20bbff9a-1f83-11ef-afa0-0242ac130004",
+            "tournament_id": 0,
+            "name": "Minas",
+            "players": [
+                "MikeWazulis",
+                "GBR_VØIDED",
+                "LitergamesYT",
+                "mega sandy"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6400,6 +6424,17 @@
                 "Endø¹⁶ | 戦士 ⚡",
                 "ヤａｉｎ|サソリ¹⁶ 🇯🇵",
                 "和|Thorfinn¹⁶ 🌒"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "1a4ca49c-222c-11ef-b6de-0242ac130004",
+            "tournament_id": 0,
+            "name": "PIPE TEAM",
+            "players": [
+                "dextro",
+                "MeinuXtreme",
+                "Diegomau26"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -9879,18 +9914,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ee362f0-1e17-11ef-a2ff-0242ac130004",
                 "name": "BH COMANDA",
-                "seed": 60
+                "seed": 60,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7398696c-22d8-11ef-87f8-0242ac130004",
                 "name": "YKz",
-                "seed": 453
+                "seed": 453,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3ee362f0-1e17-11ef-a2ff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7398696c-22d8-11ef-87f8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3ee362f0-1e17-11ef-a2ff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7398696c-22d8-11ef-87f8-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 102,
@@ -11448,18 +11518,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f3e07e6-1e17-11ef-b3fb-0242ac130004",
                 "name": "BSA",
-                "seed": 111
+                "seed": 111,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "20bbff9a-1f83-11ef-afa0-0242ac130004",
                 "name": "Minas",
-                "seed": 402
+                "seed": 402,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3f3e07e6-1e17-11ef-b3fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20bbff9a-1f83-11ef-afa0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3f3e07e6-1e17-11ef-b3fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "20bbff9a-1f83-11ef-afa0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -12771,18 +12876,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e313b454-20f3-11ef-8312-0242ac130004",
                 "name": "Phoenix Bridge",
-                "seed": 254
+                "seed": 254,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
                 "name": "LegiónLegend",
-                "seed": 259
+                "seed": 259,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "e313b454-20f3-11ef-8312-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e313b454-20f3-11ef-8312-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 195,
@@ -14163,18 +14303,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a4ca49c-222c-11ef-b6de-0242ac130004",
                 "name": "PIPE TEAM",
-                "seed": 219
+                "seed": 219,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "529936ec-2148-11ef-b158-0242ac130004",
                 "name": "TQL",
-                "seed": 294
+                "seed": 294,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "1a4ca49c-222c-11ef-b6de-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "529936ec-2148-11ef-b158-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "1a4ca49c-222c-11ef-b6de-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "529936ec-2148-11ef-b158-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 239,
@@ -15752,7 +15927,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7398696c-22d8-11ef-87f8-0242ac130004",
+                "name": "YKz",
+                "seed": 453
             },
             "opponent2": {
                 "id": null
@@ -16212,7 +16389,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f3e07e6-1e17-11ef-b3fb-0242ac130004",
+                "name": "BSA",
+                "seed": 111
             },
             "opponent2": {
                 "id": null
@@ -16553,7 +16732,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "e313b454-20f3-11ef-8312-0242ac130004",
+                "name": "Phoenix Bridge",
+                "seed": 254
             },
             "match_games": []
         },
@@ -16929,7 +17110,9 @@
                 "seed": 38
             },
             "opponent2": {
-                "id": null
+                "id": "529936ec-2148-11ef-b158-0242ac130004",
+                "name": "TQL",
+                "seed": 294
             },
             "match_games": []
         },
@@ -19802,7 +19985,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ee362f0-1e17-11ef-a2ff-0242ac130004",
+                "name": "BH COMANDA",
+                "seed": 60
             },
             "opponent2": {
                 "id": null
@@ -20190,7 +20375,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "20bbff9a-1f83-11ef-afa0-0242ac130004",
+                "name": "Minas",
+                "seed": 402
             },
             "opponent2": {
                 "id": null
@@ -20817,7 +21004,9 @@
                 "seed": 475
             },
             "opponent2": {
-                "id": null
+                "id": "1a4ca49c-222c-11ef-b6de-0242ac130004",
+                "name": "PIPE TEAM",
+                "seed": 219
             },
             "match_games": []
         },

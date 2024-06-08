@@ -49881,18 +49881,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e99930e0-2050-11ef-8a76-0242ac130004",
                 "name": "SMT Team",
-                "seed": 390
+                "seed": 390,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5edcbef2-202f-11ef-9870-0242ac130004",
                 "name": "Bonice de mole",
-                "seed": 252
+                "seed": 252,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "e99930e0-2050-11ef-8a76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5edcbef2-202f-11ef-9870-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "e99930e0-2050-11ef-8a76-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5edcbef2-202f-11ef-9870-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1332,
@@ -51475,7 +51510,9 @@
                 "seed": 303
             },
             "opponent2": {
-                "id": null
+                "id": "e99930e0-2050-11ef-8a76-0242ac130004",
+                "name": "SMT Team",
+                "seed": 390
             },
             "match_games": []
         },

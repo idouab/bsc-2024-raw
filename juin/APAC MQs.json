@@ -15497,18 +15497,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c5f7223e-2107-11ef-8003-0242ac130004",
                 "name": "ALPHA GENES",
-                "seed": 166
+                "seed": 166,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "16cc996a-1e14-11ef-b153-0242ac130004",
                 "name": "Cowboys",
-                "seed": 27
+                "seed": 27,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "c5f7223e-2107-11ef-8003-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "16cc996a-1e14-11ef-b153-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "c5f7223e-2107-11ef-8003-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "16cc996a-1e14-11ef-b153-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 313,
@@ -16247,7 +16282,9 @@
                 "seed": 37
             },
             "opponent2": {
-                "id": null
+                "id": "16cc996a-1e14-11ef-b153-0242ac130004",
+                "name": "Cowboys",
+                "seed": 27
             },
             "match_games": []
         },

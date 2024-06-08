@@ -38011,18 +38011,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
                 "name": "Samingua",
-                "seed": 393
+                "seed": 393,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a6328536-21ae-11ef-a27d-0242ac130004",
                 "name": "DJL",
-                "seed": 419
+                "seed": 419,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a6328536-21ae-11ef-a27d-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a6328536-21ae-11ef-a27d-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 739,
@@ -39286,7 +39321,9 @@
                 "seed": 138
             },
             "opponent2": {
-                "id": null
+                "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                "name": "Samingua",
+                "seed": 393
             },
             "match_games": []
         },

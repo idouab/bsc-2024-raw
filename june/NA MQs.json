@@ -51491,18 +51491,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c0831ee-1e16-11ef-8879-0242ac130004",
                 "name": "Photon And Company",
-                "seed": 75
+                "seed": 75,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
                 "name": "💰BANDITS💰",
-                "seed": 53
+                "seed": 53,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "6c0831ee-1e16-11ef-8879-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "6c0831ee-1e16-11ef-8879-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1359,
@@ -53271,7 +53306,9 @@
                 "seed": 32
             },
             "opponent2": {
-                "id": null
+                "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                "name": "💰BANDITS💰",
+                "seed": 53
             },
             "match_games": []
         },

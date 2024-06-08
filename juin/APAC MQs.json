@@ -7640,18 +7640,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "191d5114-1e14-11ef-a714-0242ac130004",
                 "name": "nano-ricky",
-                "seed": 56
+                "seed": 56,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
                 "name": "ラディッシュ許さん",
-                "seed": 73
+                "seed": 73,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 164,
@@ -10339,7 +10389,9 @@
                 "seed": 9
             },
             "opponent2": {
-                "id": null
+                "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                "name": "ラディッシュ許さん",
+                "seed": 73
             },
             "match_games": []
         },
@@ -12818,10 +12870,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                "name": "nano-ricky",
+                "seed": 56
             },
             "opponent2": {
-                "id": null
+                "id": "ddae4f58-1fc5-11ef-9846-0242ac130004",
+                "name": "たにの　はやと",
+                "seed": 99
             },
             "match_games": []
         },

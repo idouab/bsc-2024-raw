@@ -5697,6 +5697,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "19bbd498-2034-11ef-8d9e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Datope",
+            "players": [
+                "Loading...",
+                "Pedrorayquasa",
+                "Danilo0702"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "27d2d9d6-219d-11ef-ae54-0242ac130004",
             "tournament_id": 0,
             "name": "Los Tilines",
@@ -6783,6 +6794,17 @@
                 "NicoG",
                 "TPtMdr",
                 "benjaignacio69"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
+            "tournament_id": 0,
+            "name": "Fs|Sh4dows",
+            "players": [
+                "RyanFs",
+                "MajorSh4dowYT☆",
+                "Beͥrnͣaͫrdø㊨"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -8404,18 +8426,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7058701c-207b-11ef-a34b-0242ac130004",
                 "name": "FIERCE FREEDOM JUST",
-                "seed": 224
+                "seed": 224,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "19bbd498-2034-11ef-8d9e-0242ac130004",
                 "name": "Datope",
-                "seed": 289
+                "seed": 289,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "7058701c-207b-11ef-a34b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19bbd498-2034-11ef-8d9e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "7058701c-207b-11ef-a34b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19bbd498-2034-11ef-8d9e-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 15,
@@ -13020,18 +13077,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
                 "name": "Fs|Sh4dows",
-                "seed": 143
+                "seed": 143,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1f52f448-1f78-11ef-9c24-0242ac130004",
                 "name": "Argenlenos",
-                "seed": 370
+                "seed": 370,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f52f448-1f78-11ef-9c24-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1f52f448-1f78-11ef-9c24-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1f52f448-1f78-11ef-9c24-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 149,
@@ -17108,7 +17215,9 @@
                 "seed": 33
             },
             "opponent2": {
-                "id": null
+                "id": "7058701c-207b-11ef-a34b-0242ac130004",
+                "name": "FIERCE FREEDOM JUST",
+                "seed": 224
             },
             "match_games": []
         },
@@ -18398,7 +18507,9 @@
                 "seed": 114
             },
             "opponent2": {
-                "id": null
+                "id": "1f52f448-1f78-11ef-9c24-0242ac130004",
+                "name": "Argenlenos",
+                "seed": 370
             },
             "match_games": []
         },
@@ -21566,7 +21677,9 @@
                 "seed": 480
             },
             "opponent2": {
-                "id": null
+                "id": "19bbd498-2034-11ef-8d9e-0242ac130004",
+                "name": "Datope",
+                "seed": 289
             },
             "match_games": []
         },
@@ -22656,7 +22769,9 @@
                 "seed": 399
             },
             "opponent2": {
-                "id": null
+                "id": "cfe1106c-22b4-11ef-aca9-0242ac130004",
+                "name": "Fs|Sh4dows",
+                "seed": 143
             },
             "match_games": []
         },

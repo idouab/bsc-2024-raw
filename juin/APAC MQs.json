@@ -18290,18 +18290,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1984376c-1e14-11ef-9350-0242ac130004",
                 "name": "ASG",
-                "seed": 63
+                "seed": 63,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
                 "name": "CIS Phoenix Forces",
-                "seed": 129
+                "seed": 129,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 398,
@@ -18575,7 +18610,9 @@
                 "seed": 162
             },
             "opponent2": {
-                "id": null
+                "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                "name": "ASG",
+                "seed": 63
             },
             "match_games": []
         },

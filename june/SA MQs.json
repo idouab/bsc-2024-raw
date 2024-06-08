@@ -37308,18 +37308,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
                 "name": "Inka Raiders",
-                "seed": 196
+                "seed": 196,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2b77c678-22b5-11ef-bceb-0242ac130004",
                 "name": "Toronjas FC",
-                "seed": 445
+                "seed": 445,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b77c678-22b5-11ef-bceb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2b77c678-22b5-11ef-bceb-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 705,
@@ -38954,7 +38989,9 @@
                 "seed": 105
             },
             "opponent2": {
-                "id": null
+                "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                "name": "Inka Raiders",
+                "seed": 196
             },
             "match_games": []
         },

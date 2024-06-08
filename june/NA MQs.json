@@ -7290,6 +7290,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "85c344ca-1f60-11ef-bdc4-0242ac130004",
+            "tournament_id": 0,
+            "name": "DRK",
+            "players": [
+                "amongoose",
+                "glizzygobler",
+                "Curry🔥🙈Colt"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0f685ee4-20a7-11ef-887b-0242ac130004",
             "tournament_id": 0,
             "name": "Bazinga",
@@ -15062,18 +15073,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "85c344ca-1f60-11ef-bdc4-0242ac130004",
                 "name": "DRK",
-                "seed": 451
+                "seed": 451,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
                 "name": "Chayo-ticos",
-                "seed": 574
+                "seed": 574,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "85c344ca-1f60-11ef-bdc4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "85c344ca-1f60-11ef-bdc4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "85c344ca-1f60-11ef-bdc4-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 395,
@@ -21182,7 +21243,9 @@
                 "seed": 62
             },
             "opponent2": {
-                "id": null
+                "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                "name": "Chayo-ticos",
+                "seed": 574
             },
             "match_games": []
         },

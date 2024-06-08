@@ -16319,18 +16319,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e107158a-1f58-11ef-8edf-0242ac130004",
                 "name": "LastDance",
-                "seed": 177
+                "seed": 177,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "88a1760c-2083-11ef-a291-0242ac130004",
                 "name": "熟女愛好会",
-                "seed": 144
+                "seed": 144,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "88a1760c-2083-11ef-a291-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "88a1760c-2083-11ef-a291-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 340,
@@ -16924,7 +16959,9 @@
                 "seed": 207
             },
             "opponent2": {
-                "id": null
+                "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                "name": "LastDance",
+                "seed": 177
             },
             "match_games": []
         },

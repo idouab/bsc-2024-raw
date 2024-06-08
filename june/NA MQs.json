@@ -50136,18 +50136,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74c37820-1e16-11ef-a085-0242ac130004",
                 "name": "QS Team",
-                "seed": 91
+                "seed": 91,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "41c959c8-2125-11ef-bd93-0242ac130004",
                 "name": "LOTW",
-                "seed": 476
+                "seed": 476,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "74c37820-1e16-11ef-a085-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "74c37820-1e16-11ef-a085-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1329,
@@ -52607,7 +52642,9 @@
                 "seed": 15
             },
             "opponent2": {
-                "id": null
+                "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                "name": "LOTW",
+                "seed": 476
             },
             "match_games": []
         },

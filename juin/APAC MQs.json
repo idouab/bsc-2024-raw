@@ -8197,18 +8197,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "17e0b9c6-1e14-11ef-a980-0242ac130004",
                 "name": "Lone Wolf",
-                "seed": 31
+                "seed": 31,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
                 "name": "Ro.chicken of Dach",
-                "seed": 98
+                "seed": 98,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "17e0b9c6-1e14-11ef-a980-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "17e0b9c6-1e14-11ef-a980-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 185,
@@ -9653,7 +9688,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "17e0b9c6-1e14-11ef-a980-0242ac130004",
+                "name": "Lone Wolf",
+                "seed": 31
             },
             "opponent2": {
                 "id": null
@@ -11307,7 +11344,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                "name": "Ro.chicken of Dach",
+                "seed": 98
             },
             "opponent2": {
                 "id": null

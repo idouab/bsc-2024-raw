@@ -5909,6 +5909,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
+            "tournament_id": 0,
+            "name": "FTX-Ice",
+            "players": [
+                "❄🍷|√3nøm×•°",
+                "Ozobart🇵🇪",
+                "darkside 2.0",
+                "Harsting 007"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "844caf0e-1fb1-11ef-8315-0242ac130004",
             "tournament_id": 0,
             "name": "Los Venecos",
@@ -9543,18 +9555,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "932413fe-1fd0-11ef-bc7b-0242ac130004",
                 "name": "Nordestinos",
-                "seed": 185
+                "seed": 185,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
                 "name": "FTX-Ice",
-                "seed": 328
+                "seed": 328,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "932413fe-1fd0-11ef-bc7b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "932413fe-1fd0-11ef-bc7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "932413fe-1fd0-11ef-bc7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 41,
@@ -18429,7 +18491,9 @@
                 "seed": 72
             },
             "opponent2": {
-                "id": null
+                "id": "932413fe-1fd0-11ef-bc7b-0242ac130004",
+                "name": "Nordestinos",
+                "seed": 185
             },
             "match_games": []
         },
@@ -22879,7 +22943,9 @@
                 "seed": 441
             },
             "opponent2": {
-                "id": null
+                "id": "29b3f4ca-1f58-11ef-9267-0242ac130004",
+                "name": "FTX-Ice",
+                "seed": 328
             },
             "match_games": []
         },

@@ -42517,18 +42517,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
                 "name": "LegalLegendz",
-                "seed": 480
+                "seed": 480,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f6f99196-22d3-11ef-9113-0242ac130004",
                 "name": "Savage Beasts",
-                "seed": 395
+                "seed": 395,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6f99196-22d3-11ef-9113-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6f99196-22d3-11ef-9113-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 883,
@@ -44197,18 +44232,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4de3f8ca-23c9-11ef-be6b-0242ac130004",
                 "name": "The Supernova",
-                "seed": 276
+                "seed": 276,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6b8b648e-1e16-11ef-a07a-0242ac130004",
                 "name": "Good Randoms",
-                "seed": 20
+                "seed": 20,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4de3f8ca-23c9-11ef-be6b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b8b648e-1e16-11ef-a07a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "4de3f8ca-23c9-11ef-be6b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b8b648e-1e16-11ef-a07a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 960,
@@ -45389,7 +45459,9 @@
                 "seed": 140
             },
             "opponent2": {
-                "id": null
+                "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                "name": "LegalLegendz",
+                "seed": 480
             },
             "match_games": []
         },
@@ -46783,7 +46855,9 @@
                 "seed": 275
             },
             "opponent2": {
-                "id": null
+                "id": "6b8b648e-1e16-11ef-a07a-0242ac130004",
+                "name": "Good Randoms",
+                "seed": 20
             },
             "match_games": []
         },

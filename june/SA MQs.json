@@ -31948,18 +31948,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4bc0cdc4-208c-11ef-ba49-0242ac130004",
                 "name": "Black Storm",
-                "seed": 238
+                "seed": 238,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eed1e98c-226a-11ef-9ace-0242ac130004",
                 "name": "Deportes colina",
-                "seed": 441
+                "seed": 441,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4bc0cdc4-208c-11ef-ba49-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eed1e98c-226a-11ef-9ace-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "4bc0cdc4-208c-11ef-ba49-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eed1e98c-226a-11ef-9ace-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "4bc0cdc4-208c-11ef-ba49-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eed1e98c-226a-11ef-9ace-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 515,
@@ -37434,7 +37484,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3cdb29d4-1e17-11ef-aa50-0242ac130004",
+                "name": "Panela da Saturn 🪐",
+                "seed": 95
             },
             "opponent2": {
                 "id": null

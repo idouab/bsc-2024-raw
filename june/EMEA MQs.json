@@ -31860,6 +31860,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
+            "tournament_id": 0,
+            "name": "Fight for Peace",
+            "players": [
+                "Aiden8002",
+                "Rico🦋",
+                "32.Josh🥷🏻"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "b3ea4526-1e14-11ef-a006-0242ac130004",
             "tournament_id": 0,
             "name": "Geto Mami",
@@ -65855,18 +65866,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
                 "name": "Fight for Peace",
-                "seed": 963
+                "seed": 963,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bfb6da5a-1f5d-11ef-ae87-0242ac130004",
                 "name": "MRS eSports",
-                "seed": 1086
+                "seed": 1086,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bfb6da5a-1f5d-11ef-ae87-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bfb6da5a-1f5d-11ef-ae87-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bfb6da5a-1f5d-11ef-ae87-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 787,
@@ -83346,7 +83407,9 @@
                 "seed": 62
             },
             "opponent2": {
-                "id": null
+                "id": "bfb6da5a-1f5d-11ef-ae87-0242ac130004",
+                "name": "MRS eSports",
+                "seed": 1086
             },
             "match_games": []
         },
@@ -101682,7 +101745,9 @@
                 "seed": 1987
             },
             "opponent2": {
-                "id": null
+                "id": "a4f609ba-1e14-11ef-b055-0242ac130004",
+                "name": "Fight for Peace",
+                "seed": 963
             },
             "match_games": []
         },

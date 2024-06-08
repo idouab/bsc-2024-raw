@@ -30346,6 +30346,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
+            "tournament_id": 0,
+            "name": "SoloVerde",
+            "players": [
+                "kikinets",
+                "Guille",
+                "SIHU",
+                "ₚₐbᵢₒₗₒ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "be78645a-1e14-11ef-ba39-0242ac130004",
             "tournament_id": 0,
             "name": "Real City",
@@ -60124,18 +60136,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
                 "name": "SoloVerde",
-                "seed": 135
+                "seed": 135,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "053ef8f0-2017-11ef-8b64-0242ac130004",
                 "name": "Team Monkey",
-                "seed": 1914
+                "seed": 1914,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "053ef8f0-2017-11ef-8b64-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "053ef8f0-2017-11ef-8b64-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "053ef8f0-2017-11ef-8b64-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 654,
@@ -81401,10 +81463,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "053ef8f0-2017-11ef-8b64-0242ac130004",
+                "name": "Team Monkey",
+                "seed": 1914
             },
             "opponent2": {
-                "id": null
+                "id": "a1757fda-1f56-11ef-bc6a-0242ac130004",
+                "name": "Utopia Esports",
+                "seed": 890
             },
             "match_games": []
         },
@@ -99703,10 +99769,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9a70824a-1e14-11ef-a3c1-0242ac130004",
+                "name": "SoloVerde",
+                "seed": 135
             },
             "opponent2": {
-                "id": null
+                "id": "be78645a-1e14-11ef-ba39-0242ac130004",
+                "name": "Real City",
+                "seed": 1159
             },
             "match_games": []
         },

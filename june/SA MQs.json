@@ -40456,18 +40456,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
                 "name": "Toros Negros",
-                "seed": 61
+                "seed": 61,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "106f43ac-2034-11ef-96ed-0242ac130004",
                 "name": "Trinspank",
-                "seed": 195
+                "seed": 195,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "106f43ac-2034-11ef-96ed-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "106f43ac-2034-11ef-96ed-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 798,
@@ -40806,7 +40841,7 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7ded4df0-2266-11ef-a9af-0242ac130004",
                 "name": "Dark Warriors",
@@ -40815,7 +40850,8 @@
             "opponent2": {
                 "id": "3dff8a94-1e17-11ef-933e-0242ac130004",
                 "name": "Capullos1",
-                "seed": 140
+                "seed": 140,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -42101,7 +42137,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "106f43ac-2034-11ef-96ed-0242ac130004",
+                "name": "Trinspank",
+                "seed": 195
             },
             "opponent2": {
                 "id": null
@@ -42213,7 +42251,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7ded4df0-2266-11ef-a9af-0242ac130004",
+                "name": "Dark Warriors",
+                "seed": 161
             },
             "opponent2": {
                 "id": null

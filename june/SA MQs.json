@@ -6056,6 +6056,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Wise",
+            "players": [
+                "narcejo",
+                "pro robert 007",
+                "Caduwii |☯️"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "c2b6e9f8-2565-11ef-a16f-0242ac130004",
             "tournament_id": 0,
             "name": "Khan",
@@ -10096,18 +10107,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6b200bb6-2196-11ef-910a-0242ac130004",
                 "name": "RONNIES",
-                "seed": 184
+                "seed": 184,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
                 "name": "Team Wise",
-                "seed": 329
+                "seed": 329,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "6b200bb6-2196-11ef-910a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "6b200bb6-2196-11ef-910a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "6b200bb6-2196-11ef-910a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 57,
@@ -18526,7 +18587,9 @@
                 "seed": 440
             },
             "opponent2": {
-                "id": null
+                "id": "6b200bb6-2196-11ef-910a-0242ac130004",
+                "name": "RONNIES",
+                "seed": 184
             },
             "match_games": []
         },
@@ -22954,7 +23017,9 @@
                 "seed": 73
             },
             "opponent2": {
-                "id": null
+                "id": "f7d924d6-207c-11ef-b1d8-0242ac130004",
+                "name": "Team Wise",
+                "seed": 329
             },
             "match_games": []
         },

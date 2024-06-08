@@ -12647,18 +12647,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
                 "name": "Trash boys",
-                "seed": 22
+                "seed": 22,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "68b627f2-2402-11ef-b6a5-0242ac130004",
                 "name": "Brawlers",
-                "seed": 64
+                "seed": 64,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "68b627f2-2402-11ef-b6a5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "68b627f2-2402-11ef-b6a5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 216,

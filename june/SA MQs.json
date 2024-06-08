@@ -6787,6 +6787,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
+            "tournament_id": 0,
+            "name": "Planck",
+            "players": [
+                "MIGUEL is here",
+                "\\_(°-°)_/",
+                "Pedrinho xeroso",
+                "Pedrinho fedido"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3a4d1a88-1e17-11ef-8daa-0242ac130004",
             "tournament_id": 0,
             "name": "Los Flex",
@@ -13111,18 +13123,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
                 "name": "Calvos Por Opção",
-                "seed": 191
+                "seed": 191,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
                 "name": "Planck",
-                "seed": 322
+                "seed": 322,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 137,
@@ -19078,7 +19140,9 @@
                 "seed": 66
             },
             "opponent2": {
-                "id": null
+                "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                "name": "Calvos Por Opção",
+                "seed": 191
             },
             "match_games": []
         },
@@ -23394,7 +23458,9 @@
                 "seed": 447
             },
             "opponent2": {
-                "id": null
+                "id": "1b8dd00e-1f54-11ef-b59a-0242ac130004",
+                "name": "Planck",
+                "seed": 322
             },
             "match_games": []
         },

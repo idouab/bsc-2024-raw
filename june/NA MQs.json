@@ -50361,18 +50361,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f497bb0c-1faa-11ef-9d2f-0242ac130004",
                 "name": "DNG",
-                "seed": 579
+                "seed": 579,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
                 "name": "Chayo-ticos",
-                "seed": 574
+                "seed": 574,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "f497bb0c-1faa-11ef-9d2f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "f497bb0c-1faa-11ef-9d2f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "f497bb0c-1faa-11ef-9d2f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1339,
@@ -51436,18 +51486,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f08e56bc-2089-11ef-ba71-0242ac130004",
                 "name": "Air Resistance",
-                "seed": 424
+                "seed": 424,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b45bc88a-204f-11ef-bf67-0242ac130004",
                 "name": "SweetLine",
-                "seed": 218
+                "seed": 218,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "f08e56bc-2089-11ef-ba71-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b45bc88a-204f-11ef-bf67-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "f08e56bc-2089-11ef-ba71-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b45bc88a-204f-11ef-bf67-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1377,
@@ -52089,7 +52174,9 @@
                 "seed": 407
             },
             "opponent2": {
-                "id": null
+                "id": "3f3ce8fa-2530-11ef-b94d-0242ac130004",
+                "name": "Chayo-ticos",
+                "seed": 574
             },
             "match_games": []
         },
@@ -52791,7 +52878,9 @@
                 "seed": 141
             },
             "opponent2": {
-                "id": null
+                "id": "f08e56bc-2089-11ef-ba71-0242ac130004",
+                "name": "Air Resistance",
+                "seed": 424
             },
             "match_games": []
         },

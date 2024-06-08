@@ -10427,18 +10427,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eade8238-1e17-11ef-8158-0242ac130004",
                 "name": "Master Entertainer",
-                "seed": 8
+                "seed": 8,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
                 "name": "We are Wintraders",
-                "seed": 72
+                "seed": 72,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 283,
@@ -10687,18 +10722,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "171ded06-1e14-11ef-9c92-0242ac130004",
                 "name": "T0 Team",
-                "seed": 13
+                "seed": 13,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b9468130-2029-11ef-b015-0242ac130004",
                 "name": "米べー率いる愉快な仲間たち",
-                "seed": 77
+                "seed": 77,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9468130-2029-11ef-b015-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9468130-2029-11ef-b015-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 289,
@@ -11373,7 +11443,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                "name": "We are Wintraders",
+                "seed": 72
             },
             "opponent2": {
                 "id": null
@@ -11429,7 +11501,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                "name": "T0 Team",
+                "seed": 13
             },
             "opponent2": {
                 "id": null
@@ -14456,7 +14530,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b9468130-2029-11ef-b015-0242ac130004",
+                "name": "米べー率いる愉快な仲間たち",
+                "seed": 77
             },
             "opponent2": {
                 "id": null
@@ -14560,7 +14636,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                "name": "Master Entertainer",
+                "seed": 8
             },
             "opponent2": {
                 "id": null

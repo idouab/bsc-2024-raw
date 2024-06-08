@@ -49571,18 +49571,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2a6af2c2-1f96-11ef-ac78-0242ac130004",
                 "name": "Lvl 10s",
-                "seed": 529
+                "seed": 529,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
                 "name": "SuperKuJAM",
-                "seed": 453
+                "seed": 453,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "2a6af2c2-1f96-11ef-ac78-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "2a6af2c2-1f96-11ef-ac78-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1331,
@@ -50846,7 +50881,9 @@
                 "seed": 530
             },
             "opponent2": {
-                "id": null
+                "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                "name": "SuperKuJAM",
+                "seed": 453
             },
             "match_games": []
         },

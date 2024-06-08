@@ -7935,18 +7935,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
                 "name": "SMG",
-                "seed": 36
+                "seed": 36,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
                 "name": "Peppa Esports",
-                "seed": 164
+                "seed": 164,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 170,
@@ -10297,7 +10347,9 @@
                 "seed": 29
             },
             "opponent2": {
-                "id": null
+                "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                "name": "Peppa Esports",
+                "seed": 164
             },
             "match_games": []
         },
@@ -11274,11 +11326,12 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f6d46b6-1faa-11ef-92f1-0242ac130004",
                 "name": "CynicaL",
-                "seed": 201
+                "seed": 201,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "2e292140-230b-11ef-acb6-0242ac130004",
@@ -11976,7 +12029,9 @@
                 "seed": 158
             },
             "opponent2": {
-                "id": null
+                "id": "2e292140-230b-11ef-acb6-0242ac130004",
+                "name": "Sinister Epic",
+                "seed": 184
             },
             "match_games": []
         },
@@ -12585,10 +12640,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                "name": "SMG",
+                "seed": 36
             },
             "opponent2": {
-                "id": null
+                "id": "b4852ed6-20f0-11ef-9577-0242ac130004",
+                "name": "Zephyr Legion",
+                "seed": 119
             },
             "match_games": []
         },

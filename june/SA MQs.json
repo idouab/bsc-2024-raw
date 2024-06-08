@@ -31959,18 +31959,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d64c156-22c4-11ef-b993-0242ac130004",
                 "name": "Skill Savants",
-                "seed": 163
+                "seed": 163,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
                 "name": "OGL Real",
-                "seed": 265
+                "seed": 265,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 520,
@@ -35101,7 +35151,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
+                "name": "OGL Real",
+                "seed": 265
             },
             "opponent2": {
                 "id": null

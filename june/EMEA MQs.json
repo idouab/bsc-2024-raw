@@ -97764,18 +97764,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9a9ef918-1e14-11ef-ba7b-0242ac130004",
                 "name": "AIR FØRCE",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "efbd41d4-2044-11ef-9699-0242ac130004",
                 "name": "force bite",
-                "seed": 980
+                "seed": 980,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "9a9ef918-1e14-11ef-ba7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "efbd41d4-2044-11ef-9699-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "9a9ef918-1e14-11ef-ba7b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "efbd41d4-2044-11ef-9699-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1209,
@@ -102679,7 +102714,7 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 0,
+            "status": 3,
             "opponent1": {
                 "id": "9928749c-1e14-11ef-a712-0242ac130004",
                 "name": "Los GoGoG",

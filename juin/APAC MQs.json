@@ -13304,18 +13304,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
                 "name": "Team SL:A",
-                "seed": 120
+                "seed": 120,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ee17bff0-1f43-11ef-98d6-0242ac130004",
                 "name": "DodoStars",
-                "seed": 163
+                "seed": 163,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee17bff0-1f43-11ef-98d6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee17bff0-1f43-11ef-98d6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 266,

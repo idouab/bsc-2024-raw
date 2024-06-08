@@ -18132,18 +18132,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
                 "name": "The Besting",
-                "seed": 42
+                "seed": 42,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "19853798-1e14-11ef-8188-0242ac130004",
                 "name": "訳アリ",
-                "seed": 24
+                "seed": 24,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19853798-1e14-11ef-8188-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19853798-1e14-11ef-8188-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 383,
@@ -18607,7 +18642,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                "name": "The Besting",
+                "seed": 42
             },
             "opponent2": {
                 "id": null

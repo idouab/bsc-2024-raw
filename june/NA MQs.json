@@ -7009,6 +7009,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "2ae8fa4a-1fb5-11ef-aade-0242ac130004",
+            "tournament_id": 0,
+            "name": "AGL",
+            "players": [
+                "goule_",
+                "liam",
+                "Aloxi"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "28b40e6e-1f6e-11ef-9b87-0242ac130004",
             "tournament_id": 0,
             "name": "Green BS",
@@ -7061,6 +7072,29 @@
                 "sweaty nolan",
                 "John Wick",
                 "SwêätyKïñgRàmżî"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "ed984f52-2080-11ef-9beb-0242ac130004",
+            "tournament_id": 0,
+            "name": "OCY TEAM",
+            "players": [
+                "YeyoBot🐐",
+                "就ᶜʳᵃᶻʸ",
+                "Isma 14🇵🇪",
+                "𝒪𝓈𝓌𝒶𝓃々みお🍹"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f1fa807e-2120-11ef-9996-0242ac130004",
+            "tournament_id": 0,
+            "name": "MCT",
+            "players": [
+                "TCH ceisp",
+                "Tedd🐱☕",
+                "ElCho"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
@@ -9908,18 +9942,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e54f7bfc-207d-11ef-8391-0242ac130004",
                 "name": "Golden Trio",
-                "seed": 420
+                "seed": 420,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2ae8fa4a-1fb5-11ef-aade-0242ac130004",
                 "name": "AGL",
-                "seed": 605
+                "seed": 605,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "e54f7bfc-207d-11ef-8391-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2ae8fa4a-1fb5-11ef-aade-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e54f7bfc-207d-11ef-8391-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2ae8fa4a-1fb5-11ef-aade-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 159,
@@ -15467,18 +15536,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed984f52-2080-11ef-9beb-0242ac130004",
                 "name": "OCY TEAM",
-                "seed": 422
+                "seed": 422,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f0f7e2a-1fb4-11ef-b0bb-0242ac130004",
                 "name": "Menace Esports",
-                "seed": 603
+                "seed": 603,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ed984f52-2080-11ef-9beb-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f0f7e2a-1fb4-11ef-b0bb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ed984f52-2080-11ef-9beb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f0f7e2a-1fb4-11ef-b0bb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 479,
@@ -15939,18 +16043,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f1fa807e-2120-11ef-9996-0242ac130004",
                 "name": "MCT",
-                "seed": 470
+                "seed": 470,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "34e5ebdc-1fa3-11ef-a53f-0242ac130004",
                 "name": "Ducklings",
-                "seed": 555
+                "seed": 555,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f1fa807e-2120-11ef-9996-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34e5ebdc-1fa3-11ef-a53f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f1fa807e-2120-11ef-9996-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "34e5ebdc-1fa3-11ef-a53f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 507,
@@ -17562,7 +17701,9 @@
                 "seed": 93
             },
             "opponent2": {
-                "id": null
+                "id": "e54f7bfc-207d-11ef-8391-0242ac130004",
+                "name": "Golden Trio",
+                "seed": 420
             },
             "match_games": []
         },
@@ -20640,7 +20781,9 @@
                 "seed": 91
             },
             "opponent2": {
-                "id": null
+                "id": "6f0f7e2a-1fb4-11ef-b0bb-0242ac130004",
+                "name": "Menace Esports",
+                "seed": 603
             },
             "match_games": []
         },
@@ -20908,7 +21051,9 @@
                 "seed": 43
             },
             "opponent2": {
-                "id": null
+                "id": "34e5ebdc-1fa3-11ef-a53f-0242ac130004",
+                "name": "Ducklings",
+                "seed": 555
             },
             "match_games": []
         },

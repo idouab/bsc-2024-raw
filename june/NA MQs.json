@@ -40631,18 +40631,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d26ac22-1e16-11ef-ad42-0242ac130004",
                 "name": ":3",
-                "seed": 23
+                "seed": 23,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "74566ae6-1e16-11ef-874c-0242ac130004",
                 "name": "THE LANTERNS",
-                "seed": 42
+                "seed": 42,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "6d26ac22-1e16-11ef-ad42-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6d26ac22-1e16-11ef-ad42-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1412,
@@ -41249,7 +41284,9 @@
                 "seed": 10
             },
             "opponent2": {
-                "id": null
+                "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                "name": "THE LANTERNS",
+                "seed": 42
             },
             "match_games": []
         },
@@ -51041,7 +51078,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d26ac22-1e16-11ef-ad42-0242ac130004",
+                "name": ":3",
+                "seed": 23
             },
             "opponent2": {
                 "id": null

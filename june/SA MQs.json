@@ -46226,18 +46226,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6e6fa404-2027-11ef-9229-0242ac130004",
                 "name": "NeedyProtet",
-                "seed": 168
+                "seed": 168,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "543040d6-1f95-11ef-ab09-0242ac130004",
                 "name": "TBP",
-                "seed": 430
+                "seed": 430,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6e6fa404-2027-11ef-9229-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "543040d6-1f95-11ef-ab09-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6e6fa404-2027-11ef-9229-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "543040d6-1f95-11ef-ab09-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 945,
@@ -46827,7 +46862,11 @@
                 "name": "Underdogs",
                 "seed": 40
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "543040d6-1f95-11ef-ab09-0242ac130004",
+                "name": "TBP",
+                "seed": 430
+            },
             "match_games": []
         },
         {

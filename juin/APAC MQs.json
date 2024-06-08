@@ -12169,18 +12169,68 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
                 "name": "We are Wintraders",
-                "seed": 72
+                "seed": 72,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "63f0a738-24d9-11ef-804e-0242ac130004",
                 "name": "Rouge Eveil",
-                "seed": 104
+                "seed": 104,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 345,
@@ -12889,10 +12939,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                "name": "We are Wintraders",
+                "seed": 72
             },
             "opponent2": {
-                "id": null
+                "id": "eae012ec-1e17-11ef-9e0b-0242ac130004",
+                "name": "Why we lose",
+                "seed": 9
             },
             "match_games": []
         },
@@ -17657,7 +17711,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                "name": "Rouge Eveil",
+                "seed": 104
             },
             "opponent2": {
                 "id": null

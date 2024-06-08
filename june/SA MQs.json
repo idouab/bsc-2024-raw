@@ -26037,18 +26037,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
                 "name": "Sublime",
-                "seed": 235
+                "seed": 235,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3fdade4a-1e17-11ef-83c9-0242ac130004",
                 "name": "dark gaming",
-                "seed": 150
+                "seed": 150,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fdade4a-1e17-11ef-83c9-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fdade4a-1e17-11ef-83c9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 686,
@@ -26587,7 +26622,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                "name": "Sublime",
+                "seed": 235
             },
             "opponent2": {
                 "id": null
@@ -34179,7 +34216,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3fdade4a-1e17-11ef-83c9-0242ac130004",
+                "name": "dark gaming",
+                "seed": 150
             },
             "opponent2": {
                 "id": null

@@ -20805,18 +20805,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3cd29e60-209f-11ef-8004-0242ac130004",
                 "name": "天使",
-                "seed": 94
+                "seed": 94,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "eade8238-1e17-11ef-8158-0242ac130004",
                 "name": "Master Entertainer",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3cd29e60-209f-11ef-8004-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "3cd29e60-209f-11ef-8004-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 437,
@@ -21075,7 +21110,9 @@
                 "seed": 9
             },
             "opponent2": {
-                "id": null
+                "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                "name": "Master Entertainer",
+                "seed": 8
             },
             "match_games": []
         },

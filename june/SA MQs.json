@@ -6178,6 +6178,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
+            "tournament_id": 0,
+            "name": "Los |Papu |Amigos",
+            "players": [
+                "FacuFN",
+                "sonDaRyu",
+                "muerte23"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "37647f0a-202e-11ef-8c4e-0242ac130004",
             "tournament_id": 0,
             "name": "GD's",
@@ -10593,18 +10604,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
                 "name": "Cerrau",
-                "seed": 29
+                "seed": 29,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
                 "name": "Los |Papu |Amigos",
-                "seed": 484
+                "seed": 484,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 74,
@@ -17981,10 +18042,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                "name": "Cerrau",
+                "seed": 29
             },
             "opponent2": {
-                "id": null
+                "id": "5938a0e0-2081-11ef-b081-0242ac130004",
+                "name": "OCT | TEAM",
+                "seed": 228
             },
             "match_games": []
         },
@@ -22349,10 +22414,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8d0e4cfc-1fb0-11ef-a7b0-0242ac130004",
+                "name": "Los |Papu |Amigos",
+                "seed": 484
             },
             "opponent2": {
-                "id": null
+                "id": "37647f0a-202e-11ef-8c4e-0242ac130004",
+                "name": "GD's",
+                "seed": 285
             },
             "match_games": []
         },

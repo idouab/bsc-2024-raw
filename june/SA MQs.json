@@ -46341,18 +46341,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4f1ab97e-208e-11ef-9e1a-0242ac130004",
                 "name": "THE NEWBAS",
-                "seed": 240
+                "seed": 240,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7a5608c0-2541-11ef-975f-0242ac130004",
                 "name": "L'obscurité",
-                "seed": 241
+                "seed": 241,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "4f1ab97e-208e-11ef-9e1a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7a5608c0-2541-11ef-975f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "4f1ab97e-208e-11ef-9e1a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7a5608c0-2541-11ef-975f-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 954,
@@ -46662,7 +46697,11 @@
                 "name": "Os do Job",
                 "seed": 79
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "4f1ab97e-208e-11ef-9e1a-0242ac130004",
+                "name": "THE NEWBAS",
+                "seed": 240
+            },
             "match_games": []
         },
         {

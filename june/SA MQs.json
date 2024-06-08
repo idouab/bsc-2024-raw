@@ -47168,18 +47168,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "45d7a4a4-1f75-11ef-b52e-0242ac130004",
                 "name": "ZEN",
-                "seed": 366
+                "seed": 366,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3a6efcf2-1e17-11ef-bea4-0242ac130004",
                 "name": "Ñam sports",
-                "seed": 26
+                "seed": 26,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "45d7a4a4-1f75-11ef-b52e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3a6efcf2-1e17-11ef-bea4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "45d7a4a4-1f75-11ef-b52e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3a6efcf2-1e17-11ef-bea4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 966,
@@ -47485,7 +47520,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a6efcf2-1e17-11ef-bea4-0242ac130004",
+                "name": "Ñam sports",
+                "seed": 26
             },
             "opponent2": {
                 "id": null

@@ -7111,6 +7111,29 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "775748f0-1f8d-11ef-bf4e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Blue Demons",
+            "players": [
+                "gervasian",
+                "human fish",
+                "Karl Marx",
+                "nick"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "0d8947e4-1f78-11ef-9161-0242ac130004",
+            "tournament_id": 0,
+            "name": "Flood Esports",
+            "players": [
+                "Flood_Obese",
+                "Flood_Speeding",
+                "1k"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "8d4f454a-1fa1-11ef-80eb-0242ac130004",
             "tournament_id": 0,
             "name": "EVA|ON",
@@ -11019,18 +11042,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
                 "name": "What the Sigma",
-                "seed": 508
+                "seed": 508,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "775748f0-1f8d-11ef-bf4e-0242ac130004",
                 "name": "Blue Demons",
-                "seed": 517
+                "seed": 517,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "775748f0-1f8d-11ef-bf4e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "775748f0-1f8d-11ef-bf4e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 195,
@@ -11287,18 +11345,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0d8947e4-1f78-11ef-9161-0242ac130004",
                 "name": "Flood Esports",
-                "seed": 485
+                "seed": 485,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1378e2ac-22f4-11ef-8272-0242ac130004",
                 "name": "Cafetaleros",
-                "seed": 540
+                "seed": 540,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "0d8947e4-1f78-11ef-9161-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1378e2ac-22f4-11ef-8272-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "0d8947e4-1f78-11ef-9161-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1378e2ac-22f4-11ef-8272-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 211,
@@ -18728,7 +18821,9 @@
                 "seed": 5
             },
             "opponent2": {
-                "id": null
+                "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                "name": "What the Sigma",
+                "seed": 508
             },
             "match_games": []
         },
@@ -18882,7 +18977,9 @@
                 "seed": 28
             },
             "opponent2": {
-                "id": null
+                "id": "1378e2ac-22f4-11ef-8272-0242ac130004",
+                "name": "Cafetaleros",
+                "seed": 540
             },
             "match_games": []
         },

@@ -22311,18 +22311,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f2a3586-1e17-11ef-96fb-0242ac130004",
                 "name": "LOUD",
-                "seed": 94
+                "seed": 94,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d64c156-22c4-11ef-b993-0242ac130004",
                 "name": "Skill Savants",
-                "seed": 163
+                "seed": 163,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3f2a3586-1e17-11ef-96fb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3f2a3586-1e17-11ef-96fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "3f2a3586-1e17-11ef-96fb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 471,
@@ -24281,7 +24331,9 @@
                 "seed": 478
             },
             "opponent2": {
-                "id": null
+                "id": "3f2a3586-1e17-11ef-96fb-0242ac130004",
+                "name": "LOUD",
+                "seed": 94
             },
             "match_games": []
         },
@@ -25542,18 +25594,68 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ac6c2894-1f8d-11ef-bdff-0242ac130004",
                 "name": "PE",
-                "seed": 416
+                "seed": 416,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cac7b5b4-20a6-11ef-b85a-0242ac130004",
                 "name": "ESTtilines",
-                "seed": 353
+                "seed": 353,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ac6c2894-1f8d-11ef-bdff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cac7b5b4-20a6-11ef-b85a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ac6c2894-1f8d-11ef-bdff-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cac7b5b4-20a6-11ef-b85a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "ac6c2894-1f8d-11ef-bdff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cac7b5b4-20a6-11ef-b85a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 262,
@@ -28179,7 +28281,9 @@
                 "seed": 203
             },
             "opponent2": {
-                "id": null
+                "id": "cac7b5b4-20a6-11ef-b85a-0242ac130004",
+                "name": "ESTtilines",
+                "seed": 353
             },
             "match_games": []
         },
@@ -28506,10 +28610,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d64c156-22c4-11ef-b993-0242ac130004",
+                "name": "Skill Savants",
+                "seed": 163
             },
             "opponent2": {
-                "id": null
+                "id": "5fe24156-1fcf-11ef-9ad7-0242ac130004",
+                "name": "OGL Real",
+                "seed": 265
             },
             "match_games": []
         },

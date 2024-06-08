@@ -2416,6 +2416,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "a1903edc-1fbb-11ef-90c4-0242ac130004",
+            "tournament_id": 0,
+            "name": "Leviathan",
+            "players": [
+                "Ren",
+                "Sparkle ✨",
+                "Free🇵🇸"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
             "tournament_id": 0,
             "name": "AM Verse",
@@ -2435,6 +2446,17 @@
                 "goed",
                 "brr 2.0",
                 "TrollXD"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "d62c83c6-1fa7-11ef-891c-0242ac130004",
+            "tournament_id": 0,
+            "name": "あきふみ",
+            "players": [
+                "和彦",
+                "けい",
+                "ごぶりん8"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -4147,18 +4169,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
                 "name": "SuperTrashBros",
-                "seed": 44
+                "seed": 44,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a1903edc-1fbb-11ef-90c4-0242ac130004",
                 "name": "Leviathan",
-                "seed": 213
+                "seed": 213,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1903edc-1fbb-11ef-90c4-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1903edc-1fbb-11ef-90c4-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 64,
@@ -4698,18 +4755,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "19704b44-1e14-11ef-ae7a-0242ac130004",
                 "name": "HKSC",
-                "seed": 58
+                "seed": 58,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d62c83c6-1fa7-11ef-891c-0242ac130004",
                 "name": "あきふみ",
-                "seed": 199
+                "seed": 199,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "19704b44-1e14-11ef-ae7a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d62c83c6-1fa7-11ef-891c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "19704b44-1e14-11ef-ae7a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d62c83c6-1fa7-11ef-891c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 84,
@@ -6326,7 +6418,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
+                "name": "SuperTrashBros",
+                "seed": 44
             },
             "opponent2": {
                 "id": null
@@ -6506,10 +6600,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "19704b44-1e14-11ef-ae7a-0242ac130004",
+                "name": "HKSC",
+                "seed": 58
             },
             "opponent2": {
-                "id": null
+                "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                "name": "Ramen",
+                "seed": 186
             },
             "match_games": []
         },
@@ -8036,7 +8134,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a1903edc-1fbb-11ef-90c4-0242ac130004",
+                "name": "Leviathan",
+                "seed": 213
             },
             "opponent2": {
                 "id": null
@@ -8102,10 +8202,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d62c83c6-1fa7-11ef-891c-0242ac130004",
+                "name": "あきふみ",
+                "seed": 199
             },
             "opponent2": {
-                "id": null
+                "id": "180ccd2c-1e14-11ef-a0ba-0242ac130004",
+                "name": "TEAM SKULLS",
+                "seed": 71
             },
             "match_games": []
         },

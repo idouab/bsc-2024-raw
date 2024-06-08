@@ -38199,18 +38199,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
                 "name": "Calvos Por Opção",
-                "seed": 191
+                "seed": 191,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
                 "name": "GCL|LOSDELSUR",
-                "seed": 405
+                "seed": 405,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 718,
@@ -40062,7 +40112,9 @@
                 "seed": 320
             },
             "opponent2": {
-                "id": null
+                "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                "name": "GCL|LOSDELSUR",
+                "seed": 405
             },
             "match_games": []
         },

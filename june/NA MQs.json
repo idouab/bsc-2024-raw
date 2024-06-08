@@ -51971,18 +51971,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1266f1a8-212b-11ef-8482-0242ac130004",
                 "name": "Casual Gamers",
-                "seed": 478
+                "seed": 478,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6bdfa7d8-1e16-11ef-870d-0242ac130004",
                 "name": "AMA",
-                "seed": 247
+                "seed": 247,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "1266f1a8-212b-11ef-8482-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bdfa7d8-1e16-11ef-870d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "1266f1a8-212b-11ef-8482-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6bdfa7d8-1e16-11ef-870d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1376,
@@ -53464,7 +53499,9 @@
                 "seed": 93
             },
             "opponent2": {
-                "id": null
+                "id": "6bdfa7d8-1e16-11ef-870d-0242ac130004",
+                "name": "AMA",
+                "seed": 247
             },
             "match_games": []
         },

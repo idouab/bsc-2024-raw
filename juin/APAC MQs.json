@@ -16559,18 +16559,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "195d75a0-1e14-11ef-8c23-0242ac130004",
                 "name": "Brawling legends",
-                "seed": 41
+                "seed": 41,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "19853798-1e14-11ef-8188-0242ac130004",
                 "name": "訳アリ",
-                "seed": 24
+                "seed": 24,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "195d75a0-1e14-11ef-8c23-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "19853798-1e14-11ef-8188-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "195d75a0-1e14-11ef-8c23-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19853798-1e14-11ef-8188-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "195d75a0-1e14-11ef-8c23-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "19853798-1e14-11ef-8188-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 335,
@@ -16655,18 +16705,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "721432de-2403-11ef-bd2f-0242ac130004",
                 "name": "Nobody",
-                "seed": 200
+                "seed": 200,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c68a4168-20fd-11ef-aef8-0242ac130004",
                 "name": "#1",
-                "seed": 121
+                "seed": 121,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c68a4168-20fd-11ef-aef8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c68a4168-20fd-11ef-aef8-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c68a4168-20fd-11ef-aef8-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 338,
@@ -17314,7 +17414,9 @@
                 "seed": 42
             },
             "opponent2": {
-                "id": null
+                "id": "19853798-1e14-11ef-8188-0242ac130004",
+                "name": "訳アリ",
+                "seed": 24
             },
             "match_games": []
         },
@@ -17372,7 +17474,9 @@
                 "seed": 186
             },
             "opponent2": {
-                "id": null
+                "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                "name": "Nobody",
+                "seed": 200
             },
             "match_games": []
         },

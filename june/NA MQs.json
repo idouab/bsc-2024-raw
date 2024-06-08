@@ -33237,18 +33237,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
                 "name": "Imminent",
-                "seed": 26
+                "seed": 26,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e11e5e2c-24fb-11ef-ba3b-0242ac130004",
                 "name": "Flash",
-                "seed": 282
+                "seed": 282,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e11e5e2c-24fb-11ef-ba3b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e11e5e2c-24fb-11ef-ba3b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1089,
@@ -35526,10 +35561,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                "name": "Imminent",
+                "seed": 26
             },
             "opponent2": {
-                "id": null
+                "id": "83da10ec-215b-11ef-89f1-0242ac130004",
+                "name": "joez and pals",
+                "seed": 359
             },
             "match_games": []
         },

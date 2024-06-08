@@ -10432,18 +10432,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eae012ec-1e17-11ef-9e0b-0242ac130004",
                 "name": "Why we lose",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
                 "name": "ラディッシュ許さん",
-                "seed": 73
+                "seed": 73,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "eae012ec-1e17-11ef-9e0b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "eae012ec-1e17-11ef-9e0b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 285,
@@ -11177,10 +11212,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eae012ec-1e17-11ef-9e0b-0242ac130004",
+                "name": "Why we lose",
+                "seed": 9
             },
             "opponent2": {
-                "id": null
+                "id": "e32f3eba-2024-11ef-af58-0242ac130004",
+                "name": "だいき6",
+                "seed": 88
             },
             "match_games": []
         },
@@ -14228,7 +14267,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "18d07be6-1e14-11ef-a4b2-0242ac130004",
+                "name": "ラディッシュ許さん",
+                "seed": 73
             },
             "opponent2": {
                 "id": null

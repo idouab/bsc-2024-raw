@@ -8617,18 +8617,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
                 "name": "Trash boys",
-                "seed": 22
+                "seed": 22,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
                 "name": "在日Japanese",
-                "seed": 107
+                "seed": 107,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 213,
@@ -9171,7 +9206,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                "name": "在日Japanese",
+                "seed": 107
             },
             "opponent2": {
                 "id": null
@@ -10071,7 +10108,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "18a46f38-1e14-11ef-8fc6-0242ac130004",
+                "name": "Trash boys",
+                "seed": 22
             },
             "opponent2": {
                 "id": null

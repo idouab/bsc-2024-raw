@@ -39196,18 +39196,68 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "03aeeb7c-216a-11ef-b15c-0242ac130004",
                 "name": "Team Requiem",
-                "seed": 367
+                "seed": 367,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "369e2004-251e-11ef-b8e0-0242ac130004",
                 "name": "ATMX",
-                "seed": 572
+                "seed": 572,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "03aeeb7c-216a-11ef-b15c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "03aeeb7c-216a-11ef-b15c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "03aeeb7c-216a-11ef-b15c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 555,
@@ -40581,7 +40631,7 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0b862098-2031-11ef-bc9b-0242ac130004",
                 "name": "Hell’s Satans",
@@ -40590,7 +40640,8 @@
             "opponent2": {
                 "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
                 "name": "Los Gatos Mañosos",
-                "seed": 571
+                "seed": 571,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -41696,10 +41747,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "03aeeb7c-216a-11ef-b15c-0242ac130004",
+                "name": "Team Requiem",
+                "seed": 367
             },
             "opponent2": {
-                "id": null
+                "id": "72b7932c-1e16-11ef-9fe4-0242ac130004",
+                "name": "DaBoyz",
+                "seed": 111
             },
             "match_games": []
         },
@@ -42796,10 +42851,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0b862098-2031-11ef-bc9b-0242ac130004",
+                "name": "Hell’s Satans",
+                "seed": 368
             },
             "opponent2": {
-                "id": null
+                "id": "428ef15a-2351-11ef-99f0-0242ac130004",
+                "name": "Ba Sing Se",
+                "seed": 401
             },
             "match_games": []
         },

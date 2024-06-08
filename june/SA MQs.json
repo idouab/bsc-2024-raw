@@ -30726,18 +30726,68 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7d4b0654-241d-11ef-86ca-0242ac130004",
                 "name": "Ó US CABA SQUEAK",
-                "seed": 167
+                "seed": 167,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
                 "name": "Level Esports",
-                "seed": 10
+                "seed": 10,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "7d4b0654-241d-11ef-86ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "7d4b0654-241d-11ef-86ca-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "7d4b0654-241d-11ef-86ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 901,
@@ -30901,7 +30951,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "7d4b0654-241d-11ef-86ca-0242ac130004",
+                "name": "Ó US CABA SQUEAK",
+                "seed": 167
             },
             "match_games": []
         },
@@ -45664,7 +45716,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                "name": "Level Esports",
+                "seed": 10
             },
             "opponent2": {
                 "id": null

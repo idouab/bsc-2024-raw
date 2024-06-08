@@ -11604,18 +11604,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16965a4e-1e14-11ef-b354-0242ac130004",
                 "name": "法然",
-                "seed": 19
+                "seed": 19,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1732a67e-1e14-11ef-92d4-0242ac130004",
                 "name": "まーちゅーずえいぱぷぅ",
-                "seed": 46
+                "seed": 46,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "16965a4e-1e14-11ef-b354-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1732a67e-1e14-11ef-92d4-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "16965a4e-1e14-11ef-b354-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1732a67e-1e14-11ef-92d4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "16965a4e-1e14-11ef-b354-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1732a67e-1e14-11ef-92d4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 306,
@@ -12099,7 +12149,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "1732a67e-1e14-11ef-92d4-0242ac130004",
+                "name": "まーちゅーずえいぱぷぅ",
+                "seed": 46
             },
             "match_games": []
         },
@@ -15716,7 +15768,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "16965a4e-1e14-11ef-b354-0242ac130004",
+                "name": "法然",
+                "seed": 19
             },
             "opponent2": {
                 "id": null

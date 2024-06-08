@@ -20845,18 +20845,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16996856-1e14-11ef-8064-0242ac130004",
                 "name": "Monarchy",
-                "seed": 21
+                "seed": 21,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "be829d6c-24cc-11ef-a802-0242ac130004",
                 "name": "SKIBIDI OHIO SIGMA",
-                "seed": 208
+                "seed": 208,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "16996856-1e14-11ef-8064-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be829d6c-24cc-11ef-a802-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "16996856-1e14-11ef-8064-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "be829d6c-24cc-11ef-a802-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 439,
@@ -21006,7 +21041,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "16996856-1e14-11ef-8064-0242ac130004",
+                "name": "Monarchy",
+                "seed": 21
             },
             "match_games": []
         },

@@ -20900,18 +20900,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63f0a738-24d9-11ef-804e-0242ac130004",
                 "name": "Rouge Eveil",
-                "seed": 104
+                "seed": 104,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
                 "name": "Snow Rabbits",
-                "seed": 190
+                "seed": 190,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 440,
@@ -21061,7 +21096,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                "name": "Rouge Eveil",
+                "seed": 104
             },
             "match_games": []
         },

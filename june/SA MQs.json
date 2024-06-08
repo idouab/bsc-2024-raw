@@ -25782,18 +25782,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "68d0611a-208a-11ef-9025-0242ac130004",
                 "name": "FHG",
-                "seed": 236
+                "seed": 236,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f955596-1e17-11ef-9367-0242ac130004",
                 "name": "SSK ESPORTS",
-                "seed": 108
+                "seed": 108,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "68d0611a-208a-11ef-9025-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "68d0611a-208a-11ef-9025-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "68d0611a-208a-11ef-9025-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 654,
@@ -27384,10 +27434,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "68d0611a-208a-11ef-9025-0242ac130004",
+                "name": "FHG",
+                "seed": 236
             },
             "opponent2": {
-                "id": null
+                "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                "name": "Nah i'd win",
+                "seed": 341
             },
             "match_games": []
         },
@@ -35445,7 +35499,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                "name": "SSK ESPORTS",
+                "seed": 108
             },
             "opponent2": {
                 "id": null

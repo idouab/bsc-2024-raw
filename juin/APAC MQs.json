@@ -7267,18 +7267,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "be829d6c-24cc-11ef-a802-0242ac130004",
                 "name": "SKIBIDI OHIO SIGMA",
-                "seed": 208
+                "seed": 208,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e107158a-1f58-11ef-8edf-0242ac130004",
                 "name": "LastDance",
-                "seed": 177
+                "seed": 177,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "be829d6c-24cc-11ef-a802-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "be829d6c-24cc-11ef-a802-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -9977,7 +10012,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "be829d6c-24cc-11ef-a802-0242ac130004",
+                "name": "SKIBIDI OHIO SIGMA",
+                "seed": 208
             },
             "match_games": []
         },
@@ -12464,10 +12501,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                "name": "LastDance",
+                "seed": 177
             },
             "opponent2": {
-                "id": null
+                "id": "1cf57506-1f30-11ef-ada5-0242ac130004",
+                "name": "EndGame",
+                "seed": 155
             },
             "match_games": []
         },

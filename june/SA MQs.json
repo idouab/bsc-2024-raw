@@ -21936,18 +21936,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
                 "name": "Trío Onichan",
-                "seed": 407
+                "seed": 407,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cc9b0ed2-1fc4-11ef-89a5-0242ac130004",
                 "name": "ANIMAL OR DEMON",
-                "seed": 151
+                "seed": 151,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cc9b0ed2-1fc4-11ef-89a5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "cc9b0ed2-1fc4-11ef-89a5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 461,
@@ -28790,7 +28825,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
+                "name": "Trío Onichan",
+                "seed": 407
             },
             "opponent2": {
                 "id": null

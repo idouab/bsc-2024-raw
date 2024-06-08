@@ -12921,18 +12921,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
                 "name": "Crazy Raccoon",
-                "seed": 1
+                "seed": 1,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
                 "name": "たつきすねげ",
-                "seed": 17
+                "seed": 17,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 391,
@@ -13083,7 +13118,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                "name": "Crazy Raccoon",
+                "seed": 1
             },
             "opponent2": {
                 "id": null
@@ -18289,7 +18326,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                "name": "たつきすねげ",
+                "seed": 17
             },
             "opponent2": {
                 "id": null

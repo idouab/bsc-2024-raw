@@ -29761,18 +29761,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a953e2a4-1e17-11ef-a033-0242ac130004",
                 "name": "Marruecos",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
                 "name": "Los flaites",
-                "seed": 165
+                "seed": 165,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "a953e2a4-1e17-11ef-a033-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "a953e2a4-1e17-11ef-a033-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 854,
@@ -30087,7 +30122,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a953e2a4-1e17-11ef-a033-0242ac130004",
+                "name": "Marruecos",
+                "seed": 5
             },
             "opponent2": {
                 "id": null
@@ -42916,7 +42953,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                "name": "Los flaites",
+                "seed": 165
             },
             "opponent2": {
                 "id": null

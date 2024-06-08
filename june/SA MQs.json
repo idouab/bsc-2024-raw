@@ -45941,18 +45941,68 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f1772c28-1fa5-11ef-a370-0242ac130004",
                 "name": "Danonitos",
-                "seed": 464
+                "seed": 464,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
                 "name": "PR|DestroyersPE",
-                "seed": 134
+                "seed": 134,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "f1772c28-1fa5-11ef-a370-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f1772c28-1fa5-11ef-a370-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f1772c28-1fa5-11ef-a370-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 941,
@@ -46593,7 +46643,11 @@
                 "name": "Los flaites",
                 "seed": 165
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "f1772c28-1fa5-11ef-a370-0242ac130004",
+                "name": "Danonitos",
+                "seed": 464
+            },
             "match_games": []
         },
         {

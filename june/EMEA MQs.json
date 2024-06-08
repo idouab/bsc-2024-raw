@@ -22291,7 +22291,7 @@
             "name": "Famous Skill",
             "players": [
                 "FS | Manvi 💘",
-                "Marcee💫まーわさ.",
+                "FS | Marce 💘",
                 "FS | Sniper 💘"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
@@ -33922,6 +33922,17 @@
                 "ID|Peperoni",
                 "qûįqūę§🐣",
                 "GORKATOR_27"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f9fa879c-2058-11ef-ba40-0242ac130004",
+            "tournament_id": 0,
+            "name": "Thunderbolts",
+            "players": [
+                "柔道|Lūcās☆",
+                "✅PH1D4LPH4✅",
+                "nonote57"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -63969,18 +63980,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a4719d42-1e14-11ef-8978-0242ac130004",
                 "name": "EMA | Gaming",
-                "seed": 791
+                "seed": 791,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "535a6a58-1f89-11ef-81b2-0242ac130004",
                 "name": "TRUSK",
-                "seed": 1258
+                "seed": 1258,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a4719d42-1e14-11ef-8978-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "535a6a58-1f89-11ef-81b2-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a4719d42-1e14-11ef-8978-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "535a6a58-1f89-11ef-81b2-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "a4719d42-1e14-11ef-8978-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "535a6a58-1f89-11ef-81b2-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 743,
@@ -73129,18 +73190,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f9fa879c-2058-11ef-ba40-0242ac130004",
                 "name": "Thunderbolts",
-                "seed": 630
+                "seed": 630,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0e287010-218c-11ef-8f1f-0242ac130004",
                 "name": "LMS | E-Sports",
-                "seed": 1419
+                "seed": 1419,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f9fa879c-2058-11ef-ba40-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0e287010-218c-11ef-8f1f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f9fa879c-2058-11ef-ba40-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0e287010-218c-11ef-8f1f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 973,
@@ -82810,7 +82906,9 @@
                 "seed": 234
             },
             "opponent2": {
-                "id": null
+                "id": "a4719d42-1e14-11ef-8978-0242ac130004",
+                "name": "EMA | Gaming",
+                "seed": 791
             },
             "match_games": []
         },
@@ -85104,7 +85202,9 @@
                 "seed": 395
             },
             "opponent2": {
-                "id": null
+                "id": "0e287010-218c-11ef-8f1f-0242ac130004",
+                "name": "LMS | E-Sports",
+                "seed": 1419
             },
             "match_games": []
         },
@@ -103438,7 +103538,9 @@
                 "seed": 1654
             },
             "opponent2": {
-                "id": null
+                "id": "f9fa879c-2058-11ef-ba40-0242ac130004",
+                "name": "Thunderbolts",
+                "seed": 630
             },
             "match_games": []
         },

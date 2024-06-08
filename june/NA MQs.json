@@ -36399,18 +36399,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6bd566ce-1e16-11ef-96e8-0242ac130004",
                 "name": "Brobby PG",
-                "seed": 48
+                "seed": 48,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "70a03742-1e16-11ef-b322-0242ac130004",
                 "name": "ROMPO ROMPO",
-                "seed": 81
+                "seed": 81,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6bd566ce-1e16-11ef-96e8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70a03742-1e16-11ef-b322-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6bd566ce-1e16-11ef-96e8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70a03742-1e16-11ef-b322-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1268,
@@ -47988,7 +48023,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6bd566ce-1e16-11ef-96e8-0242ac130004",
+                "name": "Brobby PG",
+                "seed": 48
             },
             "opponent2": {
                 "id": null

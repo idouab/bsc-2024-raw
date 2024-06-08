@@ -20730,18 +20730,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
                 "name": "SuperTrashBros",
-                "seed": 44
+                "seed": 44,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b6c64e10-232e-11ef-9644-0242ac130004",
                 "name": "Supretty",
-                "seed": 143
+                "seed": 143,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "1887b5fa-1e14-11ef-ad46-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 435,
@@ -20897,7 +20932,9 @@
                 "seed": 12
             },
             "opponent2": {
-                "id": null
+                "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                "name": "Supretty",
+                "seed": 143
             },
             "match_games": []
         },

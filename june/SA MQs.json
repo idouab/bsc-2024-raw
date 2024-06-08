@@ -28007,18 +28007,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "39ea6a8c-1e17-11ef-a1f5-0242ac130004",
                 "name": "Ifood Team",
-                "seed": 17
+                "seed": 17,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3feb7ffc-1e17-11ef-8c3d-0242ac130004",
                 "name": "Nobruzes",
-                "seed": 48
+                "seed": 48,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "39ea6a8c-1e17-11ef-a1f5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3feb7ffc-1e17-11ef-8c3d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "39ea6a8c-1e17-11ef-a1f5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3feb7ffc-1e17-11ef-8c3d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 755,
@@ -29417,7 +29452,9 @@
                 "seed": 80
             },
             "opponent2": {
-                "id": null
+                "id": "3feb7ffc-1e17-11ef-8c3d-0242ac130004",
+                "name": "Nobruzes",
+                "seed": 48
             },
             "match_games": []
         },
@@ -40696,7 +40733,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "39ea6a8c-1e17-11ef-a1f5-0242ac130004",
+                "name": "Ifood Team",
+                "seed": 17
             },
             "opponent2": {
                 "id": null

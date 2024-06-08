@@ -7223,6 +7223,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Skibidi",
+            "players": [
+                "skibidi",
+                "Ishthewinner",
+                "Fanum Tax"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "431f272a-1f69-11ef-81d0-0242ac130004",
             "tournament_id": 0,
             "name": "A.E.R TROJANS",
@@ -7376,6 +7387,17 @@
                 "XxGilberxX",
                 "⚡️Z҉E҉R҉O҉⚡️",
                 "dino"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "b5c28b84-1fb7-11ef-87f7-0242ac130004",
+            "tournament_id": 0,
+            "name": "GUG",
+            "players": [
+                "GabinoElChino💥",
+                "GilPro",
+                "UsuriousOcean50"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -13100,18 +13122,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a019aa8-2156-11ef-a7d7-0242ac130004",
                 "name": "Mucking Around",
-                "seed": 498
+                "seed": 498,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
                 "name": "Skibidi",
-                "seed": 527
+                "seed": 527,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3a019aa8-2156-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3a019aa8-2156-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 291,
@@ -17203,18 +17260,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c740c6be-2066-11ef-874b-0242ac130004",
                 "name": "Skibidi sigmas",
-                "seed": 406
+                "seed": 406,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b5c28b84-1fb7-11ef-87f7-0242ac130004",
                 "name": "GUG",
-                "seed": 619
+                "seed": 619,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c740c6be-2066-11ef-874b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5c28b84-1fb7-11ef-87f7-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "c740c6be-2066-11ef-874b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b5c28b84-1fb7-11ef-87f7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 503,
@@ -20233,7 +20325,9 @@
                 "seed": 15
             },
             "opponent2": {
-                "id": null
+                "id": "3a019aa8-2156-11ef-a7d7-0242ac130004",
+                "name": "Mucking Around",
+                "seed": 498
             },
             "match_games": []
         },
@@ -22293,7 +22387,9 @@
                 "seed": 107
             },
             "opponent2": {
-                "id": null
+                "id": "c740c6be-2066-11ef-874b-0242ac130004",
+                "name": "Skibidi sigmas",
+                "seed": 406
             },
             "match_games": []
         },

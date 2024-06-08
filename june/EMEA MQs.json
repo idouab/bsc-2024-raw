@@ -23844,6 +23844,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team Nova",
+            "players": [
+                "DM|❄️Aryan❄️",
+                "🦦|LaMachine🃏",
+                "𝔁𝓢𝓲𝓲𝓾𝓼𓂉"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "90de9c44-1e14-11ef-8158-0242ac130004",
             "tournament_id": 0,
             "name": "Limoonchoy",
@@ -25693,6 +25704,17 @@
                 "❍⌇─➭⌗𝗝𝖆𝗅eel♤",
                 "CR7",
                 "ℬ𝒜𝒟𝒩ℐ𝒩𝒯🥀"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
+            "tournament_id": 0,
+            "name": "Urano Gaming",
+            "players": [
+                "ZETA|MeOw",
+                "QLS|Hugo_077",
+                "SPÑ|Stvn🇪🇸"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -31541,18 +31563,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d656ad5c-20ee-11ef-b30b-0242ac130004",
                 "name": "SM eSports 2",
-                "seed": 784
+                "seed": 784,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
                 "name": "Team Nova",
-                "seed": 1265
+                "seed": 1265,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "d656ad5c-20ee-11ef-b30b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "d656ad5c-20ee-11ef-b30b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "d656ad5c-20ee-11ef-b30b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 71,
@@ -38014,18 +38086,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f41bc3ae-1f4a-11ef-a7ff-0242ac130004",
                 "name": "TWNKS",
-                "seed": 873
+                "seed": 873,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
                 "name": "Urano Gaming",
-                "seed": 1176
+                "seed": 1176,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f41bc3ae-1f4a-11ef-a7ff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f41bc3ae-1f4a-11ef-a7ff-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "f41bc3ae-1f4a-11ef-a7ff-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 239,
@@ -59651,7 +59773,9 @@
                 "seed": 241
             },
             "opponent2": {
-                "id": null
+                "id": "d656ad5c-20ee-11ef-b30b-0242ac130004",
+                "name": "SM eSports 2",
+                "seed": 784
             },
             "match_games": []
         },
@@ -61321,7 +61445,9 @@
                 "seed": 152
             },
             "opponent2": {
-                "id": null
+                "id": "f41bc3ae-1f4a-11ef-a7ff-0242ac130004",
+                "name": "TWNKS",
+                "seed": 873
             },
             "match_games": []
         },
@@ -76961,7 +77087,9 @@
                 "seed": 1808
             },
             "opponent2": {
-                "id": null
+                "id": "bf61f20a-1e14-11ef-b305-0242ac130004",
+                "name": "Team Nova",
+                "seed": 1265
             },
             "match_games": []
         },
@@ -78631,7 +78759,9 @@
                 "seed": 1897
             },
             "opponent2": {
-                "id": null
+                "id": "b1493c78-1f72-11ef-8d06-0242ac130004",
+                "name": "Urano Gaming",
+                "seed": 1176
             },
             "match_games": []
         },

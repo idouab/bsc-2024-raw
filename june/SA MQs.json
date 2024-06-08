@@ -40951,18 +40951,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
                 "name": "BrawlBros",
-                "seed": 102
+                "seed": 102,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
                 "name": "Kings Of ZapZap",
-                "seed": 101
+                "seed": 101,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 821,

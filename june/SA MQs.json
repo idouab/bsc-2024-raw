@@ -46963,18 +46963,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
                 "name": "Underdogs",
-                "seed": 40
+                "seed": 40,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "543040d6-1f95-11ef-ab09-0242ac130004",
                 "name": "TBP",
-                "seed": 430
+                "seed": 430,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "543040d6-1f95-11ef-ab09-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "543040d6-1f95-11ef-ab09-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 961,
@@ -47259,7 +47294,9 @@
                 "seed": 9
             },
             "opponent2": {
-                "id": null
+                "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                "name": "Underdogs",
+                "seed": 40
             },
             "match_games": []
         },

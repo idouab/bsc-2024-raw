@@ -2405,6 +2405,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "32b059c8-1ff4-11ef-96b2-0242ac130004",
+            "tournament_id": 0,
+            "name": "Family",
+            "players": [
+                "melex | Taiida",
+                "fmy|haha",
+                "fmy|SoSo",
+                "カバちゃん"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "19476f8a-1e14-11ef-bfef-0242ac130004",
             "tournament_id": 0,
             "name": "66% Black",
@@ -2979,18 +2991,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "32b059c8-1ff4-11ef-96b2-0242ac130004",
                 "name": "Family",
-                "seed": 80
+                "seed": 80,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e107158a-1f58-11ef-8edf-0242ac130004",
                 "name": "LastDance",
-                "seed": 177
+                "seed": 177,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "32b059c8-1ff4-11ef-96b2-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "32b059c8-1ff4-11ef-96b2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e107158a-1f58-11ef-8edf-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 13,

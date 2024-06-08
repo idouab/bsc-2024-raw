@@ -46176,18 +46176,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
                 "name": "GRK",
-                "seed": 375
+                "seed": 375,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
                 "name": "AQUELAS CENAS",
-                "seed": 126
+                "seed": 126,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 951,
@@ -46497,7 +46532,11 @@
                 "name": "3DBR Ultra",
                 "seed": 478
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                "name": "AQUELAS CENAS",
+                "seed": 126
+            },
             "match_games": []
         },
         {

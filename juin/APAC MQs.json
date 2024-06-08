@@ -19230,18 +19230,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1861474e-1e14-11ef-82ab-0242ac130004",
                 "name": "아기상어",
-                "seed": 30
+                "seed": 30,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
                 "name": "Snow Rabbits",
-                "seed": 190
+                "seed": 190,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "1861474e-1e14-11ef-82ab-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "1861474e-1e14-11ef-82ab-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 410,
@@ -19427,7 +19462,9 @@
                 "seed": 143
             },
             "opponent2": {
-                "id": null
+                "id": "fc0ff128-1fe7-11ef-99ec-0242ac130004",
+                "name": "萌兔",
+                "seed": 70
             },
             "match_games": []
         },
@@ -19611,7 +19648,9 @@
                 "seed": 88
             },
             "opponent2": {
-                "id": null
+                "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                "name": "Snow Rabbits",
+                "seed": 190
             },
             "match_games": []
         },

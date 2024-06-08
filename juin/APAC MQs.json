@@ -2417,6 +2417,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "18eae0b2-1e14-11ef-9e88-0242ac130004",
+            "tournament_id": 0,
+            "name": "TAKE OUT",
+            "players": [
+                "ウォー3世",
+                "TO|1e0🥀",
+                "imnotningning🌖"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "19476f8a-1e14-11ef-bfef-0242ac130004",
             "tournament_id": 0,
             "name": "66% Black",
@@ -3093,18 +3104,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18eae0b2-1e14-11ef-9e88-0242ac130004",
                 "name": "TAKE OUT",
-                "seed": 48
+                "seed": 48,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2ecbd404-1fb8-11ef-b1a9-0242ac130004",
                 "name": "こんめる～🩷🩷🩷",
-                "seed": 209
+                "seed": 209,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "18eae0b2-1e14-11ef-9e88-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2ecbd404-1fb8-11ef-b1a9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "18eae0b2-1e14-11ef-9e88-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2ecbd404-1fb8-11ef-b1a9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 16,
@@ -6599,7 +6645,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2ecbd404-1fb8-11ef-b1a9-0242ac130004",
+                "name": "こんめる～🩷🩷🩷",
+                "seed": 209
             },
             "opponent2": {
                 "id": null
@@ -8635,7 +8683,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "18eae0b2-1e14-11ef-9e88-0242ac130004",
+                "name": "TAKE OUT",
+                "seed": 48
             },
             "opponent2": {
                 "id": null

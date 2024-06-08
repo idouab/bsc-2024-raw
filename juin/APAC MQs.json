@@ -19285,18 +19285,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "194c03a6-1e14-11ef-9028-0242ac130004",
                 "name": "モチキンズ",
-                "seed": 32
+                "seed": 32,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "44d4284e-218b-11ef-96a4-0242ac130004",
                 "name": "Delay esports 2.0",
-                "seed": 127
+                "seed": 127,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "194c03a6-1e14-11ef-9028-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "194c03a6-1e14-11ef-9028-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 406,
@@ -19713,7 +19748,9 @@
                 "seed": 107
             },
             "opponent2": {
-                "id": null
+                "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                "name": "Delay esports 2.0",
+                "seed": 127
             },
             "match_games": []
         },

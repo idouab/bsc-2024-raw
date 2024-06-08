@@ -21316,18 +21316,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3949e116-1e17-11ef-a280-0242ac130004",
                 "name": "Tres tristes tigres",
-                "seed": 34
+                "seed": 34,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c7c66c34-22bd-11ef-a722-0242ac130004",
                 "name": "Lykans - BS",
-                "seed": 223
+                "seed": 223,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3949e116-1e17-11ef-a280-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c7c66c34-22bd-11ef-a722-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3949e116-1e17-11ef-a280-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c7c66c34-22bd-11ef-a722-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "3949e116-1e17-11ef-a280-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c7c66c34-22bd-11ef-a722-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 438,
@@ -24492,10 +24542,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3949e116-1e17-11ef-a280-0242ac130004",
+                "name": "Tres tristes tigres",
+                "seed": 34
             },
             "opponent2": {
-                "id": null
+                "id": "3cdb29d4-1e17-11ef-aa50-0242ac130004",
+                "name": "Panela da Saturn 🪐",
+                "seed": 95
             },
             "match_games": []
         },
@@ -29689,7 +29743,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c7c66c34-22bd-11ef-a722-0242ac130004",
+                "name": "Lykans - BS",
+                "seed": 223
             },
             "opponent2": {
                 "id": null

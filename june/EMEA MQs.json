@@ -29833,6 +29833,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "530430d8-201b-11ef-8a02-0242ac130004",
+            "tournament_id": 0,
+            "name": "PAUVRE MORTEL…",
+            "players": [
+                "Jeune mortel…",
+                "#RRS_64+",
+                "MSZ|⚡LAFOUDRE⚡"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "43f951da-2008-11ef-b5e8-0242ac130004",
             "tournament_id": 0,
             "name": "SSJ ESPORT💸",
@@ -58181,18 +58192,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "530430d8-201b-11ef-8a02-0242ac130004",
                 "name": "PAUVRE MORTEL…",
-                "seed": 847
+                "seed": 847,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3919b76a-21d3-11ef-81df-0242ac130004",
                 "name": "Brawl Ricochets",
-                "seed": 1202
+                "seed": 1202,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "530430d8-201b-11ef-8a02-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3919b76a-21d3-11ef-81df-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "530430d8-201b-11ef-8a02-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3919b76a-21d3-11ef-81df-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "530430d8-201b-11ef-8a02-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3919b76a-21d3-11ef-81df-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 607,
@@ -80672,7 +80733,9 @@
                 "seed": 178
             },
             "opponent2": {
-                "id": null
+                "id": "3919b76a-21d3-11ef-81df-0242ac130004",
+                "name": "Brawl Ricochets",
+                "seed": 1202
             },
             "match_games": []
         },
@@ -98956,7 +99019,9 @@
                 "seed": 1871
             },
             "opponent2": {
-                "id": null
+                "id": "530430d8-201b-11ef-8a02-0242ac130004",
+                "name": "PAUVRE MORTEL…",
+                "seed": 847
             },
             "match_games": []
         },

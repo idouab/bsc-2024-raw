@@ -29035,6 +29035,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "9b233f52-250d-11ef-afd9-0242ac130004",
+            "tournament_id": 0,
+            "name": "FAD E-Sport",
+            "players": [
+                "Arthurツ",
+                "1_Lappen",
+                "🌀SLAPPY🌀"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "b4d50d98-2019-11ef-bfde-0242ac130004",
             "tournament_id": 0,
             "name": "DM | ESPORTS",
@@ -30357,6 +30368,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "45023c6e-1f80-11ef-8608-0242ac130004",
+            "tournament_id": 0,
+            "name": "FLGaming",
+            "players": [
+                "CB | Ananab",
+                "sosy_jopy://",
+                "⚡lolmaster⚡"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "82c55fd6-20f7-11ef-930f-0242ac130004",
             "tournament_id": 0,
             "name": "Sen Sey Team",
@@ -30706,6 +30728,17 @@
                 "BTL_DUSTIN",
                 "RG|D@nîë¡",
                 "RG|M@r¢el"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "31fd4054-2251-11ef-89db-0242ac130004",
+            "tournament_id": 0,
+            "name": "Starr Rail",
+            "players": [
+                "d_v_o_r_i_k_",
+                "skot0fa1",
+                "AlexPoD"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -52894,18 +52927,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9a991eb2-1e14-11ef-9925-0242ac130004",
                 "name": "Noobs",
-                "seed": 735
+                "seed": 735,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9b233f52-250d-11ef-afd9-0242ac130004",
                 "name": "FAD E-Sport",
-                "seed": 1314
+                "seed": 1314,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "9a991eb2-1e14-11ef-9925-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b233f52-250d-11ef-afd9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "9a991eb2-1e14-11ef-9925-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b233f52-250d-11ef-afd9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 569,
@@ -63554,18 +63622,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "609987f8-1f52-11ef-9e7d-0242ac130004",
                 "name": "Team003",
-                "seed": 878
+                "seed": 878,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "45023c6e-1f80-11ef-8608-0242ac130004",
                 "name": "FLGaming",
-                "seed": 1171
+                "seed": 1171,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "609987f8-1f52-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45023c6e-1f80-11ef-8608-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "609987f8-1f52-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45023c6e-1f80-11ef-8608-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 879,
@@ -66599,18 +66702,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a3a8f798-1e14-11ef-b7a4-0242ac130004",
                 "name": "Lucerna Esport",
-                "seed": 139
+                "seed": 139,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "31fd4054-2251-11ef-89db-0242ac130004",
                 "name": "Starr Rail",
-                "seed": 1910
+                "seed": 1910,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a3a8f798-1e14-11ef-b7a4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "31fd4054-2251-11ef-89db-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a3a8f798-1e14-11ef-b7a4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "31fd4054-2251-11ef-89db-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "a3a8f798-1e14-11ef-b7a4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "31fd4054-2251-11ef-89db-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 974,
@@ -73902,7 +74055,9 @@
                 "seed": 290
             },
             "opponent2": {
-                "id": null
+                "id": "9a991eb2-1e14-11ef-9925-0242ac130004",
+                "name": "Noobs",
+                "seed": 735
             },
             "match_games": []
         },
@@ -76538,7 +76693,9 @@
                 "seed": 147
             },
             "opponent2": {
-                "id": null
+                "id": "609987f8-1f52-11ef-9e7d-0242ac130004",
+                "name": "Team003",
+                "seed": 878
             },
             "match_games": []
         },
@@ -77351,7 +77508,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a3a8f798-1e14-11ef-b7a4-0242ac130004",
+                "name": "Lucerna Esport",
+                "seed": 139
             },
             "opponent2": {
                 "id": null
@@ -91488,7 +91647,9 @@
                 "seed": 1759
             },
             "opponent2": {
-                "id": null
+                "id": "9b233f52-250d-11ef-afd9-0242ac130004",
+                "name": "FAD E-Sport",
+                "seed": 1314
             },
             "match_games": []
         },
@@ -94124,7 +94285,9 @@
                 "seed": 1902
             },
             "opponent2": {
-                "id": null
+                "id": "45023c6e-1f80-11ef-8608-0242ac130004",
+                "name": "FLGaming",
+                "seed": 1171
             },
             "match_games": []
         },
@@ -94937,7 +95100,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "31fd4054-2251-11ef-89db-0242ac130004",
+                "name": "Starr Rail",
+                "seed": 1910
             },
             "opponent2": {
                 "id": null

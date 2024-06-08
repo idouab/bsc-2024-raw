@@ -7134,6 +7134,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ab1ad71c-208f-11ef-a3f9-0242ac130004",
+            "tournament_id": 0,
+            "name": "TooRaw",
+            "players": [
+                "Panh",
+                "DESTRUCTO",
+                "RL | GiZuM"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "35664490-1f70-11ef-a69c-0242ac130004",
             "tournament_id": 0,
             "name": "Samgoeswhereheplease",
@@ -9640,18 +9651,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ab1ad71c-208f-11ef-a3f9-0242ac130004",
                 "name": "TooRaw",
-                "seed": 409
+                "seed": 409,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f55b8e0-25a9-11ef-b52b-0242ac130004",
                 "name": "Juicy fruits",
-                "seed": 616
+                "seed": 616,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ab1ad71c-208f-11ef-a3f9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f55b8e0-25a9-11ef-b52b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ab1ad71c-208f-11ef-a3f9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f55b8e0-25a9-11ef-b52b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "ab1ad71c-208f-11ef-a3f9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f55b8e0-25a9-11ef-b52b-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 87,
@@ -19326,7 +19387,9 @@
                 "seed": 104
             },
             "opponent2": {
-                "id": null
+                "id": "6f55b8e0-25a9-11ef-b52b-0242ac130004",
+                "name": "Juicy fruits",
+                "seed": 616
             },
             "match_games": []
         },

@@ -2472,6 +2472,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "b88e431a-1f6e-11ef-a698-0242ac130004",
+            "tournament_id": 0,
+            "name": "PGM",
+            "players": [
+                "Player21Neil",
+                "《ınƒīnıтy x》 ™",
+                "¤OG♣️^_^♦️F€B™"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "18097258-1e14-11ef-9078-0242ac130004",
             "tournament_id": 0,
             "name": "日本麻醬麵",
@@ -5156,18 +5167,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1924a0ae-1e14-11ef-bf8a-0242ac130004",
                 "name": "BAJ",
-                "seed": 62
+                "seed": 62,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b88e431a-1f6e-11ef-a698-0242ac130004",
                 "name": "PGM",
-                "seed": 195
+                "seed": 195,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "1924a0ae-1e14-11ef-bf8a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b88e431a-1f6e-11ef-a698-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "1924a0ae-1e14-11ef-bf8a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b88e431a-1f6e-11ef-a698-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 100,
@@ -6746,7 +6792,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1924a0ae-1e14-11ef-bf8a-0242ac130004",
+                "name": "BAJ",
+                "seed": 62
             },
             "opponent2": {
                 "id": null
@@ -8238,7 +8286,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b88e431a-1f6e-11ef-a698-0242ac130004",
+                "name": "PGM",
+                "seed": 195
             },
             "opponent2": {
                 "id": null

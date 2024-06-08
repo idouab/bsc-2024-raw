@@ -46793,18 +46793,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
                 "name": "Nah i'd win",
-                "seed": 341
+                "seed": 341,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3ca333d0-1e17-11ef-9c95-0242ac130004",
                 "name": "Lost Time ⏳",
-                "seed": 22
+                "seed": 22,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ca333d0-1e17-11ef-9c95-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ca333d0-1e17-11ef-9c95-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 956,
@@ -47290,7 +47325,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                "name": "Nah i'd win",
+                "seed": 341
             },
             "opponent2": {
                 "id": null

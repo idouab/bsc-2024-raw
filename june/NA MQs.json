@@ -8128,6 +8128,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "6fa7e3d0-1e16-11ef-b7bf-0242ac130004",
+            "tournament_id": 0,
+            "name": "Anbu",
+            "players": [
+                "dr charms",
+                "snake",
+                "ANBU ICE",
+                "BST|Devin"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "d9e07162-1f66-11ef-ad91-0242ac130004",
             "tournament_id": 0,
             "name": "SSBG",
@@ -19367,18 +19379,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "6fa7e3d0-1e16-11ef-b7bf-0242ac130004",
                 "name": "Anbu",
-                "seed": 160
+                "seed": 160,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
                 "name": "The Pogging Piggies",
-                "seed": 353
+                "seed": 353,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "6fa7e3d0-1e16-11ef-b7bf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6fa7e3d0-1e16-11ef-b7bf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 632,
@@ -29917,10 +29964,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6fa7e3d0-1e16-11ef-b7bf-0242ac130004",
+                "name": "Anbu",
+                "seed": 160
             },
             "opponent2": {
-                "id": null
+                "id": "d9e07162-1f66-11ef-ad91-0242ac130004",
+                "name": "SSBG",
+                "seed": 459
             },
             "match_games": []
         },

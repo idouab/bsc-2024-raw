@@ -2439,6 +2439,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "d7696a1e-1ff8-11ef-96ce-0242ac130004",
+            "tournament_id": 0,
+            "name": "TEAM:にこにこ",
+            "players": [
+                "芝刈り機危！",
+                "おぐもぐ",
+                "自称無職"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
             "tournament_id": 0,
             "name": "しょうがコーンくせえ",
@@ -3649,18 +3660,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d7696a1e-1ff8-11ef-96ce-0242ac130004",
                 "name": "TEAM:にこにこ",
-                "seed": 68
+                "seed": 68,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9cb0ef36-1f68-11ef-978c-0242ac130004",
                 "name": "チーム友達",
-                "seed": 189
+                "seed": 189,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "d7696a1e-1ff8-11ef-96ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9cb0ef36-1f68-11ef-978c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "d7696a1e-1ff8-11ef-96ce-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9cb0ef36-1f68-11ef-978c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "d7696a1e-1ff8-11ef-96ce-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9cb0ef36-1f68-11ef-978c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 37,

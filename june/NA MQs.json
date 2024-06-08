@@ -7325,6 +7325,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+            "tournament_id": 0,
+            "name": "Frooty Froos | TTD",
+            "players": [
+                "BananaManOG",
+                "Lemøn",
+                "totallynelson"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "730241fc-2130-11ef-84ea-0242ac130004",
             "tournament_id": 0,
             "name": "Emre A",
@@ -7588,6 +7599,17 @@
                 "XxGilberxX",
                 "⚡️Z҉E҉R҉O҉⚡️",
                 "dino"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "961a106e-1fac-11ef-a517-0242ac130004",
+            "tournament_id": 0,
+            "name": "Tilines",
+            "players": [
+                "HDF|Heriberto",
+                "HDF| CRZ",
+                "HDF | MIPO"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -13090,18 +13112,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88a95304-1f89-11ef-a9aa-0242ac130004",
                 "name": "USLD",
-                "seed": 511
+                "seed": 511,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f549234-21d5-11ef-ba55-0242ac130004",
                 "name": "Frooty Froos | TTD",
-                "seed": 514
+                "seed": 514,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "88a95304-1f89-11ef-a9aa-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "88a95304-1f89-11ef-a9aa-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "88a95304-1f89-11ef-a9aa-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 259,
@@ -17988,18 +18060,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9d243562-20a4-11ef-a1cc-0242ac130004",
                 "name": "Piupiu'ps",
-                "seed": 438
+                "seed": 438,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "961a106e-1fac-11ef-a517-0242ac130004",
                 "name": "Tilines",
-                "seed": 587
+                "seed": 587,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "9d243562-20a4-11ef-a1cc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "961a106e-1fac-11ef-a517-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "9d243562-20a4-11ef-a1cc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "961a106e-1fac-11ef-a517-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 495,
@@ -20901,7 +21008,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "88a95304-1f89-11ef-a9aa-0242ac130004",
+                "name": "USLD",
+                "seed": 511
             },
             "match_games": []
         },
@@ -23211,7 +23320,9 @@
                 "seed": 75
             },
             "opponent2": {
-                "id": null
+                "id": "9d243562-20a4-11ef-a1cc-0242ac130004",
+                "name": "Piupiu'ps",
+                "seed": 438
             },
             "match_games": []
         },

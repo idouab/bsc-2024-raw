@@ -11367,18 +11367,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16e17d30-1e14-11ef-99ca-0242ac130004",
                 "name": "ケイワイプレイヤー",
-                "seed": 23
+                "seed": 23,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
                 "name": "The Besting",
-                "seed": 42
+                "seed": 42,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "16e17d30-1e14-11ef-99ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "16e17d30-1e14-11ef-99ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 302,
@@ -11592,18 +11627,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e1d32558-249e-11ef-8479-0242ac130004",
                 "name": "republic of nada",
-                "seed": 102
+                "seed": 102,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "17cec284-1e14-11ef-8b30-0242ac130004",
                 "name": "LSC",
-                "seed": 38
+                "seed": 38,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "e1d32558-249e-11ef-8479-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "17cec284-1e14-11ef-8b30-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "e1d32558-249e-11ef-8479-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "17cec284-1e14-11ef-8b30-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 308,
@@ -11954,7 +12024,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "e1d32558-249e-11ef-8479-0242ac130004",
+                "name": "republic of nada",
+                "seed": 102
             },
             "match_games": []
         },
@@ -15200,7 +15272,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "17cec284-1e14-11ef-8b30-0242ac130004",
+                "name": "LSC",
+                "seed": 38
             },
             "opponent2": {
                 "id": null
@@ -15302,7 +15376,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1687d7a8-1e14-11ef-a6f9-0242ac130004",
+                "name": "The Besting",
+                "seed": 42
             },
             "opponent2": {
                 "id": null

@@ -2405,6 +2405,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
+            "tournament_id": 0,
+            "name": "AM Verse",
+            "players": [
+                "AM GAMER YT",
+                "1v3|👑𝓑ⁱ𝑏ⁱ║💕",
+                "€H1€£N K1NG",
+                "THE STAR"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0b02133a-1ffe-11ef-a1c3-0242ac130004",
             "tournament_id": 0,
             "name": "Defensive Penguins",
@@ -2412,6 +2424,17 @@
                 "goed",
                 "brr 2.0",
                 "TrollXD"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "180ccd2c-1e14-11ef-a0ba-0242ac130004",
+            "tournament_id": 0,
+            "name": "TEAM SKULLS",
+            "players": [
+                "skull monster",
+                "skull ninja",
+                "SKULL CAPTAIN"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -4003,18 +4026,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1984376c-1e14-11ef-9350-0242ac130004",
                 "name": "ASG",
-                "seed": 63
+                "seed": 63,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
                 "name": "AM Verse",
-                "seed": 194
+                "seed": 194,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 68,
@@ -4059,18 +4117,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
                 "name": "Ro.chicken of Dach",
-                "seed": 98
+                "seed": 98,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "964ef94c-1f38-11ef-aed9-0242ac130004",
                 "name": "Bludegons",
-                "seed": 159
+                "seed": 159,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "964ef94c-1f38-11ef-aed9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "964ef94c-1f38-11ef-aed9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 71,
@@ -4358,18 +4451,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "180ccd2c-1e14-11ef-a0ba-0242ac130004",
                 "name": "TEAM SKULLS",
-                "seed": 71
+                "seed": 71,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
                 "name": "Ramen",
-                "seed": 186
+                "seed": 186,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "180ccd2c-1e14-11ef-a0ba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "180ccd2c-1e14-11ef-a0ba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 85,
@@ -5306,7 +5434,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "88a1760c-2083-11ef-a291-0242ac130004",
+                "name": "熟女愛好会",
+                "seed": 144
             },
             "match_games": []
         },
@@ -5813,7 +5943,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1984376c-1e14-11ef-9350-0242ac130004",
+                "name": "ASG",
+                "seed": 63
             },
             "opponent2": {
                 "id": null
@@ -5834,7 +5966,9 @@
                 "seed": 31
             },
             "opponent2": {
-                "id": null
+                "id": "f6f37faa-23f4-11ef-99f3-0242ac130004",
+                "name": "Ro.chicken of Dach",
+                "seed": 98
             },
             "match_games": []
         },
@@ -7489,7 +7623,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
+                "name": "AM Verse",
+                "seed": 194
             },
             "opponent2": {
                 "id": null

@@ -17161,18 +17161,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "46da9d9a-209f-11ef-806d-0242ac130004",
                 "name": "Crazy Paccoon",
-                "seed": 105
+                "seed": 105,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "18c9e880-1e14-11ef-b9ec-0242ac130004",
                 "name": "GKB",
-                "seed": 87
+                "seed": 87,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "46da9d9a-209f-11ef-806d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "18c9e880-1e14-11ef-b9ec-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "46da9d9a-209f-11ef-806d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "18c9e880-1e14-11ef-b9ec-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 367,
@@ -17456,18 +17491,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
                 "name": "Bribe Gaming",
-                "seed": 51
+                "seed": 51,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
                 "name": "TEAM丨18+",
-                "seed": 116
+                "seed": 116,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 380,
@@ -17742,7 +17812,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "18c9e880-1e14-11ef-b9ec-0242ac130004",
+                "name": "GKB",
+                "seed": 87
             },
             "opponent2": {
                 "id": null

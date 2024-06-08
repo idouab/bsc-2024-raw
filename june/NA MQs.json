@@ -47523,18 +47523,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "341f7cbc-1fb8-11ef-a40d-0242ac130004",
                 "name": "Bingleton",
-                "seed": 310
+                "seed": 310,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
                 "name": "💰BANDITS💰",
-                "seed": 53
+                "seed": 53,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "341f7cbc-1fb8-11ef-a40d-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "341f7cbc-1fb8-11ef-a40d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "341f7cbc-1fb8-11ef-a40d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1202,
@@ -49783,7 +49833,9 @@
                 "seed": 75
             },
             "opponent2": {
-                "id": null
+                "id": "712ef07c-1e16-11ef-a22a-0242ac130004",
+                "name": "💰BANDITS💰",
+                "seed": 53
             },
             "match_games": []
         },

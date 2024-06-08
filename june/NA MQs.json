@@ -40046,18 +40046,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
                 "name": "SGJ",
-                "seed": 28
+                "seed": 28,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4525523c-20aa-11ef-8755-0242ac130004",
                 "name": "Apers",
-                "seed": 421
+                "seed": 421,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1402,
@@ -52646,7 +52681,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                "name": "Apers",
+                "seed": 421
             },
             "opponent2": {
                 "id": null

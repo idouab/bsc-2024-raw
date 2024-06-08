@@ -5572,6 +5572,28 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "39d73886-1e17-11ef-aa64-0242ac130004",
+            "tournament_id": 0,
+            "name": "RNH",
+            "players": [
+                "Madiory",
+                "HenryM3ndess",
+                "RENAN"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "845fbdbe-24e4-11ef-b515-0242ac130004",
+            "tournament_id": 0,
+            "name": "Los Cerdos",
+            "players": [
+                "Chris777",
+                "UltraDino",
+                "Pantheon"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "37647f0a-202e-11ef-8c4e-0242ac130004",
             "tournament_id": 0,
             "name": "GD's",
@@ -5579,6 +5601,17 @@
                 "\"GD's | Welliz",
                 "GD's|Marcus",
                 "ON2/L7zin/⚡💫"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
+            "tournament_id": 0,
+            "name": "vitality",
+            "players": [
+                "arth92alvezz",
+                "dannn",
+                "1BruninG"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6471,18 +6504,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "39d73886-1e17-11ef-aa64-0242ac130004",
                 "name": "RNH",
-                "seed": 200
+                "seed": 200,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
                 "name": "ChaufaFC",
-                "seed": 313
+                "seed": 313,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "39d73886-1e17-11ef-aa64-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "39d73886-1e17-11ef-aa64-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 39,
@@ -6611,18 +6679,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
                 "name": "Underdogs",
-                "seed": 40
+                "seed": 40,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "845fbdbe-24e4-11ef-b515-0242ac130004",
                 "name": "Los Cerdos",
-                "seed": 473
+                "seed": 473,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "845fbdbe-24e4-11ef-b515-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "845fbdbe-24e4-11ef-b515-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 46,
@@ -7514,18 +7617,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c5fae80-1e17-11ef-9950-0242ac130004",
                 "name": "DirectX",
-                "seed": 20
+                "seed": 20,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
                 "name": "vitality",
-                "seed": 493
+                "seed": 493,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3c5fae80-1e17-11ef-9950-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3c5fae80-1e17-11ef-9950-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 90,
@@ -11227,7 +11365,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                "name": "Underdogs",
+                "seed": 40
             },
             "opponent2": {
                 "id": null
@@ -11585,7 +11725,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3c5fae80-1e17-11ef-9950-0242ac130004",
+                "name": "DirectX",
+                "seed": 20
             },
             "opponent2": {
                 "id": null
@@ -15223,7 +15365,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "845fbdbe-24e4-11ef-b515-0242ac130004",
+                "name": "Los Cerdos",
+                "seed": 473
             },
             "opponent2": {
                 "id": null
@@ -15527,7 +15671,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
+                "name": "vitality",
+                "seed": 493
             },
             "opponent2": {
                 "id": null

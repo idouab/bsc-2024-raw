@@ -42631,18 +42631,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "112f17a4-1f58-11ef-9f7a-0242ac130004",
                 "name": "JK GAMING",
-                "seed": 326
+                "seed": 326,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
                 "name": "PR|DestroyersPE",
-                "seed": 134
+                "seed": 134,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "112f17a4-1f58-11ef-9f7a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "112f17a4-1f58-11ef-9f7a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 867,
@@ -43307,7 +43342,9 @@
                 "seed": 47
             },
             "opponent2": {
-                "id": null
+                "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                "name": "PR|DestroyersPE",
+                "seed": 134
             },
             "match_games": []
         },

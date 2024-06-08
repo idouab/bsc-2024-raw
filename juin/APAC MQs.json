@@ -8005,18 +8005,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "171ded06-1e14-11ef-9c92-0242ac130004",
                 "name": "T0 Team",
-                "seed": 13
+                "seed": 13,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
                 "name": "TEAM丨18+",
-                "seed": 116
+                "seed": 116,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 171,
@@ -10362,10 +10412,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                "name": "T0 Team",
+                "seed": 13
             },
             "opponent2": {
-                "id": null
+                "id": "b9468130-2029-11ef-b015-0242ac130004",
+                "name": "米べー率いる愉快な仲間たち",
+                "seed": 77
             },
             "match_games": []
         },
@@ -12624,10 +12678,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4a66acf6-1feb-11ef-b75e-0242ac130004",
+                "name": "TEAM丨18+",
+                "seed": 116
             },
             "opponent2": {
-                "id": null
+                "id": "211c473c-1f4d-11ef-824e-0242ac130004",
+                "name": "文A❤️",
+                "seed": 167
             },
             "match_games": []
         },

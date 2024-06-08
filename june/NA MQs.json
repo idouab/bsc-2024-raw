@@ -50587,18 +50587,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b3a26db0-22aa-11ef-a9b8-0242ac130004",
                 "name": "Los Muchachos",
-                "seed": 389
+                "seed": 389,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
                 "name": "What the Sigma",
-                "seed": 508
+                "seed": 508,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "b3a26db0-22aa-11ef-a9b8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "b3a26db0-22aa-11ef-a9b8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1364,
@@ -51845,7 +51880,9 @@
                 "seed": 48
             },
             "opponent2": {
-                "id": null
+                "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
+                "name": "What the Sigma",
+                "seed": 508
             },
             "match_games": []
         },

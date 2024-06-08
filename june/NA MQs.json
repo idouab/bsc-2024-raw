@@ -2087,8 +2087,8 @@
             "players": [
                 "Lukie",
                 "Perry💜Lukie",
-                "The Pika",
-                "Sехнаvег14"
+                "❄️Pika❄️",
+                "baⅡs entԙpԙneur"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7185,6 +7185,17 @@
                 "Owen<Shiven",
                 "BoyS4Life",
                 "Elephanto"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "aa340bb8-209c-11ef-b636-0242ac130004",
+            "tournament_id": 0,
+            "name": "J-Definitely",
+            "players": [
+                "¡MÏKËR!",
+                "Hqruzz 😸",
+                "yoslolita"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -12754,18 +12765,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aa340bb8-209c-11ef-b636-0242ac130004",
                 "name": "J-Definitely",
-                "seed": 415
+                "seed": 415,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a02ad2b0-25a0-11ef-8c79-0242ac130004",
                 "name": "The Stubbinators",
-                "seed": 610
+                "seed": 610,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "aa340bb8-209c-11ef-b636-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a02ad2b0-25a0-11ef-8c79-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "aa340bb8-209c-11ef-b636-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a02ad2b0-25a0-11ef-8c79-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "aa340bb8-209c-11ef-b636-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a02ad2b0-25a0-11ef-8c79-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 279,
@@ -19886,7 +19947,9 @@
                 "seed": 98
             },
             "opponent2": {
-                "id": null
+                "id": "a02ad2b0-25a0-11ef-8c79-0242ac130004",
+                "name": "The Stubbinators",
+                "seed": 610
             },
             "match_games": []
         },

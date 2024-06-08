@@ -36899,18 +36899,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0e02b44-1e17-11ef-802a-0242ac130004",
                 "name": "Tribe Gaming",
-                "seed": 2
+                "seed": 2,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "87546afc-221d-11ef-8d32-0242ac130004",
                 "name": "bemby wemby",
-                "seed": 383
+                "seed": 383,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "c0e02b44-1e17-11ef-802a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87546afc-221d-11ef-8d32-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "c0e02b44-1e17-11ef-802a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87546afc-221d-11ef-8d32-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1293,
@@ -37797,7 +37832,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0e02b44-1e17-11ef-802a-0242ac130004",
+                "name": "Tribe Gaming",
+                "seed": 2
             },
             "opponent2": {
                 "id": null
@@ -47177,7 +47214,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "87546afc-221d-11ef-8d32-0242ac130004",
+                "name": "bemby wemby",
+                "seed": 383
             },
             "opponent2": {
                 "id": null

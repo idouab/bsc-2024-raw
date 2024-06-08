@@ -13416,18 +13416,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eae24670-1e17-11ef-8f7a-0242ac130004",
                 "name": "Rival Esports",
-                "seed": 2
+                "seed": 2,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "eae0aaa4-1e17-11ef-993f-0242ac130004",
                 "name": "Team S2",
-                "seed": 10
+                "seed": 10,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "eae24670-1e17-11ef-8f7a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eae0aaa4-1e17-11ef-993f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "eae24670-1e17-11ef-8f7a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "eae0aaa4-1e17-11ef-993f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 417,
@@ -18970,18 +19005,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "be40be14-227f-11ef-97f1-0242ac130004",
                 "name": "Godl",
-                "seed": 180
+                "seed": 180,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "eade8238-1e17-11ef-8158-0242ac130004",
                 "name": "Master Entertainer",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "be40be14-227f-11ef-97f1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "be40be14-227f-11ef-97f1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 404,
@@ -19392,7 +19462,9 @@
                 "seed": 46
             },
             "opponent2": {
-                "id": null
+                "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                "name": "Master Entertainer",
+                "seed": 8
             },
             "match_games": []
         },
@@ -19927,7 +19999,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eae0aaa4-1e17-11ef-993f-0242ac130004",
+                "name": "Team S2",
+                "seed": 10
             },
             "opponent2": {
                 "id": null

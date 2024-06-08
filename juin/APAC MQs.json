@@ -2405,6 +2405,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
+            "tournament_id": 0,
+            "name": "しょうがコーンくせえ",
+            "players": [
+                "感じるマンゴー",
+                "ミズキ",
+                "uog"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "5efa3124-23b5-11ef-94c0-0242ac130004",
             "tournament_id": 0,
             "name": "AM Verse",
@@ -3620,18 +3631,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "190529b8-1e14-11ef-a008-0242ac130004",
                 "name": "ALL FOR ASANO",
-                "seed": 52
+                "seed": 52,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
                 "name": "しょうがコーンくせえ",
-                "seed": 205
+                "seed": 205,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "190529b8-1e14-11ef-a008-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "190529b8-1e14-11ef-a008-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 44,
@@ -6100,7 +6146,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "190529b8-1e14-11ef-a008-0242ac130004",
+                "name": "ALL FOR ASANO",
+                "seed": 52
             },
             "opponent2": {
                 "id": null
@@ -7922,7 +7970,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "58e26fb2-1fb5-11ef-8ad2-0242ac130004",
+                "name": "しょうがコーンくせえ",
+                "seed": 205
             },
             "opponent2": {
                 "id": null

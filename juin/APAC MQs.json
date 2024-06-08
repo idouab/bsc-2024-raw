@@ -12274,18 +12274,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b6c64e10-232e-11ef-9644-0242ac130004",
                 "name": "Supretty",
-                "seed": 143
+                "seed": 143,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
                 "name": "Team Destiny",
-                "seed": 175
+                "seed": 175,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 352,
@@ -16505,7 +16540,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b6c64e10-232e-11ef-9644-0242ac130004",
+                "name": "Supretty",
+                "seed": 143
             },
             "opponent2": {
                 "id": null

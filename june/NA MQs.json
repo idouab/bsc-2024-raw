@@ -50516,18 +50516,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9ab7aafc-1fd7-11ef-9a87-0242ac130004",
                 "name": "MIST",
-                "seed": 346
+                "seed": 346,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8457537c-2124-11ef-9492-0242ac130004",
                 "name": "Moderate Jesters",
-                "seed": 474
+                "seed": 474,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "9ab7aafc-1fd7-11ef-9a87-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8457537c-2124-11ef-9492-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "9ab7aafc-1fd7-11ef-9a87-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8457537c-2124-11ef-9492-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1345,
@@ -52164,7 +52199,9 @@
                 "seed": 115
             },
             "opponent2": {
-                "id": null
+                "id": "9ab7aafc-1fd7-11ef-9a87-0242ac130004",
+                "name": "MIST",
+                "seed": 346
             },
             "match_games": []
         },

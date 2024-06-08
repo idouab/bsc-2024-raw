@@ -104689,18 +104689,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a71e2b74-20f2-11ef-b32c-0242ac130004",
                 "name": "Castelldefels",
-                "seed": 1707
+                "seed": 1707,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dc712aa6-1ffd-11ef-830a-0242ac130004",
                 "name": "Sleeved up",
-                "seed": 1366
+                "seed": 1366,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "a71e2b74-20f2-11ef-b32c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dc712aa6-1ffd-11ef-830a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a71e2b74-20f2-11ef-b32c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dc712aa6-1ffd-11ef-830a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 2048,

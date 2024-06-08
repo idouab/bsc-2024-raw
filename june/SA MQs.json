@@ -18616,18 +18616,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a2a89be-1e17-11ef-bef8-0242ac130004",
                 "name": "TWO",
-                "seed": 49
+                "seed": 49,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "512d10fc-2054-11ef-888c-0242ac130004",
                 "name": "DJJ",
-                "seed": 305
+                "seed": 305,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3a2a89be-1e17-11ef-bef8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "512d10fc-2054-11ef-888c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3a2a89be-1e17-11ef-bef8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "512d10fc-2054-11ef-888c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 378,
@@ -19726,18 +19761,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "80b8b508-21bf-11ef-bbee-0242ac130004",
                 "name": "los aña",
-                "seed": 421
+                "seed": 421,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
                 "name": "Los flaites",
-                "seed": 165
+                "seed": 165,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "80b8b508-21bf-11ef-bbee-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "80b8b508-21bf-11ef-bbee-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 423,
@@ -21657,7 +21727,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a2a89be-1e17-11ef-bef8-0242ac130004",
+                "name": "TWO",
+                "seed": 49
             },
             "opponent2": {
                 "id": null
@@ -27140,10 +27212,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "80b8b508-21bf-11ef-bbee-0242ac130004",
+                "name": "los aña",
+                "seed": 421
             },
             "opponent2": {
-                "id": null
+                "id": "748178ca-1fd4-11ef-bb3d-0242ac130004",
+                "name": "Chamitos Otakus",
+                "seed": 271
             },
             "match_games": []
         },
@@ -27872,7 +27948,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "512d10fc-2054-11ef-888c-0242ac130004",
+                "name": "DJJ",
+                "seed": 305
             },
             "opponent2": {
                 "id": null

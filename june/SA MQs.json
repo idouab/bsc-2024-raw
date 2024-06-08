@@ -29277,7 +29277,7 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a952c928-1e17-11ef-a3f7-0242ac130004",
                 "name": "Reis do PL",
@@ -29286,7 +29286,8 @@
             "opponent2": {
                 "id": "3fb345c4-1e17-11ef-af2c-0242ac130004",
                 "name": "Nova Vestroia",
-                "seed": 59
+                "seed": 59,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -29734,10 +29735,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a952c928-1e17-11ef-a3f7-0242ac130004",
+                "name": "Reis do PL",
+                "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "3a5ea42e-1e17-11ef-8c24-0242ac130004",
+                "name": "SP team",
+                "seed": 38
             },
             "match_games": []
         },
@@ -37532,18 +37537,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
                 "name": "Dobermans",
-                "seed": 103
+                "seed": 103,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "85525bfa-2057-11ef-b144-0242ac130004",
                 "name": "Sintra Bajo",
-                "seed": 180
+                "seed": 180,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "85525bfa-2057-11ef-b144-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "85525bfa-2057-11ef-b144-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "85525bfa-2057-11ef-b144-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 709,
@@ -37792,18 +37847,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
                 "name": "Perde baixo",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3fdc4172-1e17-11ef-a7ac-0242ac130004",
                 "name": "Varsita BS",
-                "seed": 92
+                "seed": 92,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fdc4172-1e17-11ef-a7ac-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3fdc4172-1e17-11ef-a7ac-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 715,
@@ -38437,18 +38527,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
                 "name": "LegiónLegend",
-                "seed": 259
+                "seed": 259,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5cce48fa-2071-11ef-880a-0242ac130004",
                 "name": "Black Bulls",
-                "seed": 216
+                "seed": 216,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5cce48fa-2071-11ef-880a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "aaef013c-1fc7-11ef-b040-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5cce48fa-2071-11ef-880a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 736,
@@ -38747,18 +38872,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a0201ba-1e17-11ef-9a04-0242ac130004",
                 "name": "3×A",
-                "seed": 96
+                "seed": 96,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f903c0a-1e17-11ef-8ea9-0242ac130004",
                 "name": "Tropa dos macacos",
-                "seed": 139
+                "seed": 139,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "3a0201ba-1e17-11ef-9a04-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f903c0a-1e17-11ef-8ea9-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "3a0201ba-1e17-11ef-9a04-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f903c0a-1e17-11ef-8ea9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 748,
@@ -39259,7 +39419,9 @@
                 "seed": 360
             },
             "opponent2": {
-                "id": null
+                "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                "name": "Dobermans",
+                "seed": 103
             },
             "match_games": []
         },
@@ -39375,7 +39537,9 @@
                 "seed": 400
             },
             "opponent2": {
-                "id": null
+                "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                "name": "Perde baixo",
+                "seed": 37
             },
             "match_games": []
         },
@@ -39765,7 +39929,9 @@
                 "seed": 42
             },
             "opponent2": {
-                "id": null
+                "id": "5cce48fa-2071-11ef-880a-0242ac130004",
+                "name": "Black Bulls",
+                "seed": 216
             },
             "match_games": []
         },
@@ -39985,7 +40151,9 @@
                 "seed": 95
             },
             "opponent2": {
-                "id": null
+                "id": "3a0201ba-1e17-11ef-9a04-0242ac130004",
+                "name": "3×A",
+                "seed": 96
             },
             "match_games": []
         },
@@ -40774,7 +40942,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3fb345c4-1e17-11ef-af2c-0242ac130004",
+                "name": "Nova Vestroia",
+                "seed": 59
             },
             "opponent2": {
                 "id": null

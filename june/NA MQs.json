@@ -6998,6 +6998,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "98863516-1f8a-11ef-bedc-0242ac130004",
+            "tournament_id": 0,
+            "name": "KoolKidsKlub",
+            "players": [
+                "SPIKE",
+                "bobes",
+                "BreadGamering"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "9d12c070-1f5f-11ef-9d7a-0242ac130004",
             "tournament_id": 0,
             "name": "lil knitters",
@@ -7286,6 +7297,17 @@
                 "Vlaxx🎩🔮",
                 "暗 | 𝓕𝓻𝓸𝓼𝓽",
                 "Slaxx❤🔥"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "feb1e9d8-2116-11ef-a483-0242ac130004",
+            "tournament_id": 0,
+            "name": "21Bros",
+            "players": [
+                "felix16",
+                "Rémi king 888",
+                "maxking"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7637,18 +7659,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fdcdf86c-21b2-11ef-be5e-0242ac130004",
                 "name": "Sniper Studios",
-                "seed": 512
+                "seed": 512,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "98863516-1f8a-11ef-bedc-0242ac130004",
                 "name": "KoolKidsKlub",
-                "seed": 513
+                "seed": 513,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "fdcdf86c-21b2-11ef-be5e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "98863516-1f8a-11ef-bedc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "fdcdf86c-21b2-11ef-be5e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "98863516-1f8a-11ef-bedc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "fdcdf86c-21b2-11ef-be5e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "98863516-1f8a-11ef-bedc-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -13776,18 +13848,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "feb1e9d8-2116-11ef-a483-0242ac130004",
                 "name": "21Bros",
-                "seed": 466
+                "seed": 466,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "58372c76-1fa4-11ef-a0b9-0242ac130004",
                 "name": "BrawlBros",
-                "seed": 559
+                "seed": 559,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "feb1e9d8-2116-11ef-a483-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "58372c76-1fa4-11ef-a0b9-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "feb1e9d8-2116-11ef-a483-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "58372c76-1fa4-11ef-a0b9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "feb1e9d8-2116-11ef-a483-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58372c76-1fa4-11ef-a0b9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 315,
@@ -17724,7 +17846,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "fdcdf86c-21b2-11ef-be5e-0242ac130004",
+                "name": "Sniper Studios",
+                "seed": 512
             },
             "match_games": []
         },
@@ -20768,7 +20892,9 @@
                 "seed": 47
             },
             "opponent2": {
-                "id": null
+                "id": "58372c76-1fa4-11ef-a0b9-0242ac130004",
+                "name": "BrawlBros",
+                "seed": 559
             },
             "match_games": []
         },

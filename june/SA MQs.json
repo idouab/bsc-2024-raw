@@ -30907,18 +30907,53 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a9546616-1e17-11ef-8692-0242ac130004",
                 "name": "Spacestation Gaming",
-                "seed": 1
+                "seed": 1,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a952379c-1e17-11ef-9b53-0242ac130004",
                 "name": "Olimpo Squad",
-                "seed": 8
+                "seed": 8,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a9546616-1e17-11ef-8692-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a952379c-1e17-11ef-9b53-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a9546616-1e17-11ef-8692-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a952379c-1e17-11ef-9b53-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 936,
@@ -46214,7 +46249,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a952379c-1e17-11ef-9b53-0242ac130004",
+                "name": "Olimpo Squad",
+                "seed": 8
             },
             "opponent2": {
                 "id": null

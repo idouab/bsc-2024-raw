@@ -15859,18 +15859,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8aab2dba-1fd6-11ef-a404-0242ac130004",
                 "name": "みりめろでぃ",
-                "seed": 101
+                "seed": 101,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
                 "name": "Demonic",
-                "seed": 15
+                "seed": 15,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "8aab2dba-1fd6-11ef-a404-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "8aab2dba-1fd6-11ef-a404-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 324,
@@ -16593,7 +16628,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
+                "name": "Demonic",
+                "seed": 15
             },
             "match_games": []
         },

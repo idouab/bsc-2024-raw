@@ -45762,18 +45762,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c42e316-1e16-11ef-bf42-0242ac130004",
                 "name": "Los totonacas",
-                "seed": 140
+                "seed": 140,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
                 "name": "LegalLegendz",
-                "seed": 480
+                "seed": 480,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "6c42e316-1e16-11ef-bf42-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "6c42e316-1e16-11ef-bf42-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1139,
@@ -48996,7 +49031,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c42e316-1e16-11ef-bf42-0242ac130004",
+                "name": "Los totonacas",
+                "seed": 140
             },
             "opponent2": {
                 "id": null

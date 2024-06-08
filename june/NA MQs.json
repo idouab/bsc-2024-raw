@@ -23560,18 +23560,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "81ca01aa-2056-11ef-b397-0242ac130004",
                 "name": "Ento Geeks🕷️",
-                "seed": 220
+                "seed": 220,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
                 "name": "JMG",
-                "seed": 293
+                "seed": 293,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "81ca01aa-2056-11ef-b397-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "81ca01aa-2056-11ef-b397-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "81ca01aa-2056-11ef-b397-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 730,
@@ -36340,7 +36390,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                "name": "JMG",
+                "seed": 293
             },
             "opponent2": {
                 "id": null

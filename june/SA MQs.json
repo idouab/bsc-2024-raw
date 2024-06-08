@@ -43618,18 +43618,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
                 "name": "Os buxas",
-                "seed": 91
+                "seed": 91,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
                 "name": "Kings Of ZapZap",
-                "seed": 101
+                "seed": 101,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ee0e214-1e17-11ef-afa1-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 882,
@@ -44603,7 +44653,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                "name": "Os buxas",
+                "seed": 91
             },
             "match_games": []
         },

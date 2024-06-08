@@ -25412,18 +25412,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
                 "name": "Toros Negros",
-                "seed": 61
+                "seed": 61,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
                 "name": "Renegades(RNG)",
-                "seed": 68
+                "seed": 68,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 641,
@@ -27931,7 +27981,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                "name": "Renegades(RNG)",
+                "seed": 68
             },
             "match_games": []
         },
@@ -36996,7 +37048,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d705cf2-1e17-11ef-bee5-0242ac130004",
+                "name": "Toros Negros",
+                "seed": 61
             },
             "opponent2": {
                 "id": null

@@ -44540,18 +44540,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
                 "name": "LOST TIME",
-                "seed": 199
+                "seed": 199,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7453b13c-2089-11ef-80ae-0242ac130004",
                 "name": "HO'KOPÊNOTI",
-                "seed": 339
+                "seed": 339,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7453b13c-2089-11ef-80ae-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7453b13c-2089-11ef-80ae-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 908,
@@ -45134,7 +45169,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                "name": "LOST TIME",
+                "seed": 199
             },
             "opponent2": {
                 "id": null

@@ -39831,18 +39831,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
                 "name": "Real Ones",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73b08338-1e16-11ef-b189-0242ac130004",
                 "name": "LT esport",
-                "seed": 57
+                "seed": 57,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1393,
@@ -40495,7 +40530,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                "name": "Real Ones",
+                "seed": 8
             },
             "opponent2": {
                 "id": null
@@ -52678,7 +52715,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                "name": "LT esport",
+                "seed": 57
             },
             "opponent2": {
                 "id": null

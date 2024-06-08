@@ -30611,18 +30611,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a952c928-1e17-11ef-a3f7-0242ac130004",
                 "name": "Reis do PL",
-                "seed": 6
+                "seed": 6,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
                 "name": "Sublime",
-                "seed": 235
+                "seed": 235,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "a952c928-1e17-11ef-a3f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "a952c928-1e17-11ef-a3f7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 935,
@@ -42906,18 +42941,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
                 "name": "GCL|LOSDELSUR",
-                "seed": 405
+                "seed": 405,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bb101576-21e6-11ef-8a3d-0242ac130004",
                 "name": "Exotic Butters",
-                "seed": 213
+                "seed": 213,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bb101576-21e6-11ef-8a3d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bb101576-21e6-11ef-8a3d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 879,
@@ -43665,7 +43735,9 @@
                 "seed": 214
             },
             "opponent2": {
-                "id": null
+                "id": "bb101576-21e6-11ef-8a3d-0242ac130004",
+                "name": "Exotic Butters",
+                "seed": 213
             },
             "match_games": []
         },
@@ -44694,7 +44766,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                "name": "Sublime",
+                "seed": 235
             },
             "opponent2": {
                 "id": null

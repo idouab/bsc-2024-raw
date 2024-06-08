@@ -32464,11 +32464,12 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
                 "name": "SuperKuJAM",
-                "seed": 453
+                "seed": 453,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "070214a6-1fbd-11ef-b65f-0242ac130004",
@@ -33034,18 +33035,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7421eb68-1e16-11ef-a62a-0242ac130004",
                 "name": "Skibidi Squadron🐵",
-                "seed": 85
+                "seed": 85,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
                 "name": "HYPER LETAL ESPORTS",
-                "seed": 172
+                "seed": 172,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7421eb68-1e16-11ef-a62a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7421eb68-1e16-11ef-a62a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7421eb68-1e16-11ef-a62a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1068,
@@ -36558,10 +36609,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "070214a6-1fbd-11ef-b65f-0242ac130004",
+                "name": "Ghost Gaming",
+                "seed": 316
             },
             "opponent2": {
-                "id": null
+                "id": "6cb71f74-1e16-11ef-9467-0242ac130004",
+                "name": "Nut Busters",
+                "seed": 69
             },
             "match_games": []
         },
@@ -43087,7 +43142,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                "name": "HYPER LETAL ESPORTS",
+                "seed": 172
             },
             "opponent2": {
                 "id": null
@@ -43311,7 +43368,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                "name": "SuperKuJAM",
+                "seed": 453
             },
             "opponent2": {
                 "id": null

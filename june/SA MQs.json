@@ -5761,6 +5761,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
+            "tournament_id": 0,
+            "name": "STARSHINE ⭐",
+            "players": [
+                "P0WER_SHINE",
+                "Firulays()",
+                "morrongo"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "1fdbeb9c-1f8a-11ef-8a0a-0242ac130004",
             "tournament_id": 0,
             "name": "SC🍣| Trio",
@@ -8590,18 +8601,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3b7556b2-2431-11ef-b349-0242ac130004",
                 "name": "NGB Stars",
-                "seed": 233
+                "seed": 233,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
                 "name": "STARSHINE ⭐",
-                "seed": 280
+                "seed": 280,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3b7556b2-2431-11ef-b349-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3b7556b2-2431-11ef-b349-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "3b7556b2-2431-11ef-b349-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 59,
@@ -15947,7 +16008,9 @@
                 "seed": 24
             },
             "opponent2": {
-                "id": null
+                "id": "3b7556b2-2431-11ef-b349-0242ac130004",
+                "name": "NGB Stars",
+                "seed": 233
             },
             "match_games": []
         },
@@ -20069,7 +20132,9 @@
                 "seed": 489
             },
             "opponent2": {
-                "id": null
+                "id": "2fdc7a6a-2125-11ef-8dcc-0242ac130004",
+                "name": "STARSHINE ⭐",
+                "seed": 280
             },
             "match_games": []
         },

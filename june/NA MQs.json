@@ -7839,6 +7839,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "70d40c70-1e16-11ef-86f5-0242ac130004",
+            "tournament_id": 0,
+            "name": "SD|Warriors⚜️🎩",
+            "players": [
+                "TC/chequio100",
+                "TC/CHOKIVERTTI2",
+                "Sageツ",
+                "𝑺𝑲|𝑱𝒂𝒛𝒊"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "e92cdc3a-20f8-11ef-876d-0242ac130004",
             "tournament_id": 0,
             "name": "POGSTARS",
@@ -24288,18 +24300,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70d40c70-1e16-11ef-86f5-0242ac130004",
                 "name": "SD|Warriors⚜️🎩",
-                "seed": 149
+                "seed": 149,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "40997368-202f-11ef-87ce-0242ac130004",
                 "name": "Cazueteam",
-                "seed": 364
+                "seed": 364,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "70d40c70-1e16-11ef-86f5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "40997368-202f-11ef-87ce-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "70d40c70-1e16-11ef-86f5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "40997368-202f-11ef-87ce-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 744,
@@ -34425,10 +34472,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70d40c70-1e16-11ef-86f5-0242ac130004",
+                "name": "SD|Warriors⚜️🎩",
+                "seed": 149
             },
             "opponent2": {
-                "id": null
+                "id": "e92cdc3a-20f8-11ef-876d-0242ac130004",
+                "name": "POGSTARS",
+                "seed": 450
             },
             "match_games": []
         },

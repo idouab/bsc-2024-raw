@@ -19291,18 +19291,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
                 "name": "Renegades(RNG)",
-                "seed": 68
+                "seed": 68,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dcd8d8ec-1f56-11ef-925a-0242ac130004",
                 "name": "Time Gr",
-                "seed": 324
+                "seed": 324,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dcd8d8ec-1f56-11ef-925a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3be55a7c-1e17-11ef-ac53-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dcd8d8ec-1f56-11ef-925a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 403,
@@ -21761,18 +21796,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "255bfd46-21e7-11ef-a88c-0242ac130004",
                 "name": "ING.ONES",
-                "seed": 427
+                "seed": 427,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "14b7c1a0-1f67-11ef-9d6c-0242ac130004",
                 "name": "Paysandu",
-                "seed": 342
+                "seed": 342,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "255bfd46-21e7-11ef-a88c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "14b7c1a0-1f67-11ef-9d6c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "255bfd46-21e7-11ef-a88c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "14b7c1a0-1f67-11ef-9d6c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 623,
@@ -26176,10 +26246,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "255bfd46-21e7-11ef-a88c-0242ac130004",
+                "name": "ING.ONES",
+                "seed": 427
             },
             "opponent2": {
-                "id": null
+                "id": "77152f08-1fc7-11ef-9ceb-0242ac130004",
+                "name": "Los Descansos",
+                "seed": 257
             },
             "match_games": []
         },
@@ -27694,7 +27768,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "dcd8d8ec-1f56-11ef-925a-0242ac130004",
+                "name": "Time Gr",
+                "seed": 324
             },
             "opponent2": {
                 "id": null

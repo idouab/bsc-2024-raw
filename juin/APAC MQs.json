@@ -16134,18 +16134,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "191d5114-1e14-11ef-a714-0242ac130004",
                 "name": "nano-ricky",
-                "seed": 56
+                "seed": 56,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
                 "name": "Team SL:A",
-                "seed": 120
+                "seed": 120,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "191d5114-1e14-11ef-a714-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 336,
@@ -16741,7 +16776,9 @@
                 "seed": 74
             },
             "opponent2": {
-                "id": null
+                "id": "915faa92-1ff8-11ef-9ce6-0242ac130004",
+                "name": "Team SL:A",
+                "seed": 120
             },
             "match_games": []
         },

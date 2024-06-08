@@ -41002,18 +41002,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70f1d8f4-1e16-11ef-8775-0242ac130004",
                 "name": "The Hustlers",
-                "seed": 30
+                "seed": 30,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bcd5932e-2595-11ef-be43-0242ac130004",
                 "name": "team washed",
-                "seed": 606
+                "seed": 606,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "70f1d8f4-1e16-11ef-8775-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "70f1d8f4-1e16-11ef-8775-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1414,
@@ -41591,7 +41626,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                "name": "team washed",
+                "seed": 606
             },
             "match_games": []
         },
@@ -51772,7 +51809,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70f1d8f4-1e16-11ef-8775-0242ac130004",
+                "name": "The Hustlers",
+                "seed": 30
             },
             "opponent2": {
                 "id": null

@@ -24896,6 +24896,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ffe70062-2400-11ef-b648-0242ac130004",
+            "tournament_id": 0,
+            "name": "Enter Team Name",
+            "players": [
+                "YS | Bartra",
+                "YS|FC_Roelie",
+                "n.asibal"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "7f89dcfe-1f4c-11ef-a220-0242ac130004",
             "tournament_id": 0,
             "name": "First time winnets",
@@ -34809,18 +34820,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ffe70062-2400-11ef-b648-0242ac130004",
                 "name": "Enter Team Name",
-                "seed": 665
+                "seed": 665,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7aff02cc-1f38-11ef-802f-0242ac130004",
                 "name": "Utors",
-                "seed": 1384
+                "seed": 1384,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ffe70062-2400-11ef-b648-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7aff02cc-1f38-11ef-802f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ffe70062-2400-11ef-b648-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7aff02cc-1f38-11ef-802f-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "ffe70062-2400-11ef-b648-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7aff02cc-1f38-11ef-802f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 177,
@@ -58612,7 +58673,9 @@
                 "seed": 360
             },
             "opponent2": {
-                "id": null
+                "id": "7aff02cc-1f38-11ef-802f-0242ac130004",
+                "name": "Utors",
+                "seed": 1384
             },
             "match_games": []
         },
@@ -75808,7 +75871,9 @@
                 "seed": 1689
             },
             "opponent2": {
-                "id": null
+                "id": "ffe70062-2400-11ef-b648-0242ac130004",
+                "name": "Enter Team Name",
+                "seed": 665
             },
             "match_games": []
         },

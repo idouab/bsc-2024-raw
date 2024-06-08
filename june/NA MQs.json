@@ -41897,18 +41897,68 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "73a30758-1e16-11ef-be54-0242ac130004",
                 "name": "Akatsuki F/A",
-                "seed": 114
+                "seed": 114,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d84d7a28-2062-11ef-bc82-0242ac130004",
                 "name": "TD | Canelitas",
-                "seed": 402
+                "seed": 402,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "73a30758-1e16-11ef-be54-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d84d7a28-2062-11ef-bc82-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "73a30758-1e16-11ef-be54-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d84d7a28-2062-11ef-bc82-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "73a30758-1e16-11ef-be54-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d84d7a28-2062-11ef-bc82-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1494,
@@ -42293,7 +42343,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "73a30758-1e16-11ef-be54-0242ac130004",
+                "name": "Akatsuki F/A",
+                "seed": 114
             },
             "match_games": []
         },
@@ -54461,7 +54513,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d84d7a28-2062-11ef-bc82-0242ac130004",
+                "name": "TD | Canelitas",
+                "seed": 402
             },
             "opponent2": {
                 "id": null

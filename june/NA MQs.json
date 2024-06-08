@@ -7234,6 +7234,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+            "tournament_id": 0,
+            "name": "Gobletto Gobblers",
+            "players": [
+                "Souls",
+                "Rtz",
+                "Craybler"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
             "tournament_id": 0,
             "name": "Los Gatos Mañosos",
@@ -7242,6 +7253,17 @@
                 "Bryanneitor",
                 "FerYHight",
                 "Archie034"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "7a3486b6-1f72-11ef-83af-0242ac130004",
+            "tournament_id": 0,
+            "name": "FR30",
+            "players": [
+                "shenj.lift",
+                "Toreada",
+                "Sekcboi"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -15735,18 +15757,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
                 "name": "Gobletto Gobblers",
-                "seed": 507
+                "seed": 507,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ce9176a8-21f5-11ef-b9b6-0242ac130004",
                 "name": "XFBOTS",
-                "seed": 518
+                "seed": 518,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ce9176a8-21f5-11ef-b9b6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ce9176a8-21f5-11ef-b9b6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 451,
@@ -16189,18 +16246,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a3486b6-1f72-11ef-83af-0242ac130004",
                 "name": "FR30",
-                "seed": 475
+                "seed": 475,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "85ffb50a-23a6-11ef-bf6f-0242ac130004",
                 "name": "Poco locos",
-                "seed": 550
+                "seed": 550,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "7a3486b6-1f72-11ef-83af-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "85ffb50a-23a6-11ef-bf6f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "7a3486b6-1f72-11ef-83af-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "85ffb50a-23a6-11ef-bf6f-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 475,
@@ -21297,7 +21389,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "ce9176a8-21f5-11ef-b9b6-0242ac130004",
+                "name": "XFBOTS",
+                "seed": 518
             },
             "match_games": []
         },
@@ -21529,7 +21623,9 @@
                 "seed": 38
             },
             "opponent2": {
-                "id": null
+                "id": "85ffb50a-23a6-11ef-bf6f-0242ac130004",
+                "name": "Poco locos",
+                "seed": 550
             },
             "match_games": []
         },

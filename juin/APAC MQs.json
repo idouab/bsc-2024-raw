@@ -11737,18 +11737,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
                 "name": "在日Japanese",
-                "seed": 107
+                "seed": 107,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
                 "name": "Genius",
-                "seed": 43
+                "seed": 43,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 342,
@@ -12044,7 +12079,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "402ef49c-20a8-11ef-bb11-0242ac130004",
+                "name": "在日Japanese",
+                "seed": 107
             },
             "match_games": []
         },
@@ -15323,7 +15360,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                "name": "Genius",
+                "seed": 43
             },
             "opponent2": {
                 "id": null

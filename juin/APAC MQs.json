@@ -17296,18 +17296,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "174ee136-1e14-11ef-b049-0242ac130004",
                 "name": "KØ",
-                "seed": 16
+                "seed": 16,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
                 "name": "Demonic",
-                "seed": 15
+                "seed": 15,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "174ee136-1e14-11ef-b049-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "174ee136-1e14-11ef-b049-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "186682ae-1e14-11ef-a1b9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 372,
@@ -17776,18 +17811,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
                 "name": "EZDUBFR",
-                "seed": 162
+                "seed": 162,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8f618ace-22c5-11ef-9535-0242ac130004",
                 "name": "まくらんちょ",
-                "seed": 182
+                "seed": 182,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f618ace-22c5-11ef-9535-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f618ace-22c5-11ef-9535-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 389,
@@ -18064,7 +18134,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
+                "name": "EZDUBFR",
+                "seed": 162
             },
             "opponent2": {
                 "id": null

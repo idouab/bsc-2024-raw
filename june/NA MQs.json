@@ -7391,6 +7391,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
+            "tournament_id": 0,
+            "name": "LM",
+            "players": [
+                "appa",
+                "Jasebio",
+                "LM BERGOTIX"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "fdd05e06-1f53-11ef-ab3f-0242ac130004",
             "tournament_id": 0,
             "name": "Thugs",
@@ -25657,18 +25668,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ff840516-1fc8-11ef-88bd-0242ac130004",
                 "name": "SIGMAS",
-                "seed": 234
+                "seed": 234,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
                 "name": "LM",
-                "seed": 279
+                "seed": 279,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "ff840516-1fc8-11ef-88bd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ff840516-1fc8-11ef-88bd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ff840516-1fc8-11ef-88bd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 806,
@@ -29688,7 +29749,9 @@
                 "seed": 23
             },
             "opponent2": {
-                "id": null
+                "id": "ff840516-1fc8-11ef-88bd-0242ac130004",
+                "name": "SIGMAS",
+                "seed": 234
             },
             "match_games": []
         },
@@ -32781,10 +32844,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bdf6241e-1fbc-11ef-accc-0242ac130004",
+                "name": "LM",
+                "seed": 279
             },
             "opponent2": {
-                "id": null
+                "id": "fdd05e06-1f53-11ef-ab3f-0242ac130004",
+                "name": "Thugs",
+                "seed": 445
             },
             "match_games": []
         },

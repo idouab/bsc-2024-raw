@@ -6998,6 +6998,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8615c372-1f32-11ef-b058-0242ac130004",
+            "tournament_id": 0,
+            "name": "Midnight8",
+            "players": [
+                "Squi89",
+                "Ar@th",
+                "doñariata"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "a5fa4cee-20b3-11ef-8373-0242ac130004",
             "tournament_id": 0,
             "name": "Ezid Shams🌞🌞",
@@ -7016,6 +7027,17 @@
                 "Veigar",
                 "🔥HANZO HASASHI",
                 "boliviano sexy"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "0ee553ca-1f8d-11ef-ad22-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sweaty Heaven",
+            "players": [
+                "sweaty nolan",
+                "John Wick",
+                "SwêätyKïñgRàmżî"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
@@ -13734,18 +13756,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ce537ed0-2172-11ef-ae84-0242ac130004",
                 "name": "Alexitos Jr",
-                "seed": 510
+                "seed": 510,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0ee553ca-1f8d-11ef-ad22-0242ac130004",
                 "name": "Sweaty Heaven",
-                "seed": 515
+                "seed": 515,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ce537ed0-2172-11ef-ae84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ee553ca-1f8d-11ef-ad22-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ce537ed0-2172-11ef-ae84-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0ee553ca-1f8d-11ef-ad22-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 387,
@@ -19565,7 +19622,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "ce537ed0-2172-11ef-ae84-0242ac130004",
+                "name": "Alexitos Jr",
+                "seed": 510
             },
             "match_games": []
         },

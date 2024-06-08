@@ -43661,18 +43661,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
                 "name": "TEAM PE",
-                "seed": 474
+                "seed": 474,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "04be1622-2058-11ef-8c3f-0242ac130004",
                 "name": "Catalepsy",
-                "seed": 307
+                "seed": 307,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04be1622-2058-11ef-8c3f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "04be1622-2058-11ef-8c3f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 890,
@@ -44418,7 +44453,9 @@
                 "seed": 77
             },
             "opponent2": {
-                "id": null
+                "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                "name": "TEAM PE",
+                "seed": 474
             },
             "match_games": []
         },

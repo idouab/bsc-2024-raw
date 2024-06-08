@@ -2414,6 +2414,17 @@
                 "TrollXD"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "18097258-1e14-11ef-9078-0242ac130004",
+            "tournament_id": 0,
+            "name": "日本麻醬麵",
+            "players": [
+                "大洪",
+                "GROo",
+                "遇到你很雖"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -4748,18 +4759,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18097258-1e14-11ef-9078-0242ac130004",
                 "name": "日本麻醬麵",
-                "seed": 59
+                "seed": 59,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "eeb2004a-23f5-11ef-b6f6-0242ac130004",
                 "name": "No Limit",
-                "seed": 198
+                "seed": 198,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "18097258-1e14-11ef-9078-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eeb2004a-23f5-11ef-b6f6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "18097258-1e14-11ef-9078-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "eeb2004a-23f5-11ef-b6f6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 116,
@@ -6000,7 +6046,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eeb2004a-23f5-11ef-b6f6-0242ac130004",
+                "name": "No Limit",
+                "seed": 198
             },
             "opponent2": {
                 "id": null
@@ -7386,7 +7434,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "18097258-1e14-11ef-9078-0242ac130004",
+                "name": "日本麻醬麵",
+                "seed": 59
             },
             "opponent2": {
                 "id": null

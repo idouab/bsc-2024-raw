@@ -9482,18 +9482,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
                 "name": "Bribe Gaming",
-                "seed": 51
+                "seed": 51,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d4946d2-1f5a-11ef-b586-0242ac130004",
                 "name": "team SN",
-                "seed": 179
+                "seed": 179,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3d4946d2-1f5a-11ef-b586-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d4946d2-1f5a-11ef-b586-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d4946d2-1f5a-11ef-b586-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 204,
@@ -10545,7 +10595,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "18642da6-1e14-11ef-9ffc-0242ac130004",
+                "name": "Bribe Gaming",
+                "seed": 51
             },
             "match_games": []
         },
@@ -11803,10 +11855,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d4946d2-1f5a-11ef-b586-0242ac130004",
+                "name": "team SN",
+                "seed": 179
             },
             "opponent2": {
-                "id": null
+                "id": "b016d448-1f2f-11ef-ab90-0242ac130004",
+                "name": "SKIBIDISIGMAS",
+                "seed": 153
             },
             "match_games": []
         },

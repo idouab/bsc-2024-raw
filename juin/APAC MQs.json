@@ -17186,18 +17186,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
                 "name": "Limit break",
-                "seed": 212
+                "seed": 212,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "19476f8a-1e14-11ef-bfef-0242ac130004",
                 "name": "66% Black",
-                "seed": 57
+                "seed": 57,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19476f8a-1e14-11ef-bfef-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19476f8a-1e14-11ef-bfef-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 363,
@@ -18130,10 +18165,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                "name": "Limit break",
+                "seed": 212
             },
             "opponent2": {
-                "id": null
+                "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                "name": "About You",
+                "seed": 115
             },
             "match_games": []
         },

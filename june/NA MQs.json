@@ -36615,18 +36615,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "73b08338-1e16-11ef-b189-0242ac130004",
                 "name": "LT esport",
-                "seed": 57
+                "seed": 57,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9987c2ee-2544-11ef-a810-0242ac130004",
                 "name": "Mónaco Team",
-                "seed": 584
+                "seed": 584,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9987c2ee-2544-11ef-a810-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9987c2ee-2544-11ef-a810-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1270,
@@ -39219,7 +39254,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "73b08338-1e16-11ef-b189-0242ac130004",
+                "name": "LT esport",
+                "seed": 57
             },
             "match_games": []
         },
@@ -50132,7 +50169,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9987c2ee-2544-11ef-a810-0242ac130004",
+                "name": "Mónaco Team",
+                "seed": 584
             },
             "opponent2": {
                 "id": null

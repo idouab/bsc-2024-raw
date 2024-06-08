@@ -34298,6 +34298,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
+            "tournament_id": 0,
+            "name": "hsbc",
+            "players": [
+                "Kirays",
+                "Kingkong26",
+                "ZZ|TazR🔪🥷"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0f18dccc-1f79-11ef-b632-0242ac130004",
             "tournament_id": 0,
             "name": "De green kings",
@@ -74376,18 +74387,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bc8a4708-1e14-11ef-8efd-0242ac130004",
                 "name": "1915 Division Blue",
-                "seed": 171
+                "seed": 171,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
                 "name": "hsbc",
-                "seed": 1878
+                "seed": 1878,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "bc8a4708-1e14-11ef-8efd-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "bc8a4708-1e14-11ef-8efd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "bc8a4708-1e14-11ef-8efd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1022,
@@ -84714,10 +84775,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bc8a4708-1e14-11ef-8efd-0242ac130004",
+                "name": "1915 Division Blue",
+                "seed": 171
             },
             "opponent2": {
-                "id": null
+                "id": "4c8db1e0-22fd-11ef-be3b-0242ac130004",
+                "name": "Phoenix",
+                "seed": 1195
             },
             "match_games": []
         },
@@ -102994,10 +103059,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bd2cd222-21c8-11ef-a107-0242ac130004",
+                "name": "hsbc",
+                "seed": 1878
             },
             "opponent2": {
-                "id": null
+                "id": "0f18dccc-1f79-11ef-b632-0242ac130004",
+                "name": "De green kings",
+                "seed": 854
             },
             "match_games": []
         },

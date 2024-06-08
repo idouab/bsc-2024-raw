@@ -30546,18 +30546,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e0cc024-1e17-11ef-b5a9-0242ac130004",
                 "name": "SKCalalas",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3985e940-1e17-11ef-9d57-0242ac130004",
                 "name": "Revenge Gaming",
-                "seed": 13
+                "seed": 13,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3e0cc024-1e17-11ef-b5a9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3985e940-1e17-11ef-9d57-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3e0cc024-1e17-11ef-b5a9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3985e940-1e17-11ef-9d57-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 898,
@@ -30791,7 +30826,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e0cc024-1e17-11ef-b5a9-0242ac130004",
+                "name": "SKCalalas",
+                "seed": 4
             },
             "opponent2": {
                 "id": null
@@ -45083,7 +45120,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3985e940-1e17-11ef-9d57-0242ac130004",
+                "name": "Revenge Gaming",
+                "seed": 13
             },
             "opponent2": {
                 "id": null

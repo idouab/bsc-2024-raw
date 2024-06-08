@@ -20975,18 +20975,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7f6f6d42-20cd-11ef-9353-0242ac130004",
                 "name": "Ok",
-                "seed": 156
+                "seed": 156,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
                 "name": "EZDUBFR",
-                "seed": 162
+                "seed": 162,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7f6f6d42-20cd-11ef-9353-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7f6f6d42-20cd-11ef-9353-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3ae5185c-20f0-11ef-a021-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 442,
@@ -21134,7 +21169,9 @@
                 "seed": 175
             },
             "opponent2": {
-                "id": null
+                "id": "7f6f6d42-20cd-11ef-9353-0242ac130004",
+                "name": "Ok",
+                "seed": 156
             },
             "match_games": []
         },

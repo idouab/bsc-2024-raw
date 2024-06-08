@@ -10452,18 +10452,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "46da9d9a-209f-11ef-806d-0242ac130004",
                 "name": "Crazy Paccoon",
-                "seed": 105
+                "seed": 105,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e32f3eba-2024-11ef-af58-0242ac130004",
                 "name": "だいき6",
-                "seed": 88
+                "seed": 88,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "46da9d9a-209f-11ef-806d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e32f3eba-2024-11ef-af58-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "46da9d9a-209f-11ef-806d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e32f3eba-2024-11ef-af58-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 286,
@@ -14140,7 +14175,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "46da9d9a-209f-11ef-806d-0242ac130004",
+                "name": "Crazy Paccoon",
+                "seed": 105
             },
             "opponent2": {
                 "id": null

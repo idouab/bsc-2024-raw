@@ -7177,6 +7177,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "56df4cfa-1f6d-11ef-9a24-0242ac130004",
+            "tournament_id": 0,
+            "name": "Brawl Lord",
+            "players": [
+                "Sippy Sap",
+                "Darcest",
+                "🤮Hornbread"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ed984f52-2080-11ef-9beb-0242ac130004",
             "tournament_id": 0,
             "name": "OCY TEAM",
@@ -15344,18 +15355,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "56df4cfa-1f6d-11ef-9a24-0242ac130004",
                 "name": "Brawl Lord",
-                "seed": 467
+                "seed": 467,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
                 "name": "That’s Brutal",
-                "seed": 558
+                "seed": 558,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "56df4cfa-1f6d-11ef-9a24-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "56df4cfa-1f6d-11ef-9a24-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 443,
@@ -20871,7 +20917,9 @@
                 "seed": 46
             },
             "opponent2": {
-                "id": null
+                "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
+                "name": "That’s Brutal",
+                "seed": 558
             },
             "match_games": []
         },

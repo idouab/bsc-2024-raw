@@ -6134,6 +6134,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+            "tournament_id": 0,
+            "name": "REX FC",
+            "players": [
+                "leopro889",
+                "brent1824",
+                "Anxiety|ダイキ🎃🖤",
+                "🐱Supergato😎"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
             "tournament_id": 0,
             "name": "Los baby shark",
@@ -10564,18 +10576,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
                 "name": "REX FC",
-                "seed": 125
+                "seed": 125,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b952b4da-1f7c-11ef-a402-0242ac130004",
                 "name": "GALÁCTICS",
-                "seed": 388
+                "seed": 388,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b952b4da-1f7c-11ef-a402-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b952b4da-1f7c-11ef-a402-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 68,
@@ -18528,10 +18575,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b952b4da-1f7c-11ef-a402-0242ac130004",
+                "name": "GALÁCTICS",
+                "seed": 388
             },
             "opponent2": {
-                "id": null
+                "id": "722ece9a-2120-11ef-9ffe-0242ac130004",
+                "name": "Skibidi",
+                "seed": 381
             },
             "match_games": []
         },
@@ -22928,10 +22979,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+                "name": "REX FC",
+                "seed": 125
             },
             "opponent2": {
-                "id": null
+                "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
+                "name": "Los baby shark",
+                "seed": 132
             },
             "match_games": []
         },

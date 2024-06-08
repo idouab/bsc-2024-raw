@@ -25152,18 +25152,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
                 "name": "REX FC",
-                "seed": 125
+                "seed": 125,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
                 "name": "Los baby shark",
-                "seed": 132
+                "seed": 132,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "0ecc9a72-1fd0-11ef-99e0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 285,
@@ -27564,7 +27599,9 @@
                 "seed": 215
             },
             "opponent2": {
-                "id": null
+                "id": "3de45bb6-1e17-11ef-81ae-0242ac130004",
+                "name": "Los baby shark",
+                "seed": 132
             },
             "match_games": []
         },

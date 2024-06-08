@@ -100404,18 +100404,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a408378e-1f46-11ef-9414-0242ac130004",
                 "name": "PUMAS",
-                "seed": 1967
+                "seed": 1967,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0f2f5cda-1f61-11ef-91db-0242ac130004",
                 "name": "MFN | 🇧🇩",
-                "seed": 1106
+                "seed": 1106,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "a408378e-1f46-11ef-9414-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0f2f5cda-1f61-11ef-91db-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a408378e-1f46-11ef-9414-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0f2f5cda-1f61-11ef-91db-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1341,
@@ -102644,7 +102679,7 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 0,
             "opponent1": {
                 "id": "9928749c-1e14-11ef-a712-0242ac130004",
                 "name": "Los GoGoG",

@@ -21856,18 +21856,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
                 "name": "BrawlBros",
-                "seed": 102
+                "seed": 102,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "936f52bc-1fd3-11ef-a6a1-0242ac130004",
                 "name": "Aguapanela",
-                "seed": 155
+                "seed": 155,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "936f52bc-1fd3-11ef-a6a1-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3c2e0038-1e17-11ef-86d9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "936f52bc-1fd3-11ef-a6a1-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 485,
@@ -26830,7 +26865,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "936f52bc-1fd3-11ef-a6a1-0242ac130004",
+                "name": "Aguapanela",
+                "seed": 155
             },
             "opponent2": {
                 "id": null

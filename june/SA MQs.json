@@ -33209,18 +33209,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "be772d76-2187-11ef-ad98-0242ac130004",
                 "name": "Los Galáticos",
-                "seed": 415
+                "seed": 415,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "52344078-205a-11ef-a48a-0242ac130004",
                 "name": "Team Spleds",
-                "seed": 204
+                "seed": 204,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "be772d76-2187-11ef-ad98-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "52344078-205a-11ef-a48a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "be772d76-2187-11ef-ad98-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "52344078-205a-11ef-a48a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "be772d76-2187-11ef-ad98-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "52344078-205a-11ef-a48a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 554,
@@ -35449,7 +35499,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "be772d76-2187-11ef-ad98-0242ac130004",
+                "name": "Los Galáticos",
+                "seed": 415
             },
             "opponent2": {
                 "id": null

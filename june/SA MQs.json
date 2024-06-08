@@ -7504,6 +7504,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "08740b48-2155-11ef-93fe-0242ac130004",
+            "tournament_id": 0,
+            "name": "nexus team",
+            "players": [
+                "¤Andrew31 🇨🇴",
+                "💙AzNeex💙",
+                "TM |KÏŃG_LÎØŃ",
+                "anta158"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3ef9016e-1e17-11ef-8ae1-0242ac130004",
             "tournament_id": 0,
             "name": "Le’s Cabreus",
@@ -15868,18 +15880,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4677f19e-21d1-11ef-97ed-0242ac130004",
                 "name": "NEXUS✧CELESTE",
-                "seed": 211
+                "seed": 211,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "08740b48-2155-11ef-93fe-0242ac130004",
                 "name": "nexus team",
-                "seed": 302
+                "seed": 302,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4677f19e-21d1-11ef-97ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "08740b48-2155-11ef-93fe-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "4677f19e-21d1-11ef-97ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "08740b48-2155-11ef-93fe-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 223,
@@ -19381,7 +19428,9 @@
                 "seed": 467
             },
             "opponent2": {
-                "id": null
+                "id": "4677f19e-21d1-11ef-97ed-0242ac130004",
+                "name": "NEXUS✧CELESTE",
+                "seed": 211
             },
             "match_games": []
         },
@@ -23549,7 +23598,9 @@
                 "seed": 46
             },
             "opponent2": {
-                "id": null
+                "id": "08740b48-2155-11ef-93fe-0242ac130004",
+                "name": "nexus team",
+                "seed": 302
             },
             "match_games": []
         },

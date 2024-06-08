@@ -7079,6 +7079,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
+            "tournament_id": 0,
+            "name": "⚡️TEAM ELECTRO⚡️",
+            "players": [
+                "⚔️ISACC⚔️",
+                "Edgar Brayan",
+                "LIMBER"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3a6efcf2-1e17-11ef-bea4-0242ac130004",
             "tournament_id": 0,
             "name": "Ñam sports",
@@ -14414,18 +14425,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "93aaa976-21bc-11ef-80d9-0242ac130004",
                 "name": "Frank & los Francos",
-                "seed": 186
+                "seed": 186,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
                 "name": "⚡️TEAM ELECTRO⚡️",
-                "seed": 327
+                "seed": 327,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "93aaa976-21bc-11ef-80d9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "93aaa976-21bc-11ef-80d9-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "93aaa976-21bc-11ef-80d9-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 169,
@@ -19460,7 +19521,9 @@
                 "seed": 71
             },
             "opponent2": {
-                "id": null
+                "id": "93aaa976-21bc-11ef-80d9-0242ac130004",
+                "name": "Frank & los Francos",
+                "seed": 186
             },
             "match_games": []
         },
@@ -23718,7 +23781,9 @@
                 "seed": 442
             },
             "opponent2": {
-                "id": null
+                "id": "07c1f834-207b-11ef-b0f7-0242ac130004",
+                "name": "⚡️TEAM ELECTRO⚡️",
+                "seed": 327
             },
             "match_games": []
         },

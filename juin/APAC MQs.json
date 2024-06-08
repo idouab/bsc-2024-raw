@@ -3762,18 +3762,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "44d4284e-218b-11ef-96a4-0242ac130004",
                 "name": "Delay esports 2.0",
-                "seed": 127
+                "seed": 127,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5b895c6e-2012-11ef-a6b6-0242ac130004",
                 "name": "クチャラー軍団",
-                "seed": 130
+                "seed": 130,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b895c6e-2012-11ef-a6b6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5b895c6e-2012-11ef-a6b6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 67,
@@ -5534,7 +5569,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "44d4284e-218b-11ef-96a4-0242ac130004",
+                "name": "Delay esports 2.0",
+                "seed": 127
             },
             "match_games": []
         },

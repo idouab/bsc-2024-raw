@@ -13376,18 +13376,68 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
                 "name": "Crazy Raccoon",
-                "seed": 1
+                "seed": 1,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
                 "name": "We are Wintraders",
-                "seed": 72
+                "seed": 72,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "eae35c90-1e17-11ef-88ed-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 415,
@@ -20426,7 +20476,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "197ee7d0-1e14-11ef-8fa7-0242ac130004",
+                "name": "We are Wintraders",
+                "seed": 72
             },
             "opponent2": {
                 "id": null

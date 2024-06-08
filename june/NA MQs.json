@@ -32082,18 +32082,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d79a17fe-2052-11ef-a827-0242ac130004",
                 "name": "Absolute Advantage",
-                "seed": 394
+                "seed": 394,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6f0bd17a-1e16-11ef-aef8-0242ac130004",
                 "name": "Golden Pigs",
-                "seed": 138
+                "seed": 138,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d79a17fe-2052-11ef-a827-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f0bd17a-1e16-11ef-aef8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d79a17fe-2052-11ef-a827-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f0bd17a-1e16-11ef-aef8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1094,
@@ -33662,7 +33697,9 @@
                 "seed": 10
             },
             "opponent2": {
-                "id": null
+                "id": "d79a17fe-2052-11ef-a827-0242ac130004",
+                "name": "Absolute Advantage",
+                "seed": 394
             },
             "match_games": []
         },
@@ -40853,7 +40890,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6f0bd17a-1e16-11ef-aef8-0242ac130004",
+                "name": "Golden Pigs",
+                "seed": 138
             },
             "opponent2": {
                 "id": null

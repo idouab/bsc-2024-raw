@@ -30924,18 +30924,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "05ae5644-1f88-11ef-8cb5-0242ac130004",
                 "name": "Exstropers",
-                "seed": 406
+                "seed": 406,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b332590a-202d-11ef-aab0-0242ac130004",
                 "name": "TeenTitans",
-                "seed": 193
+                "seed": 193,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "05ae5644-1f88-11ef-8cb5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b332590a-202d-11ef-aab0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "05ae5644-1f88-11ef-8cb5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b332590a-202d-11ef-aab0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 498,
@@ -34157,7 +34192,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b332590a-202d-11ef-aab0-0242ac130004",
+                "name": "TeenTitans",
+                "seed": 193
             },
             "opponent2": {
                 "id": null

@@ -9687,18 +9687,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
                 "name": "Genius",
-                "seed": 43
+                "seed": 43,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2eed828c-2014-11ef-81d0-0242ac130004",
                 "name": "ChaoJiGao",
-                "seed": 86
+                "seed": 86,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2eed828c-2014-11ef-81d0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2eed828c-2014-11ef-81d0-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 278,
@@ -10284,7 +10319,9 @@
                 "seed": 107
             },
             "opponent2": {
-                "id": null
+                "id": "174f62fa-1e14-11ef-bc0c-0242ac130004",
+                "name": "Genius",
+                "seed": 43
             },
             "match_games": []
         },
@@ -11165,10 +11202,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2eed828c-2014-11ef-81d0-0242ac130004",
+                "name": "ChaoJiGao",
+                "seed": 86
             },
             "opponent2": {
-                "id": null
+                "id": "4a2cd1ca-200e-11ef-8cf2-0242ac130004",
+                "name": "calculus",
+                "seed": 128
             },
             "match_games": []
         },

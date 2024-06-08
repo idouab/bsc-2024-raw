@@ -98639,18 +98639,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba5ff996-1e14-11ef-8076-0242ac130004",
                 "name": "YM ESPORTS",
-                "seed": 412
+                "seed": 412,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "67fde3e8-2017-11ef-b85d-0242ac130004",
                 "name": "Skibidi",
-                "seed": 1436
+                "seed": 1436,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "ba5ff996-1e14-11ef-8076-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "67fde3e8-2017-11ef-b85d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ba5ff996-1e14-11ef-8076-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "67fde3e8-2017-11ef-b85d-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1238,

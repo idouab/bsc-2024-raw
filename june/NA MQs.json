@@ -41727,18 +41727,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0dd63f0-1e17-11ef-9f5f-0242ac130004",
                 "name": "Luminosity",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
                 "name": "IX Squares",
-                "seed": 36
+                "seed": 36,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "c0dd63f0-1e17-11ef-9f5f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "c0dd63f0-1e17-11ef-9f5f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1489,
@@ -42304,7 +42339,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0dd63f0-1e17-11ef-9f5f-0242ac130004",
+                "name": "Luminosity",
+                "seed": 4
             },
             "opponent2": {
                 "id": null
@@ -54709,7 +54746,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                "name": "IX Squares",
+                "seed": 36
             },
             "opponent2": {
                 "id": null

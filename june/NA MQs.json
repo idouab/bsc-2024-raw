@@ -41747,18 +41747,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0df13e4-1e17-11ef-972b-0242ac130004",
                 "name": "Pioneers",
-                "seed": 3
+                "seed": 3,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bcd5932e-2595-11ef-be43-0242ac130004",
                 "name": "team washed",
-                "seed": 606
+                "seed": 606,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "c0df13e4-1e17-11ef-972b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "c0df13e4-1e17-11ef-972b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1497,
@@ -41925,7 +41960,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0df13e4-1e17-11ef-972b-0242ac130004",
+                "name": "Pioneers",
+                "seed": 3
             },
             "opponent2": {
                 "id": null
@@ -53256,7 +53293,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                "name": "team washed",
+                "seed": 606
             },
             "opponent2": {
                 "id": null

@@ -21521,18 +21521,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7090f462-1e16-11ef-85fb-0242ac130004",
                 "name": "Frosty_ZYN",
-                "seed": 117
+                "seed": 117,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0fb6d77c-2057-11ef-87b0-0242ac130004",
                 "name": "WRLD",
-                "seed": 396
+                "seed": 396,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "7090f462-1e16-11ef-85fb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0fb6d77c-2057-11ef-87b0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7090f462-1e16-11ef-85fb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0fb6d77c-2057-11ef-87b0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 735,
@@ -25522,7 +25557,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "0fb6d77c-2057-11ef-87b0-0242ac130004",
+                "name": "WRLD",
+                "seed": 396
             },
             "opponent2": {
                 "id": null

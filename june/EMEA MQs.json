@@ -33071,6 +33071,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
+            "tournament_id": 0,
+            "name": "Skibidi",
+            "players": [
+                "Görgen",
+                "Slow_ser",
+                "Brawler"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "93cf7518-1e14-11ef-b23d-0242ac130004",
             "tournament_id": 0,
             "name": "Electric Fury",
@@ -70452,18 +70463,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
                 "name": "Skibidi",
-                "seed": 595
+                "seed": 595,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "59a07472-1f78-11ef-9c06-0242ac130004",
                 "name": "TCB | Family",
-                "seed": 1454
+                "seed": 1454,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "59a07472-1f78-11ef-9c06-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "59a07472-1f78-11ef-9c06-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "59a07472-1f78-11ef-9c06-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 893,
@@ -84582,7 +84643,9 @@
                 "seed": 1619
             },
             "opponent2": {
-                "id": null
+                "id": "59a07472-1f78-11ef-9c06-0242ac130004",
+                "name": "TCB | Family",
+                "seed": 1454
             },
             "match_games": []
         },
@@ -102927,7 +102990,11 @@
                 "name": "Karabakh Team",
                 "seed": 430
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "a7bb5b76-24dd-11ef-92ab-0242ac130004",
+                "name": "Skibidi",
+                "seed": 595
+            },
             "match_games": []
         },
         {

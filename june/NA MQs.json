@@ -7782,6 +7782,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
+            "tournament_id": 0,
+            "name": "Denmark_BS",
+            "players": [
+                "praveen",
+                "Abhi",
+                "Alpha_Assassin"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "730241fc-2130-11ef-84ea-0242ac130004",
             "tournament_id": 0,
             "name": "Emre A",
@@ -7901,6 +7912,17 @@
                 "💫Noelia💫",
                 "Sami🍓",
                 "chenchos"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "6c6e92b8-1e16-11ef-897e-0242ac130004",
+            "tournament_id": 0,
+            "name": "EA|RWAN|RACE",
+            "players": [
+                "RW|LASAUR_TV",
+                "RW|AURLAS_TV",
+                "讓那|Darkfire✨🤍"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -22568,11 +22590,12 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c6e92b8-1e16-11ef-897e-0242ac130004",
                 "name": "EA|RWAN|RACE",
-                "seed": 173
+                "seed": 173,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "9817ddac-1fd3-11ef-874a-0242ac130004",
@@ -23258,18 +23281,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
                 "name": "Denmark_BS",
-                "seed": 181
+                "seed": 181,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "23fedcee-1fca-11ef-8052-0242ac130004",
                 "name": "Las Supernenas",
-                "seed": 332
+                "seed": 332,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23fedcee-1fca-11ef-8052-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "23fedcee-1fca-11ef-8052-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "23fedcee-1fca-11ef-8052-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 740,
@@ -24783,18 +24856,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6dbc25b8-1e16-11ef-abca-0242ac130004",
                 "name": "Dragon Breath FC",
-                "seed": 103
+                "seed": 103,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e730e9c8-206a-11ef-9e53-0242ac130004",
                 "name": "SKS|OFFICIAL",
-                "seed": 410
+                "seed": 410,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "6dbc25b8-1e16-11ef-abca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e730e9c8-206a-11ef-9e53-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6dbc25b8-1e16-11ef-abca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e730e9c8-206a-11ef-9e53-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 791,
@@ -25318,18 +25426,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "74566ae6-1e16-11ef-874c-0242ac130004",
                 "name": "THE LANTERNS",
-                "seed": 42
+                "seed": 42,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "994de518-1f6f-11ef-94c4-0242ac130004",
                 "name": "DeltaMX",
-                "seed": 471
+                "seed": 471,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "994de518-1f6f-11ef-94c4-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "994de518-1f6f-11ef-94c4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "994de518-1f6f-11ef-94c4-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 809,
@@ -28923,10 +29081,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6dbc25b8-1e16-11ef-abca-0242ac130004",
+                "name": "Dragon Breath FC",
+                "seed": 103
             },
             "opponent2": {
-                "id": null
+                "id": "83da10ec-215b-11ef-89f1-0242ac130004",
+                "name": "joez and pals",
+                "seed": 359
             },
             "match_games": []
         },
@@ -29075,7 +29237,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "74566ae6-1e16-11ef-874c-0242ac130004",
+                "name": "THE LANTERNS",
+                "seed": 42
             },
             "opponent2": {
                 "id": null
@@ -32591,10 +32755,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7307af6a-1e16-11ef-acc2-0242ac130004",
+                "name": "Denmark_BS",
+                "seed": 181
             },
             "opponent2": {
-                "id": null
+                "id": "730241fc-2130-11ef-84ea-0242ac130004",
+                "name": "Emre A",
+                "seed": 482
             },
             "match_games": []
         },
@@ -32755,10 +32923,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c6e92b8-1e16-11ef-897e-0242ac130004",
+                "name": "EA|RWAN|RACE",
+                "seed": 173
             },
             "opponent2": {
-                "id": null
+                "id": "bf68348a-2161-11ef-9c51-0242ac130004",
+                "name": "ColtsComedyClub",
+                "seed": 506
             },
             "match_games": []
         },

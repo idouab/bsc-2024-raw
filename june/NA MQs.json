@@ -7883,6 +7883,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "223bc4b0-203a-11ef-a8aa-0242ac130004",
+            "tournament_id": 0,
+            "name": "Shsviny",
+            "players": [
+                "Mesb_9vdl",
+                "cutie_patootie",
+                "nazar_958"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ded59e8c-1fa1-11ef-9252-0242ac130004",
             "tournament_id": 0,
             "name": "BumsBunda",
@@ -21027,18 +21038,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "73ea3510-1e16-11ef-9145-0242ac130004",
                 "name": "Phoenix_Gaming111 YT",
-                "seed": 61
+                "seed": 61,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ab28c386-1fa9-11ef-81b3-0242ac130004",
                 "name": "DJ Landon",
-                "seed": 573
+                "seed": 573,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "73ea3510-1e16-11ef-9145-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab28c386-1fa9-11ef-81b3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "73ea3510-1e16-11ef-9145-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ab28c386-1fa9-11ef-81b3-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 689,
@@ -21397,18 +21443,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
                 "name": "Well Rounded",
-                "seed": 141
+                "seed": 141,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "223bc4b0-203a-11ef-a8aa-0242ac130004",
                 "name": "Shsviny",
-                "seed": 372
+                "seed": 372,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "223bc4b0-203a-11ef-a8aa-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "223bc4b0-203a-11ef-a8aa-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 704,
@@ -26642,7 +26723,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "73ea3510-1e16-11ef-9145-0242ac130004",
+                "name": "Phoenix_Gaming111 YT",
+                "seed": 61
             },
             "opponent2": {
                 "id": null
@@ -31360,10 +31443,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "223bc4b0-203a-11ef-a8aa-0242ac130004",
+                "name": "Shsviny",
+                "seed": 372
             },
             "opponent2": {
-                "id": null
+                "id": "ded59e8c-1fa1-11ef-9252-0242ac130004",
+                "name": "BumsBunda",
+                "seed": 551
             },
             "match_games": []
         },

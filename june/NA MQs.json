@@ -42708,18 +42708,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
                 "name": "JMG",
-                "seed": 293
+                "seed": 293,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "72cb890e-1e16-11ef-9334-0242ac130004",
                 "name": "Oinkers Reborn",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f0a52bb6-206c-11ef-9d63-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 950,
@@ -45129,7 +45164,9 @@
                 "seed": 550
             },
             "opponent2": {
-                "id": null
+                "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                "name": "Oinkers Reborn",
+                "seed": 37
             },
             "match_games": []
         },

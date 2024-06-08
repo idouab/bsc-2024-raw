@@ -36314,11 +36314,12 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
                 "name": "Synth Reeks",
-                "seed": 576
+                "seed": 576,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "732269a4-1e16-11ef-8ebd-0242ac130004",
@@ -36334,18 +36335,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7092dd36-1e16-11ef-9774-0242ac130004",
                 "name": "sofried",
-                "seed": 32
+                "seed": 32,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
                 "name": "The Pogging Piggies",
-                "seed": 353
+                "seed": 353,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "7092dd36-1e16-11ef-9774-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "7092dd36-1e16-11ef-9774-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1263,
@@ -36904,18 +36940,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d31f5b4-1e16-11ef-85a1-0242ac130004",
                 "name": "The Other Guys",
-                "seed": 13
+                "seed": 13,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
                 "name": "Well Rounded",
-                "seed": 141
+                "seed": 141,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6d31f5b4-1e16-11ef-85a1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6d31f5b4-1e16-11ef-85a1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1281,
@@ -38316,7 +38387,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "732269a4-1e16-11ef-8ebd-0242ac130004",
+                "name": "OneeHourse",
+                "seed": 65
             },
             "match_games": []
         },
@@ -38329,10 +38402,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "efc6b7d2-2152-11ef-b4eb-0242ac130004",
+                "name": "The Pogging Piggies",
+                "seed": 353
             },
             "opponent2": {
-                "id": null
+                "id": "532a76fc-209e-11ef-909d-0242ac130004",
+                "name": "Y Angxlo",
+                "seed": 417
             },
             "match_games": []
         },
@@ -38479,10 +38556,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d31f5b4-1e16-11ef-85a1-0242ac130004",
+                "name": "The Other Guys",
+                "seed": 13
             },
             "opponent2": {
-                "id": null
+                "id": "7292ec16-1e16-11ef-8652-0242ac130004",
+                "name": "GALAXY",
+                "seed": 52
             },
             "match_games": []
         },
@@ -48708,7 +48789,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
+                "name": "Synth Reeks",
+                "seed": 576
             },
             "opponent2": {
                 "id": null
@@ -48724,7 +48807,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7092dd36-1e16-11ef-9774-0242ac130004",
+                "name": "sofried",
+                "seed": 32
             },
             "opponent2": {
                 "id": null
@@ -49024,7 +49109,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c5ac7b0-1e16-11ef-b2b3-0242ac130004",
+                "name": "Well Rounded",
+                "seed": 141
             },
             "opponent2": {
                 "id": null

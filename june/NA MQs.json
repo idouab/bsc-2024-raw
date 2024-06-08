@@ -7044,6 +7044,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "924def20-2450-11ef-92e5-0242ac130004",
+            "tournament_id": 0,
+            "name": "Goofy Goobers Gang",
+            "players": [
+                "Leapz",
+                "Koofoo",
+                "Ninja_boss120"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ec757564-1f86-11ef-8856-0242ac130004",
             "tournament_id": 0,
             "name": "Tumba Locos",
@@ -7212,6 +7223,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "80b84b98-258b-11ef-969d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sg | e-Sports",
+            "players": [
+                "SG|ermiyas",
+                "SG | yecke 🥀",
+                "🦁|Zakuᴳᵒᵈ🤫",
+                "Pulica Franaru"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "de5d7298-2219-11ef-8e37-0242ac130004",
             "tournament_id": 0,
             "name": "peppa",
@@ -7374,6 +7397,17 @@
                 "amongoose",
                 "glizzygobler",
                 "Curry🔥🙈Colt"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "4c7eedea-206e-11ef-a867-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sixth sense",
+            "players": [
+                "Delxy",
+                "FRENC",
+                "Seanq"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -8754,18 +8788,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "799053d6-1f6b-11ef-8ef3-0242ac130004",
                 "name": "LES QC",
-                "seed": 465
+                "seed": 465,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "924def20-2450-11ef-92e5-0242ac130004",
                 "name": "Goofy Goobers Gang",
-                "seed": 560
+                "seed": 560,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "799053d6-1f6b-11ef-8ef3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "924def20-2450-11ef-92e5-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "799053d6-1f6b-11ef-8ef3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "924def20-2450-11ef-92e5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "799053d6-1f6b-11ef-8ef3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "924def20-2450-11ef-92e5-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 59,
@@ -12009,18 +12093,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4525523c-20aa-11ef-8755-0242ac130004",
                 "name": "Apers",
-                "seed": 421
+                "seed": 421,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "80b84b98-258b-11ef-969d-0242ac130004",
                 "name": "Sg | e-Sports",
-                "seed": 604
+                "seed": 604,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "80b84b98-258b-11ef-969d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "80b84b98-258b-11ef-969d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 223,
@@ -15705,18 +15824,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4c7eedea-206e-11ef-a867-0242ac130004",
                 "name": "Sixth sense",
-                "seed": 414
+                "seed": 414,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "038c1878-1fb6-11ef-8538-0242ac130004",
                 "name": "THE DEDILLOS",
-                "seed": 611
+                "seed": 611,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4c7eedea-206e-11ef-a867-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "038c1878-1fb6-11ef-8538-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "4c7eedea-206e-11ef-a867-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "038c1878-1fb6-11ef-8538-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 407,
@@ -18392,7 +18546,9 @@
                 "seed": 48
             },
             "opponent2": {
-                "id": null
+                "id": "799053d6-1f6b-11ef-8ef3-0242ac130004",
+                "name": "LES QC",
+                "seed": 465
             },
             "match_games": []
         },
@@ -19992,7 +20148,9 @@
                 "seed": 92
             },
             "opponent2": {
-                "id": null
+                "id": "4525523c-20aa-11ef-8755-0242ac130004",
+                "name": "Apers",
+                "seed": 421
             },
             "match_games": []
         },
@@ -21786,7 +21944,9 @@
                 "seed": 99
             },
             "opponent2": {
-                "id": null
+                "id": "038c1878-1fb6-11ef-8538-0242ac130004",
+                "name": "THE DEDILLOS",
+                "seed": 611
             },
             "match_games": []
         },

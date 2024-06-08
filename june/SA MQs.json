@@ -5594,6 +5594,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "45ce87f8-2537-11ef-bb4e-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sal",
+            "players": [
+                "YT|leonardo⚡",
+                "Alvaro TL",
+                "Cover17",
+                "lirix video"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
             "tournament_id": 0,
             "name": "LSC TEAM",
@@ -5736,6 +5748,18 @@
                 "arth92alvezz",
                 "dannn",
                 "1BruninG"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "527f0b6a-1fa8-11ef-a41b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Blue Pegasus",
+            "players": [
+                "Wot | Gabriel",
+                "Natsuzera🔥",
+                "jjgαмєsˢᵃᵈツ",
+                "𝐂𝐡𝐮𝐮𝐲𝐚🫀"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -5960,6 +5984,17 @@
                 "Kerrick",
                 "el mas lindo",
                 "agustin"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "ff6246e6-1fb0-11ef-9f52-0242ac130004",
+            "tournament_id": 0,
+            "name": "Team del Pino",
+            "players": [
+                "Machi",
+                "-bdp5-",
+                "benbot"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6409,18 +6444,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d6d3752-1e17-11ef-ac06-0242ac130004",
                 "name": "El Rejunte",
-                "seed": 32
+                "seed": 32,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "45ce87f8-2537-11ef-bb4e-0242ac130004",
                 "name": "Sal",
-                "seed": 481
+                "seed": 481,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3d6d3752-1e17-11ef-ac06-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45ce87f8-2537-11ef-bb4e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3d6d3752-1e17-11ef-ac06-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "45ce87f8-2537-11ef-bb4e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 10,
@@ -8555,18 +8625,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f456fa4-1e17-11ef-abaf-0242ac130004",
                 "name": "Newbas",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "527f0b6a-1fa8-11ef-a41b-0242ac130004",
                 "name": "Blue Pegasus",
-                "seed": 468
+                "seed": 468,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3f456fa4-1e17-11ef-abaf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "527f0b6a-1fa8-11ef-a41b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3f456fa4-1e17-11ef-abaf-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "527f0b6a-1fa8-11ef-a41b-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 94,
@@ -12015,18 +12120,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "39cd4970-1e17-11ef-bcbc-0242ac130004",
                 "name": "Soka Fofo",
-                "seed": 27
+                "seed": 27,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ff6246e6-1fb0-11ef-9f52-0242ac130004",
                 "name": "Team del Pino",
-                "seed": 486
+                "seed": 486,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "39cd4970-1e17-11ef-bcbc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ff6246e6-1fb0-11ef-9f52-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "39cd4970-1e17-11ef-bcbc-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ff6246e6-1fb0-11ef-9f52-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 234,
@@ -12191,18 +12331,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "17135b60-209f-11ef-9a4c-0242ac130004",
                 "name": "Los Pedros",
-                "seed": 246
+                "seed": 246,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8c235bc8-1fd0-11ef-9782-0242ac130004",
                 "name": "AMX| perú",
-                "seed": 267
+                "seed": 267,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "17135b60-209f-11ef-9a4c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8c235bc8-1fd0-11ef-9782-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "17135b60-209f-11ef-9a4c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8c235bc8-1fd0-11ef-9782-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 243,
@@ -12771,7 +12946,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d6d3752-1e17-11ef-ac06-0242ac130004",
+                "name": "El Rejunte",
+                "seed": 32
             },
             "opponent2": {
                 "id": null
@@ -13471,7 +13648,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f456fa4-1e17-11ef-abaf-0242ac130004",
+                "name": "Newbas",
+                "seed": 45
             },
             "opponent2": {
                 "id": null
@@ -14643,7 +14822,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "39cd4970-1e17-11ef-bcbc-0242ac130004",
+                "name": "Soka Fofo",
+                "seed": 27
             },
             "opponent2": {
                 "id": null
@@ -14712,7 +14893,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "17135b60-209f-11ef-9a4c-0242ac130004",
+                "name": "Los Pedros",
+                "seed": 246
             },
             "match_games": []
         },
@@ -16881,7 +17064,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "45ce87f8-2537-11ef-bb4e-0242ac130004",
+                "name": "Sal",
+                "seed": 481
             },
             "opponent2": {
                 "id": null
@@ -17471,7 +17656,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "527f0b6a-1fa8-11ef-a41b-0242ac130004",
+                "name": "Blue Pegasus",
+                "seed": 468
             },
             "opponent2": {
                 "id": null
@@ -18463,7 +18650,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ff6246e6-1fb0-11ef-9f52-0242ac130004",
+                "name": "Team del Pino",
+                "seed": 486
             },
             "opponent2": {
                 "id": null

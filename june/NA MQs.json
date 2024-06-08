@@ -49892,18 +49892,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f39d442e-1f64-11ef-aeae-0242ac130004",
                 "name": "Sénile FC",
-                "seed": 457
+                "seed": 457,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e115d240-1f77-11ef-9d89-0242ac130004",
                 "name": "SPADES",
-                "seed": 483
+                "seed": 483,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "f39d442e-1f64-11ef-aeae-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e115d240-1f77-11ef-9d89-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "f39d442e-1f64-11ef-aeae-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e115d240-1f77-11ef-9d89-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1338,
@@ -50352,18 +50387,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
                 "name": "Skibidi",
-                "seed": 527
+                "seed": 527,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "72cb890e-1e16-11ef-9334-0242ac130004",
                 "name": "Oinkers Reborn",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "ca14fd78-1f95-11ef-8e3e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1361,
@@ -51192,7 +51262,9 @@
                 "seed": 311
             },
             "opponent2": {
-                "id": null
+                "id": "e115d240-1f77-11ef-9d89-0242ac130004",
+                "name": "SPADES",
+                "seed": 483
             },
             "match_games": []
         },
@@ -51606,7 +51678,9 @@
                 "seed": 528
             },
             "opponent2": {
-                "id": null
+                "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                "name": "Oinkers Reborn",
+                "seed": 37
             },
             "match_games": []
         },

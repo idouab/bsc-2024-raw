@@ -5605,6 +5605,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f7f41218-21a4-11ef-a7cb-0242ac130004",
+            "tournament_id": 0,
+            "name": "NaBrasa Team",
+            "players": [
+                "NBR|Guzera",
+                "NBR|🍁Lemes",
+                "NBR|MARCOLOVING"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "39d73886-1e17-11ef-aa64-0242ac130004",
             "tournament_id": 0,
             "name": "RNH",
@@ -5672,6 +5683,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "85525bfa-2057-11ef-b144-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sintra Bajo",
+            "players": [
+                "MASTER_MIGUEL",
+                "Alonso",
+                "🥕ThuDanonino🥕",
+                "ALGUIEN:v"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "4f7ced94-258c-11ef-8b3b-0242ac130004",
             "tournament_id": 0,
             "name": "vitality",
@@ -5679,6 +5702,17 @@
                 "arth92alvezz",
                 "dannn",
                 "1BruninG"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+            "tournament_id": 0,
+            "name": "Perde baixo",
+            "players": [
+                "Perde Baixo",
+                "Capó🌒",
+                "Capobr"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -5794,6 +5828,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "3a945722-1e17-11ef-9fe6-0242ac130004",
+            "tournament_id": 0,
+            "name": "Honguitos Sport",
+            "players": [
+                "HSP|Maximolevel",
+                "HSP|Dani_tel",
+                "HSP | Sebas"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3e1d5cf4-1e17-11ef-ba17-0242ac130004",
             "tournament_id": 0,
             "name": "Brawl Gaming",
@@ -5836,6 +5881,17 @@
                 "☢mangotoxic☢",
                 "SkinnyC",
                 "꧁༒*M☬ცɛŋʝą☬O*༒꧂"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "2a945062-2122-11ef-a29f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Ameratsu Butai",
+            "players": [
+                "V1rul0💜Gaby72",
+                "BC|TAG DEL PRO",
+                "Samuel"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6687,18 +6743,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f7f41218-21a4-11ef-a7cb-0242ac130004",
                 "name": "NaBrasa Team",
-                "seed": 209
+                "seed": 209,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "701eff5e-2156-11ef-b539-0242ac130004",
                 "name": "Roger cruz",
-                "seed": 304
+                "seed": 304,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f7f41218-21a4-11ef-a7cb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "701eff5e-2156-11ef-b539-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f7f41218-21a4-11ef-a7cb-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "701eff5e-2156-11ef-b539-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 31,
@@ -8076,18 +8167,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "85525bfa-2057-11ef-b144-0242ac130004",
                 "name": "Sintra Bajo",
-                "seed": 180
+                "seed": 180,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e049a4da-2081-11ef-a59a-0242ac130004",
                 "name": "Strix",
-                "seed": 333
+                "seed": 333,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "85525bfa-2057-11ef-b144-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e049a4da-2081-11ef-a59a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "85525bfa-2057-11ef-b144-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e049a4da-2081-11ef-a59a-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 89,
@@ -8527,18 +8653,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
                 "name": "Perde baixo",
-                "seed": 37
+                "seed": 37,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "15f79214-1faa-11ef-a3e0-0242ac130004",
                 "name": "Guris Do Sul",
-                "seed": 476
+                "seed": 476,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "15f79214-1faa-11ef-a3e0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "15f79214-1faa-11ef-a3e0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 110,
@@ -10769,18 +10930,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a945722-1e17-11ef-9fe6-0242ac130004",
                 "name": "Honguitos Sport",
-                "seed": 35
+                "seed": 35,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "572ca088-1fac-11ef-8a13-0242ac130004",
                 "name": "3DBR Ultra",
-                "seed": 478
+                "seed": 478,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3a945722-1e17-11ef-9fe6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "572ca088-1fac-11ef-8a13-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3a945722-1e17-11ef-9fe6-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "572ca088-1fac-11ef-8a13-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 206,
@@ -11797,18 +11993,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
                 "name": "Sublime",
-                "seed": 235
+                "seed": 235,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2a945062-2122-11ef-a29f-0242ac130004",
                 "name": "Ameratsu Butai",
-                "seed": 278
+                "seed": 278,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a945062-2122-11ef-a29f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a945062-2122-11ef-a29f-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 251,
@@ -12905,10 +13136,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "15f79214-1faa-11ef-a3e0-0242ac130004",
+                "name": "Guris Do Sul",
+                "seed": 476
             },
             "opponent2": {
-                "id": null
+                "id": "94f9487e-203a-11ef-8495-0242ac130004",
+                "name": "The castrati boys",
+                "seed": 293
             },
             "match_games": []
         },
@@ -13705,7 +13940,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "572ca088-1fac-11ef-8a13-0242ac130004",
+                "name": "3DBR Ultra",
+                "seed": 478
             },
             "opponent2": {
                 "id": null
@@ -14072,7 +14309,9 @@
                 "seed": 22
             },
             "opponent2": {
-                "id": null
+                "id": "c8e6e616-24ac-11ef-89b0-0242ac130004",
+                "name": "Sublime",
+                "seed": 235
             },
             "match_games": []
         },
@@ -16871,10 +17110,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3bc3b2c8-1e17-11ef-bbd2-0242ac130004",
+                "name": "Perde baixo",
+                "seed": 37
             },
             "opponent2": {
-                "id": null
+                "id": "ea964726-2073-11ef-80c2-0242ac130004",
+                "name": "Impacto Estelar",
+                "seed": 220
             },
             "match_games": []
         },
@@ -17545,7 +17788,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a945722-1e17-11ef-9fe6-0242ac130004",
+                "name": "Honguitos Sport",
+                "seed": 35
             },
             "opponent2": {
                 "id": null
@@ -17858,7 +18103,9 @@
                 "seed": 491
             },
             "opponent2": {
-                "id": null
+                "id": "2a945062-2122-11ef-a29f-0242ac130004",
+                "name": "Ameratsu Butai",
+                "seed": 278
             },
             "match_games": []
         },

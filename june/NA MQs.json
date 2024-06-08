@@ -7123,6 +7123,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+            "tournament_id": 0,
+            "name": "ATMX",
+            "players": [
+                "IvánSDV",
+                "Leo Escobar",
+                "OwnBird46",
+                "Fifty🐉"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0d8947e4-1f78-11ef-9161-0242ac130004",
             "tournament_id": 0,
             "name": "Flood Esports",
@@ -11286,18 +11298,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
                 "name": "SuperKuJAM",
-                "seed": 453
+                "seed": 453,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "369e2004-251e-11ef-b8e0-0242ac130004",
                 "name": "ATMX",
-                "seed": 572
+                "seed": 572,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "369e2004-251e-11ef-b8e0-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 203,
@@ -19253,7 +19300,9 @@
                 "seed": 60
             },
             "opponent2": {
-                "id": null
+                "id": "8e18444a-1f60-11ef-ad88-0242ac130004",
+                "name": "SuperKuJAM",
+                "seed": 453
             },
             "match_games": []
         },

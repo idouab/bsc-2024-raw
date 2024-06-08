@@ -24907,18 +24907,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
                 "name": "ChaufaFC",
-                "seed": 313
+                "seed": 313,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3c5612ee-1e17-11ef-a20d-0242ac130004",
                 "name": "RED DEVILS",
-                "seed": 72
+                "seed": 72,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c5612ee-1e17-11ef-a20d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c5612ee-1e17-11ef-a20d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 633,
@@ -27394,7 +27429,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "03d6ed4c-2067-11ef-9e93-0242ac130004",
+                "name": "ChaufaFC",
+                "seed": 313
             },
             "match_games": []
         },
@@ -36189,7 +36226,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3c5612ee-1e17-11ef-a20d-0242ac130004",
+                "name": "RED DEVILS",
+                "seed": 72
             },
             "opponent2": {
                 "id": null

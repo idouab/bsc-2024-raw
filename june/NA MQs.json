@@ -36570,18 +36570,68 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c415fc8-1e16-11ef-a4df-0242ac130004",
                 "name": "sintikols gaming",
-                "seed": 17
+                "seed": 17,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "73a79f84-1e16-11ef-81c0-0242ac130004",
                 "name": "ZERO SKILL",
-                "seed": 112
+                "seed": 112,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6c415fc8-1e16-11ef-a4df-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73a79f84-1e16-11ef-81c0-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6c415fc8-1e16-11ef-a4df-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "73a79f84-1e16-11ef-81c0-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "6c415fc8-1e16-11ef-a4df-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "73a79f84-1e16-11ef-81c0-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1267,
@@ -39707,10 +39757,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "73a79f84-1e16-11ef-81c0-0242ac130004",
+                "name": "ZERO SKILL",
+                "seed": 112
             },
             "opponent2": {
-                "id": null
+                "id": "70a03742-1e16-11ef-b322-0242ac130004",
+                "name": "ROMPO ROMPO",
+                "seed": 81
             },
             "match_games": []
         },
@@ -50943,7 +50997,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6c415fc8-1e16-11ef-a4df-0242ac130004",
+                "name": "sintikols gaming",
+                "seed": 17
             },
             "opponent2": {
                 "id": null

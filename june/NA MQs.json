@@ -7177,6 +7177,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "0f685ee4-20a7-11ef-887b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Bazinga",
+            "players": [
+                "Epic_Ali",
+                "I KILL U ;)",
+                "BOT 69"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "56df4cfa-1f6d-11ef-9a24-0242ac130004",
             "tournament_id": 0,
             "name": "Brawl Lord",
@@ -7184,6 +7195,18 @@
                 "Sippy Sap",
                 "Darcest",
                 "🤮Hornbread"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
+            "tournament_id": 0,
+            "name": "Los Gatos Mañosos",
+            "players": [
+                "darknestgun",
+                "Bryanneitor",
+                "FerYHight",
+                "Archie034"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7196,6 +7219,17 @@
                 "就ᶜʳᵃᶻʸ",
                 "Isma 14🇵🇪",
                 "𝒪𝓈𝓌𝒶𝓃々みお🍹"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "795c8fe0-1f90-11ef-b646-0242ac130004",
+            "tournament_id": 0,
+            "name": "Shadow",
+            "players": [
+                "XxGilberxX",
+                "⚡️Z҉E҉R҉O҉⚡️",
+                "dino"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -14887,18 +14921,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0f685ee4-20a7-11ef-887b-0242ac130004",
                 "name": "Bazinga",
-                "seed": 419
+                "seed": 419,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bcd5932e-2595-11ef-be43-0242ac130004",
                 "name": "team washed",
-                "seed": 606
+                "seed": 606,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "0f685ee4-20a7-11ef-887b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "0f685ee4-20a7-11ef-887b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 415,
@@ -15658,18 +15727,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6e264258-2100-11ef-8cf1-0242ac130004",
                 "name": "Kids on the bus",
-                "seed": 454
+                "seed": 454,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
                 "name": "Los Gatos Mañosos",
-                "seed": 571
+                "seed": 571,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "6e264258-2100-11ef-8cf1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "6e264258-2100-11ef-8cf1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "6e264258-2100-11ef-8cf1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "96ecf772-1fa7-11ef-b286-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 459,
@@ -16101,18 +16220,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a75f1ff8-215b-11ef-98b5-0242ac130004",
                 "name": "Mugiwara",
-                "seed": 502
+                "seed": 502,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "795c8fe0-1f90-11ef-b646-0242ac130004",
                 "name": "Shadow",
-                "seed": 523
+                "seed": 523,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "a75f1ff8-215b-11ef-98b5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "795c8fe0-1f90-11ef-b646-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "a75f1ff8-215b-11ef-98b5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "795c8fe0-1f90-11ef-b646-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 483,
@@ -20647,7 +20801,9 @@
                 "seed": 94
             },
             "opponent2": {
-                "id": null
+                "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                "name": "team washed",
+                "seed": 606
             },
             "match_games": []
         },
@@ -21073,7 +21229,9 @@
                 "seed": 59
             },
             "opponent2": {
-                "id": null
+                "id": "6e264258-2100-11ef-8cf1-0242ac130004",
+                "name": "Kids on the bus",
+                "seed": 454
             },
             "match_games": []
         },
@@ -21303,7 +21461,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "a75f1ff8-215b-11ef-98b5-0242ac130004",
+                "name": "Mugiwara",
+                "seed": 502
             },
             "match_games": []
         },

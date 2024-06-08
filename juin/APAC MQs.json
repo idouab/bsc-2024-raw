@@ -7832,18 +7832,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "190529b8-1e14-11ef-a008-0242ac130004",
                 "name": "ALL FOR ASANO",
-                "seed": 52
+                "seed": 52,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b9468130-2029-11ef-b015-0242ac130004",
                 "name": "米べー率いる愉快な仲間たち",
-                "seed": 77
+                "seed": 77,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "190529b8-1e14-11ef-a008-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b9468130-2029-11ef-b015-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "190529b8-1e14-11ef-a008-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b9468130-2029-11ef-b015-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 172,

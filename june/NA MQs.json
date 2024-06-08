@@ -42742,18 +42742,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
                 "name": "Tilines | FC",
-                "seed": 238
+                "seed": 238,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "075f3a88-2151-11ef-a2ae-0242ac130004",
                 "name": "SOS",
-                "seed": 494
+                "seed": 494,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "075f3a88-2151-11ef-a2ae-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "075f3a88-2151-11ef-a2ae-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 896,
@@ -45553,7 +45588,9 @@
                 "seed": 237
             },
             "opponent2": {
-                "id": null
+                "id": "075f3a88-2151-11ef-a2ae-0242ac130004",
+                "name": "SOS",
+                "seed": 494
             },
             "match_games": []
         },

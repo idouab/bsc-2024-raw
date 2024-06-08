@@ -7009,6 +7009,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ec757564-1f86-11ef-8856-0242ac130004",
+            "tournament_id": 0,
+            "name": "Tumba Locos",
+            "players": [
+                "TempName",
+                "B.A.N.G.B.R.O.S",
+                "heysy"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "8615c372-1f32-11ef-b058-0242ac130004",
             "tournament_id": 0,
             "name": "Midnight8",
@@ -7038,6 +7049,17 @@
                 "goule_",
                 "liam",
                 "Aloxi"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "8d4f454a-1fa1-11ef-80eb-0242ac130004",
+            "tournament_id": 0,
+            "name": "EVA|ON",
+            "players": [
+                "Wily_777",
+                "TMC|ONIICHAN",
+                "AKENO"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -8412,18 +8434,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ec757564-1f86-11ef-8856-0242ac130004",
                 "name": "Tumba Locos",
-                "seed": 505
+                "seed": 505,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e0d96b7e-21f8-11ef-b982-0242ac130004",
                 "name": "Rizzlers",
-                "seed": 520
+                "seed": 520,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ec757564-1f86-11ef-8856-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e0d96b7e-21f8-11ef-b982-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ec757564-1f86-11ef-8856-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e0d96b7e-21f8-11ef-b982-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 67,
@@ -11077,18 +11134,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "41c959c8-2125-11ef-bd93-0242ac130004",
                 "name": "LOTW",
-                "seed": 476
+                "seed": 476,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8d4f454a-1fa1-11ef-80eb-0242ac130004",
                 "name": "EVA|ON",
-                "seed": 549
+                "seed": 549,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8d4f454a-1fa1-11ef-80eb-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8d4f454a-1fa1-11ef-80eb-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 219,
@@ -16913,7 +17005,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "e0d96b7e-21f8-11ef-b982-0242ac130004",
+                "name": "Rizzlers",
+                "seed": 520
             },
             "match_games": []
         },
@@ -18375,7 +18469,9 @@
                 "seed": 37
             },
             "opponent2": {
-                "id": null
+                "id": "41c959c8-2125-11ef-bd93-0242ac130004",
+                "name": "LOTW",
+                "seed": 476
             },
             "match_games": []
         },

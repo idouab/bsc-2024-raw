@@ -13166,18 +13166,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
                 "name": "NAVI",
-                "seed": 6
+                "seed": 6,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "169bcc68-1e14-11ef-b198-0242ac130004",
                 "name": "F/A Nai Dug",
-                "seed": 11
+                "seed": 11,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169bcc68-1e14-11ef-b198-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169bcc68-1e14-11ef-b198-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 414,
@@ -18891,7 +18926,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "169bcc68-1e14-11ef-b198-0242ac130004",
+                "name": "F/A Nai Dug",
+                "seed": 11
             },
             "opponent2": {
                 "id": null

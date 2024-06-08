@@ -6216,6 +6216,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
+            "tournament_id": 0,
+            "name": "Sanju",
+            "players": [
+                "franquito",
+                "™Black Hunter^",
+                "chop"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3f903c0a-1e17-11ef-8ea9-0242ac130004",
             "tournament_id": 0,
             "name": "Tropa dos macacos",
@@ -13284,18 +13295,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
                 "name": "Os buxas",
-                "seed": 91
+                "seed": 91,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
                 "name": "Sanju",
-                "seed": 422
+                "seed": 422,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 240,
@@ -15959,7 +16020,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3ec179e2-1e17-11ef-9cc5-0242ac130004",
+                "name": "Os buxas",
+                "seed": 91
             },
             "opponent2": {
                 "id": null
@@ -19811,7 +19874,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9b3542d8-1f90-11ef-807d-0242ac130004",
+                "name": "Sanju",
+                "seed": 422
             },
             "opponent2": {
                 "id": null

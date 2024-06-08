@@ -43251,18 +43251,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7842fe1e-1fc7-11ef-a5bb-0242ac130004",
                 "name": "Los chaminades",
-                "seed": 127
+                "seed": 127,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "39e3bb06-1e17-11ef-b999-0242ac130004",
                 "name": "Mini XB",
-                "seed": 21
+                "seed": 21,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "7842fe1e-1fc7-11ef-a5bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39e3bb06-1e17-11ef-b999-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "7842fe1e-1fc7-11ef-a5bb-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39e3bb06-1e17-11ef-b999-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 880,
@@ -43441,18 +43476,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
                 "name": "GRK",
-                "seed": 375
+                "seed": 375,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
                 "name": "Cerrau",
-                "seed": 29
+                "seed": 29,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3919b90a-1e17-11ef-a86d-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 886,
@@ -44156,7 +44226,9 @@
                 "seed": 448
             },
             "opponent2": {
-                "id": null
+                "id": "7842fe1e-1fc7-11ef-a5bb-0242ac130004",
+                "name": "Los chaminades",
+                "seed": 127
             },
             "match_games": []
         },
@@ -44268,7 +44340,9 @@
                 "seed": 440
             },
             "opponent2": {
-                "id": null
+                "id": "f2dbdb98-210f-11ef-ac2b-0242ac130004",
+                "name": "GRK",
+                "seed": 375
             },
             "match_games": []
         },

@@ -12950,18 +12950,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
                 "name": "SMG",
-                "seed": 36
+                "seed": 36,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4852ed6-20f0-11ef-9577-0242ac130004",
                 "name": "Zephyr Legion",
-                "seed": 119
+                "seed": 119,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4852ed6-20f0-11ef-9577-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4852ed6-20f0-11ef-9577-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 259,
@@ -13809,7 +13844,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "16f7b398-1e14-11ef-bb48-0242ac130004",
+                "name": "SMG",
+                "seed": 36
             },
             "opponent2": {
                 "id": null

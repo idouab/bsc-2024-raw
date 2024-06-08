@@ -13436,18 +13436,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eae2cad2-1e17-11ef-b0d5-0242ac130004",
                 "name": "Angelic",
-                "seed": 3
+                "seed": 3,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
                 "name": "NAVI",
-                "seed": 6
+                "seed": 6,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "eae2cad2-1e17-11ef-b0d5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "eae2cad2-1e17-11ef-b0d5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18bf30a2-1e14-11ef-96b8-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 129,
@@ -19797,7 +19832,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eae2cad2-1e17-11ef-b0d5-0242ac130004",
+                "name": "Angelic",
+                "seed": 3
             },
             "opponent2": {
                 "id": null

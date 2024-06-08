@@ -46524,18 +46524,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
                 "name": "Gobletto Gobblers",
-                "seed": 507
+                "seed": 507,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "83eef1be-2094-11ef-aa8e-0242ac130004",
                 "name": "L’infini 247",
-                "seed": 432
+                "seed": 432,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "83eef1be-2094-11ef-aa8e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "83eef1be-2094-11ef-aa8e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "83eef1be-2094-11ef-aa8e-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 989,
@@ -49010,7 +49060,9 @@
                 "seed": 594
             },
             "opponent2": {
-                "id": null
+                "id": "fa617a5a-1f87-11ef-8b37-0242ac130004",
+                "name": "Gobletto Gobblers",
+                "seed": 507
             },
             "match_games": []
         },

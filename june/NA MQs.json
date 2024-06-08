@@ -50652,18 +50652,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a6b6fcc-20a8-11ef-afba-0242ac130004",
                 "name": "The Randoms",
-                "seed": 440
+                "seed": 440,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "71b3e1ba-1e16-11ef-8b28-0242ac130004",
                 "name": "Power Puffs",
-                "seed": 55
+                "seed": 55,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3a6b6fcc-20a8-11ef-afba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71b3e1ba-1e16-11ef-8b28-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3a6b6fcc-20a8-11ef-afba-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71b3e1ba-1e16-11ef-8b28-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1343,
@@ -51312,18 +51347,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "30aa8a34-1fab-11ef-86ad-0242ac130004",
                 "name": "Crimson Empire",
-                "seed": 581
+                "seed": 581,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ac3b0ec0-2105-11ef-b857-0242ac130004",
                 "name": "La Pizza Pouleto",
-                "seed": 315
+                "seed": 315,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "30aa8a34-1fab-11ef-86ad-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ac3b0ec0-2105-11ef-b857-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "30aa8a34-1fab-11ef-86ad-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ac3b0ec0-2105-11ef-b857-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "30aa8a34-1fab-11ef-86ad-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ac3b0ec0-2105-11ef-b857-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1363,
@@ -52461,7 +52546,9 @@
                 "seed": 611
             },
             "opponent2": {
-                "id": null
+                "id": "71b3e1ba-1e16-11ef-8b28-0242ac130004",
+                "name": "Power Puffs",
+                "seed": 55
             },
             "match_games": []
         },
@@ -52835,7 +52922,9 @@
                 "seed": 17
             },
             "opponent2": {
-                "id": null
+                "id": "30aa8a34-1fab-11ef-86ad-0242ac130004",
+                "name": "Crimson Empire",
+                "seed": 581
             },
             "match_games": []
         },

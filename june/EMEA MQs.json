@@ -32622,6 +32622,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
+            "tournament_id": 0,
+            "name": "Homesick",
+            "players": [
+                "GX|ILCaro20",
+                "GX|gigi-bene",
+                "GX SuperPlayer",
+                "Jami🃏"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "beb82b26-1e14-11ef-ae90-0242ac130004",
             "tournament_id": 0,
             "name": "Neon esport",
@@ -68524,18 +68536,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8f8f626-1f74-11ef-bca5-0242ac130004",
                 "name": "Aquarium",
-                "seed": 846
+                "seed": 846,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
                 "name": "Homesick",
-                "seed": 1203
+                "seed": 1203,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "d8f8f626-1f74-11ef-bca5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "d8f8f626-1f74-11ef-bca5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "d8f8f626-1f74-11ef-bca5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 863,
@@ -83530,7 +83592,9 @@
                 "seed": 179
             },
             "opponent2": {
-                "id": null
+                "id": "d8f8f626-1f74-11ef-bca5-0242ac130004",
+                "name": "Aquarium",
+                "seed": 846
             },
             "match_games": []
         },
@@ -101836,7 +101900,9 @@
                 "seed": 1870
             },
             "opponent2": {
-                "id": null
+                "id": "993e7d84-1f8e-11ef-9f6f-0242ac130004",
+                "name": "Homesick",
+                "seed": 1203
             },
             "match_games": []
         },

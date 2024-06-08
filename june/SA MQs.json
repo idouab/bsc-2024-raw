@@ -6124,6 +6124,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "6d023db8-20fc-11ef-8c0a-0242ac130004",
+            "tournament_id": 0,
+            "name": "Los papus",
+            "players": [
+                "SPIKE",
+                "Noobs king",
+                "-Esrarengiz GS-"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "2d53896e-1fa9-11ef-83a9-0242ac130004",
             "tournament_id": 0,
             "name": "ON | KIWI",
@@ -6728,6 +6739,17 @@
                 "SCORPION",
                 "Arcanjo",
                 "ℭ𝔞𝔯𝔳 𝔪𝔤𝔩"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+            "tournament_id": 0,
+            "name": "GCL|LOSDELSUR",
+            "players": [
+                "Ale🐣💛",
+                "Æsquele",
+                "🎭┋𝙉octur𝕱ace"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -10480,18 +10502,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e2b6916-1e17-11ef-9da3-0242ac130004",
                 "name": "VEGA",
-                "seed": 152
+                "seed": 152,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6d023db8-20fc-11ef-8c0a-0242ac130004",
                 "name": "Los papus",
-                "seed": 361
+                "seed": 361,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3e2b6916-1e17-11ef-9da3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d023db8-20fc-11ef-8c0a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3e2b6916-1e17-11ef-9da3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d023db8-20fc-11ef-8c0a-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 61,
@@ -12975,18 +13032,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3f955596-1e17-11ef-9367-0242ac130004",
                 "name": "SSK ESPORTS",
-                "seed": 108
+                "seed": 108,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
                 "name": "GCL|LOSDELSUR",
-                "seed": 405
+                "seed": 405,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 124,
@@ -18756,7 +18863,9 @@
                 "seed": 105
             },
             "opponent2": {
-                "id": null
+                "id": "3e2b6916-1e17-11ef-9da3-0242ac130004",
+                "name": "VEGA",
+                "seed": 152
             },
             "match_games": []
         },
@@ -19389,10 +19498,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f955596-1e17-11ef-9367-0242ac130004",
+                "name": "SSK ESPORTS",
+                "seed": 108
             },
             "opponent2": {
-                "id": null
+                "id": "fd3689ba-1f72-11ef-b831-0242ac130004",
+                "name": "Ludmillos",
+                "seed": 364
             },
             "match_games": []
         },
@@ -23192,7 +23305,9 @@
                 "seed": 408
             },
             "opponent2": {
-                "id": null
+                "id": "6d023db8-20fc-11ef-8c0a-0242ac130004",
+                "name": "Los papus",
+                "seed": 361
             },
             "match_games": []
         },
@@ -23745,10 +23860,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "84b1c4ca-2150-11ef-a1da-0242ac130004",
+                "name": "GCL|LOSDELSUR",
+                "seed": 405
             },
             "opponent2": {
-                "id": null
+                "id": "1b508c50-2583-11ef-9c6e-0242ac130004",
+                "name": "7x",
+                "seed": 149
             },
             "match_games": []
         },

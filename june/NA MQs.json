@@ -39506,18 +39506,68 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8231fba4-213a-11ef-b84e-0242ac130004",
                 "name": "Los Chinos",
-                "seed": 341
+                "seed": 341,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2f549234-21d5-11ef-ba55-0242ac130004",
                 "name": "Frooty Froos | TTD",
-                "seed": 514
+                "seed": 514,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "8231fba4-213a-11ef-b84e-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8231fba4-213a-11ef-b84e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "8231fba4-213a-11ef-b84e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f549234-21d5-11ef-ba55-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 567,
@@ -40691,11 +40741,12 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c6bc234-2537-11ef-b808-0242ac130004",
                 "name": "Team Nito’s",
-                "seed": 288
+                "seed": 288,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "961a106e-1fac-11ef-a517-0242ac130004",
@@ -41885,10 +41936,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8231fba4-213a-11ef-b84e-0242ac130004",
+                "name": "Los Chinos",
+                "seed": 341
             },
             "opponent2": {
-                "id": null
+                "id": "0fc24074-1faf-11ef-9405-0242ac130004",
+                "name": "KiB",
+                "seed": 597
             },
             "match_games": []
         },
@@ -42889,10 +42944,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "961a106e-1fac-11ef-a517-0242ac130004",
+                "name": "Tilines",
+                "seed": 587
             },
             "opponent2": {
-                "id": null
+                "id": "6cbac5ce-2353-11ef-852c-0242ac130004",
+                "name": "Mingo Munchers",
+                "seed": 544
             },
             "match_games": []
         },
@@ -45118,7 +45177,9 @@
                 "seed": 226
             },
             "opponent2": {
-                "id": null
+                "id": "6cbac5ce-2353-11ef-852c-0242ac130004",
+                "name": "Mingo Munchers",
+                "seed": 544
             },
             "match_games": []
         },

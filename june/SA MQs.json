@@ -25277,18 +25277,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8c1a7f2-214f-11ef-a061-0242ac130004",
                 "name": "Coke Team",
-                "seed": 300
+                "seed": 300,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
                 "name": "Nah i'd win",
-                "seed": 341
+                "seed": 341,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d8c1a7f2-214f-11ef-a061-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d8c1a7f2-214f-11ef-a061-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 655,
@@ -33756,7 +33791,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d8c1a7f2-214f-11ef-a061-0242ac130004",
+                "name": "Coke Team",
+                "seed": 300
             },
             "opponent2": {
                 "id": null

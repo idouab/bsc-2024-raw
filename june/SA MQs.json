@@ -31611,18 +31611,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
                 "name": "Calvos Por Opção",
-                "seed": 191
+                "seed": 191,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "09cd2144-1fb3-11ef-9936-0242ac130004",
                 "name": "Byte Crew",
-                "seed": 492
+                "seed": 492,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09cd2144-1fb3-11ef-9936-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09cd2144-1fb3-11ef-9936-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 556,
@@ -33529,7 +33564,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "4eec294c-2025-11ef-ac3f-0242ac130004",
+                "name": "Calvos Por Opção",
+                "seed": 191
             },
             "opponent2": {
                 "id": null

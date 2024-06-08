@@ -22016,18 +22016,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e23dc1f4-2329-11ef-aef8-0242ac130004",
                 "name": "Nah we'd win",
-                "seed": 455
+                "seed": 455,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
                 "name": "LOST TIME",
-                "seed": 199
+                "seed": 199,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "e23dc1f4-2329-11ef-aef8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "e23dc1f4-2329-11ef-aef8-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 450,
@@ -23021,7 +23056,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3a87608a-1e17-11ef-bb71-0242ac130004",
                 "name": "DOM Esports",
@@ -23030,7 +23065,8 @@
             "opponent2": {
                 "id": "96af9d38-254b-11ef-9299-0242ac130004",
                 "name": "ChipiXander",
-                "seed": 243
+                "seed": 243,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -23461,18 +23497,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3ff695b8-1e17-11ef-a676-0242ac130004",
                 "name": "CYY66",
-                "seed": 123
+                "seed": 123,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
                 "name": "PR|DestroyersPE",
-                "seed": 134
+                "seed": 134,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "3ff695b8-1e17-11ef-a676-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "3ff695b8-1e17-11ef-a676-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 481,
@@ -24930,7 +25001,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f012d9ee-203c-11ef-8ad5-0242ac130004",
+                "name": "LOST TIME",
+                "seed": 199
             },
             "opponent2": {
                 "id": null
@@ -25134,10 +25207,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3a87608a-1e17-11ef-bb71-0242ac130004",
+                "name": "DOM Esports",
+                "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "9447a7cc-210c-11ef-bf96-0242ac130004",
+                "name": "Os brabo",
+                "seed": 371
             },
             "match_games": []
         },
@@ -25211,7 +25288,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "3ff695b8-1e17-11ef-a676-0242ac130004",
+                "name": "CYY66",
+                "seed": 123
             },
             "match_games": []
         },
@@ -29274,7 +29353,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3f9e2d60-1e17-11ef-8d42-0242ac130004",
+                "name": "PR|DestroyersPE",
+                "seed": 134
             },
             "opponent2": {
                 "id": null
@@ -29436,7 +29517,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "96af9d38-254b-11ef-9299-0242ac130004",
+                "name": "ChipiXander",
+                "seed": 243
             },
             "opponent2": {
                 "id": null
@@ -29826,7 +29909,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e23dc1f4-2329-11ef-aef8-0242ac130004",
+                "name": "Nah we'd win",
+                "seed": 455
             },
             "opponent2": {
                 "id": null

@@ -5074,18 +5074,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ddae4f58-1fc5-11ef-9846-0242ac130004",
                 "name": "たにの　はやと",
-                "seed": 99
+                "seed": 99,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "c5ab9ef4-20d5-11ef-9696-0242ac130004",
                 "name": "+AURA",
-                "seed": 158
+                "seed": 158,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ddae4f58-1fc5-11ef-9846-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "c5ab9ef4-20d5-11ef-9696-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ddae4f58-1fc5-11ef-9846-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c5ab9ef4-20d5-11ef-9696-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -6586,7 +6621,9 @@
                 "seed": 30
             },
             "opponent2": {
-                "id": null
+                "id": "c5ab9ef4-20d5-11ef-9696-0242ac130004",
+                "name": "+AURA",
+                "seed": 158
             },
             "match_games": []
         },

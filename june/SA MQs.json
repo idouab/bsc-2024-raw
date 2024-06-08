@@ -5583,6 +5583,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
+            "tournament_id": 0,
+            "name": "LSC TEAM",
+            "players": [
+                "𝔸𝕚𝕥𝕦𝕥𝕚",
+                "Davi Bralws YT",
+                "ᴠᴀʟɪㅤ么"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "e28645d4-2390-11ef-a383-0242ac130004",
             "tournament_id": 0,
             "name": "BLA",
@@ -5757,6 +5768,17 @@
                 "simon yt",
                 "♤juso♤",
                 "Custom David"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "3e3f3b9e-1e17-11ef-ad89-0242ac130004",
+            "tournament_id": 0,
+            "name": "S4D  SPORTS",
+            "players": [
+                "BOLINHO_MASTER",
+                "Kupkake_master",
+                "NARUTIN_TSUNAMI"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6263,18 +6285,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3fa4bf54-1e17-11ef-a69b-0242ac130004",
                 "name": "Macaquitos F/A",
-                "seed": 33
+                "seed": 33,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
                 "name": "LSC TEAM",
-                "seed": 480
+                "seed": 480,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3fa4bf54-1e17-11ef-a69b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3fa4bf54-1e17-11ef-a69b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 14,
@@ -10522,18 +10579,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e3f3b9e-1e17-11ef-ad89-0242ac130004",
                 "name": "S4D  SPORTS",
-                "seed": 67
+                "seed": 67,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "237ad190-1f9a-11ef-b9d6-0242ac130004",
                 "name": "Cretinos Fc",
-                "seed": 446
+                "seed": 446,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3e3f3b9e-1e17-11ef-ad89-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "237ad190-1f9a-11ef-b9d6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3e3f3b9e-1e17-11ef-ad89-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "237ad190-1f9a-11ef-b9d6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 200,
@@ -12017,7 +12109,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3fa4bf54-1e17-11ef-a69b-0242ac130004",
+                "name": "Macaquitos F/A",
+                "seed": 33
             },
             "opponent2": {
                 "id": null
@@ -13559,7 +13653,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "237ad190-1f9a-11ef-b9d6-0242ac130004",
+                "name": "Cretinos Fc",
+                "seed": 446
             },
             "opponent2": {
                 "id": null
@@ -16107,7 +16203,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8f5e9aa4-1fae-11ef-80b9-0242ac130004",
+                "name": "LSC TEAM",
+                "seed": 480
             },
             "opponent2": {
                 "id": null
@@ -17395,7 +17493,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e3f3b9e-1e17-11ef-ad89-0242ac130004",
+                "name": "S4D  SPORTS",
+                "seed": 67
             },
             "opponent2": {
                 "id": null

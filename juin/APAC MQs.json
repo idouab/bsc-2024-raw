@@ -18262,18 +18262,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
                 "name": "Ramen",
-                "seed": 186
+                "seed": 186,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "721432de-2403-11ef-bd2f-0242ac130004",
                 "name": "Nobody",
-                "seed": 200
+                "seed": 200,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "721432de-2403-11ef-bd2f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 386,
@@ -18665,7 +18700,9 @@
                 "seed": 25
             },
             "opponent2": {
-                "id": null
+                "id": "f5ddcf7c-232b-11ef-b1d0-0242ac130004",
+                "name": "Ramen",
+                "seed": 186
             },
             "match_games": []
         },

@@ -16772,18 +16772,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62455016-1f6e-11ef-9290-0242ac130004",
                 "name": "SnowStorm",
-                "seed": 193
+                "seed": 193,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
                 "name": "CIS Phoenix Forces",
-                "seed": 129
+                "seed": 129,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "62455016-1f6e-11ef-9290-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "62455016-1f6e-11ef-9290-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 358,
@@ -17415,7 +17450,9 @@
                 "seed": 63
             },
             "opponent2": {
-                "id": null
+                "id": "ecc6b8b0-21a3-11ef-8b62-0242ac130004",
+                "name": "CIS Phoenix Forces",
+                "seed": 129
             },
             "match_games": []
         },

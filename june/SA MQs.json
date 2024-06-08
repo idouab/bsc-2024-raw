@@ -6404,6 +6404,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Gaminhas",
+            "players": [
+                "BERSERK X",
+                "MatheKase",
+                "migle"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "abcd1aa0-2074-11ef-ab1a-0242ac130004",
             "tournament_id": 0,
             "name": "Dom Bosco | Bs",
@@ -11404,18 +11415,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "95c24fb4-2038-11ef-9029-0242ac130004",
                 "name": "MessistasFc",
-                "seed": 197
+                "seed": 197,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
                 "name": "Gaminhas",
-                "seed": 316
+                "seed": 316,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "95c24fb4-2038-11ef-9029-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "95c24fb4-2038-11ef-9029-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "95c24fb4-2038-11ef-9029-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -17790,7 +17851,9 @@
                 "seed": 453
             },
             "opponent2": {
-                "id": null
+                "id": "95c24fb4-2038-11ef-9029-0242ac130004",
+                "name": "MessistasFc",
+                "seed": 197
             },
             "match_games": []
         },
@@ -22100,7 +22163,9 @@
                 "seed": 60
             },
             "opponent2": {
-                "id": null
+                "id": "bf3cbf9c-1f51-11ef-8a7b-0242ac130004",
+                "name": "Gaminhas",
+                "seed": 316
             },
             "match_games": []
         },

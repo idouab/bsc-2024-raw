@@ -19065,18 +19065,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
                 "name": "Limit break",
-                "seed": 212
+                "seed": 212,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61a6b432-20d7-11ef-8437-0242ac130004",
                 "name": "About You",
-                "seed": 115
+                "seed": 115,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 401,
@@ -19737,7 +19787,9 @@
                 "seed": 154
             },
             "opponent2": {
-                "id": null
+                "id": "17c3577e-2511-11ef-8fcd-0242ac130004",
+                "name": "Limit break",
+                "seed": 212
             },
             "match_games": []
         },

@@ -2494,6 +2494,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "741a9658-2003-11ef-aa66-0242ac130004",
+            "tournament_id": 0,
+            "name": "English|Multimodal",
+            "players": [
+                "NN|AntBl00d",
+                "Rumplyplug",
+                "Tribe|DRIFTING"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "98154ccc-24b5-11ef-bf70-0242ac130004",
             "tournament_id": 0,
             "name": "Pro Brawlstars",
@@ -5329,18 +5340,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "741a9658-2003-11ef-aa66-0242ac130004",
                 "name": "English|Multimodal",
-                "seed": 67
+                "seed": 67,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
                 "name": "Snow Rabbits",
-                "seed": 190
+                "seed": 190,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "741a9658-2003-11ef-aa66-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "741a9658-2003-11ef-aa66-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 101,
@@ -5472,18 +5518,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61a6b432-20d7-11ef-8437-0242ac130004",
                 "name": "About You",
-                "seed": 115
+                "seed": 115,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "dfa3be86-2044-11ef-b62c-0242ac130004",
                 "name": "同光輝ブラザーズ🌚🤙🏿",
-                "seed": 142
+                "seed": 142,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dfa3be86-2044-11ef-b62c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dfa3be86-2044-11ef-b62c-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 107,
@@ -6976,7 +7057,9 @@
                 "seed": 62
             },
             "opponent2": {
-                "id": null
+                "id": "b5af0c1e-2357-11ef-8f9d-0242ac130004",
+                "name": "Snow Rabbits",
+                "seed": 190
             },
             "match_games": []
         },
@@ -7032,7 +7115,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "61a6b432-20d7-11ef-8437-0242ac130004",
+                "name": "About You",
+                "seed": 115
             },
             "match_games": []
         },
@@ -8474,7 +8559,9 @@
                 "seed": 195
             },
             "opponent2": {
-                "id": null
+                "id": "741a9658-2003-11ef-aa66-0242ac130004",
+                "name": "English|Multimodal",
+                "seed": 67
             },
             "match_games": []
         },

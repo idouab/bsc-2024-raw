@@ -29966,18 +29966,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
                 "name": "Level Esports",
-                "seed": 10
+                "seed": 10,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3de188fa-1e17-11ef-831a-0242ac130004",
                 "name": ">:3",
-                "seed": 23
+                "seed": 23,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3de188fa-1e17-11ef-831a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "3e0c4590-1e17-11ef-ae3b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3de188fa-1e17-11ef-831a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 859,
@@ -40596,18 +40631,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3cac3208-1f72-11ef-bbbf-0242ac130004",
                 "name": "TKS|Team",
-                "seed": 360
+                "seed": 360,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
                 "name": "Dobermans",
-                "seed": 103
+                "seed": 103,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "3cac3208-1f72-11ef-bbbf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "3cac3208-1f72-11ef-bbbf-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "38dc1a96-1e17-11ef-b948-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 805,
@@ -43413,7 +43483,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3de188fa-1e17-11ef-831a-0242ac130004",
+                "name": ">:3",
+                "seed": 23
             },
             "opponent2": {
                 "id": null

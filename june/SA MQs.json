@@ -46216,18 +46216,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
                 "name": "TEAM PE",
-                "seed": 474
+                "seed": 474,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ca78b956-1f79-11ef-8758-0242ac130004",
                 "name": "Os Irlandeses F/A",
-                "seed": 378
+                "seed": 378,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ca78b956-1f79-11ef-8758-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ca78b956-1f79-11ef-8758-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 953,
@@ -46494,7 +46529,11 @@
                 "name": "Urubus do Pix 🐦‍⬛",
                 "seed": 7
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "51b7088a-1fa9-11ef-97ce-0242ac130004",
+                "name": "TEAM PE",
+                "seed": 474
+            },
             "match_games": []
         },
         {

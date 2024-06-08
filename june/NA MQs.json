@@ -49827,18 +49827,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c5dcdfc-1e16-11ef-a199-0242ac130004",
                 "name": "Zero Play",
-                "seed": 83
+                "seed": 83,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
                 "name": "That’s Brutal",
-                "seed": 558
+                "seed": 558,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "6c5dcdfc-1e16-11ef-a199-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "6c5dcdfc-1e16-11ef-a199-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c13012ec-2436-11ef-a3ee-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1333,
@@ -50412,18 +50447,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0fc24074-1faf-11ef-9405-0242ac130004",
                 "name": "KiB",
-                "seed": 597
+                "seed": 597,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
                 "name": "REAL MICHIS",
-                "seed": 556
+                "seed": 556,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "0fc24074-1faf-11ef-9405-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "0fc24074-1faf-11ef-9405-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1357,
@@ -51314,7 +51384,9 @@
                 "seed": 378
             },
             "opponent2": {
-                "id": null
+                "id": "6c5dcdfc-1e16-11ef-a199-0242ac130004",
+                "name": "Zero Play",
+                "seed": 83
             },
             "match_games": []
         },
@@ -51752,7 +51824,9 @@
                 "seed": 385
             },
             "opponent2": {
-                "id": null
+                "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                "name": "REAL MICHIS",
+                "seed": 556
             },
             "match_games": []
         },

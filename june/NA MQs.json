@@ -38365,18 +38365,68 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bdac62c0-1fbc-11ef-8665-0242ac130004",
                 "name": "TT Friends",
-                "seed": 314
+                "seed": 314,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "44decfc8-1fac-11ef-9ec4-0242ac130004",
                 "name": "GEB FC",
-                "seed": 583
+                "seed": 583,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "bdac62c0-1fbc-11ef-8665-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "44decfc8-1fac-11ef-9ec4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "bdac62c0-1fbc-11ef-8665-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "44decfc8-1fac-11ef-9ec4-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "bdac62c0-1fbc-11ef-8665-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "44decfc8-1fac-11ef-9ec4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1302,
@@ -39786,7 +39836,9 @@
                 "seed": 7
             },
             "opponent2": {
-                "id": null
+                "id": "44decfc8-1fac-11ef-9ec4-0242ac130004",
+                "name": "GEB FC",
+                "seed": 583
             },
             "match_games": []
         },
@@ -50113,7 +50165,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bdac62c0-1fbc-11ef-8665-0242ac130004",
+                "name": "TT Friends",
+                "seed": 314
             },
             "opponent2": {
                 "id": null

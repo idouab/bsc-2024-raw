@@ -7200,6 +7200,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "431f272a-1f69-11ef-81d0-0242ac130004",
+            "tournament_id": 0,
+            "name": "A.E.R TROJANS",
+            "players": [
+                "Bryant#24",
+                "𝑅𝒪𝑀𝐸",
+                "okko"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "6166dc30-1f7f-11ef-8728-0242ac130004",
             "tournament_id": 0,
             "name": "RTX CLAN",
@@ -13151,18 +13162,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "431f272a-1f69-11ef-81d0-0242ac130004",
                 "name": "A.E.R TROJANS",
-                "seed": 463
+                "seed": 463,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "af15f9bc-2474-11ef-bc81-0242ac130004",
                 "name": "Unknown",
-                "seed": 562
+                "seed": 562,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "431f272a-1f69-11ef-81d0-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "af15f9bc-2474-11ef-bc81-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "431f272a-1f69-11ef-81d0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "af15f9bc-2474-11ef-bc81-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 299,
@@ -20141,7 +20187,9 @@
                 "seed": 50
             },
             "opponent2": {
-                "id": null
+                "id": "af15f9bc-2474-11ef-bc81-0242ac130004",
+                "name": "Unknown",
+                "seed": 562
             },
             "match_games": []
         },

@@ -31979,18 +31979,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
                 "name": "Trío Onichan",
-                "seed": 407
+                "seed": 407,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
                 "name": "Inka Raiders",
-                "seed": 196
+                "seed": 196,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "91e4b4ea-2155-11ef-9ec7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 530,
@@ -33074,18 +33109,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c5723f60-1fc7-11ef-8996-0242ac130004",
                 "name": "SkarpeteS",
-                "seed": 181
+                "seed": 181,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cb5d7b5e-207d-11ef-862c-0242ac130004",
                 "name": "Lendários",
-                "seed": 226
+                "seed": 226,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c5723f60-1fc7-11ef-8996-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb5d7b5e-207d-11ef-862c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c5723f60-1fc7-11ef-8996-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cb5d7b5e-207d-11ef-862c-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 564,
@@ -34829,7 +34899,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3adce686-1e17-11ef-9e7d-0242ac130004",
+                "name": "Inka Raiders",
+                "seed": 196
             },
             "opponent2": {
                 "id": null
@@ -35119,7 +35191,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c5723f60-1fc7-11ef-8996-0242ac130004",
+                "name": "SkarpeteS",
+                "seed": 181
             },
             "opponent2": {
                 "id": null

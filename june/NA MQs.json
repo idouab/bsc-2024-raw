@@ -2872,7 +2872,7 @@
             "name": "Cafetaleros",
             "players": [
                 "NM|wicho657",
-                "CristianGV",
+                "CFL|CristianGV",
                 "rulovi.mx"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
@@ -7045,6 +7045,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+            "tournament_id": 0,
+            "name": "LegalLegendz",
+            "players": [
+                "Grrraaaahh",
+                "Kylino",
+                "AeroRed"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "c087fd7a-259c-11ef-af43-0242ac130004",
             "tournament_id": 0,
             "name": "Chi saremo?",
@@ -7085,6 +7096,18 @@
                 "TempName",
                 "B.A.N.G.B.R.O.S",
                 "heysy"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "ed52df1a-2104-11ef-aa2b-0242ac130004",
+            "tournament_id": 0,
+            "name": "Phoenix Gaming",
+            "players": [
+                "Evil Pig",
+                "Giorno Giovanna",
+                "MrHypsterツ",
+                "yoyo mat"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -8296,18 +8319,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
                 "name": "LegalLegendz",
-                "seed": 480
+                "seed": 480,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6f7e8d34-1f9f-11ef-aef6-0242ac130004",
                 "name": "Neón Fury",
-                "seed": 545
+                "seed": 545,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6f7e8d34-1f9f-11ef-aef6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f7e8d34-1f9f-11ef-aef6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "f3bef04e-212e-11ef-aad5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6f7e8d34-1f9f-11ef-aef6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 27,
@@ -9221,18 +9294,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed52df1a-2104-11ef-aa2b-0242ac130004",
                 "name": "Phoenix Gaming",
-                "seed": 456
+                "seed": 456,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "70cdf852-1fa7-11ef-b77c-0242ac130004",
                 "name": "LAPAMUAVE",
-                "seed": 569
+                "seed": 569,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ed52df1a-2104-11ef-aa2b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "70cdf852-1fa7-11ef-b77c-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ed52df1a-2104-11ef-aa2b-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "70cdf852-1fa7-11ef-b77c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "ed52df1a-2104-11ef-aa2b-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "70cdf852-1fa7-11ef-b77c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 75,
@@ -16513,18 +16636,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "addaa564-1f2b-11ef-b038-0242ac130004",
                 "name": "LaSuccion",
-                "seed": 435
+                "seed": 435,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e8c3830e-2560-11ef-a2e6-0242ac130004",
                 "name": "JB",
-                "seed": 590
+                "seed": 590,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8c3830e-2560-11ef-a2e6-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e8c3830e-2560-11ef-a2e6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e8c3830e-2560-11ef-a2e6-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 431,
@@ -18454,7 +18627,9 @@
                 "seed": 33
             },
             "opponent2": {
-                "id": null
+                "id": "6f7e8d34-1f9f-11ef-aef6-0242ac130004",
+                "name": "Neón Fury",
+                "seed": 545
             },
             "match_games": []
         },
@@ -18924,7 +19099,9 @@
                 "seed": 57
             },
             "opponent2": {
-                "id": null
+                "id": "70cdf852-1fa7-11ef-b77c-0242ac130004",
+                "name": "LAPAMUAVE",
+                "seed": 569
             },
             "match_games": []
         },
@@ -22404,7 +22581,9 @@
                 "seed": 78
             },
             "opponent2": {
-                "id": null
+                "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                "name": "LaSuccion",
+                "seed": 435
             },
             "match_games": []
         },

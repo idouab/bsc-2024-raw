@@ -35352,18 +35352,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
                 "name": "Tilines | FC",
-                "seed": 238
+                "seed": 238,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8615c372-1f32-11ef-b058-0242ac130004",
                 "name": "Midnight8",
-                "seed": 441
+                "seed": 441,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8615c372-1f32-11ef-b058-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8615c372-1f32-11ef-b058-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 529,
@@ -37514,10 +37549,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c40c67b0-1fcf-11ef-a01a-0242ac130004",
+                "name": "Tilines | FC",
+                "seed": 238
             },
             "opponent2": {
-                "id": null
+                "id": "075f3a88-2151-11ef-a2ae-0242ac130004",
+                "name": "SOS",
+                "seed": 494
             },
             "match_games": []
         },

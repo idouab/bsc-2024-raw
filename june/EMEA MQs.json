@@ -30762,6 +30762,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "99b15b90-1f36-11ef-9c6e-0242ac130004",
+            "tournament_id": 0,
+            "name": "sm",
+            "players": [
+                "NeCa",
+                "TSM_CRNAŠLJIVA",
+                "Vuxyy"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3427bdf0-22a6-11ef-af7c-0242ac130004",
             "tournament_id": 0,
             "name": "Poker",
@@ -34148,6 +34159,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
+            "tournament_id": 0,
+            "name": "BC* Staff",
+            "players": [
+                "BC*| Ash",
+                "BC*| ♡SΚγLiηe",
+                "BC*|GhostAuri™"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "82504012-225e-11ef-adcb-0242ac130004",
             "tournament_id": 0,
             "name": "NQWE | GAMING",
@@ -34246,6 +34268,17 @@
                 "Outplayer=)",
                 "victorsca_YT",
                 "VGN|SanLee"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
+            "tournament_id": 0,
+            "name": "Kings",
+            "players": [
+                "Jeremy Horson",
+                "ThenderLight",
+                "TurboKOT"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -61638,7 +61671,7 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bbb32ed0-1e14-11ef-847a-0242ac130004",
                 "name": "F/A BOOM",
@@ -61647,7 +61680,8 @@
             "opponent2": {
                 "id": "99b15b90-1f36-11ef-9c6e-0242ac130004",
                 "name": "sm",
-                "seed": 1831
+                "seed": 1831,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -73963,18 +73997,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
                 "name": "BC* Staff",
-                "seed": 150
+                "seed": 150,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "00479a7a-1f3e-11ef-9bf3-0242ac130004",
                 "name": "DWM",
-                "seed": 1899
+                "seed": 1899,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "00479a7a-1f3e-11ef-9bf3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "00479a7a-1f3e-11ef-9bf3-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "00479a7a-1f3e-11ef-9bf3-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1006,
@@ -74240,18 +74324,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bd692c2a-1e14-11ef-853c-0242ac130004",
                 "name": "UTF | stark",
-                "seed": 299
+                "seed": 299,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
                 "name": "Kings",
-                "seed": 1750
+                "seed": 1750,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "bd692c2a-1e14-11ef-853c-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "bd692c2a-1e14-11ef-853c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "bd692c2a-1e14-11ef-853c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1016,
@@ -81594,10 +81728,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bbb32ed0-1e14-11ef-847a-0242ac130004",
+                "name": "F/A BOOM",
+                "seed": 218
             },
             "opponent2": {
-                "id": null
+                "id": "b5f4f87a-1e14-11ef-87ce-0242ac130004",
+                "name": "VillaverdeSports",
+                "seed": 807
             },
             "match_games": []
         },
@@ -84686,10 +84824,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "00479a7a-1f3e-11ef-9bf3-0242ac130004",
+                "name": "DWM",
+                "seed": 1899
             },
             "opponent2": {
-                "id": null
+                "id": "0afd53f4-1f72-11ef-bb13-0242ac130004",
+                "name": "THENDER⚡",
+                "seed": 1174
             },
             "match_games": []
         },
@@ -84782,10 +84924,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bd692c2a-1e14-11ef-853c-0242ac130004",
+                "name": "UTF | stark",
+                "seed": 299
             },
             "opponent2": {
-                "id": null
+                "id": "ac16916a-2102-11ef-9be4-0242ac130004",
+                "name": "The clowns",
+                "seed": 1323
             },
             "match_games": []
         },
@@ -99880,10 +100026,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "99b15b90-1f36-11ef-9c6e-0242ac130004",
+                "name": "sm",
+                "seed": 1831
             },
             "opponent2": {
-                "id": null
+                "id": "3427bdf0-22a6-11ef-af7c-0242ac130004",
+                "name": "Poker",
+                "seed": 1242
             },
             "match_games": []
         },
@@ -102972,10 +103122,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b5b7d5a8-1e14-11ef-bd45-0242ac130004",
+                "name": "BC* Staff",
+                "seed": 150
             },
             "opponent2": {
-                "id": null
+                "id": "82504012-225e-11ef-adcb-0242ac130004",
+                "name": "NQWE | GAMING",
+                "seed": 875
             },
             "match_games": []
         },
@@ -103068,10 +103222,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b0f01928-1fa3-11ef-a55a-0242ac130004",
+                "name": "Kings",
+                "seed": 1750
             },
             "opponent2": {
-                "id": null
+                "id": "b3b81ed4-2021-11ef-91cd-0242ac130004",
+                "name": "MAGICIANS",
+                "seed": 726
             },
             "match_games": []
         },

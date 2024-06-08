@@ -12299,18 +12299,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "171ded06-1e14-11ef-9c92-0242ac130004",
                 "name": "T0 Team",
-                "seed": 13
+                "seed": 13,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "196fcade-1e14-11ef-817e-0242ac130004",
                 "name": "ｷﾝｷﾝこみかんサワー",
-                "seed": 20
+                "seed": 20,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "196fcade-1e14-11ef-817e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "196fcade-1e14-11ef-817e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 348,
@@ -12875,7 +12910,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "196fcade-1e14-11ef-817e-0242ac130004",
+                "name": "ｷﾝｷﾝこみかんサワー",
+                "seed": 20
             },
             "match_games": []
         },
@@ -17309,7 +17346,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "171ded06-1e14-11ef-9c92-0242ac130004",
+                "name": "T0 Team",
+                "seed": 13
             },
             "opponent2": {
                 "id": null

@@ -2448,6 +2448,17 @@
                 "遇到你很雖"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "8f618ace-22c5-11ef-9535-0242ac130004",
+            "tournament_id": 0,
+            "name": "まくらんちょ",
+            "players": [
+                "まくら",
+                "猫好き",
+                "ドラどら"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -3518,18 +3529,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f0e2a776-24b7-11ef-9c3c-0242ac130004",
                 "name": "Elementals",
-                "seed": 93
+                "seed": 93,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
                 "name": "Peppa Esports",
-                "seed": 164
+                "seed": 164,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f0e2a776-24b7-11ef-9c3c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f0e2a776-24b7-11ef-9c3c-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 41,
@@ -5405,18 +5451,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4471e048-2498-11ef-b97f-0242ac130004",
                 "name": "Giant Killing",
-                "seed": 75
+                "seed": 75,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8f618ace-22c5-11ef-9535-0242ac130004",
                 "name": "まくらんちょ",
-                "seed": 182
+                "seed": 182,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "4471e048-2498-11ef-b97f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f618ace-22c5-11ef-9535-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "4471e048-2498-11ef-b97f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f618ace-22c5-11ef-9535-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 125,
@@ -5846,7 +5927,9 @@
                 "seed": 36
             },
             "opponent2": {
-                "id": null
+                "id": "981bd9de-20fa-11ef-a2ff-0242ac130004",
+                "name": "Peppa Esports",
+                "seed": 164
             },
             "match_games": []
         },

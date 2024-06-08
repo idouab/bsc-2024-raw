@@ -41697,18 +41697,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
                 "name": "STMN",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
                 "name": "SGJ",
-                "seed": 28
+                "seed": 28,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1491,
@@ -42056,7 +42091,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
+                "name": "STMN",
+                "seed": 5
             },
             "opponent2": {
                 "id": null
@@ -51189,18 +51226,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
                 "name": "Koas Fighter",
-                "seed": 192
+                "seed": 192,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9720c178-1fc1-11ef-bf78-0242ac130004",
                 "name": "Fear",
-                "seed": 320
+                "seed": 320,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9720c178-1fc1-11ef-bf78-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9720c178-1fc1-11ef-bf78-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1387,
@@ -52407,7 +52479,9 @@
                 "seed": 364
             },
             "opponent2": {
-                "id": null
+                "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
+                "name": "Koas Fighter",
+                "seed": 192
             },
             "match_games": []
         },
@@ -54018,7 +54092,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6f73cdde-1e16-11ef-ad0e-0242ac130004",
+                "name": "SGJ",
+                "seed": 28
             },
             "opponent2": {
                 "id": null

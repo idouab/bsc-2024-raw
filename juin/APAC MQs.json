@@ -10367,18 +10367,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "194c03a6-1e14-11ef-9028-0242ac130004",
                 "name": "モチキンズ",
-                "seed": 32
+                "seed": 32,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "18d0f47c-1e14-11ef-a323-0242ac130004",
                 "name": "Sane Fox",
-                "seed": 33
+                "seed": 33,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "194c03a6-1e14-11ef-9028-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18d0f47c-1e14-11ef-a323-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "194c03a6-1e14-11ef-9028-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "18d0f47c-1e14-11ef-a323-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 280,
@@ -11519,7 +11554,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "18d0f47c-1e14-11ef-a323-0242ac130004",
+                "name": "Sane Fox",
+                "seed": 33
             },
             "match_games": []
         },
@@ -14801,7 +14838,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "194c03a6-1e14-11ef-9028-0242ac130004",
+                "name": "モチキンズ",
+                "seed": 32
             },
             "opponent2": {
                 "id": null

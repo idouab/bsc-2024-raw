@@ -7472,18 +7472,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "193e7a24-1e14-11ef-ba7d-0242ac130004",
                 "name": "🐮🖐にょっす！にょ、にょまれ～～✋",
-                "seed": 25
+                "seed": 25,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "63f0a738-24d9-11ef-804e-0242ac130004",
                 "name": "Rouge Eveil",
-                "seed": 104
+                "seed": 104,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "193e7a24-1e14-11ef-ba7d-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "193e7a24-1e14-11ef-ba7d-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 161,
@@ -8717,18 +8752,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eb6bec92-24dc-11ef-a53a-0242ac130004",
                 "name": "Pausing Shutter",
-                "seed": 210
+                "seed": 210,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
                 "name": "Team Destiny",
-                "seed": 175
+                "seed": 175,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "eb6bec92-24dc-11ef-a53a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "eb6bec92-24dc-11ef-a53a-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "eb6bec92-24dc-11ef-a53a-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 190,
@@ -9941,7 +10026,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "63f0a738-24d9-11ef-804e-0242ac130004",
+                "name": "Rouge Eveil",
+                "seed": 104
             },
             "opponent2": {
                 "id": null
@@ -10202,7 +10289,9 @@
                 "seed": 18
             },
             "opponent2": {
-                "id": null
+                "id": "104e3dd2-1f54-11ef-9cb6-0242ac130004",
+                "name": "Team Destiny",
+                "seed": 175
             },
             "match_games": []
         },

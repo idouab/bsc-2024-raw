@@ -5999,6 +5999,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "3e871892-1e17-11ef-8d45-0242ac130004",
+            "tournament_id": 0,
+            "name": "SP⚡SPORTS",
+            "players": [
+                "❄︎★ʸᵒK̶s̶a̶★❄︎",
+                "ELITE 2.0",
+                "☀️ᴘɪᴇʀᴏ 🜲",
+                "fantasma75"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3f531c62-1e17-11ef-9969-0242ac130004",
             "tournament_id": 0,
             "name": "Manos do brawl",
@@ -9766,18 +9778,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3e871892-1e17-11ef-8d45-0242ac130004",
                 "name": "SP⚡SPORTS",
-                "seed": 120
+                "seed": 120,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
                 "name": "Samingua",
-                "seed": 393
+                "seed": 393,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3e871892-1e17-11ef-8d45-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3e871892-1e17-11ef-8d45-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "3e871892-1e17-11ef-8d45-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 52,
@@ -13601,18 +13663,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2adfd648-2174-11ef-9bdd-0242ac130004",
                 "name": "Team Bull Stars 🦬",
-                "seed": 207
+                "seed": 207,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ddd553d0-2161-11ef-911c-0242ac130004",
                 "name": "C-FORCE TRIDENT",
-                "seed": 306
+                "seed": 306,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "2adfd648-2174-11ef-9bdd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ddd553d0-2161-11ef-911c-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "2adfd648-2174-11ef-9bdd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ddd553d0-2161-11ef-911c-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "2adfd648-2174-11ef-9bdd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ddd553d0-2161-11ef-911c-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 151,
@@ -18137,10 +18249,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2f5d3a2e-213a-11ef-9052-0242ac130004",
+                "name": "Samingua",
+                "seed": 393
             },
             "opponent2": {
-                "id": null
+                "id": "caa2a8a2-1f78-11ef-a85a-0242ac130004",
+                "name": "THBS",
+                "seed": 376
             },
             "match_games": []
         },
@@ -22549,10 +22665,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e871892-1e17-11ef-8d45-0242ac130004",
+                "name": "SP⚡SPORTS",
+                "seed": 120
             },
             "opponent2": {
-                "id": null
+                "id": "3f531c62-1e17-11ef-9969-0242ac130004",
+                "name": "Manos do brawl",
+                "seed": 137
             },
             "match_games": []
         },

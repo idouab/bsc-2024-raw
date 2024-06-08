@@ -21061,18 +21061,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88cb66ea-1f7c-11ef-90e3-0242ac130004",
                 "name": "Brawlter's 💙",
-                "seed": 386
+                "seed": 386,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e54e999e-2122-11ef-9ba6-0242ac130004",
                 "name": "Losquispes",
-                "seed": 383
+                "seed": 383,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "88cb66ea-1f7c-11ef-90e3-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e54e999e-2122-11ef-9ba6-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "88cb66ea-1f7c-11ef-90e3-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e54e999e-2122-11ef-9ba6-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "88cb66ea-1f7c-11ef-90e3-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e54e999e-2122-11ef-9ba6-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 433,
@@ -29725,7 +29775,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "88cb66ea-1f7c-11ef-90e3-0242ac130004",
+                "name": "Brawlter's 💙",
+                "seed": 386
             },
             "opponent2": {
                 "id": null

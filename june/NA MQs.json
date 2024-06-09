@@ -53576,18 +53576,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64141f36-222e-11ef-9eb1-0242ac130004",
                 "name": "LosPNlargo",
-                "seed": 385
+                "seed": 385,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
                 "name": "REAL MICHIS",
-                "seed": 556
+                "seed": 556,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "64141f36-222e-11ef-9eb1-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "64141f36-222e-11ef-9eb1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1453,
@@ -54552,7 +54587,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                "name": "REAL MICHIS",
+                "seed": 556
             },
             "opponent2": {
                 "id": null

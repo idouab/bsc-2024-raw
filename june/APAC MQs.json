@@ -21558,18 +21558,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eade8238-1e17-11ef-8158-0242ac130004",
                 "name": "Master Entertainer",
-                "seed": 8
+                "seed": 8,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
                 "name": "たつきすねげ",
-                "seed": 17
+                "seed": 17,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "eade8238-1e17-11ef-8158-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 452,
@@ -21678,7 +21713,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "16a474d0-1e14-11ef-b3e9-0242ac130004",
+                "name": "たつきすねげ",
+                "seed": 17
             },
             "match_games": []
         },

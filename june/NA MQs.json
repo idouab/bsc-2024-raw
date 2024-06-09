@@ -61642,18 +61642,53 @@
             "group_id": 1,
             "round_id": 13,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
                 "name": "512",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
                 "name": "Yippee",
-                "seed": 11
+                "seed": 11,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1631,

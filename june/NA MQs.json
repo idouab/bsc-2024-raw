@@ -59357,18 +59357,68 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
                 "name": "Imminent",
-                "seed": 26
+                "seed": 26,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73b58798-1e16-11ef-ae79-0242ac130004",
                 "name": "Team Rage",
-                "seed": 84
+                "seed": 84,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b58798-1e16-11ef-ae79-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "73b58798-1e16-11ef-ae79-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Sneaky Fields",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000050.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b58798-1e16-11ef-ae79-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1590,
@@ -59742,7 +59792,9 @@
                 "seed": 13
             },
             "opponent2": {
-                "id": null
+                "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                "name": "Imminent",
+                "seed": 26
             },
             "match_games": []
         },

@@ -57614,18 +57614,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
                 "name": "SGA",
-                "seed": 21
+                "seed": 21,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
                 "name": "HYPER LETAL ESPORTS",
-                "seed": 172
+                "seed": 172,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "703f8dc0-1e16-11ef-86a8-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1541,
@@ -58621,7 +58656,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                "name": "SGA",
+                "seed": 21
             },
             "opponent2": {
                 "id": null

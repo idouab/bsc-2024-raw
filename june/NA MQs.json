@@ -61372,18 +61372,68 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
                 "name": "Real Ones",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73c67fda-1e16-11ef-b832-0242ac130004",
                 "name": "Nameless",
-                "seed": 49
+                "seed": 49,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73c67fda-1e16-11ef-b832-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "73c67fda-1e16-11ef-b832-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73c67fda-1e16-11ef-b832-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1626,
@@ -61494,7 +61544,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                "name": "Real Ones",
+                "seed": 8
             },
             "match_games": []
         },

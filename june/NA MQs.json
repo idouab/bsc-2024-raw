@@ -54261,18 +54261,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
                 "name": "Synth Reeks",
-                "seed": 576
+                "seed": 576,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9acc628e-242e-11ef-b5fa-0242ac130004",
                 "name": "Burgueses",
-                "seed": 278
+                "seed": 278,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9acc628e-242e-11ef-b5fa-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9acc628e-242e-11ef-b5fa-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9acc628e-242e-11ef-b5fa-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1454,
@@ -55544,7 +55594,9 @@
                 "seed": 556
             },
             "opponent2": {
-                "id": null
+                "id": "3d2a77be-2533-11ef-9d49-0242ac130004",
+                "name": "Synth Reeks",
+                "seed": 576
             },
             "match_games": []
         },

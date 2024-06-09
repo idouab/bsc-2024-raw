@@ -60506,18 +60506,68 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bcd5932e-2595-11ef-be43-0242ac130004",
                 "name": "team washed",
-                "seed": 606
+                "seed": 606,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cc041928-2519-11ef-86ef-0242ac130004",
                 "name": "Squeezy❤️Streamers",
-                "seed": 249
+                "seed": 249,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1611,
@@ -60581,7 +60631,7 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
                 "name": "REAL MICHIS",
@@ -60590,7 +60640,8 @@
             "opponent2": {
                 "id": "2f16faf4-2168-11ef-a7d7-0242ac130004",
                 "name": "What the Sigma",
-                "seed": 508
+                "seed": 508,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -60813,7 +60864,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "bcd5932e-2595-11ef-be43-0242ac130004",
+                "name": "team washed",
+                "seed": 606
             },
             "match_games": []
         },
@@ -60851,7 +60904,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "8134ac4c-242d-11ef-b3a4-0242ac130004",
+                "name": "REAL MICHIS",
+                "seed": 556
             },
             "match_games": []
         },

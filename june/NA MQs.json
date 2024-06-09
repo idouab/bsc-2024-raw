@@ -58822,18 +58822,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
                 "name": "SGA",
-                "seed": 21
+                "seed": 21,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73b76a36-1e16-11ef-97e3-0242ac130004",
                 "name": "LosEspantaViejas",
-                "seed": 159
+                "seed": 159,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b76a36-1e16-11ef-97e3-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73b76a36-1e16-11ef-97e3-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1577,
@@ -59544,7 +59579,9 @@
                 "seed": 31
             },
             "opponent2": {
-                "id": null
+                "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                "name": "SGA",
+                "seed": 21
             },
             "match_games": []
         },

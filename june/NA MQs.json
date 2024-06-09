@@ -59626,18 +59626,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6c2eaa9a-1e16-11ef-b0e8-0242ac130004",
                 "name": "On3",
-                "seed": 31
+                "seed": 31,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
                 "name": "SGA",
-                "seed": 21
+                "seed": 21,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "6c2eaa9a-1e16-11ef-b0e8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "6c2eaa9a-1e16-11ef-b0e8-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1593,
@@ -59983,7 +60018,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71321b4e-1e16-11ef-84ef-0242ac130004",
+                "name": "SGA",
+                "seed": 21
             },
             "opponent2": {
                 "id": null

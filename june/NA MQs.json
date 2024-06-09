@@ -58169,18 +58169,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
                 "name": "Imminent",
-                "seed": 26
+                "seed": 26,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "72ee9318-1e16-11ef-8d6e-0242ac130004",
                 "name": "Braulio Estrellas",
-                "seed": 77
+                "seed": 77,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "72ee9318-1e16-11ef-8d6e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "72ee9318-1e16-11ef-8d6e-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1567,
@@ -58499,7 +58534,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "70e376f6-1e16-11ef-8c55-0242ac130004",
+                "name": "Imminent",
+                "seed": 26
             },
             "opponent2": {
                 "id": null

@@ -61627,18 +61627,53 @@
             "group_id": 1,
             "round_id": 13,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
                 "name": "STMN",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c0d51902-1e17-11ef-92c7-0242ac130004",
                 "name": "Homeless",
-                "seed": 10
+                "seed": 10,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c0d51902-1e17-11ef-92c7-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "c0ddf1d0-1e17-11ef-b54b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c0d51902-1e17-11ef-92c7-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         }
     ]
 }

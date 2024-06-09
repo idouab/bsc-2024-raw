@@ -58564,18 +58564,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "beb029b0-1fc4-11ef-98e5-0242ac130004",
                 "name": "Trash At The Game",
-                "seed": 322
+                "seed": 322,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7d5959de-2544-11ef-b825-0242ac130004",
                 "name": "BAD BOYS",
-                "seed": 255
+                "seed": 255,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "beb029b0-1fc4-11ef-98e5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "beb029b0-1fc4-11ef-98e5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1576,
@@ -58841,7 +58876,9 @@
                 "seed": 223
             },
             "opponent2": {
-                "id": null
+                "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                "name": "BAD BOYS",
+                "seed": 255
             },
             "match_games": []
         },

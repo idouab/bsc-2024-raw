@@ -47475,18 +47475,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3b930cea-1e17-11ef-80ac-0242ac130004",
                 "name": "Blue Lock⚽",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
                 "name": "Underdogs",
-                "seed": 40
+                "seed": 40,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "3b930cea-1e17-11ef-80ac-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "3b930cea-1e17-11ef-80ac-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3f8b1b62-1e17-11ef-b800-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 974,
@@ -47708,7 +47743,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "3b930cea-1e17-11ef-80ac-0242ac130004",
+                "name": "Blue Lock⚽",
+                "seed": 9
             },
             "match_games": []
         },

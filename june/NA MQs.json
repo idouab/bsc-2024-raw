@@ -42612,18 +42612,53 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c0df9dfa-1e17-11ef-a10b-0242ac130004",
                 "name": "West Coast FA",
-                "seed": 6
+                "seed": 6,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
                 "name": "Yippee",
-                "seed": 11
+                "seed": 11,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "c0df9dfa-1e17-11ef-a10b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "c0df9dfa-1e17-11ef-a10b-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1572,
@@ -42687,7 +42722,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "c0df9dfa-1e17-11ef-a10b-0242ac130004",
+                "name": "West Coast FA",
+                "seed": 6
             },
             "match_games": []
         },
@@ -54201,18 +54238,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
                 "name": "Dumplings Kids",
-                "seed": 412
+                "seed": 412,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "73c9db94-1e16-11ef-89c9-0242ac130004",
                 "name": "601",
-                "seed": 79
+                "seed": 79,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73c9db94-1e16-11ef-89c9-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "73c9db94-1e16-11ef-89c9-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1479,
@@ -56196,7 +56268,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6ccff54e-1e16-11ef-b02b-0242ac130004",
+                "name": "Yippee",
+                "seed": 11
             },
             "opponent2": {
                 "id": null

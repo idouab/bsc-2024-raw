@@ -58957,18 +58957,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "745147be-1e16-11ef-8ba9-0242ac130004",
                 "name": "Exodus",
-                "seed": 89
+                "seed": 89,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "cc041928-2519-11ef-86ef-0242ac130004",
                 "name": "Squeezy❤️Streamers",
-                "seed": 249
+                "seed": 249,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "745147be-1e16-11ef-8ba9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "745147be-1e16-11ef-8ba9-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1582,
@@ -59346,7 +59381,9 @@
                 "seed": 174
             },
             "opponent2": {
-                "id": null
+                "id": "cc041928-2519-11ef-86ef-0242ac130004",
+                "name": "Squeezy❤️Streamers",
+                "seed": 249
             },
             "match_games": []
         },

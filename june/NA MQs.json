@@ -58882,18 +58882,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "05a13402-2099-11ef-96b4-0242ac130004",
                 "name": "FREE ASH",
-                "seed": 413
+                "seed": 413,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6b9a3d1a-1e16-11ef-81fe-0242ac130004",
                 "name": "Discreet 🌩️",
-                "seed": 68
+                "seed": 68,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "05a13402-2099-11ef-96b4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b9a3d1a-1e16-11ef-81fe-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "05a13402-2099-11ef-96b4-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b9a3d1a-1e16-11ef-81fe-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1580,
@@ -59203,7 +59238,9 @@
                 "seed": 42
             },
             "opponent2": {
-                "id": null
+                "id": "6b9a3d1a-1e16-11ef-81fe-0242ac130004",
+                "name": "Discreet 🌩️",
+                "seed": 68
             },
             "match_games": []
         },

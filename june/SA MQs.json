@@ -48062,18 +48062,68 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "38f4b7cc-1e17-11ef-b620-0242ac130004",
                 "name": "ACRE LOVERS",
-                "seed": 24
+                "seed": 24,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
                 "name": "AQUELAS CENAS",
-                "seed": 126
+                "seed": 126,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "38f4b7cc-1e17-11ef-b620-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "38f4b7cc-1e17-11ef-b620-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "38f4b7cc-1e17-11ef-b620-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6ec057be-1fbe-11ef-b508-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 985,
@@ -48202,7 +48252,9 @@
                 "seed": 48
             },
             "opponent2": {
-                "id": null
+                "id": "38f4b7cc-1e17-11ef-b620-0242ac130004",
+                "name": "ACRE LOVERS",
+                "seed": 24
             },
             "match_games": []
         },

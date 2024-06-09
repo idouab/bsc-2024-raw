@@ -53426,18 +53426,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "735dfe60-1e16-11ef-bf57-0242ac130004",
                 "name": "KissKlan",
-                "seed": 118
+                "seed": 118,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "768c4f6a-214f-11ef-b023-0242ac130004",
                 "name": "Trash Monkeys",
-                "seed": 351
+                "seed": 351,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "735dfe60-1e16-11ef-bf57-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "768c4f6a-214f-11ef-b023-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "735dfe60-1e16-11ef-bf57-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "768c4f6a-214f-11ef-b023-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1449,
@@ -54411,7 +54446,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "768c4f6a-214f-11ef-b023-0242ac130004",
+                "name": "Trash Monkeys",
+                "seed": 351
             },
             "opponent2": {
                 "id": null

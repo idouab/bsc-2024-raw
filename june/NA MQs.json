@@ -56342,18 +56342,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "72cb890e-1e16-11ef-9334-0242ac130004",
                 "name": "Oinkers Reborn",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6d546674-1fc1-11ef-b92a-0242ac130004",
                 "name": "Gospel",
-                "seed": 283
+                "seed": 283,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d546674-1fc1-11ef-b92a-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d546674-1fc1-11ef-b92a-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1519,
@@ -57181,7 +57216,9 @@
                 "seed": 603
             },
             "opponent2": {
-                "id": null
+                "id": "72cb890e-1e16-11ef-9334-0242ac130004",
+                "name": "Oinkers Reborn",
+                "seed": 37
             },
             "match_games": []
         },

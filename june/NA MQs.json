@@ -53944,18 +53944,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "addaa564-1f2b-11ef-b038-0242ac130004",
                 "name": "LaSuccion",
-                "seed": 435
+                "seed": 435,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7075bbc0-1e16-11ef-b310-0242ac130004",
                 "name": "Córdoba FC",
-                "seed": 153
+                "seed": 153,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7075bbc0-1e16-11ef-b310-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "addaa564-1f2b-11ef-b038-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7075bbc0-1e16-11ef-b310-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1442,
@@ -55804,7 +55839,9 @@
                 "seed": 346
             },
             "opponent2": {
-                "id": null
+                "id": "7075bbc0-1e16-11ef-b310-0242ac130004",
+                "name": "Córdoba FC",
+                "seed": 153
             },
             "match_games": []
         },

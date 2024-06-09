@@ -56287,18 +56287,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
                 "name": "Koas Fighter",
-                "seed": 192
+                "seed": 192,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7d5959de-2544-11ef-b825-0242ac130004",
                 "name": "BAD BOYS",
-                "seed": 255
+                "seed": 255,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "7369b34a-1e16-11ef-bd08-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1540,
@@ -56874,7 +56909,9 @@
                 "seed": 322
             },
             "opponent2": {
-                "id": null
+                "id": "7d5959de-2544-11ef-b825-0242ac130004",
+                "name": "BAD BOYS",
+                "seed": 255
             },
             "match_games": []
         },

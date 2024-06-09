@@ -42457,18 +42457,68 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
                 "name": "Real Ones",
-                "seed": 8
+                "seed": 8,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
                 "name": "512",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1534,
@@ -42779,7 +42829,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "71fd3810-1e16-11ef-82ca-0242ac130004",
+                "name": "512",
+                "seed": 9
             },
             "match_games": []
         },
@@ -56954,7 +57006,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71fe2c5c-1e16-11ef-ba14-0242ac130004",
+                "name": "Real Ones",
+                "seed": 8
             },
             "opponent2": {
                 "id": null

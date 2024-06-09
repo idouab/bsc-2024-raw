@@ -60531,18 +60531,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d2e277c-1e16-11ef-a543-0242ac130004",
                 "name": "Mambas Gaming",
-                "seed": 25
+                "seed": 25,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6fb81fe8-1e16-11ef-a244-0242ac130004",
                 "name": "2010",
-                "seed": 62
+                "seed": 62,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "6d2e277c-1e16-11ef-a543-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6fb81fe8-1e16-11ef-a244-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6d2e277c-1e16-11ef-a543-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6fb81fe8-1e16-11ef-a244-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1614,
@@ -60725,7 +60760,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "6fb81fe8-1e16-11ef-a244-0242ac130004",
+                "name": "2010",
+                "seed": 62
             },
             "match_games": []
         },

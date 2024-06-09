@@ -59137,18 +59137,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "428ef15a-2351-11ef-99f0-0242ac130004",
                 "name": "Ba Sing Se",
-                "seed": 401
+                "seed": 401,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
                 "name": "Dumplings Kids",
-                "seed": 412
+                "seed": 412,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "428ef15a-2351-11ef-99f0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "428ef15a-2351-11ef-99f0-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1591,
@@ -59473,7 +59508,9 @@
                 "seed": 28
             },
             "opponent2": {
-                "id": null
+                "id": "d8f0ee9c-206c-11ef-aaef-0242ac130004",
+                "name": "Dumplings Kids",
+                "seed": 412
             },
             "match_games": []
         },

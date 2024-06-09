@@ -59936,18 +59936,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
                 "name": "IX Squares",
-                "seed": 36
+                "seed": 36,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6da3f04c-1e16-11ef-b96f-0242ac130004",
                 "name": "CEREAL GAMING",
-                "seed": 29
+                "seed": 29,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6da3f04c-1e16-11ef-b96f-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6da3f04c-1e16-11ef-b96f-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1605,
@@ -60116,7 +60151,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "742d9dbe-1e16-11ef-9f7c-0242ac130004",
+                "name": "IX Squares",
+                "seed": 36
             },
             "opponent2": {
                 "id": null

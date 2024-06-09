@@ -47435,18 +47435,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
                 "name": "Nah i'd win",
-                "seed": 341
+                "seed": 341,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
                 "name": "Los flaites",
-                "seed": 165
+                "seed": 165,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4ec013c-2344-11ef-84fa-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 972,
@@ -47794,7 +47829,9 @@
                 "seed": 18
             },
             "opponent2": {
-                "id": null
+                "id": "a27b18a0-208b-11ef-9fa1-0242ac130004",
+                "name": "Nah i'd win",
+                "seed": 341
             },
             "match_games": []
         },

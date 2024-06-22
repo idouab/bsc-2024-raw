@@ -142,18 +142,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d29d2ae-2680-11ef-8cae-0242ac130004",
                 "name": "SK Gaming",
-                "seed": 1
+                "seed": 1,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6d267992-2680-11ef-b86e-0242ac130004",
                 "name": "FUT Esports",
-                "seed": 8
+                "seed": 8,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "6d29d2ae-2680-11ef-8cae-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d267992-2680-11ef-b86e-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6d29d2ae-2680-11ef-8cae-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d267992-2680-11ef-b86e-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6d29d2ae-2680-11ef-8cae-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d267992-2680-11ef-b86e-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 2,
@@ -224,7 +274,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d29d2ae-2680-11ef-8cae-0242ac130004",
+                "name": "SK Gaming",
+                "seed": 1
             },
             "opponent2": {
                 "id": null

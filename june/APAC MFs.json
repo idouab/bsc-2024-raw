@@ -252,18 +252,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aef91b9a-267b-11ef-98c4-0242ac130004",
                 "name": "Crazy Raccoon",
-                "seed": 2
+                "seed": 2,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aef732d0-267b-11ef-8792-0242ac130004",
                 "name": "Angelic",
-                "seed": 7
+                "seed": 7,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "aef91b9a-267b-11ef-98c4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aef732d0-267b-11ef-8792-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "aef91b9a-267b-11ef-98c4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aef732d0-267b-11ef-8792-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "aef91b9a-267b-11ef-98c4-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aef732d0-267b-11ef-8792-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -314,7 +364,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "aef91b9a-267b-11ef-98c4-0242ac130004",
+                "name": "Crazy Raccoon",
+                "seed": 2
             },
             "opponent2": {
                 "id": null

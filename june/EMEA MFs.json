@@ -232,18 +232,83 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
                 "name": "HMBLE",
-                "seed": 2
+                "seed": 2,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6d286d74-2680-11ef-8598-0242ac130004",
                 "name": "Pirates",
-                "seed": 7
+                "seed": 7,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6d286d74-2680-11ef-8598-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d286d74-2680-11ef-8598-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Last Stop",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000636.png",
+                    "opponent1": {
+                        "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d286d74-2680-11ef-8598-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Knockout",
+                    "mapName": "New Horizons",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000703.png",
+                    "opponent1": {
+                        "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6d286d74-2680-11ef-8598-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -292,7 +357,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d2a8ab4-2680-11ef-8fb1-0242ac130004",
+                "name": "HMBLE",
+                "seed": 2
             },
             "opponent2": {
                 "id": null

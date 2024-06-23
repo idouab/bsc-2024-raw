@@ -437,18 +437,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bbc8e60a-26b9-11ef-8e6f-0242ac130004",
                 "name": "Pioneers",
-                "seed": 1
+                "seed": 1,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bbc95a90-26b9-11ef-8f79-0242ac130004",
                 "name": "Tribe Gaming",
-                "seed": 4
+                "seed": 4,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Beach Ball",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000143.png",
+                    "opponent1": {
+                        "id": "bbc8e60a-26b9-11ef-8e6f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bbc95a90-26b9-11ef-8f79-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "bbc8e60a-26b9-11ef-8e6f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bbc95a90-26b9-11ef-8f79-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "bbc8e60a-26b9-11ef-8e6f-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bbc95a90-26b9-11ef-8f79-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -479,7 +529,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bbc8e60a-26b9-11ef-8e6f-0242ac130004",
+                "name": "Pioneers",
+                "seed": 1
             },
             "opponent2": {
                 "id": null

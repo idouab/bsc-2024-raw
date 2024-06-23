@@ -507,18 +507,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bbc76a46-26b9-11ef-8972-0242ac130004",
                 "name": "Luminosity",
-                "seed": 2
+                "seed": 2,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
                 "name": "STMN",
-                "seed": 6
+                "seed": 6,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Goldarm Gulch",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000367.png",
+                    "opponent1": {
+                        "id": "bbc76a46-26b9-11ef-8972-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "bbc76a46-26b9-11ef-8972-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "bbc76a46-26b9-11ef-8972-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -534,7 +584,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                "name": "STMN",
+                "seed": 6
             },
             "match_games": []
         }

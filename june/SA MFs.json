@@ -370,18 +370,98 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "169c9988-2691-11ef-a4dd-0242ac130004",
                 "name": "Team Queso",
-                "seed": 3
+                "seed": 3,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "169bf1cc-2691-11ef-9981-0242ac130004",
                 "name": "Reis do PL",
-                "seed": 6
+                "seed": 6,
+                "score": 2,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169bf1cc-2691-11ef-9981-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169bf1cc-2691-11ef-9981-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "169bf1cc-2691-11ef-9981-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Gem Fort",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000010.png",
+                    "opponent1": {
+                        "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "169bf1cc-2691-11ef-9981-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "match_5",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "169bf1cc-2691-11ef-9981-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 5,
@@ -417,7 +497,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "169c9988-2691-11ef-a4dd-0242ac130004",
+                "name": "Team Queso",
+                "seed": 3
             },
             "match_games": []
         },

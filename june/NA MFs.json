@@ -317,18 +317,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bbc86428-26b9-11ef-b910-0242ac130004",
                 "name": "Elevate",
-                "seed": 3
+                "seed": 3,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
                 "name": "STMN",
-                "seed": 6
+                "seed": 6,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "bbc86428-26b9-11ef-b910-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "bbc86428-26b9-11ef-b910-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "bbc86428-26b9-11ef-b910-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bbc7e9bc-26b9-11ef-af25-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 5,

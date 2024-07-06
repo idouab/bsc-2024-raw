@@ -2442,6 +2442,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "9ebdc4f8-35bf-11ef-a004-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Really花 BeRealキター",
+            "players": [
+                "シュりゅぐ",
+                "太郎",
+                "ここから始まる磐田の反撃"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "688d7118-357d-11ef-9259-0242ac1d0004",
             "tournament_id": 0,
             "name": "0-7 Esports",
@@ -2679,18 +2690,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
                 "name": "Eclipse",
-                "seed": 64
+                "seed": 64,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9ebdc4f8-35bf-11ef-a004-0242ac1d0004",
                 "name": "Really花 BeRealキター",
-                "seed": 193
+                "seed": 193,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9ebdc4f8-35bf-11ef-a004-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9ebdc4f8-35bf-11ef-a004-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -3362,18 +3408,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
                 "name": "Just Wanna Prove",
-                "seed": 105
+                "seed": 105,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "50fcfa20-369d-11ef-94fe-0242ac1b0004",
                 "name": "Razor",
-                "seed": 152
+                "seed": 152,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "50fcfa20-369d-11ef-94fe-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "50fcfa20-369d-11ef-94fe-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 31,
@@ -5487,7 +5568,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                "name": "Eclipse",
+                "seed": 64
             },
             "opponent2": {
                 "id": null
@@ -5720,7 +5803,9 @@
                 "seed": 24
             },
             "opponent2": {
-                "id": null
+                "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                "name": "Just Wanna Prove",
+                "seed": 105
             },
             "match_games": []
         },
@@ -7547,7 +7632,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9ebdc4f8-35bf-11ef-a004-0242ac1d0004",
+                "name": "Really花 BeRealキター",
+                "seed": 193
             },
             "opponent2": {
                 "id": null

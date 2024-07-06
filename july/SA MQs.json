@@ -28598,18 +28598,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
                 "name": "SKCalalas",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
                 "name": "Underdogs",
-                "seed": 28
+                "seed": 28,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 843,
@@ -29068,7 +29103,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+                "name": "SKCalalas",
+                "seed": 5
             },
             "opponent2": {
                 "id": null
@@ -40842,7 +40879,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                "name": "Underdogs",
+                "seed": 28
             },
             "opponent2": {
                 "id": null

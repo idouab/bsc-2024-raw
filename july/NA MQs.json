@@ -39891,18 +39891,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
                 "name": "420 Esports",
-                "seed": 63
+                "seed": 63,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
                 "name": "Pluto Fam",
-                "seed": 322
+                "seed": 322,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1329,
@@ -47379,7 +47414,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                "name": "Pluto Fam",
+                "seed": 322
             },
             "opponent2": {
                 "id": null

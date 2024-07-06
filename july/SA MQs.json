@@ -5550,6 +5550,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "efdf48b0-3250-11ef-a452-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "TIMURKA",
+            "players": [
+                "ℐ’𝓂★ℳ𝒶𝒦𝓈❦",
+                "Gach",
+                "gOkI$"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
             "tournament_id": 0,
             "name": "TeamHyper",
@@ -5659,6 +5670,17 @@
                 "♠️END GAME♠️",
                 "Serchis<3",
                 "🎃ARG|ɱαƚƚ🎃"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Papish",
+            "players": [
+                "[AD]Ultrapion",
+                "Argel.pf",
+                "wasaalgueda👻"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7864,18 +7886,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "efdf48b0-3250-11ef-a452-0242ac1b0004",
                 "name": "TIMURKA",
-                "seed": 137
+                "seed": 137,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "08480308-3727-11ef-b717-0242ac1b0004",
                 "name": "Hurubus",
-                "seed": 376
+                "seed": 376,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "efdf48b0-3250-11ef-a452-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "08480308-3727-11ef-b717-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "efdf48b0-3250-11ef-a452-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "08480308-3727-11ef-b717-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 53,
@@ -8953,18 +9010,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
                 "name": "Grasosos",
-                "seed": 52
+                "seed": 52,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
                 "name": "Papish",
-                "seed": 461
+                "seed": 461,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 86,
@@ -15485,7 +15592,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                "name": "Grasosos",
+                "seed": 52
             },
             "opponent2": {
                 "id": null
@@ -19519,7 +19628,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "71fe72d6-3598-11ef-ba95-0242ac1b0004",
+                "name": "Papish",
+                "seed": 461
             },
             "opponent2": {
                 "id": null

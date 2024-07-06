@@ -20323,18 +20323,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f33f0da6-3250-11ef-9ab9-0242ac1b0004",
                 "name": "Pan con chancho",
-                "seed": 50
+                "seed": 50,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
                 "name": "RRH | Águias",
-                "seed": 306
+                "seed": 306,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "f33f0da6-3250-11ef-9ab9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f33f0da6-3250-11ef-9ab9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f33f0da6-3250-11ef-9ab9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 431,
@@ -23561,10 +23611,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                "name": "RRH | Águias",
+                "seed": 306
             },
             "opponent2": {
-                "id": null
+                "id": "f4badc64-3250-11ef-8e9d-0242ac1b0004",
+                "name": "LA FÚRIA BS",
+                "seed": 79
             },
             "match_games": []
         },
@@ -28291,7 +28345,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f33f0da6-3250-11ef-9ab9-0242ac1b0004",
+                "name": "Pan con chancho",
+                "seed": 50
             },
             "opponent2": {
                 "id": null

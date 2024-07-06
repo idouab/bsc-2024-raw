@@ -2600,6 +2600,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Sea Flamingausolo",
+            "players": [
+                "CR|Tensai",
+                "шелли",
+                "HB|Sophia",
+                "Rana"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "82753686-38f4-11ef-84c0-0242ac1c0004",
             "tournament_id": 0,
             "name": "Noname",
@@ -5865,18 +5877,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
                 "name": "Sea Flamingausolo",
-                "seed": 46
+                "seed": 46,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "308395bc-35d8-11ef-b40d-0242ac1d0004",
                 "name": "thegaees",
-                "seed": 211
+                "seed": 211,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "308395bc-35d8-11ef-b40d-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "308395bc-35d8-11ef-b40d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "308395bc-35d8-11ef-b40d-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 112,
@@ -7382,7 +7444,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "308395bc-35d8-11ef-b40d-0242ac1d0004",
+                "name": "thegaees",
+                "seed": 211
             },
             "opponent2": {
                 "id": null
@@ -8864,7 +8928,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "89d8c2b0-324d-11ef-8bf2-0242ac1b0004",
+                "name": "Sea Flamingausolo",
+                "seed": 46
             },
             "opponent2": {
                 "id": null

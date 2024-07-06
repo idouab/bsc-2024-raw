@@ -7579,6 +7579,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "0410ac24-3568-11ef-b5e3-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Teamlove1",
+            "players": [
+                "⭑𝓈𝒾𝓌ℴ𝓃⭑",
+                "OT7 Quannezy🎭",
+                "❤️emh❤️",
+                "𝑆𝑇𝐸𝑉𝐾𝐸"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "df7579cc-3764-11ef-a7c4-0242ac1b0004",
             "tournament_id": 0,
             "name": "Team Diddy",
@@ -7798,6 +7810,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "a64f7e92-3a69-11ef-b1ba-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "NoSkill",
+            "players": [
+                "Brau🩶",
+                "¯\\_(ツ)_/¯",
+                "NESTYDEUS",
+                "el ñeñe"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "21588898-356c-11ef-bef1-0242ac1d0004",
             "tournament_id": 0,
             "name": "kpi",
@@ -7985,6 +8009,17 @@
                 "未だ|Fvevr🥷",
                 "Connor is trash",
                 "Cards"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "72c1471a-3751-11ef-bfe2-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Only July Bots",
+            "players": [
+                "🌩️NimbusNeko✨",
+                "|KiNG|Jafet 🧡",
+                "Mortis"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -11142,11 +11177,12 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0410ac24-3568-11ef-b5e3-0242ac1d0004",
                 "name": "Teamlove1",
-                "seed": 472
+                "seed": 472,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "6280db1c-395f-11ef-afc5-0242ac1d0004",
@@ -14301,7 +14337,7 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "4ccd5a8e-3761-11ef-9536-0242ac1b0004",
                 "name": "CoRE_Gamers",
@@ -14310,7 +14346,8 @@
             "opponent2": {
                 "id": "a64f7e92-3a69-11ef-b1ba-0242ac1d0004",
                 "name": "NoSkill",
-                "seed": 575
+                "seed": 575,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -17552,18 +17589,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "72c1471a-3751-11ef-bfe2-0242ac1d0004",
                 "name": "Only July Bots",
-                "seed": 499
+                "seed": 499,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "284de62c-357e-11ef-a283-0242ac1d0004",
                 "name": "1st Destroyers",
-                "seed": 526
+                "seed": 526,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "72c1471a-3751-11ef-bfe2-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "284de62c-357e-11ef-a283-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "72c1471a-3751-11ef-bfe2-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "284de62c-357e-11ef-a283-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "72c1471a-3751-11ef-bfe2-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "284de62c-357e-11ef-a283-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 419,
@@ -20888,7 +20975,9 @@
                 "seed": 41
             },
             "opponent2": {
-                "id": null
+                "id": "6280db1c-395f-11ef-afc5-0242ac1d0004",
+                "name": "Sexy Asians",
+                "seed": 553
             },
             "match_games": []
         },
@@ -22284,7 +22373,9 @@
                 "seed": 63
             },
             "opponent2": {
-                "id": null
+                "id": "4ccd5a8e-3761-11ef-9536-0242ac1b0004",
+                "name": "CoRE_Gamers",
+                "seed": 450
             },
             "match_games": []
         },
@@ -23756,7 +23847,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "284de62c-357e-11ef-a283-0242ac1d0004",
+                "name": "1st Destroyers",
+                "seed": 526
             },
             "match_games": []
         },

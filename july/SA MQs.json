@@ -21578,18 +21578,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
                 "name": "FAM",
-                "seed": 94
+                "seed": 94,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3c40361e-36e9-11ef-a922-0242ac1b0004",
                 "name": "Arretados 🔱",
-                "seed": 350
+                "seed": 350,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c40361e-36e9-11ef-a922-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3c40361e-36e9-11ef-a922-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 460,
@@ -23591,7 +23626,9 @@
                 "seed": 35
             },
             "opponent2": {
-                "id": null
+                "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                "name": "FAM",
+                "seed": 94
             },
             "match_games": []
         },
@@ -27425,10 +27462,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3c40361e-36e9-11ef-a922-0242ac1b0004",
+                "name": "Arretados 🔱",
+                "seed": 350
             },
             "opponent2": {
-                "id": null
+                "id": "222f9024-35b5-11ef-b74c-0242ac1b0004",
+                "name": "La Típica 2025",
+                "seed": 248
             },
             "match_games": []
         },

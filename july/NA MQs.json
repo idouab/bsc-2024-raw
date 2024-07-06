@@ -7478,6 +7478,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "c4412124-368d-11ef-82ee-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Doug Elite",
+            "players": [
+                "Gavinator",
+                "lushen",
+                "Santrad",
+                "Aladdin"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ad952bf2-3b6d-11ef-959d-0242ac130004",
             "tournament_id": 0,
             "name": "L3",
@@ -8960,6 +8972,18 @@
                 "joni",
                 "meliodas",
                 "Scanor"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "62820822-3250-11ef-96fd-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "batorés",
+            "players": [
+                "Spider🩸Mortis",
+                "FireCrow :D",
+                "Agiota🤍Colt",
+                "King"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -31016,18 +31040,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
                 "name": "sapo",
-                "seed": 203
+                "seed": 203,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c4412124-368d-11ef-82ee-0242ac1d0004",
                 "name": "Doug Elite",
-                "seed": 310
+                "seed": 310,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c4412124-368d-11ef-82ee-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c4412124-368d-11ef-82ee-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c4412124-368d-11ef-82ee-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 901,
@@ -32148,7 +32222,9 @@
                 "seed": 452
             },
             "opponent2": {
-                "id": null
+                "id": "40846784-3ba0-11ef-9a8b-0242ac130004",
+                "name": "Toby's Relatives",
+                "seed": 317
             },
             "match_games": []
         },
@@ -33694,7 +33770,9 @@
                 "seed": 54
             },
             "opponent2": {
-                "id": null
+                "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                "name": "sapo",
+                "seed": 203
             },
             "match_games": []
         },

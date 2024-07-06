@@ -44188,18 +44188,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5fda7604-3250-11ef-a234-0242ac1b0004",
                 "name": "Los Chicos",
-                "seed": 159
+                "seed": 159,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "d81af770-3673-11ef-82ca-0242ac1b0004",
                 "name": "Tiny Tiger Toes",
-                "seed": 415
+                "seed": 415,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "5fda7604-3250-11ef-a234-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "d81af770-3673-11ef-82ca-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5fda7604-3250-11ef-a234-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "d81af770-3673-11ef-82ca-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 970,
@@ -46684,7 +46719,9 @@
                 "seed": 97
             },
             "opponent2": {
-                "id": null
+                "id": "d81af770-3673-11ef-82ca-0242ac1b0004",
+                "name": "Tiny Tiger Toes",
+                "seed": 415
             },
             "match_games": []
         },

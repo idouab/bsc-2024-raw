@@ -7377,6 +7377,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "fd878464-3642-11ef-a6b9-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "TEN TOES",
+            "players": [
+                "EricTheTryhard",
+                "Maurice",
+                "McDougie"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "641f9cb4-3ba4-11ef-8af5-0242ac130004",
             "tournament_id": 0,
             "name": "Персики🥵🥵🥵",
@@ -7770,6 +7781,17 @@
                 "_-жslapdaddyж-_",
                 "supers",
                 "[KTB]Hydrated⚠️"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "c200c2d8-3b9d-11ef-af56-0242ac130004",
+            "tournament_id": 0,
+            "name": "Crazy frog",
+            "players": [
+                "Optimus prime",
+                "GörkemS",
+                "matchup"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -8428,18 +8450,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fd878464-3642-11ef-a6b9-0242ac1d0004",
                 "name": "TEN TOES",
-                "seed": 385
+                "seed": 385,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
                 "name": "TBH",
-                "seed": 640
+                "seed": 640,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "fd878464-3642-11ef-a6b9-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "fd878464-3642-11ef-a6b9-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "fd878464-3642-11ef-a6b9-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -13597,18 +13669,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "92eb0260-3706-11ef-b85c-0242ac1b0004",
                 "name": "GON",
-                "seed": 396
+                "seed": 396,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c200c2d8-3b9d-11ef-af56-0242ac130004",
                 "name": "Crazy frog",
-                "seed": 629
+                "seed": 629,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "92eb0260-3706-11ef-b85c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "c200c2d8-3b9d-11ef-af56-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "92eb0260-3706-11ef-b85c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c200c2d8-3b9d-11ef-af56-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "92eb0260-3706-11ef-b85c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c200c2d8-3b9d-11ef-af56-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 231,
@@ -19843,7 +19965,9 @@
                 "seed": 128
             },
             "opponent2": {
-                "id": null
+                "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                "name": "TBH",
+                "seed": 640
             },
             "match_games": []
         },
@@ -22029,7 +22153,9 @@
                 "seed": 117
             },
             "opponent2": {
-                "id": null
+                "id": "92eb0260-3706-11ef-b85c-0242ac1b0004",
+                "name": "GON",
+                "seed": 396
             },
             "match_games": []
         },

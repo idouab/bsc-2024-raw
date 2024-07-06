@@ -2509,6 +2509,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8a3705d2-324d-11ef-a32e-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "teamネコプラ",
+            "players": [
+                "curaçao",
+                "𝑪𝒉𝒂𝒎𝒎𝒆𝒏☃",
+                "니남친내꺼",
+                "𝙄𝙉𝙄ꪔ̤̥ꪔ̤̮ꪔ̤̫"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "2d7faf7a-393b-11ef-9146-0242ac1d0004",
             "tournament_id": 0,
             "name": "Xaviers XVII",
@@ -4608,18 +4620,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a3705d2-324d-11ef-a32e-0242ac1b0004",
                 "name": "teamネコプラ",
-                "seed": 47
+                "seed": 47,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
                 "name": "starcluster2",
-                "seed": 210
+                "seed": 210,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a3705d2-324d-11ef-a32e-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a3705d2-324d-11ef-a32e-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 80,
@@ -5299,18 +5346,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1a39f150-36bb-11ef-a13f-0242ac1d0004",
                 "name": "きゃみキッズ",
-                "seed": 123
+                "seed": 123,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
                 "name": "Baby Dragon",
-                "seed": 134
+                "seed": 134,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "1a39f150-36bb-11ef-a13f-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "1a39f150-36bb-11ef-a13f-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 115,
@@ -6347,7 +6429,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                "name": "starcluster2",
+                "seed": 210
             },
             "opponent2": {
                 "id": null
@@ -6646,7 +6730,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                "name": "Baby Dragon",
+                "seed": 134
             },
             "match_games": []
         },
@@ -7987,7 +8073,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8a3705d2-324d-11ef-a32e-0242ac1b0004",
+                "name": "teamネコプラ",
+                "seed": 47
             },
             "opponent2": {
                 "id": null

@@ -40056,18 +40056,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "59c5e456-3250-11ef-a251-0242ac1b0004",
                 "name": "da bois",
-                "seed": 15
+                "seed": 15,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "646fef64-3250-11ef-8bc7-0242ac1b0004",
                 "name": "Fart Poo Gaming",
-                "seed": 114
+                "seed": 114,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "59c5e456-3250-11ef-a251-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "646fef64-3250-11ef-8bc7-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "59c5e456-3250-11ef-a251-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "646fef64-3250-11ef-8bc7-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1332,
@@ -40910,7 +40945,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "59c5e456-3250-11ef-a251-0242ac1b0004",
+                "name": "da bois",
+                "seed": 15
             },
             "opponent2": {
                 "id": null
@@ -47536,7 +47573,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "646fef64-3250-11ef-8bc7-0242ac1b0004",
+                "name": "Fart Poo Gaming",
+                "seed": 114
             },
             "opponent2": {
                 "id": null

@@ -19944,18 +19944,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1851450c-3876-11ef-8300-0242ac1c0004",
                 "name": "No Brain 2",
-                "seed": 159
+                "seed": 159,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
                 "name": "勝利隊123",
-                "seed": 149
+                "seed": 149,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "1851450c-3876-11ef-8300-0242ac1c0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "1851450c-3876-11ef-8300-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "1851450c-3876-11ef-8300-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 423,
@@ -20701,10 +20751,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1851450c-3876-11ef-8300-0242ac1c0004",
+                "name": "No Brain 2",
+                "seed": 159
             },
             "opponent2": {
-                "id": null
+                "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                "name": "starcluster2",
+                "seed": 210
             },
             "match_games": []
         },

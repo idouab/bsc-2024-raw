@@ -20119,18 +20119,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87dcd0a0-324d-11ef-b347-0242ac1b0004",
                 "name": "Lone Wolf",
-                "seed": 22
+                "seed": 22,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
                 "name": "さにの子のこのここしたんたん",
-                "seed": 161
+                "seed": 161,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "87dcd0a0-324d-11ef-b347-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "87dcd0a0-324d-11ef-b347-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 430,
@@ -20139,18 +20174,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
                 "name": "뽀로로와 친구들",
-                "seed": 32
+                "seed": 32,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2e801882-360d-11ef-9670-0242ac1d0004",
                 "name": "カトマンズキッチン",
-                "seed": 98
+                "seed": 98,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e801882-360d-11ef-9670-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2e801882-360d-11ef-9670-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 431,
@@ -20435,7 +20505,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                "name": "뽀로로와 친구들",
+                "seed": 32
             },
             "opponent2": {
                 "id": null

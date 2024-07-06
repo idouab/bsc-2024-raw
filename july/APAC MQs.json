@@ -17780,18 +17780,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
                 "name": "Haerin",
-                "seed": 56
+                "seed": 56,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
                 "name": "official",
-                "seed": 74
+                "seed": 74,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 372,
@@ -18865,7 +18900,9 @@
                 "seed": 23
             },
             "opponent2": {
-                "id": null
+                "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                "name": "Haerin",
+                "seed": 56
             },
             "match_games": []
         },

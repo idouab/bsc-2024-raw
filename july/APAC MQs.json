@@ -11884,18 +11884,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "d6c908a4-3640-11ef-ac28-0242ac1d0004",
                 "name": "The Good Randoms",
-                "seed": 107
+                "seed": 107,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "87d23a6e-324d-11ef-8881-0242ac1b0004",
                 "name": "GM",
-                "seed": 65
+                "seed": 65,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "d6c908a4-3640-11ef-ac28-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "87d23a6e-324d-11ef-8881-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "d6c908a4-3640-11ef-ac28-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "87d23a6e-324d-11ef-8881-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 220,

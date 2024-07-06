@@ -43142,18 +43142,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ef048892-3593-11ef-823e-0242ac1d0004",
                 "name": "Order 66",
-                "seed": 453
+                "seed": 453,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
                 "name": "G6",
-                "seed": 209
+                "seed": 209,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "ef048892-3593-11ef-823e-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "ef048892-3593-11ef-823e-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "ef048892-3593-11ef-823e-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 921,
@@ -43609,10 +43659,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
+                "name": "G6",
+                "seed": 209
             },
             "opponent2": {
-                "id": null
+                "id": "f6e941a6-3250-11ef-ac46-0242ac1b0004",
+                "name": "Fs|Sh4dows",
+                "seed": 92
             },
             "match_games": []
         },

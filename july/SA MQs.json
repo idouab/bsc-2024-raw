@@ -5470,6 +5470,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "26b92dbe-37c0-11ef-9e7e-0242ac1c0004",
+            "tournament_id": 0,
+            "name": "PC | SPORTS",
+            "players": [
+                "☔ [IceCrow™]▒▒▒",
+                "TF | Pinia",
+                "FRANK",
+                "ASHURA SENJU"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3d1971cc-3716-11ef-89c1-0242ac1b0004",
             "tournament_id": 0,
             "name": "OS BIRIMBINHAS",
@@ -5511,6 +5523,40 @@
                 "EA_Toper1x",
                 "Adolf.D",
                 "Yorch"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "7d635836-35bf-11ef-9cfd-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "SapeGato",
+            "players": [
+                "ArepaDeQueso",
+                "新入り Slayer",
+                "A | ꜱɴᴀᴋᴇ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "TeamHyper",
+            "players": [
+                "SkymiX_Zero72",
+                "𝖧𝖾𝗒𝗄𝗈 ☆",
+                "TP|TheFacus"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
+            "tournament_id": 0,
+            "name": "Carga Pesada 2.0",
+            "players": [
+                "KLOVIS",
+                "ernesto_lontra",
+                "Ericson_EFI UFV",
+                "Lucinzoka"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -5657,6 +5703,17 @@
                 "HDF|EDUARDO⚡⚡",
                 "꧁ᴳᵒᵈ꧁༺J꙰O꙰K꙰E꙰R",
                 "briskplains"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "54920e12-3b3b-11ef-aa35-0242ac130004",
+            "tournament_id": 0,
+            "name": "rompeqls",
+            "players": [
+                "QLS|ESTEF☣☠",
+                "☣️MarsGV☣️☠️",
+                "ijbiñij"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6004,6 +6061,17 @@
                 "JOÃO STARS",
                 "Augusto",
                 "arturbrasil"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "THE WINNERS",
+            "players": [
+                "SCOTY",
+                "Mazul_br",
+                "~ALESMA~XANDRE~"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -6780,7 +6848,7 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a81f0648-3668-11ef-916c-0242ac1b0004",
                 "name": "Los perrinhos",
@@ -6789,7 +6857,8 @@
             "opponent2": {
                 "id": "26b92dbe-37c0-11ef-9e7e-0242ac1c0004",
                 "name": "PC | SPORTS",
-                "seed": 305
+                "seed": 305,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -7082,18 +7151,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ddd8e37e-362e-11ef-bd3d-0242ac1d0004",
                 "name": "FULLSWEET",
-                "seed": 249
+                "seed": 249,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
                 "name": "McLovin",
-                "seed": 264
+                "seed": 264,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "ddd8e37e-362e-11ef-bd3d-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ddd8e37e-362e-11ef-bd3d-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "ddd8e37e-362e-11ef-bd3d-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 35,
@@ -7388,18 +7507,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7d635836-35bf-11ef-9cfd-0242ac1b0004",
                 "name": "SapeGato",
-                "seed": 217
+                "seed": 217,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4b218f54-363d-11ef-9a83-0242ac1d0004",
                 "name": "FEBITIFE",
-                "seed": 296
+                "seed": 296,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7d635836-35bf-11ef-9cfd-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b218f54-363d-11ef-9a83-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7d635836-35bf-11ef-9cfd-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4b218f54-363d-11ef-9a83-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 47,
@@ -7564,18 +7718,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
                 "name": "Black Bulls",
-                "seed": 73
+                "seed": 73,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
                 "name": "TeamHyper",
-                "seed": 440
+                "seed": 440,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 56,
@@ -7584,18 +7773,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
                 "name": "Carga Pesada 2.0",
-                "seed": 184
+                "seed": 184,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "89fc948e-38aa-11ef-b99f-0242ac1d0004",
                 "name": "Los CaníbaleSports",
-                "seed": 329
+                "seed": 329,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89fc948e-38aa-11ef-b99f-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89fc948e-38aa-11ef-b99f-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "89fc948e-38aa-11ef-b99f-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 57,
@@ -8328,18 +8567,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1177ac90-35af-11ef-9645-0242ac1b0004",
                 "name": "MIJINES|FC",
-                "seed": 244
+                "seed": 244,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
                 "name": "Perfect Chaos",
-                "seed": 269
+                "seed": 269,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "1177ac90-35af-11ef-9645-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "1177ac90-35af-11ef-9645-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "1177ac90-35af-11ef-9645-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 83,
@@ -9101,18 +9390,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
                 "name": "Perde baixo",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "54920e12-3b3b-11ef-aa35-0242ac130004",
                 "name": "rompeqls",
-                "seed": 476
+                "seed": 476,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54920e12-3b3b-11ef-aa35-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "54920e12-3b3b-11ef-aa35-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 110,
@@ -12880,18 +13204,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f2a77af4-3250-11ef-bcd5-0242ac1b0004",
                 "name": "Riot Reds",
-                "seed": 155
+                "seed": 155,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
                 "name": "THE WINNERS",
-                "seed": 358
+                "seed": 358,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f2a77af4-3250-11ef-bcd5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f2a77af4-3250-11ef-bcd5-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f2a77af4-3250-11ef-bcd5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 237,
@@ -13724,7 +14098,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                "name": "McLovin",
+                "seed": 264
             },
             "match_games": []
         },
@@ -13903,10 +14279,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
+                "name": "Black Bulls",
+                "seed": 73
             },
             "opponent2": {
-                "id": null
+                "id": "89fc948e-38aa-11ef-b99f-0242ac1d0004",
+                "name": "Los CaníbaleSports",
+                "seed": 329
             },
             "match_games": []
         },
@@ -14130,7 +14510,9 @@
                 "seed": 13
             },
             "opponent2": {
-                "id": null
+                "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                "name": "Perfect Chaos",
+                "seed": 269
             },
             "match_games": []
         },
@@ -14365,7 +14747,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
+                "name": "Perde baixo",
+                "seed": 37
             },
             "opponent2": {
                 "id": null
@@ -15456,7 +15840,9 @@
                 "seed": 102
             },
             "opponent2": {
-                "id": null
+                "id": "f2a77af4-3250-11ef-bcd5-0242ac1b0004",
+                "name": "Riot Reds",
+                "seed": 155
             },
             "match_games": []
         },
@@ -17965,10 +18351,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cbcee3e6-395c-11ef-a28c-0242ac1d0004",
+                "name": "TeamHyper",
+                "seed": 440
             },
             "opponent2": {
-                "id": null
+                "id": "7aada82a-3b15-11ef-80e7-0242ac130004",
+                "name": "Carga Pesada 2.0",
+                "seed": 184
             },
             "match_games": []
         },
@@ -18301,7 +18691,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54920e12-3b3b-11ef-aa35-0242ac130004",
+                "name": "rompeqls",
+                "seed": 476
             },
             "opponent2": {
                 "id": null
@@ -19134,7 +19526,9 @@
                 "seed": 411
             },
             "opponent2": {
-                "id": null
+                "id": "08fbfe4c-36f2-11ef-9a99-0242ac1b0004",
+                "name": "THE WINNERS",
+                "seed": 358
             },
             "match_games": []
         },

@@ -42120,18 +42120,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
                 "name": "FKC",
-                "seed": 271
+                "seed": 271,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
                 "name": "Perde baixo",
-                "seed": 37
+                "seed": 37,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f00e5a7e-3250-11ef-a359-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 895,
@@ -43103,7 +43138,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                "name": "FKC",
+                "seed": 271
             },
             "opponent2": {
                 "id": null

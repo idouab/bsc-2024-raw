@@ -9992,18 +9992,53 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
                 "name": "Bob",
-                "seed": 201
+                "seed": 201,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
                 "name": "EXTREMIS",
-                "seed": 184
+                "seed": 184,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 135,

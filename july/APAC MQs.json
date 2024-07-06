@@ -15803,18 +15803,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
                 "name": "走れば5分",
-                "seed": 148
+                "seed": 148,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
                 "name": "Thunder⚡️Assassins",
-                "seed": 212
+                "seed": 212,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 326,
@@ -16228,18 +16263,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6492ae42-376d-11ef-b388-0242ac1b0004",
                 "name": "TeamGurjar",
-                "seed": 147
+                "seed": 147,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "40afd5b8-36f0-11ef-b58c-0242ac1b0004",
                 "name": "Special Forces",
-                "seed": 174
+                "seed": 174,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "6492ae42-376d-11ef-b388-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "40afd5b8-36f0-11ef-b58c-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "6492ae42-376d-11ef-b388-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "40afd5b8-36f0-11ef-b58c-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 342,
@@ -16903,7 +16973,9 @@
                 "seed": 71
             },
             "opponent2": {
-                "id": null
+                "id": "40afd5b8-36f0-11ef-b58c-0242ac1b0004",
+                "name": "Special Forces",
+                "seed": 174
             },
             "match_games": []
         },

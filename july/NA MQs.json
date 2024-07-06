@@ -36748,18 +36748,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "39d10a6e-359c-11ef-abbd-0242ac1d0004",
                 "name": "Pusbal",
-                "seed": 594
+                "seed": 594,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
                 "name": "J-Definitely",
-                "seed": 175
+                "seed": 175,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "39d10a6e-359c-11ef-abbd-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "39d10a6e-359c-11ef-abbd-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "39d10a6e-359c-11ef-abbd-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1119,
@@ -44629,7 +44679,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                "name": "J-Definitely",
+                "seed": 175
             },
             "opponent2": {
                 "id": null

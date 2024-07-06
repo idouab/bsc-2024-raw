@@ -6078,6 +6078,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Goatsports",
+            "players": [
+                "Goat Duarte 🍁",
+                "Goat Sebas 🍁",
+                "Simp De Tara✨💜"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ec8429d8-35a7-11ef-b71d-0242ac1d0004",
             "tournament_id": 0,
             "name": "O trio",
@@ -10234,18 +10245,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f64fd35e-3250-11ef-98a6-0242ac1b0004",
                 "name": "Wings E-Sports",
-                "seed": 157
+                "seed": 157,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
                 "name": "Goatsports",
-                "seed": 356
+                "seed": 356,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f64fd35e-3250-11ef-98a6-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f64fd35e-3250-11ef-98a6-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f64fd35e-3250-11ef-98a6-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 77,
@@ -17488,7 +17549,9 @@
                 "seed": 100
             },
             "opponent2": {
-                "id": null
+                "id": "f64fd35e-3250-11ef-98a6-0242ac1b0004",
+                "name": "Wings E-Sports",
+                "seed": 157
             },
             "match_games": []
         },
@@ -21848,7 +21911,9 @@
                 "seed": 413
             },
             "opponent2": {
-                "id": null
+                "id": "f46ada98-36f1-11ef-b931-0242ac1d0004",
+                "name": "Goatsports",
+                "seed": 356
             },
             "match_games": []
         },

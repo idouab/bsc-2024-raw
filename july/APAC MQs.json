@@ -2442,6 +2442,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "0-7 Esports",
+            "players": [
+                "Syaan❦ツ",
+                "Legend ❦ツ",
+                "I am a Criminal"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
             "tournament_id": 0,
             "name": "EXTREMIS",
@@ -2797,18 +2808,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a96287ac-3698-11ef-81cf-0242ac1d0004",
                 "name": "Princess",
-                "seed": 113
+                "seed": 113,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5ec7a492-3635-11ef-9e1d-0242ac1d0004",
                 "name": "useless team",
-                "seed": 144
+                "seed": 144,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "a96287ac-3698-11ef-81cf-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5ec7a492-3635-11ef-9e1d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a96287ac-3698-11ef-81cf-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5ec7a492-3635-11ef-9e1d-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 11,
@@ -2989,18 +3035,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a26a354-324d-11ef-b84a-0242ac1b0004",
                 "name": "Spartans",
-                "seed": 72
+                "seed": 72,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "688d7118-357d-11ef-9259-0242ac1d0004",
                 "name": "0-7 Esports",
-                "seed": 185
+                "seed": 185,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a26a354-324d-11ef-b84a-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a26a354-324d-11ef-b84a-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 21,
@@ -5221,7 +5302,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "5ec7a492-3635-11ef-9e1d-0242ac1d0004",
+                "name": "useless team",
+                "seed": 144
             },
             "match_games": []
         },

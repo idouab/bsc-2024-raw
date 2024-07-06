@@ -19201,18 +19201,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88633bf4-324d-11ef-ac54-0242ac1b0004",
                 "name": "Down Bad",
-                "seed": 29
+                "seed": 29,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
                 "name": "SPIN",
-                "seed": 41
+                "seed": 41,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "88633bf4-324d-11ef-ac54-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "88633bf4-324d-11ef-ac54-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 406,
@@ -19451,18 +19486,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88fd99d8-324d-11ef-af09-0242ac1b0004",
                 "name": "Ethereal",
-                "seed": 42
+                "seed": 42,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "001107a0-36e3-11ef-b2f1-0242ac1d0004",
                 "name": "meet in lcq",
-                "seed": 137
+                "seed": 137,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "88fd99d8-324d-11ef-af09-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "001107a0-36e3-11ef-b2f1-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "88fd99d8-324d-11ef-af09-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "001107a0-36e3-11ef-b2f1-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 415,
@@ -19666,7 +19736,9 @@
                 "seed": 10
             },
             "opponent2": {
-                "id": null
+                "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
+                "name": "SPIN",
+                "seed": 41
             },
             "match_games": []
         },
@@ -19832,7 +19904,9 @@
                 "seed": 36
             },
             "opponent2": {
-                "id": null
+                "id": "001107a0-36e3-11ef-b2f1-0242ac1d0004",
+                "name": "meet in lcq",
+                "seed": 137
             },
             "match_games": []
         },

@@ -53162,18 +53162,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
                 "name": "AK | Team",
-                "seed": 93
+                "seed": 93,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "28158f94-3672-11ef-a3d7-0242ac1d0004",
                 "name": "P2W",
-                "seed": 292
+                "seed": 292,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28158f94-3672-11ef-a3d7-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "28158f94-3672-11ef-a3d7-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1372,
@@ -54208,18 +54243,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e50a3ae6-3b54-11ef-b4a5-0242ac130004",
                 "name": "MRC TEAM",
-                "seed": 601
+                "seed": 601,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
                 "name": "Sigma",
-                "seed": 552
+                "seed": 552,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "e50a3ae6-3b54-11ef-b4a5-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e50a3ae6-3b54-11ef-b4a5-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1412,
@@ -54712,7 +54782,9 @@
                 "seed": 394
             },
             "opponent2": {
-                "id": null
+                "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
+                "name": "AK | Team",
+                "seed": 93
             },
             "match_games": []
         },
@@ -55448,7 +55520,9 @@
                 "seed": 141
             },
             "opponent2": {
-                "id": null
+                "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
+                "name": "Sigma",
+                "seed": 552
             },
             "match_games": []
         },

@@ -22928,6 +22928,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
+            "tournament_id": 0,
+            "name": "Starrlight",
+            "players": [
+                "ΣΕΒΑΓΚ",
+                "YezoKiller",
+                "Marianna"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3914593c-356a-11ef-a3a9-0242ac1d0004",
             "tournament_id": 0,
             "name": "Firey 🔥",
@@ -26201,6 +26212,17 @@
                 "NNC|Ninjanharin",
                 "Netokemos",
                 "PaperKnight"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Rang 30",
+            "players": [
+                "End_Korn",
+                "End_PEKKA",
+                "Rick Grimes"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -30070,18 +30092,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d6b4fdec-35f9-11ef-9131-0242ac1b0004",
                 "name": "Yeniceabat City",
-                "seed": 817
+                "seed": 817,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
                 "name": "Starrlight",
-                "seed": 1232
+                "seed": 1232,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "d6b4fdec-35f9-11ef-9131-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "d6b4fdec-35f9-11ef-9131-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "d6b4fdec-35f9-11ef-9131-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 87,
@@ -43205,18 +43277,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a791ec6-324e-11ef-9f09-0242ac1b0004",
                 "name": "CROWMATICK",
-                "seed": 908
+                "seed": 908,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
                 "name": "Rang 30",
-                "seed": 1141
+                "seed": 1141,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a791ec6-324e-11ef-9f09-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a791ec6-324e-11ef-9f09-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "8a791ec6-324e-11ef-9f09-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 459,
@@ -55915,7 +56037,9 @@
                 "seed": 208
             },
             "opponent2": {
-                "id": null
+                "id": "d6b4fdec-35f9-11ef-9131-0242ac1b0004",
+                "name": "Yeniceabat City",
+                "seed": 817
             },
             "match_games": []
         },
@@ -59577,7 +59701,9 @@
                 "seed": 117
             },
             "opponent2": {
-                "id": null
+                "id": "8a791ec6-324e-11ef-9f09-0242ac1b0004",
+                "name": "CROWMATICK",
+                "seed": 908
             },
             "match_games": []
         },
@@ -73135,7 +73261,9 @@
                 "seed": 1841
             },
             "opponent2": {
-                "id": null
+                "id": "0f609f44-37b6-11ef-9539-0242ac1c0004",
+                "name": "Starrlight",
+                "seed": 1232
             },
             "match_games": []
         },
@@ -76177,7 +76305,9 @@
                 "seed": 1932
             },
             "opponent2": {
-                "id": null
+                "id": "e520deee-35f1-11ef-8594-0242ac1b0004",
+                "name": "Rang 30",
+                "seed": 1141
             },
             "match_games": []
         },

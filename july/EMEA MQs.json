@@ -24951,6 +24951,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Les Vaches",
+            "players": [
+                "paxe",
+                "mamelemeu",
+                "rayou🇲🇦"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "cf179dae-357e-11ef-8c1b-0242ac1b0004",
             "tournament_id": 0,
             "name": "Kakopaixtes",
@@ -38208,18 +38219,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
                 "name": "Les Vaches",
-                "seed": 733
+                "seed": 733,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "4ec08ffc-38ae-11ef-b21f-0242ac1d0004",
                 "name": "Dream star",
-                "seed": 1316
+                "seed": 1316,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4ec08ffc-38ae-11ef-b21f-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4ec08ffc-38ae-11ef-b21f-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "4ec08ffc-38ae-11ef-b21f-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 313,
@@ -58377,7 +58438,9 @@
                 "seed": 1757
             },
             "opponent2": {
-                "id": null
+                "id": "4ec08ffc-38ae-11ef-b21f-0242ac1d0004",
+                "name": "Dream star",
+                "seed": 1316
             },
             "match_games": []
         },
@@ -75229,7 +75292,9 @@
                 "seed": 292
             },
             "opponent2": {
-                "id": null
+                "id": "7d94a758-3658-11ef-83ea-0242ac1d0004",
+                "name": "Les Vaches",
+                "seed": 733
             },
             "match_games": []
         },

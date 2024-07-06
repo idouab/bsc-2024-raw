@@ -55476,18 +55476,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f5e1875c-3b9f-11ef-b11e-0242ac130004",
                 "name": "Twice",
-                "seed": 633
+                "seed": 633,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "301259e0-3ba7-11ef-a1d4-0242ac130004",
                 "name": "MegaOX",
-                "seed": 249
+                "seed": 249,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f5e1875c-3b9f-11ef-b11e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "301259e0-3ba7-11ef-a1d4-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f5e1875c-3b9f-11ef-b11e-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "301259e0-3ba7-11ef-a1d4-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "f5e1875c-3b9f-11ef-b11e-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "301259e0-3ba7-11ef-a1d4-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1415,
@@ -56965,7 +57015,9 @@
                 "seed": 557
             },
             "opponent2": {
-                "id": null
+                "id": "f5e1875c-3b9f-11ef-b11e-0242ac130004",
+                "name": "Twice",
+                "seed": 633
             },
             "match_games": []
         },

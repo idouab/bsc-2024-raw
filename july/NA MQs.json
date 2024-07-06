@@ -46570,18 +46570,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5f2f307e-372c-11ef-87ff-0242ac1d0004",
                 "name": "M-A Esports",
-                "seed": 422
+                "seed": 422,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
                 "name": "SDC Demons",
-                "seed": 497
+                "seed": 497,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "5f2f307e-372c-11ef-87ff-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "5f2f307e-372c-11ef-87ff-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "5f2f307e-372c-11ef-87ff-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1031,
@@ -49020,7 +49070,9 @@
                 "seed": 271
             },
             "opponent2": {
-                "id": null
+                "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                "name": "SDC Demons",
+                "seed": 497
             },
             "match_games": []
         },

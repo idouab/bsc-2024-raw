@@ -2488,6 +2488,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Bob",
+            "players": [
+                "Bob_yuuuu",
+                "Bob_shuxn",
+                "ツバサ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
             "tournament_id": 0,
             "name": "EXTREMIS",
@@ -2529,6 +2540,17 @@
                 "かまぼこ村長",
                 "banga",
                 "何をされている方なの？"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "cbd67ed2-3888-11ef-840b-0242ac1c0004",
+            "tournament_id": 0,
+            "name": "拓矢にシュート",
+            "players": [
+                "フェイタン",
+                "(ϋ)/",
+                "いっぬ37号"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -3480,18 +3502,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
                 "name": "Haerin",
-                "seed": 56
+                "seed": 56,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
                 "name": "Bob",
-                "seed": 201
+                "seed": 201,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 28,
@@ -4562,18 +4619,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89027eb2-324d-11ef-b07c-0242ac1b0004",
                 "name": "Yk",
-                "seed": 63
+                "seed": 63,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "cbd67ed2-3888-11ef-840b-0242ac1c0004",
                 "name": "拓矢にシュート",
-                "seed": 194
+                "seed": 194,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "89027eb2-324d-11ef-b07c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbd67ed2-3888-11ef-840b-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "89027eb2-324d-11ef-b07c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "cbd67ed2-3888-11ef-840b-0242ac1c0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 68,
@@ -6386,10 +6478,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "892838e6-324d-11ef-8e57-0242ac1b0004",
+                "name": "Haerin",
+                "seed": 56
             },
             "opponent2": {
-                "id": null
+                "id": "7a110878-3627-11ef-ac63-0242ac1b0004",
+                "name": "🕊️𝓴𝓱𝓸𝓴𝓱𝔂🕊️",
+                "seed": 73
             },
             "match_games": []
         },
@@ -6744,7 +6840,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "89027eb2-324d-11ef-b07c-0242ac1b0004",
+                "name": "Yk",
+                "seed": 63
             },
             "opponent2": {
                 "id": null
@@ -8346,10 +8444,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "46710344-35c6-11ef-aafa-0242ac1d0004",
+                "name": "Bob",
+                "seed": 201
             },
             "opponent2": {
-                "id": null
+                "id": "09ffca32-37a4-11ef-b1d0-0242ac1d0004",
+                "name": "EXTREMIS",
+                "seed": 184
             },
             "match_games": []
         },
@@ -8478,7 +8580,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "cbd67ed2-3888-11ef-840b-0242ac1c0004",
+                "name": "拓矢にシュート",
+                "seed": 194
             },
             "opponent2": {
                 "id": null

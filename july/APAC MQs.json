@@ -2487,6 +2487,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "89d1ee70-3768-11ef-8c0b-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "やきぃもちぃ",
+            "players": [
+                "れんふぁ🦈🔱",
+                "北林初号機",
+                "allmight"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "2d7faf7a-393b-11ef-9146-0242ac1d0004",
             "tournament_id": 0,
             "name": "Xaviers XVII",
@@ -4320,18 +4331,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
                 "name": "Opkids",
-                "seed": 79
+                "seed": 79,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "89d1ee70-3768-11ef-8c0b-0242ac1d0004",
                 "name": "やきぃもちぃ",
-                "seed": 178
+                "seed": 178,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89d1ee70-3768-11ef-8c0b-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89d1ee70-3768-11ef-8c0b-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 77,

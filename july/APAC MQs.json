@@ -3829,18 +3829,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e60338e2-3606-11ef-9f8b-0242ac1b0004",
                 "name": "muramura中mura",
-                "seed": 93
+                "seed": 93,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
                 "name": "SOUL",
-                "seed": 164
+                "seed": 164,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "e60338e2-3606-11ef-9f8b-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "e60338e2-3606-11ef-9f8b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "e60338e2-3606-11ef-9f8b-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 41,
@@ -6445,7 +6495,9 @@
                 "seed": 36
             },
             "opponent2": {
-                "id": null
+                "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                "name": "SOUL",
+                "seed": 164
             },
             "match_games": []
         },

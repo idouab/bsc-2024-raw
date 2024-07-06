@@ -15685,18 +15685,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
                 "name": "Rowdy Pookies",
-                "seed": 153
+                "seed": 153,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "75de1048-3631-11ef-88da-0242ac1d0004",
                 "name": "Elf",
-                "seed": 142
+                "seed": 142,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75de1048-3631-11ef-88da-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "75de1048-3631-11ef-88da-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 320,
@@ -16656,7 +16691,9 @@
                 "seed": 180
             },
             "opponent2": {
-                "id": null
+                "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                "name": "Rowdy Pookies",
+                "seed": 153
             },
             "match_games": []
         },

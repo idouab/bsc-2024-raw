@@ -41447,18 +41447,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ba223e4c-3b30-11ef-a654-0242ac130004",
                 "name": "TEMPLARIOS",
-                "seed": 472
+                "seed": 472,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f55ec446-3250-11ef-a250-0242ac1b0004",
                 "name": "Luriwashington",
-                "seed": 105
+                "seed": 105,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "ba223e4c-3b30-11ef-a654-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f55ec446-3250-11ef-a250-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "ba223e4c-3b30-11ef-a654-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f55ec446-3250-11ef-a250-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 877,
@@ -42318,7 +42353,9 @@
                 "seed": 61
             },
             "opponent2": {
-                "id": null
+                "id": "f55ec446-3250-11ef-a250-0242ac1b0004",
+                "name": "Luriwashington",
+                "seed": 105
             },
             "match_games": []
         },

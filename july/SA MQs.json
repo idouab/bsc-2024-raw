@@ -5764,6 +5764,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f01537b8-3250-11ef-bcca-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "los tts",
+            "players": [
+                "Ttttomi28",
+                "Slayer809",
+                "Tu Hermana"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "f8c8048e-3648-11ef-bc46-0242ac1d0004",
             "tournament_id": 0,
             "name": "CHI",
@@ -9849,18 +9860,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f01537b8-3250-11ef-bcca-0242ac1b0004",
                 "name": "los tts",
-                "seed": 181
+                "seed": 181,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dea872fe-3680-11ef-b3d8-0242ac1b0004",
                 "name": "RLL|Anteiku",
-                "seed": 332
+                "seed": 332,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f01537b8-3250-11ef-bcca-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dea872fe-3680-11ef-b3d8-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f01537b8-3250-11ef-bcca-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dea872fe-3680-11ef-b3d8-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 121,
@@ -10146,18 +10192,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "34daf9e0-363a-11ef-bf3d-0242ac1b0004",
                 "name": "The Unknown",
-                "seed": 255
+                "seed": 255,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4f07b4b8-35c0-11ef-855c-0242ac1d0004",
                 "name": "YoYLosSkibidi",
-                "seed": 258
+                "seed": 258,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "34daf9e0-363a-11ef-bf3d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4f07b4b8-35c0-11ef-855c-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "34daf9e0-363a-11ef-bf3d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4f07b4b8-35c0-11ef-855c-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 131,
@@ -15032,7 +15113,9 @@
                 "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "34daf9e0-363a-11ef-bf3d-0242ac1b0004",
+                "name": "The Unknown",
+                "seed": 255
             },
             "match_games": []
         },

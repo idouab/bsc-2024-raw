@@ -43664,18 +43664,68 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "edefe762-3250-11ef-a00c-0242ac1b0004",
                 "name": "Legends Stars",
-                "seed": 36
+                "seed": 36,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
                 "name": "THE FUMAS",
-                "seed": 471
+                "seed": 471,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "edefe762-3250-11ef-a00c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "edefe762-3250-11ef-a00c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "edefe762-3250-11ef-a00c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 932,
@@ -44416,7 +44466,9 @@
                 "seed": 157
             },
             "opponent2": {
-                "id": null
+                "id": "edefe762-3250-11ef-a00c-0242ac1b0004",
+                "name": "Legends Stars",
+                "seed": 36
             },
             "match_games": []
         },

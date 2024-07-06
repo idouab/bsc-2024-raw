@@ -25706,6 +25706,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "3d6f34a0-3576-11ef-8335-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Nuh'un Gemisi",
+            "players": [
+                "AXENNx9",
+                "ArZ|_NEON_SWETY",
+                "EREN💗ÖYKÜ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "6d2f7748-324e-11ef-9258-0242ac1b0004",
             "tournament_id": 0,
             "name": "We Are Him",
@@ -41505,18 +41516,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7f1adfec-324e-11ef-b314-0242ac1b0004",
                 "name": "SMF E-SPORTS",
-                "seed": 173
+                "seed": 173,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3d6f34a0-3576-11ef-8335-0242ac1d0004",
                 "name": "Nuh'un Gemisi",
-                "seed": 1876
+                "seed": 1876,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7f1adfec-324e-11ef-b314-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d6f34a0-3576-11ef-8335-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7f1adfec-324e-11ef-b314-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3d6f34a0-3576-11ef-8335-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 382,
@@ -59970,7 +60016,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7f1adfec-324e-11ef-b314-0242ac1b0004",
+                "name": "SMF E-SPORTS",
+                "seed": 173
             },
             "opponent2": {
                 "id": null
@@ -76756,7 +76804,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3d6f34a0-3576-11ef-8335-0242ac1d0004",
+                "name": "Nuh'un Gemisi",
+                "seed": 1876
             },
             "opponent2": {
                 "id": null

@@ -15654,18 +15654,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
                 "name": "official",
-                "seed": 74
+                "seed": 74,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4af633ae-362e-11ef-a10d-0242ac1d0004",
                 "name": "進擊的第尛小隊",
-                "seed": 138
+                "seed": 138,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4af633ae-362e-11ef-a10d-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4af633ae-362e-11ef-a10d-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 324,
@@ -15754,18 +15789,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "870a21f0-324d-11ef-9e6d-0242ac1b0004",
                 "name": "早熟",
-                "seed": 34
+                "seed": 34,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "868fff60-324d-11ef-a1ef-0242ac1b0004",
                 "name": "The Besting",
-                "seed": 31
+                "seed": 31,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "870a21f0-324d-11ef-9e6d-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "868fff60-324d-11ef-a1ef-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "870a21f0-324d-11ef-9e6d-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "868fff60-324d-11ef-a1ef-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 329,
@@ -16320,7 +16390,9 @@
                 "seed": 56
             },
             "opponent2": {
-                "id": null
+                "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                "name": "official",
+                "seed": 74
             },
             "match_games": []
         },
@@ -16410,7 +16482,9 @@
                 "seed": 161
             },
             "opponent2": {
-                "id": null
+                "id": "868fff60-324d-11ef-a1ef-0242ac1b0004",
+                "name": "The Besting",
+                "seed": 31
             },
             "match_games": []
         },

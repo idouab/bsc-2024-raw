@@ -54861,18 +54861,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5eba901a-3250-11ef-8844-0242ac1b0004",
                 "name": "SAURIS GAMING",
-                "seed": 179
+                "seed": 179,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2dcd2eb8-39bc-11ef-9e0f-0242ac1c0004",
                 "name": "😾",
-                "seed": 563
+                "seed": 563,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "5eba901a-3250-11ef-8844-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2dcd2eb8-39bc-11ef-9e0f-0242ac1c0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5eba901a-3250-11ef-8844-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "2dcd2eb8-39bc-11ef-9e0f-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "5eba901a-3250-11ef-8844-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2dcd2eb8-39bc-11ef-9e0f-0242ac1c0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1402,
@@ -56565,7 +56615,9 @@
                 "seed": 281
             },
             "opponent2": {
-                "id": null
+                "id": "5eba901a-3250-11ef-8844-0242ac1b0004",
+                "name": "SAURIS GAMING",
+                "seed": 179
             },
             "match_games": []
         },

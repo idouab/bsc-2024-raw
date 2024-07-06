@@ -43256,18 +43256,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "895b1a24-359d-11ef-b16d-0242ac1b0004",
                 "name": "Elusive Gaming",
-                "seed": 596
+                "seed": 596,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
                 "name": "Ascendant",
-                "seed": 506
+                "seed": 506,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "895b1a24-359d-11ef-b16d-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "895b1a24-359d-11ef-b16d-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 959,
@@ -45764,7 +45799,9 @@
                 "seed": 264
             },
             "opponent2": {
-                "id": null
+                "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                "name": "Ascendant",
+                "seed": 506
             },
             "match_games": []
         },

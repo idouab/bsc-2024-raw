@@ -6224,6 +6224,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "23068b4c-3687-11ef-905d-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Licuacleta",
+            "players": [
+                "Butragueño",
+                "Gael089",
+                "Cerre7"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "f8b5a408-35a1-11ef-9d46-0242ac1b0004",
             "tournament_id": 0,
             "name": "Cromaticrus",
@@ -13828,18 +13839,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f6dd7e0c-3250-11ef-a405-0242ac1b0004",
                 "name": "Buxinhas",
-                "seed": 179
+                "seed": 179,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "23068b4c-3687-11ef-905d-0242ac1d0004",
                 "name": "Licuacleta",
-                "seed": 334
+                "seed": 334,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f6dd7e0c-3250-11ef-a405-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23068b4c-3687-11ef-905d-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f6dd7e0c-3250-11ef-a405-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "23068b4c-3687-11ef-905d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f6dd7e0c-3250-11ef-a405-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23068b4c-3687-11ef-905d-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 217,

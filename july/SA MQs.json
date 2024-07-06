@@ -39184,18 +39184,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5fbc9f6c-37c8-11ef-b22e-0242ac1d0004",
                 "name": "Jorgito",
-                "seed": 307
+                "seed": 307,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
                 "name": "Grasosos",
-                "seed": 52
+                "seed": 52,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "5fbc9f6c-37c8-11ef-b22e-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5fbc9f6c-37c8-11ef-b22e-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "5fbc9f6c-37c8-11ef-b22e-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 815,
@@ -39474,7 +39524,7 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a53658c4-3617-11ef-b3ef-0242ac1b0004",
                 "name": "𝕷𝖆𝖙𝖎𝖓𝖔𝕲𝖆𝖓𝖌",
@@ -39483,7 +39533,8 @@
             "opponent2": {
                 "id": "de7f73ca-3ae7-11ef-9f55-0242ac130004",
                 "name": "HERO⁷⚡⁷UNITED",
-                "seed": 462
+                "seed": 462,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -40185,7 +40236,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5d65498-3250-11ef-aeda-0242ac1b0004",
+                "name": "Grasosos",
+                "seed": 52
             },
             "opponent2": {
                 "id": null
@@ -40270,7 +40323,9 @@
                 "seed": 243
             },
             "opponent2": {
-                "id": null
+                "id": "a53658c4-3617-11ef-b3ef-0242ac1b0004",
+                "name": "𝕷𝖆𝖙𝖎𝖓𝖔𝕲𝖆𝖓𝖌",
+                "seed": 282
             },
             "match_games": []
         },

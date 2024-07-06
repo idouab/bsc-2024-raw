@@ -5437,6 +5437,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "É MINERO UAI",
+            "players": [
+                "PAQUITO",
+                "jobso",
+                "reick"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "d7acef7e-3591-11ef-8532-0242ac1d0004",
             "tournament_id": 0,
             "name": "Hage's Division",
@@ -6558,18 +6569,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
                 "name": "É MINERO UAI",
-                "seed": 128
+                "seed": 128,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "90ca19cc-3570-11ef-bbe1-0242ac1d0004",
                 "name": "OS",
-                "seed": 385
+                "seed": 385,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "90ca19cc-3570-11ef-bbe1-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "90ca19cc-3570-11ef-bbe1-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "90ca19cc-3570-11ef-bbe1-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -15069,7 +15130,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "90ca19cc-3570-11ef-bbe1-0242ac1d0004",
+                "name": "OS",
+                "seed": 385
             },
             "opponent2": {
                 "id": null
@@ -19283,7 +19346,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f0c9fcca-3250-11ef-a3db-0242ac1b0004",
+                "name": "É MINERO UAI",
+                "seed": 128
             },
             "opponent2": {
                 "id": null

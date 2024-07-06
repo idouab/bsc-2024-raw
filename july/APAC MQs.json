@@ -2465,6 +2465,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "869326cc-324d-11ef-93e5-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "TRI LUMINARY",
+            "players": [
+                "LYC|FLAME",
+                "Sahil",
+                "Rocky",
+                "ĐRAGØ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "688d7118-357d-11ef-9259-0242ac1d0004",
             "tournament_id": 0,
             "name": "0-7 Esports",
@@ -3200,18 +3212,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "869326cc-324d-11ef-93e5-0242ac1b0004",
                 "name": "TRI LUMINARY",
-                "seed": 57
+                "seed": 57,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "06cf2aec-3925-11ef-9faf-0242ac1c0004",
                 "name": "5kg Bench Press",
-                "seed": 200
+                "seed": 200,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "869326cc-324d-11ef-93e5-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "06cf2aec-3925-11ef-9faf-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "869326cc-324d-11ef-93e5-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "06cf2aec-3925-11ef-9faf-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 20,
@@ -6064,10 +6111,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "06cf2aec-3925-11ef-9faf-0242ac1c0004",
+                "name": "5kg Bench Press",
+                "seed": 200
             },
             "opponent2": {
-                "id": null
+                "id": "8a26a354-324d-11ef-b84a-0242ac1b0004",
+                "name": "Spartans",
+                "seed": 72
             },
             "match_games": []
         },
@@ -8048,10 +8099,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "869326cc-324d-11ef-93e5-0242ac1b0004",
+                "name": "TRI LUMINARY",
+                "seed": 57
             },
             "opponent2": {
-                "id": null
+                "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                "name": "0-7 Esports",
+                "seed": 185
             },
             "match_games": []
         },

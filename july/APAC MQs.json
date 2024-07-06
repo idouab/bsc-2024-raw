@@ -10459,18 +10459,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
                 "name": "coco loco",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "62d1f2ba-35b1-11ef-b410-0242ac1d0004",
                 "name": "Yayasan team",
-                "seed": 189
+                "seed": 189,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62d1f2ba-35b1-11ef-b410-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62d1f2ba-35b1-11ef-b410-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 291,
@@ -11721,10 +11756,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                "name": "coco loco",
+                "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "8a454098-324d-11ef-bd90-0242ac1b0004",
+                "name": "Pausing Shutter",
+                "seed": 36
             },
             "match_games": []
         },
@@ -15189,7 +15228,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "62d1f2ba-35b1-11ef-b410-0242ac1d0004",
+                "name": "Yayasan team",
+                "seed": 189
             },
             "opponent2": {
                 "id": null

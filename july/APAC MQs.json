@@ -13756,18 +13756,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3b2b75f4-36d0-11ef-9d54-0242ac1b0004",
                 "name": "THE ANACHRONISTICS",
-                "seed": 127
+                "seed": 127,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
                 "name": "ばろーおくたにさぁーん",
-                "seed": 213
+                "seed": 213,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "3b2b75f4-36d0-11ef-9d54-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3b2b75f4-36d0-11ef-9d54-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 250,
@@ -15566,7 +15601,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
+                "name": "CSR",
+                "seed": 67
             },
             "opponent2": {
                 "id": null

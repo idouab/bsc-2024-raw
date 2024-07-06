@@ -41226,18 +41226,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
                 "name": "Homeless",
-                "seed": 10
+                "seed": 10,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
                 "name": "AZ",
-                "seed": 394
+                "seed": 394,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1340,
@@ -42427,7 +42462,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                "name": "Homeless",
+                "seed": 10
             },
             "opponent2": {
                 "id": null
@@ -49651,7 +49688,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                "name": "AZ",
+                "seed": 394
             },
             "opponent2": {
                 "id": null

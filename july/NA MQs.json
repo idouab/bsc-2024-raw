@@ -34738,18 +34738,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e1aad068-35a5-11ef-a212-0242ac1b0004",
                 "name": "PMM3.0",
-                "seed": 612
+                "seed": 612,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3dfa2dcc-3890-11ef-be4f-0242ac1d0004",
                 "name": "ADA",
-                "seed": 356
+                "seed": 356,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "e1aad068-35a5-11ef-a212-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3dfa2dcc-3890-11ef-be4f-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "e1aad068-35a5-11ef-a212-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3dfa2dcc-3890-11ef-be4f-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "e1aad068-35a5-11ef-a212-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3dfa2dcc-3890-11ef-be4f-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1077,
@@ -36993,7 +37043,7 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5e6cc344-3250-11ef-bd10-0242ac1b0004",
                 "name": "🍚The Rice Farmers🍚",
@@ -37002,7 +37052,8 @@
             "opponent2": {
                 "id": "6085b88e-3250-11ef-b69f-0242ac1b0004",
                 "name": "Aura",
-                "seed": 167
+                "seed": 167,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -38892,7 +38943,9 @@
                 "seed": 29
             },
             "opponent2": {
-                "id": null
+                "id": "e1aad068-35a5-11ef-a212-0242ac1b0004",
+                "name": "PMM3.0",
+                "seed": 612
             },
             "match_games": []
         },
@@ -43207,7 +43260,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3dfa2dcc-3890-11ef-be4f-0242ac1d0004",
+                "name": "ADA",
+                "seed": 356
             },
             "opponent2": {
                 "id": null
@@ -44549,7 +44604,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6085b88e-3250-11ef-b69f-0242ac1b0004",
+                "name": "Aura",
+                "seed": 167
             },
             "opponent2": {
                 "id": null

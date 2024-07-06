@@ -5448,6 +5448,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ed67a96a-3250-11ef-b9bb-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Trío alveño",
+            "players": [
+                "🇵🇪VEGITO",
+                "ñoño",
+                "🦇|卂ㄥ乇乂ツ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "366c7ea0-35ae-11ef-ac20-0242ac1d0004",
             "tournament_id": 0,
             "name": "Happy House",
@@ -5489,6 +5500,28 @@
                 "12000gabriel",
                 "Gueba",
                 "bksuper"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f0395a8a-3250-11ef-b630-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Renegades(RNG)",
+            "players": [
+                "ALC|🔥DUDU✨",
+                "ALC|Sunshine☀️",
+                "The Thur"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "e58d41f6-35ab-11ef-aae4-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "TGW",
+            "players": [
+                "INTZ|SHADOW_XD",
+                "高|Frosty ❆",
+                "ᴛʜᴇ|ɢʜᴏsᴛ"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
@@ -5977,18 +6010,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "545d2688-360a-11ef-8a99-0242ac1b0004",
                 "name": "Calvo aos 15",
-                "seed": 241
+                "seed": 241,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "67a6790c-35d2-11ef-9556-0242ac1b0004",
                 "name": "nombre del grupo",
-                "seed": 272
+                "seed": 272,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "545d2688-360a-11ef-8a99-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "67a6790c-35d2-11ef-9556-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "545d2688-360a-11ef-8a99-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "67a6790c-35d2-11ef-9556-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 19,
@@ -6384,18 +6452,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed67a96a-3250-11ef-b9bb-0242ac1b0004",
                 "name": "Trío alveño",
-                "seed": 57
+                "seed": 57,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "68a5a6b4-3a4d-11ef-8e43-0242ac1c0004",
                 "name": "Skyfull",
-                "seed": 456
+                "seed": 456,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "ed67a96a-3250-11ef-b9bb-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "68a5a6b4-3a4d-11ef-8e43-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ed67a96a-3250-11ef-b9bb-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "68a5a6b4-3a4d-11ef-8e43-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 38,
@@ -9492,18 +9595,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f0395a8a-3250-11ef-b630-0242ac1b0004",
                 "name": "Renegades(RNG)",
-                "seed": 42
+                "seed": 42,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
                 "name": "THE FUMAS",
-                "seed": 471
+                "seed": 471,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f0395a8a-3250-11ef-b630-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f0395a8a-3250-11ef-b630-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 190,
@@ -9728,18 +9866,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
                 "name": "Nova Vestroia",
-                "seed": 30
+                "seed": 30,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e58d41f6-35ab-11ef-aae4-0242ac1d0004",
                 "name": "TGW",
-                "seed": 483
+                "seed": 483,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e58d41f6-35ab-11ef-aae4-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e58d41f6-35ab-11ef-aae4-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 202,
@@ -10961,7 +11134,9 @@
                 "seed": 16
             },
             "opponent2": {
-                "id": null
+                "id": "545d2688-360a-11ef-8a99-0242ac1b0004",
+                "name": "Calvo aos 15",
+                "seed": 241
             },
             "match_games": []
         },
@@ -11122,7 +11297,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "68a5a6b4-3a4d-11ef-8e43-0242ac1c0004",
+                "name": "Skyfull",
+                "seed": 456
             },
             "opponent2": {
                 "id": null
@@ -12376,7 +12553,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7f2aef68-35a5-11ef-841d-0242ac1d0004",
+                "name": "THE FUMAS",
+                "seed": 471
             },
             "opponent2": {
                 "id": null
@@ -12474,7 +12653,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                "name": "Nova Vestroia",
+                "seed": 30
             },
             "opponent2": {
                 "id": null
@@ -15142,7 +15323,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ed67a96a-3250-11ef-b9bb-0242ac1b0004",
+                "name": "Trío alveño",
+                "seed": 57
             },
             "opponent2": {
                 "id": null
@@ -16072,7 +16255,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f0395a8a-3250-11ef-b630-0242ac1b0004",
+                "name": "Renegades(RNG)",
+                "seed": 42
             },
             "opponent2": {
                 "id": null
@@ -16152,7 +16337,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e58d41f6-35ab-11ef-aae4-0242ac1d0004",
+                "name": "TGW",
+                "seed": 483
             },
             "opponent2": {
                 "id": null

@@ -40687,18 +40687,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "66064288-3624-11ef-943c-0242ac1b0004",
                 "name": "Os pé preto",
-                "seed": 243
+                "seed": 243,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a53658c4-3617-11ef-b3ef-0242ac1b0004",
                 "name": "𝕷𝖆𝖙𝖎𝖓𝖔𝕲𝖆𝖓𝖌",
-                "seed": 282
+                "seed": 282,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "66064288-3624-11ef-943c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a53658c4-3617-11ef-b3ef-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "66064288-3624-11ef-943c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a53658c4-3617-11ef-b3ef-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 879,
@@ -41323,7 +41358,9 @@
                 "seed": 269
             },
             "opponent2": {
-                "id": null
+                "id": "66064288-3624-11ef-943c-0242ac1b0004",
+                "name": "Os pé preto",
+                "seed": 243
             },
             "match_games": []
         },

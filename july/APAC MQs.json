@@ -2499,6 +2499,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Thunder⚡️Assassins",
+            "players": [
+                "SG|sigma",
+                "✬「۷ɛŋơɱ」",
+                "SPK•阿貝🌵"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
             "tournament_id": 0,
             "name": "ばろーおくたにさぁーん",
@@ -3927,18 +3938,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8796c506-324d-11ef-a92a-0242ac1b0004",
                 "name": "菜就多練",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
                 "name": "Thunder⚡️Assassins",
-                "seed": 212
+                "seed": 212,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8796c506-324d-11ef-a92a-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8796c506-324d-11ef-a92a-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 48,
@@ -4131,18 +4177,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "59e7d1dc-36a2-11ef-bd79-0242ac1d0004",
                 "name": "アクア団",
-                "seed": 117
+                "seed": 117,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "58eb4fca-362f-11ef-a663-0242ac1b0004",
                 "name": "Squishy Ducks",
-                "seed": 140
+                "seed": 140,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "59e7d1dc-36a2-11ef-bd79-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58eb4fca-362f-11ef-a663-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "59e7d1dc-36a2-11ef-bd79-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58eb4fca-362f-11ef-a663-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 59,
@@ -6229,7 +6310,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8796c506-324d-11ef-a92a-0242ac1b0004",
+                "name": "菜就多練",
+                "seed": 45
             },
             "opponent2": {
                 "id": null
@@ -6320,7 +6403,9 @@
                 "seed": 12
             },
             "opponent2": {
-                "id": null
+                "id": "58eb4fca-362f-11ef-a663-0242ac1b0004",
+                "name": "Squishy Ducks",
+                "seed": 140
             },
             "match_games": []
         },
@@ -8059,7 +8144,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "23b122dc-3a88-11ef-b66a-0242ac1d0004",
+                "name": "Thunder⚡️Assassins",
+                "seed": 212
             },
             "opponent2": {
                 "id": null

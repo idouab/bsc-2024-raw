@@ -19176,18 +19176,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89bb842a-324d-11ef-8736-0242ac1b0004",
                 "name": "TEAM丨18+",
-                "seed": 37
+                "seed": 37,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
                 "name": "Baby Dragon",
-                "seed": 134
+                "seed": 134,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "89bb842a-324d-11ef-8736-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "89bb842a-324d-11ef-8736-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "89bb842a-324d-11ef-8736-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "93a73446-3628-11ef-99a4-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 404,
@@ -19918,7 +19968,9 @@
                 "seed": 210
             },
             "opponent2": {
-                "id": null
+                "id": "89bb842a-324d-11ef-8736-0242ac1b0004",
+                "name": "TEAM丨18+",
+                "seed": 37
             },
             "match_games": []
         },

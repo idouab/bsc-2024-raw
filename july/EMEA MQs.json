@@ -22301,6 +22301,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "857a5c48-36c5-11ef-92cb-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Les Goélands",
+            "players": [
+                "SP The King",
+                "AxL",
+                "Darki"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ec09f288-3603-11ef-bd7c-0242ac1b0004",
             "tournament_id": 0,
             "name": "Piper die Geile",
@@ -27708,18 +27719,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "857a5c48-36c5-11ef-92cb-0242ac1b0004",
                 "name": "Les Goélands",
-                "seed": 641
+                "seed": 641,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0b8f1aee-3a3b-11ef-bdc1-0242ac1d0004",
                 "name": "Saftiges Schnitzel",
-                "seed": 1408
+                "seed": 1408,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "857a5c48-36c5-11ef-92cb-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "0b8f1aee-3a3b-11ef-bdc1-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "857a5c48-36c5-11ef-92cb-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0b8f1aee-3a3b-11ef-bdc1-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 17,
@@ -56081,7 +56127,9 @@
                 "seed": 384
             },
             "opponent2": {
-                "id": null
+                "id": "0b8f1aee-3a3b-11ef-bdc1-0242ac1d0004",
+                "name": "Saftiges Schnitzel",
+                "seed": 1408
             },
             "match_games": []
         },
@@ -73473,7 +73521,9 @@
                 "seed": 1665
             },
             "opponent2": {
-                "id": null
+                "id": "857a5c48-36c5-11ef-92cb-0242ac1b0004",
+                "name": "Les Goélands",
+                "seed": 641
             },
             "match_games": []
         },

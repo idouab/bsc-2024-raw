@@ -27142,6 +27142,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f646c29e-363a-11ef-885b-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "LV/TEAM🐽",
+            "players": [
+                "FOURMISSILE",
+                "vht",
+                "🖤求|āη𝗶ȿȿℯ|ツ🖤",
+                "INSTA LFK_RLT"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "c79262f2-3a11-11ef-93d6-0242ac1c0004",
             "tournament_id": 0,
             "name": "Mugiwara's team",
@@ -28442,6 +28454,17 @@
                 "Aͯrⷲtͣhͮuͤr 𑁍",
                 "ᗪᗩᖇKᖴIᖇᗴ㋛🔥",
                 "CopilotLuis❤️"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Bloodshed",
+            "players": [
+                "Razey ❦",
+                "CMD",
+                "_PatyQ_"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -56392,18 +56415,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "80b1663e-36d4-11ef-a566-0242ac1d0004",
                 "name": "Presentación",
-                "seed": 922
+                "seed": 922,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
                 "name": "Bloodshed",
-                "seed": 1127
+                "seed": 1127,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "80b1663e-36d4-11ef-a566-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "80b1663e-36d4-11ef-a566-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "80b1663e-36d4-11ef-a566-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 683,
@@ -73491,7 +73564,9 @@
                 "seed": 319
             },
             "opponent2": {
-                "id": null
+                "id": "84936d0e-324e-11ef-8ad0-0242ac1b0004",
+                "name": "Goys",
+                "seed": 706
             },
             "match_games": []
         },
@@ -74941,7 +75016,9 @@
                 "seed": 103
             },
             "opponent2": {
-                "id": null
+                "id": "80b1663e-36d4-11ef-a566-0242ac1d0004",
+                "name": "Presentación",
+                "seed": 922
             },
             "match_games": []
         },
@@ -90915,7 +90992,9 @@
                 "seed": 1730
             },
             "opponent2": {
-                "id": null
+                "id": "f646c29e-363a-11ef-885b-0242ac1d0004",
+                "name": "LV/TEAM🐽",
+                "seed": 1343
             },
             "match_games": []
         },
@@ -92105,7 +92184,9 @@
                 "seed": 1946
             },
             "opponent2": {
-                "id": null
+                "id": "f03c49f0-35ea-11ef-a006-0242ac1b0004",
+                "name": "Bloodshed",
+                "seed": 1127
             },
             "match_games": []
         },

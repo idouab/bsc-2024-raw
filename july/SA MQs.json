@@ -40466,18 +40466,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ef82fb3c-3250-11ef-bca3-0242ac1b0004",
                 "name": "TodasIgualesPeCausa",
-                "seed": 84
+                "seed": 84,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0f5f762-3250-11ef-a0a2-0242ac1b0004",
                 "name": "Lost Time",
-                "seed": 19
+                "seed": 19,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "ef82fb3c-3250-11ef-bca3-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f0f5f762-3250-11ef-a0a2-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "ef82fb3c-3250-11ef-bca3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0f5f762-3250-11ef-a0a2-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "ef82fb3c-3250-11ef-bca3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0f5f762-3250-11ef-a0a2-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 857,
@@ -41878,7 +41928,9 @@
                 "seed": 71
             },
             "opponent2": {
-                "id": null
+                "id": "ef82fb3c-3250-11ef-bca3-0242ac1b0004",
+                "name": "TodasIgualesPeCausa",
+                "seed": 84
             },
             "match_games": []
         },

@@ -42660,18 +42660,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f33b9464-3250-11ef-9458-0242ac1b0004",
                 "name": "Phantom Knights",
-                "seed": 56
+                "seed": 56,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9c02026a-3632-11ef-b75d-0242ac1b0004",
                 "name": "The Perfect Brawlers",
-                "seed": 292
+                "seed": 292,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "f33b9464-3250-11ef-9458-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9c02026a-3632-11ef-b75d-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "f33b9464-3250-11ef-9458-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "9c02026a-3632-11ef-b75d-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 915,
@@ -43044,7 +43079,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9c02026a-3632-11ef-b75d-0242ac1b0004",
+                "name": "The Perfect Brawlers",
+                "seed": 292
             },
             "opponent2": {
                 "id": null

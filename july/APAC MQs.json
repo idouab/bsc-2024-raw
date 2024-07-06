@@ -13125,18 +13125,68 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "60878a00-3251-11ef-bde4-0242ac1b0004",
                 "name": "Crazy Raccoon",
-                "seed": 1
+                "seed": 1,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
                 "name": "BMTM",
-                "seed": 104
+                "seed": 104,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "60878a00-3251-11ef-bde4-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "60878a00-3251-11ef-bde4-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "60878a00-3251-11ef-bde4-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 419,
@@ -20527,7 +20577,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                "name": "BMTM",
+                "seed": 104
             },
             "opponent2": {
                 "id": null

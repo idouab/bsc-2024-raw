@@ -5285,7 +5285,7 @@
             "name": "Los Buzzilas",
             "players": [
                 "☺☺KALINI☺☺",
-                "☾ LSV|Elber ✷",
+                "ItsSeven",
                 "BVT|FERNAN❤"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
@@ -25657,18 +25657,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f1f58970-3250-11ef-8f81-0242ac1b0004",
                 "name": "100 Ela",
-                "seed": 35
+                "seed": 35,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
                 "name": "FAM",
-                "seed": 94
+                "seed": 94,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "f1f58970-3250-11ef-8f81-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "f1f58970-3250-11ef-8f81-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 664,
@@ -25752,18 +25787,68 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
                 "name": "Peludos",
-                "seed": 238
+                "seed": 238,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
                 "name": "IS BACK PLAYERS",
-                "seed": 110
+                "seed": 110,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 667,
@@ -26701,7 +26786,9 @@
                 "seed": 30
             },
             "opponent2": {
-                "id": null
+                "id": "f1f58970-3250-11ef-8f81-0242ac1b0004",
+                "name": "100 Ela",
+                "seed": 35
             },
             "match_games": []
         },
@@ -26732,10 +26819,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                "name": "Peludos",
+                "seed": 238
             },
             "opponent2": {
-                "id": null
+                "id": "ed8b6cf6-3250-11ef-a43f-0242ac1b0004",
+                "name": "Razorbacks",
+                "seed": 46
             },
             "match_games": []
         },
@@ -34816,7 +34907,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                "name": "IS BACK PLAYERS",
+                "seed": 110
             },
             "opponent2": {
                 "id": null
@@ -34866,7 +34959,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f6cf5f70-3250-11ef-8a42-0242ac1b0004",
+                "name": "FAM",
+                "seed": 94
             },
             "opponent2": {
                 "id": null

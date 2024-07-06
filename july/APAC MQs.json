@@ -2566,6 +2566,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8927c41a-324d-11ef-8d5b-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Team L",
+            "players": [
+                "[M]•[*$TÅRẞØ¥*]",
+                "[M]•[*RÅMẞØ*]",
+                "[M].[*CL🧿UD¥*]"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "89d1ee70-3768-11ef-8c0b-0242ac1d0004",
             "tournament_id": 0,
             "name": "やきぃもちぃ",
@@ -4758,18 +4769,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8927c41a-324d-11ef-8d5b-0242ac1b0004",
                 "name": "Team L",
-                "seed": 66
+                "seed": 66,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
                 "name": "ZHU",
-                "seed": 191
+                "seed": 191,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8927c41a-324d-11ef-8d5b-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8927c41a-324d-11ef-8d5b-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 69,
@@ -7051,7 +7097,9 @@
                 "seed": 63
             },
             "opponent2": {
-                "id": null
+                "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                "name": "ZHU",
+                "seed": 191
             },
             "match_games": []
         },
@@ -8799,7 +8847,9 @@
                 "seed": 194
             },
             "opponent2": {
-                "id": null
+                "id": "8927c41a-324d-11ef-8d5b-0242ac1b0004",
+                "name": "Team L",
+                "seed": 66
             },
             "match_games": []
         },

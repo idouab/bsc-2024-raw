@@ -8024,6 +8024,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "9dcf369c-366b-11ef-b03f-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Monkey Central DIV B",
+            "players": [
+                "MNK | RapidV2",
+                "MNK|unknøwn 2.0",
+                "MNK|Gromit"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0babd020-3578-11ef-88bf-0242ac1d0004",
             "tournament_id": 0,
             "name": "Ohio sigmas",
@@ -8165,6 +8176,17 @@
                 "Matthew!",
                 "Jaden Kaufman",
                 "spizyx"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "3e76a01c-35ae-11ef-aa6b-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Cuervos Team",
+            "players": [
+                "SF|JØÀŃ",
+                "あ|Rodri",
+                "Azkel"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -16961,18 +16983,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9dcf369c-366b-11ef-b03f-0242ac1d0004",
                 "name": "Monkey Central DIV B",
-                "seed": 407
+                "seed": 407,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7ed63d54-35a7-11ef-bc19-0242ac1b0004",
                 "name": "jscurve",
-                "seed": 618
+                "seed": 618,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "9dcf369c-366b-11ef-b03f-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7ed63d54-35a7-11ef-bc19-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "9dcf369c-366b-11ef-b03f-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7ed63d54-35a7-11ef-bc19-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "9dcf369c-366b-11ef-b03f-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7ed63d54-35a7-11ef-bc19-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 375,
@@ -19373,18 +19445,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
                 "name": "Gatos Cósmicos",
-                "seed": 395
+                "seed": 395,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3e76a01c-35ae-11ef-aa6b-0242ac1d0004",
                 "name": "Cuervos Team",
-                "seed": 630
+                "seed": 630,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e76a01c-35ae-11ef-aa6b-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e76a01c-35ae-11ef-aa6b-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3e76a01c-35ae-11ef-aa6b-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 487,
@@ -23677,7 +23799,9 @@
                 "seed": 106
             },
             "opponent2": {
-                "id": null
+                "id": "7ed63d54-35a7-11ef-bc19-0242ac1b0004",
+                "name": "jscurve",
+                "seed": 618
             },
             "match_games": []
         },
@@ -24761,7 +24885,9 @@
                 "seed": 118
             },
             "opponent2": {
-                "id": null
+                "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                "name": "Gatos Cósmicos",
+                "seed": 395
             },
             "match_games": []
         },

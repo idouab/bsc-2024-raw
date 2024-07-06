@@ -2789,6 +2789,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Chuby",
+            "players": [
+                "clubscout",
+                "cluby10",
+                "Loading..."
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "4c233c3c-37e5-11ef-b478-0242ac1c0004",
             "tournament_id": 0,
             "name": "NumeroUno",
@@ -5674,18 +5685,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8715e292-324d-11ef-b967-0242ac1b0004",
                 "name": "RS Cielの本名は佐々木侑斗",
-                "seed": 58
+                "seed": 58,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
                 "name": "Chuby",
-                "seed": 199
+                "seed": 199,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8715e292-324d-11ef-b967-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8715e292-324d-11ef-b967-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "8715e292-324d-11ef-b967-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 84,
@@ -7822,10 +7883,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8715e292-324d-11ef-b967-0242ac1b0004",
+                "name": "RS Cielの本名は佐々木侑斗",
+                "seed": 58
             },
             "opponent2": {
-                "id": null
+                "id": "89d3e876-324d-11ef-b1a8-0242ac1b0004",
+                "name": "3HK",
+                "seed": 71
             },
             "match_games": []
         },
@@ -9554,10 +9619,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7923b352-35c3-11ef-a6c0-0242ac1b0004",
+                "name": "Chuby",
+                "seed": 199
             },
             "opponent2": {
-                "id": null
+                "id": "4c233c3c-37e5-11ef-b478-0242ac1c0004",
+                "name": "NumeroUno",
+                "seed": 186
             },
             "match_games": []
         },

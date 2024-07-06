@@ -16234,18 +16234,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
                 "name": "Eclipse",
-                "seed": 64
+                "seed": 64,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "87d4fa10-324d-11ef-bb2b-0242ac1b0004",
                 "name": "中町ぐろーばる",
-                "seed": 43
+                "seed": 43,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87d4fa10-324d-11ef-bb2b-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87d4fa10-324d-11ef-bb2b-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 362,
@@ -16829,7 +16864,9 @@
                 "seed": 191
             },
             "opponent2": {
-                "id": null
+                "id": "89c8b564-324d-11ef-93e8-0242ac1b0004",
+                "name": "Eclipse",
+                "seed": 64
             },
             "match_games": []
         },

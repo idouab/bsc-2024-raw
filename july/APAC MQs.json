@@ -12344,18 +12344,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "89802a1a-324d-11ef-bc84-0242ac1b0004",
                 "name": "訳アリ",
-                "seed": 23
+                "seed": 23,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8a12172c-324d-11ef-a419-0242ac1b0004",
                 "name": "HiroRezero",
-                "seed": 68
+                "seed": 68,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "89802a1a-324d-11ef-bc84-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a12172c-324d-11ef-a419-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "89802a1a-324d-11ef-bc84-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a12172c-324d-11ef-a419-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 236,

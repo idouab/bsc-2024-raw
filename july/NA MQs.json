@@ -41616,18 +41616,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
                 "name": "Octos Reborn",
-                "seed": 294
+                "seed": 294,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7d49e7e2-3b60-11ef-b6f2-0242ac130004",
                 "name": "Brock Team",
-                "seed": 603
+                "seed": 603,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d49e7e2-3b60-11ef-b6f2-0242ac130004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7d49e7e2-3b60-11ef-b6f2-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1355,
@@ -45408,18 +45443,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f7045952-3762-11ef-be9a-0242ac1b0004",
                 "name": "seb’s owners",
-                "seed": 507
+                "seed": 507,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "5a3cb8a6-3250-11ef-a205-0242ac1b0004",
                 "name": "Filthy Casuals",
-                "seed": 81
+                "seed": 81,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "f7045952-3762-11ef-be9a-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5a3cb8a6-3250-11ef-a205-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f7045952-3762-11ef-be9a-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5a3cb8a6-3250-11ef-a205-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1024,
@@ -47769,7 +47839,9 @@
                 "seed": 175
             },
             "opponent2": {
-                "id": null
+                "id": "5a3cb8a6-3250-11ef-a205-0242ac1b0004",
+                "name": "Filthy Casuals",
+                "seed": 81
             },
             "match_games": []
         },
@@ -49536,7 +49608,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7d49e7e2-3b60-11ef-b6f2-0242ac130004",
+                "name": "Brock Team",
+                "seed": 603
             },
             "opponent2": {
                 "id": null

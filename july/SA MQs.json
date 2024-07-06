@@ -29158,18 +29158,68 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
                 "name": "Revenge Gaming",
-                "seed": 11
+                "seed": 11,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "921ea9e4-3685-11ef-ab6a-0242ac1d0004",
                 "name": "Toxics",
-                "seed": 214
+                "seed": 214,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "921ea9e4-3685-11ef-ab6a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "921ea9e4-3685-11ef-ab6a-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "921ea9e4-3685-11ef-ab6a-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 884,
@@ -29325,7 +29375,9 @@
                 "seed": 6
             },
             "opponent2": {
-                "id": null
+                "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                "name": "Revenge Gaming",
+                "seed": 11
             },
             "match_games": []
         },
@@ -41398,7 +41450,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "921ea9e4-3685-11ef-ab6a-0242ac1d0004",
+                "name": "Toxics",
+                "seed": 214
             },
             "opponent2": {
                 "id": null

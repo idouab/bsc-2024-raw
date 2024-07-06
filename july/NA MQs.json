@@ -7534,6 +7534,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "46f572cc-35d1-11ef-8e78-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "FemboyEnjoyers",
+            "players": [
+                "Sweats|Mr_Wes",
+                "Ben10",
+                "Grayjo12"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "431e1256-357e-11ef-bef4-0242ac1d0004",
             "tournament_id": 0,
             "name": "BBL🍑",
@@ -31040,18 +31051,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5c96ba84-3250-11ef-9288-0242ac1b0004",
                 "name": "BOA",
-                "seed": 166
+                "seed": 166,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "46f572cc-35d1-11ef-8e78-0242ac1b0004",
                 "name": "FemboyEnjoyers",
-                "seed": 347
+                "seed": 347,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "5c96ba84-3250-11ef-9288-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46f572cc-35d1-11ef-8e78-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "5c96ba84-3250-11ef-9288-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "46f572cc-35d1-11ef-8e78-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5c96ba84-3250-11ef-9288-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46f572cc-35d1-11ef-8e78-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 895,
@@ -33999,7 +34060,9 @@
                 "seed": 603
             },
             "opponent2": {
-                "id": null
+                "id": "5c96ba84-3250-11ef-9288-0242ac1b0004",
+                "name": "BOA",
+                "seed": 166
             },
             "match_games": []
         },

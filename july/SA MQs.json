@@ -41323,18 +41323,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "bb26a6ac-3595-11ef-b371-0242ac1b0004",
                 "name": "Robamers",
-                "seed": 455
+                "seed": 455,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
                 "name": "McLovin",
-                "seed": 264
+                "seed": 264,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "bb26a6ac-3595-11ef-b371-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "bb26a6ac-3595-11ef-b371-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "bb26a6ac-3595-11ef-b371-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 880,
@@ -42066,7 +42116,9 @@
                 "seed": 20
             },
             "opponent2": {
-                "id": null
+                "id": "bb26a6ac-3595-11ef-b371-0242ac1b0004",
+                "name": "Robamers",
+                "seed": 455
             },
             "match_games": []
         },

@@ -40456,18 +40456,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
                 "name": "On3",
-                "seed": 26
+                "seed": 26,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "645fab5e-3250-11ef-875d-0242ac1b0004",
                 "name": "SOS",
-                "seed": 103
+                "seed": 103,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "645fab5e-3250-11ef-875d-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "645fab5e-3250-11ef-875d-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1338,
@@ -40631,18 +40666,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
                 "name": "FLWR",
-                "seed": 318
+                "seed": 318,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ef528d06-3757-11ef-9c66-0242ac1d0004",
                 "name": "The Skibidis",
-                "seed": 446
+                "seed": 446,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ef528d06-3757-11ef-9c66-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ef528d06-3757-11ef-9c66-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1345,
@@ -41359,7 +41429,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
+                "name": "On3",
+                "seed": 26
             },
             "opponent2": {
                 "id": null
@@ -48047,7 +48119,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "645fab5e-3250-11ef-875d-0242ac1b0004",
+                "name": "SOS",
+                "seed": 103
             },
             "opponent2": {
                 "id": null
@@ -48161,7 +48235,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
+                "name": "FLWR",
+                "seed": 318
             },
             "opponent2": {
                 "id": null

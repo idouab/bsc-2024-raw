@@ -26493,18 +26493,68 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed8229ac-3250-11ef-8697-0242ac1b0004",
                 "name": "LPC F/A",
-                "seed": 32
+                "seed": 32,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2797b2c6-36eb-11ef-b876-0242ac1b0004",
                 "name": "vamo de marcha",
-                "seed": 352
+                "seed": 352,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "ed8229ac-3250-11ef-8697-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2797b2c6-36eb-11ef-b876-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "ed8229ac-3250-11ef-8697-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2797b2c6-36eb-11ef-b876-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "ed8229ac-3250-11ef-8697-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2797b2c6-36eb-11ef-b876-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 742,
@@ -28140,7 +28190,9 @@
                 "seed": 1
             },
             "opponent2": {
-                "id": null
+                "id": "ed8229ac-3250-11ef-8697-0242ac1b0004",
+                "name": "LPC F/A",
+                "seed": 32
             },
             "match_games": []
         },
@@ -36596,11 +36648,12 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ef34a34c-3250-11ef-9d94-0242ac1b0004",
                 "name": "Los Híbridos",
-                "seed": 136
+                "seed": 136,
+                "forfeit": 1
             },
             "opponent2": {
                 "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
@@ -38008,7 +38061,9 @@
                 "seed": 122
             },
             "opponent2": {
-                "id": null
+                "id": "00ae7c8c-35c7-11ef-9c00-0242ac1b0004",
+                "name": "McLovin",
+                "seed": 264
             },
             "match_games": []
         },
@@ -38987,7 +39042,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2797b2c6-36eb-11ef-b876-0242ac1b0004",
+                "name": "vamo de marcha",
+                "seed": 352
             },
             "opponent2": {
                 "id": null

@@ -15939,18 +15939,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
                 "name": "Wei",
-                "seed": 143
+                "seed": 143,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "883145ba-362e-11ef-836b-0242ac1b0004",
                 "name": "あかりを灯すぜこけしーず",
-                "seed": 101
+                "seed": 101,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "883145ba-362e-11ef-836b-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "883145ba-362e-11ef-836b-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 333,
@@ -16663,7 +16698,9 @@
                 "seed": 91
             },
             "opponent2": {
-                "id": null
+                "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                "name": "Wei",
+                "seed": 143
             },
             "match_games": []
         },

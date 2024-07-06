@@ -53945,18 +53945,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
                 "name": "Gatos Cósmicos",
-                "seed": 395
+                "seed": 395,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "37d23b24-3755-11ef-91da-0242ac1d0004",
                 "name": "2 Koreans 1 Viet",
-                "seed": 501
+                "seed": 501,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "37d23b24-3755-11ef-91da-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "37d23b24-3755-11ef-91da-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1395,
@@ -55361,7 +55396,9 @@
                 "seed": 352
             },
             "opponent2": {
-                "id": null
+                "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                "name": "Gatos Cósmicos",
+                "seed": 395
             },
             "match_games": []
         },

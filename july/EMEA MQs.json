@@ -24490,6 +24490,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "7870e86c-38b6-11ef-b7ea-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Willow Wisps",
+            "players": [
+                "varjupoiss",
+                "besty",
+                "MR.VOJKO"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "63bec3c0-385d-11ef-b2e2-0242ac1c0004",
             "tournament_id": 0,
             "name": "NTK | TEAM",
@@ -24567,6 +24578,18 @@
                 "SK|Sweazy戈",
                 "Noileni",
                 "Bot 2"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "veldix",
+            "players": [
+                "VX | Velik👹",
+                "VX|ℬ𝒪𝒮𝒮",
+                "GlideX🍋‍🟩",
+                "VX | Gromd👹"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -36353,18 +36376,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6d175938-324e-11ef-a7f6-0242ac1b0004",
                 "name": "JP | ESPORT",
-                "seed": 260
+                "seed": 260,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "7870e86c-38b6-11ef-b7ea-0242ac1d0004",
                 "name": "Willow Wisps",
-                "seed": 1789
+                "seed": 1789,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "6d175938-324e-11ef-a7f6-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7870e86c-38b6-11ef-b7ea-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6d175938-324e-11ef-a7f6-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "7870e86c-38b6-11ef-b7ea-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 264,
@@ -36671,18 +36729,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
                 "name": "veldix",
-                "seed": 381
+                "seed": 381,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "698d9b58-3783-11ef-b30b-0242ac1d0004",
                 "name": "Rangers",
-                "seed": 1668
+                "seed": 1668,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "698d9b58-3783-11ef-b30b-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "698d9b58-3783-11ef-b30b-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "698d9b58-3783-11ef-b30b-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 272,
@@ -57784,10 +57892,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6d175938-324e-11ef-a7f6-0242ac1b0004",
+                "name": "JP | ESPORT",
+                "seed": 260
             },
             "opponent2": {
-                "id": null
+                "id": "963dd1fe-36e3-11ef-8f4c-0242ac1d0004",
+                "name": "Gooners",
+                "seed": 765
             },
             "match_games": []
         },
@@ -57860,10 +57972,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "698d9b58-3783-11ef-b30b-0242ac1d0004",
+                "name": "Rangers",
+                "seed": 1668
             },
             "opponent2": {
-                "id": null
+                "id": "2515662c-365c-11ef-9052-0242ac1d0004",
+                "name": "KSA",
+                "seed": 1405
             },
             "match_games": []
         },
@@ -74708,10 +74824,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7870e86c-38b6-11ef-b7ea-0242ac1d0004",
+                "name": "Willow Wisps",
+                "seed": 1789
             },
             "opponent2": {
-                "id": null
+                "id": "63bec3c0-385d-11ef-b2e2-0242ac1c0004",
+                "name": "NTK | TEAM",
+                "seed": 1284
             },
             "match_games": []
         },
@@ -74784,10 +74904,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "85d2c84a-324e-11ef-bd99-0242ac1b0004",
+                "name": "veldix",
+                "seed": 381
             },
             "opponent2": {
-                "id": null
+                "id": "6cda9fa2-324e-11ef-b4be-0242ac1b0004",
+                "name": "TEAM 59",
+                "seed": 644
             },
             "match_games": []
         },

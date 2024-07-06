@@ -41163,18 +41163,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
                 "name": "Black Bulls",
-                "seed": 73
+                "seed": 73,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "bf509f50-3773-11ef-b9f6-0242ac1b0004",
                 "name": "FUREBIZZ",
-                "seed": 394
+                "seed": 394,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "bf509f50-3773-11ef-b9f6-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f61199d6-3250-11ef-991c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "bf509f50-3773-11ef-b9f6-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 878,
@@ -41939,7 +41974,9 @@
                 "seed": 164
             },
             "opponent2": {
-                "id": null
+                "id": "bf509f50-3773-11ef-b9f6-0242ac1b0004",
+                "name": "FUREBIZZ",
+                "seed": 394
             },
             "match_games": []
         },

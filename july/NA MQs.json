@@ -8459,6 +8459,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "5ffd9242-3250-11ef-81e9-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Foam Rollers",
+            "players": [
+                "victor",
+                "Fviient",
+                "GATREKT"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "21588898-356c-11ef-bef1-0242ac1d0004",
             "tournament_id": 0,
             "name": "kpi",
@@ -26202,18 +26213,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5ffd9242-3250-11ef-81e9-0242ac1b0004",
                 "name": "Foam Rollers",
-                "seed": 181
+                "seed": 181,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ece091dc-3764-11ef-a07c-0242ac1d0004",
                 "name": "Tribesters",
-                "seed": 332
+                "seed": 332,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "5ffd9242-3250-11ef-81e9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ece091dc-3764-11ef-a07c-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "5ffd9242-3250-11ef-81e9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ece091dc-3764-11ef-a07c-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 775,
@@ -26222,18 +26268,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a9bc6ac-3250-11ef-bb45-0242ac1b0004",
                 "name": "Good Randoms",
-                "seed": 21
+                "seed": 21,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2406692a-3571-11ef-9294-0242ac1b0004",
                 "name": "RawDawgers",
-                "seed": 492
+                "seed": 492,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "5a9bc6ac-3250-11ef-bb45-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2406692a-3571-11ef-9294-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "5a9bc6ac-3250-11ef-bb45-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "2406692a-3571-11ef-9294-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5a9bc6ac-3250-11ef-bb45-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2406692a-3571-11ef-9294-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 776,
@@ -32051,7 +32147,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5a9bc6ac-3250-11ef-bb45-0242ac1b0004",
+                "name": "Good Randoms",
+                "seed": 21
             },
             "opponent2": {
                 "id": null

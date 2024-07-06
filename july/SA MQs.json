@@ -30218,18 +30218,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6b495338-365c-11ef-b13a-0242ac1d0004",
                 "name": "Moradas",
-                "seed": 312
+                "seed": 312,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0b9f442-3250-11ef-8000-0242ac1b0004",
                 "name": "Cholos",
-                "seed": 99
+                "seed": 99,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "6b495338-365c-11ef-b13a-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0b9f442-3250-11ef-8000-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "6b495338-365c-11ef-b13a-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0b9f442-3250-11ef-8000-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 586,
@@ -31320,7 +31355,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ebd2230a-37a0-11ef-9c1a-0242ac1d0004",
+                "name": "MonkeyLand",
+                "seed": 396
             },
             "opponent2": {
                 "id": null
@@ -32016,7 +32053,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ed090892-3250-11ef-8f58-0242ac1b0004",
+                "name": "Yoru VMS",
+                "seed": 68
             },
             "opponent2": {
                 "id": null

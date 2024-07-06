@@ -13465,18 +13465,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
                 "name": "official",
-                "seed": 74
+                "seed": 74,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f049acd2-384a-11ef-9059-0242ac1d0004",
                 "name": "APEX Esports",
-                "seed": 157
+                "seed": 157,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f049acd2-384a-11ef-9059-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f049acd2-384a-11ef-9059-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 237,
@@ -14848,7 +14883,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a287b028-3a1d-11ef-a8b3-0242ac1d0004",
+                "name": "official",
+                "seed": 74
             },
             "opponent2": {
                 "id": null

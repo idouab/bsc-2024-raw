@@ -13535,18 +13535,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86cdbb16-324d-11ef-8d2e-0242ac1b0004",
                 "name": "Cowboys",
-                "seed": 24
+                "seed": 24,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
                 "name": "おけっけ",
-                "seed": 190
+                "seed": 190,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "86cdbb16-324d-11ef-8d2e-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "86cdbb16-324d-11ef-8d2e-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 268,

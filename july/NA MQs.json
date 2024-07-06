@@ -44058,18 +44058,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
                 "name": "Tejeria Pro",
-                "seed": 242
+                "seed": 242,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d404fb40-382b-11ef-96eb-0242ac1d0004",
                 "name": "Suncats",
-                "seed": 527
+                "seed": 527,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d404fb40-382b-11ef-96eb-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d404fb40-382b-11ef-96eb-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 967,
@@ -44718,18 +44753,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86e59b06-364d-11ef-8995-0242ac1b0004",
                 "name": "Chiquitines",
-                "seed": 391
+                "seed": 391,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
                 "name": "Exodus",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "86e59b06-364d-11ef-8995-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "86e59b06-364d-11ef-8995-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 993,
@@ -46661,7 +46731,9 @@
                 "seed": 272
             },
             "opponent2": {
-                "id": null
+                "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                "name": "Tejeria Pro",
+                "seed": 242
             },
             "match_games": []
         },
@@ -47137,7 +47209,9 @@
                 "seed": 558
             },
             "opponent2": {
-                "id": null
+                "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                "name": "Exodus",
+                "seed": 45
             },
             "match_games": []
         },

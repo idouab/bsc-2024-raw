@@ -12110,18 +12110,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6088181c-3251-11ef-87a3-0242ac1b0004",
                 "name": "Gohan Omoshiroi",
-                "seed": 12
+                "seed": 12,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8a119842-324d-11ef-bada-0242ac1b0004",
                 "name": "Lcc 100KG",
-                "seed": 44
+                "seed": 44,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6088181c-3251-11ef-87a3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "6088181c-3251-11ef-87a3-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 354,
@@ -12598,7 +12633,9 @@
                 "seed": 5
             },
             "opponent2": {
-                "id": null
+                "id": "6088181c-3251-11ef-87a3-0242ac1b0004",
+                "name": "Gohan Omoshiroi",
+                "seed": 12
             },
             "match_games": []
         },
@@ -17855,7 +17892,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                "name": "Lcc 100KG",
+                "seed": 44
             },
             "opponent2": {
                 "id": null

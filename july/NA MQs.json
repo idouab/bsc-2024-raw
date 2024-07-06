@@ -41936,18 +41936,68 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61250fb0-3250-11ef-b99d-0242ac1b0004",
                 "name": "RLK|Bruno",
-                "seed": 206
+                "seed": 206,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a3160974-3697-11ef-a299-0242ac1b0004",
                 "name": "BassicBelle",
-                "seed": 435
+                "seed": 435,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "61250fb0-3250-11ef-b99d-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a3160974-3697-11ef-a299-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "61250fb0-3250-11ef-b99d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a3160974-3697-11ef-a299-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "61250fb0-3250-11ef-b99d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a3160974-3697-11ef-a299-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1349,
@@ -42980,7 +43030,9 @@
                 "seed": 14
             },
             "opponent2": {
-                "id": null
+                "id": "61250fb0-3250-11ef-b99d-0242ac1b0004",
+                "name": "RLK|Bruno",
+                "seed": 206
             },
             "match_games": []
         },
@@ -50788,7 +50840,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "a3160974-3697-11ef-a299-0242ac1b0004",
+                "name": "BassicBelle",
+                "seed": 435
             },
             "opponent2": {
                 "id": null

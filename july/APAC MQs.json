@@ -8063,18 +8063,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88a5604c-324d-11ef-8cb7-0242ac1b0004",
                 "name": "Fourier series",
-                "seed": 21
+                "seed": 21,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
                 "name": "勝利隊123",
-                "seed": 149
+                "seed": 149,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "88a5604c-324d-11ef-8cb7-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "88a5604c-324d-11ef-8cb7-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 185,
@@ -9166,7 +9201,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3e2294fa-3779-11ef-8823-0242ac1b0004",
+                "name": "勝利隊123",
+                "seed": 149
             },
             "opponent2": {
                 "id": null
@@ -10963,7 +11000,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "88a5604c-324d-11ef-8cb7-0242ac1b0004",
+                "name": "Fourier series",
+                "seed": 21
             },
             "opponent2": {
                 "id": null

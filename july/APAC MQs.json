@@ -20004,18 +20004,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8987dc7e-324d-11ef-8f1b-0242ac1b0004",
                 "name": "Team S2",
-                "seed": 10
+                "seed": 10,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
                 "name": "SPIN",
-                "seed": 41
+                "seed": 41,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "8987dc7e-324d-11ef-8f1b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "8987dc7e-324d-11ef-8f1b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "87043fe2-324d-11ef-8209-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 426,

@@ -54167,18 +54167,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0ea8442e-398e-11ef-9f80-0242ac1d0004",
                 "name": "MS|Champs",
-                "seed": 380
+                "seed": 380,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8f53a722-368b-11ef-acdc-0242ac1b0004",
                 "name": "🇨🇷RAMASHEKOSuwu",
-                "seed": 431
+                "seed": 431,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "0ea8442e-398e-11ef-9f80-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f53a722-368b-11ef-acdc-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "0ea8442e-398e-11ef-9f80-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8f53a722-368b-11ef-acdc-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1399,
@@ -55581,7 +55616,9 @@
                 "seed": 593
             },
             "opponent2": {
-                "id": null
+                "id": "0ea8442e-398e-11ef-9f80-0242ac1d0004",
+                "name": "MS|Champs",
+                "seed": 380
             },
             "match_games": []
         },

@@ -55266,18 +55266,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
                 "name": "LV | New Story",
-                "seed": 416
+                "seed": 416,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64c59b30-3250-11ef-8125-0242ac1b0004",
                 "name": "Bastard Gaming",
-                "seed": 226
+                "seed": 226,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64c59b30-3250-11ef-8125-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64c59b30-3250-11ef-8125-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1421,
@@ -56491,7 +56526,9 @@
                 "seed": 53
             },
             "opponent2": {
-                "id": null
+                "id": "64c59b30-3250-11ef-8125-0242ac1b0004",
+                "name": "Bastard Gaming",
+                "seed": 226
             },
             "match_games": []
         },

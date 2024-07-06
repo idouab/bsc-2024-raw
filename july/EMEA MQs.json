@@ -12123,7 +12123,7 @@
                 "蘇普|ÆAnth(God#1)",
                 "HP_killer🧙‍♂️⚔",
                 "YaourtPasNature",
-                "MQ | Tornado🌪️"
+                "Yakudza"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -25725,6 +25725,18 @@
                 "Vlado",
                 "Rastko",
                 "Milo$"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "b1b87c14-36e7-11ef-b67f-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "BE | FRAMI",
+            "players": [
+                "le joueur belge",
+                "Pam_B-girl",
+                "Noot_FR 👑👑",
+                "Universal703"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -41646,18 +41658,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7626e4e4-324e-11ef-a7f8-0242ac1b0004",
                 "name": "Team Lila",
-                "seed": 508
+                "seed": 508,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b1b87c14-36e7-11ef-b67f-0242ac1d0004",
                 "name": "BE | FRAMI",
-                "seed": 1541
+                "seed": 1541,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7626e4e4-324e-11ef-a7f8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1b87c14-36e7-11ef-b67f-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "7626e4e4-324e-11ef-a7f8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b1b87c14-36e7-11ef-b67f-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 388,
@@ -59979,10 +60026,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7626e4e4-324e-11ef-a7f8-0242ac1b0004",
+                "name": "Team Lila",
+                "seed": 508
             },
             "opponent2": {
-                "id": null
+                "id": "81aac90c-324e-11ef-869a-0242ac1b0004",
+                "name": "sneaky time",
+                "seed": 517
             },
             "match_games": []
         },
@@ -76741,10 +76792,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b1b87c14-36e7-11ef-b67f-0242ac1d0004",
+                "name": "BE | FRAMI",
+                "seed": 1541
             },
             "opponent2": {
-                "id": null
+                "id": "b7e789de-36e4-11ef-9050-0242ac1d0004",
+                "name": "DAS TEAM",
+                "seed": 1532
             },
             "match_games": []
         },

@@ -20144,18 +20144,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8986de00-324d-11ef-822b-0242ac1b0004",
                 "name": "Master Entertainer",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "19566950-35f1-11ef-8cb3-0242ac1d0004",
                 "name": "PP Group",
-                "seed": 78
+                "seed": 78,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "8986de00-324d-11ef-822b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19566950-35f1-11ef-8cb3-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "8986de00-324d-11ef-822b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "19566950-35f1-11ef-8cb3-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 433,
@@ -20164,18 +20199,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
                 "name": "Just Wanna Prove",
-                "seed": 105
+                "seed": 105,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
                 "name": "SOUL",
-                "seed": 164
+                "seed": 164,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2addda2-36cc-11ef-91c6-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 434,
@@ -20346,10 +20416,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8986de00-324d-11ef-822b-0242ac1b0004",
+                "name": "Master Entertainer",
+                "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "9be744d2-3634-11ef-a1a9-0242ac1d0004",
+                "name": "Just Wanna Prove",
+                "seed": 105
             },
             "match_games": []
         },

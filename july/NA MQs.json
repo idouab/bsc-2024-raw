@@ -53811,18 +53811,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
                 "name": "TheOGSquad",
-                "seed": 109
+                "seed": 109,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "382ad918-3652-11ef-8cf8-0242ac1d0004",
                 "name": "Tinieblas",
-                "seed": 276
+                "seed": 276,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "382ad918-3652-11ef-8cf8-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "382ad918-3652-11ef-8cf8-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1401,
@@ -55065,7 +55100,9 @@
                 "seed": 441
             },
             "opponent2": {
-                "id": null
+                "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                "name": "TheOGSquad",
+                "seed": 109
             },
             "match_games": []
         },

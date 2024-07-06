@@ -858,7 +858,7 @@
             "tournament_id": 0,
             "name": "Acoustic Gaming",
             "players": [
-                "AC|Salvo",
+                "么Salvo🤍Aそき",
                 "RvL|Mikesch🦁",
                 "AffemitWaffe",
                 "derpzシ"
@@ -26938,6 +26938,18 @@
                 "benzemessi"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "df63025e-3603-11ef-949b-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "TheCongoCrew",
+            "players": [
+                "congo",
+                "Alebamuu",
+                "SK|Cxsito7k🇪🇸",
+                "LaGise"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -50612,18 +50624,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "57775a06-324e-11ef-a1b1-0242ac1b0004",
                 "name": "TOPO ROJO",
-                "seed": 1002
+                "seed": 1002,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "09f26db0-3592-11ef-916b-0242ac1b0004",
                 "name": "Sebeș",
-                "seed": 1047
+                "seed": 1047,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "57775a06-324e-11ef-a1b1-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09f26db0-3592-11ef-916b-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "57775a06-324e-11ef-a1b1-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "09f26db0-3592-11ef-916b-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 739,
@@ -51796,18 +51843,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "df63025e-3603-11ef-949b-0242ac1d0004",
                 "name": "TheCongoCrew",
-                "seed": 835
+                "seed": 835,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "196ff8a8-37a3-11ef-8715-0242ac1d0004",
                 "name": "F/A TACOS",
-                "seed": 1214
+                "seed": 1214,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "df63025e-3603-11ef-949b-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "196ff8a8-37a3-11ef-8715-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "df63025e-3603-11ef-949b-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "196ff8a8-37a3-11ef-8715-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 799,
@@ -63215,7 +63297,9 @@
                 "seed": 23
             },
             "opponent2": {
-                "id": null
+                "id": "57775a06-324e-11ef-a1b1-0242ac1b0004",
+                "name": "TOPO ROJO",
+                "seed": 1002
             },
             "match_games": []
         },

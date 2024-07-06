@@ -50423,18 +50423,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
                 "name": "TBH",
-                "seed": 640
+                "seed": 640,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "60c0313a-3250-11ef-9faf-0242ac1b0004",
                 "name": "TEAM YETIS",
-                "seed": 127
+                "seed": 127,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60c0313a-3250-11ef-9faf-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60c0313a-3250-11ef-9faf-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "702cc34a-35b1-11ef-a990-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60c0313a-3250-11ef-9faf-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1230,
@@ -52800,7 +52850,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "60c0313a-3250-11ef-9faf-0242ac1b0004",
+                "name": "TEAM YETIS",
+                "seed": 127
             },
             "opponent2": {
                 "id": null

@@ -27588,18 +27588,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "76b0392c-35d4-11ef-befc-0242ac1d0004",
                 "name": "Ecoos",
-                "seed": 274
+                "seed": 274,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f29e32dc-3250-11ef-864e-0242ac1b0004",
                 "name": "Gamba BS",
-                "seed": 47
+                "seed": 47,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "76b0392c-35d4-11ef-befc-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f29e32dc-3250-11ef-864e-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "76b0392c-35d4-11ef-befc-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f29e32dc-3250-11ef-864e-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 760,
@@ -28455,7 +28490,9 @@
                 "seed": 79
             },
             "opponent2": {
-                "id": null
+                "id": "76b0392c-35d4-11ef-befc-0242ac1d0004",
+                "name": "Ecoos",
+                "seed": 274
             },
             "match_games": []
         },
@@ -34854,7 +34891,7 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "67a6790c-35d2-11ef-9556-0242ac1b0004",
                 "name": "nombre del grupo",
@@ -34863,7 +34900,8 @@
             "opponent2": {
                 "id": "c935e62e-35a7-11ef-a7c8-0242ac1d0004",
                 "name": "CalangosDoOlimpo",
-                "seed": 475
+                "seed": 475,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -36659,18 +36697,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3bc0eebc-3573-11ef-977a-0242ac1d0004",
                 "name": "VLKDS",
-                "seed": 393
+                "seed": 393,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f033fb40-3583-11ef-8120-0242ac1b0004",
                 "name": "Team Causas",
-                "seed": 419
+                "seed": 419,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "3bc0eebc-3573-11ef-977a-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f033fb40-3583-11ef-8120-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "3bc0eebc-3573-11ef-977a-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f033fb40-3583-11ef-8120-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "3bc0eebc-3573-11ef-977a-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f033fb40-3583-11ef-8120-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 728,
@@ -37223,7 +37311,9 @@
                 "seed": 37
             },
             "opponent2": {
-                "id": null
+                "id": "67a6790c-35d2-11ef-9556-0242ac1b0004",
+                "name": "nombre del grupo",
+                "seed": 272
             },
             "match_games": []
         },
@@ -38115,7 +38205,9 @@
                 "seed": 394
             },
             "opponent2": {
-                "id": null
+                "id": "f033fb40-3583-11ef-8120-0242ac1b0004",
+                "name": "Team Causas",
+                "seed": 419
             },
             "match_games": []
         },
@@ -38922,7 +39014,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f29e32dc-3250-11ef-864e-0242ac1b0004",
+                "name": "Gamba BS",
+                "seed": 47
             },
             "opponent2": {
                 "id": null

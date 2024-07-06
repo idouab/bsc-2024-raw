@@ -4152,18 +4152,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "883145ba-362e-11ef-836b-0242ac1b0004",
                 "name": "あかりを灯すぜこけしーず",
-                "seed": 101
+                "seed": 101,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "c8dafa2c-36a4-11ef-9929-0242ac1d0004",
                 "name": "Davede esports",
-                "seed": 156
+                "seed": 156,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "883145ba-362e-11ef-836b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8dafa2c-36a4-11ef-9929-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "883145ba-362e-11ef-836b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "c8dafa2c-36a4-11ef-9929-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 55,
@@ -5221,18 +5256,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "627c2e22-3609-11ef-afb1-0242ac1b0004",
                 "name": "JP_NINJYA",
-                "seed": 126
+                "seed": 126,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "89b0a154-324d-11ef-bc50-0242ac1b0004",
                 "name": "大納言あずき🫘( '-' 🫘  )",
-                "seed": 131
+                "seed": 131,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "627c2e22-3609-11ef-afb1-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89b0a154-324d-11ef-bc50-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "627c2e22-3609-11ef-afb1-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89b0a154-324d-11ef-bc50-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 99,
@@ -6418,7 +6488,9 @@
                 "seed": 28
             },
             "opponent2": {
-                "id": null
+                "id": "883145ba-362e-11ef-836b-0242ac1b0004",
+                "name": "あかりを灯すぜこけしーず",
+                "seed": 101
             },
             "match_games": []
         },
@@ -6810,7 +6882,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "89b0a154-324d-11ef-bc50-0242ac1b0004",
+                "name": "大納言あずき🫘( '-' 🫘  )",
+                "seed": 131
             },
             "match_games": []
         },

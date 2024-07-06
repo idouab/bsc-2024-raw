@@ -54504,18 +54504,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "fd2c939a-3586-11ef-a3da-0242ac1d0004",
                 "name": "3BROS",
-                "seed": 554
+                "seed": 554,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "89230d02-3578-11ef-aaf4-0242ac1b0004",
                 "name": "StarLegends",
-                "seed": 516
+                "seed": 516,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "fd2c939a-3586-11ef-a3da-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89230d02-3578-11ef-aaf4-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "fd2c939a-3586-11ef-a3da-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "89230d02-3578-11ef-aaf4-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1407,
@@ -55975,7 +56010,9 @@
                 "seed": 344
             },
             "opponent2": {
-                "id": null
+                "id": "89230d02-3578-11ef-aaf4-0242ac1b0004",
+                "name": "StarLegends",
+                "seed": 516
             },
             "match_games": []
         },

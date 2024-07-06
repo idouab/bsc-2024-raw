@@ -39646,18 +39646,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61194194-3250-11ef-b786-0242ac1b0004",
                 "name": "LT esport",
-                "seed": 36
+                "seed": 36,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5aeb6f0e-3250-11ef-ac3d-0242ac1b0004",
                 "name": "Drabinianka",
-                "seed": 164
+                "seed": 164,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "61194194-3250-11ef-b786-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5aeb6f0e-3250-11ef-ac3d-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "61194194-3250-11ef-b786-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5aeb6f0e-3250-11ef-ac3d-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1315,
@@ -48257,7 +48292,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5aeb6f0e-3250-11ef-ac3d-0242ac1b0004",
+                "name": "Drabinianka",
+                "seed": 164
             },
             "opponent2": {
                 "id": null

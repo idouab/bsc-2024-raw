@@ -11840,18 +11840,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
                 "name": "coco loco",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "8a454098-324d-11ef-bd90-0242ac1b0004",
                 "name": "Pausing Shutter",
-                "seed": 36
+                "seed": 36,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a454098-324d-11ef-bd90-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8a454098-324d-11ef-bd90-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 351,
@@ -12114,7 +12149,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6085d214-3251-11ef-baf0-0242ac1b0004",
+                "name": "coco loco",
+                "seed": 4
             },
             "opponent2": {
                 "id": null
@@ -16702,7 +16739,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8a454098-324d-11ef-bd90-0242ac1b0004",
+                "name": "Pausing Shutter",
+                "seed": 36
             },
             "opponent2": {
                 "id": null

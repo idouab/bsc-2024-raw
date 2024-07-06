@@ -10104,18 +10104,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
                 "name": "BMTM",
-                "seed": 104
+                "seed": 104,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "886a2f9a-324d-11ef-85bc-0242ac1b0004",
                 "name": "UniTy",
-                "seed": 40
+                "seed": 40,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "886a2f9a-324d-11ef-85bc-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "886a2f9a-324d-11ef-85bc-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 288,
@@ -13785,7 +13820,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "886a2f9a-324d-11ef-85bc-0242ac1b0004",
+                "name": "UniTy",
+                "seed": 40
             },
             "opponent2": {
                 "id": null

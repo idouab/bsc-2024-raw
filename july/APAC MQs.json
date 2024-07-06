@@ -12905,18 +12905,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0b03b856-39ea-11ef-b8ad-0242ac1d0004",
                 "name": "🍀Grace",
-                "seed": 206
+                "seed": 206,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
                 "name": "Rowdy Pookies",
-                "seed": 153
+                "seed": 153,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "0b03b856-39ea-11ef-b8ad-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "0b03b856-39ea-11ef-b8ad-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 229,
@@ -14312,7 +14347,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                "name": "Rowdy Pookies",
+                "seed": 153
             },
             "opponent2": {
                 "id": null

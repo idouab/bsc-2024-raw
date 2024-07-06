@@ -5832,6 +5832,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "f603a6f0-3250-11ef-9234-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Laskukardas",
+            "players": [
+                "rodrigo123",
+                "elsantuchis",
+                "Caleb 🍞"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "f8c8048e-3648-11ef-bc46-0242ac1d0004",
             "tournament_id": 0,
             "name": "CHI",
@@ -10382,18 +10393,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f603a6f0-3250-11ef-9234-0242ac1b0004",
                 "name": "Laskukardas",
-                "seed": 108
+                "seed": 108,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8ffb0288-357d-11ef-ac4b-0242ac1b0004",
                 "name": "PRIME Ex",
-                "seed": 405
+                "seed": 405,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f603a6f0-3250-11ef-9234-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8ffb0288-357d-11ef-ac4b-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f603a6f0-3250-11ef-9234-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8ffb0288-357d-11ef-ac4b-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 124,
@@ -15775,7 +15821,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8ffb0288-357d-11ef-ac4b-0242ac1b0004",
+                "name": "PRIME Ex",
+                "seed": 405
             },
             "opponent2": {
                 "id": null
@@ -19713,7 +19761,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f603a6f0-3250-11ef-9234-0242ac1b0004",
+                "name": "Laskukardas",
+                "seed": 108
             },
             "opponent2": {
                 "id": null

@@ -45787,18 +45787,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "64857182-3687-11ef-90c6-0242ac1d0004",
                 "name": "Easy Pickings FC",
-                "seed": 304
+                "seed": 304,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
                 "name": "USMG Esports",
-                "seed": 560
+                "seed": 560,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "64857182-3687-11ef-90c6-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "64857182-3687-11ef-90c6-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1025,
@@ -48187,7 +48222,9 @@
                 "seed": 210
             },
             "opponent2": {
-                "id": null
+                "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                "name": "USMG Esports",
+                "seed": 560
             },
             "match_games": []
         },

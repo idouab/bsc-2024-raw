@@ -39325,18 +39325,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
                 "name": "HK",
-                "seed": 289
+                "seed": 289,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "674ead74-3872-11ef-b0b8-0242ac1c0004",
                 "name": "The Merbots",
-                "seed": 352
+                "seed": 352,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "674ead74-3872-11ef-b0b8-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "674ead74-3872-11ef-b0b8-0242ac1c0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1299,
@@ -48073,7 +48108,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "674ead74-3872-11ef-b0b8-0242ac1c0004",
+                "name": "The Merbots",
+                "seed": 352
             },
             "opponent2": {
                 "id": null

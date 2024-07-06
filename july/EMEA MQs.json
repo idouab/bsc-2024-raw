@@ -69179,18 +69179,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7ab86ea6-324e-11ef-b1d9-0242ac1b0004",
                 "name": "Wtk team",
-                "seed": 256
+                "seed": 256,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ae8c6eea-3851-11ef-af28-0242ac1d0004",
                 "name": "Bijjous",
-                "seed": 1280
+                "seed": 1280,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "7ab86ea6-324e-11ef-b1d9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae8c6eea-3851-11ef-af28-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "7ab86ea6-324e-11ef-b1d9-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ae8c6eea-3851-11ef-af28-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "7ab86ea6-324e-11ef-b1d9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ae8c6eea-3851-11ef-af28-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1454,
@@ -80785,18 +80835,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "50a7123e-324e-11ef-99fb-0242ac1b0004",
                 "name": "LKA Domination",
-                "seed": 463
+                "seed": 463,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "db76a316-36cc-11ef-b5ff-0242ac1d0004",
                 "name": "ChéQiPa",
-                "seed": 1487
+                "seed": 1487,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "50a7123e-324e-11ef-99fb-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "db76a316-36cc-11ef-b5ff-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "50a7123e-324e-11ef-99fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "db76a316-36cc-11ef-b5ff-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "50a7123e-324e-11ef-99fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "db76a316-36cc-11ef-b5ff-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1749,
@@ -89698,7 +89798,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7ab86ea6-324e-11ef-b1d9-0242ac1b0004",
+                "name": "Wtk team",
+                "seed": 256
             },
             "opponent2": {
                 "id": null
@@ -92287,7 +92389,9 @@
                 "seed": 50
             },
             "opponent2": {
-                "id": null
+                "id": "50a7123e-324e-11ef-99fb-0242ac1b0004",
+                "name": "LKA Domination",
+                "seed": 463
             },
             "match_games": []
         },
@@ -117319,8 +117423,16 @@
             "round_id": 2,
             "child_count": 3,
             "status": 3,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "ae8c6eea-3851-11ef-af28-0242ac1d0004",
+                "name": "Bijjous",
+                "seed": 1280
+            },
+            "opponent2": {
+                "id": "f037eecc-36b8-11ef-83e6-0242ac1b0004",
+                "name": "F|A ABST",
+                "seed": 1451
+            },
             "match_games": []
         },
         {

@@ -3813,18 +3813,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "b838b8d6-367b-11ef-b5a2-0242ac1b0004",
                 "name": "熱海行き",
-                "seed": 109
+                "seed": 109,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
                 "name": "走れば5分",
-                "seed": 148
+                "seed": 148,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "b838b8d6-367b-11ef-b5a2-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "b838b8d6-367b-11ef-b5a2-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ec30b532-3683-11ef-9bdc-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 47,
@@ -6015,7 +6050,9 @@
                 "seed": 20
             },
             "opponent2": {
-                "id": null
+                "id": "b838b8d6-367b-11ef-b5a2-0242ac1b0004",
+                "name": "熱海行き",
+                "seed": 109
             },
             "match_games": []
         },

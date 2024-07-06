@@ -7625,6 +7625,18 @@
                 "Felpshs.Xp"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "CLASH GOLS",
+            "players": [
+                "CG| Chaos🐺",
+                "CG|Kzyc🦜",
+                "CG | Jose🦆",
+                "CG|PilotRedSun"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -16598,18 +16610,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
                 "name": "CLASH GOLS",
-                "seed": 171
+                "seed": 171,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "dad6a2de-3696-11ef-98a6-0242ac1d0004",
                 "name": "LosVIPcitos",
-                "seed": 342
+                "seed": 342,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "dad6a2de-3696-11ef-98a6-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "dad6a2de-3696-11ef-98a6-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "dad6a2de-3696-11ef-98a6-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 356,
@@ -19157,7 +19219,9 @@
                 "seed": 86
             },
             "opponent2": {
-                "id": null
+                "id": "dad6a2de-3696-11ef-98a6-0242ac1d0004",
+                "name": "LosVIPcitos",
+                "seed": 342
             },
             "match_games": []
         },
@@ -23113,7 +23177,9 @@
                 "seed": 427
             },
             "opponent2": {
-                "id": null
+                "id": "f080c956-3250-11ef-9b62-0242ac1b0004",
+                "name": "CLASH GOLS",
+                "seed": 171
             },
             "match_games": []
         },

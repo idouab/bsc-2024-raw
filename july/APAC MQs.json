@@ -20379,18 +20379,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88a7bc16-324d-11ef-ae97-0242ac1b0004",
                 "name": "Delay Esports",
-                "seed": 20
+                "seed": 20,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "89d3e876-324d-11ef-b1a8-0242ac1b0004",
                 "name": "3HK",
-                "seed": 71
+                "seed": 71,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "88a7bc16-324d-11ef-ae97-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89d3e876-324d-11ef-b1a8-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "88a7bc16-324d-11ef-ae97-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "89d3e876-324d-11ef-b1a8-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 436,

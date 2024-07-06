@@ -43869,18 +43869,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
                 "name": "Perfect Chaos",
-                "seed": 269
+                "seed": 269,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
                 "name": "VongolaAkatsuki",
-                "seed": 20
+                "seed": 20,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "86ccf714-3714-11ef-908e-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 942,
@@ -44213,7 +44248,9 @@
                 "seed": 39
             },
             "opponent2": {
-                "id": null
+                "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
+                "name": "VongolaAkatsuki",
+                "seed": 20
             },
             "match_games": []
         },

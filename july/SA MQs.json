@@ -6032,6 +6032,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "União QuiEdi",
+            "players": [
+                "Jagunço",
+                "GRM/Geovanne",
+                "GRM/Marcos"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "c96b9944-358a-11ef-bd25-0242ac1d0004",
             "tournament_id": 0,
             "name": "Vênus",
@@ -6083,6 +6094,18 @@
                 "Barak",
                 "alexander",
                 "☠Depredador☠"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "bfce5a4e-393f-11ef-bb86-0242ac1c0004",
+            "tournament_id": 0,
+            "name": "THE LEGENDS",
+            "players": [
+                "PablO.",
+                "RespawnLNJ",
+                "tow hall",
+                "★⁂⁙Ṡĥŏʷ𝒕ḭｍǝ⁙⁂★"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -12963,18 +12986,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed894dae-3250-11ef-a549-0242ac1b0004",
                 "name": "TEAM | RUNNERS 🌙",
-                "seed": 59
+                "seed": 59,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
                 "name": "União QuiEdi",
-                "seed": 454
+                "seed": 454,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "ed894dae-3250-11ef-a549-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ed894dae-3250-11ef-a549-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "ed894dae-3250-11ef-a549-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 230,
@@ -13555,18 +13628,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f35ba7b8-3250-11ef-be45-0242ac1b0004",
                 "name": "MYTHICAL STAR",
-                "seed": 75
+                "seed": 75,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "bfce5a4e-393f-11ef-bb86-0242ac1c0004",
                 "name": "THE LEGENDS",
-                "seed": 438
+                "seed": 438,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f35ba7b8-3250-11ef-be45-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bfce5a4e-393f-11ef-bb86-0242ac1c0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f35ba7b8-3250-11ef-be45-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "bfce5a4e-393f-11ef-bb86-0242ac1c0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 248,
@@ -15781,7 +15889,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "ed894dae-3250-11ef-a549-0242ac1b0004",
+                "name": "TEAM | RUNNERS 🌙",
+                "seed": 59
             },
             "opponent2": {
                 "id": null
@@ -15939,7 +16049,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f35ba7b8-3250-11ef-be45-0242ac1b0004",
+                "name": "MYTHICAL STAR",
+                "seed": 75
             },
             "opponent2": {
                 "id": null
@@ -19485,7 +19597,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "6cf96af8-3a33-11ef-8290-0242ac1d0004",
+                "name": "União QuiEdi",
+                "seed": 454
             },
             "opponent2": {
                 "id": null
@@ -19605,7 +19719,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bfce5a4e-393f-11ef-bb86-0242ac1c0004",
+                "name": "THE LEGENDS",
+                "seed": 438
             },
             "opponent2": {
                 "id": null

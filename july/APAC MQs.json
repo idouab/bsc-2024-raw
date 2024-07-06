@@ -10324,18 +10324,53 @@
             "group_id": 0,
             "round_id": 3,
             "child_count": 3,
-            "status": 0,
+            "status": 4,
             "opponent1": {
                 "id": "608666fc-3251-11ef-ad2d-0242ac1b0004",
                 "name": "Rival Esports EA",
-                "seed": 2
+                "seed": 2,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
                 "name": "ZHU",
-                "seed": 191
+                "seed": 191,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "608666fc-3251-11ef-ad2d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "608666fc-3251-11ef-ad2d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 299,
@@ -10774,7 +10809,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "608666fc-3251-11ef-ad2d-0242ac1b0004",
+                "name": "Rival Esports EA",
+                "seed": 2
             },
             "opponent2": {
                 "id": null
@@ -13975,7 +14012,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9af1e912-35ba-11ef-a70a-0242ac1d0004",
+                "name": "ZHU",
+                "seed": 191
             },
             "opponent2": {
                 "id": null

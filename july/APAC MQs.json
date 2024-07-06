@@ -17526,18 +17526,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "def13dce-35fc-11ef-bb11-0242ac1b0004",
                 "name": "Kai",
-                "seed": 91
+                "seed": 91,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
                 "name": "Wei",
-                "seed": 143
+                "seed": 143,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "def13dce-35fc-11ef-bb11-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "def13dce-35fc-11ef-bb11-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 381,
@@ -17989,7 +18024,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                "name": "Wei",
+                "seed": 143
             },
             "opponent2": {
                 "id": null

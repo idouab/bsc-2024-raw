@@ -7578,6 +7578,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "ddfbadba-364b-11ef-b89d-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "3chiggas(the bug)",
+            "players": [
+                "MEnUrmom",
+                "Eugene",
+                "Edwin"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "0e065768-359c-11ef-ac25-0242ac1b0004",
             "tournament_id": 0,
             "name": "Los nenis",
@@ -23765,7 +23776,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61791470-3250-11ef-ae64-0242ac1b0004",
                 "name": "TONOTOS",
@@ -23774,7 +23785,8 @@
             "opponent2": {
                 "id": "a6076d4c-3b0d-11ef-9845-0242ac130004",
                 "name": "The Super Sigmas",
-                "seed": 585
+                "seed": 585,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -30147,18 +30159,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5fc7a04c-3250-11ef-8857-0242ac1b0004",
                 "name": "R1C3 Clan",
-                "seed": 230
+                "seed": 230,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ddfbadba-364b-11ef-b89d-0242ac1d0004",
                 "name": "3chiggas(the bug)",
-                "seed": 283
+                "seed": 283,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "5fc7a04c-3250-11ef-8857-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ddfbadba-364b-11ef-b89d-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "5fc7a04c-3250-11ef-8857-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ddfbadba-364b-11ef-b89d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5fc7a04c-3250-11ef-8857-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ddfbadba-364b-11ef-b89d-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 889,
@@ -31731,7 +31793,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "61791470-3250-11ef-ae64-0242ac1b0004",
+                "name": "TONOTOS",
+                "seed": 73
             },
             "opponent2": {
                 "id": null
@@ -33280,7 +33344,9 @@
                 "seed": 27
             },
             "opponent2": {
-                "id": null
+                "id": "5fc7a04c-3250-11ef-8857-0242ac1b0004",
+                "name": "R1C3 Clan",
+                "seed": 230
             },
             "match_games": []
         },

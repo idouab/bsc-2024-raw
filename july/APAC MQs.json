@@ -2856,6 +2856,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "おけっけ",
+            "players": [
+                "おわたん昆布",
+                "たろ",
+                "け  っ   け"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "87558e88-324d-11ef-8a2b-0242ac1b0004",
             "tournament_id": 0,
             "name": "cocking mama",
@@ -6096,18 +6107,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
                 "name": "CSR",
-                "seed": 67
+                "seed": 67,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
                 "name": "おけっけ",
-                "seed": 190
+                "seed": 190,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 101,
@@ -7922,7 +7983,9 @@
                 "seed": 62
             },
             "opponent2": {
-                "id": null
+                "id": "88ee3d76-324d-11ef-a5dc-0242ac1b0004",
+                "name": "CSR",
+                "seed": 67
             },
             "match_games": []
         },
@@ -9552,7 +9615,9 @@
                 "seed": 195
             },
             "opponent2": {
-                "id": null
+                "id": "b2b3c6ca-384d-11ef-9475-0242ac1d0004",
+                "name": "おけっけ",
+                "seed": 190
             },
             "match_games": []
         },

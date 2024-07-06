@@ -17667,18 +17667,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
                 "name": "Marruecos",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "46da0010-3634-11ef-ad90-0242ac1b0004",
                 "name": "MeIA BOMBA",
-                "seed": 253
+                "seed": 253,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46da0010-3634-11ef-ad90-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "46da0010-3634-11ef-ad90-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 389,
@@ -18207,7 +18242,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
                 "name": "Underdogs",
@@ -18216,7 +18251,8 @@
             "opponent2": {
                 "id": "bbaabd6c-3625-11ef-bb80-0242ac1b0004",
                 "name": "Los Compadritos",
-                "seed": 284
+                "seed": 284,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -20007,7 +20043,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 0,
             "opponent1": {
                 "id": "f5620638-3250-11ef-9fa5-0242ac1b0004",
                 "name": "TryBirds",
@@ -20413,7 +20449,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                "name": "Marruecos",
+                "seed": 4
             },
             "opponent2": {
                 "id": null
@@ -20577,7 +20615,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                "name": "Underdogs",
+                "seed": 28
             },
             "opponent2": {
                 "id": null
@@ -25406,7 +25446,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "bbaabd6c-3625-11ef-bb80-0242ac1b0004",
+                "name": "Los Compadritos",
+                "seed": 284
             },
             "opponent2": {
                 "id": null
@@ -25734,7 +25776,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "46da0010-3634-11ef-ad90-0242ac1b0004",
+                "name": "MeIA BOMBA",
+                "seed": 253
             },
             "opponent2": {
                 "id": null

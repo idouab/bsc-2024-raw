@@ -15950,18 +15950,53 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
                 "name": "Opkids",
-                "seed": 79
+                "seed": 79,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "07c0bb80-35e9-11ef-9224-0242ac1b0004",
                 "name": "Limitless",
-                "seed": 114
+                "seed": 114,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "07c0bb80-35e9-11ef-9224-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "07c0bb80-35e9-11ef-9224-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 328,
@@ -16841,7 +16876,9 @@
                 "seed": 80
             },
             "opponent2": {
-                "id": null
+                "id": "8a0f555a-324d-11ef-8b20-0242ac1b0004",
+                "name": "Opkids",
+                "seed": 79
             },
             "match_games": []
         },

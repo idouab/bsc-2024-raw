@@ -26009,7 +26009,7 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f453b3fe-3250-11ef-b046-0242ac1b0004",
                 "name": "Bover FC",
@@ -26018,7 +26018,8 @@
             "opponent2": {
                 "id": "6546a3c8-3567-11ef-a4ab-0242ac1b0004",
                 "name": "FMI-SPORTS",
-                "seed": 373
+                "seed": 373,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -27084,18 +27085,68 @@
             "group_id": 1,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c96b9944-358a-11ef-bd25-0242ac1d0004",
                 "name": "Vênus",
-                "seed": 443
+                "seed": 443,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
                 "name": "Stellar Skirmish",
-                "seed": 326
+                "seed": 326,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "c96b9944-358a-11ef-bd25-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "c96b9944-358a-11ef-bd25-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "c96b9944-358a-11ef-bd25-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 347,
@@ -28315,7 +28366,9 @@
                 "seed": 290
             },
             "opponent2": {
-                "id": null
+                "id": "f453b3fe-3250-11ef-b046-0242ac1b0004",
+                "name": "Bover FC",
+                "seed": 117
             },
             "match_games": []
         },

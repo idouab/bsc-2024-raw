@@ -12080,18 +12080,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "887d215e-324d-11ef-b16d-0242ac1b0004",
                 "name": "Feasible Gaming",
-                "seed": 15
+                "seed": 15,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
                 "name": "starcluster2",
-                "seed": 210
+                "seed": 210,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "887d215e-324d-11ef-b16d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "887d215e-324d-11ef-b16d-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 356,
@@ -16857,7 +16892,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b419bdb6-3a56-11ef-9aba-0242ac1d0004",
+                "name": "starcluster2",
+                "seed": 210
             },
             "opponent2": {
                 "id": null

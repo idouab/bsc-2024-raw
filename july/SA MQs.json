@@ -39502,18 +39502,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
                 "name": "7x",
-                "seed": 146
+                "seed": 146,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
                 "name": "Stellar Skirmish",
-                "seed": 326
+                "seed": 326,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 830,
@@ -40165,7 +40215,9 @@
                 "seed": 209
             },
             "opponent2": {
-                "id": null
+                "id": "6bcb0850-3671-11ef-baa2-0242ac1b0004",
+                "name": "Stellar Skirmish",
+                "seed": 326
             },
             "match_games": []
         },
@@ -41130,7 +41182,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f446bb54-3250-11ef-8a03-0242ac1b0004",
+                "name": "Macaquitos F/A",
+                "seed": 24
             },
             "opponent2": {
                 "id": null

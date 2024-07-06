@@ -43089,18 +43089,53 @@
             "group_id": 0,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
                 "name": "Homeless",
-                "seed": 10
+                "seed": 10,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5ed951a8-3250-11ef-85a9-0242ac1b0004",
                 "name": "ABP",
-                "seed": 74
+                "seed": 74,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ed951a8-3250-11ef-85a9-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5ed951a8-3250-11ef-85a9-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1446,
@@ -43471,7 +43506,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "628f8d1c-3250-11ef-9705-0242ac1b0004",
+                "name": "Homeless",
+                "seed": 10
             },
             "opponent2": {
                 "id": null
@@ -53031,7 +53068,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5ed951a8-3250-11ef-85a9-0242ac1b0004",
+                "name": "ABP",
+                "seed": 74
             },
             "opponent2": {
                 "id": null

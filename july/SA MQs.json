@@ -43604,18 +43604,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f51177e0-3250-11ef-bac2-0242ac1b0004",
                 "name": "TEAM P4N",
-                "seed": 104
+                "seed": 104,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
                 "name": "Blacx",
-                "seed": 468
+                "seed": 468,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "f51177e0-3250-11ef-bac2-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "f51177e0-3250-11ef-bac2-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 934,
@@ -43923,7 +43958,9 @@
                 "seed": 40
             },
             "opponent2": {
-                "id": null
+                "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
+                "name": "Blacx",
+                "seed": 468
             },
             "match_games": []
         },

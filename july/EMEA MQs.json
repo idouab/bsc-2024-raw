@@ -23096,6 +23096,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "5957c388-324e-11ef-b64b-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Hyper X Players",
+            "players": [
+                "PRZYGODZIX",
+                "Adam",
+                "piesel 250",
+                "𝔹αхσn♛"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "644ad9b0-324e-11ef-883d-0242ac1b0004",
             "tournament_id": 0,
             "name": "Abbau Gaming",
@@ -26395,6 +26407,18 @@
                 "◤™Sørrɤᚑᚢoob™◥",
                 "Faczi",
                 "ⁱᵃᵐ|Տأ𝖚𝔡ǿ𝟬𝟕"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "2eb136d6-364b-11ef-886f-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Bürgie",
+            "players": [
+                "iv sausage",
+                "陰影",
+                "ØP | Ilay 🥀",
+                "mandjolalapica"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -31114,18 +31138,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5957c388-324e-11ef-b64b-0242ac1b0004",
                 "name": "Hyper X Players",
-                "seed": 273
+                "seed": 273,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "63a74aca-356e-11ef-86e7-0242ac1b0004",
                 "name": "Huevitos",
-                "seed": 1776
+                "seed": 1776,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "5957c388-324e-11ef-b64b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63a74aca-356e-11ef-86e7-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "5957c388-324e-11ef-b64b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63a74aca-356e-11ef-86e7-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 104,
@@ -44119,18 +44178,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "2eb136d6-364b-11ef-886f-0242ac1b0004",
                 "name": "Bürgie",
-                "seed": 629
+                "seed": 629,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "368c39da-3a67-11ef-a493-0242ac1c0004",
                 "name": "NIP",
-                "seed": 1420
+                "seed": 1420,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "2eb136d6-364b-11ef-886f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "368c39da-3a67-11ef-a493-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "2eb136d6-364b-11ef-886f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "368c39da-3a67-11ef-a493-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 461,
@@ -57002,10 +57096,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "63a74aca-356e-11ef-86e7-0242ac1b0004",
+                "name": "Huevitos",
+                "seed": 1776
             },
             "opponent2": {
-                "id": null
+                "id": "b56cf812-3589-11ef-a6a7-0242ac1d0004",
+                "name": "Çaysea",
+                "seed": 1297
             },
             "match_games": []
         },
@@ -60553,7 +60651,9 @@
                 "seed": 396
             },
             "opponent2": {
-                "id": null
+                "id": "368c39da-3a67-11ef-a493-0242ac1c0004",
+                "name": "NIP",
+                "seed": 1420
             },
             "match_games": []
         },
@@ -74236,10 +74336,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "5957c388-324e-11ef-b64b-0242ac1b0004",
+                "name": "Hyper X Players",
+                "seed": 273
             },
             "opponent2": {
-                "id": null
+                "id": "644ad9b0-324e-11ef-883d-0242ac1b0004",
+                "name": "Abbau Gaming",
+                "seed": 752
             },
             "match_games": []
         },
@@ -77207,7 +77311,9 @@
                 "seed": 1653
             },
             "opponent2": {
-                "id": null
+                "id": "2eb136d6-364b-11ef-886f-0242ac1b0004",
+                "name": "Bürgie",
+                "seed": 629
             },
             "match_games": []
         },

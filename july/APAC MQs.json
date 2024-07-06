@@ -20314,18 +20314,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "86a09910-324d-11ef-b29f-0242ac1b0004",
                 "name": "Monarchy",
-                "seed": 17
+                "seed": 17,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
                 "name": "Wei",
-                "seed": 143
+                "seed": 143,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "86a09910-324d-11ef-b29f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "86a09910-324d-11ef-b29f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "df3c47a2-36f0-11ef-b8ac-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 432,
@@ -20737,7 +20772,9 @@
                 "seed": 32
             },
             "opponent2": {
-                "id": null
+                "id": "86a09910-324d-11ef-b29f-0242ac1b0004",
+                "name": "Monarchy",
+                "seed": 17
             },
             "match_games": []
         },

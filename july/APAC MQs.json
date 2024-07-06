@@ -14187,18 +14187,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7a110878-3627-11ef-ac63-0242ac1b0004",
                 "name": "🕊️𝓴𝓱𝓸𝓴𝓱𝔂🕊️",
-                "seed": 73
+                "seed": 73,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
                 "name": "オラウータン島KTH",
-                "seed": 99
+                "seed": 99,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "7a110878-3627-11ef-ac63-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "7a110878-3627-11ef-ac63-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 269,
@@ -14914,7 +14949,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a110878-3627-11ef-ac63-0242ac1b0004",
+                "name": "🕊️𝓴𝓱𝓸𝓴𝓱𝔂🕊️",
+                "seed": 73
             },
             "opponent2": {
                 "id": null

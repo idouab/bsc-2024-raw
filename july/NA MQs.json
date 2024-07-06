@@ -7377,6 +7377,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "49260122-3583-11ef-bbfb-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Bio bosses",
+            "players": [
+                "nikeibar",
+                "KingWolfie70899",
+                "???"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "98be8a74-3579-11ef-92b4-0242ac1b0004",
             "tournament_id": 0,
             "name": "Diabla Carney",
@@ -7450,6 +7461,17 @@
                 "NRT|Sʜɪɴᴏʙɪッ",
                 "NRT|STØRMツ",
                 "NRT|Reyesシ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "794c6f16-357a-11ef-9dd7-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "LLB",
+            "players": [
+                "soul",
+                "⛩️|Das64|🎋",
+                "gamer/LLB🕊"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7957,18 +7979,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "55d1220c-3732-11ef-9cda-0242ac1d0004",
                 "name": "InstinctGamingNA",
-                "seed": 481
+                "seed": 481,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "49260122-3583-11ef-bbfb-0242ac1b0004",
                 "name": "Bio bosses",
-                "seed": 544
+                "seed": 544,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "55d1220c-3732-11ef-9cda-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "49260122-3583-11ef-bbfb-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "55d1220c-3732-11ef-9cda-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "49260122-3583-11ef-bbfb-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 19,
@@ -13946,18 +14003,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
                 "name": "Shining Star",
-                "seed": 503
+                "seed": 503,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "794c6f16-357a-11ef-9dd7-0242ac1d0004",
                 "name": "LLB",
-                "seed": 522
+                "seed": 522,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "794c6f16-357a-11ef-9dd7-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "794c6f16-357a-11ef-9dd7-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 355,
@@ -16967,7 +17059,9 @@
                 "seed": 32
             },
             "opponent2": {
-                "id": null
+                "id": "55d1220c-3732-11ef-9cda-0242ac1d0004",
+                "name": "InstinctGamingNA",
+                "seed": 481
             },
             "match_games": []
         },
@@ -20157,7 +20251,9 @@
                 "seed": 10
             },
             "opponent2": {
-                "id": null
+                "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
+                "name": "Shining Star",
+                "seed": 503
             },
             "match_games": []
         },

@@ -55676,18 +55676,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
                 "name": "Golden Stars",
-                "seed": 400
+                "seed": 400,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
                 "name": "SDC Demons",
-                "seed": 497
+                "seed": 497,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e2b6b2a0-374f-11ef-93fd-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1419,
@@ -56993,7 +57043,9 @@
                 "seed": 165
             },
             "opponent2": {
-                "id": null
+                "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                "name": "Golden Stars",
+                "seed": 400
             },
             "match_games": []
         },

@@ -16539,18 +16539,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8000d646-35d7-11ef-9da6-0242ac1d0004",
                 "name": "Los Buzzilas",
-                "seed": 235
+                "seed": 235,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "186b29d0-35e3-11ef-814a-0242ac1d0004",
                 "name": "Team Mana",
-                "seed": 278
+                "seed": 278,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8000d646-35d7-11ef-9da6-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "186b29d0-35e3-11ef-814a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8000d646-35d7-11ef-9da6-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "186b29d0-35e3-11ef-814a-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "8000d646-35d7-11ef-9da6-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "186b29d0-35e3-11ef-814a-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 251,
@@ -19289,7 +19339,9 @@
                 "seed": 22
             },
             "opponent2": {
-                "id": null
+                "id": "8000d646-35d7-11ef-9da6-0242ac1d0004",
+                "name": "Los Buzzilas",
+                "seed": 235
             },
             "match_games": []
         },

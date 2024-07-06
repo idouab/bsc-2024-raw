@@ -50733,18 +50733,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
                 "name": "sapo",
-                "seed": 203
+                "seed": 203,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "39987dbc-35a5-11ef-ad98-0242ac1b0004",
                 "name": "NRT | Gaming",
-                "seed": 610
+                "seed": 610,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "39987dbc-35a5-11ef-ad98-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "39987dbc-35a5-11ef-ad98-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "ca65ce30-35dc-11ef-8838-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "39987dbc-35a5-11ef-ad98-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1237,
@@ -52957,7 +53007,9 @@
                 "seed": 437
             },
             "opponent2": {
-                "id": null
+                "id": "39987dbc-35a5-11ef-ad98-0242ac1b0004",
+                "name": "NRT | Gaming",
+                "seed": 610
             },
             "match_games": []
         },

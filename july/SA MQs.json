@@ -40698,18 +40698,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "14783906-3586-11ef-a82a-0242ac1d0004",
                 "name": "fênixBr",
-                "seed": 431
+                "seed": 431,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
                 "name": "VAPO.X",
-                "seed": 402
+                "seed": 402,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "14783906-3586-11ef-a82a-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "14783906-3586-11ef-a82a-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "14783906-3586-11ef-a82a-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 865,
@@ -41510,7 +41560,9 @@
                 "seed": 70
             },
             "opponent2": {
-                "id": null
+                "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                "name": "VAPO.X",
+                "seed": 402
             },
             "match_games": []
         },

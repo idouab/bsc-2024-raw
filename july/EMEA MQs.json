@@ -25276,6 +25276,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "8e888f38-36ef-11ef-a68b-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "The Skibidi Rizzlers",
+            "players": [
+                "¢¥ð`Jőnąя\\(:",
+                "Mystery Meister",
+                "AMB|Alex",
+                "TTM | Savitar"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "6793a408-36fe-11ef-915b-0242ac1d0004",
             "tournament_id": 0,
             "name": "Hussars",
@@ -34124,18 +34136,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "69a6ce64-324e-11ef-9e25-0242ac1b0004",
                 "name": "DEY Gaming",
-                "seed": 248
+                "seed": 248,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "aecaef8a-3919-11ef-9a31-0242ac1c0004",
                 "name": "FC JKT",
-                "seed": 1801
+                "seed": 1801,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "69a6ce64-324e-11ef-9e25-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aecaef8a-3919-11ef-9a31-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "69a6ce64-324e-11ef-9e25-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "aecaef8a-3919-11ef-9a31-0242ac1c0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 198,
@@ -39404,18 +39451,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8e888f38-36ef-11ef-a68b-0242ac1b0004",
                 "name": "The Skibidi Rizzlers",
-                "seed": 653
+                "seed": 653,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "58ca4fce-3a11-11ef-9159-0242ac1c0004",
                 "name": "The Expendables",
-                "seed": 1396
+                "seed": 1396,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8e888f38-36ef-11ef-a68b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58ca4fce-3a11-11ef-9159-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8e888f38-36ef-11ef-a68b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "58ca4fce-3a11-11ef-9159-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 337,
@@ -57806,10 +57888,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "69a6ce64-324e-11ef-9e25-0242ac1b0004",
+                "name": "DEY Gaming",
+                "seed": 248
             },
             "opponent2": {
-                "id": null
+                "id": "1f5a851c-37f3-11ef-ba02-0242ac1d0004",
+                "name": "Kushi | Esports",
+                "seed": 1272
             },
             "match_games": []
         },
@@ -59187,7 +59273,9 @@
                 "seed": 372
             },
             "opponent2": {
-                "id": null
+                "id": "58ca4fce-3a11-11ef-9159-0242ac1c0004",
+                "name": "The Expendables",
+                "seed": 1396
             },
             "match_games": []
         },
@@ -76057,7 +76145,9 @@
                 "seed": 1677
             },
             "opponent2": {
-                "id": null
+                "id": "8e888f38-36ef-11ef-a68b-0242ac1b0004",
+                "name": "The Skibidi Rizzlers",
+                "seed": 653
             },
             "match_games": []
         },

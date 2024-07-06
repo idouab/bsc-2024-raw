@@ -5493,6 +5493,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "3cc35214-35a0-11ef-9c35-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "Chaotic Trident",
+            "players": [
+                "Alanxinho",
+                "LuchooWER",
+                "REXY|🇵🇪",
+                "Đanieł 爱你"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "ded90ad6-364e-11ef-9c73-0242ac1b0004",
             "tournament_id": 0,
             "name": "Los papus",
@@ -5929,6 +5941,17 @@
                 "NX | Yurness✨",
                 "NX | M𝖆ster 龙",
                 "NX | Nasty 发"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "2a5ef900-398a-11ef-b1b7-0242ac1c0004",
+            "tournament_id": 0,
+            "name": "Pan y circo",
+            "players": [
+                "gamer",
+                "brandon",
+                "⛩️ 4lexx23💛"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -7089,18 +7112,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f6f9cc06-3250-11ef-9f8c-0242ac1b0004",
                 "name": "Los flaites",
-                "seed": 48
+                "seed": 48,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3cc35214-35a0-11ef-9c35-0242ac1d0004",
                 "name": "Chaotic Trident",
-                "seed": 465
+                "seed": 465,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f6f9cc06-3250-11ef-9f8c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3cc35214-35a0-11ef-9c35-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f6f9cc06-3250-11ef-9f8c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3cc35214-35a0-11ef-9c35-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 30,
@@ -10853,18 +10911,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6da36d40-35ac-11ef-97a4-0242ac1d0004",
                 "name": "Os anti-metas",
-                "seed": 242
+                "seed": 242,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
                 "name": "FKC",
-                "seed": 271
+                "seed": 271,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "6da36d40-35ac-11ef-97a4-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "6da36d40-35ac-11ef-97a4-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "6da36d40-35ac-11ef-97a4-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 147,
@@ -11525,18 +11633,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f4139e0e-3250-11ef-8bba-0242ac1b0004",
                 "name": "SONS OF \"THE LORDS\"",
-                "seed": 71
+                "seed": 71,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2a5ef900-398a-11ef-b1b7-0242ac1c0004",
                 "name": "Pan y circo",
-                "seed": 442
+                "seed": 442,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f4139e0e-3250-11ef-8bba-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a5ef900-398a-11ef-b1b7-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f4139e0e-3250-11ef-8bba-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2a5ef900-398a-11ef-b1b7-0242ac1c0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 168,
@@ -14455,10 +14598,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f6f9cc06-3250-11ef-9f8c-0242ac1b0004",
+                "name": "Los flaites",
+                "seed": 48
             },
             "opponent2": {
-                "id": null
+                "id": "f5cb7e56-3250-11ef-b114-0242ac1b0004",
+                "name": "G6",
+                "seed": 209
             },
             "match_games": []
         },
@@ -15462,7 +15609,9 @@
                 "seed": 15
             },
             "opponent2": {
-                "id": null
+                "id": "6b42df4e-371a-11ef-8744-0242ac1d0004",
+                "name": "FKC",
+                "seed": 271
             },
             "match_games": []
         },
@@ -15653,7 +15802,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f4139e0e-3250-11ef-8bba-0242ac1b0004",
+                "name": "SONS OF \"THE LORDS\"",
+                "seed": 71
             },
             "opponent2": {
                 "id": null
@@ -18599,10 +18750,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "3cc35214-35a0-11ef-9c35-0242ac1d0004",
+                "name": "Chaotic Trident",
+                "seed": 465
             },
             "opponent2": {
-                "id": null
+                "id": "ded90ad6-364e-11ef-9c73-0242ac1b0004",
+                "name": "Los papus",
+                "seed": 304
             },
             "match_games": []
         },
@@ -19497,7 +19652,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "2a5ef900-398a-11ef-b1b7-0242ac1c0004",
+                "name": "Pan y circo",
+                "seed": 442
             },
             "opponent2": {
                 "id": null

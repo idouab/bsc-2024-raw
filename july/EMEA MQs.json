@@ -22152,6 +22152,17 @@
                 "Aleks"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "af4056a2-3942-11ef-900a-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "KSP Esports",
+            "players": [
+                "Zerox💞いゆドヴぎ",
+                "Mind💞いゆドヴぎ",
+                "Azoxx💞いゆドヴぎ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -31858,18 +31869,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "54e76218-324e-11ef-ab7c-0242ac1b0004",
                 "name": "De kippies",
-                "seed": 236
+                "seed": 236,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "af4056a2-3942-11ef-900a-0242ac1d0004",
                 "name": "KSP Esports",
-                "seed": 1813
+                "seed": 1813,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "54e76218-324e-11ef-ab7c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af4056a2-3942-11ef-900a-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "54e76218-324e-11ef-ab7c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "af4056a2-3942-11ef-900a-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 486,
@@ -46434,7 +46480,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "54e76218-324e-11ef-ab7c-0242ac1b0004",
+                "name": "De kippies",
+                "seed": 236
             },
             "opponent2": {
                 "id": null
@@ -62188,7 +62236,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "af4056a2-3942-11ef-900a-0242ac1d0004",
+                "name": "KSP Esports",
+                "seed": 1813
             },
             "opponent2": {
                 "id": null

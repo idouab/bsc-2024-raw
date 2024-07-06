@@ -5718,6 +5718,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "245e5676-3751-11ef-b500-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "ENIGMA",
+            "players": [
+                "Jota:/",
+                "[sebas]ツ",
+                "Aniki"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "1545b32e-3584-11ef-8c6b-0242ac1b0004",
             "tournament_id": 0,
             "name": "Branca FC",
@@ -9479,18 +9490,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "a85f8518-36b0-11ef-90da-0242ac1d0004",
                 "name": "TEAM HUESITO",
-                "seed": 220
+                "seed": 220,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "245e5676-3751-11ef-b500-0242ac1d0004",
                 "name": "ENIGMA",
-                "seed": 293
+                "seed": 293,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "a85f8518-36b0-11ef-90da-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "245e5676-3751-11ef-b500-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "a85f8518-36b0-11ef-90da-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "245e5676-3751-11ef-b500-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "a85f8518-36b0-11ef-90da-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "245e5676-3751-11ef-b500-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 111,
@@ -14941,7 +15002,9 @@
                 "seed": 37
             },
             "opponent2": {
-                "id": null
+                "id": "a85f8518-36b0-11ef-90da-0242ac1d0004",
+                "name": "TEAM HUESITO",
+                "seed": 220
             },
             "match_games": []
         },
@@ -18891,7 +18954,9 @@
                 "seed": 476
             },
             "opponent2": {
-                "id": null
+                "id": "245e5676-3751-11ef-b500-0242ac1d0004",
+                "name": "ENIGMA",
+                "seed": 293
             },
             "match_games": []
         },

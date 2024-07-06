@@ -46658,18 +46658,68 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "aea70268-39b0-11ef-a4ab-0242ac1c0004",
                 "name": "Random's club II",
-                "seed": 384
+                "seed": 384,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
                 "name": "VATOS LOCOS !",
-                "seed": 128
+                "seed": 128,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "aea70268-39b0-11ef-a4ab-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "aea70268-39b0-11ef-a4ab-0242ac1c0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "aea70268-39b0-11ef-a4ab-0242ac1c0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1038,
@@ -49009,7 +49059,9 @@
                 "seed": 383
             },
             "opponent2": {
-                "id": null
+                "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                "name": "VATOS LOCOS !",
+                "seed": 128
             },
             "match_games": []
         },

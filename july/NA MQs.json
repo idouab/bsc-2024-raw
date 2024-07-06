@@ -53030,18 +53030,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3c3c2202-3a15-11ef-9821-0242ac1c0004",
                 "name": "Borojo team",
-                "seed": 569
+                "seed": 569,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "28d03998-3b4a-11ef-8ba7-0242ac130004",
                 "name": "African tribe",
-                "seed": 237
+                "seed": 237,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "3c3c2202-3a15-11ef-9821-0242ac1c0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "28d03998-3b4a-11ef-8ba7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "3c3c2202-3a15-11ef-9821-0242ac1c0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "28d03998-3b4a-11ef-8ba7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1369,
@@ -53130,18 +53165,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
                 "name": "JBY | FUSIÓN",
-                "seed": 67
+                "seed": 67,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0192094e-358f-11ef-89c5-0242ac1b0004",
                 "name": "FAM",
-                "seed": 574
+                "seed": 574,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0192094e-358f-11ef-89c5-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0192094e-358f-11ef-89c5-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1374,
@@ -54409,7 +54479,9 @@
                 "seed": 442
             },
             "opponent2": {
-                "id": null
+                "id": "28d03998-3b4a-11ef-8ba7-0242ac130004",
+                "name": "African tribe",
+                "seed": 237
             },
             "match_games": []
         },
@@ -54499,7 +54571,9 @@
                 "seed": 490
             },
             "opponent2": {
-                "id": null
+                "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                "name": "JBY | FUSIÓN",
+                "seed": 67
             },
             "match_games": []
         },

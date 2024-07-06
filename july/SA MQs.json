@@ -18682,18 +18682,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
                 "name": "iWorlds",
-                "seed": 10
+                "seed": 10,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d426204e-3629-11ef-988e-0242ac1d0004",
                 "name": "Figurantes BT",
-                "seed": 247
+                "seed": 247,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d426204e-3629-11ef-988e-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d426204e-3629-11ef-988e-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 445,
@@ -20190,7 +20225,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
+                "name": "iWorlds",
+                "seed": 10
             },
             "opponent2": {
                 "id": null
@@ -24074,7 +24111,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "d426204e-3629-11ef-988e-0242ac1d0004",
+                "name": "Figurantes BT",
+                "seed": 247
             },
             "opponent2": {
                 "id": null

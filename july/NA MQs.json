@@ -45171,18 +45171,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f26fa8de-36f3-11ef-afb8-0242ac1b0004",
                 "name": "DYNMK",
-                "seed": 324
+                "seed": 324,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "811fef2a-36c3-11ef-91e5-0242ac1b0004",
                 "name": "Panteritas M",
-                "seed": 445
+                "seed": 445,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "f26fa8de-36f3-11ef-afb8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "811fef2a-36c3-11ef-91e5-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f26fa8de-36f3-11ef-afb8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "811fef2a-36c3-11ef-91e5-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1004,
@@ -47642,7 +47677,9 @@
                 "seed": 190
             },
             "opponent2": {
-                "id": null
+                "id": "f26fa8de-36f3-11ef-afb8-0242ac1b0004",
+                "name": "DYNMK",
+                "seed": 324
             },
             "match_games": []
         },

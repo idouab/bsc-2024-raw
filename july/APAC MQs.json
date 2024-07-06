@@ -4006,18 +4006,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a119842-324d-11ef-bada-0242ac1b0004",
                 "name": "Lcc 100KG",
-                "seed": 44
+                "seed": 44,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
                 "name": "ばろーおくたにさぁーん",
-                "seed": 213
+                "seed": 213,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "06aae9b4-35da-11ef-80fb-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 64,
@@ -5858,7 +5893,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8a119842-324d-11ef-bada-0242ac1b0004",
+                "name": "Lcc 100KG",
+                "seed": 44
             },
             "opponent2": {
                 "id": null

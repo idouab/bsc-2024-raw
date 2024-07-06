@@ -54179,18 +54179,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "febe4dbc-35fd-11ef-9e42-0242ac1d0004",
                 "name": "Cruz Azul",
-                "seed": 369
+                "seed": 369,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
                 "name": "Tejeria Pro",
-                "seed": 242
+                "seed": 242,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "febe4dbc-35fd-11ef-9e42-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "febe4dbc-35fd-11ef-9e42-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "febe4dbc-35fd-11ef-9e42-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1cc64fd4-35be-11ef-ab11-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1387,
@@ -56186,7 +56236,9 @@
                 "seed": 603
             },
             "opponent2": {
-                "id": null
+                "id": "febe4dbc-35fd-11ef-9e42-0242ac1d0004",
+                "name": "Cruz Azul",
+                "seed": 369
             },
             "match_games": []
         },

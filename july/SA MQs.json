@@ -5875,6 +5875,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "71f0d350-3689-11ef-8f39-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "ANTARTIC CHILEAN",
+            "players": [
+                "Proalfaro_XD",
+                "☬ᶜᴿᴬᶻᵞkíllєr☬",
+                "GAARA DO DESERT",
+                "Dariou"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "3eb443de-38e4-11ef-a48d-0242ac1c0004",
             "tournament_id": 0,
             "name": "Os Marrecos",
@@ -5894,6 +5906,18 @@
                 "ZPRINET",
                 "łęøņêļ",
                 "antônio el pró"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "efeeba20-3250-11ef-9e12-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "[JAH] LANÇADORES",
+            "players": [
+                "Bug_World",
+                "T.1.C.K",
+                "Iam_JoJo_",
+                "P¥N€"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -9716,18 +9740,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1e8bdeb6-3626-11ef-8903-0242ac1b0004",
                 "name": "Trabalhadores",
-                "seed": 245
+                "seed": 245,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0084e99c-35ce-11ef-9250-0242ac1b0004",
                 "name": "Bizarre Storm",
-                "seed": 268
+                "seed": 268,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "1e8bdeb6-3626-11ef-8903-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0084e99c-35ce-11ef-9250-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "1e8bdeb6-3626-11ef-8903-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0084e99c-35ce-11ef-9250-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "1e8bdeb6-3626-11ef-8903-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0084e99c-35ce-11ef-9250-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 115,
@@ -10894,18 +10968,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "71f0d350-3689-11ef-8f39-0242ac1b0004",
                 "name": "ANTARTIC CHILEAN",
-                "seed": 207
+                "seed": 207,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
                 "name": "RRH | Águias",
-                "seed": 306
+                "seed": 306,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "71f0d350-3689-11ef-8f39-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "71f0d350-3689-11ef-8f39-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 151,
@@ -11110,18 +11219,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "efeeba20-3250-11ef-9e12-0242ac1b0004",
                 "name": "[JAH] LANÇADORES",
-                "seed": 111
+                "seed": 111,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
                 "name": "VAPO.X",
-                "seed": 402
+                "seed": 402,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "efeeba20-3250-11ef-9e12-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "efeeba20-3250-11ef-9e12-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 156,
@@ -15042,7 +15186,9 @@
                 "seed": 12
             },
             "opponent2": {
-                "id": null
+                "id": "1e8bdeb6-3626-11ef-8903-0242ac1b0004",
+                "name": "Trabalhadores",
+                "seed": 245
             },
             "match_games": []
         },
@@ -15350,7 +15496,9 @@
                 "seed": 50
             },
             "opponent2": {
-                "id": null
+                "id": "1086e498-3651-11ef-9cb2-0242ac1d0004",
+                "name": "RRH | Águias",
+                "seed": 306
             },
             "match_games": []
         },
@@ -15403,10 +15551,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e96c3bca-37b2-11ef-b70d-0242ac1d0004",
+                "name": "VAPO.X",
+                "seed": 402
             },
             "opponent2": {
-                "id": null
+                "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                "name": "7x",
+                "seed": 146
             },
             "match_games": []
         },
@@ -19226,7 +19378,9 @@
                 "seed": 463
             },
             "opponent2": {
-                "id": null
+                "id": "71f0d350-3689-11ef-8f39-0242ac1b0004",
+                "name": "ANTARTIC CHILEAN",
+                "seed": 207
             },
             "match_games": []
         },
@@ -19259,10 +19413,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "efeeba20-3250-11ef-9e12-0242ac1b0004",
+                "name": "[JAH] LANÇADORES",
+                "seed": 111
             },
             "opponent2": {
-                "id": null
+                "id": "145f4f70-3565-11ef-8054-0242ac1b0004",
+                "name": "Nexus",
+                "seed": 367
             },
             "match_games": []
         },

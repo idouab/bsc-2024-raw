@@ -45806,18 +45806,53 @@
             "group_id": 1,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "3aca3468-35dd-11ef-9f34-0242ac1d0004",
                 "name": "McTrio",
-                "seed": 353
+                "seed": 353,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
                 "name": "LV | New Story",
-                "seed": 416
+                "seed": 416,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "3aca3468-35dd-11ef-9f34-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "3aca3468-35dd-11ef-9f34-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1034,
@@ -48149,7 +48184,9 @@
                 "seed": 354
             },
             "opponent2": {
-                "id": null
+                "id": "6bf6d320-3722-11ef-ab7b-0242ac1d0004",
+                "name": "LV | New Story",
+                "seed": 416
             },
             "match_games": []
         },

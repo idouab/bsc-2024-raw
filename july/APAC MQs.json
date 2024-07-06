@@ -2453,6 +2453,18 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "334450ca-36f5-11ef-8231-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "eclipse",
+            "players": [
+                "۞𝐄𝕃𝐒☽|hinaღ",
+                "そうなのＩ Lᵒᵛᵉᵧₒᵤ",
+                "۞𝐄𝕃𝐒☽|Delve",
+                "のくとなのＩ Lᵒᵛᵉᵧₒᵤ"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "688d7118-357d-11ef-9259-0242ac1d0004",
             "tournament_id": 0,
             "name": "0-7 Esports",
@@ -3086,18 +3098,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "8a1db744-324d-11ef-9146-0242ac1b0004",
                 "name": "Crimson Magic Squad",
-                "seed": 81
+                "seed": 81,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "334450ca-36f5-11ef-8231-0242ac1d0004",
                 "name": "eclipse",
-                "seed": 176
+                "seed": 176,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "8a1db744-324d-11ef-9146-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "334450ca-36f5-11ef-8231-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "8a1db744-324d-11ef-9146-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "334450ca-36f5-11ef-8231-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 17,

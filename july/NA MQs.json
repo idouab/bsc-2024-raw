@@ -44427,18 +44427,53 @@
             "group_id": 0,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "93027332-3251-11ef-945f-0242ac1b0004",
                 "name": "Rival Esports NA",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
                 "name": "IX Squares",
-                "seed": 24
+                "seed": 24,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "93027332-3251-11ef-945f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "93027332-3251-11ef-945f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1523,
@@ -55171,18 +55206,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c19347d0-35c1-11ef-8157-0242ac1d0004",
                 "name": "CACTI",
-                "seed": 335
+                "seed": 335,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "908846ec-3687-11ef-8896-0242ac1d0004",
                 "name": "Aussie",
-                "seed": 306
+                "seed": 306,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "c19347d0-35c1-11ef-8157-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "c19347d0-35c1-11ef-8157-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1418,
@@ -56470,7 +56540,9 @@
                 "seed": 101
             },
             "opponent2": {
-                "id": null
+                "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                "name": "Aussie",
+                "seed": 306
             },
             "match_games": []
         },
@@ -58117,7 +58189,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                "name": "IX Squares",
+                "seed": 24
             },
             "opponent2": {
                 "id": null

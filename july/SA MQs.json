@@ -5640,6 +5640,17 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
+            "id": "145f4f70-3565-11ef-8054-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "Nexus",
+            "players": [
+                "NX | Yurness✨",
+                "NX | M𝖆ster 龙",
+                "NX | Nasty 发"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
             "id": "f5b74922-3250-11ef-9f94-0242ac1b0004",
             "tournament_id": 0,
             "name": "Aguapanela",
@@ -5658,6 +5669,17 @@
                 "ALC|🔥DUDU✨",
                 "ALC|Sunshine☀️",
                 "The Thur"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "f1eac33c-3250-11ef-956f-0242ac1b0004",
+            "tournament_id": 0,
+            "name": "SPARKING DEMONS",
+            "players": [
+                "ㄥ乃爪4几ㄩ3ㄥ",
+                "GiyuuTomioka",
+                "Haizakiツ"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
@@ -9645,18 +9667,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
                 "name": "7x",
-                "seed": 146
+                "seed": 146,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "145f4f70-3565-11ef-8054-0242ac1b0004",
                 "name": "Nexus",
-                "seed": 367
+                "seed": 367,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "145f4f70-3565-11ef-8054-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f74b198a-3250-11ef-8603-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "145f4f70-3565-11ef-8054-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 157,
@@ -10434,18 +10491,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f1eac33c-3250-11ef-956f-0242ac1b0004",
                 "name": "SPARKING DEMONS",
-                "seed": 87
+                "seed": 87,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "208d4d46-389f-11ef-9b8d-0242ac1c0004",
                 "name": "☁️NUVEM☁️",
-                "seed": 426
+                "seed": 426,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f1eac33c-3250-11ef-956f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "208d4d46-389f-11ef-9b8d-0242ac1c0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "f1eac33c-3250-11ef-956f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "208d4d46-389f-11ef-9b8d-0242ac1c0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 192,
@@ -13615,7 +13707,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "208d4d46-389f-11ef-9b8d-0242ac1c0004",
+                "name": "☁️NUVEM☁️",
+                "seed": 426
             },
             "opponent2": {
                 "id": null
@@ -17343,7 +17437,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f1eac33c-3250-11ef-956f-0242ac1b0004",
+                "name": "SPARKING DEMONS",
+                "seed": 87
             },
             "opponent2": {
                 "id": null

@@ -2781,18 +2781,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0f0d4966-362b-11ef-82f9-0242ac1b0004",
                 "name": "🇫🇷MRG🇯🇵",
-                "seed": 97
+                "seed": 97,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9a215aa0-36b8-11ef-bf78-0242ac1d0004",
                 "name": "RSG",
-                "seed": 160
+                "seed": 160,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "0f0d4966-362b-11ef-82f9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9a215aa0-36b8-11ef-bf78-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "0f0d4966-362b-11ef-82f9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9a215aa0-36b8-11ef-bf78-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -5591,7 +5626,9 @@
                 "seed": 32
             },
             "opponent2": {
-                "id": null
+                "id": "0f0d4966-362b-11ef-82f9-0242ac1b0004",
+                "name": "🇫🇷MRG🇯🇵",
+                "seed": 97
             },
             "match_games": []
         },

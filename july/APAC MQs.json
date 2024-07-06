@@ -3118,18 +3118,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
                 "name": "BMTM",
-                "seed": 104
+                "seed": 104,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
                 "name": "Rowdy Pookies",
-                "seed": 153
+                "seed": 153,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1191f880-37ac-11ef-8c38-0242ac1c0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 23,
@@ -5453,7 +5488,9 @@
                 "seed": 25
             },
             "opponent2": {
-                "id": null
+                "id": "322b4330-3a3b-11ef-b375-0242ac1d0004",
+                "name": "BMTM",
+                "seed": 104
             },
             "match_games": []
         },

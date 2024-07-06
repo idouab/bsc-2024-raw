@@ -42300,18 +42300,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "eec3f034-3250-11ef-920c-0242ac1b0004",
                 "name": "Aposentados ™",
-                "seed": 16
+                "seed": 16,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5721d98-3250-11ef-a95d-0242ac1b0004",
                 "name": "OS ZICAS",
-                "seed": 156
+                "seed": 156,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "eec3f034-3250-11ef-920c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5721d98-3250-11ef-a95d-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "eec3f034-3250-11ef-920c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5721d98-3250-11ef-a95d-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 911,
@@ -42726,7 +42761,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "eec3f034-3250-11ef-920c-0242ac1b0004",
+                "name": "Aposentados ™",
+                "seed": 16
             },
             "opponent2": {
                 "id": null

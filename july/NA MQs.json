@@ -39400,18 +39400,53 @@
             "group_id": 0,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "60e56c7a-3250-11ef-a3cd-0242ac1b0004",
                 "name": "NUGGIES",
-                "seed": 208
+                "seed": 208,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f0946280-368e-11ef-94d2-0242ac1d0004",
                 "name": "PVS",
-                "seed": 433
+                "seed": 433,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "60e56c7a-3250-11ef-a3cd-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0946280-368e-11ef-94d2-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Kaboom Canyon",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000018.png",
+                    "opponent1": {
+                        "id": "60e56c7a-3250-11ef-a3cd-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f0946280-368e-11ef-94d2-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1301,
@@ -48830,7 +48865,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f0946280-368e-11ef-94d2-0242ac1d0004",
+                "name": "PVS",
+                "seed": 433
             },
             "opponent2": {
                 "id": null

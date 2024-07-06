@@ -53735,18 +53735,53 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "612ade22-3250-11ef-b125-0242ac1b0004",
                 "name": "Haters de Diegogamer",
-                "seed": 120
+                "seed": 120,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
                 "name": "Shining Star",
-                "seed": 503
+                "seed": 503,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "612ade22-3250-11ef-b125-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "612ade22-3250-11ef-b125-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d37e612c-375c-11ef-92de-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1379,
@@ -55612,7 +55647,9 @@
                 "seed": 94
             },
             "opponent2": {
-                "id": null
+                "id": "612ade22-3250-11ef-b125-0242ac1b0004",
+                "name": "Haters de Diegogamer",
+                "seed": 120
             },
             "match_games": []
         },

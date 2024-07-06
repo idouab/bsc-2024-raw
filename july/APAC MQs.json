@@ -2977,6 +2977,17 @@
                 "おつな"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
+        },
+        {
+            "id": "85b2af64-3560-11ef-b1d2-0242ac1d0004",
+            "tournament_id": 0,
+            "name": "チーム海田選抜",
+            "players": [
+                "マチュピチュ",
+                "カイアーファ",
+                "ウメちきん(本物)"
+            ],
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         }
     ],
     "stage": [
@@ -7097,7 +7108,7 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "df4a9316-3a83-11ef-90b8-0242ac1d0004",
                 "name": "AMJ",
@@ -7106,7 +7117,8 @@
             "opponent2": {
                 "id": "85b2af64-3560-11ef-b1d2-0242ac1d0004",
                 "name": "チーム海田選抜",
-                "seed": 171
+                "seed": 171,
+                "forfeit": 1
             },
             "match_games": []
         },
@@ -9952,7 +9964,11 @@
                 "name": "とまと連合",
                 "seed": 214
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "df4a9316-3a83-11ef-90b8-0242ac1d0004",
+                "name": "AMJ",
+                "seed": 86
+            },
             "match_games": []
         },
         {
@@ -11609,7 +11625,11 @@
                 "name": "中町ぐろーばる",
                 "seed": 43
             },
-            "opponent2": null,
+            "opponent2": {
+                "id": "85b2af64-3560-11ef-b1d2-0242ac1d0004",
+                "name": "チーム海田選抜",
+                "seed": 171
+            },
             "match_games": []
         },
         {

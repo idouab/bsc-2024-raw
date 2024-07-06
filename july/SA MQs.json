@@ -29718,18 +29718,53 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
                 "name": "Marruecos",
-                "seed": 4
+                "seed": 4,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
                 "name": "SKCalalas",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 926,
@@ -43499,7 +43534,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+                "name": "Marruecos",
+                "seed": 4
             },
             "opponent2": {
                 "id": null

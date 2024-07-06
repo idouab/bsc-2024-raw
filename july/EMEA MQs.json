@@ -69424,18 +69424,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "72b9ef86-324e-11ef-ae44-0242ac1b0004",
                 "name": "LYX Team",
-                "seed": 193
+                "seed": 193,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "6001aa50-324e-11ef-af99-0242ac1b0004",
                 "name": "Cheep-Cheeps",
-                "seed": 832
+                "seed": 832,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "72b9ef86-324e-11ef-ae44-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6001aa50-324e-11ef-af99-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "72b9ef86-324e-11ef-ae44-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "6001aa50-324e-11ef-af99-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1462,
@@ -80279,18 +80314,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "82e26b04-324e-11ef-ae42-0242ac1b0004",
                 "name": "PLM|ASSASINS",
-                "seed": 434
+                "seed": 434,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7d6cb0a8-3af5-11ef-bab7-0242ac130004",
                 "name": "Zis Pers",
-                "seed": 1458
+                "seed": 1458,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "82e26b04-324e-11ef-ae42-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d6cb0a8-3af5-11ef-bab7-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "82e26b04-324e-11ef-ae42-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7d6cb0a8-3af5-11ef-bab7-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1753,
@@ -91181,7 +91251,9 @@
                 "seed": 79
             },
             "opponent2": {
-                "id": null
+                "id": "7d6cb0a8-3af5-11ef-bab7-0242ac130004",
+                "name": "Zis Pers",
+                "seed": 1458
             },
             "match_games": []
         },
@@ -111273,8 +111345,16 @@
             "round_id": 2,
             "child_count": 3,
             "status": 3,
-            "opponent1": null,
-            "opponent2": null,
+            "opponent1": {
+                "id": "82e26b04-324e-11ef-ae42-0242ac1b0004",
+                "name": "PLM|ASSASINS",
+                "seed": 434
+            },
+            "opponent2": {
+                "id": "74dadb86-324e-11ef-9f6a-0242ac1b0004",
+                "name": "Sigma Division",
+                "seed": 229
+            },
             "match_games": []
         },
         {

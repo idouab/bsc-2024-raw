@@ -15665,18 +15665,68 @@
             "group_id": 1,
             "round_id": 3,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87b9017a-324d-11ef-9236-0242ac1b0004",
                 "name": "L.B.D",
-                "seed": 83
+                "seed": 83,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "688d7118-357d-11ef-9259-0242ac1d0004",
                 "name": "0-7 Esports",
-                "seed": 185
+                "seed": 185,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "87b9017a-324d-11ef-9236-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "87b9017a-324d-11ef-9236-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "87b9017a-324d-11ef-9236-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "688d7118-357d-11ef-9259-0242ac1d0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 319,
@@ -16708,7 +16758,9 @@
                 "seed": 84
             },
             "opponent2": {
-                "id": null
+                "id": "87b9017a-324d-11ef-9236-0242ac1b0004",
+                "name": "L.B.D",
+                "seed": 83
             },
             "match_games": []
         },

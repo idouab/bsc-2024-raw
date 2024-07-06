@@ -20293,18 +20293,53 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
                 "name": "IS BACK PLAYERS",
-                "seed": 110
+                "seed": 110,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b2cd1440-3712-11ef-93ef-0242ac1b0004",
                 "name": "SLR_Slifer",
-                "seed": 366
+                "seed": 366,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2cd1440-3712-11ef-93ef-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b2cd1440-3712-11ef-93ef-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 466,
@@ -21736,7 +21771,9 @@
                 "seed": 238
             },
             "opponent2": {
-                "id": null
+                "id": "f49aff0c-3250-11ef-bb01-0242ac1b0004",
+                "name": "IS BACK PLAYERS",
+                "seed": 110
             },
             "match_games": []
         },
@@ -25242,7 +25279,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "b2cd1440-3712-11ef-93ef-0242ac1b0004",
+                "name": "SLR_Slifer",
+                "seed": 366
             },
             "opponent2": {
                 "id": null

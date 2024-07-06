@@ -5169,18 +5169,53 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
                 "name": "オラウータン島KTH",
-                "seed": 99
+                "seed": 99,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "66e9bd32-36b1-11ef-b199-0242ac1d0004",
                 "name": "MOK Gaming TW",
-                "seed": 158
+                "seed": 158,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "66e9bd32-36b1-11ef-b199-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "e7d0f5e8-362d-11ef-b73c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "66e9bd32-36b1-11ef-b199-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 103,
@@ -6673,7 +6708,9 @@
                 "seed": 30
             },
             "opponent2": {
-                "id": null
+                "id": "66e9bd32-36b1-11ef-b199-0242ac1d0004",
+                "name": "MOK Gaming TW",
+                "seed": 158
             },
             "match_games": []
         },

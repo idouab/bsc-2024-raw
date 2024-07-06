@@ -55222,18 +55222,68 @@
             "group_id": 1,
             "round_id": 4,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
                 "name": "J-Definitely",
-                "seed": 175
+                "seed": 175,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
                 "name": "USMG Esports",
-                "seed": 560
+                "seed": 560,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "63ea9d5a-3250-11ef-b3c5-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1416,
@@ -56599,7 +56649,9 @@
                 "seed": 124
             },
             "opponent2": {
-                "id": null
+                "id": "86d9b558-3589-11ef-8bb8-0242ac1d0004",
+                "name": "USMG Esports",
+                "seed": 560
             },
             "match_games": []
         },

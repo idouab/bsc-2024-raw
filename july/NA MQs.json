@@ -61186,18 +61186,53 @@
             "group_id": 1,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
                 "name": "On3",
-                "seed": 26
+                "seed": 26,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
                 "name": "hungry hippos",
-                "seed": 333
+                "seed": 333,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "58ad7d0e-3250-11ef-acd3-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1602,
@@ -61518,7 +61553,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                "name": "hungry hippos",
+                "seed": 333
             },
             "opponent2": {
                 "id": null

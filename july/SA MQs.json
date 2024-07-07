@@ -46020,18 +46020,53 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
                 "name": "Underdogs",
-                "seed": 28
+                "seed": 28,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "adb3ba9c-3251-11ef-8142-0242ac1b0004",
                 "name": "Olimpo Squad",
-                "seed": 7
+                "seed": 7,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "adb3ba9c-3251-11ef-8142-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f42c87c0-3250-11ef-8cb3-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "adb3ba9c-3251-11ef-8142-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 977,
@@ -46107,7 +46142,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "adb3ba9c-3251-11ef-8142-0242ac1b0004",
+                "name": "Olimpo Squad",
+                "seed": 7
             },
             "match_games": []
         },

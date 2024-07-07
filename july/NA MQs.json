@@ -59740,18 +59740,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7ce20c1a-3644-11ef-b60e-0242ac1d0004",
                 "name": "Enraged",
-                "seed": 281
+                "seed": 281,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64f8b10a-3250-11ef-b2cd-0242ac1b0004",
                 "name": "Synth Reeks",
-                "seed": 89
+                "seed": 89,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "7ce20c1a-3644-11ef-b60e-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64f8b10a-3250-11ef-b2cd-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "7ce20c1a-3644-11ef-b60e-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64f8b10a-3250-11ef-b2cd-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1557,
@@ -60487,7 +60522,9 @@
                 "seed": 206
             },
             "opponent2": {
-                "id": null
+                "id": "64f8b10a-3250-11ef-b2cd-0242ac1b0004",
+                "name": "Synth Reeks",
+                "seed": 89
             },
             "match_games": []
         },

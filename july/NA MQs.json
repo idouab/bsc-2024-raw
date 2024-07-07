@@ -57616,18 +57616,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
                 "name": "Pristine Inc",
-                "seed": 112
+                "seed": 112,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "60c3749e-3250-11ef-a4ec-0242ac1b0004",
                 "name": "Equipo C",
-                "seed": 69
+                "seed": 69,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60c3749e-3250-11ef-a4ec-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "60c3749e-3250-11ef-a4ec-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "60c3749e-3250-11ef-a4ec-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1494,
@@ -58704,10 +58754,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                "name": "Pristine Inc",
+                "seed": 112
             },
             "opponent2": {
-                "id": null
+                "id": "0694edec-3b40-11ef-b95d-0242ac130004",
+                "name": "help me",
+                "seed": 593
             },
             "match_games": []
         },

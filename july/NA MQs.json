@@ -64622,18 +64622,53 @@
             "group_id": 1,
             "round_id": 13,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9305f5b6-3251-11ef-9683-0242ac1b0004",
                 "name": "STMN",
-                "seed": 4
+                "seed": 4,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
                 "name": "Mystic Esports",
-                "seed": 7
+                "seed": 7,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Hard Rock Mine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000007.png",
+                    "opponent1": {
+                        "id": "9305f5b6-3251-11ef-9683-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "9305f5b6-3251-11ef-9683-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         }
     ]
 }

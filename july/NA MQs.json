@@ -60095,18 +60095,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c923c716-3ba4-11ef-aeb3-0242ac130004",
                 "name": "TEAM INTERNA",
-                "seed": 321
+                "seed": 321,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
                 "name": "VATOS LOCOS !",
-                "seed": 128
+                "seed": 128,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "c923c716-3ba4-11ef-aeb3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "c923c716-3ba4-11ef-aeb3-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1575,
@@ -60710,7 +60745,9 @@
                 "seed": 63
             },
             "opponent2": {
-                "id": null
+                "id": "6095722e-3250-11ef-88f5-0242ac1b0004",
+                "name": "VATOS LOCOS !",
+                "seed": 128
             },
             "match_games": []
         },

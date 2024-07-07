@@ -21591,18 +21591,53 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "87aa8d20-324d-11ef-9abc-0242ac1b0004",
                 "name": "Supernova",
-                "seed": 9
+                "seed": 9,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
                 "name": "さにの子のこのここしたんたん",
-                "seed": 161
+                "seed": 161,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "87aa8d20-324d-11ef-9abc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "87aa8d20-324d-11ef-9abc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "4cf1dcba-387e-11ef-865a-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 456,
@@ -21676,7 +21711,9 @@
                 "seed": 3
             },
             "opponent2": {
-                "id": null
+                "id": "87aa8d20-324d-11ef-9abc-0242ac1b0004",
+                "name": "Supernova",
+                "seed": 9
             },
             "match_games": []
         },

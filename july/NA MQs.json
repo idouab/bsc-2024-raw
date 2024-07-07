@@ -56624,18 +56624,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
                 "name": "AZ",
-                "seed": 394
+                "seed": 394,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
                 "name": "AK | Team",
-                "seed": 93
+                "seed": 93,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61100f5c-3250-11ef-8ded-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1468,
@@ -58014,7 +58049,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "62f7feec-3250-11ef-8425-0242ac1b0004",
+                "name": "AZ",
+                "seed": 394
             },
             "opponent2": {
                 "id": null

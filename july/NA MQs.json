@@ -63816,18 +63816,68 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
                 "name": "MIT sucks",
-                "seed": 293
+                "seed": 293,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
                 "name": "420 Esports",
-                "seed": 63
+                "seed": 63,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Penalty Kick",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000238.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1651,
@@ -63983,7 +64033,9 @@
                 "seed": 18
             },
             "opponent2": {
-                "id": null
+                "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                "name": "420 Esports",
+                "seed": 63
             },
             "match_games": []
         },

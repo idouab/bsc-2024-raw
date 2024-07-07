@@ -63526,18 +63526,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
                 "name": "Octos Reborn",
-                "seed": 294
+                "seed": 294,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
                 "name": "HK",
-                "seed": 289
+                "seed": 289,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "a1dbe346-3a91-11ef-810c-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1647,
@@ -63689,7 +63724,9 @@
                 "seed": 48
             },
             "opponent2": {
-                "id": null
+                "id": "5a855a84-3679-11ef-b1e5-0242ac1d0004",
+                "name": "Octos Reborn",
+                "seed": 294
             },
             "match_games": []
         },

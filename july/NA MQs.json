@@ -60130,18 +60130,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
                 "name": "Sigma",
-                "seed": 552
+                "seed": 552,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
                 "name": "hungry hippos",
-                "seed": 333
+                "seed": 333,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "0534acfe-3586-11ef-b291-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1562,
@@ -60966,7 +61001,9 @@
                 "seed": 26
             },
             "opponent2": {
-                "id": null
+                "id": "7a6174f0-35c0-11ef-b128-0242ac1d0004",
+                "name": "hungry hippos",
+                "seed": 333
             },
             "match_games": []
         },

@@ -63651,18 +63651,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "592be8e2-3250-11ef-876f-0242ac1b0004",
                 "name": "Methodic Army",
-                "seed": 129
+                "seed": 129,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64f09466-3250-11ef-8a88-0242ac1b0004",
                 "name": "Princess Worshippers",
-                "seed": 59
+                "seed": 59,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "592be8e2-3250-11ef-876f-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "64f09466-3250-11ef-8a88-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "592be8e2-3250-11ef-876f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64f09466-3250-11ef-8a88-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1648,
@@ -63888,7 +63923,9 @@
                 "seed": 11
             },
             "opponent2": {
-                "id": null
+                "id": "64f09466-3250-11ef-8a88-0242ac1b0004",
+                "name": "Princess Worshippers",
+                "seed": 59
             },
             "match_games": []
         },

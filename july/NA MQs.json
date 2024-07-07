@@ -45357,18 +45357,68 @@
             "group_id": 0,
             "round_id": 7,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9305610a-3251-11ef-bae9-0242ac1b0004",
                 "name": "Luminosity",
-                "seed": 5
+                "seed": 5,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
                 "name": "Yippee",
-                "seed": 12
+                "seed": 12,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Open Business",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000292.png",
+                    "opponent1": {
+                        "id": "9305610a-3251-11ef-bae9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "9305610a-3251-11ef-bae9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "9305610a-3251-11ef-bae9-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1571,
@@ -45639,7 +45689,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "9305610a-3251-11ef-bae9-0242ac1b0004",
+                "name": "Luminosity",
+                "seed": 5
             },
             "match_games": []
         },

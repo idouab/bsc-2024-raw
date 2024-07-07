@@ -45240,18 +45240,68 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
                 "name": "Peludos",
-                "seed": 238
+                "seed": 238,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
                 "name": "Nova Vestroia",
-                "seed": 30
+                "seed": 30,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "538c18f2-3b3e-11ef-bb90-0242ac130004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 966,
@@ -45438,7 +45488,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                "name": "Nova Vestroia",
+                "seed": 30
             },
             "match_games": []
         },

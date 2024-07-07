@@ -63451,18 +63451,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e70585e6-35c1-11ef-8739-0242ac1d0004",
                 "name": "Potato",
-                "seed": 244
+                "seed": 244,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61194194-3250-11ef-b786-0242ac1b0004",
                 "name": "LT esport",
-                "seed": 36
+                "seed": 36,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "e70585e6-35c1-11ef-8739-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61194194-3250-11ef-b786-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "e70585e6-35c1-11ef-8739-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61194194-3250-11ef-b786-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1645,
@@ -63616,7 +63651,9 @@
                 "seed": 13
             },
             "opponent2": {
-                "id": null
+                "id": "61194194-3250-11ef-b786-0242ac1b0004",
+                "name": "LT esport",
+                "seed": 36
             },
             "match_games": []
         },

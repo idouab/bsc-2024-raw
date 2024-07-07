@@ -59165,18 +59165,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
                 "name": "Pristine Inc",
-                "seed": 112
+                "seed": 112,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "0694edec-3b40-11ef-b95d-0242ac130004",
                 "name": "help me",
-                "seed": 593
+                "seed": 593,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0694edec-3b40-11ef-b95d-0242ac130004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "60ffa8a6-3250-11ef-b1d9-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "0694edec-3b40-11ef-b95d-0242ac130004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1555,
@@ -59811,7 +59846,9 @@
                 "seed": 59
             },
             "opponent2": {
-                "id": null
+                "id": "0694edec-3b40-11ef-b95d-0242ac130004",
+                "name": "help me",
+                "seed": 593
             },
             "match_games": []
         },

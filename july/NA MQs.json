@@ -59890,18 +59890,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
                 "name": "Exodus",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
                 "name": "TheOGSquad",
-                "seed": 109
+                "seed": 109,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5a1077a0-3250-11ef-a0f7-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1556,
@@ -60802,7 +60852,9 @@
                 "seed": 211
             },
             "opponent2": {
-                "id": null
+                "id": "61e4c86e-3250-11ef-830f-0242ac1b0004",
+                "name": "Exodus",
+                "seed": 45
             },
             "match_games": []
         },

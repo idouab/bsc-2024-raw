@@ -62177,18 +62177,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "27164466-3961-11ef-b29e-0242ac1c0004",
                 "name": "One hit wonders",
-                "seed": 376
+                "seed": 376,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "2433e3f6-3813-11ef-98fe-0242ac1c0004",
                 "name": "Skibidis",
-                "seed": 344
+                "seed": 344,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "27164466-3961-11ef-b29e-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2433e3f6-3813-11ef-98fe-0242ac1c0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "27164466-3961-11ef-b29e-0242ac1c0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "2433e3f6-3813-11ef-98fe-0242ac1c0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1623,
@@ -62486,7 +62521,9 @@
                 "seed": 24
             },
             "opponent2": {
-                "id": null
+                "id": "27164466-3961-11ef-b29e-0242ac1c0004",
+                "name": "One hit wonders",
+                "seed": 376
             },
             "match_games": []
         },

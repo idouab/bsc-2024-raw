@@ -46115,18 +46115,53 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f592020c-3250-11ef-8b37-0242ac1b0004",
                 "name": "noite carioca",
-                "seed": 45
+                "seed": 45,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f240078e-3250-11ef-886b-0242ac1b0004",
                 "name": ">:3",
-                "seed": 21
+                "seed": 21,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f592020c-3250-11ef-8b37-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f240078e-3250-11ef-886b-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f592020c-3250-11ef-8b37-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f240078e-3250-11ef-886b-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 980,
@@ -46198,7 +46233,9 @@
                 "seed": 10
             },
             "opponent2": {
-                "id": null
+                "id": "f592020c-3250-11ef-8b37-0242ac1b0004",
+                "name": "noite carioca",
+                "seed": 45
             },
             "match_games": []
         }

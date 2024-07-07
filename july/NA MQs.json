@@ -59335,18 +59335,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "740deb14-370b-11ef-a887-0242ac1b0004",
                 "name": "Crowstianno Ronaldo",
-                "seed": 455
+                "seed": 455,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
                 "name": "Ascendant",
-                "seed": 506
+                "seed": 506,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "740deb14-370b-11ef-a887-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "740deb14-370b-11ef-a887-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1547,
@@ -60587,7 +60622,9 @@
                 "seed": 456
             },
             "opponent2": {
-                "id": null
+                "id": "63aa2fee-3576-11ef-b09a-0242ac1d0004",
+                "name": "Ascendant",
+                "seed": 506
             },
             "match_games": []
         },

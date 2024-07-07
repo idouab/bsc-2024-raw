@@ -59215,18 +59215,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6074bc50-3250-11ef-91a8-0242ac1b0004",
                 "name": "OneeHourse",
-                "seed": 38
+                "seed": 38,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d25bec50-3582-11ef-9884-0242ac1b0004",
                 "name": "Tortilleros Maje",
-                "seed": 540
+                "seed": 540,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "6074bc50-3250-11ef-91a8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d25bec50-3582-11ef-9884-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "6074bc50-3250-11ef-91a8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d25bec50-3582-11ef-9884-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1554,
@@ -59902,7 +59937,9 @@
                 "seed": 102
             },
             "opponent2": {
-                "id": null
+                "id": "6074bc50-3250-11ef-91a8-0242ac1b0004",
+                "name": "OneeHourse",
+                "seed": 38
             },
             "match_games": []
         },

@@ -60090,18 +60090,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "633b4558-3250-11ef-9e01-0242ac1b0004",
                 "name": "Shadow Monkeys",
-                "seed": 170
+                "seed": 170,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "5a28f2f8-3250-11ef-813a-0242ac1b0004",
                 "name": "Jyu Team",
-                "seed": 68
+                "seed": 68,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "633b4558-3250-11ef-9e01-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "5a28f2f8-3250-11ef-813a-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "633b4558-3250-11ef-9e01-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5a28f2f8-3250-11ef-813a-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "633b4558-3250-11ef-9e01-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "5a28f2f8-3250-11ef-813a-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1560,
@@ -61015,7 +61065,9 @@
                 "seed": 362
             },
             "opponent2": {
-                "id": null
+                "id": "633b4558-3250-11ef-9e01-0242ac1b0004",
+                "name": "Shadow Monkeys",
+                "seed": 170
             },
             "match_games": []
         },

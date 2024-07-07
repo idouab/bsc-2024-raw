@@ -60065,18 +60065,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "5a298240-3250-11ef-9d20-0242ac1b0004",
                 "name": "GGs",
-                "seed": 57
+                "seed": 57,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "80c0f44c-398a-11ef-9d7c-0242ac1d0004",
                 "name": "Monkeyteers",
-                "seed": 557
+                "seed": 557,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "5a298240-3250-11ef-9d20-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "80c0f44c-398a-11ef-9d7c-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "5a298240-3250-11ef-9d20-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "80c0f44c-398a-11ef-9d7c-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1563,
@@ -60860,7 +60895,9 @@
                 "seed": 58
             },
             "opponent2": {
-                "id": null
+                "id": "80c0f44c-398a-11ef-9d7c-0242ac1d0004",
+                "name": "Monkeyteers",
+                "seed": 557
             },
             "match_games": []
         },

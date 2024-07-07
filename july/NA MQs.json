@@ -59020,18 +59020,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9327e6ca-3752-11ef-b4e2-0242ac1b0004",
                 "name": "CLutCH!!!",
-                "seed": 444
+                "seed": 444,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ecb15a5c-3737-11ef-9316-0242ac1d0004",
                 "name": "gooners",
-                "seed": 432
+                "seed": 432,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "9327e6ca-3752-11ef-b4e2-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ecb15a5c-3737-11ef-9316-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "9327e6ca-3752-11ef-b4e2-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ecb15a5c-3737-11ef-9316-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1539,
@@ -59910,7 +59945,9 @@
                 "seed": 60
             },
             "opponent2": {
-                "id": null
+                "id": "ecb15a5c-3737-11ef-9316-0242ac1d0004",
+                "name": "gooners",
+                "seed": 432
             },
             "match_games": []
         },

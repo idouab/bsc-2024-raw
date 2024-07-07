@@ -56145,18 +56145,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
                 "name": "Pluto Fam",
-                "seed": 322
+                "seed": 322,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61dc1db8-3250-11ef-a993-0242ac1b0004",
                 "name": "RMS",
-                "seed": 108
+                "seed": 108,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61dc1db8-3250-11ef-a993-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61dc1db8-3250-11ef-a993-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "7c0f5c90-36bf-11ef-a1fb-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "61dc1db8-3250-11ef-a993-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1457,
@@ -56500,18 +56550,53 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
                 "name": "FLWR",
-                "seed": 318
+                "seed": 318,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "a77f136c-3592-11ef-983c-0242ac1b0004",
                 "name": "HASTE",
-                "seed": 580
+                "seed": 580,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "a77f136c-3592-11ef-983c-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "9e066390-36a4-11ef-be20-0242ac1d0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "a77f136c-3592-11ef-983c-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1473,
@@ -57553,7 +57638,9 @@
                 "seed": 86
             },
             "opponent2": {
-                "id": null
+                "id": "61dc1db8-3250-11ef-a993-0242ac1b0004",
+                "name": "RMS",
+                "seed": 108
             },
             "match_games": []
         },

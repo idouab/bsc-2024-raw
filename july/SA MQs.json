@@ -45690,18 +45690,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "efd7b7c6-3250-11ef-8256-0242ac1b0004",
                 "name": "Big Studios",
-                "seed": 8
+                "seed": 8,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
                 "name": "Nova Vestroia",
-                "seed": 30
+                "seed": 30,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "efd7b7c6-3250-11ef-8256-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "efd7b7c6-3250-11ef-8256-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f4565262-3250-11ef-b0e9-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 974,

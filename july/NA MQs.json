@@ -63334,18 +63334,68 @@
             "group_id": 1,
             "round_id": 9,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
                 "name": "MIT sucks",
-                "seed": 293
+                "seed": 293,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "3a9db82e-36b5-11ef-8e65-0242ac1b0004",
                 "name": "OFFWHITE",
-                "seed": 443
+                "seed": 443,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Dueling Beetles",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000306.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "3a9db82e-36b5-11ef-8e65-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Double Swoosh",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000115.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3a9db82e-36b5-11ef-8e65-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Hot Potato",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000053.png",
+                    "opponent1": {
+                        "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "3a9db82e-36b5-11ef-8e65-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1642,
@@ -63500,7 +63550,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "e863c5e6-3b12-11ef-abde-0242ac130004",
+                "name": "MIT sucks",
+                "seed": 293
             },
             "opponent2": {
                 "id": null

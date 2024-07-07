@@ -44718,18 +44718,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "c2818c56-3b1b-11ef-9751-0242ac130004",
                 "name": "Black Label",
-                "seed": 234
+                "seed": 234,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b4fe09f2-3aed-11ef-acca-0242ac130004",
                 "name": "Nexus",
-                "seed": 164
+                "seed": 164,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "c2818c56-3b1b-11ef-9751-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4fe09f2-3aed-11ef-acca-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "c2818c56-3b1b-11ef-9751-0242ac130004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b4fe09f2-3aed-11ef-acca-0242ac130004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 957,
@@ -44912,7 +44947,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "c2818c56-3b1b-11ef-9751-0242ac130004",
+                "name": "Black Label",
+                "seed": 234
             },
             "opponent2": {
                 "id": null

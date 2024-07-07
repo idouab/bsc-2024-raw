@@ -59265,18 +59265,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "e78d4492-367d-11ef-a44b-0242ac1b0004",
                 "name": "RCM team",
-                "seed": 296
+                "seed": 296,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "64f406de-3582-11ef-bb22-0242ac1d0004",
                 "name": "ppgang",
-                "seed": 538
+                "seed": 538,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "e78d4492-367d-11ef-a44b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64f406de-3582-11ef-bb22-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "e78d4492-367d-11ef-a44b-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64f406de-3582-11ef-bb22-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "e78d4492-367d-11ef-a44b-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "64f406de-3582-11ef-bb22-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1546,
@@ -60077,7 +60127,9 @@
                 "seed": 153
             },
             "opponent2": {
-                "id": null
+                "id": "64f406de-3582-11ef-bb22-0242ac1d0004",
+                "name": "ppgang",
+                "seed": 538
             },
             "match_games": []
         },

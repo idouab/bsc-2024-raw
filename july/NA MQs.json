@@ -57501,18 +57501,68 @@
             "group_id": 1,
             "round_id": 5,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "6096a6bc-3250-11ef-a632-0242ac1b0004",
                 "name": "Russian Mafia",
-                "seed": 160
+                "seed": 160,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
                 "name": "DS DAM",
-                "seed": 437
+                "seed": 437,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "6096a6bc-3250-11ef-a632-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "6096a6bc-3250-11ef-a632-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "6096a6bc-3250-11ef-a632-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1490,
@@ -58722,7 +58772,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                "name": "DS DAM",
+                "seed": 437
             },
             "opponent2": {
                 "id": null

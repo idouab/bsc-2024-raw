@@ -64111,18 +64111,53 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
                 "name": "Mystic Esports",
-                "seed": 7
+                "seed": 7,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "64d47dd0-3250-11ef-98d7-0242ac1b0004",
                 "name": "REAL MICHIS",
-                "seed": 58
+                "seed": 58,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64d47dd0-3250-11ef-98d7-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "64d47dd0-3250-11ef-98d7-0242ac1b0004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 1658,
@@ -64238,10 +64273,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                "name": "Mystic Esports",
+                "seed": 7
             },
             "opponent2": {
-                "id": null
+                "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                "name": "420 Esports",
+                "seed": 63
             },
             "match_games": []
         },

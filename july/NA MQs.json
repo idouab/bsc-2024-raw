@@ -63886,18 +63886,68 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
                 "name": "Yippee",
-                "seed": 12
+                "seed": 12,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "601cfe02-3250-11ef-bd5f-0242ac1b0004",
                 "name": "The B.U.D.S",
-                "seed": 31
+                "seed": 31,
+                "score": 1,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "601cfe02-3250-11ef-bd5f-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "601cfe02-3250-11ef-bd5f-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "601cfe02-3250-11ef-bd5f-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1652,
@@ -64258,10 +64308,14 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "595a6370-3250-11ef-b66f-0242ac1b0004",
+                "name": "Yippee",
+                "seed": 12
             },
             "opponent2": {
-                "id": null
+                "id": "58bde982-3250-11ef-b5f8-0242ac1b0004",
+                "name": "Complexity",
+                "seed": 13
             },
             "match_games": []
         },

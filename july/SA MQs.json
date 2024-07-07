@@ -44773,18 +44773,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f46dea4e-3250-11ef-b2d8-0242ac1b0004",
                 "name": "Underrated Ones",
-                "seed": 39
+                "seed": 39,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
                 "name": "VongolaAkatsuki",
-                "seed": 20
+                "seed": 20,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "f46dea4e-3250-11ef-b2d8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f46dea4e-3250-11ef-b2d8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed35a14a-3250-11ef-b1bf-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 958,
@@ -44952,7 +44987,9 @@
                 "seed": 234
             },
             "opponent2": {
-                "id": null
+                "id": "f46dea4e-3250-11ef-b2d8-0242ac1b0004",
+                "name": "Underrated Ones",
+                "seed": 39
             },
             "match_games": []
         },

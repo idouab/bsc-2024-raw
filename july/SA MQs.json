@@ -45580,18 +45580,53 @@
             "group_id": 1,
             "round_id": 10,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
                 "name": "Revenge Gaming",
-                "seed": 11
+                "seed": 11,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "ee0720c6-3250-11ef-8453-0242ac1b0004",
                 "name": "Mini XB",
-                "seed": 22
+                "seed": 22,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Flaring Phoenix",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000440.png",
+                    "opponent1": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee0720c6-3250-11ef-8453-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Canal Grande",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000054.png",
+                    "opponent1": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ee0720c6-3250-11ef-8453-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 972,

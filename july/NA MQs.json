@@ -59540,18 +59540,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "908846ec-3687-11ef-8896-0242ac1d0004",
                 "name": "Aussie",
-                "seed": 306
+                "seed": 306,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
                 "name": "Golden Stars",
-                "seed": 400
+                "seed": 400,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "0572b580-370c-11ef-94a4-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1565,
@@ -60141,7 +60176,9 @@
                 "seed": 50
             },
             "opponent2": {
-                "id": null
+                "id": "908846ec-3687-11ef-8896-0242ac1d0004",
+                "name": "Aussie",
+                "seed": 306
             },
             "match_games": []
         },

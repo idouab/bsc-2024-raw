@@ -64417,18 +64417,53 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9304cb0a-3251-11ef-9a98-0242ac1b0004",
                 "name": "Ninjas F/A",
-                "seed": 11
+                "seed": 11,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
                 "name": "IX Squares",
-                "seed": 24
+                "seed": 24,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "9304cb0a-3251-11ef-9a98-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "9304cb0a-3251-11ef-9a98-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1662,
@@ -64539,7 +64574,9 @@
                 "seed": 8
             },
             "opponent2": {
-                "id": null
+                "id": "61c54926-3250-11ef-8db8-0242ac1b0004",
+                "name": "IX Squares",
+                "seed": 24
             },
             "match_games": []
         },

@@ -59590,18 +59590,68 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
                 "name": "DS DAM",
-                "seed": 437
+                "seed": 437,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
                 "name": "Gatos Cósmicos",
-                "seed": 395
+                "seed": 395,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Pinball Dreams",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000118.png",
+                    "opponent1": {
+                        "id": "f2e6d4a8-369a-11ef-8ca8-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 1553,
@@ -60481,7 +60531,9 @@
                 "seed": 75
             },
             "opponent2": {
-                "id": null
+                "id": "b43d24e6-364f-11ef-a077-0242ac1d0004",
+                "name": "Gatos Cósmicos",
+                "seed": 395
             },
             "match_games": []
         },

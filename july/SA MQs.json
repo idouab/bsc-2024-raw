@@ -46075,18 +46075,68 @@
             "group_id": 1,
             "round_id": 11,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f446bb54-3250-11ef-8a03-0242ac1b0004",
                 "name": "Macaquitos F/A",
-                "seed": 24
+                "seed": 24,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
                 "name": "Revenge Gaming",
-                "seed": 11
+                "seed": 11,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Hot Zone",
+                    "mapName": "Parallel Plays",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000293.png",
+                    "opponent1": {
+                        "id": "f446bb54-3250-11ef-8a03-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Gem Grab",
+                    "mapName": "Undermine",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000011.png",
+                    "opponent1": {
+                        "id": "f446bb54-3250-11ef-8a03-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Heist",
+                    "mapName": "Safe Zone",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000019.png",
+                    "opponent1": {
+                        "id": "f446bb54-3250-11ef-8a03-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 978,
@@ -46197,7 +46247,9 @@
                 "seed": 9
             },
             "opponent2": {
-                "id": null
+                "id": "ed97f50c-3250-11ef-a4fb-0242ac1b0004",
+                "name": "Revenge Gaming",
+                "seed": 11
             },
             "match_games": []
         },

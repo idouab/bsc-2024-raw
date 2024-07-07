@@ -21271,18 +21271,68 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "89875e5c-324d-11ef-a80c-0242ac1b0004",
                 "name": "Thinking Space",
-                "seed": 11
+                "seed": 11,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
                 "name": "뽀로로와 친구들",
-                "seed": 32
+                "seed": 32,
+                "score": 2,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "89875e5c-324d-11ef-a80c-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "89875e5c-324d-11ef-a80c-0242ac1b0004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": "Brawl Ball",
+                    "mapName": "Center Stage",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000132.png",
+                    "opponent1": {
+                        "id": "89875e5c-324d-11ef-a80c-0242ac1b0004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 451,
@@ -21424,7 +21474,9 @@
             "child_count": 3,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "8946f844-324d-11ef-b7e7-0242ac1b0004",
+                "name": "뽀로로와 친구들",
+                "seed": 32
             },
             "opponent2": {
                 "id": null

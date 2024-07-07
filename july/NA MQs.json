@@ -58925,18 +58925,53 @@
             "group_id": 1,
             "round_id": 6,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
                 "name": "JBY | FUSIÓN",
-                "seed": 67
+                "seed": 67,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "d8b7fe3a-399d-11ef-86c4-0242ac1d0004",
                 "name": "HmongkeyRatJews",
-                "seed": 382
+                "seed": 382,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d8b7fe3a-399d-11ef-86c4-0242ac1d0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "d8b7fe3a-399d-11ef-86c4-0242ac1d0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1543,
@@ -59630,7 +59665,9 @@
                 "seed": 452
             },
             "opponent2": {
-                "id": null
+                "id": "593f8cda-3250-11ef-a398-0242ac1b0004",
+                "name": "JBY | FUSIÓN",
+                "seed": 67
             },
             "match_games": []
         },

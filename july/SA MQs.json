@@ -44505,18 +44505,53 @@
             "group_id": 1,
             "round_id": 8,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f6382506-3250-11ef-b3dc-0242ac1b0004",
                 "name": "Level Academy",
-                "seed": 40
+                "seed": 40,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
                 "name": "Blacx",
-                "seed": 468
+                "seed": 468,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Belle's Rock",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000368.png",
+                    "opponent1": {
+                        "id": "f6382506-3250-11ef-b3dc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Hideout",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000022.png",
+                    "opponent1": {
+                        "id": "f6382506-3250-11ef-b3dc-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "b9a7a8b4-3b1a-11ef-8b05-0242ac130004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 950,
@@ -44775,7 +44810,9 @@
                 "seed": 24
             },
             "opponent2": {
-                "id": null
+                "id": "f6382506-3250-11ef-b3dc-0242ac1b0004",
+                "name": "Level Academy",
+                "seed": 40
             },
             "match_games": []
         },

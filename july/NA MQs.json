@@ -64367,18 +64367,53 @@
             "group_id": 1,
             "round_id": 12,
             "child_count": 3,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
                 "name": "Mystic Esports",
-                "seed": 7
+                "seed": 7,
+                "score": 2,
+                "result": "win"
             },
             "opponent2": {
                 "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
                 "name": "420 Esports",
-                "seed": 63
+                "seed": 63,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": "Knockout",
+                    "mapName": "Out in the Open",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000548.png",
+                    "opponent1": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": "Bounty",
+                    "mapName": "Shooting Star",
+                    "mapUrl": "https://cdn-old.brawlify.com/map/15000005.png",
+                    "opponent1": {
+                        "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "61cf2400-3250-11ef-bd49-0242ac1b0004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 1663,
@@ -64448,7 +64483,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "9304290c-3251-11ef-8ca5-0242ac1b0004",
+                "name": "Mystic Esports",
+                "seed": 7
             },
             "match_games": []
         }

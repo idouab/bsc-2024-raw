@@ -484,18 +484,68 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
                 "name": "Team Ogurchiki",
-                "seed": 1
+                "seed": 1,
+                "score": 0,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "1f45bfc2-4399-11ef-973a-0242c0a87004",
                 "name": "ZETA DIVISION",
-                "seed": 4
+                "seed": 4,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1f45bfc2-4399-11ef-973a-0242c0a87004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1f45bfc2-4399-11ef-973a-0242c0a87004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "1f45bfc2-4399-11ef-973a-0242c0a87004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 6,
@@ -504,7 +554,7 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 0,
+            "status": 3,
             "opponent1": {
                 "id": "1f464e6a-4399-11ef-8740-0242c0a87004",
                 "name": "Eclipsar Esport",
@@ -526,7 +576,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1f45bfc2-4399-11ef-973a-0242c0a87004",
+                "name": "ZETA DIVISION",
+                "seed": 4
             },
             "opponent2": {
                 "id": null

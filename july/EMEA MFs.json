@@ -144,18 +144,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
                 "name": "Team Ogurchiki",
-                "seed": 1
+                "seed": 1,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "1f42e2d4-4399-11ef-8185-0242c0a87004",
                 "name": "OG Rama Yapper",
-                "seed": 8
+                "seed": 8,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f42e2d4-4399-11ef-8185-0242c0a87004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f42e2d4-4399-11ef-8185-0242c0a87004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "1f42e2d4-4399-11ef-8185-0242c0a87004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 2,
@@ -226,7 +276,9 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "1f440484-4399-11ef-b6c4-0242c0a87004",
+                "name": "Team Ogurchiki",
+                "seed": 1
             },
             "opponent2": {
                 "id": null

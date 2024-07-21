@@ -1,19 +1,19 @@
 {
     "participant": [
         {
-            "id": "adb458bc-3251-11ef-b123-0242ac1b0004",
+            "id": "f5c63018-4399-11ef-81fd-0242c0a87004",
             "tournament_id": 0,
             "name": "Reis do PL",
             "players": [
                 "RP|Brabao",
                 "RP|LeleONinja",
                 "RP|IceCrow",
-                "Tufa"
+                "RP|Tufa"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/default.png"
         },
         {
-            "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
+            "id": "f5c74200-4399-11ef-a89f-0242c0a87004",
             "tournament_id": 0,
             "name": "Marruecos",
             "players": [
@@ -25,31 +25,31 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/Marruecos.png"
         },
         {
-            "id": "adb6b13e-3251-11ef-8c32-0242ac1b0004",
+            "id": "f5c855a0-4399-11ef-8b00-0242c0a87004",
             "tournament_id": 0,
             "name": "FUT Esports",
             "players": [
-                "MP|Mohtep",
+                "FUT|Mohtep",
                 "FUT|Pekka",
                 "Rol",
-                "MP|Jubileubr"
+                "FUT|Jubileubr"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/FUT Esports.webp"
         },
         {
-            "id": "f26f3dba-3250-11ef-80bf-0242ac1b0004",
+            "id": "f5c452a2-4399-11ef-ba90-0242c0a87004",
             "tournament_id": 0,
             "name": "Level Esports",
             "players": [
                 "LVL|Joaco09",
-                "bozzelucas",
-                "wipo",
-                "Toddmee🐑"
+                "LVL|Lukas",
+                "LVL|weepy",
+                "LVL|Todd"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/Level Esports.png"
         },
         {
-            "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
+            "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
             "tournament_id": 0,
             "name": "SKCalalas",
             "players": [
@@ -60,19 +60,19 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/SKCalalas.png"
         },
         {
-            "id": "adb4ece6-3251-11ef-9fd2-0242ac1b0004",
+            "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
             "tournament_id": 0,
             "name": "Team Queso",
             "players": [
                 "TQ|Jxcr",
                 "TQ|Bryan",
-                "#FreeRhz 🍉",
+                "TQ|Rhz",
                 "SKC | Joaking"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/Team Queso.png"
         },
         {
-            "id": "adb6160c-3251-11ef-88cf-0242ac1b0004",
+            "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
             "tournament_id": 0,
             "name": "Spacestation Gaming",
             "players": [
@@ -84,14 +84,14 @@
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/Spacestation Gaming.png"
         },
         {
-            "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
+            "id": "f5c8e2c2-4399-11ef-ba93-0242c0a87004",
             "tournament_id": 0,
             "name": "iWorlds",
             "players": [
-                "❥ Golden💜",
+                "IWRD|Golden",
                 "NiceShøt ;)",
-                "Núbis",
-                "Wesley534"
+                "IWRD|Nubis",
+                "IWRD|Wesley"
             ],
             "img": "https://raw.githubusercontent.com/idouab/bsc-2024-raw/main/logos/iWorlds.png"
         }
@@ -146,14 +146,16 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 0,
+            "status": 3,
             "opponent1": {
-                "id": "adb458bc-3251-11ef-b123-0242ac1b0004",
-                "name": "Reis do PL"
+                "id": "f5c63018-4399-11ef-81fd-0242c0a87004",
+                "name": "Reis do PL",
+                "seed": 1
             },
             "opponent2": {
-                "id": "adb58732-3251-11ef-89ee-0242ac1b0004",
-                "name": "Marruecos"
+                "id": "f5c74200-4399-11ef-a89f-0242c0a87004",
+                "name": "Marruecos",
+                "seed": 8
             },
             "match_games": []
         },
@@ -164,16 +166,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 0,
+            "status": 4,
             "opponent1": {
-                "id": "adb6b13e-3251-11ef-8c32-0242ac1b0004",
-                "name": "FUT Esports"
+                "id": "f5c855a0-4399-11ef-8b00-0242c0a87004",
+                "name": "FUT Esports",
+                "seed": 4,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
-                "id": "f26f3dba-3250-11ef-80bf-0242ac1b0004",
-                "name": "Level Esports"
+                "id": "f5c452a2-4399-11ef-ba90-0242c0a87004",
+                "name": "Level Esports",
+                "seed": 5,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c855a0-4399-11ef-8b00-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c452a2-4399-11ef-ba90-0242c0a87004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c855a0-4399-11ef-8b00-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c452a2-4399-11ef-ba90-0242c0a87004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c855a0-4399-11ef-8b00-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c452a2-4399-11ef-ba90-0242c0a87004",
+                        "score": 0
+                    }
+                }
+            ]
         },
         {
             "id": 3,
@@ -184,12 +238,14 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": "adb21ee4-3251-11ef-9280-0242ac1b0004",
-                "name": "SKCalalas"
+                "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                "name": "SKCalalas",
+                "seed": 2
             },
             "opponent2": {
-                "id": "adb4ece6-3251-11ef-9fd2-0242ac1b0004",
-                "name": "Team Queso"
+                "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
+                "name": "Team Queso",
+                "seed": 7
             },
             "match_games": []
         },
@@ -200,14 +256,16 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 0,
+            "status": 3,
             "opponent1": {
-                "id": "adb6160c-3251-11ef-88cf-0242ac1b0004",
-                "name": "Spacestation Gaming"
+                "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                "name": "Spacestation Gaming",
+                "seed": 3
             },
             "opponent2": {
-                "id": "adb7506c-3251-11ef-8523-0242ac1b0004",
-                "name": "iWorlds"
+                "id": "f5c8e2c2-4399-11ef-ba93-0242c0a87004",
+                "name": "iWorlds",
+                "seed": 6
             },
             "match_games": []
         },

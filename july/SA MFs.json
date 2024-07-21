@@ -526,18 +526,83 @@
             "group_id": 0,
             "round_id": 2,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
                 "name": "SKCalalas",
-                "seed": 2
+                "seed": 2,
+                "score": 1,
+                "result": "loss"
             },
             "opponent2": {
                 "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
                 "name": "Spacestation Gaming",
-                "seed": 3
+                "seed": 3,
+                "score": 3,
+                "result": "win"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 1
+                    },
+                    "opponent2": {
+                        "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                        "score": 2
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "match_4",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 0
+                    },
+                    "opponent2": {
+                        "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                        "score": 2
+                    }
+                }
+            ]
         },
         {
             "id": 7,
@@ -553,7 +618,9 @@
                 "seed": 4
             },
             "opponent2": {
-                "id": null
+                "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                "name": "Spacestation Gaming",
+                "seed": 3
             },
             "match_games": []
         }

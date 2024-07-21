@@ -316,18 +316,68 @@
             "group_id": 0,
             "round_id": 1,
             "child_count": 5,
-            "status": 3,
+            "status": 4,
             "opponent1": {
                 "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
                 "name": "SKCalalas",
-                "seed": 2
+                "seed": 2,
+                "score": 3,
+                "result": "win"
             },
             "opponent2": {
                 "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
                 "name": "Team Queso",
-                "seed": 7
+                "seed": 7,
+                "score": 0,
+                "result": "loss"
             },
-            "match_games": []
+            "match_games": [
+                {
+                    "id": 0,
+                    "name": "match_1",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
+                        "score": 1
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "match_2",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
+                        "score": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "match_3",
+                    "gameMode": null,
+                    "mapName": null,
+                    "mapUrl": "",
+                    "opponent1": {
+                        "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                        "score": 2
+                    },
+                    "opponent2": {
+                        "id": "f5c6ba6a-4399-11ef-b4e2-0242c0a87004",
+                        "score": 1
+                    }
+                }
+            ]
         },
         {
             "id": 4,
@@ -428,10 +478,14 @@
             "child_count": 5,
             "status": 0,
             "opponent1": {
-                "id": null
+                "id": "f5c5a580-4399-11ef-8921-0242c0a87004",
+                "name": "SKCalalas",
+                "seed": 2
             },
             "opponent2": {
-                "id": null
+                "id": "f5c7c96e-4399-11ef-ad2a-0242c0a87004",
+                "name": "Spacestation Gaming",
+                "seed": 3
             },
             "match_games": []
         },
